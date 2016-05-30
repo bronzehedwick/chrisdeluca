@@ -1,0 +1,13 @@
+# Hugo
+public
+
+# Node
+node_modules
+
+# Backups and logs
+*~
+*.log
+
+# Misc
+.DS_Store
+.tern-port
