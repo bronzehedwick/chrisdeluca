@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+  {{ partial "meta.html" . }}
+  <title>{{ .Site.Title }}</title>
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="author" href="humans.txt">
+</head>
+<body>
+  <main>
+    {{ block "main" . }}
+      <!-- The part of the page that differs between templates -->
+    {{ end }}
+  </main>
+  <footer>
+    <small>&#169; Copyright 2009-2016 {{ .Site.Params.author }}</small>
+  </footer>
+</body>
+</html>
