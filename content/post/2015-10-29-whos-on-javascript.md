@@ -15,18 +15,18 @@ url: /2015/10/29/whos-on-javascript
 <h6>INT. OFFICE - DAY</h6>
 <div class="action"><p>Two programmers, Phil and Mary, sit at their desks, typing. After a moment, Phil turns to Mary, and shows her a piece of code, which looks like this:</p></div>
 
-{{< highlight javascript >}}
-1 function showInfo() {
-2   return this.name + ' is ' + this.age + ' years old, and has fought ' + this.fights + ' bears.';
-3 }
-4
-5 var person = {
-6   name: 'Sally',
-7   age: 43,
-8   fights: 16,
-9   showInfo: showInfo
-10 };
-{{< /highlight >}}
+``` js
+function showInfo() {
+  return this.name + ' is ' + this.age + ' years old, and has fought ' + this.fights + ' bears.';
+}
+
+var person = {
+  name: 'Sally',
+  age: 43,
+  fights: 16,
+  showInfo: showInfo
+};
+```
 
 <div class="dialog"><p class="character">PHIL</p><p>Hey Mary, you're the JavaScript expert, could you help me learn a few things?</p></div>
 <div class="dialog"><p class="character">MARY</p><p>Sure, what do you want to know?</p></div>

@@ -2,6 +2,9 @@ baseurl = "http://replace-this-with-your-hugo-site.com/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "novel"
+tag = "tags"
+category = "categories"
+PygmentsCodeFences = "true"
 
 [params]
   author = "Christopher DeLuca"
