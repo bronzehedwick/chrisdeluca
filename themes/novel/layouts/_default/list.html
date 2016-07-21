@@ -4,15 +4,11 @@
 {{ end }}
 
 {{ define "main" }}
-  {{ range .Data.Pages }}
+
+  {{ $paginator := .Paginate .Data.Pages }}
+  {{ range $paginator.Pages }}
     {{ .Render "summary" }}
   {{ end }}
+  {{ template "_internal/pagination.html" . }}
 
-
- <ul>
-    {{ $data := .Data }}
-    {{ range $key, $value := .Data.Terms }}
-      <li><a href="{{ $data.Plural }}/{{ $key | urlize }}">{{ $key }}</a> {{ len $value }}</li>
-    {{ end }}
-   </ul>
 {{ end }}
