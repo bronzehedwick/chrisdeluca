@@ -1,0 +1,18 @@
+{{ define "header" }}
+  <h1><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
+  <h2>{{ title .Title }} {{ title .Data.Singular }}</h2>
+{{ end }}
+
+{{ define "main" }}
+  {{ range .Data.Pages }}
+    {{ .Render "summary" }}
+  {{ end }}
+
+
+ <ul>
+    {{ $data := .Data }}
+    {{ range $key, $value := .Data.Terms }}
+      <li><a href="{{ $data.Plural }}/{{ $key | urlize }}">{{ $key }}</a> {{ len $value }}</li>
+    {{ end }}
+   </ul>
+{{ end }}

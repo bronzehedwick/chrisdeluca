@@ -1,6 +1,6 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseurl = "https://chrisdeluca.me"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Chris DeLuca"
 theme = "novel"
 tag = "tags"
 category = "categories"
