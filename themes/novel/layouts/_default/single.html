@@ -3,8 +3,8 @@
   <article>
     <header>
       <h1>{{ .Title }}</h1>
-      Published <time datetime="{{ .Date }}">{{ .Date.Format "January 2, 2006" }}</time> in {{ range .Params.categories }}<a href="/categories/{{ . | urlize }}">{{ . }}</a> {{ end }}
-      <p>Estimated reading time: {{ .ReadingTime }} minutes</p>
+      <div>Published <time datetime="{{ .Date }}">{{ .Date.Format "January 2, 2006" }}</time> in {{ range .Params.categories }}<a href="/categories/{{ . | urlize }}">{{ . }}</a> {{ end }}</div>
+      <div>Estimated reading time: {{ .ReadingTime }} minutes</div>
     </header>
     {{ .Content }}
     <footer>

@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+* + * {
+  margin-top: 1em;
+}
+
+body {
+  max-width: 35em;
+  margin: 0px auto;
+  padding: 1em;
+}
+
+img {
+  max-width: 100%;
+}
+
+body > footer {
+  margin-top: 3em;
+  text-align: center;
+}
+
+p {
+  margin: 0px;
+}
+
+p + p {
+  text-indent: 2em;
+}
+
+p:first-of-type::first-letter {
+  font-size: 3em;
+}
+
+article header {
+  margin-bottom: 2em;
+}
