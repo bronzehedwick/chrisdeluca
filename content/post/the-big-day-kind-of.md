@@ -15,9 +15,9 @@ Second, I was wrong again; I haven&#8217;t been treated for six months; I&#8217;
 
 Finally, the genetic testing takes two weeks to process, so major dud on dramatic information today. I did get my blood tested, and my whites are staying solid at 5.5, my reds are only slightly lower than normal, but my platelets are still very low. Oh well, I&#8217;ll have to be a bleeder for a little while longer. By the way, don&#8217;t you love how I waited until 300+ words into the post to get to the hard hitting facts? Made yall read that other nonsense!
 
-In other news, I&#8217;ve been working on a new short cartoon. I won&#8217;t give anything away, but it&#8217;s called Embarrassing Moments For <span style="color:#339966;">Frogs</span>, and it should be done in a week or so.<figure id="attachment_57" style="width: 495px" class="wp-caption alignleft">
+In other news, I&#8217;ve been working on a new short cartoon. I won&#8217;t give anything away, but it&#8217;s called Embarrassing Moments For <span style="color:#339966;">Frogs</span>, and it should be done in a week or so.
 
-<img class="size-full wp-image-57" title="Frogs" src="http://wpburner.local/wp-content/uploads/2009/08/picture-2.png" alt="screenshot from embarassing moments for frogs" width="495" height="370" srcset="http://wpburner.local/wp-content/uploads/2009/08/picture-2.png 495w, http://wpburner.local/wp-content/uploads/2009/08/picture-2-300x224.png 300w" sizes="(max-width: 495px) 85vw, 495px" /><figcaption class="wp-caption-text">screen shot from embarrassing moments for frogs</figcaption></figure> 
+{{< figure src="/images/frogs-screen.png" caption="Screen shot from Embarrassing Moments for Frogs" alt="Screen shot from Embarrassing Moments for Frogs" >}}
 
 The red circles are just an animation tool; they won&#8217;t show up in the finished product.
 

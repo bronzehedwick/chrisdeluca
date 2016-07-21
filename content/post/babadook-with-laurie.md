@@ -9,7 +9,7 @@ title: Babadook with Laurie
 ---
 
 
-![Babadook picture book](http://2.bp.blogspot.com/-7TIE4fe03iY/VF_eFhlnwtI/AAAAAAAAKg8/I5ghVxmKx1A/s1600/Babadook%2Bbook.png)
+{{< figure src="/images/babadook-book.png" alt="Babadook book" >}}
 
 I recently saw _[Babadook](http://www.imdb.com/title/tt2321549)_ **(No spoilers)**, a fantastic horror movie that was not only scary, but had a compelling, thought provoking, and grounded story to back up the supernatural. I know lots of people haven't heard of it, because it's a smaller Australian production, and others balk at the title, but seriously, if you haven't seen it, you really owe it to yourself to check it out.
 
@@ -19,7 +19,7 @@ Let me explain: Laurie cannot hide her emotions, especially during movies, and e
 
 We went to a later showning at the IFC center in New York, and the rest of the audience was pretty tame, in that laid back, expert movie-goer sheek attitude where everyone sits quietly and absorbs the film.
 
-![Babadook park screen shot](http://www.viff.org/sites/default/files/styles/film_details/public/film-images/The_Babadook.jpg?itok=3Bnler8-)
+{{< figure src="/images/babadook-park.jpg" alt="Babadook park scene" >}}
 
 The theater was almost full, and as the movie started, along with some creepy music over the first titles, Laurie was already gripping my arm. As the movie continued, and tension built, she kept muttering terrified curses under(ish) her breath, along with advice for the characters, such as, "Don't do it".
 
@@ -27,7 +27,7 @@ As things got weirder, Laurie couldn't contain herself anymore. She started shou
 
 However, the tour de force came three quarters of the way through the movie, at arguably the scariest scene. The events in the theater played out in such cinematic cliché, that if the screen and the theater had swapped realities, ours would get a bad review.
 
-![Babadook screaming screen shot](http://horrorcultfilms.co.uk/wp-content/uploads/2014/02/babadook.jpg)
+{{< figure src="/images/babadook-scream.jpg" alt="Babadook screaming scene" >}}
 
 Laurie was holding a half-eaten jumbo bucket of popcorn, and the second that scary scene hit, she threw the bucket up over her shoulder, dumping huge amounts of popcorn on me, her own head, and the people behind us.
 
