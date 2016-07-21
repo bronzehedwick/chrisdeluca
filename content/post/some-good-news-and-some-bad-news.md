@@ -1,0 +1,23 @@
+---
+title: Some Good News and Some Bad News
+author: Christopher DeLuca
+layout: post
+date: 2010-05-11
+categories:
+  - Leukemia
+tags:
+  - prednisone
+  - billireuben
+
+---
+Hello everyone! Sorry that it has been so incredibly long since my last post, however in my defense, there wasn&#8217;t anything that juicy to report. Now, finally, there&#8217;s some drama! For anyone who doesn&#8217;t know the circumstances of my medical treatment since my last post, here they are in abbreviated form.
+
+My blood counts continued to go up, although with plenty of hills and valleys, instead of a straight climb. Three weeks ago I had my (hopefully) last bone marrow biopsy, and let me be the first to say, even though it was my fourth, they don&#8217;t get any easier. Needless to say I&#8217;m glad that&#8217;s over with. During the past say five weeks, there have been graft vs host &#8220;scares.&#8221; Now I say scares in quotes because having a little graft vs host, as mentioned previously in this blog, is a good thing, as my sister&#8217;s cells take care of any strangling cancer cells. It also quickly increases the percentage of the cells in my body that are my sisters, a.k.a. mine are getting killed. It seems sibling rivalry can be traced all the way down to the cellular level. These graft vs host (or GVHD) episodes never really amounted to anything, as there wasn&#8217;t enough of a presence to even confirm diagnosis, much less administer treatment.
+
+Aside from some stomach discomfort, I was feeling good, and since my blood numbers were good, I was given a pass to start going out more about a week ago. This was roughly 105 days after transplant. My conditions for going out were strict; I had to wear lots of sunblock, avoid sunlight, wash my hands almost constantly, and stay away from large crowds and coughing people in addition to putzes, although in all fairness, that last restriction was self imposed. I used my new found freedom three times during the past week; once to visit my friend Cat at her new apartment on 171st street, once to visit my friends Zach, Beth and Nick at Sarah Lawrence College in Bronxville, and once to visit my family for mother&#8217;s day (Thanks for feeding me guys! It was delicious).
+
+This brings us up to the present day, so without further adiue, here&#8217;s the news: The good news is that the full test results came back from my bone marrow biopsy, and I am cancer free! There are no cancer cells in my blood or my bone marrow, and my cytogenetics (which measure if there are any of the original mutant chromosomes that caused the leukemia in the first place), and they showed a normal female. Next stop, estrogen central; I&#8217;m going to start caring about shoes.
+
+Now the bad news is, that it has finally been confirmed that I do have GVHD of the liver, and I&#8217;ve been admitted to the hospital for treatment. There is a giant fight in my liver between my sister and I, so my liver is not functioning well. Essentially it is not processing and eliminating the toxins in my body, of which there is an extensive amount. I am currently such a bright shade of yellow, I could join the cast of The Simpsons. My Billireuben is very high (a bi product of the liver), which is why I need to be admitted for treatment. The treatment process involves steroids (Not the muscle building kind, I asked), which I will probably be on for a month or so total, including both time spent in the hospital and once I&#8217;m sent home. The steroids I will be taking &#8211; and have actually started taking already &#8211; are a much more potent version of Prednisone.
+
+Well, that&#8217;s all the news that&#8217;s fit to print, other than I also had time to grow a sweet beard, which combined with my bald head, makes me look like a badass.
