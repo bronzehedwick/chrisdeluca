@@ -38,6 +38,11 @@ p:first-of-type {
   text-indent: 0px;
 }
 
+.highlight {
+  padding: 0px 1em;
+  overflow: scroll;
+}
+
 .article-info {
   margin-top: 0px;
   font-size: 0.85em;
