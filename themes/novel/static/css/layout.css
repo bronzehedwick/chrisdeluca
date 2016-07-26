@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  margin: 0px;
+}
+
 * + * {
   margin-top: 1em;
 }
@@ -25,14 +29,16 @@ p {
   margin: 0px;
 }
 
-p + p {
+* + p {
   text-indent: 2em;
 }
 
-p:first-of-type::first-letter {
-  font-size: 3em;
+p:first-of-type {
+  margin-top: 1em;
+  text-indent: 0px;
 }
 
-article header {
-  margin-bottom: 2em;
+.article-info {
+  margin-top: 0px;
+  font-size: 0.85em;
 }
