@@ -38,7 +38,7 @@ I used Sass to keep my styles organized and badass, and I used percentage widths
 
 Next, I stuck the hills to the bottom of the page.
 
-{{< highlight sass >}}
+{{< highlight scss >}}
 .hills-wrapper {
   position: relative;
 }
@@ -54,7 +54,7 @@ I made use of `border-radius` to make the hills look like, well, hills, instead 
 
 I wrote a color scheme for day and night, taking advantage of the compass `shade` mixin as much as looked good. I also made use of adjoining classes to define the night colors (stay tuned for how they're utilized in a moment), to a) keep things clean and easy to read, and b) to flip a big ol' bird to IE6 (seriously, why does [CSSLint](http://csslint.net) still consider them a bad practice? Let IE6 die!).
 
-{{< highlight sass >}}
+{{< highlight scss >}}
 /* variables */
 $night_sky : #001f3f;
 $night_clouds : shade($clouds, 70%);
