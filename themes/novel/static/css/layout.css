@@ -1,3 +1,7 @@
+/**
+ * General
+ */
+
 * {
   box-sizing: border-box;
 }
@@ -12,14 +16,9 @@ body {
   padding: 1em;
 }
 
-img {
-  max-width: 100%;
-}
-
-body > footer {
-  margin-top: 3em;
-  text-align: center;
-}
+/**
+ * Paragraphs
+ */
 
 p {
   margin: 0px;
@@ -32,6 +31,10 @@ p {
 p:first-of-type {
   text-indent: 0px;
 }
+
+/**
+ * Headers
+ */
 
 div + p,
 header + p {
@@ -47,10 +50,46 @@ article header h6 {
   margin: 0px;
 }
 
+/**
+ * Footers / Navigation
+ */
+
+body > footer {
+  margin-top: 3em;
+  text-align: center;
+}
+
+nav ul,
+article footer ul {
+  padding: 0px;
+}
+
+nav li,
+article footer li {
+  list-style-type: none;
+}
+
+article footer ul,
+article footer li {
+  display: inline;
+}
+
+/**
+ * Images
+ */
+
+img {
+  max-width: 100%;
+}
+
 figcaption {
   margin: 0px 0px 0px 2.75em;
   font-size: 0.75em;
 }
+
+/**
+ * Misc
+ */
 
 pre, code,
 .highlight {
