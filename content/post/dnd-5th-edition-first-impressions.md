@@ -26,7 +26,7 @@ When you hear streamlined rules, you may think dumbed down. I want to assure you
 
 The killer app for rules has got to be Advantage and Disadvantage. Instead of every ability giving an arbitrary, numerical bonus or penalty to your roll, you get an elegant, named rule. If you have Advantage, you roll 2d20 and take the higher. If you have Disadvantage, do the same and take the lower. Done! It's powerful, it's clean, and it saves so much time.
 
-{{< figure src="/images/faerie.jpg" alt="Fairy" >}}
+{{< figure src="/images/fairy.jpg" alt="Fairy" >}}
 
 A close second in terms of big rules improvements is the proficiency system, which ties into Base Attack Bonus (now Proficiency Bonus). Instead of having a table-based bonus progression that's different for each class, now you have one bonus progression for all classes, and it applies to more than just combat. You gain your Proficiency Bonus for anything you are proficient with. You can be proficient with anything from different types of weapons, to skills, to even tools. This keeps the flavor and customizability of each class, while maintaining an easy number to reference.
 

@@ -104,3 +104,13 @@ pre, code,
   margin-top: 0px;
   font-size: 0.85em;
 }
+
+.article-navigation {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.article-navigation a {
+  margin: 0px;
+}
