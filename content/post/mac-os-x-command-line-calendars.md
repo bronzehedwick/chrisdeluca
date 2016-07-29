@@ -13,26 +13,26 @@ A quick, fun tip for Mac and command line users who are fans of _The Lord of the
 
 Someone must have spend a good amount of time in the appendixes to figure out these fourty-plus events. To see if today is one of those events, just run this command.
 
-bash/zsh:
+### bash/zsh:
 
-{{< highlight sh >}}
+``` bash
 cat /usr/share/calendar/calendar.lotr | grep $(date +"%m/%d")
-{{< /highlight >}}
+```
 
-fish:
+### fish:
 
-{{< highlight sh >}}
+``` bash
 cat /usr/share/calendar/calendar.lotr | grep (date +"%m/%d")
-{{< /highlight >}}
+```
 
 Or maybe you'd like to setup a function that calls the command for easy use, or to add to your login message? While we're at it, why don't we throw in a few more calendars as well.
 
 **Update:**
 I added `-A 0` to the `calendar` command, which limits the display to only events that happened on todays date, instead of tomorrow and yesterday, as well.
 
-bash/zsh:
+### bash/zsh:
 
-{{< highlight sh >}}
+``` bash
 today() {
   calendar -A 0 -f /usr/share/calendar/calendar.birthday
   calendar -A 0 -f /usr/share/calendar/calendar.computer
@@ -40,11 +40,11 @@ today() {
   calendar -A 0 -f /usr/share/calendar/calendar.music
   calendar -A 0 -f /usr/share/calendar/calendar.lotr
 }
-{{< /highlight >}}
+```
 
-fish:
+### fish:
 
-{{< highlight sh >}}
+``` fish
 function today
   calendar -A 0 -f /usr/share/calendar/calendar.birthday
   calendar -A 0 -f /usr/share/calendar/calendar.computer
@@ -52,4 +52,4 @@ function today
   calendar -A 0 -f /usr/share/calendar/calendar.music
   calendar -A 0 -f /usr/share/calendar/calendar.lotr
 end
-{{< /highlight >}}
+```

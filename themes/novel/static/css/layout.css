@@ -52,9 +52,13 @@ figcaption {
   font-size: 0.75em;
 }
 
+pre, code,
+.highlight {
+  overflow: scroll;
+}
+
 .highlight {
   padding: 0px 1em;
-  overflow: scroll;
 }
 
 .article-info {

@@ -14,7 +14,7 @@ title: Who's on JavaScript?
 <h6>INT. OFFICE - DAY</h6>
 <div class="action"><p>Two programmers, Phil and Mary, sit at their desks, typing. After a moment, Phil turns to Mary, and shows her a piece of code, which looks like this:</p></div>
 
-``` js
+{{< highlight javascript "linenos=inline,hl_lines=2 3" >}}
 function showInfo() {
   return this.name + ' is ' + this.age + ' years old, and has fought ' + this.fights + ' bears.';
 }
@@ -25,7 +25,7 @@ var person = {
   fights: 16,
   showInfo: showInfo
 };
-```
+{{< /highlight >}}
 
 <div class="dialog"><p class="character">PHIL</p><p>Hey Mary, you're the JavaScript expert, could you help me learn a few things?</p></div>
 <div class="dialog"><p class="character">MARY</p><p>Sure, what do you want to know?</p></div>
