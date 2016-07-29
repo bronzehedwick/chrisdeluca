@@ -8,6 +8,7 @@
     </header>
     {{ .Content }}
     <footer>
+      <strong>Tags:</strong>
       <ul>
         {{ range .Params.tags }}
         <li><a href="/tags/{{ . | urlize }}">{{ . }}</a></li>
