@@ -37,7 +37,7 @@ p:first-of-type {
  */
 
 div + p,
-header + p {
+header + * {
   margin-top: 1em;
 }
 
@@ -98,12 +98,16 @@ article footer li {
  */
 
 img {
+  display: block;
   max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 figcaption {
-  margin: 0px 0px 0px 2.75em;
   font-size: 0.75em;
+  text-align: center;
+  font-style: italic;
 }
 
 /**
@@ -122,4 +126,13 @@ pre, code,
 .article-info {
   margin-top: 0px;
   font-size: 0.85em;
+}
+
+.align-left {
+  float: left;
+  margin-right: 1em;
+}
+
+.align-left + * {
+  margin-top: 1em;
 }
