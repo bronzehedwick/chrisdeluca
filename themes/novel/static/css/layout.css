@@ -54,8 +54,12 @@ article header h6 {
  * Footers / Navigation
  */
 
-body > footer {
+footer {
   margin-top: 3em;
+}
+
+body > footer {
+  margin-top: 4em;
   text-align: center;
 }
 
@@ -118,14 +122,4 @@ pre, code,
 .article-info {
   margin-top: 0px;
   font-size: 0.85em;
-}
-
-.article-navigation {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-}
-
-.article-navigation a {
-  margin: 0px;
 }
