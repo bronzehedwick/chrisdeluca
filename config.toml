@@ -5,6 +5,7 @@ theme = "novel"
 tag = "tags"
 category = "categories"
 PygmentsCodeFences = "true"
+enableRobotsTXT = "true"
 
 [params]
   author = "Christopher DeLuca"
