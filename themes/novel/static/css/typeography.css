@@ -3,3 +3,8 @@ body {
   font-size: 1.125em;
   line-height: 1.6;
 }
+
+pre, code, kbd, samp {
+  font-family: Menlo, Courier, monospace, monospace;
+  font-size: 0.80em;
+}
