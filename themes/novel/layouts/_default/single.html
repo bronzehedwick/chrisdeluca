@@ -17,8 +17,8 @@
         </ul>
       {{ end }}
       <div class="article-navigation">
-        {{ if .PrevInSection }}<a href="{{ .PrevInSection.Permalink }}">&larr; {{ .PrevInSection.Title }}</a>{{ end }}
-        {{ if .NextInSection }}<a href="{{ .NextInSection.Permalink }}">{{ .NextInSection.Title }} &rarr;</a>{{ end }}
+        {{ if .PrevInSection }}<a class="article-navigation__prev" href="{{ .PrevInSection.Permalink }}">&larr; {{ .PrevInSection.Title }}</a>{{ end }}
+        {{ if .NextInSection }}<a class="article-navigation__next" href="{{ .NextInSection.Permalink }}">{{ .NextInSection.Title }} &rarr;</a>{{ end }}
       </div>
     </footer>
   </article>

@@ -74,6 +74,21 @@ article footer li {
   display: inline;
 }
 
+.article-navigation {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.article-navigation a {
+  margin: 0px;
+}
+
+.article-navigation__next:first-of-type {
+  width: 100%;
+  text-align: right;
+}
+
 /**
  * Images
  */
