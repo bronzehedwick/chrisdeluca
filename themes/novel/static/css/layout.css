@@ -68,10 +68,13 @@ article footer ul {
 }
 
 nav li,
+article header li,
 article footer li {
   list-style-type: none;
 }
 
+article header ul,
+article header li,
 article footer ul,
 article footer li {
   display: inline;
@@ -125,6 +128,24 @@ pre, code,
 .article-info {
   margin-top: 0px;
   font-size: 0.85em;
+}
+
+.article-info div {
+  margin-top: 0px;
+}
+
+.article-info ul {
+  padding-left: 0px;
+}
+
+.article-info__reading {
+  float: right;
+}
+
+.article-info:after {
+  content: '';
+  display: block;
+  clear: both;
 }
 
 .align-left {

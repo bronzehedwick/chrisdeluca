@@ -3,19 +3,33 @@
   <article>
     <header>
       <h1>{{ .Title }}</h1>
-      <div class="article-info">Published <time datetime="{{ .Date }}">{{ .Date.Format "January 2, 2006" }}</time> in {{ range .Params.categories }}<a href="/categories/{{ . | urlize }}">{{ . }}</a> {{ end }}<br>
-      Estimated reading time: {{ .ReadingTime }} minutes</div>
+      <div class="article-info">
+        <div class="article-info__published">
+          Published <time datetime="{{ .Date }}">{{ .Date.Format "January 2, 2006" }}</time>
+          {{ if .Params.categories }}
+            in
+            {{ range .Params.categories }}
+              <a href="/categories/{{ . | urlize }}">{{ . }}</a>
+            {{ end }}
+          {{ end }}
+        </div>
+
+        {{ if .Params.tags }}
+          <div class="article-info__topics">
+            Topics:
+            <ul>
+              {{ range .Params.tags }}
+                <li><a href="/tags/{{ . | urlize }}">{{ . }}</a></li>
+              {{ end }}
+            </ul>
+          </div>
+        {{ end }}
+
+        <div class="article-info__reading">~Reading time: {{ .ReadingTime }} minutes</div>
+      </div>
     </header>
     {{ .Content }}
     <footer>
-      {{ if .Params.tags }}
-        <strong>Tags:</strong>
-        <ul>
-          {{ range .Params.tags }}
-          <li><a href="/tags/{{ . | urlize }}">{{ . }}</a></li>
-          {{ end }}
-        </ul>
-      {{ end }}
       <nav>
         <ul class="article-navigation">
           {{ if .PrevInSection }}<li class="article-navigation__item article-navigation__prev"><a href="{{ .PrevInSection.Permalink }}">&larr; {{ .PrevInSection.Title }}</a></li>{{ end }}
