@@ -16,10 +16,12 @@
           {{ end }}
         </ul>
       {{ end }}
-      <div class="article-navigation">
-        {{ if .PrevInSection }}<a class="article-navigation__prev" href="{{ .PrevInSection.Permalink }}">&larr; {{ .PrevInSection.Title }}</a>{{ end }}
-        {{ if .NextInSection }}<a class="article-navigation__next" href="{{ .NextInSection.Permalink }}">{{ .NextInSection.Title }} &rarr;</a>{{ end }}
-      </div>
+      <nav>
+        <ul class="article-navigation">
+          {{ if .PrevInSection }}<li class="article-navigation__item article-navigation__prev"><a href="{{ .PrevInSection.Permalink }}">&larr; {{ .PrevInSection.Title }}</a></li>{{ end }}
+          {{ if .NextInSection }}<li class="article-navigation__item article-navigation__next"><a href="{{ .NextInSection.Permalink }}">{{ .NextInSection.Title }} &rarr;</a></li>{{ end }}
+        </ul>
+      </nav>
     </footer>
   </article>
 

@@ -84,7 +84,7 @@ article footer li {
   justify-content: space-between;
 }
 
-.article-navigation a {
+.article-navigation .article-navigation__item {
   margin: 0px;
 }
 
