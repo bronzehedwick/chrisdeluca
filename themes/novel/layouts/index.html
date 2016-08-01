@@ -4,6 +4,8 @@
   {{ range $paginator.Pages }}
     {{ .Render "summary" }}
   {{ end }}
-  {{ template "_internal/pagination.html" . }} 
+  <footer>
+    {{ template "_internal/pagination.html" . }} 
+  </footer>
 
 {{ end }}

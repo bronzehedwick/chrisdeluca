@@ -51,7 +51,7 @@ article header h6 {
 }
 
 /**
- * Footers / Navigation
+ * Footers (and navigation)
  */
 
 footer {
@@ -67,11 +67,16 @@ article footer ul {
   padding: 0px;
 }
 
+.pagination,
 nav li,
 article header li,
 article footer li {
   list-style-type: none;
 }
+
+/**
+ * Navigation
+ */
 
 article header ul,
 article header li,
@@ -80,12 +85,14 @@ article footer li {
   display: inline;
 }
 
+.pagination,
 .article-navigation {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
 }
 
+.pagination li,
 .article-navigation .article-navigation__item {
   margin: 0px;
 }
@@ -113,7 +120,7 @@ figcaption {
 }
 
 /**
- * Misc
+ * Code snippets
  */
 
 pre, code,
@@ -125,6 +132,10 @@ pre, code,
   padding: 0px 1em;
 }
 
+/**
+ * Article info
+ */
+
 .article-info {
   margin-top: 0px;
   font-size: 0.85em;
@@ -134,6 +145,7 @@ pre, code,
   margin-top: 0px;
 }
 
+.pagination,
 .article-info ul {
   padding-left: 0px;
 }
@@ -147,6 +159,10 @@ pre, code,
   display: block;
   clear: both;
 }
+
+/**
+ * Utils
+ */
 
 .align-left {
   float: left;
