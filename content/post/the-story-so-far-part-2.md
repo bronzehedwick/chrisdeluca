@@ -1,16 +1,12 @@
----
-title: The Story So Far part 2
-author: Christopher DeLuca
-layout: post
-date: 2009-06-09
-reddit:
-  - 'a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1275040174";}'
-delicious:
-  - 'a:3:{s:5:"count";s:1:"0";s:9:"post_tags";s:0:"";s:4:"time";s:10:"1276709138";}'
-categories:
-  - Leukemia
++++
+title = "The Story So Far part 2"
+date = "2009-06-09"
+reddit = [ 'a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1275040174";}' ]
+delicious = [ 'a:3:{s:5:"count";s:1:"0";s:9:"post_tags";s:0:"";s:4:"time";s:10:"1276709138";}' ]
+categories = [ "Essays" ]
+topics = [ "Leukemia" ]
++++
 
----
 Welcome back to part 2 of the Leukemia story! After this I&#8217;ll write about something else, I promise. If you missed part 1, I highly recommend checking it out, unless you like being confused.
 
 I arrived at the beach to a full brass band and a legion of bikini-ed women all screaming my name. True, I am exaggerating heavily, however it felt like that happened. It wasn&#8217;t particularly warm, and it drizzled occasionally, but it was still great just to be out in the open air and hear the waves. Flash forward a few weeks and I was feeling much better. My energy was still low, and I puked a couple times from the Gleevec, but all and all I was feeling good. I was hanging out with friends and having fun, so it was badass.

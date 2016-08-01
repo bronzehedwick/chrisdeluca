@@ -1,17 +1,15 @@
----
-title: Embarassing Moments for Frogs
-author: Christopher DeLuca
-layout: post
-date: 2009-10-20
-reddit:
-  - 'a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1282616148";}'
-delicious:
-  - 'a:3:{s:5:"count";s:1:"0";s:9:"post_tags";s:0:"";s:4:"time";s:10:"1282616148";}'
-categories:
-  - Videos
-  - Leukemia
++++
+title = "Embarassing Moments for Frogs"
+date = "2009-10-20"
+reddit = [ 'a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1282616148";}' ]
+delicious = [ 'a:3:{s:5:"count";s:1:"0";s:9:"post_tags";s:0:"";s:4:"time";s:10:"1282616148";}' ]
+categories = [ "Essays" ]
+topics = [
+  "Videos",
+  "Leukemia"
+]
++++
 
----
 So remember that screenshot I posted of a cartoon I said I was going to finish in a week a month ago? Well, I finally finished it. All two minutes of it. Here it is, and let me know what you think! Thanks.
 
 {{< youtube 4iWL2Xdmn0E >}}

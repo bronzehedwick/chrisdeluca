@@ -1,14 +1,12 @@
----
-title: Left vs Right Brain Test
-author: Christopher DeLuca
-layout: post
-date: 2009-10-20
-delicious:
-  - 'a:3:{s:5:"count";s:1:"0";s:9:"post_tags";s:0:"";s:4:"time";s:10:"1282616148";}'
-reddit:
-  - 'a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1282616148";}'
++++
+title = "Left vs Right Brain Test"
+date = "2009-10-20"
+delicious = [ 'a:3:{s:5:"count";s:1:"0";s:9:"post_tags";s:0:"";s:4:"time";s:10:"1282616148";}' ]
+reddit = [ 'a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1282616148";}' ]
+categories = [ "Essays" ]
+topics = [ "Random" ]
++++
 
----
 I just took an online test to determine which side of the brain you favor, right or left. Here are my results:
 
 <table border="1">

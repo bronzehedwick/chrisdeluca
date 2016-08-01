@@ -1,16 +1,12 @@
----
-title: Big and Fat
-author: Christopher DeLuca
-layout: post
-date: 2010-05-26
-categories:
-  - Leukemia
-tags:
-  - billireuben
-  - photopheresis
-  - prednisone
++++
+title = "Big and Fat"
+date = "2010-05-26"
+categories = [ "Essays" ]
+topics = [
+  "Leukemia",
+]
++++
 
----
 Today is Wednesday May 26th, the fifth day of my latest stint in the hospital. I&#8217;ve been getting the photophoreisis every morning since Monday, and it&#8217;s been going well.
 
 The procedure itself is pretty boring; the nurse just pops in an IV and you have to lay down for 3 to 4 hours, and not move your right arm much. It&#8217;s painless, and I often sleep. From all accounts, the process is effective, however it does work slowly. My billireuben counts have only been going down slightly each day, and today they actually went up, from 6.8 to 7.2. This, apparently, is normal, and just part of the healing process.

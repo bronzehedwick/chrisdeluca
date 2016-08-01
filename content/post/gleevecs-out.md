@@ -1,15 +1,11 @@
----
-title: Gleevec’s out
-author: Christopher DeLuca
-layout: post
-date: 2009-10-15
-delicious:
-  - 'a:3:{s:5:"count";s:1:"0";s:9:"post_tags";s:0:"";s:4:"time";s:10:"1282616149";}'
-reddit:
-  - 'a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1282616149";}'
-categories:
-  - Leukemia
----
++++
+title = "Gleevec’s out"
+date = "2009-10-15"
+delicious = [ 'a:3:{s:5:"count";s:1:"0";s:9:"post_tags";s:0:"";s:4:"time";s:10:"1282616149";}' ]
+reddit = [ 'a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1282616149";}' ]
+categories = [ "Essays" ]
+topics = [ "Leukemia" ]
++++
 
 Good news!
 

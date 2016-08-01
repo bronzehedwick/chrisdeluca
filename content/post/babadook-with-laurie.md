@@ -1,12 +1,13 @@
----
-categories:
-  - Movies
-tags:
-  - laurie
-date: '2015-01-18'
-summary: The story of the best audience member (no spoilers)
-title: Babadook with Laurie
----
++++
+title = "Babadook with Laurie"
+date = "2015-01-18"
+summary = "The story of the best audience member (no spoilers)"
+categories = [ "Essays" ]
+topics = [
+  "Movies",
+  "My wife"
+]
++++
 
 
 {{< figure src="/images/babadook-book.png" alt="Babadook book" >}}

@@ -1,13 +1,13 @@
----
-categories:
-  - Games
-tags:
-  - Table Top Games
-  - Dungeons and Dragons
-date: '2014-09-05'
-summary: null
-title: D&D 5th Edition First Impressions
----
++++
+title = "D&D 5th Edition First Impressions"
+date = "2014-09-05"
+categories = [ "Essays" ]
+topics = [
+  "Games",
+  "Table Top Games",
+  "Dungeons and Dragons"
+]
++++
 
 
 I bought the new 5th edition Dungeons and Dragons players handbook. Having thought 4th edition was somewhat akin to the Jar-Jar Binks of D&D, I was excited to be excited by the game again. I haven't played it yet, but from my impressions reading the book, I already very much like what I see.

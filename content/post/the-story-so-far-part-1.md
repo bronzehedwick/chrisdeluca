@@ -1,16 +1,12 @@
----
-title: The Story So Far part 1
-author: Christopher DeLuca
-layout: post
-date: 2009-06-02
-delicious:
-  - 'a:3:{s:5:"count";s:1:"0";s:9:"post_tags";s:0:"";s:4:"time";s:10:"1277491595";}'
-reddit:
-  - 'a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1275863617";}'
-categories:
-  - Leukemia
++++
+title = "The Story So Far part 1"
+date = "2009-06-02"
+delicious = [ 'a:3:{s:5:"count";s:1:"0";s:9:"post_tags";s:0:"";s:4:"time";s:10:"1277491595";}' ]
+reddit = [ 'a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1275863617";}' ]
+categories = [ "Essays" ]
+topics = [ "Leukemia" ]
++++
 
----
 Well, here it is, the only marginally abridged version of The Leukemia Story. Now, since I&#8217;ve written it here, I&#8217;ll only have to repeat it for the rest of my life. Here it is!
 
 I was diagnosed with CML somewhere around mid to late April, 2009. I first noticed something was awry when it occurred to me that I felt like crap. Using this clue as a springboard, I soon discovered that my stomach was swollen and tight, as if I were clenching all my muscles. From these pieces of evidence I quickly concluded that I was weird, and attempted to forget about it for almost six months. Finally, my acupuncturist insisted that I go to see a doctor.

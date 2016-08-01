@@ -1,16 +1,12 @@
----
-title: A Change of Meds
-author: Christopher DeLuca
-layout: post
-date: 2009-10-10
-delicious:
-  - 'a:3:{s:5:"count";s:1:"0";s:9:"post_tags";s:0:"";s:4:"time";s:10:"1282616149";}'
-reddit:
-  - 'a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1282616149";}'
-categories:
-  - Leukemia
++++
+title = "A Change of Meds"
+date = "2009-10-10"
+delicious = [ 'a:3:{s:5:"count";s:1:"0";s:9:"post_tags";s:0:"";s:4:"time";s:10:"1282616149";}' ]
+reddit = [ 'a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1282616149";}' ]
+categories = [ "Essays" ]
+topics = [ "Leukemia" ]
++++
 
----
 The warmest of hellos! Some of you may have heard about my experiences last night, but for those who haven&#8217;t, and those who haven&#8217;t heard enough, I give you this explanation.
 
 As I mentioned in my post [Bleeding and other things](/post/bleeding-and-other-things), my platelets have been low as a result of my medication. This condition is supposed to clear up in a month or two, however at the time of my last doctor&#8217;s visit, they were still low. The normal is between 130 and 200 thousand parts per million, and mine were hovering around 55 thousand. This was lower than my doctor would like, but the number was not unheard of at that point in treatment, so he decided to wait and see if they went up. Flash forward two weeks, and I&#8217;m bruising a lot. I had little marker dots all over my legs, indicating broken blood vessels, my lips were constantly breaking, and I had various other black and blues all over my body. So, in my infinite wisdom, I figured everything was cool. Then I kept bleeding, and I figured I&#8217;d better call the doctor.

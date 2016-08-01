@@ -1,12 +1,10 @@
----
-title: Waiting
-author: Christopher DeLuca
-layout: post
-date: 2010-06-09
-categories:
-  - Leukemia
++++
+title = "Waiting"
+date = "2010-06-09"
+categories = [ "Essays" ]
+topics = [ "Leukemia" ]
++++
 
----
 Well, I&#8217;ve been in the hospital for two and a half weeks, and my billirueben has been steadily going down. It did go up twice, but then continued to go down. 
 
 Over the weekend, my doctor switched me to oral steroids, as apposed to the more potent IV steroids for which I was hospitalized to recieve, to see how I did on them. My billirueben did go down, or stayed the same, so that was good.

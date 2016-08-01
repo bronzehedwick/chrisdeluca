@@ -1,12 +1,10 @@
----
-title: Cutting all sorts of things (all of them good)
-author: Christopher DeLuca
-layout: post
-date: 2010-11-02
-categories:
-  - Leukemia
++++
+title = "Cutting all sorts of things (all of them good)"
+date = "2010-11-02"
+categories = [ "Essays" ]
+topics = [ "Leukemia" ]
++++
 
----
 {{< figure src="/images/nanowrimo_participant_09_120x240.png" alt="NaNoWriMo Participant 2010" class="align-left">}}
 
 Well hello again folks!

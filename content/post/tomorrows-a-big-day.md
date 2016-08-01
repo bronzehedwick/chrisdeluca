@@ -1,11 +1,10 @@
----
-title: Tomorrow’s a big day
-author: Christopher DeLuca
-layout: post
-date: 2009-08-16
-categories:
-  - Leukemia
----
++++
+title = "Tomorrow’s a big day"
+date = "2009-08-16"
+categories = [ "Essays" ]
+topics = [ "Leukemia" ]
++++
+
 Welcome back to a brand new post, after a much begrudged absence (at least I assume it was begrudged).
 
 Tomorrow, Monday August 17th, is, as the title of this post alluded to, a big day. The reason is that it is the day I go in for molecular testing to ascertain how my cells are responding to the treatment. I already have a complete hematological response, which means that the treatment has worked insofar as my blood is clean, so now they are going to test my cellular structures to see if those responded well. This is around the six month mark for treatment, so another big landmark.

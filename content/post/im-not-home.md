@@ -1,15 +1,10 @@
----
-title: I’m Not Home!
-author: Christopher DeLuca
-layout: post
-date: 2010-05-22
-categories:
-  - Leukemia
-tags:
-  - photopheresis
-  - prednisone
++++
+title = "I’m Not Home!"
+date = "2010-05-22"
+categories = [ "Essays" ]
+topics = [ "Leukemia" ]
++++
 
----
 Well I&#8217;m going back into the hospital!
 
 Turns out the oral prednisone I was taking at home didn&#8217;t really work the way the IV drip prednisone did, so my billireuben went up. I was actually supposed be admitted today, but the room is still not ready as of 8:00pm (and probably won&#8217;t be until 11:00 or 12:00), so I&#8217;m just going to go in first thing tomorrow morning.

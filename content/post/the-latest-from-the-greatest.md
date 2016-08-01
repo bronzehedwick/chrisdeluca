@@ -1,14 +1,10 @@
----
-title: The Latest from the Greatest
-author: Christopher DeLuca
-layout: post
-date: 2009-07-11
-categories:
-  - Leukemia
-tags:
-  - jobs
++++
+title = "The Latest from the Greatest"
+date = "2009-07-11"
+categories = [ "Essays" ]
+topics = [ "Leukemia" ]
++++
 
----
 Salutations from the hinterlands! Well, the New Jersey suburbs, really. I apologize for the lag in posts, however not much of note has happened. That is, until now.
 
 So I had another CBC (which is a standard blood test, for those not intimately familiar with hospitals), and the results were excellent: my white blood cell count is still normal, and they stopped dropping (which is sometimes a problem&#8230;the medication can bring your whites BELOW normal), and my platelet count is coming up. It&#8217;s still below normal, but it&#8217;s coming up, and should be normal in a month or so. For a week or so, my platelet count was quite low, to the point where a few blood vessels burst in my feet, which looked like someone made a dot on my foot with a red magic marker. During that time I started growing a beard, as I didn&#8217;t want to cut myself shaving and not stop bleeding. However, I am glad to report that both my low platelet condition and the mangy scraggle that was forming around my face are both gone. All the other aspects of my blood test came back with flying colors, except my red blood cell count, which is still below normal. Yet it&#8217;s not that bad, and it should go up a little more before it evens out.

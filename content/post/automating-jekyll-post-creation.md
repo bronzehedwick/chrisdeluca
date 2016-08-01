@@ -1,14 +1,14 @@
----
-categories:
-  - Tech
-tags:
-  - jekyll
-  - shell
-date: '2014-09-01'
-summary: Automatically create Jekyll file names and meta data.
-title: Automating Jekyll Post Creation
----
-
++++
+title = "Automating Jekyll Post Creation"
+date = "2014-09-01"
+summary = "Automatically create Jekyll file names and meta data."
+categories = [ "Tutorials" ]
+topics = [
+  "Tech",
+  "Jekyll",
+  "Shell"
+]
++++
 
 [Jekyll](http://jekyllrb.com/) is a tool for static site generation, and it's what powers [Github pages](https://pages.github.com/), both of which generate and host this site, respectively. It's a fantastic tool for hackers to create simple, and fast (see static site, above) blogs using minimal configuration, the [Liquid templating engine](http://docs.shopify.com/themes/liquid-documentation/basics) for layout, and [markdown](https://help.github.com/articles/markdown-basics) for posts.
 

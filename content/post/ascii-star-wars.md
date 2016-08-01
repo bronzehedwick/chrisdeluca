@@ -1,12 +1,13 @@
----
-title: ASCII Star Wars
-author: Christopher DeLuca
-layout: post
-date: 2009-07-20
-categories:
-  - Tech
++++
+title = "ASCII Star Wars"
+date = "2009-07-20"
+categories = [ "Tutorials" ]
+topics = [
+  "Tech",
+  "Shell"
+]
++++
 
----
 Folks, I have stumbled upon something so nerdy, so impressive, and so potentially useless that I had to share it. That thing is ASCII Star Wars. Let me explain. Someone has animated the movie Star Wars Episode IV: A New Hope, entirely with <a href="http://en.wikipedia.org/wiki/Ascii" target="_self">ASCII</a> characters. In other words, with punctuation like `@$&()_?&#8221;:}|` etc. There is no sound, so all the dialog is shown in the form of subtitles. How cool is that???
 
 Even if you don&#8217;t like Star Wars (you should all be ashamed of yourselves), how impressive is it that one guy had THAT much time on his hands to animate an entire movie with text? I am personally not acquainted with the animation methods of arranging text symbols into recognizable shapes and making them move, however I&#8217;m sure it must be tedious. I have not seen the whole thing (I intend to one of these days), but I hear that the movie ends when princess Leia is rescued. However, the guy is apparently still working on the thing, so maybe in a couple years we&#8217;ll have the whole thing, and if he&#8217;s REALLY committed, all the sequels. This might start a new movie-to-ASCII trend; thousands will be working tirelessly to convert high budget, multi-million dollar Hollywood classics into text (imagine _Titanic_ made completely out of $&#8217;s). Or maybe it&#8217;s a totally isolated incident, and no one else would spend years of their life doing this. It&#8217;s a toss up. Predictions aside, if you would actually like to SEE ASCII Star Wars, here&#8217;s how:

@@ -1,13 +1,13 @@
----
-categories:
-  - Art
-  - Tech
-tags:
-  - CSS
-date: '2014-09-18'
-summary: A web experiment drawn entirely in CSS.
-title: My artsy-fartsy css web experiment
----
++++
+title = "My artsy-fartsy css web experiment"
+date = "2014-09-18"
+summary = "A web experiment drawn entirely in CSS."
+categories = [ "Tutorials" ]
+topics = [
+  "Tech",
+  "CSS"
+]
++++
 
 
 The other day I had some time in between work and an improv show I was doing that night, so to pass the time, I created a simple web experiment in CSS.

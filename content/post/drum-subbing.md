@@ -1,15 +1,11 @@
----
-title: Drum subbing
-author: Christopher DeLuca
-layout: post
-date: 2009-10-11
-reddit:
-  - 'a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1282616149";}'
-delicious:
-  - 'a:3:{s:5:"count";s:1:"0";s:9:"post_tags";s:0:"";s:4:"time";s:10:"1282616149";}'
-categories:
-  - Music
----
++++
+title = "Drum subbing"
+date = "2009-10-11"
+reddit = [ 'a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1282616149";}' ]
+delicious = [ 'a:3:{s:5:"count";s:1:"0";s:9:"post_tags";s:0:"";s:4:"time";s:10:"1282616149";}' ]
+categories = [ "Essays" ]
+topics = [ "Music" ]
++++
 
 Good news! I have unearthed a video of me playing with one of my favorite bands of all time, _The Candy Apples_.
 

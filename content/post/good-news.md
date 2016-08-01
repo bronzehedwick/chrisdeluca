@@ -1,12 +1,10 @@
----
-title: Good News!
-author: Christopher DeLuca
-layout: post
-date: 2010-08-23
-categories:
-  - Leukemia
++++
+title = "Good News!"
+date = "2010-08-23"
+categories = [ "Essays" ]
+topics = [ "Leukemia" ]
++++
 
----
 Good news folks, my health has improved in the decade since my last post! Well, decade is a bit of exaggeration, but it has been a while.
 
 I have been out of the hospital for several months now, and have not had to go back in. I have been going to photophoresis outpatient four times a week to get my billirueben under control, and it&#8217;s been working.

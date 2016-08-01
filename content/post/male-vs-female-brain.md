@@ -1,12 +1,10 @@
----
-title: Male vs Female Brain
-author: Christopher DeLuca
-layout: post
-date: 2009-10-25
-categories:
-  - Random
++++
+title = "Male vs Female Brain"
+date = "2009-10-25"
+categories = [ "Essays" ]
+topics = [ "Random" ]
++++
 
----
 In response to my cousin Megan&#8217;s link to the BBC&#8217;s Male vs Female Brain Test, I have posted my results, as well as another link to the test, in case others would like to take it. <a rel="nofollow" href="http://www.bbc.co.uk/science/humanbody/sex/add_user.shtml">http://www.bbc.co.uk/science/humanbody/sex/add_user.shtml</a>
 
 **Chris DeLuca&#8217;s personal brain score:** 

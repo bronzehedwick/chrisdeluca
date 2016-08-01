@@ -1,14 +1,10 @@
----
-title: Catching up with transplant boy pt. 1
-author: Christopher DeLuca
-layout: post
-date: 2010-02-25
-categories:
-  - Leukemia
-tags:
-  - transplant
++++
+title = "Catching up with transplant boy pt. 1"
+date = "2010-02-25"
+categories = [ "Essays" ]
+topics = [ "Leukemia" ]
++++
 
----
 Welcome one and all, to another long overdue post! A lot has happened since I said I was going to get a transplant, namely the transplant, but I&#8217;ll try to summarize as best I can the last two months. And by summarize I mean talk about in excruciating detail.
 
 The first step of the process was to go into the hospital as an out patient to get rid of a trace amount of the epstein-barr virus I had hanging around in my blood. Epstein-barr is the virus that causes mono, which I never had but had to have been exposed to as a kid. My body kept it under control (it was only a trace), but after transplant, once I had no immune system to speak of, the virus would cause some problems. So they hooked me up to a chemo IV and blasted it out of me. Fortunately, this chemo is a &#8220;mild&#8221; variety, and I suffered no side effects.

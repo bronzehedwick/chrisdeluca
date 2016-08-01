@@ -1,16 +1,10 @@
----
-title: Hypnotic Toast and tales
-author: Christopher DeLuca
-layout: post
-date: 2010-03-20
-categories:
-  - Leukemia
-tags:
-  - prednisone
-  - gvhd
-  - self promotion
++++
+title = "Hypnotic Toast and tales"
+date = "2010-03-20"
+categories = [ "Essays" ]
+topics = [ "Leukemia" ]
++++
 
----
 **Before I get into the leukemia update portion of this post, I would like to announce the launch of my website, <a href="http://www.hypnotictoast.com" target="_self">www.hypnotictoast.com</a>! It collects all my digitizable work to date, and will be a major platform for new work. Check it out!**
 
 There have been several episodes related to my leukemia since the last time I posted, however the current effect is zero sum: I&#8217;m still going good, my counts are going up, and I feel better. Specifically, my platelets, which had been dropping for a week, shot up to 87 thousand parts per million, which is safely out of the critical range. Also, my red blood cells and hemoglobin have been steadily creeping upwards, although my white blood cells did drop to 1 thousand (where the low normal is 4 thousand). However, the doctors aren&#8217;t concerned, as it&#8217;s expected that the blood counts will hop around a bit.

@@ -1,14 +1,10 @@
----
-title: Getting a Transplant
-author: Christopher DeLuca
-layout: post
-date: 2010-01-12
-categories:
-  - Leukemia
-tags:
-  - transplant
++++
+title = "Getting a Transplant"
+date = "2010-01-12"
+categories = [ "Essays" ]
+topics = [ "Leukemia" ]
++++
 
----
 I apologize for not posting for a while, but I&#8217;ve been busy, and busy equals news, so here it is: I am going to get the stem cell transplant. In fact, I&#8217;m being admitted into the hospital today (Jan. 12th).
 
 The reason I need the transplant, as I&#8217;ve outlined somewhat previously, is that Gleevec did not fully work, in that it put the leukemia into remission, but also knocked the crap out of my blood counts. I had been taking homeopathic remedies, which raised my blood counts significantly. My last counts were relatively good: platelets 38, whites 4.12, and hemoglobin normal (all counts in thousand parts per million). However, the number of Philadelphia chromosomes also came up, as one might imagine they would after not being treated.

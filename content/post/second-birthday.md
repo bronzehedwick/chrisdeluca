@@ -1,12 +1,12 @@
----
-title: Second Birthday
-author: Christopher DeLuca
-layout: post
-date: 2011-01-31
-categories:
-  - Leukemia
++++
+title = "Second Birthday"
+date = "2011-01-31"
+categories = [ "Essays" ]
+topics = [
+  "Leukemia"
+]
++++
 
----
 Well this news is already more than two weeks old, but here it is nonetheless!
 
 January 19th marked my one year anniversary (second birthday) of my transplant, and I got a pretty clean bill of health. Some of my blood counts are still a bit low (namely red blood cells, making me rather anemic &#8211; stairs still do me in), but that&#8217;s to be expected with the pills I&#8217;m taking. But otherwise, health is returning.

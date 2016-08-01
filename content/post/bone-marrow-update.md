@@ -1,16 +1,12 @@
----
-title: Bone Marrow Update
-author: Christopher DeLuca
-layout: post
-date: 2009-06-22
-reddit:
-  - 'a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1275863618";}'
-delicious:
-  - 'a:3:{s:5:"count";s:1:"0";s:9:"post_tags";s:0:"";s:4:"time";s:10:"1276709139";}'
-categories:
-  - Leukemia
++++
+title = "Bone Marrow Update"
+date = "2009-06-22"
+reddit = [ 'a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1275863618";}' ]
+delicious = [ 'a:3:{s:5:"count";s:1:"0";s:9:"post_tags";s:0:"";s:4:"time";s:10:"1276709139";}' ]
+categories = [ "Essays" ]
+topics = [ "Leukemia" ]
++++
 
----
 Hey, it&#8217;s everybody&#8217;s favorite subject, bone marrow! I already told all the grisly bits in [The Story So Far part 2](/post/the-story-so-far-part-2), so today I can move on to the results, which I got only a couple of hours ago. I won&#8217;t bore you with the details of the hospital visit, as they mostly consisted of me waiting, and skip right to the good stuff.
 
 My red blood cell count has dropped to 4.8 thousand parts per million, which is just above the low normal (and where the doctor wanted the numbers to be). My red blood cell count is 11.2 thousand parts per million; normal is 14 and Gleevec (the Leukemia drug) paitents usually top out at around 12. This makes sense, as I feel good and have energy for walking around, working on the computer, and other low strain activities, but once I don&#8217;t have much endurence or capacity for high octane stuff. However, I must clarify, I never had much capacity for these things, being a rather inactive, thinking-heavy person who hates to excorsie, but now I have a bit less of a capacity. Or at least an excuse. But back to the results. There are no blast cells (super mutant cancer cells) in my bone marrow, which confirms I am in the Chronic phase of the Leukemia, which, with the medicine, should stay that way. I won&#8217;t go into the detials of the Accelerated or Acute phases, but lets just say I wouldn&#8217;t be typing this right now. So that was I huge releif, even though I was 99% sure of it anyway.

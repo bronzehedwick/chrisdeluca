@@ -14,21 +14,23 @@
           {{ end }}
         </div>
 
-        {{ if .Params.tags }}
+        {{ if .Params.topics }}
           <div class="article-info__topics">
             Topics:
             <ul>
-              {{ range .Params.tags }}
-                <li><a href="/tags/{{ . | urlize }}">{{ . }}</a></li>
+              {{ range .Params.topics }}
+                <li><a href="/topics/{{ . | urlize }}">{{ . }}</a></li>
               {{ end }}
             </ul>
           </div>
         {{ end }}
 
-        <div class="article-info__reading">~Reading time: {{ .ReadingTime }} minutes</div>
+        <div class="article-info__reading">Reading time: {{ .ReadingTime }} minutes</div>
       </div>
     </header>
+
     {{ .Content }}
+
     <footer>
       <nav>
         <ul class="article-navigation">

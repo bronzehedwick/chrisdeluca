@@ -1,14 +1,16 @@
----
-categories:
-  - Art
-  - Tech
-tags:
-  - javascript
-date: '2015-10-29'
-summary: What if Who's On First and JavaScript had a baby?
-title: Who's on JavaScript?
----
-
++++
+title = "Who's on JavaScript?"
+date = "2015-10-29"
+summary = "What if Who's On First and JavaScript had a baby?"
+categories = [
+  "Fiction"
+]
+topics = [
+  "Tech",
+  "JavaScript",
+  "Screenplays"
+]
++++
 
 <div id="wrapper" class="screenplay">
 <h6>INT. OFFICE - DAY</h6>
