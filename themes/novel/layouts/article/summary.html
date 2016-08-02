@@ -1,11 +1,12 @@
 <article>
   <header>
     <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+    <p>Published <time datetime="{{ .Date }}">{{ .Date.Format "January 2, 2006" }}</time></p>
   </header>
   <p>
     {{ .Summary }}
     {{ if .Truncated }}
-    <a href="{{ .Permalink }}">Read More...</a>
+      <a href="{{ .Permalink }}">Read More</a>
     {{ end }}
   </p>
 </article>

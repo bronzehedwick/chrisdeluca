@@ -46,15 +46,6 @@ header + * {
   margin-top: 1em;
 }
 
-article header h1,
-article header h2,
-article header h3,
-article header h4,
-article header h5,
-article header h6 {
-  margin: 0px;
-}
-
 /**
  * Footers (and navigation)
  */
