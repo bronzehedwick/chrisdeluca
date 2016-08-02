@@ -1,3 +1,33 @@
+/**
+ * General
+ */
+
+body {
+  background-color: #fdfcfa;
+  color: #444;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #222;
+}
+
+/**
+ * Links
+ */
+
+a:link,
+a:active,
+a:focus,
+a:visited {
+  color: #108084;
+  text-decoration: none;
+  border-bottom: 0.1em dotted #108084;
+}
+
+a:hover {
+  background-color: rgba(16, 128, 132, 0.05);
+}
+
 small {
   color: #999;
 }

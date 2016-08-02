@@ -16,6 +16,11 @@ body {
   padding: 1em;
 }
 
+section + section,
+article + article {
+  margin-top: 2em;
+}
+
 /**
  * Paragraphs
  */
