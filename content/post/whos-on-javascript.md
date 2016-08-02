@@ -16,7 +16,7 @@ topics = [
 <h6>INT. OFFICE - DAY</h6>
 <div class="action"><p>Two programmers, Phil and Mary, sit at their desks, typing. After a moment, Phil turns to Mary, and shows her a piece of code, which looks like this:</p></div>
 
-{{< highlight javascript "linenos=inline,hl_lines=2 3" >}}
+{{< highlight javascript "linenos=inline" >}}
 function showInfo() {
   return this.name + ' is ' + this.age + ' years old, and has fought ' + this.fights + ' bears.';
 }

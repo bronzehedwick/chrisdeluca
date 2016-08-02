@@ -2,8 +2,9 @@ baseurl = "https://chrisdeluca.me"
 languageCode = "en-us"
 title = "Chris DeLuca"
 theme = "novel"
-PygmentsCodeFences = "true"
-enableRobotsTXT = "true"
+PygmentsCodeFences = true
+enableRobotsTXT = true
+pygmentsuseclasses = true
 
 [taxonomies]
   topic = "topics"
