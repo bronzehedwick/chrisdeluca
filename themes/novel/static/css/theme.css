@@ -5,3 +5,23 @@ small {
 .highlight {
   color: #fff;
 }
+
+/**
+ * Article info.
+ */
+
+.article-info__topics li:after {
+  content: ', ';
+}
+
+.article-info__topics li:last-of-type:before {
+  content: ' and ';
+}
+
+.article-info__topics li:last-of-type:after {
+  content: '';
+}
+
+.article-info__topics li:first-of-type:before {
+  content: '';
+}
