@@ -20,16 +20,13 @@ a:active,
 a:focus,
 a:visited {
   color: #108084;
-  /* color: #f94640; */
   text-decoration: none;
   border-bottom: 0.075em dotted #108084;
-  /* border-bottom: 0.075em dotted #f94640; */
   transition: background-color 200ms ease;
 }
 
 a:hover {
   background-color: rgba(16, 128, 132, 0.05);
-  /* background-color: rgba(249, 70, 64, 0.05); */
 }
 
 small {
