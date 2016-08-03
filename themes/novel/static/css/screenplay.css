@@ -1,0 +1,121 @@
+/*
+.screenplay {
+  font-family: "Courier New", Courier, monospace, monospace;
+  font-size: 1rem;
+}
+
+.screenplay h1,
+.screenplay h2,
+.screenplay h3,
+.screenplay h4,
+.screenplay h5,
+.screenplay h6 {
+  font-size: 1rem;
+  margin: 1rem 0px;
+}
+
+.screenplay p {
+  text-indent: 0px;
+}
+
+.screenplay .dialog {
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+}
+
+.screenplay .character {
+  text-align: center;
+  max-width: none;
+}
+
+.screenplay .parenthetical {
+  text-indent: 2em;
+}
+*/
+
+.screenplay,
+.screenplay h6 {
+  font-family: 'Courier Final Draft', 'Courier Screenplay', Courier, monospace, monospace;
+  font-size: 1rem;
+}
+
+.screenplay {
+  text-align: left;
+  position: relative;
+  margin: 0 auto;
+}
+
+.screenplay h6 {
+  margin: 1rem 0px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.screenplay .centered {
+  text-align: center;
+}
+
+.screenplay p {
+  text-indent: 0px;
+}
+
+.screenplay div.dialog, div.dual {
+  margin-top: 1em;
+}
+
+.screenplay div.transition {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-align: right;
+}
+
+.screenplay .dialog p {
+  margin: 0px;
+}
+
+.screenplay .dialog p.character {
+  padding-left: 40%;
+}
+
+.screenplay .dialog p.parenthetical {
+  padding-left: 40%;
+}
+
+.screenplay .dialog p {
+  padding-left: 15%;
+  max-width: 25.55em;
+}
+
+@media screen and (min-width: 400px) {
+  .screenplay .dialog p {
+    padding-left: 20%;
+  }
+}
+
+.screenplay .dual > div {
+  float: left;
+  width: 48%!important;
+}
+
+.screenplay .dual p.character {
+  padding-left: 6em;
+}
+
+.screenplay .dual p.parenthetical {
+  padding-left: 3em;
+}
+
+.screenplay .dual p {
+  padding-left: 0;
+  width: 19em;
+}
+
+.screenplay .dual .right {
+  margin-left: 1em;
+}
+
+.screenplay .dual .right p.character {
+  padding-left: 6em;
+}
