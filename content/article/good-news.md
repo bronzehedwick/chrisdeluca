@@ -7,6 +7,8 @@ topics = [ "Leukemia" ]
 
 Good news folks, my health has improved in the decade since my last post! Well, decade is a bit of exaggeration, but it has been a while.
 
+<!--more-->
+
 I have been out of the hospital for several months now, and have not had to go back in. I have been going to photophoresis outpatient four times a week to get my billirueben under control, and it&#8217;s been working.
 
 Currently, my billirueben is hovering around 0.8, which is in the normal range (optimal is 0, but I&#8217;m not complaining). Also, I have been steadily coming down off the prednisone, from 120mg a day at the start, to 30mg every other day now. I have a doctor&#8217;s appointment this coming Wednesday, and if I&#8217;m still doing good, they will cut my prednisone even more.

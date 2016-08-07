@@ -9,7 +9,7 @@ topics = [ "Leukemia" ]
 
 Good news!
 
-I got the first half of my test results back this Tuesday (the bone marrow test), and they show I have no blast cells in my marrow, which means I am still in chronic phase, and not accelerated or blast phase.
+I got the first half of my test results back this Tuesday (the bone marrow test), and they show<!--more--> I have no blast cells in my marrow, which means I am still in chronic phase, and not accelerated or blast phase.
 
 This diagnosis has many advantages, chief among them being not having to rush to get a bone marrow transplant, probably from my sister, which is an operation we can both live without. What the test showed was that the Gleevec had worked in that it put the leukemia into remission, but it also did a number on my bone marrow, frying it to the point where it&#8217;s not making any platelets or neutrophils.
 

@@ -5,7 +5,7 @@ categories = [ "Essays" ]
 topics = [ "Leukemia" ]
 +++
 
-I would like to take this opportunity to transcribe a whacked out dream I had early this morning about frogs. It was very vivid and painful, as well as bizarre, and in my mind, amusing. But enough foreplay, let&#8217;s get dreaming!
+I would like to take this opportunity to transcribe a whacked out dream I had early this morning about frogs. It was very vivid and painful, as well as bizarre, and in my mind, amusing.<!--more--> But enough foreplay, let&#8217;s get dreaming!
 
 I was walking through a forested path in autumn, the leaves still on the trees for the most part, and wearing bright reds and golds. There was also a carpet of yellow leaves on the ground. I was walking with a girl who was my sister in the dream, but totally fictional otherwise (Sorry Laura, maybe next time my subconscious will give you the job).
 

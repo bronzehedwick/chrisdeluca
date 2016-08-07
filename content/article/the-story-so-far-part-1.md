@@ -9,6 +9,8 @@ topics = [ "Leukemia" ]
 
 Well, here it is, the only marginally abridged version of The Leukemia Story. Now, since I&#8217;ve written it here, I&#8217;ll only have to repeat it for the rest of my life. Here it is!
 
+<!--more-->
+
 I was diagnosed with CML somewhere around mid to late April, 2009. I first noticed something was awry when it occurred to me that I felt like crap. Using this clue as a springboard, I soon discovered that my stomach was swollen and tight, as if I were clenching all my muscles. From these pieces of evidence I quickly concluded that I was weird, and attempted to forget about it for almost six months. Finally, my acupuncturist insisted that I go to see a doctor.
 
 So I went to my family doctor, Dr. Jodi Katz. Only Dr. Katz had moved to another medical facility, so I was instead transferred to Dr. Schwartz (female). She was a middle-aged woman with a rotund figure and short cropped brown and gray hair, and a Israeli accent. She felt my stomach and decided that it was weird, so she sent me to get an ultra sound, and also to get a blood test. So I went and did both, and the ultra sound confirmed right away that my spleen was several times larger than it should be. In fact, it took up almost my entire left side, from ribs to navel.

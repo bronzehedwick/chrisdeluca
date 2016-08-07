@@ -5,7 +5,7 @@ categories = [ "Essays" ]
 topics = [ "Leukemia" ]
 +++
 
-I&#8217;m out! Through cunning, misdirection, careful planning, bribes, an elaborate disguise kit, and the permission of my doctor, I was sprang from the hospital this past Wednesday. It kind of looked like this: 
+I&#8217;m out! Through cunning, misdirection, careful planning, bribes, an elaborate disguise kit, and the permission of my doctor, I was sprang from the hospital this past Wednesday.<!--more--> It kind of looked like this: 
 
 {{< youtube TXXO9_3gb3o >}}
 

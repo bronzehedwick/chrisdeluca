@@ -9,6 +9,8 @@ topics = [ "Random" ]
 
 I just took an online test to determine which side of the brain you favor, right or left. Here are my results:
 
+<!--more-->
+
 <table border="1">
   <tr>
     <td>

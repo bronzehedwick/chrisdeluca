@@ -5,7 +5,7 @@ categories = [ "Essays" ]
 topics = [ "Leukemia" ]
 +++
 
-This past Thursday I went into the doctor&#8217;s office to get my weekly blood test; the numbers revealed that my bone marrow had yet to bounce back, and that my platelet level in particular was even lower than last time, being 5 thousand parts per million where the low normal is 130 thousand parts per million.
+This past Thursday I went into the doctor&#8217;s office to get my weekly blood test; the numbers revealed that my bone marrow had yet to bounce back,<!--more--> and that my platelet level in particular was even lower than last time, being 5 thousand parts per million where the low normal is 130 thousand parts per million.
 
 So Thursday was another transfusion day. This time they gave me two units of platelets, and one unit of blood, along with benadryl, tylonal, and one other that I&#8217;m forgetting, to help my body accept the new material. However, the big side effect of benadryl is that it knocks you out.  I was at the doctor&#8217;s for a total of seven hours that day, from 9am to 4pm, and after the first three in the waiting room (waiting for the platelets and blood to be ready; I understand that these things take time, but sometimes I wonder if they actually have to go get a downer, get his blood, and filter it _after_ they learn they need the stuff), I slept like a baby. Well, a drugged baby, but a baby nonetheless.
 

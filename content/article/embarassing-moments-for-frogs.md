@@ -10,7 +10,7 @@ topics = [
 ]
 +++
 
-So remember that screenshot I posted of a cartoon I said I was going to finish in a week a month ago? Well, I finally finished it. All two minutes of it. Here it is, and let me know what you think! Thanks.
+So remember that screenshot I posted of a cartoon I said I was going to finish in a week a month ago? Well, I finally finished it.<!--more--> All two minutes of it. Here it is, and let me know what you think! Thanks.
 
 {{< youtube 4iWL2Xdmn0E >}}
 

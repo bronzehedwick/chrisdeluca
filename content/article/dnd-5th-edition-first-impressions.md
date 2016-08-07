@@ -9,8 +9,7 @@ topics = [
 ]
 +++
 
-
-I bought the new 5th edition Dungeons and Dragons players handbook. Having thought 4th edition was somewhat akin to the Jar-Jar Binks of D&D, I was excited to be excited by the game again. I haven't played it yet, but from my impressions reading the book, I already very much like what I see.
+I bought the new 5th edition Dungeons and Dragons players handbook. Having thought 4th edition was somewhat akin to the Jar-Jar Binks of D&D, I was excited to be excited by the game again.<!--more--> I haven't played it yet, but from my impressions reading the book, I already very much like what I see.
 
 {{< figure src="/images/DnD_PHB.png" alt="D&D 5th Edition Player's Handbook Cover" >}}
 

@@ -9,7 +9,7 @@ topics = [
 ]
 +++
 
-Yep, I&#8217;m going to do it. Why? Well because I don&#8217;t feel comfortable with their privacy policies anymore. When I first joined back in the spring of 2004, facebook had a strict sense of user privacy. Here&#8217;s a press release circa 2004,
+Yep, I&#8217;m going to do it. Why?<!--more--> Well because I don&#8217;t feel comfortable with their privacy policies anymore. When I first joined back in the spring of 2004, facebook had a strict sense of user privacy. Here&#8217;s a press release circa 2004,
 
 > No personal information that you submit to Thefacebook will be available to any user of the Web Site who does not belong to at least one of the groups specified by you in your privacy settings.
 

@@ -7,6 +7,8 @@ topics = [ "Random" ]
 
 In response to my cousin Megan&#8217;s link to the BBC&#8217;s Male vs Female Brain Test, I have posted my results, as well as another link to the test, in case others would like to take it. <a rel="nofollow" href="http://www.bbc.co.uk/science/humanbody/sex/add_user.shtml">http://www.bbc.co.uk/science/humanbody/sex/add_user.shtml</a>
 
+<!--more-->
+
 **Chris DeLuca&#8217;s personal brain score:** 
 
 <table border="0" cellspacing="0" cellpadding="0" width="455">

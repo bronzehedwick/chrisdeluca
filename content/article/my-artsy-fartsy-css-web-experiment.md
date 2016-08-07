@@ -12,6 +12,8 @@ topics = [
 
 The other day I had some time in between work and an improv show I was doing that night, so to pass the time, I created a simple web experiment in CSS.
 
+<!--more-->
+
 I call it, [Day and Night](http://bronzehedwick.com/nightandday/).
 
 The quick pitch is that you can control the sun with your mouse, and if you bring the sun down behind the hills in the foreground, the scene changes from day to night.

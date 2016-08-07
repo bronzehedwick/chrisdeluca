@@ -7,6 +7,8 @@ topics = [ "Leukemia" ]
 
 Welcome one and all, to another long overdue post! A lot has happened since I said I was going to get a transplant, namely the transplant, but I&#8217;ll try to summarize as best I can the last two months. And by summarize I mean talk about in excruciating detail.
 
+<!--more-->
+
 The first step of the process was to go into the hospital as an out patient to get rid of a trace amount of the epstein-barr virus I had hanging around in my blood. Epstein-barr is the virus that causes mono, which I never had but had to have been exposed to as a kid. My body kept it under control (it was only a trace), but after transplant, once I had no immune system to speak of, the virus would cause some problems. So they hooked me up to a chemo IV and blasted it out of me. Fortunately, this chemo is a &#8220;mild&#8221; variety, and I suffered no side effects.
 
 The next step happened on January 11th, the day before I was admitted, which was to implant a catheter. At first I was terrified because, much like you, I thought all catheters had something to do with pee, thinking they would perform some kavorkian crotch surgery on me. Thankfully, this was not a pee catheter; mine was a small tube attached to a plastic plate that they stuck in my shoulder. When I went in for surgery I had decided to be comfortable, so I went commando.

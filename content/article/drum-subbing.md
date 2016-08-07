@@ -11,6 +11,8 @@ Good news! I have unearthed a video of me playing with one of my favorite bands 
 
 Never heard of them? Now you have.
 
+<!--more-->
+
 {{< youtube oYKESn17XGE >}}
 
 I was introduced to their music back in 2005 by my college roommate Andy McCarthy, who is part of the band (guitar and vocals). The two videos below are taken from a live broadcast of _Thursday Nite Live_, which is Hofstra University&#8217;s very own sketch comedy show that I was the head writer of in college.

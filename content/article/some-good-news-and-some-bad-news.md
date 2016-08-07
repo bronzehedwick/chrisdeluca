@@ -5,7 +5,7 @@ categories = [ "Essays" ]
 topics = [ "Leukemia" ]
 +++
 
-Hello everyone! Sorry that it has been so incredibly long since my last post, however in my defense, there wasn&#8217;t anything that juicy to report. Now, finally, there&#8217;s some drama! For anyone who doesn&#8217;t know the circumstances of my medical treatment since my last post, here they are in abbreviated form.
+Hello everyone! Sorry that it has been so incredibly long since my last post, however in my defense, there wasn&#8217;t anything that juicy to report. Now, finally, there&#8217;s some drama!<!--more--> For anyone who doesn&#8217;t know the circumstances of my medical treatment since my last post, here they are in abbreviated form.
 
 My blood counts continued to go up, although with plenty of hills and valleys, instead of a straight climb. Three weeks ago I had my (hopefully) last bone marrow biopsy, and let me be the first to say, even though it was my fourth, they don&#8217;t get any easier. Needless to say I&#8217;m glad that&#8217;s over with. During the past say five weeks, there have been graft vs host &#8220;scares.&#8221; Now I say scares in quotes because having a little graft vs host, as mentioned previously in this blog, is a good thing, as my sister&#8217;s cells take care of any strangling cancer cells. It also quickly increases the percentage of the cells in my body that are my sisters, a.k.a. mine are getting killed. It seems sibling rivalry can be traced all the way down to the cellular level. These graft vs host (or GVHD) episodes never really amounted to anything, as there wasn&#8217;t enough of a presence to even confirm diagnosis, much less administer treatment.
 

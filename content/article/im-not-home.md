@@ -7,6 +7,8 @@ topics = [ "Leukemia" ]
 
 Well I&#8217;m going back into the hospital!
 
+<!--more-->
+
 Turns out the oral prednisone I was taking at home didn&#8217;t really work the way the IV drip prednisone did, so my billireuben went up. I was actually supposed be admitted today, but the room is still not ready as of 8:00pm (and probably won&#8217;t be until 11:00 or 12:00), so I&#8217;m just going to go in first thing tomorrow morning.
 
 They will be doing another procedure on top of the prednisone that is apparently very effective called photophoriesis. What will happen is they will hook me up to this machine through an IV, and filter out a small amount of my white blood cells, then put the rest back in me. Then they radiate those white blood cells, pump them back into my body, and then hit them with artificial UV sunlight, seemingly for no logical reason.

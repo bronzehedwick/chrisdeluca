@@ -4,11 +4,9 @@
     {{ partial "article-info.html" . }}
   </header>
 
-  <p>
-    {{ .Summary }}
+  {{ .Summary }}
 
-    {{ if .Truncated }}
-      <a href="{{ .Permalink }}">Read More</a>
-    {{ end }}
-  </p>
+  {{ if .Truncated }}
+    <a href="{{ .Permalink }}">Read More</a>
+  {{ end }}
 </article>

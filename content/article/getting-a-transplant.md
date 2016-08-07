@@ -7,6 +7,8 @@ topics = [ "Leukemia" ]
 
 I apologize for not posting for a while, but I&#8217;ve been busy, and busy equals news, so here it is: I am going to get the stem cell transplant. In fact, I&#8217;m being admitted into the hospital today (Jan. 12th).
 
+<!--more-->
+
 The reason I need the transplant, as I&#8217;ve outlined somewhat previously, is that Gleevec did not fully work, in that it put the leukemia into remission, but also knocked the crap out of my blood counts. I had been taking homeopathic remedies, which raised my blood counts significantly. My last counts were relatively good: platelets 38, whites 4.12, and hemoglobin normal (all counts in thousand parts per million). However, the number of Philadelphia chromosomes also came up, as one might imagine they would after not being treated.
 
 After the last check, 75% of the batches checked displayed the mutation. All that mumbo jumbo is to say that I&#8217;m doing the transplant, and it&#8217;s going to go great. I&#8217;m young, otherwise healthy, my sister is young and healthy and a perfect match, and I&#8217;ve got the best support anyone could ask for (and lots that anyone couldn&#8217;t). I have already gotten a catheter placement, which is actually placed in my chest near my right shoulder, for those of you who thought it was placed in my junk. This is just a set of three tubes (sticking out of my chest like some broken cyborg) that allow the doctors to draw blood and give chemo without injections. This will be nice, because I&#8217;ll be have a lot of blood and chemo.

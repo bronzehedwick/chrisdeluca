@@ -7,6 +7,8 @@ topics = [ "Leukemia" ]
 
 Well, it&#8217;s taken me a few days longer to come up with the second part of catching up with transplant boy, but the Olympics were on! Man, that final hockey game was so amazing, I may just start following the sport.
 
+<!--more-->
+
 Right, so in the last part&#8217;s thrilling cliffhanger, I was about to be admitted to the hospital for the transplant procedure. The first part of my stay was pretty boring; they hooked me up to my IV pole (which I stayed connected to at all times) and I hung out for a few days. My room was nice for a hospital, but small. The ward, 8th floor Pavilion East, contained around twenty rooms &#8211; all transplant patients &#8211; surrounding a large nurses station. The entire ward&#8217;s air was filtered and pressurized, and they kept the humidity at 17% to prevent against any sort of bacteria, but it was brutally dry. Even though I drank lots of fluids, and was constantly on a hydration drip, my lips and hands still cracked up. A&D ointment was used liberally.
 
 Throughout my time there, lots of friends and family came to visit, which was very nice; otherwise the days just sort of blended together. After a few days of hanging out, they started me on high-dose chemo through IV. I thought I&#8217;d start puking immediately, or have some other violent reaction, but nothing happened. For four days they loaded me up with chemo, and I felt no adverse side effects. They encouraged me to exorcise, so I would walk three miles around the nurses station a day to keep my muscles moving. A few days after the chemo, I started to feel tired, but not debilitatingly so, and kept up my exorcise.

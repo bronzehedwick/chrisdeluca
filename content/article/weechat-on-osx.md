@@ -4,6 +4,7 @@ title = "weechat on osx"
 draft = true
 +++
 
+<!--more-->
 brew install weechat --with-aspell --with-curl --with-python --with-perl --with-ruby --with-lua --with-guile
 https://gist.github.com/1stvamp/2158128
 Use https://curl.haxx.se/download/curl-7.50.1.tar.bz2
