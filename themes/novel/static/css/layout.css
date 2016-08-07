@@ -137,7 +137,7 @@ pre, code,
   font-size: 0.85em;
 }
 
-.article-info div {
+.article-info * {
   margin-top: 0px;
 }
 
@@ -148,6 +148,7 @@ pre, code,
 
 .article-info__reading {
   float: right;
+  margin-top: 1em;
 }
 
 .article-info:after {
