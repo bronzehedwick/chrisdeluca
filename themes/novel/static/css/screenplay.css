@@ -44,36 +44,31 @@
   margin: 0px;
 }
 
-.screenplay .dialog p.character {
+.screenplay .dialog .character {
   padding-left: 25%;
 }
 
-.screenplay .dialog p.parenthetical {
+.screenplay .dialog .parenthetical {
   padding-left: 2em;
 }
 
 .screenplay .dual > div {
   float: left;
-  width: 48% !important;
+  width: 45%;
 }
 
-.screenplay .dual p.character {
+.screenplay .dual .character {
   padding-left: 6em;
 }
 
-.screenplay .dual p.parenthetical {
+.screenplay .dual .parenthetical {
   padding-left: 3em;
 }
 
 .screenplay .dual p {
   padding-left: 0;
-  width: 19em;
 }
 
 .screenplay .dual .right {
   margin-left: 1em;
-}
-
-.screenplay .dual .right p.character {
-  padding-left: 6em;
 }
