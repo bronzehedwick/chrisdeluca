@@ -84,13 +84,20 @@ article footer li {
 .pagination,
 .article-navigation {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: column nowrap;
   justify-content: space-between;
 }
 
-.pagination li,
-.article-navigation .article-navigation__item {
-  margin: 0px;
+@media screen and (min-width: 32em) {
+  .pagination,
+  .article-navigation {
+    flex-flow: row nowrap;
+  }
+
+  .pagination li,
+  .article-navigation .article-navigation__item {
+    margin: 0px;
+  }
 }
 
 .article-navigation__next:first-of-type {
