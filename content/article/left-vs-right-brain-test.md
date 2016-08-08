@@ -11,172 +11,60 @@ I just took an online test to determine which side of the brain you favor, right
 
 <!--more-->
 
-<table border="1">
-  <tr>
-    <td>
-      <table border="0">
-        <tr>
-          <td colspan="2" align="center">
-            <strong>Right Brain/ Left Brain Quiz</strong>
-          </td>
-        </tr>
-        
-        <tr>
-          <td colspan="2" align="left">
-            The higher of these two numbers below indicates which side of your brain has dominance in your life. Realising your right brain/left brain tendancy will help you interact with and to understand others.
-          </td>
-        </tr>
-        
-        <tr>
-          <td align="right" valign="top">
-            Left Brain Dominance:
-          </td>
-          
-          <td align="left">
-            <img src="http://www.intelliscript.net/test_area/questionnaire/bar_graph.gif" alt="9" width="54" height="12" />(9)
-          </td>
-        </tr>
-        
-        <tr>
-          <td align="right" valign="top">
-            Right Brain Dominance:
-          </td>
-          
-          <td align="left">
-            <img src="http://www.intelliscript.net/test_area/questionnaire/bar_graph.gif" alt="9" width="54" height="12" />(9)
-          </td>
-        </tr>
-        
-        <tr>
-          <td colspan="2" align="center">
-            <span style="font-size:xx-small;"><a href="http://www.intelliscript.net/test_area/questionnaire/questionnaire.cgi?q=right_brain_left_brain_2">Right Brain/ Left Brain Quiz</a></span>
-          </td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-</table>
+## Right Brain/ Left Brain Quiz
+
+The higher of these two numbers below indicates which side of your brain has dominance in your life. Realising your right brain/left brain tendency will help you interact with and to understand others.
+
+<div>
+  <strong>Left Brain Dominance:</strong> <meter value="5" min="1" max="10">Left Brain Dominance</meter> 5/10
+</div>
+
+<div>
+  <strong>Right Brain Dominance:</strong> <meter value="5" min="1" max="10">Right Brain Dominance</meter> 5/10
+</div>
 
 What does this mean? Here&#8217;s the breakdown:
 
-<table border="1">
-  <tr>
-    <th align="left">
-      Left Hemisphere Style
-    </th>
-    
-    <th align="left">
-      Right Hemisphere Style
-    </th>
-  </tr>
-  
-  <tr>
-    <td valign="top">
-      Rational</p> 
-      
-      <ul>
-        <li>
-          Responds to verbal instructions
-        </li>
-        <li>
-          Problem solves by logically and sequentially looking at the parts of things
-        </li>
-        <li>
-          Looks at differences
-        </li>
-        <li>
-          Is planned and structured
-        </li>
-        <li>
-          Prefers established, certain information
-        </li>
-        <li>
-          Prefers talking and writing
-        </li>
-        <li>
-          Prefers multiple choice tests
-        </li>
-        <li>
-          Controls feelings
-        </li>
-        <li>
-          Prefers ranked authority structures
-        </li>
-      </ul>
-    </td>
-    
-    <td valign="top">
-      Intuitive</p> 
-      
-      <ul>
-        <li>
-          Responds to demonstrated instructions
-        </li>
-        <li>
-          Problem solves with hunches, looking for patterns and configurations
-        </li>
-        <li>
-          Looks at similarities
-        </li>
-        <li>
-          Is fluid and spontaneous
-        </li>
-        <li>
-          Prefers elusive, uncertain information
-        </li>
-        <li>
-          Prefers drawing and manipulating objects
-        </li>
-        <li>
-          Prefers open ended questions
-        </li>
-        <li>
-          Free with feelings
-        </li>
-        <li>
-          Prefers collegial authority structures
-        </li>
-      </ul>
-    </td>
-  </tr>
-  
-  <tr>
-    <td valign="top">
-      Sequential</p> 
-      
-      <ul>
-        <li>
-          Is a splitter: distinction important
-        </li>
-        <li>
-          Is logical, sees cause and effect
-        </li>
-      </ul>
-    </td>
-    
-    <td valign="top">
-      Simultaneous</p> 
-      
-      <ul>
-        <li>
-          Is a lumper: connectedness important
-        </li>
-        <li>
-          Is analogic, sees correspondences, resemblances
-        </li>
-      </ul>
-    </td>
-  </tr>
-  
-  <tr>
-    <td valign="top">
-      Draws on previously accumulated, organized information
-    </td>
-    
-    <td valign="top">
-      Draws on unbounded qualitative patterns that are not organized into sequences, but that cluster around images
-    </td>
-  </tr>
-</table>
+### Left Hemisphere Style
 
-Brains are cool! Take the test for yourself; it only takes two minutes.
+Draws on previously accumulated, organized information 
+
+#### Rational
+
+* Responds to verbal instructions
+* Problem solves by logically and sequentially looking at the parts of things
+* Looks at differences
+* Is planned and structured
+* Prefers established, certain information
+* Prefers talking and writing
+* Prefers multiple choice tests
+* Controls feelings
+* Prefers ranked authority structures
+
+#### Sequential
+
+* Is a splitter: distinction important
+* Is logical, sees cause and effect
+
+### Right Hemisphere Style
+
+Draws on unbounded qualitative patterns that are not organized into sequences, but that cluster around images
+
+#### Intuitive
+
+* Responds to demonstrated instructions
+* Problem solves with hunches, looking for patterns and configurations
+* Looks at similarities
+* Is fluid and spontaneous
+* Prefers elusive, uncertain information
+* Prefers drawing and manipulating objects
+* Prefers open ended questions
+* Free with feelings
+* Prefers collegial authority structures
+
+#### Simultaneous
+
+* Is a lumper: connectedness important
+* Is analogic, sees correspondences, resemblances
+
+Brains are cool! [Take the test for yourself](http://www.intelliscript.net/test_area/questionnaire/questionnaire.cgi?q=right_brain_left_brain_2); it only takes two minutes.

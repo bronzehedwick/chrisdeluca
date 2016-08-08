@@ -47,6 +47,14 @@ header + * {
 }
 
 /**
+ * Lists
+ */
+
+li + li {
+  margin-top: 0px;
+}
+
+/**
  * Footers (and navigation)
  */
 
