@@ -1,10 +1,45 @@
 body {
-  font-family: "Palatino Linotype", Palatino, "Book Antiqua", serif;
-  font-size: 1.125em;
+  /* font-family: "Palatino Linotype", Palatino, "Book Antiqua", serif; */
+  font-family: "Book Antiqua", serif;
+  font-size: 1.2em;
   line-height: 1.6;
 }
 
 pre, code, kbd, samp {
   font-family: Menlo, Courier, monospace, monospace;
   font-size: 0.90em;
+}
+
+/**
+ * Quotes
+ */
+
+q {
+  quotes: "“" "”" "‘" "’";
+}
+
+q:before {
+  content: open-quote;
+}
+
+q:after {
+  content: close-quote;
+}
+
+blockquote {
+  color: #888;
+}
+
+blockquote p {
+  padding-left: 0.5em;
+  border-left: 1em solid #d1642a;
+  border-left: 1em solid #FF9900;
+}
+
+/**
+ * Pre-formatted
+ */
+
+.highlight {
+  color: #fff;
 }

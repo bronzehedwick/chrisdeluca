@@ -19,6 +19,10 @@ hr {
   color: #444;
 }
 
+small {
+  color: #999;
+}
+
 /**
  * Links
  */
@@ -27,22 +31,14 @@ a:link,
 a:active,
 a:focus,
 a:visited {
-  color: #108084;
+  color: #2996D2;
   text-decoration: none;
-  border-bottom: 0.075em dotted #108084;
+  border-bottom: 0.075em dotted #2996D2;
   transition: background-color 200ms ease;
 }
 
 a:hover {
-  background-color: rgba(16, 128, 132, 0.05);
-}
-
-small {
-  color: #999;
-}
-
-.highlight {
-  color: #fff;
+  background-color: rgba(41, 150, 210, 0.05);
 }
 
 /**
