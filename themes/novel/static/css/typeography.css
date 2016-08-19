@@ -1,6 +1,5 @@
 body {
-  /* font-family: "Palatino Linotype", Palatino, "Book Antiqua", serif; */
-  font-family: "Book Antiqua", serif;
+  font-family: "Book Antiqua", "Palatino Linotype", Palatino, serif;
   font-size: 1.2em;
   line-height: 1.6;
 }
@@ -33,7 +32,6 @@ blockquote {
 blockquote p {
   padding-left: 0.5em;
   border-left: 1em solid #d1642a;
-  border-left: 1em solid #FF9900;
 }
 
 /**
