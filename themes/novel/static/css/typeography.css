@@ -31,7 +31,7 @@ blockquote {
 
 blockquote p {
   padding-left: 0.5em;
-  border-left: 1em solid #d1642a;
+  border-left: 0.5em solid #d1642a;
 }
 
 /**
