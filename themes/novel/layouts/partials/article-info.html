@@ -26,5 +26,5 @@
     </div>
   {{ end }}
 
-  <div class="article-info__reading">Reading time: {{ .ReadingTime }} minutes</div>
+  <div class="article-info__reading">Reading time: {{ .ReadingTime }} {{ if gt .ReadingTime 1 }}minutes{{ end }}{{ if eq .ReadingTime 1 }}minute{{ end }}</div>
 </div>
