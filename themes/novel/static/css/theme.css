@@ -50,6 +50,47 @@ figure img {
 }
 
 /**
+ * Tables.
+ */
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+}
+
+th {
+  text-align: left;
+}
+
+td, th {
+  padding: 0.5em 1em;
+}
+
+tr {
+  border-bottom: 1px solid #ccc;
+}
+
+tr + tr:last-child {
+  border-bottom: 0px none;
+}
+
+td, th {
+  border-right: 1px solid #ccc;
+}
+
+th + th:last-child,
+td + td:last-child {
+  border-right: 0px none;
+}
+
+thead tr,
+tr:nth-child(even) {
+  background-color: #efefef;
+}
+
+/**
  * Article info.
  */
 
