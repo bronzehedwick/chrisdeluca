@@ -19,7 +19,7 @@ Two things immediately struck me reading the book; one, the rules are streamline
 
 {{< figure src="/images/dwarf-female.png" alt="Female Dwarf" >}}
 
-### The Rules
+## The Rules
 
 When you hear streamlined rules, you may think dumbed down. I want to assure you that that is happily not the case. The rules have been designed to keep focus at the table, not in the rules, and while I haven't tested them yet, I can already tell that they will speed up play. 3rd/3.5/Pathfinder will see the biggest difference, since those systems can get very weighty from its rule-for-everything design, but even 4th players will see an improvement, I think.
 
@@ -31,7 +31,7 @@ A close second in terms of big rules improvements is the proficiency system, whi
 
 Speaking of numbers, 5th harkens back to 2nd and earlier in terms of number scale. Gone are the days of bonuses that dwarf your die roll potential (see above); number bloat is kept on a tight leash. For instance, for the afore mentioned Proficiency Bonuses, everyone stays at the starting +2 for 4 levels, maxing out at +6. Also, the ability scores max out at 20 for PCs, and 30 for monsters. I'm really into this, because PC power bloat isn't fun for the DM or the players, and by god, I want monsters to monstrous again. That's why they're monsters!
 
-### The Roleplaying
+## The Roleplaying
 
 I was pleasantly struck by how deeply ingrained roleplaying was to this edition, which is not an easy feat to pull off, since getting hit is usually painful. There is plenty of fluff regarding the mythos of the world, which most editions have provided (when I say most, I am _not_ looking at you, 4th). Here, however, they go the extra mile, by, for the first time in my memory, explicitly naming and integrating campaign settings in the core book. 
 
