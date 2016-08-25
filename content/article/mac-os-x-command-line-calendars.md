@@ -13,13 +13,13 @@ A quick, fun tip for Mac and command line users who are fans of _The Lord of the
 
 Someone must have spend a good amount of time in the appendixes to figure out these fourty-plus events. To see if today is one of those events, just run this command.
 
-### bash/zsh:
+## bash/zsh
 
 ``` bash
 cat /usr/share/calendar/calendar.lotr | grep $(date +"%m/%d")
 ```
 
-### fish:
+## fish
 
 ``` bash
 cat /usr/share/calendar/calendar.lotr | grep (date +"%m/%d")
@@ -30,7 +30,7 @@ Or maybe you'd like to setup a function that calls the command for easy use, or 
 **Update:**
 I added `-A 0` to the `calendar` command, which limits the display to only events that happened on todays date, instead of tomorrow and yesterday, as well.
 
-### bash/zsh:
+## bash/zsh
 
 ``` bash
 today() {
@@ -42,7 +42,7 @@ today() {
 }
 ```
 
-### fish:
+## fish
 
 ``` fish
 function today
