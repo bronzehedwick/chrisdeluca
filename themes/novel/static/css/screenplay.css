@@ -49,7 +49,7 @@
 }
 
 .screenplay .dialog .parenthetical {
-  padding-left: 2em;
+  padding-left: 4ch;
 }
 
 .screenplay .dual > div {
@@ -70,5 +70,5 @@
 }
 
 .screenplay .dual .right {
-  margin-left: 1em;
+  margin-left: 2ch;
 }

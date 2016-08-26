@@ -30,7 +30,7 @@ p {
 }
 
 * + p {
-  text-indent: 2em;
+  text-indent: 4ch;
 }
 
 p:first-of-type {
@@ -144,7 +144,7 @@ pre, code,
 }
 
 .highlight {
-  padding: 0px 1em;
+  padding: 0px 2ch;
 }
 
 /**
@@ -182,7 +182,7 @@ pre, code,
 
 .align-left {
   float: left;
-  margin-right: 1em;
+  margin-right: 2ch;
 }
 
 .align-left + * {

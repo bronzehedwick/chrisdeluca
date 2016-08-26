@@ -30,8 +30,8 @@ blockquote {
 }
 
 blockquote p {
-  padding-left: 0.5em;
-  border-left: 0.5em solid #d1642a;
+  padding-left: 1ch;
+  border-left: 1ch solid #d1642a;
 }
 
 /**
