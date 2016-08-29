@@ -3,12 +3,20 @@
  */
 
 body {
+  font-family: "Palatino Linotype", Palatino, "Book Antiqua", serif;
+  font-size: 1.2em;
+  line-height: 1.6;
   background-color: #fdfcfa;
   color: #444;
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: #222;
+}
+
+pre, code, kbd, samp {
+  font-family: Menlo, Courier, monospace, monospace;
+  font-size: 0.80em;
 }
 
 hr {
@@ -89,6 +97,57 @@ td + td:last-child {
 thead tr,
 tr:nth-child(even) {
   background-color: #efefef;
+}
+
+/**
+ * Pre-formatted.
+ */
+
+samp, kbd,
+code {
+  padding: 0.5ch;
+  background-color: #efefef;
+}
+
+kbd {
+  padding-left: 1ch;
+  padding-right: 1ch;
+  border-radius: 0.25ch;
+  border: 1px solid #ccc;
+  filter: drop-shadow(0 0.15em 0 #ccc);
+  background-color: #fcfcfc;
+}
+
+.highlight code {
+  padding: 0px;
+  font-size: 1.1em;
+  color: #fff;
+  background-color: transparent;
+}
+
+/**
+ * Quotes
+ */
+
+q {
+  quotes: "“" "”" "‘" "’";
+}
+
+q:before {
+  content: open-quote;
+}
+
+q:after {
+  content: close-quote;
+}
+
+blockquote {
+  color: #888;
+}
+
+blockquote p {
+  padding-left: 1ch;
+  border-left: 1ch solid #d1642a;
 }
 
 /**
