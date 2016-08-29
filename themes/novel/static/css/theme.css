@@ -32,6 +32,19 @@ small {
 }
 
 /**
+ * Paragraphs
+ */
+
+@supports (initial-letter: 2) or (-webkit-initial-letter: 2) {
+  article header + p::first-letter {
+     -webkit-initial-letter: 2;
+     initial-letter: 2;
+     margin-right: 0.5ch;
+     color: #d1642a;
+  }
+}
+
+/**
  * Links
  */
 
