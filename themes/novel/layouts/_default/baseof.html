@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="/css/monokai.css">
   <link rel="author" href="/humans.txt">
 </head>
-<body>
+<body class="{{ if .IsNode }}node{{ end }}{{ if .IsPage }}page{{ end }}{{ if .IsHome }} home{{ end }}">
   <header>
     {{ block "header" . }}
       <h1><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
