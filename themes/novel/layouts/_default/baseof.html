@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
 <head>
-  {{ partial "meta.html" . }}
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ .Site.Params.description }}">
+  {{ .Hugo.Generator }}
   <title>{{ .Title }}</title>
   <link rel="stylesheet" href="/css/normalize.css">
   <link rel="stylesheet" href="/css/layout.css">
@@ -22,7 +26,7 @@
     {{ end }}
   </main>
   <footer>
-    <small>&#169; {{ .Site.Params.author }} {{ dateFormat "2006" .Lastmod }}. All rights reserved.</small>
+    <small>&#169; {{ dateFormat "2006" .Lastmod }} {{ .Site.Params.author }}. All rights reserved.</small>
   </footer>
 </body>
 </html>
