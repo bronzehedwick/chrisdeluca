@@ -1,21 +1,15 @@
 {{ define "main" }}
 
-  <article>
+  <section>
     <header>
       <h1>{{ .Title }}</h1>
-      {{ partial "article-info.html" . }}
     </header>
 
     {{ .Content }}
 
     <footer>
-      <nav>
-        <ul class="article-navigation">
-          {{ if .PrevInSection }}<li class="article-navigation__item article-navigation__prev"><a title="Previous {{ .Type }}" href="{{ .PrevInSection.Permalink }}">&larr; {{ .PrevInSection.Title }}</a></li>{{ end }}
-          {{ if .NextInSection }}<li class="article-navigation__item article-navigation__next"><a title="Next {{ .Type }}" href="{{ .NextInSection.Permalink }}">{{ .NextInSection.Title }} &rarr;</a></li>{{ end }}
-        </ul>
-      </nav>
+      <a href="{{ .Site.BaseURL }}">&larr; Home</a>
     </footer>
-  </article>
+  </section>
 
 {{ end }}
