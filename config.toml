@@ -13,3 +13,43 @@ pygmentsuseclasses = true
 [params]
   author = "Christopher DeLuca"
   description = "Lorum ibsum."
+
+[socialLinks.facebook]
+  color = ""
+  icon = ""
+
+[socialLinks.twitter]
+  color = "#55acee"
+  icon = ""
+
+[socialLinks.stackoverflow]
+  color = "#fe7a15"
+  icon = ""
+
+[socialLinks.drupal]
+  color = "#0077c0"
+  icon = ""
+
+[socialLinks.github]
+  color = "#999"
+  icon = ""
+
+[socialLinks.pinboard]
+  color = ""
+  icon = ""
+
+[socialLinks.newsblur]
+  color = ""
+  icon = ""
+
+[socialLinks.keybase]
+  color = ""
+  icon = ""
+
+[socialLinks.youtube]
+  color = "#e52d27"
+  icon = ""
+
+[socialLinks.linkedin]
+  color = "#0976b4"
+  icon = ""
