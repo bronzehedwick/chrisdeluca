@@ -15,41 +15,51 @@ pygmentsuseclasses = true
   description = "Lorum ibsum."
 
 [socialLinks.facebook]
+  name = "Facebook"
   color = ""
   icon = ""
 
 [socialLinks.twitter]
+  name = "Twitter"
   color = "#55acee"
   icon = ""
 
 [socialLinks.stackoverflow]
+  name = "StackOverflow"
   color = "#fe7a15"
   icon = ""
 
 [socialLinks.drupal]
+  name = "Drupal.org"
   color = "#0077c0"
   icon = ""
 
 [socialLinks.github]
+  name = "Github"
   color = "#999"
   icon = ""
 
 [socialLinks.pinboard]
+  name = "Pinboard"
   color = ""
   icon = ""
 
 [socialLinks.newsblur]
+  name = "Newsblur"
   color = ""
   icon = ""
 
 [socialLinks.keybase]
+  name = "Keybase"
   color = ""
   icon = ""
 
 [socialLinks.youtube]
+  name = "YouTube"
   color = "#e52d27"
   icon = ""
 
 [socialLinks.linkedin]
+  name = "LinkedIn"
   color = "#0976b4"
   icon = ""
