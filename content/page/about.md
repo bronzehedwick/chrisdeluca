@@ -7,3 +7,7 @@ menu = "main"
 +++
 
 Lorum ibsum.
+
+## I'm (technically) social
+
+{{< sociallinks >}}
