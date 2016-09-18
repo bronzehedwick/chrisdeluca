@@ -1,7 +1,7 @@
-<ul class="social-links">
+<ul>
   {{ range .Site.Params.socialLinks }}
-  <li class="social-link__{{ lower .name }}">
-    <a href="{{ .url }}">{{ .name }}</a>
-  </li>
+    <li>
+      <a href="{{ .url }}">{{ .name }}</a>
+    </li>
   {{ end }}
 </ul>

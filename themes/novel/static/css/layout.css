@@ -86,6 +86,15 @@ article footer li {
  * Navigation
  */
 
+nav li {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+nav li:last-of-type {
+  margin-right: 0px;
+}
+
 article header ul,
 article header li,
 article footer ul,

@@ -17,32 +17,32 @@ pygmentsuseclasses = true
   [params.socialLinks.facebook]
     name = "Facebook"
     url = "https://www.facebook.com/christopher.deluca"
-    color = ""
-    icon = ""
+    icon = "svg/facebook.html"
+    featured = true
 
   [params.socialLinks.twitter]
     name = "Twitter"
     url = "https://twitter.com/chrisjohndeluca"
-    color = "#55acee"
-    icon = ""
+    icon = "svg/twitter.html"
+    featured = true
 
   [params.socialLinks.stackoverflow]
     name = "StackOverflow"
     url = "http://stackoverflow.com/users/1143575/bronzehedwick"
-    color = "#fe7a15"
-    icon = ""
+    icon = "svg/stack-overflow.html"
+    featured = true
 
   [params.socialLinks.drupal]
-    name = "Drupal.org"
+    name = "Drupal"
     url = "https://www.drupal.org/u/bronzehedwick"
-    color = "#0077c0"
-    icon = ""
+    icon = "svg/drupal.html"
+    featured = true
 
   [params.socialLinks.github]
     name = "Github"
     url = "https://github.com/bronzehedwick"
-    color = "#999"
-    icon = ""
+    icon = "svg/github.html"
+    featured = true
 
   [params.socialLinks.pinboard]
     name = "Pinboard"
@@ -53,18 +53,25 @@ pygmentsuseclasses = true
   [params.socialLinks.newsblur]
     name = "Newsblur"
     url = "http://bronzehedwick.newsblur.com/"
-    color = "#E6AF4C"
+    color = "#e6af4c"
     icon = ""
 
   [params.socialLinks.keybase]
     name = "Keybase"
-    color = "https://keybase.io/bronzehedwick"
-    icon = ""
+    url = "https://keybase.io/bronzehedwick"
+    icon = "svg/keybase.html"
+    featured = true
 
   [params.socialLinks.youtube]
     name = "YouTube"
     url = "https://www.youtube.com/channel/UChfcp3RhN0FJOnTZquDRzYw"
     color = "#e52d27"
+    icon = ""
+
+  [params.socialLinks.instagram]
+    name = "Instagram"
+    url = "https://www.instagram.com/bronzehedwick/"
+    color = "#cc39a2"
     icon = ""
 
   [params.socialLinks.reddit]

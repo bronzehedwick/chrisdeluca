@@ -33,13 +33,17 @@
     {{ end }}
   </main>
   <footer>
-    <ul class="social-links">
-      {{ range .Site.Params.socialLinks }}
-      <li class="social-link__{{ lower .name }}">
-        <a href="{{ .url }}">{{ .name }}</a>
-      </li>
-      {{ end }}
-    </ul>
+    <nav class="social-links">
+      <ul>
+        {{ range .Site.Params.socialLinks }}
+          {{ if .featured }}
+            <li class="social-link__{{ lower .name }}">
+              <a href="{{ .url }}" title="{{ .name }}">{{ partial .icon . }}</a>
+            </li>
+          {{ end }}
+        {{ end }}
+      </ul>
+    </nav>
     <small>&#169; {{ dateFormat "2006" .Lastmod }} {{ .Site.Params.author }}. All rights reserved.</small>
   </footer>
 </body>

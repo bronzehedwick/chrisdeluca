@@ -193,3 +193,56 @@ blockquote p {
 .article-info__topics li:first-of-type:before {
   content: '';
 }
+
+/**
+ * Social links.
+ */
+
+.social-links a {
+  border-bottom: none;
+}
+
+.social-links a:hover {
+  background-color: transparent;
+}
+
+.social-links svg {
+  width: 1.2em;
+}
+
+.social-links path {
+  transition: fill 200ms ease;
+}
+
+.social-link__twitter a:hover path {
+  fill: #55acee;
+}
+
+.social-link__github a:hover path {
+  fill: #4078c0;
+}
+
+.social-link__stackoverflow a:hover path {
+  fill: #fe7a15;
+}
+
+.social-link__facebook a:hover path:first-child {
+  fill: #395185;
+}
+
+.social-link__keybase a:hover path {
+  fill: #ff7100;
+}
+
+.social-link__drupal a:hover path {
+  fill: #0077c0;
+}
+
+.social-link__drupal a:hover path:nth-child(2),
+.social-link__drupal a:hover path:nth-child(3),
+.social-link__drupal a:hover path:nth-child(4),
+.social-link__drupal a:hover path:nth-child(5),
+.social-link__drupal a:hover path:nth-child(7),
+.social-link__drupal a:hover path:nth-child(8) {
+  fill: #f0f0f0;
+}
