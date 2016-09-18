@@ -246,3 +246,11 @@ blockquote p {
 .social-link__drupal a:hover path:nth-child(8) {
   fill: #f0f0f0;
 }
+
+.social-link__instagram a:hover path {
+  fill: #cc39a2;
+}
+
+.social-link__youtube a:hover path:last-of-type {
+  fill: #e52d27;
+}
