@@ -35,7 +35,7 @@
   <footer>
     <nav class="social-links">
       <ul>
-        {{ range .Site.Params.socialLinks }}
+        {{ range sort .Site.Params.socialLinks "weight" "desc" }}
           {{ if .featured }}
             <li class="social-link__{{ lower .name }}">
               <a href="{{ .url }}" title="{{ .name }}">{{ partial .icon . }}</a>

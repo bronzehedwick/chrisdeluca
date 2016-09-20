@@ -14,64 +14,68 @@ pygmentsuseclasses = true
   author = "Christopher DeLuca"
   description = "Lorum ibsum."
 
-  [params.socialLinks.facebook]
-    name = "Facebook"
-    url = "https://www.facebook.com/christopher.deluca"
-    icon = "svg/facebook.html"
-    featured = true
-
   [params.socialLinks.twitter]
     name = "Twitter"
     url = "https://twitter.com/chrisjohndeluca"
     icon = "svg/twitter.html"
+    weight = 50
     featured = true
 
   [params.socialLinks.stackoverflow]
     name = "StackOverflow"
     url = "http://stackoverflow.com/users/1143575/bronzehedwick"
     icon = "svg/stack-overflow.html"
-    featured = true
+    weight = 31
+    featured = false
 
   [params.socialLinks.drupal]
     name = "Drupal"
     url = "https://www.drupal.org/u/bronzehedwick"
     icon = "svg/drupal.html"
-    featured = true
+    weight = 12
+    featured = false
 
   [params.socialLinks.github]
     name = "Github"
     url = "https://github.com/bronzehedwick"
     icon = "svg/github.html"
+    weight = 45
     featured = true
 
   [params.socialLinks.pinboard]
     name = "Pinboard"
     url = "https://pinboard.in/u:bronzehedwick"
-    color = ""
     icon = ""
+    weight = 30
+    featured = false
 
   [params.socialLinks.newsblur]
     name = "Newsblur"
     url = "http://bronzehedwick.newsblur.com/"
     color = "#e6af4c"
     icon = ""
+    weight = 25
+    featured = false
 
   [params.socialLinks.keybase]
     name = "Keybase"
     url = "https://keybase.io/bronzehedwick"
     icon = "svg/keybase.html"
+    weight = 43
     featured = true
 
   [params.socialLinks.youtube]
     name = "YouTube"
     url = "https://www.youtube.com/channel/UChfcp3RhN0FJOnTZquDRzYw"
     icon = "svg/youtube.html"
+    weight = 35
     featured = true
 
   [params.socialLinks.instagram]
     name = "Instagram"
     url = "https://www.instagram.com/bronzehedwick/"
     icon = "svg/instagram.html"
+    weight = 40
     featured = true
 
   [params.socialLinks.reddit]
@@ -79,9 +83,13 @@ pygmentsuseclasses = true
     url = "https://www.reddit.com/user/bronzehedwick"
     color = "#0976b4"
     icon = ""
+    weight = 15
+    featured = false
 
   [params.socialLinks.linkedin]
     name = "LinkedIn"
     url = "https://www.linkedin.com/in/christopherdeluca"
     color = "#0976b4"
     icon = ""
+    weight = -50
+    featured = false

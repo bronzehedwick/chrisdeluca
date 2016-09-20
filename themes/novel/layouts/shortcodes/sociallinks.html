@@ -1,5 +1,5 @@
 <ul>
-  {{ range .Site.Params.socialLinks }}
+  {{ range sort .Site.Params.socialLinks "weight" "desc" }}
     <li>
       <a href="{{ .url }}">{{ .name }}</a>
     </li>
