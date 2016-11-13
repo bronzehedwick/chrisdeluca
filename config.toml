@@ -12,7 +12,7 @@ pygmentsuseclasses = true
 
 [params]
   author = "Christopher DeLuca"
-  description = "Lorum ibsum."
+  description = "The blog of the person"
 
   [params.socialLinks.twitter]
     name = "Twitter"

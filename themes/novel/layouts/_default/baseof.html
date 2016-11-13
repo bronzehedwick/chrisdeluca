@@ -14,11 +14,14 @@
   <link rel="stylesheet" href="/css/oceanic-next.css">
   <link rel="author" href="/humans.txt">
 </head>
+
 <body class="{{ if .IsNode }}node{{ end }}{{ if .IsPage }}page{{ end }}{{ if .IsHome }} home{{ end }}">
   <header>
     {{ block "header" . }}
       <h1><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
+      <p>{{ .Site.Params.description }}</p>
     {{ end }}
+
     <nav>
       <ul class="main-menu">
         {{ range .Site.Menus.main }}
@@ -27,11 +30,13 @@
       </ul>
     </nav>
   </header>
+
   <main>
     {{ block "main" . }}
       <!-- The part of the page that differs between templates -->
     {{ end }}
   </main>
+
   <footer>
     <nav class="social-links">
       <ul>
@@ -44,6 +49,7 @@
         {{ end }}
       </ul>
     </nav>
+
     <small>&#169; {{ dateFormat "2006" .Lastmod }} {{ .Site.Params.author }}. All rights reserved.</small>
   </footer>
 </body>
