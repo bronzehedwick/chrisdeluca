@@ -44,6 +44,20 @@ small {
 }
 
 /**
+ * Headings
+ */
+
+
+body > header {
+  text-align: center;
+}
+
+body > header p {
+  color: #999;
+  font-style: italic;
+}
+
+/**
  * Paragraphs
  */
 
