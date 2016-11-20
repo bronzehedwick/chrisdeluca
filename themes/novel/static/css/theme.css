@@ -40,7 +40,7 @@ hr {
 }
 
 small {
-  color: #999;
+  color: #929292;
 }
 
 /**
@@ -53,7 +53,7 @@ body > header {
 }
 
 body > header p {
-  color: #777;
+  color: #757575;
   font-style: italic;
 }
 
@@ -78,9 +78,9 @@ a:link,
 a:active,
 a:focus,
 a:visited {
-  color: #2996D2;
+  color: #007cb2;
   text-decoration: none;
-  border-bottom: 0.075em dotted #2996D2;
+  border-bottom: 0.075em dotted #007cb2;
   transition: background-color 200ms ease;
 }
 
