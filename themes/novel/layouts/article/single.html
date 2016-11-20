@@ -10,9 +10,18 @@
 
     <footer>
       <nav>
-        <ul class="article-navigation">
-          {{ if .PrevInSection }}<li class="article-navigation__item article-navigation__prev"><a title="Previous {{ .Type }}" href="{{ .PrevInSection.Permalink }}">&larr; {{ .PrevInSection.Title }}</a></li>{{ end }}
-          {{ if .NextInSection }}<li class="article-navigation__item article-navigation__next"><a title="Next {{ .Type }}" href="{{ .NextInSection.Permalink }}">{{ .NextInSection.Title }} &rarr;</a></li>{{ end }}
+        <ul class="pagination article-navigation">
+          {{ if .PrevInSection }}
+            <li class="pagination__item pagination__prev article-navigation__item article-navigation__prev">
+              <a title="Previous {{ .Type }}" href="{{ .PrevInSection.Permalink }}">&larr; {{ .PrevInSection.Title }}</a>
+            </li>
+          {{ end }}
+
+          {{ if .NextInSection }}
+            <li class="pagination__item pagination__next article-navigation__item article-navigation__next">
+              <a title="Next {{ .Type }}" href="{{ .NextInSection.Permalink }}">{{ .NextInSection.Title }} &rarr;</a>
+            </li>
+          {{ end }}
         </ul>
       </nav>
     </footer>

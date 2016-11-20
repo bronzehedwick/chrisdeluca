@@ -102,26 +102,23 @@ article footer li {
   display: inline;
 }
 
-.pagination,
-.article-navigation {
+.pagination {
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-between;
 }
 
 @media screen and (min-width: 32em) {
-  .pagination,
-  .article-navigation {
+  .pagination {
     flex-flow: row nowrap;
   }
 
-  .pagination li,
-  .article-navigation .article-navigation__item {
+  .pagination__item {
     margin: 0px;
   }
 }
 
-.article-navigation__next:first-of-type {
+.pagination__next:first-of-type {
   width: 100%;
   text-align: right;
 }

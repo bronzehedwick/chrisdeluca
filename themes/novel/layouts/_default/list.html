@@ -9,6 +9,9 @@
   {{ range $paginator.Pages }}
     {{ .Render "summary" }}
   {{ end }}
-  {{ template "_internal/pagination.html" . }}
+
+  <footer>
+    {{ partial "pagination.html" . }}
+  </footer>
 
 {{ end }}

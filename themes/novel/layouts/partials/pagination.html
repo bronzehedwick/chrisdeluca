@@ -1,0 +1,14 @@
+<ul class="pagination">
+  {{ if .Paginator.HasNext }}
+    <li class="pagination__item pagination__prev">
+      <a href="{{ .Paginator.Next.URL }}" title="Older stories">&larr; Older</a>
+    </li>
+  {{ end }}
+
+  {{ if .Paginator.HasPrev }}
+    <li class="pagination__item pagination__next">
+      <a href="{{ .Paginator.Prev.URL }}" title="Newer stories">Newer &rarr;</a>
+    </li>
+  {{ end }}
+</ul>
+
