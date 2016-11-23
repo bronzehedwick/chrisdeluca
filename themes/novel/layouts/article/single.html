@@ -6,6 +6,10 @@
       {{ partial "article-info.html" . }}
     </header>
 
+    {{ if .Params.toc }}
+      {{ .TableOfContents }}
+    {{ end }}
+
     {{ .Content }}
 
     <footer>

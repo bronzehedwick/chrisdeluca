@@ -123,6 +123,12 @@ article footer li {
   text-align: right;
 }
 
+#TableOfContents li li {
+  display: list-item;
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
 /**
  * Images
  */
