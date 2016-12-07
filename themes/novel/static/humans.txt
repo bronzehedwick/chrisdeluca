@@ -1,5 +1,5 @@
 /* TEAM */
-Your title: Christopher DeLuca.
+Developer: Christopher DeLuca.
 Twitter: @chrisjohndeluca.
 Location: New York, USA.
 
