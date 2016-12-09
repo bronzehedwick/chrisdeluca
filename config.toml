@@ -5,6 +5,8 @@ theme = "novel"
 PygmentsCodeFences = true
 enableRobotsTXT = true
 pygmentsuseclasses = true
+enableEmoji = true
+editor = "neovim-qt"
 
 [taxonomies]
   topic = "topics"

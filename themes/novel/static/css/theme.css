@@ -62,6 +62,7 @@ body > header p {
  */
 
 @supports (initial-letter: 2) or (-webkit-initial-letter: 2) {
+  section header + p::first-letter,
   article header + p::first-letter {
      -webkit-initial-letter: 2;
      initial-letter: 2;
