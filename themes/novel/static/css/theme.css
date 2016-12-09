@@ -43,6 +43,10 @@ small {
   color: #929292;
 }
 
+abbr {
+  cursor: help;
+}
+
 /**
  * Headings
  */
@@ -144,9 +148,15 @@ tr:nth-child(even) {
  */
 
 samp, kbd,
-code {
+pre, code {
   padding: 0.5ch;
   background-color: #efefef;
+}
+
+pre {
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
 }
 
 kbd {
@@ -156,6 +166,10 @@ kbd {
   border: 1px solid #ccc;
   filter: drop-shadow(0 0.15em 0 #ccc);
   background-color: #fcfcfc;
+}
+
+.highlight pre {
+  background-color: transparent;
 }
 
 .highlight code {
