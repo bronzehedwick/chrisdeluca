@@ -4,7 +4,7 @@
     {{ partial "article-info.html" . }}
   </header>
 
-  {{ .Summary }}
+  <p>{{ htmlUnescape .Summary | plainify }}</p>
 
   {{ if .Truncated }}
     <a href="{{ .Permalink }}">Read More</a>
