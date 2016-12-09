@@ -1,6 +1,6 @@
 <div class="article-info">
   <div class="article-info__published">
-    Published <time datetime="{{ .Date }}">{{ .Date.Format "January 2, 2006" }}</time>
+    Published <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
     {{ if .Params.categories }}
       in
       {{ range .Params.categories }}
