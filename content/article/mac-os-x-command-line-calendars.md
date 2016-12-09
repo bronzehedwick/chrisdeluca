@@ -9,7 +9,11 @@ topics = [
 ]
 +++
 
-A quick, fun tip for Mac and command line users who are fans of _The Lord of the Rings_;<!--more--> Mac OS X ships with the BSD command line calendars, which show important dates in history for various interests. Among the likely candidates of holidays, famous birthdays, and music, there's a little easter egg for all the fantasy nerds out there (and let's be honest, if you know how to work a terminal, chances are you've read a fantasy novel or two). That's right, important dates in _The Lord of the Rings_.
+A quick, fun tip for Mac and command line users who are fans of _The Lord of the Rings_;
+
+<!--more-->
+
+Mac OS X ships with the BSD command line calendars, which show important dates in history for various interests. Among the likely candidates of holidays, famous birthdays, and music, there's a little easter egg for all the fantasy nerds out there (and let's be honest, if you know how to work a terminal, chances are you've read a fantasy novel or two). That's right, important dates in _The Lord of the Rings_.
 
 Someone must have spend a good amount of time in the appendixes to figure out these fourty-plus events. To see if today is one of those events, just run this command.
 

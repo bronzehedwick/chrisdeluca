@@ -12,11 +12,13 @@ topics = [
 ]
 +++
 
+If you like JavaScript `this` binding, and the comedy classic _Who's on First?_, then is this the mashup for you!
+
+<!--more-->
+
 <div id="wrapper" class="screenplay">
 <h6>INT. OFFICE - DAY</h6>
 <div class="action"><p>Two programmers, Phil and Mary, sit at their desks, typing. After a moment, Phil turns to Mary, and shows her a piece of code, which looks like this:</p></div>
-
-<!--more-->
 
 {{< highlight javascript "linenos=inline" >}}
 function showInfo() {

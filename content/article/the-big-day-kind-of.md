@@ -5,7 +5,11 @@ categories = [ "Essays" ]
 topics = [ "Leukemia" ]
 +++
 
-Well folks, the big day has come and gone (please refer to my last post), and it turns out to have been a big anti-climax.<!--more--> First, I went to the podiatrist, and they DIDN&#8217;T operate on my toes, which I was expecting. For this I am very grateful, but NOT getting giant needles and construction grade wire-clippers stuck in and around your toes is far less dramatic than the opposite. Then, I go to the hospital to get my big cellular test&#8230;however three big things conspired to make this event less significant.
+Well folks, the big day has come and gone (please refer to my last post), and it turns out to have been a big anti-climax.
+
+<!--more-->
+
+First, I went to the podiatrist, and they DIDN&#8217;T operate on my toes, which I was expecting. For this I am very grateful, but NOT getting giant needles and construction grade wire-clippers stuck in and around your toes is far less dramatic than the opposite. Then, I go to the hospital to get my big cellular test&#8230;however three big things conspired to make this event less significant.
 
 First, I was wrong, it was not a cellular test, but a genetic test, which actually makes sense. CML is caused by gene 9 and gene 22 getting messed up (no one knows why or how) and breaking apart, then fusing together to create a weird mutant gene that breeds cancer cells. So while I have no describable cancer cells in my blood, this test is checking to see how many CML genes there are, a.k.a the Philadelphia chromosome. At the onset of treatment, I had about 80% of my 9s and 22s fused into Philly chromes, and the bare minimum goal for one year of treatment is 30%&#8230;otherwise they&#8217;ll treat me differently. Not socially I imagine, but medically.
 

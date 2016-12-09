@@ -10,7 +10,11 @@ topics = [
 ]
 +++
 
-[Jekyll](http://jekyllrb.com/) is a tool for static site generation, and it's what powers [Github pages](https://pages.github.com/), both of which generate and host this site, respectively.<!--more--> It's a fantastic tool for hackers to create simple, and fast (see static site, above) blogs using minimal configuration, the [Liquid templating engine](http://docs.shopify.com/themes/liquid-documentation/basics) for layout, and [markdown](https://help.github.com/articles/markdown-basics) for posts.
+[Jekyll](http://jekyllrb.com/) is a tool for static site generation, and it's what powers [Github pages](https://pages.github.com/), both of which generate and host this site, respectively.
+
+<!--more-->
+
+It's a fantastic tool for hackers to create simple, and fast (see static site, above) blogs using minimal configuration, the [Liquid templating engine](http://docs.shopify.com/themes/liquid-documentation/basics) for layout, and [markdown](https://help.github.com/articles/markdown-basics) for posts.
 
 I had previously used [Wordpress](wordpress.org) as my blogging platform of choice, like so many others, and came to Jekyll because of it's simplicity, it's speed, and it's hackability, not to mention that as a Github user, you are entitled to a free Jekyll (or static HTML) site hosted on their blazing fast setup.
 
