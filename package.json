@@ -1,0 +1,21 @@
+{
+  "name": "chrisdeluca.me",
+  "version": "1.0.0",
+  "description": "Chris DeLuca's personal site.",
+  "main": "public/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "hugo serve > hugo.log 2>&1 &",
+    "stop": "pgrep hugo | xargs kill"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bronzehedwick/chrisdeluca.git"
+  },
+  "author": "Chris DeLuca",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/bronzehedwick/chrisdeluca/issues"
+  },
+  "homepage": "https://github.com/bronzehedwick/chrisdeluca#readme"
+}
