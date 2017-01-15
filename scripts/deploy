@@ -1,0 +1,38 @@
+#!/bin/sh
+# Build the site, then sync it to the server.
+# Do so in a way that keeps backups and allows for easy rollbacks.
+
+## Variables ##
+
+# Build destination on the server.
+BUILDS=/tmp/builds
+# Where the remote webserver expects the site.
+SERVE=/tmp/serve
+# Current timestamp for the directory.
+NOW="$(date "+%Y%m%d%H%M%S")"
+
+
+## Main ##
+
+# Clean the local public directory, to make sure we have atomic builds.
+rm -rf public
+
+# Generate the static site.
+hugo
+
+# Make sure the remote directories that the script expects exist.
+mkdir -p "$BUILDS" && mkdir -p "$SERVE"
+
+# Sync the built site to a dated directory.
+rsync -az public "$BUILDS/$NOW"
+
+## SSH THIS: from here on down, this should be an EOF ssh command. ##
+
+# Update the site symlink to the latest version.
+if [ -h "$SERVE/public" ]; then
+  unlink "$SERVE/public"
+fi
+ln -s "$BUILDS/$NOW/public" "$SERVE"
+
+# Clean up old builds.
+find "$BUILDS" -d 1 -type d | grep -v "$NOW" | xargs rm -r
