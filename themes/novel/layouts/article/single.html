@@ -3,6 +3,7 @@
   <article>
     <header>
       <h1>{{ .Title }}</h1>
+      {{ if .Params.subtitle }}<p>{{ .Params.subtitle }}</p>{{ end }}
       {{ partial "article-info.html" . }}
     </header>
 
