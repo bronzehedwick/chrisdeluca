@@ -51,7 +51,6 @@ abbr {
  * Headings
  */
 
-
 body > header {
   text-align: center;
 }
@@ -201,6 +200,19 @@ blockquote {
 blockquote p {
   padding-left: 1ch;
   border-left: 1ch solid #d1642a;
+}
+
+/**
+ * Table of Contents
+ */
+
+#TableOfContents ul {
+  margin-top: 0px;
+  padding-left: 2em;
+}
+
+#TableOfContents > ul {
+  padding: 0px;
 }
 
 /**
