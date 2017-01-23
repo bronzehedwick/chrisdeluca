@@ -216,6 +216,19 @@ blockquote p {
 }
 
 /**
+ * Details/Summary
+ */
+
+details {
+  margin-bottom: 1em;
+}
+
+summary {
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/**
  * Article info.
  */
 

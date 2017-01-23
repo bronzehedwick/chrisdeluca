@@ -8,8 +8,10 @@
     </header>
 
     {{ if .Params.toc }}
-      <h2>Table of Contents</h2>
-      {{ .TableOfContents }}
+      <details>
+        <summary>Table of Contents</summary>
+        {{ .TableOfContents }}
+      </details>
     {{ end }}
 
     {{ .Content }}
