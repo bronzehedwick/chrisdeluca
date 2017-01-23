@@ -11,13 +11,14 @@ categories = [
   "Tech"
 ]
 draft = true
-
 +++
 
 Confused about what privacy versus security means in the context of the
 internet? Haven't heard these terms before, but are intrigued nonetheless? Not
 interested in any of this, but are inexplicably still reading? Whatever your
 deal is, welcome - you've found the laypersons guide to all this crap!
+
+<!--more-->
 
 ## What is Internet security?
 
@@ -73,6 +74,12 @@ Anyone who can get a piece of your data can make a profit, and lots of times
 that payout can be immense. This gives both legitimate, legally-operating
 corporations as well as criminals the same powerful incentive: collect as
 much of your data as possible.
+
+## Is data collection always a bad thing?
+
+No, not necessarily, but it depends on your comfort level. Criminal activity is
+obviously always a bad thing, but you may be okay with certain uses of your private information by corporations or others. Ultimately, if you choose to share
+information, that should be a *your* choice.
 
 ## Can my security and privacy be improved?
 
