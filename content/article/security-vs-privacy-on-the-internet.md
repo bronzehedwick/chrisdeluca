@@ -3,8 +3,13 @@ date = "2017-01-22T11:39:26-05:00"
 title = "Security vs Privacy on the Internet"
 subtitle = "A lay-person's guide to the differences"
 toc = true
-topics = []
-categories = []
+topics = [
+  "security",
+  "privacy"
+]
+categories = [
+  "Tech"
+]
 draft = true
 
 +++
