@@ -5,14 +5,16 @@
       <h1>{{ .Title }}</h1>
       {{ if .Params.subtitle }}<p>{{ .Params.subtitle }}</p>{{ end }}
       {{ partial "article-info.html" . }}
-    </header>
 
-    {{ if .Params.toc }}
-      <details>
-        <summary>Table of Contents</summary>
-        {{ .TableOfContents }}
-      </details>
-    {{ end }}
+      {{ if .IsPage }}
+        {{ if .Params.toc }}
+          <details>
+            <summary>Table of Contents</summary>
+            {{ .TableOfContents }}
+          </details>
+        {{ end }}
+      {{ end }}
+    </header>
 
     {{ .Content }}
 
