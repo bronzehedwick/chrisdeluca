@@ -27,7 +27,7 @@ means in the physical world - keeping bad folks out of your stuff - but what
 does it mean online?
 
 The basic principles are the same; security means defense against unwanted -
-and usually criminal - intrusion to your stuff. In the physical world, that
+and usually criminal - intrusion. In the physical world, that
 would mean access to your house or apartment (or pockets), to steal your cash,
 jewelry, credit cards, or vintage *My Little Pony* collection.
 On the internet, it would mean access to your various online accounts,
@@ -44,15 +44,15 @@ Okay, so we know what Internet security is (as long as I did an okay job of
 explaining above), but what about privacy? How is that different?
 
 Internet privacy is the defense against unwanted - and usually *legal* -
-intrusion to your stuff by *trusted entities*.
+intrusion by *trusted entities*.
 
 ### Wait, what?
 
 Behind that jargon is this simple explanation: companies profit from your
 personal information, the depth and breadth of which you might not realize is
 being collected. This usually comes in the form of trackers hidden on most
-sites, that aggregate personal information about you, which will usually be
-re-sold any number of times.
+sites which aggregate personal information about you. This information will
+usually be re-sold any number of times.
 
 In the physical world, this would be like if *General Motors* hired a private
 investigator to trail you everywhere you went, and report back every piece of
@@ -65,21 +65,22 @@ because they are more invisible to the general public.
 
 ## What are they after?
 
-If my allusions to this weren't already clear, let me make it plain. In both
-cases, for security and privacy concerns, the answer is the same: they are after data.
-This is the information age; **data is the most valuble commodity
-on the internet** (and everywhere else, for that matter).
+In both cases, for security and privacy concerns, the answer is the same:
+they are after data. This is the information age;
+**data is the most valuble commodity on the internet** (and everywhere else,
+for that matter).
 
 Anyone who can get a piece of your data can make a profit, and lots of times
 that payout can be immense. This gives both legitimate, legally-operating
-corporations as well as criminals the same powerful incentive: collect as
+corporations, as well as criminals, the same powerful incentive: collect as
 much of your data as possible.
 
 ## Is data collection always a bad thing?
 
 No, not necessarily, but it depends on your comfort level. Criminal activity is
-obviously always a bad thing, but you may be okay with certain uses of your private information by corporations or others. Ultimately, if you choose to share
-information, that should be a *your* choice.
+obviously always a bad thing, but you may be okay with certain uses of your
+private information by corporations or others. Whatever you decide, choosing
+to share you data should be just that: *your choice*.
 
 ## Can my security and privacy be improved?
 
@@ -92,14 +93,14 @@ respectively.
 These articles also will get into why security and privacy are important,
 although hopefully this is already self-evident. In addition, they will cover in
 more detail the types of attacks, schemes and dangers that effect the common
-person-on-the-street, especially as the Trump administration takes power.
+person, especially as the Trump administration ramps up.
 
 I will update this article with the new links as they are published, so
-if you're reading this article in the future, you can click them now!
+if you're reading this in the future, you can click them now!
 Otherwise, just chill.
 
 ## I have a question!
 
 Great! I'm happy to answer any questions you might have. I don't host comments
 on this site, but please feel free to reach out on any of my social networks
-listed via the icons below, or on my about page.
+listed via the icons below, or on my [about page]({{< relref "page/about.md" >}}).
