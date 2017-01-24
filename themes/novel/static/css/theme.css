@@ -207,6 +207,7 @@ blockquote p {
  */
 
 #TableOfContents ul {
+  display: block;
   margin-top: 0px;
   padding-left: 2em;
 }
