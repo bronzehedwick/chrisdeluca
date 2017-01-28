@@ -64,11 +64,11 @@ body > header p {
  * Paragraphs
  */
 
-@supports (initial-letter: 2) or (-webkit-initial-letter: 2) {
+@supports (initial-letter: 3) or (-webkit-initial-letter: 3) {
   section header + p::first-letter,
   article header + p::first-letter {
-     -webkit-initial-letter: 2;
-     initial-letter: 2;
+     -webkit-initial-letter: 3;
+     initial-letter: 3;
      margin-right: 0.5ch;
      color: #d1642a;
   }
