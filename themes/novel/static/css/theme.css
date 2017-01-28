@@ -74,6 +74,15 @@ body > header p {
   }
 }
 
+.page article > p:last-of-type:after {
+  content: ' ◆';
+}
+
+.screenplay p:last-of-type:after,
+.page header p:last-of-type:after {
+  content: none;
+}
+
 /**
  * Links
  */
