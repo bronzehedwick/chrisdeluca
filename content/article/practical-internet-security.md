@@ -12,12 +12,20 @@ categories = [
 draft = true
 +++
 
-Welcome internet traveler, you've found your way to a guide on how to improve
+Welcome internet traveler, you've found your way to my guide on how to improve
 your online security. Already feel confident in your security abilities? Then
 get lost! I don't need that kind of arrogance around here, especially when I'm
 trying to sound smart. The rest of you nice, humble people, read on.
 
 <!--more-->
+
+No discussion of security can be complete, so I have focused on the most common
+threats that the majority of folks will encounter and easy and effective
+solutions for them. However, despite what diet commercials tell us, nothing
+worthwhile comes without effort. If you're serious about improving your
+security, it will take at the very least some focus and attention.
+
+## Article Series
 
 This article is part of a series of posts dealing with internet security and
 privacy. Collect 'em all! :bug:
@@ -41,8 +49,8 @@ be safe. Or, if you're on the more paranoid side, you might think you need to
 keep away from some shady hacker collective that has a personal vendetta against
 *you*.
 
-Despite what movies have told us, both of these scenarios, and most likely that
-other one you're thinking of right now, doesn't really happen much, if at all.
+Both of these scenarios, and most likely that other one you're thinking of right
+now, doesn't really happen much, if at all.
 No one is sitting there guessing your password (no human, at least).
 
 So what does happen?
@@ -80,7 +88,7 @@ A more measured, incremental approach is many times more successful, and more
 accurately reflects that security isn't an end-goal, but rather a continuing
 process. Thems the breaks.
 
-### Two factor authentication
+### 1. Two factor authentication
 
 Two factor authentication just might be the biggest bang for the buck in terms
 of boosting your internet security.
@@ -111,7 +119,7 @@ their platform, the links for which are listed below, because I'm nice.
 You can see an extensive list of services that provide two factor authentication over at
 [twofactorauth.org](https://twofactorauth.org/).
 
-### Passwords
+### 2. Passwords
 
 Admit it, your password sucks. It uses words from the dictionary, doesn't use
 special characters, and is just your social security number. Well, good news;
@@ -147,19 +155,14 @@ hypothetically, writhing in privilege.
 
 Well, congratulations, person-I-made-up-for-convenience, for turning on two
 factor authentication, but if two factor is the only thing you have reasonably
-protecting your account, it's only single factor authentication.
-
-Think that's enough? Tell that to this chump, who was so confident in only two
-factor authentication that he posted his password publicly. Guess what happened?
-He got wicked hacked. Granted, he called a hell of a lot of attention to himself
-by posting a big article on how hackers couldn't hack him, but still. Keep two
-factor authentication at two factors.
+protecting your account, it's only single factor authentication, which defeats
+the purpose. Passwords, however unfortunately, still matter.
 
 How do password managers improve your security? They leverage the same thing
-that attackers use to crack your accounts to protect them, a computer. Can't
+attackers use to crack your accounts to protect them: a computer. Can't
 remember 200 unique and secure passwords for all your online accounts? I don't
 blame you. So let the computer do what it does best: hard, boring crap humans
-are bad at, like generating and remembering lots of passwords.
+are bad at. Like generating and remembering lots of passwords.
 
 * [Last Pass](https://www.lastpass.com/) has a free tier, and is only $12 a year
 for all the features (syncing to multiple devices and such), so it's pretty
@@ -190,7 +193,7 @@ remember.
 For your next password, instead of something like, `password`, try
 something like, `This is my really gr8t passphrase, you weirdo goof balls!`[^1]
 
-### Knowledge is power
+### 3. Knowledge is power
 
 Think you've been the victim of a hack? Suspicious that your private details
 might be leaked to the general public? Read this far and are somehow not
@@ -216,7 +219,19 @@ has already been publicly leaked. As such, it is very ethical, but also will not
 know about a security breach that isn't publicly available, which can sometimes
 take years after the event itself.
 
-### Keeping your wits about you
+### 4. Update your software
+
+Software developers and attackers are in a constant arms race to find holes in
+software, and depending on which side you're on, plug them or poke through them.
+In that way, it's a lot like the E.R., except in addition to the doctor patching
+victims up, there's another guy poking their wounds. Not my best analogy, I
+admit.
+
+Anyway, it's important to stay on top of software updates to your operating
+system (Windows, macOS), and your other installed applications. Luckily, this is
+now pretty painless. Just click the button. Yay, you won!
+
+### 5. Check the URL
 
 The last important thing to do to improve your security is to be careful of
 being tricked into giving up your account information.
@@ -234,8 +249,6 @@ One scam going around was a page that looked exactly like the Google login page,
 which tricked users into entering their password and even their two factor
 authentication code to a malicious dingwad. How can you tell the difference?
 
-#### Check the URL
-
 Consider these safe examples:
 
 1. `https://www.google.com`
@@ -248,10 +261,10 @@ And these unsafe examples:
 
 What makes them different?
 
-Anything coming before the domain you expect, in this case, `google`, separated
+Any words coming *before* the domain you expect, in this case, `google`, separated
 by dots, is a <dfn title='"...a subdomain is a domain that is a part of a main domain." - Wikipedia'>subdomain</dfn>, and is owned by the same company
-that owns the main part (e.g. `google`). Using this logic, we can highlight the
-main domain in each of our examples.
+that owns the domain (e.g. `google`). The domain is the word that comes right
+before the <dfn title='"A top-level domain (TLD) is one of the domains at the highest level in the hierarchical Domain Name System of the Internet." - Wikipedia'>top-level domain</dfn>, e.g. `.com`, `.net`, or `.pizzarat`. Using this logic, we can highlight the main domain in each of our examples.
 
 Highlighted safe examples:
 
@@ -274,3 +287,5 @@ I don't host comments on this site, but feel free to contact me from the social
 media networks listed via the icons below, or on my [about page]({{< relref "page/about.md" >}}).
 
 [^1]: Obviously, don't actually use this passphrase.
+[mark-tapes]: https://www.nytimes.com/2016/06/23/technology/personaltech/mark-zuckerberg-covers-his-laptop-camera-you-should-consider-it-too.html?_r=0
+[fbi-tapes]: http://www.npr.org/sections/thetwo-way/2016/04/08/473548674/why-the-fbi-director-puts-tape-over-his-webcam
