@@ -1,8 +1,13 @@
 # Hostname
-https://chrisdeluca.me
+https://www.chrisdeluca.me
 
 # Server root
 root /usr/local/www/html
+
+# Redirect all traffic to www
+chrisdeluca.me {
+  redir https://www.chrisdeluca.me{uri}
+}
 
 # Log access
 log /var/log/caddy-access.log {
