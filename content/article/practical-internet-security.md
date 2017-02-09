@@ -19,6 +19,8 @@ trying to sound smart. The rest of you nice, humble people, read on.
 
 <!--more-->
 
+{{< figure src="/images/internetsecurity.jpg" attr="Image credit: Ania Stypulkowski" >}}
+
 No discussion of security can be complete, so I have focused on the most common
 threats that the majority of folks will encounter and easy and effective
 solutions for them. However, despite what diet commercials tell us, nothing
@@ -32,7 +34,7 @@ privacy. Collect 'em all! :bug:
 
 1. [Security vs Privacy on the Internet]({{< relref "article/security-vs-privacy-on-the-internet.md" >}})
 2. [Practical Internet Security]({{< relref "article/practical-internet-security.md" >}})
-3. Practical Post-Trump Internet Privacy (forthcoming)
+3. Practical Internet Privacy (forthcoming)
 <!--3. [Practical Internet Privacy]({{< relref "article/practical-internet-privacy.md" >}})-->
 
 ## Threat misconceptions
@@ -158,6 +160,8 @@ factor authentication, but if two factor is the only thing you have reasonably
 protecting your account, it's only single factor authentication, which defeats
 the purpose. Passwords, however unfortunately, still matter.
 
+{{< figure src="/images/passwordmanager.jpg" attr="Image credit: Ania Stypulkowski" >}}
+
 How do password managers improve your security? They leverage the same thing
 attackers use to crack your accounts to protect them: a computer. Can't
 remember 200 unique and secure passwords for all your online accounts? I don't
@@ -244,6 +248,8 @@ However, some scams have become more sophisticated, usually masquerading as a
 legitimate source, like Google or your Uncle Steve. Sometimes, it's easy to
 tell, like if they outright ask for your password (a Google or an Uncle Steve
 would never do this), but others are trickier.
+
+{{< figure src="/images/scams.jpg" attr="Image credit: Ania Stypulkowski" >}}
 
 One scam going around was a page that looked exactly like the Google login page,
 which tricked users into entering their password and even their two factor

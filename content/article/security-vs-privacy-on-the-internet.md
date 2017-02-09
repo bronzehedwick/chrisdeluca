@@ -1,5 +1,5 @@
 +++
-date = "2017-01-22T11:39:26-05:00"
+date = "2017-02-08T20:28:21-05:00"
 title = "Security vs Privacy on the Internet"
 subtitle = "A lay-person's guide to the differences"
 toc = true
@@ -10,7 +10,6 @@ topics = [
 categories = [
   "Tech"
 ]
-draft = true
 +++
 
 Confused about what privacy versus security means in the context of the
@@ -19,6 +18,10 @@ interested in any of this, but are inexplicably still reading? Whatever your
 deal is, welcome - you've found the laypersons guide to all this crap!
 
 <!--more-->
+
+But first, a big, pink cat.
+
+{{< figure src="/images/cat.jpg" alt="A big pink cat" attr="Image credit: Ania Stypulkowski" >}}
 
 ## What is Internet security?
 
