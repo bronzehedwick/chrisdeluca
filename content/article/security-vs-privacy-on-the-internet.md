@@ -12,10 +12,13 @@ categories = [
 ]
 +++
 
+**Update**: The next article in this series is [now published]({{< relref
+"article/practical-internet-security.md" >}}).
+
 Confused about what privacy versus security means in the context of the
 internet? Haven't heard these terms before, but are intrigued nonetheless? Not
 interested in any of this, but are inexplicably still reading? Whatever your
-deal is, welcome - you've found the laypersons guide to all this crap!
+deal is, welcome---you've found the laypersons guide to all this crap!
 
 <!--more-->
 
@@ -26,14 +29,14 @@ But first, a big, pink cat.
 ## What is Internet security?
 
 First, let's start with security. We all have a decent grasp of what security
-means in the physical world - keeping bad folks out of your stuff - but what
+means in the physical world---keeping bad folks out of your stuff---but what
 does it mean online?
 
-The basic principles are the same; security means defense against unwanted -
-and usually criminal - intrusion. In the physical world, that
+The basic principles are the same; security means defense against unwanted---and
+usually criminal---intrusion. In the physical world, that
 would mean access to your house or apartment (or pockets), to steal your cash,
 jewelry, credit cards, or vintage *My Little Pony* collection.
-On the internet, it would mean access to your various online accounts,
+On the Internet, it would mean access to your various online accounts,
 to pilfer your emails, photos, banking information, or your *really embarassing*
 emails, photos, and banking information, like the time you bought that vintage
 *My Little Pony* collection.
@@ -46,7 +49,7 @@ your digital life.
 Okay, so we know what Internet security is (as long as I did an okay job of
 explaining above), but what about privacy? How is that different?
 
-Internet privacy is the defense against unwanted - and usually *legal* -
+Internet privacy is the defense against unwanted---and usually *legal*---
 intrusion by *trusted entities*.
 
 ### Wait, what?
@@ -70,7 +73,7 @@ because they are more invisible to the general public.
 
 In both cases, for security and privacy concerns, the answer is the same:
 they are after data. This is the information age;
-**data is the most valuble commodity on the internet** (and everywhere else,
+**data is the most valuble commodity on the Internet** (and everywhere else,
 for that matter).
 
 Anyone who can get a piece of your data can make a profit, and lots of times
@@ -101,6 +104,10 @@ person, especially as the Trump administration ramps up.
 I will update this article with the new links as they are published, so
 if you're reading this in the future, you can click them now!
 Otherwise, just chill.
+
+**Update**: It is the future---the [next article]({{< relref "article/practical-internet-security.md" >}})
+in this series is published, *and* you already knew that because it's stated at
+the top of this article.
 
 ## I have a question!
 
