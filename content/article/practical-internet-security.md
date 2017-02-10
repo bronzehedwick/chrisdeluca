@@ -1,5 +1,5 @@
 +++
-date = "2017-01-22T12:19:09-05:00"
+date = "2017-02-09T19:30:58-05:00"
 title = "Practical Internet Security"
 subtitle = "Effective security measures for the uninitiated"
 toc = true
@@ -9,7 +9,6 @@ topics = [
 categories = [
   "Tech"
 ]
-draft = true
 +++
 
 Welcome internet traveler, you've found your way to my guide on how to improve
