@@ -76,6 +76,7 @@ body > header p {
 
 .page article > p:last-of-type:after {
   content: ' ◆';
+  color: #d1642a;
 }
 
 .screenplay p:last-of-type:after,
