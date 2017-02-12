@@ -109,6 +109,7 @@ a:after {
 
 a[href^="https://www.chrisdeluca.me"]:after,
 a[href^="/"]:after,
+a[href^="#"]:after,
 .social-links a:after,
 a[href^="http://localhost:1313"]:after {
   content: none;
