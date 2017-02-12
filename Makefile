@@ -4,6 +4,9 @@ serve:
 stop:
 	@pgrep hugo | xargs kill
 
+build:
+	@./scripts/build
+
 test:
 	@echo "No tests yet"
 

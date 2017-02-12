@@ -1,7 +1,9 @@
 #!/bin/sh
 
 # Clean the local public directory, to make sure we have atomic builds.
-rm -rf public
+if [ -d public ]; then
+  rm -rf public
+fi
 
 # Generate the static site.
 hugo
