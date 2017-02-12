@@ -103,9 +103,6 @@ a:hover {
 }
 
 a:after {
-  display: inline-block;
-  width: 0.6em;
-  height: 0.5em;
   margin-left: 0.25ch;
   content: url(/images/external-link.svg);
 }

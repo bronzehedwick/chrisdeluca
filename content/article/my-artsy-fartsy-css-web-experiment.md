@@ -18,7 +18,7 @@ I call it, [Day and Night](http://bronzehedwick.com/nightandday/).
 
 The quick pitch is that you can control the sun with your mouse, and if you bring the sun down behind the hills in the foreground, the scene changes from day to night.
 
-{{< figure src="/images/night_and_day.png" alt="Night and Day screenshot" caption="Night and Day screenshot" link="http://bronzehedwick.com/nightandday/" >}}
+{{< figure src="/images/night_and_day.png" alt="Night and Day screenshot" caption="Night and Day screenshot" >}}
 
 The experiment is written entirely in HTML, CSS, and JavaScript. You can check out the [code on GitHub](https://github.com/bronzehedwick/nightandday).
 

@@ -12,7 +12,11 @@ topics = [
 
 {{< figure src="/images/babadook-book.png" alt="Babadook book" >}}
 
-I recently saw _[Babadook](http://www.imdb.com/title/tt2321549)_ **(No spoilers)**, a fantastic horror movie that was not only scary, but had a compelling, thought provoking, and grounded story to back up the supernatural.<!--more--> I know lots of people haven't heard of it, because it's a smaller Australian production, and others balk at the title, but seriously, if you haven't seen it, you really owe it to yourself to check it out.
+I recently saw _[Babadook](http://www.imdb.com/title/tt2321549)_ **(No spoilers)**, a fantastic horror movie that was not only scary, but had a compelling, thought provoking, and grounded story to back up the supernatural.
+
+<!--more-->
+
+I know lots of people haven't heard of it, because it's a smaller Australian production, and others balk at the title, but seriously, if you haven't seen it, you really owe it to yourself to check it out.
 
 I had the pleasure of seeing the movie in theaters, with my friends Andy and Dave, and my fiancé, [Laurie](http://www.laurieberenhaus.com/), who is the perfect audience member.
 
