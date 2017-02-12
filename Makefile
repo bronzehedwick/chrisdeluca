@@ -8,7 +8,7 @@ build:
 	@./scripts/build
 
 test:
-	@echo "No tests yet"
+	@./scripts/validate
 
 deploy:
 	@./scripts/build && ./scripts/sync
