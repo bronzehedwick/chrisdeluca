@@ -1,14 +1,8 @@
 #!/bin/sh
-# Build the site, then sync it to the server.
+# Sync site to the server.
 
 # Where the remote webserver expects the site.
 SERVE=/usr/local/www/
-
-# Clean the local public directory, to make sure we have atomic builds.
-rm -rf public
-
-# Generate the static site.
-hugo
 
 # Sync the Caddyfile.
 scp Caddyfile "chrishost:$SERVE/Caddyfile"
