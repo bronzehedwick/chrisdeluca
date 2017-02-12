@@ -1,5 +1,5 @@
 +++
-date = "2016-09-10T21:03:45-04:00"
+date = "2017-02-12T12:56:38-05:00"
 draft = false
 title = "About me"
 menu = "main"
@@ -34,6 +34,11 @@ If you'd like to contact me securely, <abbr title="Dungeon Master">DM</abbr> me 
 If you insist on doing things the hard way, you can <a download href="/files/chris-deluca-pgp.pub.asc">download my PGP key</a>.
 
 ## Credits
+
+All content, unless otherwise noted, is copyright Christopher DeLuca, as shown
+by the notice at the bottom of the page.
+
+Notable, generic exceptions are below.
 
 <dl>
   <dt>External link icon:
