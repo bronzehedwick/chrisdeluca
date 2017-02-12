@@ -102,6 +102,21 @@ a:hover {
   background-color: rgba(41, 150, 210, 0.05);
 }
 
+a:after {
+  display: inline-block;
+  width: 0.6em;
+  height: 0.5em;
+  margin-left: 0.25ch;
+  content: url(/images/external-link.svg);
+}
+
+a[href^="https://www.chrisdeluca.me"]:after,
+a[href^="/"]:after,
+.social-links a:after,
+a[href^="http://localhost:1313"]:after {
+  content: none;
+}
+
 /**
  * Images.
  */
