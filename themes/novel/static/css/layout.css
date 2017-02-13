@@ -65,6 +65,16 @@ li + li {
   margin-top: 0px;
 }
 
+dt {
+  font-weight: 700;
+}
+
+dd img {
+  max-width: none;
+  margin-left: initial;
+  margin-right: initial;
+}
+
 /**
  * Footers (and navigation)
  */
