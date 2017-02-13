@@ -1,6 +1,7 @@
 +++
 date = "2017-01-22T12:19:22-05:00"
 title = "Practical Internet Privacy"
+subtitle = "Privacy: It Matters"
 toc = true
 topics = [
   "privacy"
@@ -20,16 +21,15 @@ and---just as importantly---*understanding* Internet privacy.
 If you're unsure about what privacy on the Internet is, please read my first
 article in this series, [Security vs Privacy on the Internet]({{< relref "article/security-vs-privacy-on-the-internet.md" >}}).
 
-A word of warning: as the third and final chapter of this series, it is also the
-longest and least focused. This "cram-it-all-in-part-three" approach will be
+**A word of warning**: as the third and final chapter of this series, it is also the longest and least focused. This "cram-it-all-in-part-three" approach will be
 familiar to anyone who watched *The Lord of the Rings: The Return Of the King*.
-While this article is similar to that movie in almost every respect, I will *try*
+While this article is similar to that movie in almost every respect, I will try
 to keep false-endings and ghost armies to a minimum.
 
 ## TL;DR
 
 Don't have time to read a long-ass article? Skip straight to the [collected
-resources]() at the end.
+resources]({{< relref "#resources" >}}).
 
 
 ## Why privacy matters
@@ -42,12 +42,15 @@ information to.
 
 However, there is also real harm that comes from lack of privacy. From the
 tangible, like targeted harassment, to the less so, like an overall decrease in
-freedom of speech.
+freedom of speech. This should be a concern to anyone who believes in democratic
+freedom.
+
+Even if you think you have nothing to hide, [you probably don't mean that](you probably don't mean that).
 
 If nothing else, much of the personally identifying information collected about
 you is done invisibly, your agreement to allowing it buried deep in a Terms of
 Service document nobody read. That disenfranchises you, the user, by removing
-your control over *your* data: information about you.
+your control over *your* data.
 
 
 ## Improving your privacy
@@ -57,23 +60,22 @@ online privacy? Below is an explanation of some methods to do just that, as well
 as the types of invasions they protect against.
 
 
-### X. The Golden Rule
+### 1. The Golden Rule
 
 The first step to better privacy is understanding the lay of the land. It's
 nothing fancy, just common-sense economics.
 
-> If you're not paying for the product, you are the product
+> If you're not paying for the product, you are the product.
+
+That is to say, no for-profit company is giving away their service.
+If you aren't paying them directly, they still need to make their money.
+Given how valuable your data is, it's very likely that any service you get for
+free is reselling your personal data.
+
+Keep that in mind as we delve into the specifics.
 
 
-### X. Social Settings
-
-* Facebook
-* Google
-* Twitter
-* Pinterest
-
-
-### X. Private browsing is not really private
+### 2. Private browsing is not really private
 
 Just does not record your history, it does not block anything else.
 
@@ -110,42 +112,61 @@ pretty much defeating it's whole purpose.
 This section is called "Recommended blockers", not "Watch out for shitty
 blockers", so which ones should you actually use?
 
+<dl>
+  <dt><a href="https://www.eff.org/privacybadger">Privacy Badger</a></dt>
+  <dd><img src="/images/privacy-badger.png" alt="Privacy Badger Logo"></dd>
+  <dd>
+    <p>Privacy Badger is a browser plugin with a large community run
+    database of trackers to block. Free to use, with a simple interface,
+    it is run by the non-profit
+    <a href="https://www.eff.org">Electronic Frontier Foundation</a>,
+    a reputable Internet advocacy group.</p>
 
-##### Privacy Badger
+    <p>However, it is only available for Chrome and Firefox, on desktop and Android,
+    however. If you use a different browser, see the below options.</p>
 
-[Privacy Badger]() is a browser plugin with a large community run database of
-trackers to block.
+    <p>Note that when using Privacy Badger you should enable
+    <a href="http://donottrack.us">enable "Do Not Track"</a> to make sure
+    everything is blocked.</p>
+  </dd>
 
-Free to use, it is run by the non-profit [Electronic Frontier Foundation](),
-a reputable Internet advocacy group.
+  <dt><a href="https://github.com/gorhill/uBlock/#installation">uBlock Origin</a></dt>
+  <dd>
+    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewbox="0 0 128 128"><defs><linearGradient id="a"><stop offset="0"/><stop offset="1" stop-opacity="0"/></linearGradient></defs><g fill="maroon" stroke="#fff" stroke-linecap="round"><path d="M447.834 669.1c-80.63-57.032-80.63-57.032-80.63-199.61 34.555 0 46.074 0 80.63-28.515m0 228.124c80.63-57.032 80.63-57.032 80.63-199.61-34.555 0-46.074 0-80.63-28.515" transform="matrix(-.69452 0 0 .5611 375.03 -247.43)" stroke-width="1.602" stroke-linejoin="round"/></g><g transform="translate(-17.873 -17.325)" font-weight="400" letter-spacing="0" word-spacing="0" stroke="#fff"><ellipse style="text-align:center;line-height:125%;-inkscape-font-specification:Ubuntu" cx="102.123" cy="81.325" rx="12" ry="12" transform="matrix(1.33333 0 0 1.33333 -42.29 -31.108)" font-size="100.219" text-anchor="middle" fill="none" stroke-width="6" font-family="Ubuntu"/><path style="-inkscape-font-specification:Ubuntu" d="M81.725 81.472c0 11.02-4.99 16.03-15.97 16.03s-15.972-5.01-15.972-16.03V57.43h7.985V81.47c0 7.013 1 8.014 7.986 8.014 6.987 0 7.986-1 7.986-8.014V57.43h7.985z" font-family="Ubuntu" stroke="none" transform="scale(1.0018 .9982)" font-size="73.201" fill="#fff" stroke-width="2"/></g></svg>
+  </dd>
+  <dd>
+    <p>uBlock Origin is another browser plugin that blocks many different types
+    of trackers, including ads. It is open source and run by a group of
+    volunteers, and has the advantage of running on all major desktop and
+    Android browsers (again, if you're looking for iOS, see below).</p>
 
-Privacy Badger is available for all major desktop browsers, as well as Chrome
-and Firefox for Android. If you use iOS, see [Firefox Focus]() below.
+    <p>The downside to this plugin is it's a bit harder to install, and
+    while offering a lot more bells a whistles, is harder to configure than
+    Privacy Badger.</p>
 
-Note that this plugin does not block ads, only the tracking code embedded in
-them.
+    <p>Note that there is another plugin confusingly named uBlock, which has
+    nothing to do with uBlock Origin. Use uBlock Origin.</p>
+  </dd>
 
-Also, Privacy Badger only blocks trackers that do not respect the
-"Do Not Track" browser setting. However, since hardly any site does respect that
-setting, the plugin basically blocks every tracker.
+  <dt><a href="https://itunes.apple.com/us/app/firefox-focus-privacy-browser/id1055677337?mt=8">Firefox Focus</a></dt>
+  <dd>
+    <img src="/images/firefox-focus.jpg" alt="Firefox Focus Logo">
+  </dd>
+  <dd>
+    <p>If you have an iPhone, Firefox Focus is hands down my recommended
+    ad/tracking blocker.</p>
 
-You can also always [enable "Do Not Track"]() to make sure everything is blocked.
+    <p>Run by the non-profit Mozilla Foundation, Firefox Focus is both a <a
+    href="{{< relref "#2-private-browsing-is-not-really-private" >}}">private
+    browser</a> by default (but see above), and ad/tracking blocker.</p>
 
+    <p>While the private browsing is nice, the blocker is the real reason to
+    download. Even if you don't use the Firefox Focus browser itself, the
+    blocker can be integrated into Safari, so you won't have to change your
+    browsing habits.</p>
+  </dd>
+</dl>
 
-##### AdblockUnite
-
-
-##### Firefox Focus
-
-If you have an iPhone, Firefox Focus is hands down my recommended ad/tracking
-blocker.
-
-Run by the non-profit Mozilla Foundation, Firefox Focus is both a [private
-browser]() by default (but see above), and ad/tracking blocker.
-
-While the private browsing is nice, the blocker is the real reason to download.
-Even if you don't use the Firefox Focus browser itself, the blocker can be
-integrated into Safari, so you won't have to change your browsing habits.
 
 #### Won't ad/tracking blocking hurt businesses?
 
@@ -214,9 +235,11 @@ your online privacy.
 
 * [Note to Self](http://www.wnyc.org/story/privacy-paradox-launch/)
 * [Online Safety](http://chayn.co/safety/)
-* [TOS](https://tosdr.org/)
+* [Terms of Service; Don't Read](https://tosdr.org/)
 * [Panopticlick](https://panopticlick.eff.org/)
-
+* [You Think You Have Nothing to Hide? Think Again](https://tutanota.com/blog/posts/nothing-to-hide)
+* [The Electronic Frontier Foundation](https://www.eff.org)
+* [Do Not Track](http://donottrack.us)
 
 ## Questions
 
