@@ -34,11 +34,10 @@ resources]({{< relref "#resources" >}}).
 
 ## Why privacy matters
 
-Why should you care about Internet privacy? Unless you've had first hand
-experience of something bad happening to you because of loose information,
-it's hard to feel like it's important. Especially when ignoring it is so easy
-and rewarding: you get real benefits from the services you surrender your
-information to.
+Why should you care about Internet privacy? Unless you've been burned by your
+loose digital info, it's hard to feel like it's important.
+Especially when ignoring it is so easy and rewarding: you get real benefits from
+the services you surrender your data to.
 
 However, there is also real harm that comes from lack of privacy. From the
 tangible, like targeted harassment, to the less so, like an overall decrease in
@@ -48,8 +47,7 @@ freedom.
 Even if you think you have nothing to hide, [you probably don't mean that](you probably don't mean that).
 
 If nothing else, much of the personally identifying information collected about
-you is done invisibly, your agreement to allowing it buried deep in a Terms of
-Service document nobody read. That disenfranchises you, the user, by removing
+you is done invisibly. That disenfranchises you, the user, by removing
 your control over *your* data.
 
 
@@ -77,24 +75,27 @@ Keep that in mind as we delve into the specifics.
 
 ### 2. Private browsing is not really private
 
-Just does not record your history, it does not block anything else.
+That's right, the private browsing, or incognito mode, in your browser isn't
+really private. What is this foul deception, you cry? Have you been *lied* to?
+Not really, but it only tells part of the story.
+
+Private browsing does not record history, and has a separate database for
+cookies and other web storage. This does *not* prevent your data from being
+collected by outside parties. It just means other people who use that same
+browser on that same computer won't be able to see what sites you've visited.
 
 
 ### X. Behavior tracking
 
-Ads and other hidden web analytics on most pages track an incredible amount of
-personal data. For example, the most popular web analytics tool, Google
-Analytics, collects all your usage habits from across *every site it is
-installed* to create a centralized profile of who you are for sale. Saying
-Google Analytics is the most popular tool of it's kind doesn't quite put it into
-perspective, however. Since it's free, and very useful to publishers, by some
-estimates it is [installed on 90% of websites]().
+Almost every website contains hidden code that tracks your interactions,
+also collecting an incredible amount of personal data. For example, the most
+popular web analytics tool by far, Google Analytics, collects all your usage
+habits from across *every site it is installed* to create a centralized profile
+of who you are and what you like.
 
-Not all of this will apply to you if you live in the European Union, as they
-have stronger privacy protections. However, they are weakening, and enforcement
-is not always a given.
-
-The only way to prevent this type of data collection is a good tracking or ad blocker.
+The only way to prevent this type of data collection is a good blocker. A
+blocker can also give you insight into what types of scripts are trying to
+track you, shining a light on the previously invisible.
 
 
 #### Recommended blockers
@@ -138,14 +139,16 @@ blockers", so which ones should you actually use?
     <p>uBlock Origin is another browser plugin that blocks many different types
     of trackers, including ads. It is open source and run by a group of
     volunteers, and has the advantage of running on all major desktop and
-    Android browsers (again, if you're looking for iOS, see below).</p>
+    Android browsers.</p>
 
-    <p>The downside to this plugin is it's a bit harder to install, and
-    while offering a lot more bells a whistles, is harder to configure than
-    Privacy Badger.</p>
+    <p>The downside to this plugin is that it's interface isn't as simple as
+    Privacy Badger's.</p>
 
     <p>Note that there is another plugin confusingly named uBlock, which has
     nothing to do with uBlock Origin. Use uBlock Origin.</p>
+
+    <p>Because it's a little confusing, here's the download links for <a href="https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm">Chrome</a>,
+    <a href="https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/">Firefox</a>, <a href="https://www.microsoft.com/en-us/store/p/app/9nblggh444l4">Edge</a>, and <a href="https://github.com/el1t/uBlock-Safari/releases">Safari</a>.</p>
   </dd>
 
   <dt><a href="https://itunes.apple.com/us/app/firefox-focus-privacy-browser/id1055677337?mt=8">Firefox Focus</a></dt>
@@ -153,8 +156,7 @@ blockers", so which ones should you actually use?
     <img src="/images/firefox-focus.jpg" alt="Firefox Focus Logo">
   </dd>
   <dd>
-    <p>If you have an iPhone, Firefox Focus is hands down my recommended
-    ad/tracking blocker.</p>
+    <p>For iOS, Firefox Focus is hands down my recommended blocker.</p>
 
     <p>Run by the non-profit Mozilla Foundation, Firefox Focus is both a <a
     href="{{< relref "#2-private-browsing-is-not-really-private" >}}">private
@@ -168,10 +170,13 @@ blockers", so which ones should you actually use?
 </dl>
 
 
-#### Won't ad/tracking blocking hurt businesses?
+#### Won't blocking hurt businesses?
 
-No. Believe in American business. Why is it all of a sudden your responsibility?
-Guilt?
+Yes and no. Yes, in the short term, blocking ads will hurt a business's bottom
+line. However, the tech industry is a place where failing to innovate is a death
+sentence. If a company cannot adapt to shifting user demands (in this case, not
+being tracked), they weren't going to make it much longer, anyway.
+
 
 ### X. Secure website connections
 
@@ -192,10 +197,11 @@ If you haven't heard of this, it must sound strange. But yes, tape your laptop
 and phone camera, and open Skype or Photo Booth to make sure you can't see
 anything through the lens. Why?
 
-It's easier to attack your camera than it is to get into the rest of your
-computer, and it's a popular method of information gathering. If an attacker got
-in, it would be very hard to detect, since they could keep the camera light off,
-even while recording.
+It's [easier to attack your
+camera](http://www.makeuseof.com/tag/how-easy-is-it-for-someone-to-hack-your-webcam/)
+than it is to get into the rest of your computer, and it's a popular method of
+information gathering. If an attacker got in, it would be very hard to detect,
+since they could keep the camera light off, even while recording.
 
 But what could an attacker do with video from your camera, other than blackmail
 you with footage of you whacking it to your vintage *My Little Pony* collection?
@@ -215,17 +221,6 @@ Comey both do it, you might as well, too.
 
 * VPN
 * Tor
-
-
-### X. Paid alternatives
-
-Paid alternatives to popular services.
-
-
-## Why the stakes are higher in a Trump administration
-
-* Obama was no saint when it comes to security
-* Trump's pick for internet is real anti-free internet
 
 
 ## Resources
@@ -250,3 +245,7 @@ Some paragraph on this.
 
 I'd like to take a moment to thank Ania Stypulkowski, who has provided all the
 lovely artwork you've seen throughout these posts. Please visit her interwebs places.
+
+**Surprise!**
+
+:ghost: :ghost: :ghost: :ghost: :ghost: :ghost: :ghost: :ghost: :ghost: :ghost: :ghost:  :ghost: 
