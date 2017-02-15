@@ -167,13 +167,9 @@ figcaption {
  * Code snippets
  */
 
-pre, code,
-.highlight {
-  overflow: scroll;
-}
-
 .highlight {
   padding: 0px 2ch;
+  overflow-x: scroll;
 }
 
 /**
