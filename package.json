@@ -18,8 +18,5 @@
   "bugs": {
     "url": "https://github.com/bronzehedwick/chrisdeluca/issues"
   },
-  "homepage": "https://github.com/bronzehedwick/chrisdeluca#readme",
-  "devDependencies": {
-    "html-validator": "^2.2.0"
-  }
+  "homepage": "https://github.com/bronzehedwick/chrisdeluca#readme"
 }
