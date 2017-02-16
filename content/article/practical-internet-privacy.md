@@ -39,12 +39,8 @@ loose digital info, it's hard to feel like it's important.
 Especially when ignoring it is so easy and rewarding: you get real benefits from
 the services you surrender your data to.
 
-However, there is also real harm that comes from lack of privacy. From the
-tangible, like targeted harassment, to the less so, like an overall decrease in
-freedom of speech. This should be a concern to anyone who believes in democratic
-freedom.
-
-Even if you think you have nothing to hide, [you probably don't mean that](you probably don't mean that).
+However, there is also real harm that comes from lack of privacy. Even if you
+think you have nothing to hide, [you probably don't mean that](you probably don't mean that).
 
 If nothing else, much of the personally identifying information collected about
 you is done invisibly. That disenfranchises you, the user, by removing
@@ -77,7 +73,7 @@ Keep that in mind as we delve into the specifics.
 
 That's right, the private browsing, or incognito mode, in your browser isn't
 really private. What is this foul deception, you cry? Have you been *lied* to?
-Not really, but it only tells part of the story.
+Not really, but the name only tells part of the story.
 
 Private browsing does not record history, and has a separate database for
 cookies and other web storage. This does *not* prevent your data from being
@@ -88,14 +84,14 @@ browser on that same computer won't be able to see what sites you've visited.
 ### X. Behavior tracking
 
 Almost every website contains hidden code that tracks your interactions,
-also collecting an incredible amount of personal data. For example, the most
+collecting an incredible amount of personal data. For example, the most
 popular web analytics tool by far, Google Analytics, collects all your usage
 habits from across *every site it is installed* to create a centralized profile
 of who you are and what you like.
 
 The only way to prevent this type of data collection is a good blocker. A
 blocker can also give you insight into what types of scripts are trying to
-track you, shining a light on the previously invisible.
+track you, shining a light on the previously hidden.
 
 
 #### Recommended blockers
@@ -123,8 +119,8 @@ blockers", so which ones should you actually use?
     <a href="https://www.eff.org">Electronic Frontier Foundation</a>,
     a reputable Internet advocacy group.</p>
 
-    <p>However, it is only available for Chrome and Firefox, on desktop and Android,
-    however. If you use a different browser, see the below options.</p>
+    <p>However, it is only available for Chrome and Firefox, on desktop and Android.
+    If you use a different browser, see the below options.</p>
 
     <p>Note that when using Privacy Badger you should enable
     <a href="http://donottrack.us">enable "Do Not Track"</a> to make sure
@@ -147,7 +143,7 @@ blockers", so which ones should you actually use?
     <p>Note that there is another plugin confusingly named uBlock, which has
     nothing to do with uBlock Origin. Use uBlock Origin.</p>
 
-    <p>Because it's a little confusing, here's the download links for <a href="https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm">Chrome</a>,
+    <p>Because they are a little buried, here's the download links for <a href="https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm">Chrome</a>,
     <a href="https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/">Firefox</a>, <a href="https://www.microsoft.com/en-us/store/p/app/9nblggh444l4">Edge</a>, and <a href="https://github.com/el1t/uBlock-Safari/releases">Safari</a>.</p>
   </dd>
 
@@ -172,7 +168,9 @@ blockers", so which ones should you actually use?
 
 #### Won't blocking hurt businesses?
 
-Yes and no. Yes, in the short term, blocking ads will hurt a business's bottom
+Yes and no.
+
+Yes, in the short term, blocking ads will hurt a business's bottom
 line. However, the tech industry is a place where failing to innovate is a death
 sentence. If a company cannot adapt to shifting user demands (in this case, not
 being tracked), they weren't going to make it much longer, anyway.
@@ -180,16 +178,32 @@ being tracked), they weren't going to make it much longer, anyway.
 
 ### X. Secure website connections
 
-* HTTPS concepts
-* How to check
-* HTTPS everywhere
+A quickly growing number of websites use an encrypted connection, what's called
+HTTPS. This makes it very difficult for someone to snoop on the data you send
+back and forth from your browser to a website while it's in transit.
+
+Many browsers (but not IE/Edge and Safari) display a lock icon when the
+connection uses HTTPS.
+
+While not all websites support HTTPS on every page, you can force HTTPS by using
+a browser plugin called [HTTPS
+Everywhere](https://www.eff.org/https-everywhere).
+
+HTTPS deals only with connections, so while it protects your data while it's
+being sent, it's encryption ends once your data reaches it's destination (either
+your computer or the server). While you at least have control over your own
+device, you need to trust the site your sending your data to that they are
+protecting your data properly.
 
 
 ### X. Messaging
 
+http://www.digitaltrends.com/computing/can-email-ever-be-secure/
 * Signal
 * Email is public
 
+
+### X. Be careful on public wifi
 
 ### X. Tape your camera
 
