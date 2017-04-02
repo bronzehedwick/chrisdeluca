@@ -18,7 +18,7 @@ www.chrisdeluca.me {
   }
 
   # Log access
-  log /var/log/caddy-access.log {
+  log / /var/log/caddy/access.log "{combined}" {
     rotate {
       size 100 # Rotate after 100 MB
       age  15  # Keep rotated files for 15 days
@@ -28,7 +28,7 @@ www.chrisdeluca.me {
 
   # Error logging and error pages
   errors {
-    log /var/log/caddy-error.log {
+    log /var/log/caddy/error.log {
       size 50 # Rotate after 50 MB
       age  30 # Keep rotated files for 30 days
       keep 5  # Keep at most 5 log files
