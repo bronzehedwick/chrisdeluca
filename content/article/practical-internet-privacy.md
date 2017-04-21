@@ -9,7 +9,7 @@ topics = [
 categories = [
   "Tech"
 ]
-draft = true
+draft = false
 +++
 
 Welcome, Internet folks! If you've been following along, this is the final post
@@ -21,10 +21,13 @@ and---just as importantly---*understanding* Internet privacy.
 If you're unsure about what privacy on the Internet is, please read my first
 article in this series, [Security vs Privacy on the Internet]({{< relref "article/security-vs-privacy-on-the-internet.md" >}}).
 
-**A word of warning**: as the third and final chapter of this series, it is also the longest and least focused. This "cram-it-all-in-part-three" approach will be
+**A word of warning**: as the third and final chapter of this series, it is also
+the longest and least focused. This "cram-it-all-in-part-three" approach will be
 familiar to anyone who watched *The Lord of the Rings: The Return Of the King*.
 While this article is similar to that movie in almost every respect, I will try
 to keep false-endings and ghost armies to a minimum.
+
+{{< figure src="/images/ghost-army.jpg" alt="Ghost army from The Lord of The Rings: Return of the King" caption="Just a little ghost army, though." >}}
 
 ## TL;DR
 
@@ -69,19 +72,8 @@ free is reselling your personal data.
 Keep that in mind as we delve into the specifics.
 
 
-### 2. Private browsing is not really private
 
-That's right, the private browsing, or incognito mode, in your browser isn't
-really private. What is this foul deception, you cry? Have you been *lied* to?
-Not really, but the name only tells part of the story.
-
-Private browsing does not record history, and has a separate database for
-cookies and other web storage. This does *not* prevent your data from being
-collected by outside parties. It just means other people who use that same
-browser on that same computer won't be able to see what sites you've visited.
-
-
-### X. Behavior tracking
+### 2. Behavior tracking
 
 Almost every website contains hidden code that tracks your interactions,
 collecting an incredible amount of personal data. For example, the most
@@ -176,7 +168,19 @@ sentence. If a company cannot adapt to shifting user demands (in this case, not
 being tracked), they weren't going to make it much longer, anyway.
 
 
-### X. Secure website connections
+### 3. Private browsing is not really private
+
+That's right, the private browsing, or incognito mode, in your browser isn't
+really private. What is this foul deception, you cry? Have you been *lied* to?
+Not really, but the name only tells part of the story.
+
+Private browsing does not record history, and has a separate database for
+cookies and other web storage. This does *not* prevent your data from being
+collected by outside parties. It just means other people who use that same
+browser on that same computer won't be able to see what sites you've visited.
+
+
+### 4. Secure website connections
 
 A quickly growing number of websites use an encrypted connection, what's called
 HTTPS. This makes it very difficult for someone to snoop on the data you send
@@ -196,51 +200,34 @@ device, you need to trust the site your sending your data to that they are
 protecting your data properly.
 
 
-### X. Messaging
+### 4. Messaging
 
-http://www.digitaltrends.com/computing/can-email-ever-be-secure/
-* Signal
-* Email is public
+Have something sensitive you want to send, like a credit card number, or your
+old live journals? [Don't use email](http://www.digitaltrends.com/computing/can-email-ever-be-secure/);
+it's the Internet equivalent of sky-writing. Not to mention, popular email
+solutions like Gmail read all your email to build a consumer profile on you to
+deliver to buyers and governments.
 
+Instead, use a encrypted messaging platform. The most secure at the time of this
+writing is an application called [Signal](https://whispersystems.org/), which
+comes highly recommended. Signal is run by a non-profit, and uses open source,
+regularly audited security practices.
 
-### X. Be careful on public wifi
-
-### X. Tape your camera
-
-If you haven't heard of this, it must sound strange. But yes, tape your laptop
-and phone camera, and open Skype or Photo Booth to make sure you can't see
-anything through the lens. Why?
-
-It's [easier to attack your
-camera](http://www.makeuseof.com/tag/how-easy-is-it-for-someone-to-hack-your-webcam/)
-than it is to get into the rest of your computer, and it's a popular method of
-information gathering. If an attacker got in, it would be very hard to detect,
-since they could keep the camera light off, even while recording.
-
-But what could an attacker do with video from your camera, other than blackmail
-you with footage of you whacking it to your vintage *My Little Pony* collection?
-(That's a callback to the [first article]({{< relref "article/security-vs-privacy-on-the-internet.md" >}}),
-new folks) You can't be sure until it happens, but
-there's usually lots of identifying information about you that an attacker could
-use, and they can just wait until the piece they need comes in view.
-
-Before you get too scared, this type of attack would have be targeted at you
-specifically, so it is much less likely to happen. However, the fallout from
-such an attack is enormous, and the solve is so cheap and easy, it's really a no
-brainier. If [Mark Zuckerberg][mark-tapes] and [FBI director][fbi-tapes] James
-Comey both do it, you might as well, too.
+WhatsApp is also a fairly good alternative, and it actually uses some of
+Signal's technology under the hood. However, it's not a private as Signal, as
+WhatsApp shares some data with it's parent Facebook.
 
 
-### X. Location masking
+### 5. Be careful on public wifi
 
-* VPN
-* Tor
+Free public Wifi usually is free because they track everything you do on them
+and then sell that information. Library networks are also monitored by the FBI.
+Unless you subscribe to a VPN or use the Tor browser, don't do anything on a
+public Wifi network you don't want every corporation to know. Yeah, even that
+one you hate. You know the one.
 
 
 ## Resources
-
-The Note to Self podcast has a really great, interactive series on taking back
-your online privacy.
 
 * [Note to Self](http://www.wnyc.org/story/privacy-paradox-launch/)
 * [Online Safety](http://chayn.co/safety/)
@@ -249,10 +236,13 @@ your online privacy.
 * [You Think You Have Nothing to Hide? Think Again](https://tutanota.com/blog/posts/nothing-to-hide)
 * [The Electronic Frontier Foundation](https://www.eff.org)
 * [Do Not Track](http://donottrack.us)
+* [Signal](https://whispersystems.org/)
+
 
 ## Questions
 
-Some paragraph on this.
+If you have any questions on any of this, please don't hesitate to reach out to
+me on any of the [social networks I use]({{< relref "page/about.md#i-m-technically-social" >}}).
 
 
 ## Wrapping up
@@ -262,4 +252,6 @@ lovely artwork you've seen throughout these posts. Please visit her interwebs pl
 
 **Surprise!**
 
-:ghost: :ghost: :ghost: :ghost: :ghost: :ghost: :ghost: :ghost: :ghost: :ghost: :ghost:  :ghost: 
+:ghost: :ghost: :ghost: :ghost: :ghost: :ghost: :ghost: :ghost: :ghost: :ghost:
+
+Ghost army.
