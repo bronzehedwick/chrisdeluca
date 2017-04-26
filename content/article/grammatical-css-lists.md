@@ -1,7 +1,7 @@
 +++
 categories = ["Tech"]
 date = "2017-04-25T20:10:19-04:00"
-draft = true
+draft = false
 subtitle = "Quick, specific styling tip"
 title = "Grammatical CSS Lists"
 toc = false
