@@ -67,10 +67,7 @@ Behold!
 }
 ```
 
-### Result
-
-<p data-height="265" data-theme-id="0" data-slug-hash="xdRPWZ" data-default-tab="css,result" data-user="bronzehedwick" data-embed-version="2" data-pen-title="Grammatical CSS Lists" class="codepen">See the Pen <a href="http://codepen.io/bronzehedwick/pen/xdRPWZ/">Grammatical CSS Lists</a> by Chris DeLuca (<a href="http://codepen.io/bronzehedwick">@bronzehedwick</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+## Takeaway
 
 The beauty of this solution is that it's simple, idiomatic, and declarative,
 and has the added benefit of taking a hard stand on oxford commas.
