@@ -11,6 +11,9 @@ www.chrisdeluca.me {
   # Server root
   root /usr/local/www/html
 
+  # Enable gzip compression
+  gzip
+
   # Redirect all insecure traffic to TLS
   redir 304 {
     if {X-Forwarded-Proto} is http
@@ -19,20 +22,28 @@ www.chrisdeluca.me {
 
   # Log access
   log / /var/log/caddy/access.log "{combined}" {
-    rotate {
-      size 100 # Rotate after 100 MB
-      age  15  # Keep rotated files for 15 days
-      keep 10  # Keep at most 10 log files
-    }
+    rotate_size 100 # Rotate after 100 MB
+    rotate_age  15  # Keep rotated files for 15 days
+    rotate_keep 10  # Keep at most 10 log files
   }
 
   # Error logging and error pages
-  errors {
-    log /var/log/caddy/error.log {
-      size 50 # Rotate after 50 MB
-      age  30 # Keep rotated files for 30 days
-      keep 5  # Keep at most 5 log files
-    }
+  errors /var/log/caddy/error.log {
+    rotate_size 50 # Rotate after 50 MB
+    rotate_age  30 # Keep rotated files for 30 days
+    rotate_keep 5  # Keep at most 5 log files
+  }
+
+  # Cache expires rules
+  expires {
+    match .css$ 1y
+    match .js$ 1y
+    match .png$ 1y
+    match .jpg$ 1y
+    match .gif$ 1y
+    match .svg$ 1y
+    match .pdf 1y
+    match .html$ 1d
   }
 
   # Custom headers

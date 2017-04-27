@@ -4,8 +4,5 @@
 # Where the remote webserver expects the site.
 SERVE=/usr/local/www/
 
-# Sync the Caddyfile.
-scp Caddyfile "chrishost:$SERVE/Caddyfile"
-
 # Sync the built site to the server.
-rsync -az --progress --delete public/ "chrishost:$SERVE/html"
+rsync -az --delete public/ "chrishost:$SERVE/html"
