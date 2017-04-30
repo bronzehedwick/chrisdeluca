@@ -1,5 +1,5 @@
 +++
-date = "2017-01-22T12:19:22-05:00"
+date = "2017-04-29T21:18:39-05:00"
 title = "Practical Internet Privacy"
 subtitle = "Privacy: It Matters"
 toc = true
@@ -18,6 +18,8 @@ in my [three]({{< relref "article/security-vs-privacy-on-the-internet.md" >}})
 Internet security and privacy. In this article, we're going to get into improving
 and---just as importantly---*understanding* Internet privacy.
 
+<!--more-->
+
 If you're unsure about what privacy on the Internet is, please read my first
 article in this series, [Security vs Privacy on the Internet]({{< relref "article/security-vs-privacy-on-the-internet.md" >}}).
 
@@ -27,7 +29,7 @@ familiar to anyone who watched *The Lord of the Rings: The Return Of the King*.
 While this article is similar to that movie in almost every respect, I will try
 to keep false-endings and ghost armies to a minimum.
 
-{{< figure src="/images/ghost-army.jpg" alt="Ghost army from The Lord of The Rings: Return of the King" caption="Just a little ghost army, though." >}}
+{{< figure src="/images/ghost-army.jpg" alt="Ghost army from The Lord of The Rings: Return of the King" caption="Ghosts are green." >}}
 
 ## TL;DR
 
@@ -44,6 +46,8 @@ the services you surrender your data to.
 
 However, there is also real harm that comes from lack of privacy. Even if you
 think you have nothing to hide, [you probably don't mean that](you probably don't mean that).
+
+{{< figure src="/images/data.jpg" alt="Data cat" attr="Image credit: Ania Stypulkowski" >}}
 
 If nothing else, much of the personally identifying information collected about
 you is done invisibly. That disenfranchises you, the user, by removing
@@ -80,6 +84,8 @@ collecting an incredible amount of personal data. For example, the most
 popular web analytics tool by far, Google Analytics, collects all your usage
 habits from across *every site it is installed* to create a centralized profile
 of who you are and what you like.
+
+{{< figure src="/images/blocker.jpg" alt="Ad blocker cat" attr="Image credit: Ania Stypulkowski" >}}
 
 The only way to prevent this type of data collection is a good blocker. A
 blocker can also give you insight into what types of scripts are trying to
@@ -174,6 +180,8 @@ That's right, the private browsing, or incognito mode, in your browser isn't
 really private. What is this foul deception, you cry? Have you been *lied* to?
 Not really, but the name only tells part of the story.
 
+{{< figure class="align-right" src="/images/incognitomode.jpg" alt="Incognito cat" attr="Image credit: Ania Stypulkowski" >}}
+
 Private browsing does not record history, and has a separate database for
 cookies and other web storage. This does *not* prevent your data from being
 collected by outside parties. It just means other people who use that same
@@ -208,6 +216,8 @@ it's the Internet equivalent of sky-writing. Not to mention, popular email
 solutions like Gmail read all your email to build a consumer profile on you to
 deliver to buyers and governments.
 
+{{< figure src="/images/opensource.jpg" alt="Open source cat" attr="Image credit: Ania Stypulkowski" >}}
+
 Instead, use a encrypted messaging platform. The most secure at the time of this
 writing is an application called [Signal](https://whispersystems.org/), which
 comes highly recommended. Signal is run by a non-profit, and uses open source,
@@ -225,6 +235,8 @@ and then sell that information. Library networks are also monitored by the FBI.
 Unless you subscribe to a VPN or use the Tor browser, don't do anything on a
 public Wifi network you don't want every corporation to know. Yeah, even that
 one you hate. You know the one.
+
+{{< figure src="/images/publicwifi.jpg" alt="Public Wifi cat" attr="Image credit: Ania Stypulkowski" >}}
 
 
 ## Resources
