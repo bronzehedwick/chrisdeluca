@@ -58,7 +58,7 @@ header h1 + p {
 ol,
 ul {
   padding-left: 4ch;
-  list-style-position: inside;
+  list-style-position: outside;
 }
 
 li + li {
@@ -143,7 +143,7 @@ article footer li {
 #TableOfContents li li {
   display: list-item;
   list-style-type: disc;
-  list-style-position: inside;
+  list-style-position: outside;
 }
 
 /**
