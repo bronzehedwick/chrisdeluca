@@ -33,7 +33,7 @@ privacy. Collect 'em all! :bug:
 
 1. [Security vs Privacy on the Internet]({{< relref "article/security-vs-privacy-on-the-internet.md" >}})
 2. [Practical Internet Security]({{< relref "article/practical-internet-security.md" >}})
-3. Practical Internet Privacy (forthcoming)
+3. [Practical Internet Privacy]({{< relref "article/practical-internet-privacy.md" >}})
 
 ## Threat misconceptions
 

@@ -1,0 +1,42 @@
+body {
+  max-width: none;
+  margin-left: 0.25in;
+  margin-right: 0.25in;
+  color: #000;
+  background-color: #fff;
+}
+
+a:link,
+a:active,
+a:visited {
+  color: #000;
+  border-bottom-color: #000;
+}
+
+a::after {
+  content: ': ' attr(href);
+}
+
+svg,
+img,
+figure img {
+  filter: grayscale(100%);
+}
+
+details,
+body > header,
+nav {
+  display: none;
+}
+
+pre {
+  white-space: pre-wrap;
+}
+
+mark {
+  background-color: #a9a9a9;
+}
+
+.page article > p:last-of-type:after {
+  color: #000;
+}

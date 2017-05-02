@@ -11,8 +11,9 @@
   <link rel="stylesheet" href="/css/layout.css">
   <link rel="stylesheet" href="/css/theme.css">
   {{ range .Params.styles }}
-    <link rel="stylesheet" href="/css/{{ . }}.css">
+    <link rel="stylesheet" href="/css/{{ . }}.css"{{ if eq . "oceanic-next" }} media="screen"{{ end }}>
   {{ end }}
+  <link rel="stylesheet" href="/css/print.css" media="print">
   <link rel="icon" type="image/png" href="favicon-16.png" sizes="16x16">
   <link rel="icon" type="image/png" href="favicon-32.png" sizes="32x32">
   <link rel="icon" type="image/png" href="favicon-48.png" sizes="48x48">
