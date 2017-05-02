@@ -7,3 +7,6 @@ fi
 
 # Generate the static site.
 hugo
+
+# Minify CSS
+npm run minify:css
