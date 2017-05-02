@@ -6,9 +6,13 @@ categories = [
   "Fiction"
 ]
 topics = [
-  "Tech",
-  "JavaScript",
-  "Screenplays"
+  "tech",
+  "javascript",
+  "screenplays"
+]
+styles = [
+  "screenplay",
+  "oceanic-next"
 ]
 +++
 

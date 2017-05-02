@@ -2,11 +2,11 @@
 title = "My artsy-fartsy css web experiment"
 date = "2014-09-18"
 summary = "A web experiment drawn entirely in CSS."
-categories = [ "Tutorials" ]
+categories = [ "Tech" ]
 topics = [
-  "Tech",
-  "CSS"
+  "css"
 ]
+styles = ["oceanic-next"]
 +++
 
 

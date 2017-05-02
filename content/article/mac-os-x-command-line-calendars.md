@@ -2,11 +2,11 @@
 title = "Mac OS X Lord of the Rings calendar"
 date = "2014-12-16"
 summary = "Important dates in The Lord of the Rings for the Mac terminal"
-categories = [ "Tutorials" ]
+categories = [ "Tech" ]
 topics = [
-  "Tech",
-  "Shell"
+  "shell"
 ]
+styles = ["oceanic-next"]
 +++
 
 A quick, fun tip for Mac and command line users who are fans of _The Lord of the Rings_;

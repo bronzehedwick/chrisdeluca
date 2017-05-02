@@ -2,12 +2,12 @@
 title = "Automating Jekyll Post Creation"
 date = "2014-09-01"
 summary = "Automatically create Jekyll file names and meta data."
-categories = [ "Tutorials" ]
+categories = ["Tech"]
 topics = [
-  "Tech",
-  "Jekyll",
-  "Shell"
+  "jekyll",
+  "shell"
 ]
+styles = ["oceanic-next"]
 +++
 
 [Jekyll](http://jekyllrb.com/) is a tool for static site generation, and it's what powers [Github pages](https://pages.github.com/), both of which generate and host this site, respectively.

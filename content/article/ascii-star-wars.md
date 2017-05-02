@@ -1,10 +1,9 @@
 +++
 title = "ASCII Star Wars"
 date = "2009-07-20"
-categories = [ "Tutorials" ]
+categories = ["Tech"]
 topics = [
-  "Tech",
-  "Shell"
+  "shell"
 ]
 +++
 

@@ -8,7 +8,7 @@ toc = false
 topics = [
   "css"
 ]
-
+styles = ["oceanic-next"]
 +++
 
 
@@ -17,6 +17,8 @@ topics = [
 
 You have a list of items that you need to render with comma separation, and
 an "and" at the end.
+
+<!--more-->
 
 For example:
 
