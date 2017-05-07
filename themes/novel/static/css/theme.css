@@ -119,6 +119,11 @@ a[href^="http://localhost:1313"]:after {
  * Images.
  */
 
+figure {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
 figure img {
   filter: drop-shadow(0.15em 0.15em 0.1em #eee);
 }
