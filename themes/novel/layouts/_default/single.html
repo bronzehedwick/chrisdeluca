@@ -2,7 +2,10 @@
 
   <section>
     <header>
-      <h1>{{ .Title }}</h1>
+      <h1>
+        {{ if .Params.draft }}<mark>Draft</mark>{{ end }}
+        {{ .Title }}
+      </h1>
     </header>
 
     {{ .Content }}
