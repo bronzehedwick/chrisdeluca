@@ -63,4 +63,19 @@ www.chrisdeluca.me {
 
 }
 
+# Gwen Gween domain redirect
+gwengween.com {
+  redir 301 {
+    / https://www.gwengween.com{uri}
+  }
+}
+
+# Gwen Gween domain configuration
+www.gwengween.com {
+  # Server root
+  root /usr/local/www/gwengween.com
+  # Turn on gzip
+  gzip
+}
+
 # vim set ft=conf
