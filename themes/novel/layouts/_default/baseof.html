@@ -6,18 +6,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="{{ .Site.Params.description }}">
   {{ .Hugo.Generator }}
-  <title>{{ .Title }}</title>
+  <title>{{ title .Title }}</title>
   {{ if .RSSLink }}
     <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
     <link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
   {{ end }}
-  <link rel="stylesheet" href="/css/normalize.css">
-  <link rel="stylesheet" href="/css/layout.css">
-  <link rel="stylesheet" href="/css/theme.css">
+  {{ $normalizeContents := readFile "/themes/novel/static/css/normalize.css" }}
+  <link rel="stylesheet" href="/css/normalize.css?{{ md5 $normalizeContents }}">
+  {{ $layoutContents := readFile "/themes/novel/static/css/layout.css" }}
+  <link rel="stylesheet" href="/css/layout.css?{{ md5 $layoutContents }}">
+  {{ $themeContents := readFile "/themes/novel/static/css/theme.css" }}
+  <link rel="stylesheet" href="/css/theme.css?{{ md5 $themeContents }}">
   {{ range .Params.styles }}
-    <link rel="stylesheet" href="/css/{{ . }}.css"{{ if eq . "oceanic-next" }} media="screen"{{ end }}>
+    {{ $conditionalContents := readFile "/themes/novel/static/css/{{ . }}.css" }}
+    <link rel="stylesheet" href="/css/{{ . }}.css?{{ md5 $conditionalContents }}"{{ if eq . "oceanic-next" }} media="screen"{{ end }}>
   {{ end }}
-  <link rel="stylesheet" href="/css/print.css" media="print">
+  {{ $printContents := readFile "/themes/novel/static/css/print.css" }}
+  <link rel="stylesheet" href="/css/print.css?{{ md5 $printContents }}" media="print">
   <link rel="icon" type="image/png" href="favicon-16.png" sizes="16x16">
   <link rel="icon" type="image/png" href="favicon-32.png" sizes="32x32">
   <link rel="icon" type="image/png" href="favicon-48.png" sizes="48x48">
