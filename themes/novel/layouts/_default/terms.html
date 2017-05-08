@@ -1,0 +1,22 @@
+{{ define "main" }}
+
+  {{ $taxonomy_title := .Title }}
+
+  <h2>{{ title $taxonomy_title }}</h2>
+
+  <ul>
+    {{ $data := .Data }}
+    {{ range $key, $value := .Data.Terms }}
+      <li>
+        <a href="/{{ $data.Plural }}/{{ $key | urlize }}">
+          {{ if eq $taxonomy_title "Categories" }}
+            {{ title $key }}
+          {{ else }}
+            {{ $key }}
+          {{ end }}
+        </a>
+      </li>
+    {{ end }}
+  </ul>
+
+{{ end }}

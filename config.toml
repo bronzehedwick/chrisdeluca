@@ -7,13 +7,27 @@ enableRobotsTXT = true
 pygmentsuseclasses = true
 enableEmoji = true
 editor = "neovim-qt"
+copyright = "Chris DeLuca, all rights reserved."
+
+[author]
+  name = "Chris DeLuca"
+  email = "contact@chrisdeluca.me"
 
 [taxonomies]
   topic = "topics"
   category = "categories"
 
+[[menu.main]]
+  name = "Categories"
+  url = "/categories"
+  weight = -10
+[[menu.main]]
+  name = "RSS"
+  url = "/index.xml"
+  weight = 100
+
 [params]
-  author = "Christopher DeLuca"
+  author = "Chris DeLuca"
   description = "The blog of the person"
 
   [params.socialLinks.twitter]
