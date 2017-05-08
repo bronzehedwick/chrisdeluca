@@ -2,12 +2,12 @@
   <header>
     <h1><a href="{{ .Permalink }}">
       {{ if .Params.draft }}<mark>Draft</mark>{{ end }}
-      {{ .Title }}
+      {{ title .Title }}
     </a></h1>
     {{ partial "article-info.html" . }}
   </header>
 
-  <p>{{ htmlUnescape .Summary | plainify }}</p>
+  <p>{{ .Summary }}</p>
 
   {{ if .Truncated }}
     <a href="{{ .Permalink }}">Read More</a>

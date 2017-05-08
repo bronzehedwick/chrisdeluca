@@ -9,7 +9,7 @@ topics = ["movies", "politics"]
 image = "titicut.jpg"
 +++
 
-{{< figure src="/images/titicut.jpg" alt="Still-frame from Titicut Follies showing an inmate arguing with his doctor." caption="Still from Titicut Follies" >}}
+{{< figure src="/images/titicut.jpg" alt="Still-frame from Titicut Follies showing an inmate arguing with his doctor." >}}
 
 I recently saw *Titicut Follies*, the 1969 documentary film about the harrowing
 conditions in a Massachusetts prison for the criminally insane. The movie was
