@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/bronzehedwick
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.chrisdeluca.me
+  * I am bronzehedwick (https://keybase.io/bronzehedwick) on keybase.
+  * I have a public key ASA1s4RaAOH9R4IT7fV69aYx6RTDkReBzKZJl-hXD8Kslwo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101cab5d027df0f1bdb5e9f2e5d12f2a08b533394d1685d8887a98235489f29c4910a",
+            "host": "keybase.io",
+            "kid": "012035b3845a00e1fd478213edf57af5a631e914c3911781cca64997e8570fc2ac970a",
+            "uid": "f5653006de723b1445a46de521922d19",
+            "username": "bronzehedwick"
+        },
+        "service": {
+            "hostname": "www.chrisdeluca.me",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.22"
+    },
+    "ctime": 1494370813,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1494370773,
+        "hash": "35ce198eb86ed5ce14ab6da1f66539b9a3e9829c300461ef2deffe5f478e25fca6f366ff081ce73379d2f8a23f990637865297d2f3788d10edc05cc3a0acaab8",
+        "seqno": 1060959
+    },
+    "prev": "2a48bc2ff4a7f4ea73d73b5b4b9fe02ef9cf84966e53348169f56127d065c4c4",
+    "seqno": 22,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgNbOEWgDh/UeCE+31evWmMekUw5EXgcymSZfoVw/CrJcKp3BheWxvYWTFAwF7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxY2FiNWQwMjdkZjBmMWJkYjVlOWYyZTVkMTJmMmEwOGI1MzMzOTRkMTY4NWQ4ODg3YTk4MjM1NDg5ZjI5YzQ5MTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwMzViMzg0NWEwMGUxZmQ0NzgyMTNlZGY1N2FmNWE2MzFlOTE0YzM5MTE3ODFjY2E2NDk5N2U4NTcwZmMyYWM5NzBhIiwidWlkIjoiZjU2NTMwMDZkZTcyM2IxNDQ1YTQ2ZGU1MjE5MjJkMTkiLCJ1c2VybmFtZSI6ImJyb256ZWhlZHdpY2sifSwic2VydmljZSI6eyJob3N0bmFtZSI6Ind3dy5jaHJpc2RlbHVjYS5tZSIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjIyIn0sImN0aW1lIjoxNDk0MzcwODEzLCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0OTQzNzA3NzMsImhhc2giOiIzNWNlMTk4ZWI4NmVkNWNlMTRhYjZkYTFmNjY1MzliOWEzZTk4MjljMzAwNDYxZWYyZGVmZmU1ZjQ3OGUyNWZjYTZmMzY2ZmYwODFjZTczMzc5ZDJmOGEyM2Y5OTA2Mzc4NjUyOTdkMmYzNzg4ZDEwZWRjMDVjYzNhMGFjYWFiOCIsInNlcW5vIjoxMDYwOTU5fSwicHJldiI6IjJhNDhiYzJmZjRhN2Y0ZWE3M2Q3M2I1YjRiOWZlMDJlZjljZjg0OTY2ZTUzMzQ4MTY5ZjU2MTI3ZDA2NWM0YzQiLCJzZXFubyI6MjIsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAr407v6vbo5Yn5ijjVSB+fj4iSI2mb9/T946/8USBEEQlOZ4/K/yKtXYD71B81I08uWyIf78+ESsMF+q4T9DjC6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIN/f6QiFj/LdPwRiOObbDd3VInBpphJdp03+sDFlNhb4o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/bronzehedwick
+
+==================================================================
