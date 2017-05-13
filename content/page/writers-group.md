@@ -1,7 +1,6 @@
 +++
 date = "2017-05-12T22:14:38-04:00"
 draft = false
-menu = "main"
 title = "Writers Group"
 
 +++
