@@ -61,6 +61,8 @@ www.chrisdeluca.me {
     Content-Security-Policy "default-src 'self'; script-src 'self' www.youtube.com; frame-src 'self' www.youtube.com"
   }
 
+  proxy /deploy localhost:9826
+
 }
 
 # Gwen Gween domain redirect

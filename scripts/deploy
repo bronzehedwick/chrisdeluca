@@ -1,0 +1,87 @@
+#!/usr/local/bin/node
+// vim: set ft=javascript
+
+'use strict';
+
+const http = require('http');
+const fs = require('fs');
+const crypto = require('crypto');
+const credentials = require('../credentials.json');
+const exec = require('child_process').exec;
+const buildCmd = 'npm run build';
+
+// Simple logging function.
+function log(message) {
+  const now = new Date(Date.now()).toLocaleString();
+  fs.appendFile('/var/log/chris/deploy.log', `${now}: ${message}`, error => {
+    if (error) throw error;
+  });
+}
+
+function writeResponse(status = 200, message = 'OK', response) {
+  response.writeHead(status, {'Content-Type': 'text/plain'});
+  response.end(`${message}
+  `);
+  return status;
+}
+
+http.createServer(function server(request, response) {
+  let body = [];
+
+  request.on('error', error => {
+    // Something went wrong, so log it and return a http error code.
+    return writeResponse(500, 'Error', response);
+  }).on('data', chunk => {
+    // This is the method the node js docs recommend to parse POST bodies.
+    body.push(chunk);
+  }).on('end', () => {
+    // Parse the body as a string.
+    const bodyStr = Buffer.concat(body).toString();
+
+    // Exit early if there is not request body.
+    if (!bodyStr) {
+      return writeResponse(500, 'No request body', response);
+    }
+
+    // Parse the body as json.
+    const json = JSON.parse(bodyStr);
+
+    // Exit early if a push wasn't on the master branch.
+    if (json.ref !== 'refs/heads/master') {
+      return writeResponse(202, 'Only master branch pushes allowed to build', response);
+    }
+
+    const signature = request.headers['x-hub-signature'];
+    // Exit early if there is no signature
+    if (!signature) {
+      return writeResponse(500, 'No signature', response);
+    }
+
+    const repoName = json.repository.full_name;
+    const cryptoAlgorithm = request.headers['x-hub-signature'].match(/.+?(?==)/)[0];
+    const hmac = crypto.createHmac(cryptoAlgorithm, credentials[repoName].secret);
+
+    // Generate a digest of the body.
+    hmac.update(bodyStr);
+    const digest = hmac.digest('hex');
+
+    if (`${cryptoAlgorithm}=${digest}` === signature) {
+      const repoPath = credentials[repoName].path;
+
+      // Actually build the site.
+      exec(`cd ${repoPath} && ${buildCmd}`, function build(error, stdout, stderr) {
+        if (error) log(error);
+        if (stderr) log(stderr);
+        log(stdout);
+        return writeResponse(500, 'Something went wrong', response);
+      });
+
+      return writeResponse(200, 'OK', response);
+    }
+
+    // The signature was bad; denied.
+    return writeResponse(403, 'Permission denied', response);
+
+  });
+
+}).listen(9826);
