@@ -9,7 +9,7 @@ brew install weechat --with-aspell --with-curl --with-python --with-perl --with-
 https://gist.github.com/1stvamp/2158128
 Use https://curl.haxx.se/download/curl-7.50.1.tar.bz2
 
-Use `/usr/local/share` instead of `/usr/share`
+Use `/usr/local/share` instead of `/usr/share`.
 
 ```sh
 #!/bin/bash
