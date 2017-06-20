@@ -36,3 +36,4 @@ http://weechat.org/files/doc/stable/weechat_quickstart.en.html
 http://zanshin.net/2015/01/10/a-guide-for-setting-up-weechat-and-bitlbee/
 https://www.pcspinnt.de/2012/01/bitlbee-znc-and-weechat/
 
+
