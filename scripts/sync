@@ -1,8 +1,0 @@
-#!/bin/sh
-# Sync site to the server.
-
-# Where the remote webserver expects the site.
-SERVE=/usr/local/www/
-
-# Sync the built site to the server.
-rsync -az --delete public/ "chrishost:$SERVE/html"

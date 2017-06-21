@@ -10,3 +10,6 @@ hugo
 
 # Minify CSS
 npm run minify:css
+
+# Sync the built site to the web root.
+rsync -az --delete public/ "/usr/local/www/html"
