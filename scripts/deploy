@@ -8,7 +8,7 @@ const fs = require('fs');
 const crypto = require('crypto');
 const credentials = require('../credentials.json');
 const exec = require('child_process').exec;
-const buildCmd = 'npm run build';
+const buildCmd = 'git pull origin master && make build';
 
 // Simple logging function.
 function log(message) {
@@ -30,6 +30,7 @@ http.createServer(function server(request, response) {
 
   request.on('error', error => {
     // Something went wrong, so log it and return a http error code.
+    log(error);
     return writeResponse(500, 'Error', response);
   }).on('data', chunk => {
     // This is the method the node js docs recommend to parse POST bodies.

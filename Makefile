@@ -6,9 +6,3 @@ serve:
 
 stop:
 	@pgrep hugo | xargs kill
-
-deploy:
-	@./scripts/build && ./scripts/sync
-
-deployServer:
-	@./scripts/sync-server
