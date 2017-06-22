@@ -15,6 +15,6 @@ After the last check, 75% of the batches checked displayed the mutation. All tha
 
 I start high-dose chemo tomorrow, and will continue with that until the 19th, when I get the transplant. After that, I wait for the stem cells to grow into bone marrow, and then I go home. I&#8217;ll be quarantined to my house for at least three months while my immune system recovers, and during that time I have to be really careful about germs: If I get sick, it&#8217;s bad news, being that my only immune system to speak of will be antibiotics. After about 6 months I&#8217;ll be able to return to non-strenuous work, and I&#8217;ll be off immunosuppressants in around a year, and medication entirely in two.
 
-In the mean time, people can come visit so long as they are not sick, and are not around people who are sick, and they come in small numbers. I may lose some/all my hair, so don&#8217;t be surprised if I&#8217;m a cue-ball. I&#8217;ll keep yall posted, but that&#8217;s all the news that&#8217;s fit to print.
+In the mean time, people can come visit so long as they are not sick, and are not around people who are sick, and they come in small numbers. I may lose some/all my hair, so don&#8217;t be surprised if I&#8217;m a cue-ball. I&#8217;ll keep y&#8217;all posted, but that&#8217;s all the news that&#8217;s fit to print.
 
 Until there&#8217;s more, have a pleasant tomorrow!
