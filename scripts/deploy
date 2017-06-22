@@ -17,6 +17,13 @@ function writeResponse(status = 200, message = 'OK', response) {
   return status;
 }
 
+function buildCallback(error, stdout, stderr) {
+  if (error) console.error(error);
+  if (stderr) console.error(stderr);
+  console.log(stdout);
+  return writeResponse(500, 'Something went wrong', response);
+}
+
 http.createServer(function server(request, response) {
   let body = [];
 
@@ -62,12 +69,12 @@ http.createServer(function server(request, response) {
       const repoPath = credentials[repoName].path;
 
       // Actually build the site.
-      exec(`cd ${repoPath} && ${buildCmd}`, function build(error, stdout, stderr) {
-        if (error) console.error(error);
-        if (stderr) console.error(stderr);
-        console.log(stdout);
-        return writeResponse(500, 'Something went wrong', response);
-      });
+      exec(buildCmd, {
+        cwd: repoPath,
+        env: {
+          NODE_ENV: 'production'
+        }
+      }, buildCallback);
 
       return writeResponse(200, 'OK', response);
     }
