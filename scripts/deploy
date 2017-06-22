@@ -1,22 +1,14 @@
 #!/usr/local/bin/node
-// vim: set ft=javascript
+/* vim: set ft=javascript */
+/* eslint-disable no-console */
 
 'use strict';
 
 const http = require('http');
-const fs = require('fs');
 const crypto = require('crypto');
 const credentials = require('../credentials.json');
 const exec = require('child_process').exec;
 const buildCmd = 'git pull origin master && make build';
-
-// Simple logging function.
-function log(message) {
-  const now = new Date(Date.now()).toLocaleString();
-  fs.appendFile('/var/log/chris/deploy.log', `${now}: ${message}`, error => {
-    if (error) throw error;
-  });
-}
 
 function writeResponse(status = 200, message = 'OK', response) {
   response.writeHead(status, {'Content-Type': 'text/plain'});
@@ -30,7 +22,7 @@ http.createServer(function server(request, response) {
 
   request.on('error', error => {
     // Something went wrong, so log it and return a http error code.
-    log(error);
+    console.log(error);
     return writeResponse(500, 'Error', response);
   }).on('data', chunk => {
     // This is the method the node js docs recommend to parse POST bodies.
@@ -71,9 +63,9 @@ http.createServer(function server(request, response) {
 
       // Actually build the site.
       exec(`cd ${repoPath} && ${buildCmd}`, function build(error, stdout, stderr) {
-        if (error) log(error);
-        if (stderr) log(stderr);
-        log(stdout);
+        if (error) console.error(error);
+        if (stderr) console.error(stderr);
+        console.log(stdout);
         return writeResponse(500, 'Something went wrong', response);
       });
 
