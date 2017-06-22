@@ -11,7 +11,7 @@ Well this news is already more than two weeks old, but here it is nonetheless!
 
 <!--more-->
 
-January 19th marked my one year anniversary (second birthday) of my transplant, and I got a pretty clean bill of health. Some of my blood counts are still a bit low (namely red blood cells, making me rather anemic &#8211; stairs still do me in), but that&#8217;s to be expected with the pills I&#8217;m taking. But otherwise, health is returning.
+January 19th, 2011 marked my one year anniversary (second birthday) of my transplant, and I got a pretty clean bill of health. Some of my blood counts are still a bit low (namely red blood cells, making me rather anemic &#8211; stairs still do me in), but that&#8217;s to be expected with the pills I&#8217;m taking. But otherwise, health is returning.
 
 Because of this, the doctors have started cutting my meds. Since two weeks ago, I have completely weaned off prednisone! No more staying up all night (at least not on purpose)! No more random mood swings (and no comments from the peanut gallery)! No more shaky hands and blurry vision (unless I&#8217;m really scared and squint a lot)! So that&#8217;s exciting. 
 
