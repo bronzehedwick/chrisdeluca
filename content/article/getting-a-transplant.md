@@ -5,7 +5,7 @@ categories = [ "Essays" ]
 topics = [ "Leukemia" ]
 +++
 
-I apologize for not posting for a while, but I&#8217;ve been busy, and busy equals news, so here it is: I am going to get the stem cell transplant. In fact, I&#8217;m being admitted into the hospital today (January 12th).
+I apologize for not posting for a while, but I&#8217;ve been busy, and busy equals news, so here it is: I am going to get the stem cell transplant. In fact, I&#8217;m being admitted into the hospital today (Jan. 12th).
 
 <!--more-->
 
