@@ -17,13 +17,6 @@ function writeResponse(status = 200, message = 'OK', response) {
   return status;
 }
 
-function buildCallback(error, stdout, stderr) {
-  if (error) console.error(error);
-  if (stderr) console.error(stderr);
-  console.log(stdout);
-  return writeResponse(500, 'Something went wrong', response);
-}
-
 http.createServer(function server(request, response) {
   let body = [];
 
@@ -74,7 +67,12 @@ http.createServer(function server(request, response) {
         env: {
           NODE_ENV: 'production'
         }
-      }, buildCallback);
+      }, function buildCallback(error, stdout, stderr) {
+        if (error) console.error(error);
+        if (stderr) console.error(stderr);
+        console.log(stdout);
+        return writeResponse(500, 'Something went wrong', response);
+      });
 
       return writeResponse(200, 'OK', response);
     }
