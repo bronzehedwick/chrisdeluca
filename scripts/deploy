@@ -8,7 +8,6 @@ const http = require('http');
 const crypto = require('crypto');
 const credentials = require('../credentials.json');
 const exec = require('child_process').exec;
-const buildCmd = 'git pull origin master && make build';
 
 function writeResponse(status = 200, message = 'OK', response) {
   response.writeHead(status, {'Content-Type': 'text/plain'});
@@ -50,24 +49,31 @@ http.createServer(function server(request, response) {
       return writeResponse(500, 'No signature', response);
     }
 
-    const repoName = json.repository.full_name;
+    const repoVars = credentials[json.repository.full_name];
+    const {secret, buildCmd, path} = repoVars;
+
     const cryptoAlgorithm = request.headers['x-hub-signature'].match(/.+?(?==)/)[0];
-    const hmac = crypto.createHmac(cryptoAlgorithm, credentials[repoName].secret);
+    const hmac = crypto.createHmac(cryptoAlgorithm, secret);
 
     // Generate a digest of the body.
     hmac.update(bodyStr);
     const digest = hmac.digest('hex');
 
     if (`${cryptoAlgorithm}=${digest}` === signature) {
-      const repoPath = credentials[repoName].path;
+      const buildCmds = [
+        'git pull origin master',
+        `rm -rf ${path.build}`,
+        buildCmd,
+        `rsync -a --delete ${path.build} ${path.dest}`
+      ];
 
       // Actually build the site.
-      exec(buildCmd, {
-        cwd: repoPath,
+      exec(buildCmds.join(' && '), {
+        cwd: path.src,
         env: {
           NODE_ENV: 'production'
         }
-      }, function buildCallback(error, stdout, stderr) {
+      }, (error, stdout, stderr) => {
         if (error) console.error(error);
         if (stderr) console.error(stderr);
         console.log(stdout);
