@@ -64,7 +64,7 @@ http.createServer(function server(request, response) {
         'git pull origin master',
         `rm -rf ${path.build}`,
         buildCmd,
-        `rsync -a --delete ${path.build} ${path.dest}`
+        `rsync -av --progress --delete ${path.build}/ ${path.dest}`
       ];
 
       // Actually build the site.
