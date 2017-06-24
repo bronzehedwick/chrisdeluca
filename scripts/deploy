@@ -61,6 +61,7 @@ http.createServer(function server(request, response) {
 
     if (`${cryptoAlgorithm}=${digest}` === signature) {
       const buildCmds = [
+        'git reset --hard',
         'git pull origin master',
         `rm -rf ${path.build}`,
         buildCmd,
