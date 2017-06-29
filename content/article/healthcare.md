@@ -1,7 +1,7 @@
 +++
 categories = ["Essays"]
 date = "2017-06-27T08:18:17-04:00"
-draft = true
+draft = false
 styles = []
 subtitle = ""
 title = "Healthcare"
