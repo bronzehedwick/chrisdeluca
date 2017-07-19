@@ -10,6 +10,7 @@ The process for the writer's group I run.
 * You can either write a piece to be work shopped, or come to only provide a critique.
 * If you brought a story you can and should critique others.
 * Stories can be any form or genre (e.g. prose, poetry, comics, etc), but should be no longer than 10 pages.
+  * An exception is made for screenplays, or other works in a script-like format: the page limit there is 20.
 * Pieces can be part of a larger work, as long as it sticks to the page count.
 * If you bring a story, please email it to me no later than 3 days before the
   meeting.
