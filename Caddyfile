@@ -13,7 +13,7 @@ chrisdeluca.me {
 www.chrisdeluca.me {
 
   # Server root
-  root /usr/local/www/html
+  root /usr/local/www/chrisdeluca
 
   # Enable gzip compression
   gzip
