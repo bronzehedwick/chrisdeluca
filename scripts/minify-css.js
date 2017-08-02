@@ -1,4 +1,5 @@
 #!/usr/local/bin/node
+/* eslint-disable no-console */
 
 const cssnano = require('cssnano');
 const fs = require('fs-extra');

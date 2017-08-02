@@ -4,4 +4,4 @@
 hugo
 
 # Minify CSS
-npm run minify:css
+./scripts/minify-css.js
