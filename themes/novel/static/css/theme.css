@@ -7,17 +7,13 @@ body {
   font-size: 1.2em;
   line-height: 1.6;
   background-color: #fdfcfa;
-  color: #444;
+  color: #191919;
 }
 
 @media screen and (min-width: 28em) {
   body {
     font-size: 1.4em;
   }
-}
-
-h1, h2, h3, h4, h5, h6 {
-  color: #222;
 }
 
 pre, code, kbd, samp {
@@ -30,11 +26,7 @@ hr {
   margin-top: 2em;
   margin-bottom: 2em;
   border-bottom-style: hidden;
-  color: #444;
-}
-
-small {
-  color: #929292;
+  color: #191919;
 }
 
 abbr {
@@ -50,7 +42,7 @@ body > header {
 }
 
 body > header p {
-  color: #757575;
+  color: #666;
   font-style: italic;
 }
 
@@ -217,7 +209,6 @@ q:after {
 
 blockquote {
   margin: 2em;
-  color: #888;
 }
 
 blockquote::before {
@@ -229,6 +220,7 @@ blockquote::before {
   font-family: Georgia, sans-serif;
   line-height: 0.75;
   margin-right: 0.25ch;
+  color: #d1642a;
 }
 
 /**
