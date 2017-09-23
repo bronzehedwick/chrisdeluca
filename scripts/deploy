@@ -64,7 +64,7 @@ http.createServer(function server(request, response) {
         'git reset --hard',
         'git pull origin master',
         `rm -rf ${path.build}`,
-        buildCmd,
+        `PATH=$PATH:/usr/local/bin ${buildCmd}`,
         `rsync -av --progress --delete ${path.build}/ ${path.dest}`
       ];
 
