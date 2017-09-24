@@ -61,10 +61,11 @@ http.createServer(function server(request, response) {
 
     if (`${cryptoAlgorithm}=${digest}` === signature) {
       const buildCmds = [
+        'PATH=$PATH:/usr/local/bin',
         'git reset --hard',
         'git pull origin master',
         `rm -rf ${path.build}`,
-        `PATH=$PATH:/usr/local/bin ${buildCmd}`,
+        buildCmd,
         `rsync -av --progress --delete ${path.build}/ ${path.dest}`
       ];
 
