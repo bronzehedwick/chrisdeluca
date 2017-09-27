@@ -17,9 +17,6 @@
   <link rel="stylesheet" href="/css/layout.css?{{ md5 $layoutContents }}">
   {{ $themeContents := readFile "/themes/novel/static/css/theme.css" }}
   <link rel="stylesheet" href="/css/theme.css?{{ md5 $themeContents }}">
-  {{ range .Params.styles }}
-    <link rel="stylesheet" href="/css/{{ . }}.css"{{ if eq . "oceanic-next" }} media="screen"{{ end }}>
-  {{ end }}
   {{ $printContents := readFile "/themes/novel/static/css/print.css" }}
   <link rel="stylesheet" href="/css/print.css?{{ md5 $printContents }}" media="print">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
