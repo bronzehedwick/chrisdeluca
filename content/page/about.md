@@ -23,6 +23,8 @@ youth, it makes me :mask:.
 And you know what else? Anyone who puts up with and actually *reads*
 these travesties can go fart in a tunnel.
 
+I also started [collecting records](/page/record-collection).
+
 ## Credits
 
 All content, unless otherwise noted, is copyright Christopher DeLuca, as shown

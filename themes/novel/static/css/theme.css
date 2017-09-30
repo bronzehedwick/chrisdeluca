@@ -123,28 +123,22 @@ table {
   margin-right: auto;
   margin-bottom: 1em;
   border-collapse: collapse;
-  border: 1px solid #ccc;
 }
 
-th {
-  text-align: left;
-  background-color: #aaa;
+thead {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
 }
 
 td, th {
   padding: 0.5em 2ch;
+  min-width: calc(100px + 4ch);
 }
 
-tr {
-  border-bottom: 1px solid #ccc;
-}
-
-tr + tr:last-child {
-  border-bottom: 0px none;
-}
-
-td, th {
-  border-right: 1px solid #ccc;
+th {
+  text-align: left;
+  background-color: rgb(41, 150, 210);
 }
 
 th + th:last-child,
