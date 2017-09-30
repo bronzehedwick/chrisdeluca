@@ -216,3 +216,7 @@ figcaption {
 .align-left + * {
   margin-top: 1em;
 }
+
+.responsive-table {
+  overflow-x: scroll;
+}
