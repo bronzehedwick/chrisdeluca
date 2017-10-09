@@ -6,3 +6,6 @@ serve:
 
 stop:
 	@pgrep hugo | xargs kill
+
+creds:
+	@scp credentials.json chrishost:/usr/local/www/_src/chrisdeluca/credentials.json
