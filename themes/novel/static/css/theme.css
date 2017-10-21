@@ -56,13 +56,13 @@ body > header p {
      -webkit-initial-letter: 3;
      initial-letter: 3;
      margin-right: 0.5ch;
-     color: #d1642a;
+     color: #ff725c;
   }
 }
 
 .page article > p:last-of-type:after {
   content: ' ◆';
-  color: #d1642a;
+  color: #ff725c;
 }
 
 .screenplay p:last-of-type:after,
@@ -78,14 +78,14 @@ a:link,
 a:active,
 a:focus,
 a:visited {
-  color: #007cb2;
+  color: #357edd;
   text-decoration: none;
-  border-bottom: 0.075em dotted #007cb2;
+  border-bottom: 0.075em dotted #357edd;
   transition: background-color 200ms ease;
 }
 
 a:hover {
-  background-color: rgba(41, 150, 210, 0.05);
+  background-color: rgba(53, 126, 221, 0.05);
 }
 
 a:after {
@@ -211,7 +211,7 @@ blockquote::before {
   font-family: Georgia, sans-serif;
   line-height: 0.75;
   margin-right: 0.25ch;
-  color: #d1642a;
+  color: #ff725c;
 }
 
 /**
