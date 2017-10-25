@@ -138,7 +138,7 @@ td, th {
 
 th {
   text-align: left;
-  background-color: rgb(41, 150, 210);
+  background-color: #ff725c;
 }
 
 th + th:last-child,
