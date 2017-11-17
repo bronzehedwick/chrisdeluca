@@ -38,7 +38,7 @@ Leafing through the record spines, hearing the paper *swoosh* as you pull it
 off the shelf, carefully extracting the record, delicately placing it on the
 spindle, cleaning and wiping for dust as necessary.
 
-It's like worshiping at an alter, except instead of having to confess your sins
+It's like worshiping at an altar, except instead of having to confess your sins
 you get to dance.
 
 ## You own them
