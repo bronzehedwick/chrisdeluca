@@ -19,6 +19,8 @@
   <link rel="stylesheet" href="/css/theme.css?{{ md5 $themeContents }}">
   {{ $printContents := readFile "/themes/novel/static/css/print.css" }}
   <link rel="stylesheet" href="/css/print.css?{{ md5 $printContents }}" media="print">
+  {{ $syntaxContents := readFile "/themes/novel/static/css/syntax.css" }}
+  <link rel="stylesheet" href="/css/syntax.css?{{ md5 $syntaxContents }}">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -66,5 +68,10 @@
 
     <small>&#169; {{ dateFormat "2006" .Lastmod }} {{ .Site.Params.author }}. All rights reserved.</small>
   </footer>
+  {{ if .Params.scripts }}
+    {{ range .Params.scripts }}
+      <script src="/js/{{ . }}"></script>
+    {{ end }}
+  {{ end }}
 </body>
 </html>
