@@ -5,25 +5,26 @@ title = "Dr Strangecode Slides"
 
 <!-- Title -->
 <section data-background-image="/images/dr-strangelove-war-room.jpg">
-  <p style="color:white">Dr. Strangecode Or:</p>
-  <p style="color:white">How I learned to stop worrying and love the DOM</p>
-  <aside class="notes">This is my note</aside>
+  <p class="color-white">Dr. Strangecode Or:</p>
+  <p class="color-white">How I learned to stop worrying and love the DOM</p>
+</section>
+
+<section data-background-image="/images/dr-strangelove-war-room.jpg">
+  <p class="color-white">My game making journey, and DOM love-affair.</p>
 </section>
 
 <!-- Decisions -->
 <section>
-  <p>I decided to make a game</p>
-  <p class="fragment fade-down">In JavaScript</p>
-  <p class="fragment fade-down">For the web</p>
+  <p>I wanted to make a JavaScript web game</p>
 </section>
 
 <!-- Principles -->
 <section>
 <p>I tried to follow these guiding principles:</p>
 <ol>
-  <li class="fragment fade-up">It should lean into the web. <span class="fragment fade-in" style="color:#2ECC40">success!</span></li>
-  <li class="fragment fade-up">It should <em>not</em> use a framework. <span class="fragment fade-in" style="color:#2ECC40">success!</span></li>
-  <li class="fragment fade-up">It should be easy. <span class="fragment fade-in" style="color:#FF4136">fail!</span></li>
+  <li class="fragment fade-up">It should lean into the web. <span class="fragment fade-in color-green">success!</span></li>
+  <li class="fragment fade-up">It should <em>not</em> use a framework. <span class="fragment fade-in color-green">success!</span></li>
+  <li class="fragment fade-up">It should be easy. <span class="fragment fade-in color-red">fail!</span></li>
 </ol>
 </section>
 
@@ -137,7 +138,7 @@ I didn't know how to make a game, so…
 
 <!-- Data storage is good -->
 <section>
-  <p>The DOM/HTML is pretty dope for storing data.</p>
+  <p>Also, the DOM is pretty good at storing data</p>
 </section>
 
 <section>
@@ -159,24 +160,14 @@ But it's not all :rose:s.
   <img src="/images/panic.gif" alt="Panic!">
 </section>
 
-<!-- Cope -->
-<section>
-  <p>How to cope?</p>
-</section>
-
-<!-- Crap code -->
-<section>
-Write crap code.
-</section>
-
 <section>
 Let's get into it.
 </section>
 
 <section>
   <p>For this presentation:</p>
-  <p class="fragment fade-in">Focus on data, objects, and messaging.</p>
-  <p class="fragment fade-in">End goal: <span class="fragment fade-in">Clicking a thing displays it's description.</span></p>
+  <p>Focus on data, objects, and messaging.</p>
+  <p>End goal: Clicking a thing displays it's description.</p>
 </section>
 
 <!-- Modules -->
@@ -232,7 +223,7 @@ I worked real hard on some programmer art.
 
 <!-- Loosely couple -->
 <section>
-We can tie loosely couple the data and logic together.
+We can loosely couple data and logic together.
 </section>
 
 <!-- DOM encapsulation -->
@@ -447,7 +438,7 @@ Map.
 <section>
 <p>Thank you!</p>
 <a target="_blank" href="https://gwengween.com">gwengween.com</a>
-<address style="font-size:0.65em">
+<address class="size-small">
 contact@chrisdeluca.me
 </address>
 </section>
