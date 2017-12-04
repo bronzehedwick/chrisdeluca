@@ -173,18 +173,7 @@ Let's get into it.
 <!-- Modules -->
 <section>
   <h4>Sidebar</h4>
-  <p>Modules<span class="fragment fade-in">: Going Naked</span></p>
-  <p class="fragment fade-right">I got tired of setting up build tools, but I still wanted clearly separated code, so…</p>
-  <p class="fragment fade-left">I used ES6 modules without transpilation</p>
-  <p class="fragment fade-up">It was fine!</p>
-</section>
-
-<!-- Modules browser support -->
-<section>
-  <h3>Modules browser support</h3>
-  <p class="ciu_embed" data-feature="es6-module" data-periods="future_1,current,past_1,past_2">
-    <a href="http://caniuse.com/#feat=es6-module">Can I Use es6-module?</a> Data on support for the es6-module feature across the major browsers from caniuse.com.
-  </p>
+  <p>Native ES6 Modules: you can use them in development</p>
 </section>
 
 <!-- Use SVG -->
