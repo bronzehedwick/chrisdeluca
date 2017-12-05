@@ -136,16 +136,11 @@ I didn't know how to make a game, so…
 </ol>
 </section>
 
-<!-- Data storage is good -->
-<section>
-  <p>Also, the DOM is pretty good at storing data</p>
-</section>
-
 <section>
 But it's not all :rose:s.
 </section>
 
-<!-- Problems with DOM getting -->
+<!-- DOM Problems -->
 <section>
 <h4>DOM Problems</h4>
 <ol>
@@ -160,32 +155,26 @@ But it's not all :rose:s.
   <img src="/images/panic.gif" alt="Panic!">
 </section>
 
+<!-- DOM Solutions -->
 <section>
-Let's get into it.
+<h4>DOM <del>Problems</del> Solutions</h4>
+<ol>
+  <li>Performance is poor<span class="fragment fade-in color-green">: stay static, no touching</span></li>
+  <li>Data synchronization is an issue<span class="fragment fade-in color-green">: don't try</span></li>
+  <li>API is weird<span class="fragment fade-in color-green">: it is what it is</span></li>
+</ol>
 </section>
 
 <section>
   <p>For this presentation:</p>
-  <p>Focus on data, objects, and messaging.</p>
+  <p>Focus on object <strong>data</strong>, loosely tied to <strong>logic</strong>, and <strong>message</strong> passing</p>
   <p>End goal: Clicking a thing displays it's description.</p>
 </section>
 
 <!-- Modules -->
 <section>
   <h4>Sidebar</h4>
-  <p>Native ES6 Modules: you can use them in development</p>
-</section>
-
-<!-- Use SVG -->
-<section>
-<p>I used SVG for graphics.</p>
-<p>They are:</p>
-<ol>
-  <li class="fragment fade-left">Pure markup</li>
-  <li class="fragment fade-left">Style control with CSS</li>
-  <li class="fragment fade-left">Fully animatable</li>
-  <li class="fragment fade-left">Resolution independent</li>
-</ol>
+  <p>Native ES6 Modules: you can use them in development!</p>
 </section>
 
 <!-- Programmer art -->
@@ -198,53 +187,43 @@ I worked real hard on some programmer art.
   <img src="/images/gambini-screen.png" alt="Gambini Game Screenshot">
 </section>
 
-<!-- Code representation -->
+<!-- Data -->
 <section>
-  <p>Each object in the game world needs a representation in code.</p>
-  <p class="fragment fade-in">Each object needs both logic and data.</p>
+  <h1>Data</h1>
+  <img src="/images/dr-strangelove-computer.jpg" alt="Dr. Strangelove Computer">
 </section>
 
-<!-- Thing naming -->
 <section>
-<p>For my game, I called these objects, "things".</p>
-<p class="fragment fade-up">I am a genius.</p>
+When something is clicked, we need to know stuff about it, like graphic, description, etc.
 </section>
 
-<!-- Loosely couple -->
+<!-- Use SVG -->
 <section>
-We can loosely couple data and logic together.
+<p>I used SVGs for graphics</p>
+<p>They are:</p>
+<ol>
+  <li class="fragment fade-left">Pure markup</li>
+  <li class="fragment fade-left">Style control with CSS</li>
+  <li class="fragment fade-left">Fully animatable</li>
+  <li class="fragment fade-left">Resolution independent</li>
+</ol>
 </section>
 
-<!-- DOM encapsulation -->
+<!-- data attributes -->
 <section>
-<h3>DOM encapsulation</h3>
-<svg width="557" height="409" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
- <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
- <title>object</title>
- <g>
-  <rect id="svg_18" height="403.00001" width="550.99998" y="3" x="3" stroke-width="5" stroke="#000000" fill="#ffffaa"/>
-  <text transform="matrix(1, 0, 0, 1, 0, 0)" font-weight="bold" xml:space="preserve" text-anchor="middle" font-family="Sans-serif" font-size="24" id="svg_20" y="37" x="55" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">Object</text>
-  <rect id="svg_21" height="288" width="215" y="77" x="34" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" stroke="#000000" fill="#e5e5e5"/>
-  <text transform="matrix(1, 0, 0, 1, 0, 0)" xml:space="preserve" text-anchor="middle" font-family="Sans-serif" font-size="24" id="svg_22" y="108" x="117" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">SVG Graphic</text>
-  <g id="svg_1" transform="matrix(0.349608, 0, 0, 0.349608, 7.93935e-05, 15.5733)">
-   <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 260.464 260.464" id="svg_8" x="145.87732" y="351.8221">
-    <g fill="#D80027" id="svg_9">
-     <path d="m207.854,139.263a32.7,32.7 0 0 1 -6.93001,6.908c-5.86,7.84999 -14.23999,11.92 -21.67001,9.47699c-10.26299,-3.35501 -14.76801,-17.72 -10.06,-32.09399a35.822,35.822 0 0 1 6.39401,-11.623l17.368,-40.8l7.166,-16.824c-21.53499,-21.874 -55.01199,-35.145 -100.43199,-27.897c-99.63,15.894 -130.366,137.784 -65.712,195.01999c60.503,53.56699 92.24,17.077 115.16999,-23.44c2.59601,-4.584 8.74701,-7.272 13.98201,-6.71201c16.68399,1.76999 50.84398,-0.09999 62.687,-41.922c3.313,-11.72 4.06,-24.59 2.31,-37.48199l-20.27298,27.39l0,-0.00099l-0.00002,0zm-148.967,-52.443c11.418,0 20.668,9.252 20.668,20.663c0,11.415 -9.25,20.668 -20.668,20.668c-11.415,0 -20.668,-9.252 -20.668,-20.667c0,-11.41 9.252,-20.664 20.667,-20.664l0.001,0zm-11.926,94.59299c-11.41,0 -20.668,-9.25299 -20.668,-20.65999c0,-11.41301 9.253,-20.67201 20.668,-20.67201c11.418,0 20.67,9.25401 20.67,20.67201c0,11.40799 -9.252,20.65999 -20.67,20.65999zm40.542,41.33701c-11.416,0 -20.66801,-9.254 -20.66801,-20.66c0,-11.418 9.25301,-20.672 20.66801,-20.672c11.417,0 20.668,9.254 20.668,20.67c0,11.408 -9.25,20.662 -20.668,20.662zm16.69199,-130.36399c-11.415,0 -20.668,-9.25 -20.668,-20.67c0,-11.41 9.253,-20.66201 20.668,-20.66201c11.413,0 20.67001,9.253 20.67001,20.663c0,11.418 -9.25201,20.67 -20.67001,20.67l0,-0.00099zm134.759,-76.447c-13.375,0.866 -23.416,13.82 -23.416,13.82l0.114,0.058c-0.564,0.55 -1.11301,1.14 -1.63,1.76c-9.11,10.854 -7.68999,27.028 3.16301,36.13c10.85301,9.105 27.024,7.69 36.12701,-3.165c3.3,-3.928 5.2,-8.567 5.78999,-13.313l0.01001,0.005c4.92499,-23.314 -5.19302,-39.053 -5.19302,-39.053s-1.58,2.894 -14.966,3.76l0.00102,-0.002l-0.00002,0z" id="svg_15"/>
-     <path d="m179.87,146.47701c5.045,2.936 13.423,-0.487 18.72,-7.64l24.66399,-33.322c-11.48999,-2.64 -21.784,-9.75999 -28.41199,-15.325a91.435,91.435 0 0 1 -1.75,-1.504l-16.032,37.658c-3.485,8.18001 -2.22701,17.2 2.81,20.133zm34.87001,-75.857a29.432,29.432 0 0 1 -8.698,-12.354l-7.36299,17.3c6.50299,6.475 20.76999,17.738 33.75998,17.55l13.45299,-18.16399c-10.04601,4.45399 -22.18999,3.194 -31.15198,-4.333l0,0.001l0,-0.00001z" id="svg_13"/>
-    </g>
-   </svg>
-  </g>
-  <rect fill="#e5e5e5" stroke="#000000" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="269" y="77.99999" width="259.99999" height="286" id="svg_14"/>
-  <text fill="#000000" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="489" y="394" id="svg_6" font-size="24" font-family="Sans-serif" text-anchor="middle" xml:space="preserve" transform="matrix(14.7476, 0, 0, 10.9149, -6758.58, -3978.88)"/>
-  <text fill="#000000" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="361" y="159" id="svg_7" font-size="24" font-family="Sans-serif" text-anchor="middle" xml:space="preserve" transform="matrix(16.03, 0, 0, 7.68518, -5314.33, -936.429)"/>
-  <text transform="matrix(1, 0, 0, 1, 0, 0)" xml:space="preserve" text-anchor="middle" font-family="Sans-serif" font-size="24" id="svg_16" y="107" x="307" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">Data</text>
- </g>
-</svg>
+<p>I used data attributes to store data</p>
+<p>They are:</p>
+<ol>
+  <li class="fragment fade-right">Pure markup</li>
+  <li class="fragment fade-right">Flexible</li>
+  <li class="fragment fade-right">Combine with SVG to tie all data together</li>
+  <li class="fragment fade-right"><code>dataset</code> makes them nicer to work with</li>
+</ol>
 </section>
 
 <!-- DOM encapsulation code -->
 <section>
-  <h3>Example</h3>
+  <h3>DOM data</h3>
   <div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html">
   <span class="p">&lt;</span><span class="nt">svg</span>
   <span class="na">xmlns</span><span class="o">=</span><span class="s">"http://www.w3.org/2000/svg"</span>
@@ -258,6 +237,11 @@ We can loosely couple data and logic together.
   <span class="p">&lt;</span><span class="nt">desc</span><span class="p"></span><span class="p">&gt;</span>This is a <span class="p">&lt;</span><span class="nt">em</span><span class="p"></span><span class="p">&gt;</span>bed<span class="p">&lt;</span><span class="p">/</span><span class="nt">em</span><span class="p">&gt;&lt;</span><span class="p">/</span><span class="nt">desc</span><span class="p">&gt;</span>
   <span class="c">&lt;!-- SVG code --&gt;</span>
   <span class="p">&lt;</span><span class="p">/</span><span class="nt">svg</span><span class="p">&gt;</span></code></pre></div><span>
+</section>
+
+<section>
+<h1>Logic</h1>
+<img src="/images/dr-strangelove-jack.jpg" alt="Dr. Strangelove Jack">
 </section>
 
 <!-- Thing invocation -->
@@ -285,15 +269,14 @@ We can loosely couple data and logic together.
 
 <!-- Strangelove messaging -->
 <section>
-  <h4>Messaging</h4>
-  <img height="200" src="/images/dr-strangelove-general.jpg" alt="Dr. Strangelove General">
-  <img height="200" src="/images/dr-strangelove-president.jpg" alt="Dr. Strangelove President">
+  <h1>Messaging</h1>
+  <img src="/images/dr-strangelove-general.jpg" alt="Dr. Strangelove General">
 </section>
 
 <!-- Observer pattern -->
 <section>
 <p>The observer pattern:</p>
-<blockquote class="fragment fade-in">
+<blockquote>
   “…lets one piece of code announce that something interesting happened without actually caring who receives the notification.” &mdash;Game Programming Patterns
 </blockquote>
 </section>
@@ -345,8 +328,7 @@ We can loosely couple data and logic together.
 
 <!-- Observer in JS -->
 <section>
-My observer pattern is a thin wrapper around event delegation, using a single
-<code>pointerup</code> listener at the document root.
+My observer pattern is a thin wrapper around event delegation, storing callbacks in a <code>Map</code>.
 </section>
 
 <!-- Observer data -->
@@ -365,9 +347,12 @@ My observer pattern is a thin wrapper around event delegation, using a single
 
 <!-- Observer in JS -->
 <section>
-Since we've associated the DOM Node with it's properties in JS, when the
-delegated event gets to the listener we can try pulling the element from the
-Map.
+Delegated events can pull the necessary callbacks using the DOM node as a key
+</section>
+
+<section>
+<p>This only works if you click on the SVG root element…</p>
+<p class="fragment fade-in"><em>closest</em> to the rescue</p>
 </section>
 
 <!-- onNotify original -->
@@ -386,11 +371,14 @@ Map.
   <img src="/images/panic.gif" alt="Panic!">
 </section>
 
+<section>
+Who can save us?
+</section>
+
 <!-- DOM Gem -->
 <section>
-  <p>What can make life easier?</p>
-  <code class="fragment fade-up">farthestViewportElement</code>
-  <p class="fragment fade-in">A real DOM :gem:</p>
+  <p>A real :gem:</p>
+  <code>farthestViewportElement</code>
 </section>
 
 <!-- farthestViewportElement description -->
