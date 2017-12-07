@@ -130,7 +130,6 @@ I didn't know how to make a game, so…
 <ol>
   <li class="fragment fade-in">Painting</li>
   <li class="fragment fade-in">Clicking</li>
-  <li class="fragment fade-in">Event Delegation</li>
   <li class="fragment fade-in">Responsive</li>
   <li class="fragment fade-in">Accessibility</li>
 </ol>
