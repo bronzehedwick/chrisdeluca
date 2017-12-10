@@ -107,4 +107,51 @@ patricialhorvath.com {
   gzip
 }
 
+####################
+# swiftglidden.com #
+####################
+
+# Swift Glidden domain redirect
+www.swiftglidden.com {
+  redir 301 {
+    / https://swiftglidden.com{uri}
+  }
+}
+
+# Swift Glidden domain configuration
+swiftglidden.com {
+  # Server root
+  root /usr/local/www/swiftglidden.com
+  # Turn on gzip
+  gzip
+
+  # Cache expires rules
+  expires {
+    match .css$ 1y
+    match .js$ 1y
+    match .png$ 1y
+    match .jpg$ 1y
+    match .gif$ 1y
+    match .svg$ 1y
+    match .pdf 1y
+    match .html$ 1d
+  }
+
+  # Custom headers
+  header / {
+    # Enable HTTP Strict Transport Security (HSTS) to force clients to always
+    # connect via HTTPS (do not use if only testing)
+    Strict-Transport-Security "max-age=31536000;"
+    # Enable cross-site filter (XSS) and tell browser to block detected attacks
+    X-XSS-Protection "1; mode=block"
+    # Prevent some browsers from MIME-sniffing a response away from the declared Content-Type
+    X-Content-Type-Options "nosniff"
+    # Disallow the site to be rendered within a frame (clickjacking protection)
+    X-Frame-Options "DENY"
+    # Add a content security policy:
+    Content-Security-Policy "default-src 'self'; script-src 'self' www.youtube.com; frame-src 'self' www.youtube.com"
+  }
+
+}
+
 # vim set ft=conf
