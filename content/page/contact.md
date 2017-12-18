@@ -19,5 +19,3 @@ If email's not your game, use one of the social networks below.
 If you'd like to contact me securely, <abbr title="Dungeon Master">DM</abbr> me on Twitter for my [Signal](https://whispersystems.org) number, or use [Keybase](https://keybase.io).
 
 If you insist on doing things the hard way, you can <a download href="/files/chris-deluca-pgp.pub.asc">download my PGP key</a>.
-
-You can also <a target="_blank" rel="noreferrer" href="https://nextcloud.com/federation#chris@hypnotictoast.com" style="padding:10px;background-color:#0082c9;color:#ffffff;border-radius:3px;padding-left:4px;"> <span style="background-image:url(https://hypnotictoast.com/core/img/logo.svg?v=0);width:50px;height:30px;position:relative;top:8px;background-size:contain;display:inline-block;background-repeat:no-repeat; background-position: center center;"></span> Share with me via Nextcloud.</a>
