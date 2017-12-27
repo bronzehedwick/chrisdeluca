@@ -72,3 +72,8 @@
 .screenplay .dual .right {
   margin-left: 2ch;
 }
+
+.screenplay .highlight {
+  background-color: #ffdc00;
+  color: #111;
+}
