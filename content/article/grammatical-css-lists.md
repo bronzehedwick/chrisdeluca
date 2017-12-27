@@ -8,7 +8,7 @@ toc = false
 topics = [
   "css"
 ]
-styles = ["oceanic-next"]
+styles = ["syntax"]
 +++
 
 

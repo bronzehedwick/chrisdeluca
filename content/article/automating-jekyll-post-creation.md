@@ -7,7 +7,7 @@ topics = [
   "jekyll",
   "shell"
 ]
-styles = ["oceanic-next"]
+styles = ["syntax"]
 +++
 
 [Jekyll](http://jekyllrb.com/) is a tool for static site generation, and it's what powers [Github pages](https://pages.github.com/), both of which generate and host this site, respectively.

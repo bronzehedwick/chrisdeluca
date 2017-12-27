@@ -19,8 +19,12 @@
   <link rel="stylesheet" href="/css/theme.css?{{ md5 $themeContents }}">
   {{ $printContents := readFile "/themes/novel/static/css/print.css" }}
   <link rel="stylesheet" href="/css/print.css?{{ md5 $printContents }}" media="print">
-  {{ $syntaxContents := readFile "/themes/novel/static/css/syntax.css" }}
-  <link rel="stylesheet" href="/css/syntax.css?{{ md5 $syntaxContents }}">
+  {{ if .Params.styles }}
+    {{ range .Params.styles }}
+      {{ $styleContents := readFile (print "/themes/novel/static/css/" . ".css") }}
+      <link rel="stylesheet" href="/css/{{ . }}.css?{{ md5 $styleContents }}">
+    {{ end }}
+  {{ end }}
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">

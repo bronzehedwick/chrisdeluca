@@ -6,7 +6,7 @@ categories = [ "Tech" ]
 topics = [
   "shell"
 ]
-styles = ["oceanic-next"]
+styles = ["syntax"]
 +++
 
 A quick, fun tip for Mac and command line users who are fans of _The Lord of the Rings_;

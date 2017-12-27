@@ -6,7 +6,7 @@ categories = [ "Tech" ]
 topics = [
   "css"
 ]
-styles = ["oceanic-next"]
+styles = ["syntax"]
 +++
 
 

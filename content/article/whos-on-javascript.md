@@ -12,7 +12,7 @@ topics = [
 ]
 styles = [
   "screenplay",
-  "oceanic-next"
+  "syntax"
 ]
 +++
 
