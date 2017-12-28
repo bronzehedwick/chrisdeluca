@@ -322,6 +322,12 @@ summary {
   fill: #e52d27;
 }
 
+#back-to-top {
+  position: fixed;
+  top: 1em;
+  left: 1em;
+}
+
 /**
  * Syntax highlighting
  */
