@@ -15,185 +15,194 @@ scripts = [
 
 ## Audio
 
-| Audio File       | Scene                 | Character | Take | Notes                                    |
-| ---------------- | --------------------- | --------- | ---- | ---------------------------------------- |
-| Alice_01.wav     | [Scene 7](#alice_01)  | Gwen      | 1    |                                          |
-| Alice_02.wav     | [Scene 7](#alice_02)  | Gwen      | 2    |                                          |
-| Alice_03.wav     | [Scene 2](#alice_03)  | Gwen      | 1    |                                          |
-| Alice_04.wav     | [Scene 2](#alice_04)  | Gwen      | 2    |                                          |
-| Alice_05.wav     | [Scene 8](#alice_05)  | Gwen      | 1    |                                          |
-| Alice_06.wav     | [Scene 8](#alice_06)  | Gwen      | 2    |                                          |
-| Alice_07.wav     | [Scene 9](#alice_07)  | Gwen      | 1    |                                          |
-| Alice_08.wav     | [Scene 9](#alice_08)  | Gwen      | 2    |                                          |
-| Alice_09.wav     | [Scene 12](#alice_09) | Gwen      | 1    |                                          |
-| Alice_10.wav     | [Scene 12](#alice_10) | Gwen      | 2    |                                          |
-| Alice_11.wav     | [Scene 12](#alice_11) | Gwen      | 3    |                                          |
-| Alice_12.wav     | [Scene 14](#alice_12) | Gwen      | 1    |                                          |
-| Alice_13.wav     | [Scene 14](#alice_13) | Gwen      | 2    |                                          |
-| Alice_14.wav     | [Scene 16](#alice_14) | Gwen      | 1    | With Cristina                            |
-| Alice_15.wav     | [Scene 16](#alice_15) | Gwen      | 2    | With Cristina                            |
-| Alice_16.wav     | [Scene 3](#alice_16)  | Gwen      | 1    |                                          |
-| Alice_17.wav     | [Scene 3](#alice_17)  | Gwen      | 2    |                                          |
-| Alice_18.wav     | [Scene 3](#alice_18)  | Gwen      | 3    | Vicky punch in                           |
-| Alice_19.wav     | [Scene 2](#alice_19)  | Gwen      | 1    | First half                               |
-| Alice_20.wav     | [Scene 2](#alice_20)  | Gwen      | 2    | Punch in                                 |
-| Alice_21.wav     | [Scene 2](#alice_21)  | Gwen      | 1    | Second half                              |
-| Alice_22.wav     | [Scene 2](#alice_22)  | Gwen      | 2    | Almost the whole scene. Stops at Russ explaining |
-| Alice_23.wav     | [Scene 2](#alice_23)  | Gwen      | 2    | Continuing Alice_22. Bit in between missing |
-| Alice_24.wav     | [Scene 11](#alice_24) | Gwen      | 1    | First half                               |
-| Alice_25.wav     | [Scene 11](#alice_25) | Gwen      | 2    | First half                               |
-| Alice_26.wav     | [Scene 5](#alice_26)  | Gwen      | 1    |                                          |
-| Alice_27.wav     | [Scene 5](#alice_27)  | Gwen      | 2    |                                          |
-| Alice_28.wav     | [Scene 16](#alice_28) | Gwen      | 3    | First half. With Aldo + Antonio          |
-| Alice_29.wav     | [Scene 16](#alice_29) | Gwen      | 4    | Just Aldo + Antonio segment              |
-| Alice_30.wav     | [Scene 18](#alice_30) | Gwen      | 1    | No Cristina                              |
-| Alice_31.wav     | [Scene 18](#alice_31) | Gwen      | 2    | No Cristina                              |
-| Alice_32.wav     | n/a                   | Gwen      | 1    | Gwen groan/ooph sounds                   |
-| Alice_33.wav     | [Scene 6](#alice_33)  | Gwen      | 1    | Stops after Gwen: "Well you are"         |
-| Alice_34.wav     | [Scene 6](#alice_34)  | Gwen      | 1    | Picks up after Alice_33. Looses Gwen: "Okay, what about Perry's business" |
-| Alice_35.wav     | [Scene 6](#alice_35)  | Gwen      | 2    | Best take                                |
-| Alice_36.wav     | [Scene 3](#alice_36)  | Gwen      | 1    | Just Dr Gumbolt segment                  |
-| Alice_37.wav     | [Scene 3](#alice_37)  | Gwen      | 2    | Just Dr Gumbolt segment                  |
-| Alice_38.wav     | [Scene 11](#alice_38) | Gwen      | 1    | Just Dr Gumbolt segment                  |
-| Alice_39.wav     | [Scene 11](#alice_39) | Gwen      | 2    | Just Dr Gumbolt segment                  |
-| Alice_40.wav     | [Scene 11](#alice_40) | Gwen      | 3    | Just Dr Gumbolt segment                  |
-| Audio_1_01.wav   | [Scene 16](#audio_01) | Nazi Jeff | 1    |                                          |
-| Cait_01.wav      | Scene 1               | Narrator  | 1    |                                          |
-| Cait_02.wav      | Scene 1               | Narrator  | 2    |                                          |
-| Cait_03.wav      | Scene 4               | Narrator  | 1    |                                          |
-| Cait_04.wav      | Scene 4               | Narrator  | 2    |                                          |
-| Cait_05.wav      | Scene 4               | Narrator  | 3    |                                          |
-| Cait_06.wav      | Scene 10              | Narrator  | 1    | Cuts off in the middle of "Shakily moving away..." |
-| Cait_07.wav      | Scene 10              | Narrator  | 2    |                                          |
-| Cait_08.wav      | Scene 10              | Narrator  | 3    |                                          |
-| Cait_09.wav      | Scene 10              | Narrator  | 4    | Final line punch in                      |
-| Cait_10.wav      | Scene 10              | Narrator  | 5    | Final line punch in                      |
-| Cait_11.wav      | Scene 13              | Narrator  | 1    |                                          |
-| Cait_12.wav      | Scene 19              | Narrator  | 1    |                                          |
-| Cait_13.wav      | Scene 19              | Narrator  | 2    |                                          |
-| Cait_14.wav      | Scene 7               | Narrator  | 1    |                                          |
-| Cait_15.wav      | Scene 7               | Narrator  | 2    |                                          |
-| Cait_16.wav      | Scene 2               | Narrator  | 1    | Just the vicky intro                     |
-| Cait_17.wav      | Scene 2               | Narrator  | 2    | Just the vicky intro                     |
-| Cait_18.wav      | Scene                 | Narrator  |      |                                          |
-| Cait_19.wav      | Scene                 | Narrator  |      |                                          |
-| Cait_20.wav      | Scene                 | Narrator  |      |                                          |
-| Cait_21.wav      | Scene                 | Narrator  |      |                                          |
-| Cait_22.wav      | Scene                 | Narrator  |      |                                          |
-| Cait_23.wav      | Scene                 | Narrator  |      |                                          |
-| Cait_24.wav      | Scene                 | Narrator  |      |                                          |
-| Cait_25.wav      | Scene                 | Narrator  |      |                                          |
-| Cait_26.wav      | Scene                 | Narrator  |      |                                          |
-| Cait_27.wav      | Scene                 | Narrator  |      |                                          |
-| Cait_28.wav      | Scene                 | Narrator  |      |                                          |
-| Cait_29.wav      | Scene                 | Narrator  |      |                                          |
-| Cait_30.wav      | Scene                 | Narrator  |      |                                          |
-| Cait_31.wav      | Scene                 | Narrator  |      |                                          |
-| Cait_32.wav      | Scene                 | Narrator  |      |                                          |
-| Cait_33.wav      | Scene                 | Narrator  |      |                                          |
-| Cait_34.wav      | Scene                 | Narrator  |      |                                          |
-| Cait_35.wav      | Scene                 | Narrator  |      |                                          |
-| Cait_36.wav      | Scene                 | Narrator  |      |                                          |
-| Cait_37.wav      | Scene                 | Narrator  |      |                                          |
-| Cait_38.wav      | Scene                 | Narrator  |      |                                          |
-| Cait_39.wav      | Scene                 | Narrator  |      |                                          |
-| Cait_40.wav      | Scene                 | Narrator  |      |                                          |
-| Cait_41.wav      | Scene                 | Narrator  |      |                                          |
-| Cait_42.wav      | Scene                 | Narrator  |      |                                          |
-| Cait_43.wav      | Scene                 | Narrator  |      |                                          |
-| Cait_44.wav      | Scene                 | Narrator  |      |                                          |
-| Cait_45.wav      | Scene                 | Narrator  |      |                                          |
-| Cait_46.wav      | Scene                 | Narrator  |      |                                          |
-| Cait_47.wav      | Scene                 | Narrator  |      |                                          |
-| Cait_48.wav      | Scene                 | Narrator  |      |                                          |
-| Cait_49.wav      | Scene                 | Narrator  |      |                                          |
-| Cait_50.wav      | Scene                 | Narrator  |      |                                          |
-| Cait_60.wav      | Scene                 | Narrator  |      |                                          |
-| Danny_01.wav     | Scene                 |           |      |                                          |
-| Danny_02.wav     | Scene                 |           |      |                                          |
-| Danny_03.wav     | Scene                 |           |      |                                          |
-| Danny_04.wav     | Scene                 |           |      |                                          |
-| Danny_05.wav     | Scene                 |           |      |                                          |
-| Danny_06.wav     | Scene                 |           |      |                                          |
-| Danny_07.wav     | Scene                 |           |      |                                          |
-| Danny_08.wav     | Scene                 |           |      |                                          |
-| Danny_09.wav     | Scene                 |           |      |                                          |
-| Gizette_01.wav   | Scene                 | Gizette   |      |                                          |
-| Gizette_02.wav   | Scene                 | Gizette   |      |                                          |
-| Gizette_03.wav   | Scene                 | Gizette   |      |                                          |
-| Gizette_04.wav   | Scene                 | Gizette   |      |                                          |
-| Gizette_05.wav   | Scene                 | Gizette   |      |                                          |
-| Gizette_06.wav   | Scene                 | Gizette   |      |                                          |
-| Gizette_07.wav   | Scene                 | Gizette   |      |                                          |
-| Gizette_08.wav   | Scene                 | Gizette   |      |                                          |
-| Gizette_09.wav   | Scene                 | Gizette   |      |                                          |
-| Gizette_10.wav   | Scene                 | Gizette   |      |                                          |
-| Gizette_11.wav   | Scene                 | Gizette   |      |                                          |
-| guard_01.wav     | Scene                 |           |      |                                          |
-| Hector_01.wav    | Scene                 | Hector    |      |                                          |
-| Hector_02.wav    | Scene                 | Hector    |      |                                          |
-| Hector_03.wav    | Scene                 | Hector    |      |                                          |
-| Hector_04.wav    | Scene                 | Hector    |      |                                          |
-| Hector_05.wav    | Scene                 | Hector    |      |                                          |
-| Hector_06.wav    | Scene                 | Hector    |      |                                          |
-| Hector_07.wav    | Scene                 | Hector    |      |                                          |
-| Hector_08.wav    | Scene                 | Hector    |      |                                          |
-| Hector_09.wav    | Scene                 | Hector    |      |                                          |
-| Hector_10.wav    | Scene                 | Hector    |      |                                          |
-| Hector_11.wav    | Scene                 | Hector    |      |                                          |
-| Heil_01 L.wav    | Scene                 | Nazi's    |      |                                          |
-| Heil_01 R.wav    | Scene                 | Nazi's    |      |                                          |
-| Nazi Jeff_01.wav | Scene                 | Nazi Jeff |      |                                          |
-| Nazi Jeff_02.wav | Scene                 | Nazi Jeff |      |                                          |
-| Nazi Jeff_03.wav | Scene                 | Nazi Jeff |      |                                          |
-| Nazi Jeff_04.wav | Scene                 | Nazi Jeff |      |                                          |
-| Nazi Jeff_05.wav | Scene                 | Nazi Jeff |      |                                          |
-| Nazi Jeff_06.wav | Scene                 | Nazi Jeff |      |                                          |
-| Nazi Jeff_07.wav | Scene                 | Nazi Jeff |      |                                          |
-| ooley_01.wav     | Scene                 | Ooley     |      |                                          |
-| Ooley_02.wav     | Scene                 | Ooley     |      |                                          |
-| Ooley_03.wav     | Scene                 | Ooley     |      |                                          |
-| Ooley_04.wav     | Scene                 | Ooley     |      |                                          |
-| Ooley_05.wav     | Scene                 | Ooley     |      |                                          |
-| Ooley_06.wav     | Scene                 | Ooley     |      |                                          |
-| Ooley_07.wav     | Scene                 | Ooley     |      |                                          |
-| Russ_01.wav      | Scene                 | Russ      |      |                                          |
-| Russ_02.wav      | Scene                 | Russ      |      |                                          |
-| Russ_03.wav      | Scene                 | Russ      |      |                                          |
-| Russ_04.wav      | Scene                 | Russ      |      |                                          |
-| Russ_05.wav      | Scene                 | Russ      |      |                                          |
-| Russ_06.wav      | Scene                 | Russ      |      |                                          |
-| Sir 1_01.wav     | Scene                 | Echo Team |      |                                          |
-| Sir 2_01.wav     | Scene                 | Echo Team |      |                                          |
-| Sir 3_01.wav     | Scene                 | Echo Team |      |                                          |
-| Sylvia_01.wav    | Scene                 | Sylvia    |      |                                          |
-| Sylvia_02.wav    | Scene                 | Sylvia    |      |                                          |
-| Sylvia_03.wav    | Scene                 | Sylvia    |      |                                          |
-| Sylvia_04.wav    | Scene                 | Sylvia    |      |                                          |
-| Sylvia_05.wav    | Scene                 | Sylvia    |      |                                          |
-| Sylvia_06.wav    | Scene                 | Sylvia    |      |                                          |
-| Sylvia_07.wav    | Scene                 | Sylvia    |      |                                          |
-| Sylvia_08.wav    | Scene                 | Sylvia    |      |                                          |
-| Sylvia_09.wav    | Scene                 | Sylvia    |      |                                          |
-| Sylvia_10.wav    | Scene                 | Sylvia    |      |                                          |
-| Vicky_01.wav     | Scene                 | Vicky     |      |                                          |
-| Vicky_02.wav     | Scene                 | Vicky     |      |                                          |
-| Vicky_03.wav     | Scene                 | Vicky     |      |                                          |
-| Vicky_04.wav     | Scene                 | Vicky     |      |                                          |
-| Vicky_05.wav     | Scene                 | Vicky     |      |                                          |
-| Vicky_06.wav     | Scene                 | Vicky     |      |                                          |
-| Vicky_07.wav     | Scene                 | Vicky     |      |                                          |
-| Vicky_08.wav     | Scene                 | Vicky     |      |                                          |
-| Vicky_09.wav     | Scene                 | Vicky     |      |                                          |
-| Vicky_10.wav     | Scene                 | Vicky     |      |                                          |
-| Vicky_11.wav     | Scene                 | Vicky     |      |                                          |
-| Vicky_12.wav     | Scene                 | Vicky     |      |                                          |
-| Vicky_13.wav     | Scene                 | Vicky     |      |                                          |
-| Vicky_14.wav     | Scene                 | Vicky     |      |                                          |
-| Vicky_15.wav     | Scene                 | Vicky     |      |                                          |
-| Vicky_16.wav     | Scene                 | Vicky     |      |                                          |
-| Vicky_17.wav     | Scene                 | Vicky     |      |                                          |
-| Vicky_18.wav     | Scene                 | Vicky     |      |                                          |
+| Audio File       | Scene                 | Character  | Take | Notes                                    |
+| ---------------- | --------------------- | ---------- | ---- | ---------------------------------------- |
+| Alice_01.wav     | [Scene 7](#alice_01)  | Gwen       | 1    |                                          |
+| Alice_02.wav     | [Scene 7](#alice_02)  | Gwen       | 2    |                                          |
+| Alice_03.wav     | [Scene 2](#alice_03)  | Gwen       | 1    |                                          |
+| Alice_04.wav     | [Scene 2](#alice_04)  | Gwen       | 2    |                                          |
+| Alice_05.wav     | [Scene 8](#alice_05)  | Gwen       | 1    |                                          |
+| Alice_06.wav     | [Scene 8](#alice_06)  | Gwen       | 2    |                                          |
+| Alice_07.wav     | [Scene 9](#alice_07)  | Gwen       | 1    |                                          |
+| Alice_08.wav     | [Scene 9](#alice_08)  | Gwen       | 2    |                                          |
+| Alice_09.wav     | [Scene 12](#alice_09) | Gwen       | 1    |                                          |
+| Alice_10.wav     | [Scene 12](#alice_10) | Gwen       | 2    |                                          |
+| Alice_11.wav     | [Scene 12](#alice_11) | Gwen       | 3    |                                          |
+| Alice_12.wav     | [Scene 14](#alice_12) | Gwen       | 1    |                                          |
+| Alice_13.wav     | [Scene 14](#alice_13) | Gwen       | 2    |                                          |
+| Alice_14.wav     | [Scene 16](#alice_14) | Gwen       | 1    | With Cristina                            |
+| Alice_15.wav     | [Scene 16](#alice_15) | Gwen       | 2    | With Cristina                            |
+| Alice_16.wav     | [Scene 3](#alice_16)  | Gwen       | 1    |                                          |
+| Alice_17.wav     | [Scene 3](#alice_17)  | Gwen       | 2    |                                          |
+| Alice_18.wav     | [Scene 3](#alice_18)  | Gwen       | 3    | Vicky punch in                           |
+| Alice_19.wav     | [Scene 2](#alice_19)  | Gwen       | 1    | First half                               |
+| Alice_20.wav     | [Scene 2](#alice_20)  | Gwen       | 2    | Punch in                                 |
+| Alice_21.wav     | [Scene 2](#alice_21)  | Gwen       | 1    | Second half                              |
+| Alice_22.wav     | [Scene 2](#alice_22)  | Gwen       | 2    | Almost the whole scene. Stops at Russ explaining |
+| Alice_23.wav     | [Scene 2](#alice_23)  | Gwen       | 2    | Continuing Alice_22. Bit in between missing |
+| Alice_24.wav     | [Scene 11](#alice_24) | Gwen       | 1    | First half                               |
+| Alice_25.wav     | [Scene 11](#alice_25) | Gwen       | 2    | First half                               |
+| Alice_26.wav     | [Scene 5](#alice_26)  | Gwen       | 1    |                                          |
+| Alice_27.wav     | [Scene 5](#alice_27)  | Gwen       | 2    |                                          |
+| Alice_28.wav     | [Scene 16](#alice_28) | Gwen       | 3    | First half. With Aldo + Antonio          |
+| Alice_29.wav     | [Scene 16](#alice_29) | Gwen       | 4    | Just Aldo + Antonio segment              |
+| Alice_30.wav     | [Scene 18](#alice_30) | Gwen       | 1    | No Cristina                              |
+| Alice_31.wav     | [Scene 18](#alice_31) | Gwen       | 2    | No Cristina                              |
+| Alice_32.wav     | n/a                   | Gwen       | 1    | Gwen groan/ooph sounds                   |
+| Alice_33.wav     | [Scene 6](#alice_33)  | Gwen       | 1    | Stops after Gwen: "Well you are"         |
+| Alice_34.wav     | [Scene 6](#alice_34)  | Gwen       | 1    | Picks up after Alice_33. Looses Gwen: "Okay, what about Perry's business" |
+| Alice_35.wav     | [Scene 6](#alice_35)  | Gwen       | 2    | Best take                                |
+| Alice_36.wav     | [Scene 3](#alice_36)  | Gwen       | 1    | Just Dr Gumbolt segment                  |
+| Alice_37.wav     | [Scene 3](#alice_37)  | Gwen       | 2    | Just Dr Gumbolt segment                  |
+| Alice_38.wav     | [Scene 11](#alice_38) | Gwen       | 1    | Just Dr Gumbolt segment                  |
+| Alice_39.wav     | [Scene 11](#alice_39) | Gwen       | 2    | Just Dr Gumbolt segment                  |
+| Alice_40.wav     | [Scene 11](#alice_40) | Gwen       | 3    | Just Dr Gumbolt segment                  |
+| Audio_1_01.wav   | [Scene 16](#audio_01) | Nazi Jeff  | 1    |                                          |
+| Cait_01.wav      | [Scene 1](#cait_01)   | Narrator   | 1    |                                          |
+| Cait_02.wav      | [Scene 1](#cait_02)   | Narrator   | 2    |                                          |
+| Cait_03.wav      | [Scene 4](#cait_03)   | Narrator   | 1    |                                          |
+| Cait_04.wav      | [Scene 4](#cait_04)   | Narrator   | 2    |                                          |
+| Cait_05.wav      | [Scene 4](#cait_05)   | Narrator   | 3    |                                          |
+| Cait_06.wav      | [Scene 10](#cait_06)  | Narrator   | 1    | Cuts off in the middle of "Shakily moving away..." |
+| Cait_07.wav      | [Scene 10](#cait_07)  | Narrator   | 2    |                                          |
+| Cait_08.wav      | [Scene 10](#cait_08)  | Narrator   | 3    |                                          |
+| Cait_09.wav      | [Scene 10](#cait_09)  | Narrator   | 4    | Final line punch in                      |
+| Cait_10.wav      | [Scene 10](#cait_10)  | Narrator   | 5    | Final line punch in                      |
+| Cait_11.wav      | [Scene 13](#cait_11)  | Narrator   | 1    |                                          |
+| Cait_12.wav      | [Scene 19](#cait_12)  | Narrator   | 1    |                                          |
+| Cait_13.wav      | [Scene 19](#cait_13)  | Narrator   | 2    |                                          |
+| Cait_14.wav      | [Scene 7](#cait_14)   | Narrator   | 1    |                                          |
+| Cait_15.wav      | [Scene 7](#cait_15)   | Narrator   | 2    |                                          |
+| Cait_16.wav      | [Scene 2](#cait_16)   | Narrator   | 1    | Just the vicky intro                     |
+| Cait_17.wav      | [Scene 2](#cait_17)   | Narrator   | 2    | Just the vicky intro                     |
+| Cait_18.wav      | [Scene 8](#cait_18)   | Narrator   | 1    |                                          |
+| Cait_19.wav      | [Scene 8](#cait_19)   | Narrator   | 2    |                                          |
+| Cait_20.wav      | [Scene 9](#cait_20)   | Narrator   | 1    |                                          |
+| Cait_21.wav      | [Scene 9](#cait_21)   | Narrator   | 2    |                                          |
+| Cait_22.wav      | [Scene 12](#cait_22)  | Narrator   | 1    | Cuts off after "I feel great"            |
+| Cait_23.wav      | [Scene 12](#cait_23)  | Narrator   | 2    | Cuts off after "Alright, take out that I.V." |
+| Cait_24.wav      | [Scene 12](#cait_24)  | Narrator   | 1    | Picks up where Cait_22 left off          |
+| Cait_25.wav      | [Scene 14](#cait_25)  | Narrator   | 1    |                                          |
+| Cait_26.wav      | [Scene 14](#cait_26)  | Narrator   | 2    |                                          |
+| Cait_27.wav      | [Scene 16](#cait_27)  | Narrator   | 1    |                                          |
+| Cait_28.wav      | [Scene 16](#cait_28)  | Narrator   | 2    |                                          |
+| Cait_29.wav      | [Scene 3](#cait_29)   | Narrator   | 1    |                                          |
+| Cait_30.wav      | [Scene 3](#cait_30)   | Narrator   | 2    |                                          |
+| Cait_31.wav      | [Scene 3](#cait_31)   | Narrator   | 3    | Vicky punch in. No Narrator              |
+| Cait_32.wav      | [Scene 15](#cait_32)  | Narrator   | 1    |                                          |
+| Cait_33.wav      | [Scene 15](#cait_33)  | Narrator   | 2    |                                          |
+| Cait_34.wav      | [Scene 17](#cait_34)  | Cab driver | 1    | Just a bunch of Cait doing the cab driver line |
+| Cait_35.wav      | [Scene 2](#cait_35)   | Narrator   | 1    | Cuts off after "What can I do for you, Ms York?" |
+| Cait_36.wav      | [Scene 2](#cait_36)   | Narrator   | 1    | Picks up after Cait_35. Cuts off after Gizette's: "…you could be making serious". No Narrator lines |
+| Cait_37.wav      | [Scene 2](#cait_37)   | Narrator   | 1    | Picks up after Cait_36, goes to end of scene |
+| Cait_38.wav      | [Scene 2](#cait_38)   | Narrator   | 2    | Cuts off after Russ's: "I need my opponent investigated." |
+| Cait_39.wav      | [Scene 2](#cait_39)   | Narrator   | 2    | Picks up where Cait_38 left off          |
+| Cait_40.wav      | [Scene 11](#cait_40)  | Narrator   | 1    | Only Gizette segment                     |
+| Cait_41.wav      | [Scene 11](#cait_41)  | Narrator   | 2    | Only Gizette segment                     |
+| Cait_42.wav      | [Scene 15](#cait_42)  | Narrator   | 1    |                                          |
+| Cait_43.wav      | [Scene 15](#cait_43)  | Narrator   | 2    | Cuts off after Gizette's: "Gwen went to the construction site" |
+| Cait_44.wav      | [Scene 15](#cait_44)  | Narrator   | 2    | Picks up after Cait_43                   |
+| Cait_45.wav      | [Scene 15](#cait_45)  | Narrator   | 3    |                                          |
+| Cait_46.wav      | [Scene 5](#cait_46)   | Narrator   | 1    |                                          |
+| Cait_47.wav      | [Scene 5](#cait_47)   | Narrator   | 2    |                                          |
+| Cait_48.wav      | [Scene 16](#cait_48)  | Narrator   | 1    | Cuts after Vicky's: "I'm so relieved"    |
+| Cait_49.wav      | [Scene 16](#cait_49)  | Narrator   | 2    | Starts at Jeff's: "Welcome, brothers" and ends at Hector's: "that was the bracelet she had on her!" |
+| Cait_50.wav      | [Scene 18](#cait_50)  | Narrator   | 1    | Stops after Narrator's: "…third surprise of the evening." |
+| Cait_51.wav      | [Scene 18](#cait_51)  | Narrator   | 2    | Stops after Narrator's: "…third surprise of the evening." |
+| Cait_52.wav      | [Scene 18](#cait_52)  | Narrator   | 3    | Narrator "Nazi's lay bloodied" punch in  |
+| Cait_53.wav      | [Scene 6](#cait_53)   | Narrator   | 1    | Cuts off at Gwen's: "Well, you are."     |
+| Cait_54.wav      | [Scene 6](#cait_54)   | Narrator   | 1    | Picks up after Cait_53                   |
+| Cait_55.wav      | [Scene 6](#cait_55)   | Narrator   | 2    |                                          |
+| Cait_56.wav      | [Scene 3](#cait_56)   | Narrator   | 1    | No Narrator. Starts with Dr Gumbolt's "Oh, good, you're up" and ends with "That was weird". |
+| Cait_57.wav      | [Scene 3](#cait_57)   | Narrator   | 2    | No Narrator. Starts with Dr Gumbolt's "Oh, good, you're up" and ends with "That was weird". |
+| Cait_58.wav      | [Scene 11](#cait_58)  | Narrator   | 1    | Starts with Narrator's: "No sooner had Gizette left" and ends with "soft darkness" |
+| Cait_59.wav      | [Scene 11](#cait_59)  | Narrator   | 2    | Starts with Narrator's: "No sooner had Gizette left" and ends with "soft darkness" |
+| Cait_60.wav      | [Scene 11](#cait_60)  | Narrator   | 3    | Starts with Narrator's: "No sooner had Gizette left" and ends with "soft darkness" |
+| Danny_01.wav     | Scene                 |            |      |                                          |
+| Danny_02.wav     | Scene                 |            |      |                                          |
+| Danny_03.wav     | Scene                 |            |      |                                          |
+| Danny_04.wav     | Scene                 |            |      |                                          |
+| Danny_05.wav     | Scene                 |            |      |                                          |
+| Danny_06.wav     | Scene                 |            |      |                                          |
+| Danny_07.wav     | Scene                 |            |      |                                          |
+| Danny_08.wav     | Scene                 |            |      |                                          |
+| Danny_09.wav     | Scene                 |            |      |                                          |
+| Gizette_01.wav   | Scene                 | Gizette    |      |                                          |
+| Gizette_02.wav   | Scene                 | Gizette    |      |                                          |
+| Gizette_03.wav   | Scene                 | Gizette    |      |                                          |
+| Gizette_04.wav   | Scene                 | Gizette    |      |                                          |
+| Gizette_05.wav   | Scene                 | Gizette    |      |                                          |
+| Gizette_06.wav   | Scene                 | Gizette    |      |                                          |
+| Gizette_07.wav   | Scene                 | Gizette    |      |                                          |
+| Gizette_08.wav   | Scene                 | Gizette    |      |                                          |
+| Gizette_09.wav   | Scene                 | Gizette    |      |                                          |
+| Gizette_10.wav   | Scene                 | Gizette    |      |                                          |
+| Gizette_11.wav   | Scene                 | Gizette    |      |                                          |
+| guard_01.wav     | Scene                 |            |      |                                          |
+| Hector_01.wav    | Scene                 | Hector     |      |                                          |
+| Hector_02.wav    | Scene                 | Hector     |      |                                          |
+| Hector_03.wav    | Scene                 | Hector     |      |                                          |
+| Hector_04.wav    | Scene                 | Hector     |      |                                          |
+| Hector_05.wav    | Scene                 | Hector     |      |                                          |
+| Hector_06.wav    | Scene                 | Hector     |      |                                          |
+| Hector_07.wav    | Scene                 | Hector     |      |                                          |
+| Hector_08.wav    | Scene                 | Hector     |      |                                          |
+| Hector_09.wav    | Scene                 | Hector     |      |                                          |
+| Hector_10.wav    | Scene                 | Hector     |      |                                          |
+| Hector_11.wav    | Scene                 | Hector     |      |                                          |
+| Heil_01 L.wav    | Scene                 | Nazi's     |      |                                          |
+| Heil_01 R.wav    | Scene                 | Nazi's     |      |                                          |
+| Nazi Jeff_01.wav | Scene                 | Nazi Jeff  |      |                                          |
+| Nazi Jeff_02.wav | Scene                 | Nazi Jeff  |      |                                          |
+| Nazi Jeff_03.wav | Scene                 | Nazi Jeff  |      |                                          |
+| Nazi Jeff_04.wav | Scene                 | Nazi Jeff  |      |                                          |
+| Nazi Jeff_05.wav | Scene                 | Nazi Jeff  |      |                                          |
+| Nazi Jeff_06.wav | Scene                 | Nazi Jeff  |      |                                          |
+| Nazi Jeff_07.wav | Scene                 | Nazi Jeff  |      |                                          |
+| ooley_01.wav     | Scene                 | Ooley      |      |                                          |
+| Ooley_02.wav     | Scene                 | Ooley      |      |                                          |
+| Ooley_03.wav     | Scene                 | Ooley      |      |                                          |
+| Ooley_04.wav     | Scene                 | Ooley      |      |                                          |
+| Ooley_05.wav     | Scene                 | Ooley      |      |                                          |
+| Ooley_06.wav     | Scene                 | Ooley      |      |                                          |
+| Ooley_07.wav     | Scene                 | Ooley      |      |                                          |
+| Russ_01.wav      | Scene                 | Russ       |      |                                          |
+| Russ_02.wav      | Scene                 | Russ       |      |                                          |
+| Russ_03.wav      | Scene                 | Russ       |      |                                          |
+| Russ_04.wav      | Scene                 | Russ       |      |                                          |
+| Russ_05.wav      | Scene                 | Russ       |      |                                          |
+| Russ_06.wav      | Scene                 | Russ       |      |                                          |
+| Sir 1_01.wav     | Scene                 | Echo Team  |      |                                          |
+| Sir 2_01.wav     | Scene                 | Echo Team  |      |                                          |
+| Sir 3_01.wav     | Scene                 | Echo Team  |      |                                          |
+| Sylvia_01.wav    | Scene                 | Sylvia     |      |                                          |
+| Sylvia_02.wav    | Scene                 | Sylvia     |      |                                          |
+| Sylvia_03.wav    | Scene                 | Sylvia     |      |                                          |
+| Sylvia_04.wav    | Scene                 | Sylvia     |      |                                          |
+| Sylvia_05.wav    | Scene                 | Sylvia     |      |                                          |
+| Sylvia_06.wav    | Scene                 | Sylvia     |      |                                          |
+| Sylvia_07.wav    | Scene                 | Sylvia     |      |                                          |
+| Sylvia_08.wav    | Scene                 | Sylvia     |      |                                          |
+| Sylvia_09.wav    | Scene                 | Sylvia     |      |                                          |
+| Sylvia_10.wav    | Scene                 | Sylvia     |      |                                          |
+| Vicky_01.wav     | Scene                 | Vicky      |      |                                          |
+| Vicky_02.wav     | Scene                 | Vicky      |      |                                          |
+| Vicky_03.wav     | Scene                 | Vicky      |      |                                          |
+| Vicky_04.wav     | Scene                 | Vicky      |      |                                          |
+| Vicky_05.wav     | Scene                 | Vicky      |      |                                          |
+| Vicky_06.wav     | Scene                 | Vicky      |      |                                          |
+| Vicky_07.wav     | Scene                 | Vicky      |      |                                          |
+| Vicky_08.wav     | Scene                 | Vicky      |      |                                          |
+| Vicky_09.wav     | Scene                 | Vicky      |      |                                          |
+| Vicky_10.wav     | Scene                 | Vicky      |      |                                          |
+| Vicky_11.wav     | Scene                 | Vicky      |      |                                          |
+| Vicky_12.wav     | Scene                 | Vicky      |      |                                          |
+| Vicky_13.wav     | Scene                 | Vicky      |      |                                          |
+| Vicky_14.wav     | Scene                 | Vicky      |      |                                          |
+| Vicky_15.wav     | Scene                 | Vicky      |      |                                          |
+| Vicky_16.wav     | Scene                 | Vicky      |      |                                          |
+| Vicky_17.wav     | Scene                 | Vicky      |      |                                          |
+| Vicky_18.wav     | Scene                 | Vicky      |      |                                          |
 
 
 
@@ -218,17 +227,17 @@ scripts = [
 ### Scene 2
 <div id="scene-2" class="screenplay">
 <h6>INT. DICK&#8217;S OFFICE - MORNING</h6>
-<div class="dialog"><p class="character">NARRATOR</p><p>Gwen jolted awake.</p></div>
+<div class="dialog cait_35 cait_38"><p class="character">NARRATOR</p><p>Gwen jolted awake.</p></div>
 <div class="action alice_19 alice_22"><p>Sound of Gwen GASPING awake.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>She wiped away drool as she slowly blinked Dick Dirk&#8217;s grimy office into view.</p></div>
+<div class="dialog cait_35 cait_38"><p class="character">NARRATOR</p><p>She wiped away drool as she slowly blinked Dick Dirk&#8217;s grimy office into view.</p></div>
 <div class="dialog alice_19 alice_22"><p class="character">GWEN</p><p>Ugh, what happened?</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Her head was splitting. She reached for the light switch.</p></div>
+<div class="dialog cait_35 cait_38"><p class="character">NARRATOR</p><p>Her head was splitting. She reached for the light switch.</p></div>
 <div class="action"><p>The CLICK of a light switch. It CLICKS more.</p></div>
 <div class="dialog alice_19 alice_22"><p class="character">GWEN</p><p>Huh, the light must be out. What time is it?</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>She reached for her phone, flicked it on, and saw thirteen voice mails from Hector.</p></div>
+<div class="dialog cait_35 cait_38"><p class="character">NARRATOR</p><p>She reached for her phone, flicked it on, and saw thirteen voice mails from Hector.</p></div>
 <div class="action alice_19 alice_22"><p>Gwen GROANS.</p></div>
 <div class="dialog alice_19 alice_22"><p class="character">GWEN</p><p>I guess I can&#8217;t avoid this forever.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Gwen pressed to play her voice mails.</p></div>
+<div class="dialog cait_35 cait_38"><p class="character">NARRATOR</p><p>Gwen pressed to play her voice mails.</p></div>
 <div class="action"><p>A little BOOP sound.</p></div>
 <div class="dialog"><p class="character">HECTOR (V.O.)</p><p>Hey Gwen, I know I didn&#8217;t technically hire you&#8212;or, you wouldn&#8217;t let me hire you&#8230;sorry, let me back up: I&#8217;m talking about hiring for a job, not that either of us are physically above each other. I'm not a heightist.</p></div>
 <div class="dialog alice_19 alice_22"><p class="character">GWEN</p><p>Skip!</p></div>
@@ -244,7 +253,7 @@ scripts = [
 <div class="action"><p>The sound of the door SQUEAKING OPEN. Gwen YELPS in surprise, CLICKS off her phone.</p></div>
 <div class="dialog"><p class="character">GIZETTE</p><p>Oh, I didn&#8217;t mean to startle you.</p></div>
 <div class="dialog alice_19 alice_22"><p class="character">GWEN</p><p>No, you&#8217;re fine.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>In the doorway stood a distinguished middle-aged woman dressed in a smart pantsuit, showing off an elegantly-lined face that looked like it&#8217;s owner could afford to age gracefully.</p></div>
+<div class="dialog cait_35 cait_38"><p class="character">NARRATOR</p><p>In the doorway stood a distinguished middle-aged woman dressed in a smart pantsuit, showing off an elegantly-lined face that looked like it&#8217;s owner could afford to age gracefully.</p></div>
 <div class="dialog"><p class="character">GIZETTE</p><p>You must be Gwendolyn Gween.</p></div>
 <div class="dialog alice_19 alice_22"><p class="character">GWEN</p><p>Yeah, hi. How did you know who I am? The sign outside doesn&#8217;t have my name on it.</p></div>
 <div class="dialog"><p class="character">GIZETTE</p><p>I&#8217;m Gizette York, it&#8217;s my business to know. Also, the sign outside says, "Grade pending": do you sell food here?</p></div>
@@ -253,12 +262,12 @@ scripts = [
 <div class="dialog alice_19 alice_22"><p class="character">GWEN</p><p>But you&#8217;re the-</p></div>
 <div class="dialog"><p class="character">GIZETTE</p><p>Number one P.I. in town, yes.</p></div>
 <div class="dialog alice_19 alice_22"><p class="character">GWEN</p><p>Wow. Well, please, take a seat. Not there! That was where Dick roasted the rats. Let me grab you a new chair&#8230;</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>But as Gwen got up, a sharp pain shot through her head-</p></div>
+<div class="dialog cait_35 cait_38"><p class="character">NARRATOR</p><p>But as Gwen got up, a sharp pain shot through her head-</p></div>
 <div class="action alice_19"><p>Gwen GRUNTS.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>-and she flopped right back into her seat.</p></div>
+<div class="dialog cait_35 cait_38"><p class="character">NARRATOR</p><p>-and she flopped right back into her seat.</p></div>
 <div class="dialog"><p class="character">GIZETTE</p><p>Oh my gosh, are you alright?</p></div>
 <div class="dialog alice_19 alice_22"><p class="character">GWEN</p><p>Ugh, yeah. Sorry, just had a rough night. I think.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Without thinking, Gwen felt her wrist under her bracelet, and noticed puncture-marks: they were fresh.</p></div>
+<div class="dialog cait_35 cait_38"><p class="character">NARRATOR</p><p>Without thinking, Gwen felt her wrist under her bracelet, and noticed puncture-marks: they were fresh.</p></div>
 <div class="dialog"><p class="character">GIZETTE</p><p>Been there many times. Here, I'm pretty sure I have Advil in my bag.</p></div>
 <div class="action"><p>The sounds of Gizette RUMMAGING through her purse.</p></div>
 <div class="dialog"><p class="character">GIZETTE</p><p>Here they are. I also have a spare Perrier.</p></div>
@@ -271,13 +280,13 @@ scripts = [
 <div class="dialog"><p class="character">GIZETTE</p><p>I&#8217;ve been watching your growth, Gwen. You&#8217;re a talented detective, and you could be making serious money for truly elite clientele.</p></div>
 <div class="dialog alice_19 alice_22"><p class="character">GWEN</p><p>Are you offering me-</p></div>
 <div class="dialog"><p class="character">GIZETTE</p><p>A job, that&#8217;s right.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Gizette handed Gwen her business card; it was embossed and printed on heavy card stock.</p></div>
+<div class="dialog cait_37 cait_38"><p class="character">NARRATOR</p><p>Gizette handed Gwen her business card; it was embossed and printed on heavy card stock.</p></div>
 <div class="dialog alice_19 alice_22"><p class="character">GWEN</p><p>Thank you. I-I&#8217;m a bit overwhelmed, I don&#8217;t-</p></div>
 <div class="dialog"><p class="character">GIZETTE</p><p>You don&#8217;t have to decide right now. Just think about it. I think we could do some amazing things together.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>And with that, Gizette York swept classily out of the dingy room.</p></div>
+<div class="dialog cait_37 cait_38"><p class="character">NARRATOR</p><p>And with that, Gizette York swept classily out of the dingy room.</p></div>
 <div class="action"><p>The sound of the DOOR CLOSING.</p></div>
 <div class="dialog alice_03 alice_04 alice_21 alice_22"><p class="character">GWEN</p><p>Well, that was cool-</p></div>
-<div class="dialog cait_16 cait_17"><p class="character">NARRATOR</p><p>Just then, Vicky flounced in.</p></div>
+<div class="dialog cait_16 cait_17 cait_37 cait_38"><p class="character">NARRATOR</p><p>Just then, Vicky flounced in.</p></div>
 <div class="action"><p>The CLINK of the DOOR OPENING.</p></div>
 <div class="dialog"><p class="character">VICKY</p><p>I have got to see Dr Poofinger, because I have a serious case of the foghorn farts right now-</p></div>
 <div class="action"><p>Vicky INHALES SHARPLY over the word "now".</p></div>
@@ -291,7 +300,7 @@ scripts = [
 <div class="dialog"><p class="character">VICKY</p><p>Farts are funny!</p></div>
 <div class="dialog alice_03 alice_21 alice_22"><p class="character">GWEN</p><p>That pill cannot act fast enough.</p></div>
 <div class="action"><p>The sound of the DOOR OPENING.</p></div>
-<div class="dialog cait_16 cait_17"><p class="character">NARRATOR</p><p>Joining the seemingly constant parade of noise that always seems to happen when your head hurts, a thin, pale man hunched into the room. He was wearing a shoddy acrylic-fur coat and a drowned-looking mustache that clung despondently to his upper lip.</p></div>
+<div class="dialog cait_16 cait_17 cait_37 cait_38"><p class="character">NARRATOR</p><p>Joining the seemingly constant parade of noise that always seems to happen when your head hurts, a thin, pale man hunched into the room. He was wearing a shoddy acrylic-fur coat and a drowned-looking mustache that clung despondently to his upper lip.</p></div>
 <div class="action"><p>The sounds of LOUD COUGHING. Russ talks through a serious sinus infection.</p></div>
 <div class="dialog"><p class="character">RUSS</p><p>Excuse me, I&#8217;m looking for a Richard Dirk.</p></div>
 <div class="action"><p>Russ loudly BLOWS HIS NOSE.</p></div>
@@ -306,7 +315,7 @@ scripts = [
 <div class="dialog"><p class="character">VICKY</p><p>And I&#8217;m Vicky Vance, Queen of the Nile.</p></div>
 <div class="dialog alice_21 alice_22"><p class="character">GWEN</p><p class="parenthetical">(to Vicky)</p><p>Stop.</p><p class="parenthetical">(to Russ)</p><p>Can I help you?</p></div>
 <div class="dialog"><p class="character">RUSS</p><p>Yes. My name&#8217;s Russ Buckaloo; I&#8217;m the Democratic candidate for mayor.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Russ extended his hand to shake: even in her weakened state, Gwen had the sense to recoil in disgust.</p></div>
+<div class="dialog cait_37 cait_38"><p class="character">NARRATOR</p><p>Russ extended his hand to shake: even in her weakened state, Gwen had the sense to recoil in disgust.</p></div>
 <div class="dialog"><p class="character">RUSS</p><p>Sorry, I know I have some hand sanitizer in one of these pockets&#8230;</p></div>
 <div class="action"><p>The sound of CLOTH RUSTLING as Russ rummages in his coat.</p></div>
 <div class="dialog alice_21"><p class="character">GWEN</p><p>It&#8217;s fine. What kind of service were you interested in?</p></div>
@@ -317,21 +326,21 @@ scripts = [
 <div class="action"><p>He HACKS.</p></div>
 <div class="dialog"><p class="character">RUSS</p><p>Feel it. Oh, here&#8217;s the sanitizer! No, wait, this is hotel shampoo. Did you want some?</p></div>
 <div class="dialog alice_21 alice_23"><p class="character">GWEN</p><p>I&#8217;m okay, thanks.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Russ rubbed some of the shampoo into his hands.</p></div>
+<div class="dialog cait_37 cait_39"><p class="character">NARRATOR</p><p>Russ rubbed some of the shampoo into his hands.</p></div>
 <div class="dialog"><p class="character">RUSS</p><p>God, Perry is so good. He keeps countering my every move. It&#8217;s like he knows what I&#8217;m going to do before <em>I</em> do. I need-</p></div>
 <div class="action"><p>Russ SNEEZES.</p></div>
 <div class="dialog"><p class="character">RUSS</p><p>Dirt! Any questions?</p></div>
 <div class="dialog alice_21 alice_23"><p class="character">GWEN</p><p>Political digging, pretty straightforward-</p></div>
 <div class="dialog"><p class="character">VICKY</p><p>Actually, I have a question. Why are you so gross?</p></div>
 <div class="dialog alice_21 alice_23"><p class="character">GWEN</p><p>Vicky! I&#8217;ll take your case. Cash upfront, updates daily, rates are on the-</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>But as Gwen stood to get the paperwork, her vision blurred, her wrist ached, her head exploded in fireworks of pain, and she crashed unconscious into the desk.</p></div>
+<div class="dialog cait_37 cait_39"><p class="character">NARRATOR</p><p>But as Gwen stood to get the paperwork, her vision blurred, her wrist ached, her head exploded in fireworks of pain, and she crashed unconscious into the desk.</p></div>
 <div class="action"><p>The THUD of Gwen hitting the desk.</p></div>
 </div>
 
 ### Scene 3
 <div id="scene-3" class="screenplay">
 <h6>INT. MT SINAI - DAY</h6>
-<div class="dialog"><p class="character">NARRATOR</p><p>Darkness: an unwelcome deja vu. Then, harsh fluorescents pried at Gwen&#8217;s consciousness, forcing her eyes open. Vicky was reading from a children's book.</p></div>
+<div class="dialog cait_29 cait_30"><p class="character">NARRATOR</p><p>Darkness: an unwelcome deja vu. Then, harsh fluorescents pried at Gwen&#8217;s consciousness, forcing her eyes open. Vicky was reading from a children's book.</p></div>
 <div class="dialog"><p class="character">VICKY</p><p>"No, I won&#8217;t be going with you," said the little princess, "For I know your true name."</p><p class="parenthetical">(yelling)</p><p>"Rumple Dumple Bumple Dump! Rumple Dumple Bumple Dump! Rumple-"</p></div>
 <div class="action alice_16 alice_17"><p>Gwen GROANS LOUDLY.</p></div>
 <div class="dialog"><p class="character">VICKY</p><p>Gwen, you&#8217;re awake!</p></div>
@@ -389,24 +398,24 @@ scripts = [
 <div id="scene-5" class="screenplay">
 <h6>EXT. MT SINAI - DAY</h6>
 <div class="action"><p>Sounds of the STREET, and an AUTOMATIC DOOR OPENING.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Gwen exited the hospital, squinting in the light and rubbing her wrist.</p></div>
+<div class="dialog cait_46 cait_47"><p class="character">NARRATOR</p><p>Gwen exited the hospital, squinting in the light and rubbing her wrist.</p></div>
 <div class="dialog alice_26 alice_27"><p class="character">GWEN</p><p>Okay, I think if I just-</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>A hand grabbed her shoulder.</p></div>
+<div class="dialog cait_46 cait_47"><p class="character">NARRATOR</p><p>A hand grabbed her shoulder.</p></div>
 <div class="action"><p>Gwen YELLS in surprise.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Reflexively, Gwen round-house kicked her unseen assailant, but her headache threw off her balance and she stumbled, almost falling, except she was caught by-</p></div>
+<div class="dialog cait_46 cait_47"><p class="character">NARRATOR</p><p>Reflexively, Gwen round-house kicked her unseen assailant, but her headache threw off her balance and she stumbled, almost falling, except she was caught by-</p></div>
 <div class="dialog alice_26 alice_27"><p class="character">GWEN</p><p>Hector.</p></div>
 <div class="dialog"><p class="character">HECTOR</p><p>Tupac. I mean, Gwen. I-</p></div>
 <div class="dialog alice_26 alice_27"><p class="character">GWEN</p><p>Okay, don&#8217;t touch me. You scared the crap out of me. I could have really hurt you.</p></div>
 <div class="dialog"><p class="character">HECTOR</p><p>You seem-</p></div>
 <div class="dialog alice_26 alice_27"><p class="character">GWEN</p><p>Sick, yeah. Otherwise I would have kicked your head in.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Gwen noticed Hector&#8217;s expression. Gone was his usual veneer of chiseled stupidity, and in it&#8217;s place-</p></div>
+<div class="dialog cait_46 cait_47"><p class="character">NARRATOR</p><p>Gwen noticed Hector&#8217;s expression. Gone was his usual veneer of chiseled stupidity, and in it&#8217;s place-</p></div>
 <div class="dialog"><p class="character">HECTOR</p><p>I&#8217;ve been trying to call you for weeks. I shouldn&#8217;t be talking to you, but you need to take care of yourself, okay? Things have changed; the eagle has landed, Gwen. The eagle has landed.</p></div>
 <div class="action"><p>Hector SIGHS.</p></div>
 <div class="dialog"><p class="character">HECTOR</p><p>The eagle isn&#8217;t real, it&#8217;s a metaphor.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Gwen was used to feeling very conflicted about Hector, but this was different. Whatever had changed about him was deeply unsettling.</p></div>
+<div class="dialog cait_46 cait_47"><p class="character">NARRATOR</p><p>Gwen was used to feeling very conflicted about Hector, but this was different. Whatever had changed about him was deeply unsettling.</p></div>
 <div class="dialog alice_26 alice_27"><p class="character">GWEN</p><p>Okay, Hector, I appreciate the heads up. I&#8217;m sorry I never called, but&#8230;I&#8217;m on my way somewhere, so I&#8217;ll talk to you later, okay?</p></div>
 <div class="dialog"><p class="character">HECTOR</p><p>Yeah, okay.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Gwen walked away as fast as she could, not realizing until halfway through the train ride to Riker&#8217;s that Hector hadn&#8217;t looked at her bracelet once.</p></div>
+<div class="dialog cait_46 cait_47"><p class="character">NARRATOR</p><p>Gwen walked away as fast as she could, not realizing until halfway through the train ride to Riker&#8217;s that Hector hadn&#8217;t looked at her bracelet once.</p></div>
 <div class="action"><p>A brief MUSICAL INTERLUDE.</p></div>
 </div>
 
@@ -417,18 +426,18 @@ scripts = [
 <div class="dialog"><p class="character">GUARD</p><p>Got a visitor.</p></div>
 <div class="dialog"><p class="character">JEFF</p><p>Miss Gwendolyn Gween, as I live and breath. To what do I owe the pleasure?</p></div>
 <div class="dialog alice_33 alice_35"><p class="character">GWEN</p><p>Hi, Jeff.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>A sex-addict and Nazi, Gwen had busted Jeffrey Kandlekrause two years ago while investigating a Buddhist peace-symbol appreciation group.</p></div>
+<div class="dialog cait_53 cait_55"><p class="character">NARRATOR</p><p>A sex-addict and Nazi, Gwen had busted Jeffrey Kandlekrause two years ago while investigating a Buddhist peace-symbol appreciation group.</p></div>
 <div class="dialog alice_33 alice_35"><p class="character">GWEN</p><p>I need some info.</p></div>
 <div class="dialog"><p class="character">JEFF</p><p>Mmm, yes, well we all need something, my dear. But what about my needs?</p></div>
 <div class="action"><p>Jeff says "needs" extremely sexually.</p></div>
 <div class="dialog alice_33 alice_35"><p class="character">GWEN</p><p>I thought you might say something creepy like that. If you tell me what I want to know, I&#8217;m prepared to give you the Nazi porn holy trinity.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Gwen pulled three DVDs out of her bag.</p></div>
+<div class="dialog cait_53 cait_55"><p class="character">NARRATOR</p><p>Gwen pulled three DVDs out of her bag.</p></div>
 <div class="action"><p>The RUSTLE of Gwen&#8217;s bag. Jeff GASPS sexually.</p></div>
 <div class="dialog"><p class="character">JEFF</p><p><em>Cucks in Chains</em>, <em>S.S. Is For Sex-Sex</em>, and <em>Screw the Jews</em>!</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Jeff reached for the DVDs, but Gwen pulled them away.</p></div>
+<div class="dialog cait_53 cait_55"><p class="character">NARRATOR</p><p>Jeff reached for the DVDs, but Gwen pulled them away.</p></div>
 <div class="dialog alice_33 alice_35"><p class="character">GWEN</p><p>Keep it in your pants, Jeff. You&#8217;ll get them after we&#8217;re done.</p></div>
 <div class="dialog"><p class="character">JEFF</p><p>As you wish, my dear.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Gwen slid Jeff a photo.</p></div>
+<div class="dialog cait_53 cait_55"><p class="character">NARRATOR</p><p>Gwen slid Jeff a photo.</p></div>
 <div class="action"><p>The SWISH of the photo sliding.</p></div>
 <div class="dialog alice_33 alice_35"><p class="character">GWEN</p><p>What do you know about Perry Wherrywhether?</p></div>
 <div class="dialog"><p class="character">JEFF</p><p>An amateur, really. A hanger-on. The fellow was trying to buy his way in. He wanted to be one of the "cool kids".</p></div>
@@ -450,18 +459,18 @@ scripts = [
 <div class="dialog alice_34 alice_35"><p class="character">GWEN</p><p>You&#8217;re not going to make me feel bad about that, Jeff.</p></div>
 <div class="dialog"><p class="character">JEFF</p><p>Very well. Are we done?</p></div>
 <div class="dialog alice_34 alice_35"><p class="character">GWEN</p><p>Yeah, we&#8217;re done.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Gwen threw the DVDs on the ground in front of Jeff.</p></div>
+<div class="dialog cait_54 cait_55"><p class="character">NARRATOR</p><p>Gwen threw the DVDs on the ground in front of Jeff.</p></div>
 <div class="dialog"><p class="character">JEFF</p><p>Salutations, my dear.</p></div>
 <div class="dialog alice_34 alice_35"><p class="character">GWEN</p><p>Guard!</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Gwen waited by the cell door as the guard unlocked the heavy bars.</p></div>
+<div class="dialog cait_54 cait_55"><p class="character">NARRATOR</p><p>Gwen waited by the cell door as the guard unlocked the heavy bars.</p></div>
 <div class="action"><p>Sounds of the door UNLOCKING.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Before she walked out, Gwen stopped, not turning around.</p></div>
+<div class="dialog cait_54 cait_55"><p class="character">NARRATOR</p><p>Before she walked out, Gwen stopped, not turning around.</p></div>
 <div class="dialog alice_34"><p class="character">GWEN</p><p>Oh, that research Perry was doing, it didn&#8217;t happen to involve a company called Waggle, did it?</p></div>
 <div class="dialog"><p class="character">JEFF</p><p>Waggle? Who knows. Waggle&#8217;s research labs were a real underground operation.</p></div>
 <div class="dialog alice_34"><p class="character">GWEN</p><p>Right.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Gwen walked out.</p></div>
+<div class="dialog cait_54 cait_55"><p class="character">NARRATOR</p><p>Gwen walked out.</p></div>
 <div class="action"><p>Gwen's FOOTSTEPS, followed by a HEAVY DOOR opening and closing.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>As soon as she was gone, Jeff rushed to his cell door.</p></div>
+<div class="dialog cait_54 cait_55"><p class="character">NARRATOR</p><p>As soon as she was gone, Jeff rushed to his cell door.</p></div>
 <div class="dialog"><p class="character">JEFF</p><p>Guard! I&#8217;d like to make a phone call.</p></div>
 </div>
 
@@ -483,13 +492,13 @@ scripts = [
 ### Scene 8
 <div id="scene-8" class="screenplay">
 <h6>EXT. DEMOCRATIC HEADQUARTERS - NIGHT</h6>
-<div class="dialog"><p class="character">NARRATOR</p><p>Gwen surveyed Democrat Russ Buckaloo&#8217;s headquarters from a dark ally across the street. Her gaze darted over the surrounding buildings.</p></div>
+<div class="dialog cait_18 cait_19"><p class="character">NARRATOR</p><p>Gwen surveyed Democrat Russ Buckaloo&#8217;s headquarters from a dark ally across the street. Her gaze darted over the surrounding buildings.</p></div>
 <div class="dialog alice_05 alice_06"><p class="character">GWEN</p><p>Where are you&#8230;</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Gwen spotted it: A cell transmitter, nestled on the roof of a nearby building.</p></div>
+<div class="dialog cait_18 cait_19"><p class="character">NARRATOR</p><p>Gwen spotted it: A cell transmitter, nestled on the roof of a nearby building.</p></div>
 <div class="dialog alice_05 alice_06"><p class="character">GWEN</p><p>Looks like the only way up is that fire escape.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>As Gwen focused on the street ahead, a low rumble came from directly behind her.</p></div>
+<div class="dialog cait_18 cait_19"><p class="character">NARRATOR</p><p>As Gwen focused on the street ahead, a low rumble came from directly behind her.</p></div>
 <div class="action"><p>Long, low FOGHORN FART.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Gwen would normally have whipped around with a roundhouse kick, but she knew it was the-</p></div>
+<div class="dialog cait_18 cait_19"><p class="character">NARRATOR</p><p>Gwen would normally have whipped around with a roundhouse kick, but she knew it was the-</p></div>
 <div class="dialog alice_05 alice_06"><p class="character">GWEN</p><p>Foghorn fart?</p></div>
 <div class="action"><p>Vicky is very drunk.</p></div>
 <div class="dialog"><p class="character">VICKY</p><p>Puh, I wish that sweet, simple sound was a foghorn fart. No, that's just my fitbit alerting me that it found your fitbit.</p></div>
@@ -514,9 +523,9 @@ scripts = [
 <div id="scene-9" class="screenplay">
 <h6>EXT. FIRE ESCAPE - NIGHT</h6>
 <div class="action"><p>The HOWL of wind, and the CREAK of steel.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Gwen clung precariously to the end of the fire escape, having jumped from a large pipe she had shimmied up. Feeling her legs swing freely in the night chill, she thanked her lucky stars she wasn&#8217;t afraid of heights.</p></div>
+<div class="dialog cait_20 cait_21"><p class="character">NARRATOR</p><p>Gwen clung precariously to the end of the fire escape, having jumped from a large pipe she had shimmied up. Feeling her legs swing freely in the night chill, she thanked her lucky stars she wasn&#8217;t afraid of heights.</p></div>
 <div class="dialog alice_07 alice_08"><p class="character">GWEN</p><p>Now if only I wasn&#8217;t afraid of <em>becoming</em> afraid of heights.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>She hauled herself up, the sounds of Vicky&#8217;s distraction starting to fade.</p></div>
+<div class="dialog cait_20 cait_21"><p class="character">NARRATOR</p><p>She hauled herself up, the sounds of Vicky&#8217;s distraction starting to fade.</p></div>
 <div class="action"><p>Vicky can be heard in the distance, amid car HONKING.</p></div>
 <div class="dialog"><p class="character">VICKY</p><p>I am an Egyptian Goddess, so consider it an honor that I&#8217;m laying on your car!</p></div>
 </div>
@@ -555,14 +564,14 @@ scripts = [
 ### Scene 11
 <div id="scene-11" class="screenplay">
 <h6>INT. MT SINAI - NIGHT</h6>
-<div class="dialog"><p class="character">NARRATOR</p><p>Darkness. Gwen&#8217;s disturbingly frequent companion.</p></div>
+<div class="dialog cait_40 cait_41"><p class="character">NARRATOR</p><p>Darkness. Gwen&#8217;s disturbingly frequent companion.</p></div>
 <div class="action"><p>The steady BEEP of a heart monitor.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Slowly, Gwen&#8217;s eyes cracked open, and the world, blurred and bright, crept back in.</p></div>
+<div class="dialog cait_40 cait_41"><p class="character">NARRATOR</p><p>Slowly, Gwen&#8217;s eyes cracked open, and the world, blurred and bright, crept back in.</p></div>
 <div class="action alice_24 alice_25"><p>Gwen GROANS.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>A familiar figure hovered over her.</p></div>
+<div class="dialog cait_40 cait_41"><p class="character">NARRATOR</p><p>A familiar figure hovered over her.</p></div>
 <div class="dialog alice_24 alice_25"><p class="character">GWEN</p><p>Vicky, what happened?</p></div>
 <div class="dialog"><p class="character">GIZETTE</p><p>Not Vicky, no.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Gwen struggled to see clearly, trying to wake up.</p></div>
+<div class="dialog cait_40 cait_41"><p class="character">NARRATOR</p><p>Gwen struggled to see clearly, trying to wake up.</p></div>
 <div class="dialog alice_24 alice_25"><p class="character">GWEN</p><p>Who...?</p></div>
 <div class="dialog"><p class="character">GIZETTE</p><p>It&#8217;s Gizette York. The number one P.I. in town, remember?</p></div>
 <div class="dialog alice_24 alice_25"><p class="character">GWEN</p><p>What...?</p></div>
@@ -570,12 +579,12 @@ scripts = [
 <div class="dialog alice_24 alice_25"><p class="character">GWEN</p><p>How did you know where I was?</p></div>
 <div class="dialog"><p class="character">GIZETTE</p><p>I&#8217;m the number one P.I. in town, it&#8217;s my business to know.</p></div>
 <div class="dialog alice_24 alice_25"><p class="character">GWEN</p><p>Oh&#8230;right.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Gwen rubbed her forehead.</p></div>
+<div class="dialog cait_40 cait_41"><p class="character">NARRATOR</p><p>Gwen rubbed her forehead.</p></div>
 <div class="dialog alice_24 alice_25"><p class="character">GWEN</p><p>Wait, I proved Perry was-</p></div>
 <div class="dialog"><p class="character">GIZETTE</p><p>Wiretapping Russ Buckaloo, yes I know. I let Russ know, and recorded his response.</p></div>
 <div class="action"><p>The CLICK of a voice recorder, then the sounds of Russ COUGHING VIOLANTLY. The recorder CLICKS off midway through.</p></div>
 <div class="dialog alice_24 alice_25"><p class="character">GWEN</p><p>Wow. Thanks?</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Gwen reached for her wrist, looking for comfort in all her disorientation, but-</p></div>
+<div class="dialog cait_40 cait_41"><p class="character">NARRATOR</p><p>Gwen reached for her wrist, looking for comfort in all her disorientation, but-</p></div>
 <div class="dialog alice_24 alice_25"><p class="character">GWEN</p><p>Where is my bracelet?</p></div>
 <div class="dialog"><p class="character">GIZETTE</p><p>What?</p></div>
 <div class="dialog alice_24 alice_25"><p class="character">GWEN</p><p>My mother&#8217;s bracelet! Where is it?</p></div>
@@ -586,13 +595,13 @@ scripts = [
 <div class="dialog alice_24 alice_25"><p class="character">GWEN</p><p>Damn it, Hector was touching my wrists right before he pushed me. He must have stolen it then.</p></div>
 <div class="dialog"><p class="character">GIZETTE</p><p>I'm so sorry, that sounds horrible. Do you need anything? Protection, perhaps?</p></div>
 <div class="dialog alice_24 alice_25"><p class="character">GWEN</p><p>No, I'm okay, thanks. I&#8217;m just&#8230;yeah, I&#8217;m good.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Gizette placed another fancy business card on the bedside table.</p></div>
+<div class="dialog cait_40 cait_41"><p class="character">NARRATOR</p><p>Gizette placed another fancy business card on the bedside table.</p></div>
 <div class="dialog"><p class="character">GIZETTE</p><p>Think about it, Gwen.</p></div>
 <div class="action"><p>The DOOR CLOSES.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>No sooner had Gizette left, then Dr Gumboldt came in.</p></div>
+<div class="dialog cait_40 cait_41 cait_58 cait_59 cait_60"><p class="character">NARRATOR</p><p>No sooner had Gizette left, then Dr Gumboldt came in.</p></div>
 <div class="action"><p>The DOOR OPENS.</p></div>
 <div class="dialog"><p class="character">DR GUMBOLDT</p><p>Gwen, you&#8217;re lucky to be alive.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>His expression was grave.</p></div>
+<div class="dialog cait_58 cait_59 cait_60"><p class="character">NARRATOR</p><p>His expression was grave.</p></div>
 <div class="dialog"><p class="character">DR GUMBOLDT</p><p>Did you fill that prescription for Xanax?</p></div>
 <div class="dialog alice_38 alice_39 alice_40"><p class="character">GWEN</p><p>No.</p></div>
 <div class="dialog"><p class="character">DR GUMBOLDT</p><p>That&#8217;s okay, I&#8217;ll just sugar coat it.</p></div>
@@ -601,9 +610,9 @@ scripts = [
 <div class="dialog alice_38 alice_39 alice_40"><p class="character">GWEN</p><p>You don&#8217;t know what&#8217;s wrong?</p></div>
 <div class="dialog"><p class="character">DR GUMBOLDT</p><p>We&#8217;ve rounded up a bunch of <em>suspects</em>, but I'm admitting you until we can <em>reveal the culprit</em>.</p></div>
 <div class="dialog alice_38 alice_39 alice_40"><p class="character">GWEN</p><p>No, I can't be here, I need to find my bracelet and I still need to figure out-</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>But as Gwen tried to sit up, a wave of dizziness overwhelmed her, and she slumped back down in the bed.</p></div>
+<div class="dialog cait_58 cait_59 cait_60"><p class="character">NARRATOR</p><p>But as Gwen tried to sit up, a wave of dizziness overwhelmed her, and she slumped back down in the bed.</p></div>
 <div class="dialog"><p class="character">DR GUMBOLDT</p><p>I am going to add Benadryl and a light steroid to your IV. You should feel better when you wake up.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>As soon as the medicine was added, Gwen was welcomed back to sleep&#8217;s soft darkness.</p></div>
+<div class="dialog cait_58 cait_59 cait_60"><p class="character">NARRATOR</p><p>As soon as the medicine was added, Gwen was welcomed back to sleep&#8217;s soft darkness.</p></div>
 <div class="action"><p>Brief MUSICAL INTERLUDE.</p></div>
 </div>
 
@@ -612,7 +621,7 @@ scripts = [
 <h6>INT. MT SINAI - HOURS LATER</h6>
 <div class="dialog"><p class="character">VICKY</p><p>Heyyyyy bitch&#8230;</p></div>
 <div class="action alice_09 alice_10"><p>Gwen SNORTS awake.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Gwen woke up, still half asleep and full of Benadryl.</p></div>
+<div class="dialog cait_22 cait_23"><p class="character">NARRATOR</p><p>Gwen woke up, still half asleep and full of Benadryl.</p></div>
 <div class="dialog alice_09 alice_10"><p class="character">GWEN</p><p>Vicky? Are you Gizette again?</p></div>
 <div class="dialog"><p class="character">VICKY</p><p>How dare you.</p></div>
 <div class="dialog alice_09 alice_10"><p class="character">GWEN</p><p>Where the hell were you when I needed you?</p></div>
@@ -654,11 +663,11 @@ scripts = [
 <div class="dialog"><p class="character">VICKY</p><p>Is this gum? I think it's gum.</p></div>
 <div class="action"><p>The CRINKLE of a wrapping being removed.</p></div>
 <div class="dialog alice_09 alice_10"><p class="character">GWEN</p><p>And Perry Wherrywhether&#8217;s wiretap, where does that&#8230;</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Gwen trailed off, deep in thought.</p></div>
+<div class="dialog cait_22 cait_23"><p class="character">NARRATOR</p><p>Gwen trailed off, deep in thought.</p></div>
 <div class="action"><p>Vicky SMACKS and CHEWS through her dialog.</p></div>
 <div class="dialog"><p class="character">VICKY</p><p>That what?</p></div>
 <div class="dialog alice_09 alice_10"><p class="character">GWEN</p><p>Wait a minute.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>The pieces all fell into place.</p></div>
+<div class="dialog cait_22 cait_23"><p class="character">NARRATOR</p><p>The pieces all fell into place.</p></div>
 <div class="transition">CUT TO: FLASHBACK</div>
 <div class="dialog"><p class="character">HECTOR</p><p>This is where my parents worked - this was Waggle.</p></div>
 <div class="transition">CUT TO: FLASHFORWARD</div>
@@ -672,21 +681,21 @@ scripts = [
 <div class="action"><p>Vicky SPITS.</p></div>
 <div class="dialog"><p class="character">VICKY</p><p>Alright, take out that I.V. and let&#8217;s bounce up on outta here.</p></div>
 <div class="dialog alice_09 alice_10 alice_11"><p class="character">GWEN</p><p>Hell no! This stuff&#8217;s really hitting me now; I feel great.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Gwen tried to get up, wobbling precariously.</p></div>
+<div class="dialog cait_24"><p class="character">NARRATOR</p><p>Gwen tried to get up, wobbling precariously.</p></div>
 <div class="dialog"><p class="character">VICKY</p><p>Whoa, whoa, can you stand?</p></div>
 <div class="dialog alice_09 alice_10 alice_11"><p class="character">GWEN</p><p>Yeah, but hold me up.</p></div>
 <div class="dialog"><p class="character">VICKY</p><p>I&#8217;ve been drinking for hours! You think I&#8217;m normally splayed out on the floor like this? Shit, I ripped my tights.</p></div>
 <div class="dialog alice_09 alice_10 alice_11"><p class="character">GWEN</p><p>I feel dizzy, but in a fun way.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Gwen teetered.</p></div>
+<div class="dialog cait_24"><p class="character">NARRATOR</p><p>Gwen teetered.</p></div>
 <div class="dialog"><p class="character">VICKY</p><p>I&#8217;m getting up!</p></div>
 <div class="dialog alice_09 alice_10 alice_11"><p class="character">GWEN</p><p>I&#8217;m okay. We need to get out of here fast, before a nurse finds us. I'm going to skate on my I.V. For speed.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Gwen planted one foot on the base of her I.V., and pushed off with the other.</p></div>
+<div class="dialog cait_24"><p class="character">NARRATOR</p><p>Gwen planted one foot on the base of her I.V., and pushed off with the other.</p></div>
 <div class="action"><p>Sounds of METAL WHEELS on linoleum.</p></div>
 <div class="dialog alice_09 alice_10 alice_11"><p class="character">GWEN</p><p>Wheee!</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Gwen skidded down the hallway.</p></div>
+<div class="dialog cait_24"><p class="character">NARRATOR</p><p>Gwen skidded down the hallway.</p></div>
 <div class="dialog"><p class="character">VICKY</p><p>Wait up, and try not to die!</p></div>
 <div class="action"><p>More SKATING NOISES.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>After a surprisingly smooth escape from the hospital, where Vicky only needed to bribe a single orderly, the girls jumped in a cab heading down town.</p></div>
+<div class="dialog cait_24"><p class="character">NARRATOR</p><p>After a surprisingly smooth escape from the hospital, where Vicky only needed to bribe a single orderly, the girls jumped in a cab heading down town.</p></div>
 </div>
 
 ### Scene 13
@@ -700,26 +709,26 @@ scripts = [
 ### Scene 14
 <div id="scene-14" class="screenplay">
 <h6>EXT. CONSTRUCTION YARD - NIGHT</h6>
-<div class="dialog"><p class="character">NARRATOR</p><p>Gwen and Vicky stood outside the construction site, leaning on each other and the I.V. pole.</p></div>
+<div class="dialog cait_25 cait_26"><p class="character">NARRATOR</p><p>Gwen and Vicky stood outside the construction site, leaning on each other and the I.V. pole.</p></div>
 <div class="dialog"><p class="character">VICKY</p><p>Are we going in?</p></div>
 <div class="dialog alice_12 alice_13"><p class="character">GWEN</p><p>Shh! Can you hear that?</p></div>
 <div class="dialog"><p class="character">VICKY</p><p>Yeah, but I always hear that sick beat. It&#8217;s like tinnitus, but dope.</p></div>
 <div class="dialog alice_12 alice_13"><p class="character">GWEN</p><p>No, it&#8217;s "nothing". Say, "nothing".</p></div>
 <div class="dialog"><p class="character">VICKY</p><p>Nothing.</p></div>
 <div class="dialog alice_12 alice_13"><p class="character">GWEN</p><p>That&#8217;s right. Either whoever is here is being really quiet, or this place absorbs sound like nobody&#8217;s business. We need to be on our sneakiest behavior.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Gwen and Vicky tried to squeeze through the gap in the fence.</p></div>
+<div class="dialog cait_25 cait_26"><p class="character">NARRATOR</p><p>Gwen and Vicky tried to squeeze through the gap in the fence.</p></div>
 <div class="action"><p>The LOUD RATTLING of the I.V. pole.</p></div>
 <div class="dialog alice_12 alice_13"><p class="character">GWEN</p><p>My I.V. is stuck.</p></div>
 <div class="dialog"><p class="character">VICKY</p><p>Why do you need that?</p></div>
 <div class="dialog alice_12 alice_13"><p class="character">GWEN</p><p>Leave it alone! Just help me get it-</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Gwen and Vicky struggled, tilting from exertion and substance, until finally-</p></div>
+<div class="dialog cait_25 cait_26"><p class="character">NARRATOR</p><p>Gwen and Vicky struggled, tilting from exertion and substance, until finally-</p></div>
 <div class="action"><p>Gwen is out of breath.</p></div>
 <div class="dialog alice_12 alice_13"><p class="character">GWEN</p><p>Alright, we&#8217;re in.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>The terror of the place washed over Gwen, flooding her mind. Everything she knew about her parents, and everything she didn&#8217;t, lay buried here. Somewhere, Hector had her bracelet, the only link she had to her mother. The history overwhelmed her, not the least of which was seeing the homeless man&#8217;s murder at the hands of the Tic Tac Man. Gwen trembled.</p></div>
+<div class="dialog cait_25 cait_26"><p class="character">NARRATOR</p><p>The terror of the place washed over Gwen, flooding her mind. Everything she knew about her parents, and everything she didn&#8217;t, lay buried here. Somewhere, Hector had her bracelet, the only link she had to her mother. The history overwhelmed her, not the least of which was seeing the homeless man&#8217;s murder at the hands of the Tic Tac Man. Gwen trembled.</p></div>
 <div class="dialog alice_12 alice_13"><p class="character">GWEN</p><p>Okay, let&#8217;s go. And let&#8217;s stick to the path; my I.V.&#8217;s wheels probably can&#8217;t handle dirt.</p></div>
 <div class="action"><p>The lonely sound of WHEELS grating on planks of wood.</p></div>
 <div class="action"><p>A small MUSICAL INTERLUDE.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>The two women slowly crept further into the construction site, feeling the weight of the surrounding buildings staring down at them. It wasn&#8217;t long before Gwen&#8217;s ears pricked up.</p></div>
+<div class="dialog cait_25 cait_26"><p class="character">NARRATOR</p><p>The two women slowly crept further into the construction site, feeling the weight of the surrounding buildings staring down at them. It wasn&#8217;t long before Gwen&#8217;s ears pricked up.</p></div>
 <div class="action"><p>The distant sounds of MARCHING.</p></div>
 <div class="dialog alice_12 alice_13"><p class="character">GWEN</p><p>You hear that?</p></div>
 <div class="dialog"><p class="character">VICKY</p><p>Nothing.</p></div>
@@ -733,22 +742,22 @@ scripts = [
 <div class="dialog alice_12 alice_13"><p class="character">GWEN</p><p>Oh come on, please? I&#8217;m your main bitch.</p></div>
 <div class="dialog"><p class="character">VICKY</p><p>Ugh, fine. You said the magic words. Let&#8217;s go.</p></div>
 <div class="action"><p>Vicky GRUNTS as she lifts Gwen.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Vicky dead lifted Gwen, bending from the knees. Gwen held her I.V.</p></div>
+<div class="dialog cait_25 cait_26"><p class="character">NARRATOR</p><p>Vicky dead lifted Gwen, bending from the knees. Gwen held her I.V.</p></div>
 <div class="action"><p>Vicky makes STRAINING NOISES.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Deliberately, Vicky trudged up the hill, her feet sinking into the loose earth. Finally, they neared the top of the hill, and Vicky heaved Gwen onto the ground beside her.</p></div>
+<div class="dialog cait_25 cait_26"><p class="character">NARRATOR</p><p>Deliberately, Vicky trudged up the hill, her feet sinking into the loose earth. Finally, they neared the top of the hill, and Vicky heaved Gwen onto the ground beside her.</p></div>
 <div class="action"><p>Vicky GASPS for breath.</p></div>
 <div class="dialog"><p class="character">VICKY</p><p>Okay, you owe me a huge fucking favor. Like, Ryan-Reynolds-cleans-my-toilet-naked level favor.</p></div>
 <div class="dialog alice_12 alice_13"><p class="character">GWEN</p><p>Shh! Look.</p></div>
 <div class="action"><p>The sounds of MARCHING get louder.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Gwen and Vicky peered over the lip of the hill, and into a large, neatly cleared square pit. It was lit by dozens of torches stuck into the ground, while maybe forty armed men marched in formation. They all wore distinctive uniforms.</p></div>
+<div class="dialog cait_25 cait_26"><p class="character">NARRATOR</p><p>Gwen and Vicky peered over the lip of the hill, and into a large, neatly cleared square pit. It was lit by dozens of torches stuck into the ground, while maybe forty armed men marched in formation. They all wore distinctive uniforms.</p></div>
 <div class="action"><p>Gwen whispers urgently.</p></div>
 <div class="dialog alice_12 alice_13"><p class="character">GWEN</p><p>Nazis!</p></div>
 <div class="action"><p>The MARCHING stops, and we hear the CLAP of jack boots snapping together, and the unified SHUFFLE of arms raised in salute.</p></div>
 <div class="dialog"><p class="character">NAZIS</p><p>Hail Trump!</p></div>
 <div class="dialog alice_12 alice_13"><p class="character">GWEN</p><p>I think I&#8217;m gonna be sick. But like, more.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Unbeknownst to either Vicky or Gwen, the dirt around their feet had started to slip&#8230;</p></div>
+<div class="dialog cait_25 cait_26"><p class="character">NARRATOR</p><p>Unbeknownst to either Vicky or Gwen, the dirt around their feet had started to slip&#8230;</p></div>
 <div class="action"><p>We hear the sounds of DIRT SLIPPING.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Meanwhile, back at Mt Sinai&#8230;</p></div>
+<div class="dialog cait_25 cait_26"><p class="character">NARRATOR</p><p>Meanwhile, back at Mt Sinai&#8230;</p></div>
 </div>
 
 ### Scene 15
@@ -759,7 +768,7 @@ scripts = [
 <div class="dialog"><p class="character">DICK</p><p>Gwen, It&#8217;s your boss, Dick Dirk. I came as soon as I told Ooley, which was a few hours after I heard.</p></div>
 <div class="dialog"><p class="character">SYLVIA</p><p>Um, Hello Gwen, I think we&#8217;re all introducing ourselves, so it&#8217;s Sylvia.</p></div>
 <div class="dialog"><p class="character">UNCLE OOLEY</p><p>Wait, Gwen, are you pretending to be a pile of pillows again? Or are the pillows pretending to be you again?</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Uncle Ooley threw back the covers.</p></div>
+<div class="dialog cait_42 cait_43 cait_45"><p class="character">NARRATOR</p><p>Uncle Ooley threw back the covers.</p></div>
 <div class="action"><p>The RUSTLE of Ooley throwing off the covers.</p></div>
 <div class="action"><p>He GASPS.</p></div>
 <div class="dialog"><p class="character">UNCLE OOLEY</p><p>Holy crap, it&#8217;s the pillows!</p></div>
@@ -769,7 +778,7 @@ scripts = [
 <div class="dialog"><p class="character">DICK</p><p>Okay! Jeez. Let&#8217;s look for clues, I guess.</p></div>
 <div class="dialog"><p class="character">GIZETTE</p><p>No need, Richard.</p></div>
 <div class="dialog"><p class="character">DICK</p><p>Who the-</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Standing in the doorway stood Gizette York, casting a silhouette that would have been right at home on a paperback mystery novel cover.</p></div>
+<div class="dialog cait_42 cait_43 cait_45"><p class="character">NARRATOR</p><p>Standing in the doorway stood Gizette York, casting a silhouette that would have been right at home on a paperback mystery novel cover.</p></div>
 <div class="dialog"><p class="character">DICK</p><p>Gizette, what in the saggy nuts are you doing here?</p></div>
 <div class="dialog"><p class="character">GIZETTE</p><p>Good to see you too, Rich.</p></div>
 <div class="dialog"><p class="character">DICK</p><p>No one calls me that!</p></div>
@@ -792,53 +801,53 @@ scripts = [
 <div class="dialog"><p class="character">UNCLE OOLEY</p><p>And I <em>hate</em> chauffeurs.</p></div>
 <div class="dialog"><p class="character">GIZETTE</p><p>Just trying to help.</p></div>
 <div class="dialog"><p class="character">SYLVIA</p><p class="parenthetical">(sullen)</p><p>I&#8217;ll call a cab.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Back at the construction site&#8230;</p></div>
+<div class="dialog cait_32 cait_33 cait_42 cait_44 cait_45"><p class="character">NARRATOR</p><p>Back at the construction site&#8230;</p></div>
 </div>
 
 ### Scene 16
 <div id="scene-16" class="screenplay">
 <h6>EXT. CONSTRUCTION YARD - NIGHT</h6>
-<div class="dialog"><p class="character">NARRATOR</p><p>Gwen and Vicky watched in horrified fascination as the Nazis parted ranks, forming a path to a smooth steel door excavated from the dirt.</p></div>
+<div class="dialog cait_27 cait_28 cait_48"><p class="character">NARRATOR</p><p>Gwen and Vicky watched in horrified fascination as the Nazis parted ranks, forming a path to a smooth steel door excavated from the dirt.</p></div>
 <div class="action"><p>Vicky and Gwen WHISPER HOARSELY to each other.</p></div>
 <div class="dialog"><p class="character">VICKY</p><p>What is that?</p></div>
 <div class="dialog alice_14 alice_28"><p class="character">GWEN</p><p>It&#8217;s got to be the door to Waggle&#8217;s underground labs.</p></div>
 <div class="dialog"><p class="character">VICKY</p><p>I feel like I missed something.</p></div>
 <div class="dialog alice_14 alice_28"><p class="character">GWEN</p><p>Shh! Someone&#8217;s coming.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Two men strode down the path, Nazis frozen in salute on both sides. When they reached the door, they turned to face the crowd.</p></div>
+<div class="dialog cait_27 cait_28 cait_48"><p class="character">NARRATOR</p><p>Two men strode down the path, Nazis frozen in salute on both sides. When they reached the door, they turned to face the crowd.</p></div>
 <div class="action"><p>Gwen GASPS.</p></div>
 <div class="dialog alice_14 alice_28"><p class="character">GWEN</p><p>Hector!</p></div>
 <div class="dialog"><p class="character">VICKY</p><p>Shh! Yeah, and some other guy.</p></div>
 <div class="action"><p>Gwen GASPS.</p></div>
 <div class="dialog alice_14 alice_28"><p class="character">GWEN</p><p>Nazi Jeff!</p></div>
 <div class="dialog"><p class="character">VICKY</p><p>Shh! I definitely missed something.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Jeff addressed the crowd.</p></div>
+<div class="dialog cait_27 cait_28 cait_48"><p class="character">NARRATOR</p><p>Jeff addressed the crowd.</p></div>
 <div class="dialog audio_01"><p class="character">JEFF</p><p>Welcome, brothers, to the end of the beginning, and the beginning of the end.</p></div>
 <div class="dialog"><p class="character">VICKY</p><p>Ugh, I hate crap like this. If the end is the beginning, is the beginning-</p></div>
 <div class="dialog alice_14 alice_28 alice_29"><p class="character">GWEN</p><p>Shh!</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>The dirt around Vicky and Gwen&#8217;s feet slipped more.</p></div>
+<div class="dialog cait_27 cait_28 cait_48 cait_49"><p class="character">NARRATOR</p><p>The dirt around Vicky and Gwen&#8217;s feet slipped more.</p></div>
 <div class="action"><p>The sounds of DIRT SLIPPING.</p></div>
 <div class="dialog audio_01"><p class="character">JEFF</p><p>I think we were all a little worried about brother Hector, but we all owe him an apology. His loyalty never wavered, and boy oh boy, did he deliver the goods.</p></div>
 <div class="dialog"><p class="character">NAZIS</p><p>Hail Trump!</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Hector looked miserable.</p></div>
+<div class="dialog cait_27 cait_28 cait_48 cait_49"><p class="character">NARRATOR</p><p>Hector looked miserable.</p></div>
 <div class="action"><p>Hector speaks without a hint of enthusiasm.</p></div>
 <div class="dialog"><p class="character">HECTOR</p><p>Hail Trump.</p></div>
 <div class="dialog audio_01"><p class="character">JEFF</p><p>It&#8217;s time, brothers, to finally open this door, and plunder the treasures on the other side. Brother Hector, produce the bracelet!</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Hector meekly held out Gwen&#8217;s bracelet, her mother&#8217;s engraving gleaming in the torch light. Jeff the pervert Nazi took it and held it up.</p></div>
+<div class="dialog cait_27 cait_28 cait_48 cait_49"><p class="character">NARRATOR</p><p>Hector meekly held out Gwen&#8217;s bracelet, her mother&#8217;s engraving gleaming in the torch light. Jeff the pervert Nazi took it and held it up.</p></div>
 <div class="action"><p>The Nazis CHEER.</p></div>
 <div class="dialog alice_14 alice_28 alice_29"><p class="character">GWEN</p><p>My bracelet&#8230;</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Jeff dusted off a panel on the door, revealing a circular slot. With trembling fingers he placed the bracelet in.</p></div>
+<div class="dialog cait_27 cait_28 cait_48 cait_49"><p class="character">NARRATOR</p><p>Jeff dusted off a panel on the door, revealing a circular slot. With trembling fingers he placed the bracelet in.</p></div>
 <div class="action"><p>There is a CLICK. Beat.</p></div>
 <div class="dialog audio_01"><p class="character">JEFF</p><p>What&#8217;s happening?</p></div>
 <div class="dialog"><p class="character">HECTOR</p><p>Nothing, I&#8230;</p></div>
 <div class="dialog audio_01"><p class="character">JEFF</p><p>I can see nothing&#8217;s happening, Hector, it was a rhetorical question!</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Jeff pulled out the bracelet and waved it for effect.</p></div>
+<div class="dialog cait_27 cait_28 cait_48 cait_49"><p class="character">NARRATOR</p><p>Jeff pulled out the bracelet and waved it for effect.</p></div>
 <div class="dialog audio_01"><p class="character">JEFF</p><p>Is this bracelet even real? Is Gwen really dead?</p></div>
 <div class="dialog"><p class="character">HECTOR</p><p>I swear, I saw Gwen fall with my own tear filled eyes! That was the bracelet she had on her!</p></div>
 <div class="dialog"><p class="character">VICKY</p><p>Wow, a bracelet <em>didn&#8217;t</em> open a door. I could have told them that. Dumb Nazis.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>And then the dirt fully slipped.</p></div>
+<div class="dialog cait_27 cait_28 cait_48"><p class="character">NARRATOR</p><p>And then the dirt fully slipped.</p></div>
 <div class="action"><p>A BIGGER DIRT SLIPPAGE, and the sounds of Gwen and Vicky SCRAMBLING.</p></div>
 <div class="action"><p>The SLAP of Vicky grabbing Gwens arm.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Vicky caught herself and Gwen, holding them fast at the top of the mound.</p></div>
+<div class="dialog cait_27 cait_28 cait_48"><p class="character">NARRATOR</p><p>Vicky caught herself and Gwen, holding them fast at the top of the mound.</p></div>
 <div class="dialog"><p class="character">VICKY</p><p>Oh shit, that was close.</p></div>
 <div class="action"><p>Gwen is awestruck.</p></div>
 <div class="dialog alice_14 alice_28"><p class="character">GWEN</p><p>Vicky, you saved me.</p></div>
@@ -850,9 +859,9 @@ scripts = [
 <div class="dialog"><p class="character">VICKY</p><p>Okay, <em>that</em> was a foghorn fart.</p></div>
 <div class="dialog alice_14"><p class="character">GWEN</p><p>That sounded more like an actual horn than a human fart!</p></div>
 <div class="dialog"><p class="character">VICKY</p><p>Sometimes farts aren't funny!</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>The entire Nazi contingent turned to look right at Gwen and Vicky.</p></div>
+<div class="dialog cait_27 cait_28"><p class="character">NARRATOR</p><p>The entire Nazi contingent turned to look right at Gwen and Vicky.</p></div>
 <div class="action"><p>The sounds of BOOTS shifting and GUNS being aimed.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Meanwhile, in a car speeding towards the construction site&#8230;</p></div>
+<div class="dialog cait_27 cait_28"><p class="character">NARRATOR</p><p>Meanwhile, in a car speeding towards the construction site&#8230;</p></div>
 </div>
 
 ### Scene 17
@@ -863,7 +872,7 @@ scripts = [
 <div class="dialog"><p class="character">DICK</p><p>We&#8217;re in a car and it&#8217;s winter!</p></div>
 <div class="dialog"><p class="character">UNCLE OOLEY</p><p>Still, though. Okay make a right up here.</p></div>
 <div class="dialog"><p class="character">DICK</p><p>No, left!</p></div>
-<div class="dialog"><p class="character">CAB DRIVER</p><p>Just tell me where to go.</p></div>
+<div class="dialog cait_34"><p class="character">CAB DRIVER</p><p>Just tell me where to go.</p></div>
 <div class="dialog"><p class="character">SYLVIA</p><p>Why don&#8217;t you both let the man use his GPS?</p></div>
 <div class="dual"><div class="left"><p class="character">DICK</p><p>Fuck no!</p></div><div class="right"><p class="character">UNCLE OOLEY</p><p>Fuck no!</p></div><br /></div>
 <div class="dialog"><p class="character">DICK</p><p>This is way faster.</p></div>
@@ -878,7 +887,7 @@ scripts = [
 <div id="scene-18" class="screenplay">
 <h6>EXT. CONSTRUCTION YARD - NIGHT</h6>
 <div class="action"><p>Gwen and Vicky GRUNT as they&#8217;re pushed along by Nazis.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Gwen and Vicky were pushed up to the door, gun muzzles pressed into the smalls of their backs.</p></div>
+<div class="dialog cait_50 cait_51"><p class="character">NARRATOR</p><p>Gwen and Vicky were pushed up to the door, gun muzzles pressed into the smalls of their backs.</p></div>
 <div class="dialog"><p class="character">JEFF</p><p>Gwendolyn Gween, what a surprise.</p></div>
 <div class="dialog alice_30 alice_31"><p class="character">GWEN</p><p>Hi Jeff. How&#8217;d you get out of jail?</p></div>
 <div class="dialog"><p class="character">JEFF</p><p>Iron and cement cannot hold the &#220;bermensch. Also, I got Perry to pull some strings.</p></div>
@@ -890,23 +899,23 @@ scripts = [
 <div class="dialog"><p class="character">VICKY</p><p>Main bitch. You&#8217;ll shoot her main bitch.</p></div>
 <div class="dialog alice_30 alice_31"><p class="character">GWEN</p><p>Not important now, Vicky. And I don&#8217;t know how to open the door, Jeff.</p></div>
 <div class="dialog"><p class="character">JEFF</p><p>Gwen, Gwen, Gwen. You&#8217;re not looking well. But this I.V.&#8230;</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Nazi Jeff&#8217;s fingers curled around the tube that ran into Gwen&#8217;s arm.</p></div>
+<div class="dialog cait_50 cait_51"><p class="character">NARRATOR</p><p>Nazi Jeff&#8217;s fingers curled around the tube that ran into Gwen&#8217;s arm.</p></div>
 <div class="dialog"><p class="character">JEFF</p><p>It&#8217;s a little much, don&#8217;t you think?</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>He yanked hard, ripping it out.</p></div>
+<div class="dialog cait_50 cait_51"><p class="character">NARRATOR</p><p>He yanked hard, ripping it out.</p></div>
 <div class="action"><p>Gwen SCREAMS.</p></div>
 <div class="dialog"><p class="character">HECTOR</p><p>No!</p></div>
 <div class="dialog"><p class="character">VICKY</p><p>You son of a dick!</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Blood oozed from Gwen&#8217;s torn flesh where the needle had once been.</p></div>
+<div class="dialog cait_50 cait_51"><p class="character">NARRATOR</p><p>Blood oozed from Gwen&#8217;s torn flesh where the needle had once been.</p></div>
 <div class="dialog"><p class="character">JEFF</p><p>I&#8217;m not asking Gween. It was your bracelet, you must know something we don&#8217;t. Now open the door.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Out of energy and out of options, Gwen accepted the bracelet that was thrust at her, and moved to the door. Reaching out a trembling hand, she placed the bracelet into the slot.</p></div>
+<div class="dialog cait_50 cait_51"><p class="character">NARRATOR</p><p>Out of energy and out of options, Gwen accepted the bracelet that was thrust at her, and moved to the door. Reaching out a trembling hand, she placed the bracelet into the slot.</p></div>
 <div class="action"><p>There is that same CLICK.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>For a moment, nothing happened. Then, familiar electricity ran down Gwen&#8217;s arm, arcing into the bracelet and wreathing the key hole.</p></div>
+<div class="dialog cait_50 cait_51"><p class="character">NARRATOR</p><p>For a moment, nothing happened. Then, familiar electricity ran down Gwen&#8217;s arm, arcing into the bracelet and wreathing the key hole.</p></div>
 <div class="action"><p>The sounds of ELECTRICITY and a low THUNK and WHIR of the door unlocking.</p></div>
 <div class="dialog alice_30 alice_31"><p class="character">GWEN</p><p>What the&#8230;</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>The door slid open, revealing a darkened metallic hallway.</p></div>
+<div class="dialog cait_50 cait_51"><p class="character">NARRATOR</p><p>The door slid open, revealing a darkened metallic hallway.</p></div>
 <div class="action"><p>The echoing THUD of the door slamming into place.</p></div>
 <div class="dialog"><p class="character">JEFF</p><p>Yes. Yes.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Jeff pushed eagerly towards the opening, shoving Gwen aside.</p></div>
+<div class="dialog cait_50 cait_51"><p class="character">NARRATOR</p><p>Jeff pushed eagerly towards the opening, shoving Gwen aside.</p></div>
 <div class="dialog"><p class="character">JEFF</p><p>Echo team?</p></div>
 <div class="dialog"><p class="character">ECHO 1</p><p>Sir!</p></div>
 <div class="dialog"><p class="character">ECHO 2</p><p>Sir!</p></div>
@@ -915,23 +924,23 @@ scripts = [
 <div class="dialog"><p class="character">HECTOR</p><p>No!</p></div>
 <div class="dialog alice_30 alice_31"><p class="character">GWEN</p><p>What?</p></div>
 <div class="dialog"><p class="character">VICKY</p><p>I&#8217;m too dope to die!</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Rifles were pointed to Vicky and Gwen&#8217;s temples.</p></div>
+<div class="dialog cait_50 cait_51"><p class="character">NARRATOR</p><p>Rifles were pointed to Vicky and Gwen&#8217;s temples.</p></div>
 <div class="action"><p>The sound of GUNS COCKING.</p></div>
 <div class="dialog alice_30 alice_31"><p class="character">GWEN</p><p>Well Vicky, this isn&#8217;t how I thought it would end, but despite everything, it&#8217;s been great knowing you.</p></div>
 <div class="action"><p>Vicky is WEEPING.</p></div>
 <div class="dialog"><p class="character">VICKY</p><p>Same here, bitch.</p></div>
 <div class="dialog"><p class="character">JEFF</p><p>Fire at will.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>But before a single shot was fired, the world erupted in smoke.</p></div>
+<div class="dialog cait_50 cait_51"><p class="character">NARRATOR</p><p>But before a single shot was fired, the world erupted in smoke.</p></div>
 <div class="action"><p>A CRACK and FLOOPH and a smoke grenade explodes. The Nazis COUGH.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Vicky dropped to the ground just before blades flashed in the swirling cloud, and the Nazi&#8217;s starting firing frantically.</p></div>
+<div class="dialog cait_50 cait_51"><p class="character">NARRATOR</p><p>Vicky dropped to the ground just before blades flashed in the swirling cloud, and the Nazi&#8217;s starting firing frantically.</p></div>
 <div class="action"><p>The SLICES of blade, the SQUISH of flesh, SCREAMS, and GUN SHOTS.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>After the smoke cleared, several Nazi&#8217;s lay bloodied on the ground.</p></div>
+<div class="dialog cait_50 cait_51 cait_52"><p class="character">NARRATOR</p><p>After the smoke cleared, several Nazi&#8217;s lay bloodied on the ground.</p></div>
 <div class="dialog"><p class="character">JEFF</p><p>What happened? Where is she? Where is she!</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Gwen was gone.</p></div>
+<div class="dialog cait_50 cait_51"><p class="character">NARRATOR</p><p>Gwen was gone.</p></div>
 <div class="dialog"><p class="character">JEFF</p><p>Regroup! Form ranks! Regroup!</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Amid the confusion as the Nazis tried to assemble once more, Vicky saw the bracelet laying nearby, unnoticed. Moving as little as possible, she hooked the trinket with an outstretched pinkie, and slipped it down her bra.</p></div>
+<div class="dialog cait_50 cait_51"><p class="character">NARRATOR</p><p>Amid the confusion as the Nazis tried to assemble once more, Vicky saw the bracelet laying nearby, unnoticed. Moving as little as possible, she hooked the trinket with an outstretched pinkie, and slipped it down her bra.</p></div>
 <div class="dialog"><p class="character">JEFF</p><p>Okay fan out, she can&#8217;t have gotten far!</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>But before the Nazis could move, they got the third surprise of their evening.</p></div>
+<div class="dialog cait_50 cait_51"><p class="character">NARRATOR</p><p>But before the Nazis could move, they got the third surprise of their evening.</p></div>
 <div class="dialog"><p class="character">UNCLE OOLEY</p><p>Gwen don&#8217;t worry, you&#8217;re Uncle Ooley&#8217;s here!</p></div>
 <div class="dialog"><p class="character">DICK</p><p>I found you Gwen, because I&#8217;m a detective!</p></div>
 <div class="dialog"><p class="character">SYLVIA</p><p>It&#8217;s Sylvia!</p></div>
