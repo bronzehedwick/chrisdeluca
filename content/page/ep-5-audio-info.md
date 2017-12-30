@@ -48,7 +48,7 @@ scripts = [
 | Alice_29.wav     | [Scene 16](#alice_29) | Gwen      | 4    | Just Aldo + Antonio segment              |
 | Alice_30.wav     | [Scene 18](#alice_30) | Gwen      | 1    | No Cristina                              |
 | Alice_31.wav     | [Scene 18](#alice_31) | Gwen      | 2    | No Cristina                              |
-| Alice_32.wav     | [n/a](#alice_32)      | Gwen      | 1    | Gwen groan/ooph sounds                   |
+| Alice_32.wav     | n/a                   | Gwen      | 1    | Gwen groan/ooph sounds                   |
 | Alice_33.wav     | [Scene 6](#alice_33)  | Gwen      | 1    | Stops after Gwen: "Well you are"         |
 | Alice_34.wav     | [Scene 6](#alice_34)  | Gwen      | 1    | Picks up after Alice_33. Looses Gwen: "Okay, what about Perry's business" |
 | Alice_35.wav     | [Scene 6](#alice_35)  | Gwen      | 2    | Best take                                |
@@ -57,58 +57,58 @@ scripts = [
 | Alice_38.wav     | [Scene 11](#alice_38) | Gwen      | 1    | Just Dr Gumbolt segment                  |
 | Alice_39.wav     | [Scene 11](#alice_39) | Gwen      | 2    | Just Dr Gumbolt segment                  |
 | Alice_40.wav     | [Scene 11](#alice_40) | Gwen      | 3    | Just Dr Gumbolt segment                  |
-| Audio_1_01.wav   | Scene                 |           |      |                                          |
-| Cait_01.wav      | Scene                 |           |      |                                          |
-| Cait_02.wav      | Scene                 |           |      |                                          |
-| Cait_03.wav      | Scene                 |           |      |                                          |
-| Cait_04.wav      | Scene                 |           |      |                                          |
-| Cait_05.wav      | Scene                 |           |      |                                          |
-| Cait_06.wav      | Scene                 |           |      |                                          |
-| Cait_07.wav      | Scene                 |           |      |                                          |
-| Cait_08.wav      | Scene                 |           |      |                                          |
-| Cait_09.wav      | Scene                 |           |      |                                          |
-| Cait_10.wav      | Scene                 |           |      |                                          |
-| Cait_11.wav      | Scene                 |           |      |                                          |
-| Cait_12.wav      | Scene                 |           |      |                                          |
-| Cait_13.wav      | Scene                 |           |      |                                          |
-| Cait_14.wav      | Scene                 |           |      |                                          |
-| Cait_15.wav      | Scene                 |           |      |                                          |
-| Cait_16.wav      | Scene                 |           |      |                                          |
-| Cait_17.wav      | Scene                 |           |      |                                          |
-| Cait_18.wav      | Scene                 |           |      |                                          |
-| Cait_19.wav      | Scene                 |           |      |                                          |
-| Cait_20.wav      | Scene                 |           |      |                                          |
-| Cait_21.wav      | Scene                 |           |      |                                          |
-| Cait_22.wav      | Scene                 |           |      |                                          |
-| Cait_23.wav      | Scene                 |           |      |                                          |
-| Cait_24.wav      | Scene                 |           |      |                                          |
-| Cait_25.wav      | Scene                 |           |      |                                          |
-| Cait_26.wav      | Scene                 |           |      |                                          |
-| Cait_27.wav      | Scene                 |           |      |                                          |
-| Cait_28.wav      | Scene                 |           |      |                                          |
-| Cait_29.wav      | Scene                 |           |      |                                          |
-| Cait_30.wav      | Scene                 |           |      |                                          |
-| Cait_31.wav      | Scene                 |           |      |                                          |
-| Cait_32.wav      | Scene                 |           |      |                                          |
-| Cait_33.wav      | Scene                 |           |      |                                          |
-| Cait_34.wav      | Scene                 |           |      |                                          |
-| Cait_35.wav      | Scene                 |           |      |                                          |
-| Cait_36.wav      | Scene                 |           |      |                                          |
-| Cait_37.wav      | Scene                 |           |      |                                          |
-| Cait_38.wav      | Scene                 |           |      |                                          |
-| Cait_39.wav      | Scene                 |           |      |                                          |
-| Cait_40.wav      | Scene                 |           |      |                                          |
-| Cait_41.wav      | Scene                 |           |      |                                          |
-| Cait_42.wav      | Scene                 |           |      |                                          |
-| Cait_43.wav      | Scene                 |           |      |                                          |
-| Cait_44.wav      | Scene                 |           |      |                                          |
-| Cait_45.wav      | Scene                 |           |      |                                          |
-| Cait_46.wav      | Scene                 |           |      |                                          |
-| Cait_47.wav      | Scene                 |           |      |                                          |
-| Cait_48.wav      | Scene                 |           |      |                                          |
-| Cait_49.wav      | Scene                 |           |      |                                          |
-| Cait_50.wav      | Scene                 |           |      |                                          |
-| Cait_60.wav      | Scene                 |           |      |                                          |
+| Audio_1_01.wav   | [Scene 16](#audio_01) | Nazi Jeff | 1    |                                          |
+| Cait_01.wav      | Scene 1               | Narrator  | 1    |                                          |
+| Cait_02.wav      | Scene 1               | Narrator  | 2    |                                          |
+| Cait_03.wav      | Scene 4               | Narrator  | 1    |                                          |
+| Cait_04.wav      | Scene 4               | Narrator  | 2    |                                          |
+| Cait_05.wav      | Scene 4               | Narrator  | 3    |                                          |
+| Cait_06.wav      | Scene 10              | Narrator  | 1    | Cuts off in the middle of "Shakily moving away..." |
+| Cait_07.wav      | Scene 10              | Narrator  | 2    |                                          |
+| Cait_08.wav      | Scene 10              | Narrator  | 3    |                                          |
+| Cait_09.wav      | Scene 10              | Narrator  | 4    | Final line punch in                      |
+| Cait_10.wav      | Scene 10              | Narrator  | 5    | Final line punch in                      |
+| Cait_11.wav      | Scene 13              | Narrator  | 1    |                                          |
+| Cait_12.wav      | Scene 19              | Narrator  | 1    |                                          |
+| Cait_13.wav      | Scene 19              | Narrator  | 2    |                                          |
+| Cait_14.wav      | Scene 7               | Narrator  | 1    |                                          |
+| Cait_15.wav      | Scene 7               | Narrator  | 2    |                                          |
+| Cait_16.wav      | Scene 2               | Narrator  | 1    | Just the vicky intro                     |
+| Cait_17.wav      | Scene 2               | Narrator  | 2    | Just the vicky intro                     |
+| Cait_18.wav      | Scene                 | Narrator  |      |                                          |
+| Cait_19.wav      | Scene                 | Narrator  |      |                                          |
+| Cait_20.wav      | Scene                 | Narrator  |      |                                          |
+| Cait_21.wav      | Scene                 | Narrator  |      |                                          |
+| Cait_22.wav      | Scene                 | Narrator  |      |                                          |
+| Cait_23.wav      | Scene                 | Narrator  |      |                                          |
+| Cait_24.wav      | Scene                 | Narrator  |      |                                          |
+| Cait_25.wav      | Scene                 | Narrator  |      |                                          |
+| Cait_26.wav      | Scene                 | Narrator  |      |                                          |
+| Cait_27.wav      | Scene                 | Narrator  |      |                                          |
+| Cait_28.wav      | Scene                 | Narrator  |      |                                          |
+| Cait_29.wav      | Scene                 | Narrator  |      |                                          |
+| Cait_30.wav      | Scene                 | Narrator  |      |                                          |
+| Cait_31.wav      | Scene                 | Narrator  |      |                                          |
+| Cait_32.wav      | Scene                 | Narrator  |      |                                          |
+| Cait_33.wav      | Scene                 | Narrator  |      |                                          |
+| Cait_34.wav      | Scene                 | Narrator  |      |                                          |
+| Cait_35.wav      | Scene                 | Narrator  |      |                                          |
+| Cait_36.wav      | Scene                 | Narrator  |      |                                          |
+| Cait_37.wav      | Scene                 | Narrator  |      |                                          |
+| Cait_38.wav      | Scene                 | Narrator  |      |                                          |
+| Cait_39.wav      | Scene                 | Narrator  |      |                                          |
+| Cait_40.wav      | Scene                 | Narrator  |      |                                          |
+| Cait_41.wav      | Scene                 | Narrator  |      |                                          |
+| Cait_42.wav      | Scene                 | Narrator  |      |                                          |
+| Cait_43.wav      | Scene                 | Narrator  |      |                                          |
+| Cait_44.wav      | Scene                 | Narrator  |      |                                          |
+| Cait_45.wav      | Scene                 | Narrator  |      |                                          |
+| Cait_46.wav      | Scene                 | Narrator  |      |                                          |
+| Cait_47.wav      | Scene                 | Narrator  |      |                                          |
+| Cait_48.wav      | Scene                 | Narrator  |      |                                          |
+| Cait_49.wav      | Scene                 | Narrator  |      |                                          |
+| Cait_50.wav      | Scene                 | Narrator  |      |                                          |
+| Cait_60.wav      | Scene                 | Narrator  |      |                                          |
 | Danny_01.wav     | Scene                 |           |      |                                          |
 | Danny_02.wav     | Scene                 |           |      |                                          |
 | Danny_03.wav     | Scene                 |           |      |                                          |
@@ -118,82 +118,82 @@ scripts = [
 | Danny_07.wav     | Scene                 |           |      |                                          |
 | Danny_08.wav     | Scene                 |           |      |                                          |
 | Danny_09.wav     | Scene                 |           |      |                                          |
-| Gizette_01.wav   | Scene                 |           |      |                                          |
-| Gizette_02.wav   | Scene                 |           |      |                                          |
-| Gizette_03.wav   | Scene                 |           |      |                                          |
-| Gizette_04.wav   | Scene                 |           |      |                                          |
-| Gizette_05.wav   | Scene                 |           |      |                                          |
-| Gizette_06.wav   | Scene                 |           |      |                                          |
-| Gizette_07.wav   | Scene                 |           |      |                                          |
-| Gizette_08.wav   | Scene                 |           |      |                                          |
-| Gizette_09.wav   | Scene                 |           |      |                                          |
-| Gizette_10.wav   | Scene                 |           |      |                                          |
-| Gizette_11.wav   | Scene                 |           |      |                                          |
+| Gizette_01.wav   | Scene                 | Gizette   |      |                                          |
+| Gizette_02.wav   | Scene                 | Gizette   |      |                                          |
+| Gizette_03.wav   | Scene                 | Gizette   |      |                                          |
+| Gizette_04.wav   | Scene                 | Gizette   |      |                                          |
+| Gizette_05.wav   | Scene                 | Gizette   |      |                                          |
+| Gizette_06.wav   | Scene                 | Gizette   |      |                                          |
+| Gizette_07.wav   | Scene                 | Gizette   |      |                                          |
+| Gizette_08.wav   | Scene                 | Gizette   |      |                                          |
+| Gizette_09.wav   | Scene                 | Gizette   |      |                                          |
+| Gizette_10.wav   | Scene                 | Gizette   |      |                                          |
+| Gizette_11.wav   | Scene                 | Gizette   |      |                                          |
 | guard_01.wav     | Scene                 |           |      |                                          |
-| Hector_01.wav    | Scene                 |           |      |                                          |
-| Hector_02.wav    | Scene                 |           |      |                                          |
-| Hector_03.wav    | Scene                 |           |      |                                          |
-| Hector_04.wav    | Scene                 |           |      |                                          |
-| Hector_05.wav    | Scene                 |           |      |                                          |
-| Hector_06.wav    | Scene                 |           |      |                                          |
-| Hector_07.wav    | Scene                 |           |      |                                          |
-| Hector_08.wav    | Scene                 |           |      |                                          |
-| Hector_09.wav    | Scene                 |           |      |                                          |
-| Hector_10.wav    | Scene                 |           |      |                                          |
-| Hector_11.wav    | Scene                 |           |      |                                          |
-| Heil_01 L.wav    | Scene                 |           |      |                                          |
-| Heil_01 R.wav    | Scene                 |           |      |                                          |
-| Nazi Jeff_01.wav | Scene                 |           |      |                                          |
-| Nazi Jeff_02.wav | Scene                 |           |      |                                          |
-| Nazi Jeff_03.wav | Scene                 |           |      |                                          |
-| Nazi Jeff_04.wav | Scene                 |           |      |                                          |
-| Nazi Jeff_05.wav | Scene                 |           |      |                                          |
-| Nazi Jeff_06.wav | Scene                 |           |      |                                          |
-| Nazi Jeff_07.wav | Scene                 |           |      |                                          |
-| ooley_01.wav     | Scene                 |           |      |                                          |
-| Ooley_02.wav     | Scene                 |           |      |                                          |
-| Ooley_03.wav     | Scene                 |           |      |                                          |
-| Ooley_04.wav     | Scene                 |           |      |                                          |
-| Ooley_05.wav     | Scene                 |           |      |                                          |
-| Ooley_06.wav     | Scene                 |           |      |                                          |
-| Ooley_07.wav     | Scene                 |           |      |                                          |
-| Russ_01.wav      | Scene                 |           |      |                                          |
-| Russ_02.wav      | Scene                 |           |      |                                          |
-| Russ_03.wav      | Scene                 |           |      |                                          |
-| Russ_04.wav      | Scene                 |           |      |                                          |
-| Russ_05.wav      | Scene                 |           |      |                                          |
-| Russ_06.wav      | Scene                 |           |      |                                          |
-| Sir 1_01.wav     | Scene                 |           |      |                                          |
-| Sir 2_01.wav     | Scene                 |           |      |                                          |
-| Sir 3_01.wav     | Scene                 |           |      |                                          |
-| Sylvia_01.wav    | Scene                 |           |      |                                          |
-| Sylvia_02.wav    | Scene                 |           |      |                                          |
-| Sylvia_03.wav    | Scene                 |           |      |                                          |
-| Sylvia_04.wav    | Scene                 |           |      |                                          |
-| Sylvia_05.wav    | Scene                 |           |      |                                          |
-| Sylvia_06.wav    | Scene                 |           |      |                                          |
-| Sylvia_07.wav    | Scene                 |           |      |                                          |
-| Sylvia_08.wav    | Scene                 |           |      |                                          |
-| Sylvia_09.wav    | Scene                 |           |      |                                          |
-| Sylvia_10.wav    | Scene                 |           |      |                                          |
-| Vicky_01.wav     | Scene                 |           |      |                                          |
-| Vicky_02.wav     | Scene                 |           |      |                                          |
-| Vicky_03.wav     | Scene                 |           |      |                                          |
-| Vicky_04.wav     | Scene                 |           |      |                                          |
-| Vicky_05.wav     | Scene                 |           |      |                                          |
-| Vicky_06.wav     | Scene                 |           |      |                                          |
-| Vicky_07.wav     | Scene                 |           |      |                                          |
-| Vicky_08.wav     | Scene                 |           |      |                                          |
-| Vicky_09.wav     | Scene                 |           |      |                                          |
-| Vicky_10.wav     | Scene                 |           |      |                                          |
-| Vicky_11.wav     | Scene                 |           |      |                                          |
-| Vicky_12.wav     | Scene                 |           |      |                                          |
-| Vicky_13.wav     | Scene                 |           |      |                                          |
-| Vicky_14.wav     | Scene                 |           |      |                                          |
-| Vicky_15.wav     | Scene                 |           |      |                                          |
-| Vicky_16.wav     | Scene                 |           |      |                                          |
-| Vicky_17.wav     | Scene                 |           |      |                                          |
-| Vicky_18.wav     | Scene                 |           |      |                                          |
+| Hector_01.wav    | Scene                 | Hector    |      |                                          |
+| Hector_02.wav    | Scene                 | Hector    |      |                                          |
+| Hector_03.wav    | Scene                 | Hector    |      |                                          |
+| Hector_04.wav    | Scene                 | Hector    |      |                                          |
+| Hector_05.wav    | Scene                 | Hector    |      |                                          |
+| Hector_06.wav    | Scene                 | Hector    |      |                                          |
+| Hector_07.wav    | Scene                 | Hector    |      |                                          |
+| Hector_08.wav    | Scene                 | Hector    |      |                                          |
+| Hector_09.wav    | Scene                 | Hector    |      |                                          |
+| Hector_10.wav    | Scene                 | Hector    |      |                                          |
+| Hector_11.wav    | Scene                 | Hector    |      |                                          |
+| Heil_01 L.wav    | Scene                 | Nazi's    |      |                                          |
+| Heil_01 R.wav    | Scene                 | Nazi's    |      |                                          |
+| Nazi Jeff_01.wav | Scene                 | Nazi Jeff |      |                                          |
+| Nazi Jeff_02.wav | Scene                 | Nazi Jeff |      |                                          |
+| Nazi Jeff_03.wav | Scene                 | Nazi Jeff |      |                                          |
+| Nazi Jeff_04.wav | Scene                 | Nazi Jeff |      |                                          |
+| Nazi Jeff_05.wav | Scene                 | Nazi Jeff |      |                                          |
+| Nazi Jeff_06.wav | Scene                 | Nazi Jeff |      |                                          |
+| Nazi Jeff_07.wav | Scene                 | Nazi Jeff |      |                                          |
+| ooley_01.wav     | Scene                 | Ooley     |      |                                          |
+| Ooley_02.wav     | Scene                 | Ooley     |      |                                          |
+| Ooley_03.wav     | Scene                 | Ooley     |      |                                          |
+| Ooley_04.wav     | Scene                 | Ooley     |      |                                          |
+| Ooley_05.wav     | Scene                 | Ooley     |      |                                          |
+| Ooley_06.wav     | Scene                 | Ooley     |      |                                          |
+| Ooley_07.wav     | Scene                 | Ooley     |      |                                          |
+| Russ_01.wav      | Scene                 | Russ      |      |                                          |
+| Russ_02.wav      | Scene                 | Russ      |      |                                          |
+| Russ_03.wav      | Scene                 | Russ      |      |                                          |
+| Russ_04.wav      | Scene                 | Russ      |      |                                          |
+| Russ_05.wav      | Scene                 | Russ      |      |                                          |
+| Russ_06.wav      | Scene                 | Russ      |      |                                          |
+| Sir 1_01.wav     | Scene                 | Echo Team |      |                                          |
+| Sir 2_01.wav     | Scene                 | Echo Team |      |                                          |
+| Sir 3_01.wav     | Scene                 | Echo Team |      |                                          |
+| Sylvia_01.wav    | Scene                 | Sylvia    |      |                                          |
+| Sylvia_02.wav    | Scene                 | Sylvia    |      |                                          |
+| Sylvia_03.wav    | Scene                 | Sylvia    |      |                                          |
+| Sylvia_04.wav    | Scene                 | Sylvia    |      |                                          |
+| Sylvia_05.wav    | Scene                 | Sylvia    |      |                                          |
+| Sylvia_06.wav    | Scene                 | Sylvia    |      |                                          |
+| Sylvia_07.wav    | Scene                 | Sylvia    |      |                                          |
+| Sylvia_08.wav    | Scene                 | Sylvia    |      |                                          |
+| Sylvia_09.wav    | Scene                 | Sylvia    |      |                                          |
+| Sylvia_10.wav    | Scene                 | Sylvia    |      |                                          |
+| Vicky_01.wav     | Scene                 | Vicky     |      |                                          |
+| Vicky_02.wav     | Scene                 | Vicky     |      |                                          |
+| Vicky_03.wav     | Scene                 | Vicky     |      |                                          |
+| Vicky_04.wav     | Scene                 | Vicky     |      |                                          |
+| Vicky_05.wav     | Scene                 | Vicky     |      |                                          |
+| Vicky_06.wav     | Scene                 | Vicky     |      |                                          |
+| Vicky_07.wav     | Scene                 | Vicky     |      |                                          |
+| Vicky_08.wav     | Scene                 | Vicky     |      |                                          |
+| Vicky_09.wav     | Scene                 | Vicky     |      |                                          |
+| Vicky_10.wav     | Scene                 | Vicky     |      |                                          |
+| Vicky_11.wav     | Scene                 | Vicky     |      |                                          |
+| Vicky_12.wav     | Scene                 | Vicky     |      |                                          |
+| Vicky_13.wav     | Scene                 | Vicky     |      |                                          |
+| Vicky_14.wav     | Scene                 | Vicky     |      |                                          |
+| Vicky_15.wav     | Scene                 | Vicky     |      |                                          |
+| Vicky_16.wav     | Scene                 | Vicky     |      |                                          |
+| Vicky_17.wav     | Scene                 | Vicky     |      |                                          |
+| Vicky_18.wav     | Scene                 | Vicky     |      |                                          |
 
 
 
@@ -203,15 +203,15 @@ scripts = [
 <div id="scene-1" class="screenplay">
 <h6>EXT. EAST RIVER - NIGHT</h6>
 <div class="action"><p>The sounds of RIVER WAVES, gently lapping against the dock.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Darkness: it enveloped all, silently cloying, deadly in it&#8217;s finality.</p></div>
+<div class="dialog cait_01 cait_02"><p class="character">NARRATOR</p><p>Darkness: it enveloped all, silently cloying, deadly in it&#8217;s finality.</p></div>
 <div class="action"><p>The Tic Tac Man&#8217;s BREATHING.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Sparks and solder flashed, unseen, pushing against the blackness.</p></div>
+<div class="dialog cait_01 cait_02"><p class="character">NARRATOR</p><p>Sparks and solder flashed, unseen, pushing against the blackness.</p></div>
 <div class="action"><p>The CRACKLE of electrical soldering. More BREATHING.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Success: a pin of light. It expanded slowly, swimming murky abstractions as the Tic-Tac Man focused. Finally, the shadowy banks of the east river fully appeared.</p></div>
+<div class="dialog cait_01 cait_02"><p class="character">NARRATOR</p><p>Success: a pin of light. It expanded slowly, swimming murky abstractions as the Tic-Tac Man focused. Finally, the shadowy banks of the east river fully appeared.</p></div>
 <div class="action"><p>The faint HUM of electronics.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>On the ground were two sophisticated lenses, trailing multi-colored wires.</p></div>
+<div class="dialog cait_01 cait_02"><p class="character">NARRATOR</p><p>On the ground were two sophisticated lenses, trailing multi-colored wires.</p></div>
 <div class="action"><p>The repeated STOMP and CRUNCH of the lenses being crushed by the Tic Tac Man&#8217;s foot.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Finished with it&#8217;s destruction, the Tic Tac Man shuffled to the edge of the river, foot still trailing wires and broken glass. Staring into the image-warping water, the Tic Tac Man awkwardly tilted it&#8217;s head, looking at it&#8217;s brand new, bloodshot eyes. It was getting closer.</p></div>
+<div class="dialog cait_01 cait_02"><p class="character">NARRATOR</p><p>Finished with it&#8217;s destruction, the Tic Tac Man shuffled to the edge of the river, foot still trailing wires and broken glass. Staring into the image-warping water, the Tic Tac Man awkwardly tilted it&#8217;s head, looking at it&#8217;s brand new, bloodshot eyes. It was getting closer.</p></div>
 <div class="action"><p>Hit the THEME.</p></div>
 </div>
 
@@ -277,7 +277,7 @@ scripts = [
 <div class="dialog"><p class="character">NARRATOR</p><p>And with that, Gizette York swept classily out of the dingy room.</p></div>
 <div class="action"><p>The sound of the DOOR CLOSING.</p></div>
 <div class="dialog alice_03 alice_04 alice_21 alice_22"><p class="character">GWEN</p><p>Well, that was cool-</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Just then, Vicky flounced in.</p></div>
+<div class="dialog cait_16 cait_17"><p class="character">NARRATOR</p><p>Just then, Vicky flounced in.</p></div>
 <div class="action"><p>The CLINK of the DOOR OPENING.</p></div>
 <div class="dialog"><p class="character">VICKY</p><p>I have got to see Dr Poofinger, because I have a serious case of the foghorn farts right now-</p></div>
 <div class="action"><p>Vicky INHALES SHARPLY over the word "now".</p></div>
@@ -291,7 +291,7 @@ scripts = [
 <div class="dialog"><p class="character">VICKY</p><p>Farts are funny!</p></div>
 <div class="dialog alice_03 alice_21 alice_22"><p class="character">GWEN</p><p>That pill cannot act fast enough.</p></div>
 <div class="action"><p>The sound of the DOOR OPENING.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Joining the seemingly constant parade of noise that always seems to happen when your head hurts, a thin, pale man hunched into the room. He was wearing a shoddy acrylic-fur coat and a drowned-looking mustache that clung despondently to his upper lip.</p></div>
+<div class="dialog cait_16 cait_17"><p class="character">NARRATOR</p><p>Joining the seemingly constant parade of noise that always seems to happen when your head hurts, a thin, pale man hunched into the room. He was wearing a shoddy acrylic-fur coat and a drowned-looking mustache that clung despondently to his upper lip.</p></div>
 <div class="action"><p>The sounds of LOUD COUGHING. Russ talks through a serious sinus infection.</p></div>
 <div class="dialog"><p class="character">RUSS</p><p>Excuse me, I&#8217;m looking for a Richard Dirk.</p></div>
 <div class="action"><p>Russ loudly BLOWS HIS NOSE.</p></div>
@@ -379,9 +379,9 @@ scripts = [
 ### Scene 4
 <div id="scene-4" class="screenplay">
 <h6>INT. WAREHOUSE - DAY</h6>
-<div class="dialog"><p class="character">NARRATOR</p><p>Elsewhere, in a bleak, abandoned warehouse somewhere deep in the unfashionable outskirts of Brooklyn, the Tic-Tac Man was pulling apart a circuit board dripping with blood.</p></div>
+<div class="dialog cait_03 cait_04 cait_05"><p class="character">NARRATOR</p><p>Elsewhere, in a bleak, abandoned warehouse somewhere deep in the unfashionable outskirts of Brooklyn, the Tic-Tac Man was pulling apart a circuit board dripping with blood.</p></div>
 <div class="action"><p>The CLINK of the Tic-Tac Man tinkering, along with its BREATHING.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Next to the Tic-Tac Man lay an older woman&#8217;s body wreathed in a pool of red. Using a hand that still smelled faintly of mushroom soup, the Tic-Tac Man pulled a silicon sphere from the machinery. It was getting closer.</p></div>
+<div class="dialog cait_03 cait_04 cait_05"><p class="character">NARRATOR</p><p>Next to the Tic-Tac Man lay an older woman&#8217;s body wreathed in a pool of red. Using a hand that still smelled faintly of mushroom soup, the Tic-Tac Man pulled a silicon sphere from the machinery. It was getting closer.</p></div>
 <div class="action"><p>The Tic-Tac Man&#8217;s BREATHING increases as the MUSIC SWELLS until we SNAP to the hospital.</p></div>
 </div>
 
@@ -468,16 +468,16 @@ scripts = [
 ### Scene 7
 <div id="scene-7" class="screenplay">
 <h6>INT. NEPTUNE DINER - EVENING</h6>
-<div class="dialog"><p class="character">NARRATOR</p><p>Gwen sat in a booth in the Neptune Diner, sipping her Greek lemon chickpea soup and thinking about the case.</p></div>
+<div class="dialog cait_14 cait_15"><p class="character">NARRATOR</p><p>Gwen sat in a booth in the Neptune Diner, sipping her Greek lemon chickpea soup and thinking about the case.</p></div>
 <div class="action"><p>Gwen SIPS soup.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Despite the fog clouding her head, some of the pieces were starting to fall into place.</p></div>
+<div class="dialog cait_14 cait_15"><p class="character">NARRATOR</p><p>Despite the fog clouding her head, some of the pieces were starting to fall into place.</p></div>
 <div class="transition">CUT TO: FLASHBACK</div>
 <div class="dialog"><p class="character">RUSS</p><p>It&#8217;s like he knows what I&#8217;m going to do before <em>I</em> do.</p></div>
 <div class="transition">CUT TO: FLASH FORWARD</div>
 <div class="dialog"><p class="character">JEFF</p><p>He had federal funding to research some new wiretapping technology.</p></div>
 <div class="transition">CUT BACK</div>
 <div class="dialog alice_01 alice_02"><p class="character">GWEN</p><p>Did you figure out that new wiretap tech, Perry?</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Gwen drank the last of her soup, and looked out the window: it was almost dark. Time to do some digging.</p></div>
+<div class="dialog cait_14 cait_15"><p class="character">NARRATOR</p><p>Gwen drank the last of her soup, and looked out the window: it was almost dark. Time to do some digging.</p></div>
 </div>
 
 ### Scene 8
@@ -525,29 +525,29 @@ scripts = [
 <div id="scene-10" class="screenplay">
 <h6>EXT. ROOFTOP - NIGHT</h6>
 <div class="action"><p>The wind HOWLS ferociously.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Reaching the roof, Gwen gripped a low railing to steady herself against the wind.</p></div>
+<div class="dialog cait_06 cait_07 cait_08"><p class="character">NARRATOR</p><p>Reaching the roof, Gwen gripped a low railing to steady herself against the wind.</p></div>
 <div class="action"><p>Gwen GRUNTS.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Inching forward, Gwen reached the transmitter. A thicket of steel, wires, and antennas, the thing seemed more like a bad Sci-Fi prop than a cornerstone of modern infrastructure. A moment of poking around uncovered exactly what she was looking for: a wiretap. Gwen reached for it, but as her fingers touched the device, a blue-white electricity writhed around her bracelet, jumping along her arm and arcing to the wiretap.</p></div>
+<div class="dialog cait_06 cait_07 cait_08"><p class="character">NARRATOR</p><p>Inching forward, Gwen reached the transmitter. A thicket of steel, wires, and antennas, the thing seemed more like a bad Sci-Fi prop than a cornerstone of modern infrastructure. A moment of poking around uncovered exactly what she was looking for: a wiretap. Gwen reached for it, but as her fingers touched the device, a blue-white electricity writhed around her bracelet, jumping along her arm and arcing to the wiretap.</p></div>
 <div class="action"><p>The sounds of ELECTRICITY. Gwen WHIMPERS. A HUM builds, getting LOUDER and LOUDER, until the NOISE envelopes everything.</p></div>
 <h6>INT. WAREHOUSE - NIGHT</h6>
 <div class="action"><p>Suddenly, the NOISE and WIND stop.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>In an instant, Gwen was no longer on the rooftop. While she couldn&#8217;t say how she knew, she could feel that she was somewhere else.</p></div>
+<div class="dialog cait_06 cait_07 cait_08"><p class="character">NARRATOR</p><p>In an instant, Gwen was no longer on the rooftop. While she couldn&#8217;t say how she knew, she could feel that she was somewhere else.</p></div>
 <div class="action"><p>The Tic-Tac Man&#8217;s BREATHING.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>And some<em>one</em> else.</p></div>
+<div class="dialog cait_06 cait_07 cait_08"><p class="character">NARRATOR</p><p>And some<em>one</em> else.</p></div>
 <div class="action"><p>The low RATTLE of Tic-Tacs. More BREATHING. The HUM starts to build again.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Then, her - it&#8217;s - eyes opened, and Gwen felt that someone else could see she was there.</p></div>
+<div class="dialog cait_06 cait_07 cait_08"><p class="character">NARRATOR</p><p>Then, her - it&#8217;s - eyes opened, and Gwen felt that someone else could see she was there.</p></div>
 <div class="action"><p>Gwen SCREAMS as the HUM CRESCENDOS.</p></div>
 <h6>EXT. ROOFTOP - NIGHT</h6>
 <div class="action"><p>The HOWL of the WIND comes back with a vengeance.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Gwen slammed back into her body.</p></div>
+<div class="dialog cait_06 cait_07 cait_08"><p class="character">NARRATOR</p><p>Gwen slammed back into her body.</p></div>
 <div class="action"><p>A CRACK and THUD of Gwen coming back into this world.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Frantic, she stumbled away from the transmitter, tripping-</p></div>
+<div class="dialog cait_06 cait_07 cait_08"><p class="character">NARRATOR</p><p>Frantic, she stumbled away from the transmitter, tripping-</p></div>
 <div class="action"><p>The CLUNK of Gwen hitting her foot, and her YELL of surprise.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>-falling down right at the edge of the building.</p></div>
+<div class="dialog cait_06 cait_07 cait_08"><p class="character">NARRATOR</p><p>-falling down right at the edge of the building.</p></div>
 <div class="action"><p>The THUD as Gwen hits the ground, and her OOPH as the wind is knocked from her. She BREATHS HARD.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Shakily moving away from the edge, Gwen found she was holding the wiretap. Numbly turning the object over, she noticed a familiar logo: Waggle. Still scrambling away from the precipice, she bumped against what could only be a person.</p></div>
+<div class="dialog cait_06 cait_07 cait_08"><p class="character">NARRATOR</p><p>Shakily moving away from the edge, Gwen found she was holding the wiretap. Numbly turning the object over, she noticed a familiar logo: Waggle. Still scrambling away from the precipice, she bumped against what could only be a person.</p></div>
 <div class="action"><p>Gwen YELPS.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>She spun around: it was Hector. Tears streaked the male model&#8217;s smooth, boyish features. Blinking hard and averting his eyes, Hector took Gwen&#8217;s shaking hands in his, and before she could begin to process what was happening, he pushed her over the edge.</p></div>
+<div class="dialog cait_07 cait_08 cait_09 cait_10"><p class="character">NARRATOR</p><p>She spun around: it was Hector. Tears streaked the male model&#8217;s smooth, boyish features. Blinking hard and averting his eyes, Hector took Gwen&#8217;s shaking hands in his, and before she could begin to process what was happening, he pushed her over the edge.</p></div>
 <div class="action"><p>Gwen SCREAMS, and Hector SOBS. The wind HOWLS.</p></div>
 <div class="action"><p>Longer MUSICAL INTERLUDE.</p></div>
 </div>
@@ -693,7 +693,7 @@ scripts = [
 <div id="scene-13" class="screenplay">
 <h6>EXT. STREETS - NIGHT</h6>
 <div class="action"><p>We hear SOUNDS of the car ride through the Narrator&#8217;s monologue.</p></div>
-<div class="dialog"><p class="character">NARRATOR</p><p>Speeding through after-hours New York, where pins of colored light stabbed into the night, they quickly arrived at the construction site. The place where the tech company Waggle once had it&#8217;s headquarters. And still had it&#8217;s research labs, Gwen thought, trying to see it through the dark and earth, as if willing herself to have X-Ray vision.</p></div>
+<div class="dialog cait_11"><p class="character">NARRATOR</p><p>Speeding through after-hours New York, where pins of colored light stabbed into the night, they quickly arrived at the construction site. The place where the tech company Waggle once had it&#8217;s headquarters. And still had it&#8217;s research labs, Gwen thought, trying to see it through the dark and earth, as if willing herself to have X-Ray vision.</p></div>
 <div class="action"><p>The cab door CLOSES and then SPEEDS AWAY.</p></div>
 </div>
 
@@ -812,27 +812,27 @@ scripts = [
 <div class="dialog alice_14 alice_28"><p class="character">GWEN</p><p>Nazi Jeff!</p></div>
 <div class="dialog"><p class="character">VICKY</p><p>Shh! I definitely missed something.</p></div>
 <div class="dialog"><p class="character">NARRATOR</p><p>Jeff addressed the crowd.</p></div>
-<div class="dialog"><p class="character">JEFF</p><p>Welcome, brothers, to the end of the beginning, and the beginning of the end.</p></div>
+<div class="dialog audio_01"><p class="character">JEFF</p><p>Welcome, brothers, to the end of the beginning, and the beginning of the end.</p></div>
 <div class="dialog"><p class="character">VICKY</p><p>Ugh, I hate crap like this. If the end is the beginning, is the beginning-</p></div>
 <div class="dialog alice_14 alice_28 alice_29"><p class="character">GWEN</p><p>Shh!</p></div>
 <div class="dialog"><p class="character">NARRATOR</p><p>The dirt around Vicky and Gwen&#8217;s feet slipped more.</p></div>
 <div class="action"><p>The sounds of DIRT SLIPPING.</p></div>
-<div class="dialog"><p class="character">JEFF</p><p>I think we were all a little worried about brother Hector, but we all owe him an apology. His loyalty never wavered, and boy oh boy, did he deliver the goods.</p></div>
+<div class="dialog audio_01"><p class="character">JEFF</p><p>I think we were all a little worried about brother Hector, but we all owe him an apology. His loyalty never wavered, and boy oh boy, did he deliver the goods.</p></div>
 <div class="dialog"><p class="character">NAZIS</p><p>Hail Trump!</p></div>
 <div class="dialog"><p class="character">NARRATOR</p><p>Hector looked miserable.</p></div>
 <div class="action"><p>Hector speaks without a hint of enthusiasm.</p></div>
 <div class="dialog"><p class="character">HECTOR</p><p>Hail Trump.</p></div>
-<div class="dialog"><p class="character">JEFF</p><p>It&#8217;s time, brothers, to finally open this door, and plunder the treasures on the other side. Brother Hector, produce the bracelet!</p></div>
+<div class="dialog audio_01"><p class="character">JEFF</p><p>It&#8217;s time, brothers, to finally open this door, and plunder the treasures on the other side. Brother Hector, produce the bracelet!</p></div>
 <div class="dialog"><p class="character">NARRATOR</p><p>Hector meekly held out Gwen&#8217;s bracelet, her mother&#8217;s engraving gleaming in the torch light. Jeff the pervert Nazi took it and held it up.</p></div>
 <div class="action"><p>The Nazis CHEER.</p></div>
 <div class="dialog alice_14 alice_28 alice_29"><p class="character">GWEN</p><p>My bracelet&#8230;</p></div>
 <div class="dialog"><p class="character">NARRATOR</p><p>Jeff dusted off a panel on the door, revealing a circular slot. With trembling fingers he placed the bracelet in.</p></div>
 <div class="action"><p>There is a CLICK. Beat.</p></div>
-<div class="dialog"><p class="character">JEFF</p><p>What&#8217;s happening?</p></div>
+<div class="dialog audio_01"><p class="character">JEFF</p><p>What&#8217;s happening?</p></div>
 <div class="dialog"><p class="character">HECTOR</p><p>Nothing, I&#8230;</p></div>
-<div class="dialog"><p class="character">JEFF</p><p>I can see nothing&#8217;s happening, Hector, it was a rhetorical question!</p></div>
+<div class="dialog audio_01"><p class="character">JEFF</p><p>I can see nothing&#8217;s happening, Hector, it was a rhetorical question!</p></div>
 <div class="dialog"><p class="character">NARRATOR</p><p>Jeff pulled out the bracelet and waved it for effect.</p></div>
-<div class="dialog"><p class="character">JEFF</p><p>Is this bracelet even real? Is Gwen really dead?</p></div>
+<div class="dialog audio_01"><p class="character">JEFF</p><p>Is this bracelet even real? Is Gwen really dead?</p></div>
 <div class="dialog"><p class="character">HECTOR</p><p>I swear, I saw Gwen fall with my own tear filled eyes! That was the bracelet she had on her!</p></div>
 <div class="dialog"><p class="character">VICKY</p><p>Wow, a bracelet <em>didn&#8217;t</em> open a door. I could have told them that. Dumb Nazis.</p></div>
 <div class="dialog"><p class="character">NARRATOR</p><p>And then the dirt fully slipped.</p></div>
@@ -942,6 +942,6 @@ scripts = [
 ### Scene 19
 <div id="scene-19" class="screenplay">
 <h6>EXT. INDETERMINATE - NIGHT</h6>
-<div class="dialog"><p class="character">NARRATOR</p><p>Somewhere in darkness, a hunched figure carried Gwen&#8217;s unconscious body deeper into the murk. It was here.</p></div>
+<div class="dialog cait_12 cait_13"><p class="character">NARRATOR</p><p>Somewhere in darkness, a hunched figure carried Gwen&#8217;s unconscious body deeper into the murk. It was here.</p></div>
 <div class="action"><p>Sounds of HEAVY BREATHING and TIC TAC RATTLING.</p></div>
 </div>
