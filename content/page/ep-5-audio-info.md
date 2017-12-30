@@ -15,106 +15,185 @@ scripts = [
 
 ## Audio
 
-| Audio File   | Scene                 | Character | Take | Notes                                    |
-| ------------ | --------------------- | --------- | ---- | ---------------------------------------- |
-| Alice_01.wav | [Scene 7](#alice_01)  | Gwen      | 1    |                                          |
-| Alice_02.wav | [Scene 7](#alice_02)  | Gwen      | 2    |                                          |
-| Alice_03.wav | [Scene 2](#alice_03)  | Gwen      | 1    |                                          |
-| Alice_04.wav | [Scene 2](#alice_04)  | Gwen      | 2    |                                          |
-| Alice_05.wav | [Scene 8](#alice_05)  | Gwen      | 1    |                                          |
-| Alice_06.wav | [Scene 8](#alice_06)  | Gwen      | 2    |                                          |
-| Alice_07.wav | [Scene 9](#alice_07)  | Gwen      | 1    |                                          |
-| Alice_08.wav | [Scene 9](#alice_08)  | Gwen      | 2    |                                          |
-| Alice_09.wav | [Scene 12](#alice_09) | Gwen      | 1    |                                          |
-| Alice_10.wav | [Scene 12](#alice_10) | Gwen      | 2    |                                          |
-| Alice_11.wav | [Scene 12](#alice_11) | Gwen      | 3    |                                          |
-| Alice_12.wav | [Scene 14](#alice_12) | Gwen      | 1    |                                          |
-| Alice_13.wav | [Scene 14](#alice_13) | Gwen      | 2    |                                          |
-| Alice_14.wav | [Scene 16](#alice_14) | Gwen      | 1    | With Cristina                            |
-| Alice_15.wav | [Scene 16](#alice_15) | Gwen      | 2    | With Cristina                            |
-| Alice_16.wav | [Scene 3](#alice_16)  | Gwen      | 1    |                                          |
-| Alice_17.wav | [Scene 3](#alice_17)  | Gwen      | 2    |                                          |
-| Alice_18.wav | [Scene 3](#alice_18)  | Gwen      | 3    | Vicky punch in                           |
-| Alice_19.wav | [Scene 2](#alice_19)  | Gwen      | 1    | First half                               |
-| Alice_20.wav | [Scene 2](#alice_20)  | Gwen      | 2    | Punch in                                 |
-| Alice_21.wav | [Scene 2](#alice_21)  | Gwen      | 1    | Second half                              |
-| Alice_22.wav | [Scene 2](#alice_22)  | Gwen      | 2    | Almost the whole scene. Stops at Russ explaining |
-| Alice_23.wav | [Scene 2](#alice_23)  | Gwen      | 2    | Continuing Alice_22. Bit in between missing |
-| Alice_24.wav | [Scene 11](#alice_24) | Gwen      | 1    | First half                               |
-| Alice_25.wav | [Scene 11](#alice_25) | Gwen      | 2    | First half                               |
-| Alice_26.wav | [Scene 5](#alice_26)  | Gwen      | 1    |                                          |
-| Alice_27.wav | [Scene 5](#alice_27)  | Gwen      | 2    |                                          |
-| Alice_28.wav | [Scene 16](#alice_28) | Gwen      | 3    | First half. With Aldo + Antonio          |
-| Alice_29.wav | [Scene 16](#alice_29) | Gwen      | 4    | Just Aldo + Antonio segment              |
-| Alice_30.wav | [Scene 18](#alice_30) | Gwen      | 1    | No Cristina                              |
-| Alice_31.wav | [Scene 18](#alice_31) | Gwen      | 2    | No Cristina                              |
-| Alice_32.wav | [n/a](#alice_32)      | Gwen      | 1    | Gwen groan/ooph sounds                   |
-| Alice_33.wav | [Scene 6](#alice_33)  | Gwen      | 1    | Stops after Gwen: "Well you are"         |
-| Alice_34.wav | [Scene 6](#alice_34)  | Gwen      | 1    | Picks up after Alice_33. Looses Gwen: "Okay, what about Perry's business" |
-| Alice_35.wav | [Scene 6](#alice_35)  | Gwen      | 2    | Best take                                |
-| Alice_36.wav | [Scene 3](#alice_36)  | Gwen      | 1    | Just Dr Gumbolt segment                  |
-| Alice_37.wav | [Scene 3](#alice_37)  | Gwen      | 2    | Just Dr Gumbolt segment                  |
-| Alice_38.wav | [Scene 11](#alice_38) | Gwen      | 1    | Just Dr Gumbolt segment                  |
-| Alice_39.wav | [Scene 11](#alice_39) | Gwen      | 2    | Just Dr Gumbolt segment                  |
-| Alice_40.wav | [Scene 11](#alice_40) | Gwen      | 3    | Just Dr Gumbolt segment                  |
-|              | Scene                 |           |      |                                          |
-|              | Scene                 |           |      |                                          |
-|              | Scene                 |           |      |                                          |
-|              | Scene                 |           |      |                                          |
-|              | Scene                 |           |      |                                          |
-|              | Scene                 |           |      |                                          |
-|              | Scene                 |           |      |                                          |
-|              | Scene                 |           |      |                                          |
-|              | Scene                 |           |      |                                          |
-|              | Scene                 |           |      |                                          |
-|              | Scene                 |           |      |                                          |
-|              | Scene                 |           |      |                                          |
-|              | Scene                 |           |      |                                          |
-|              | Scene                 |           |      |                                          |
-|              | Scene                 |           |      |                                          |
-|              | Scene                 |           |      |                                          |
-|              | Scene                 |           |      |                                          |
-|              | Scene                 |           |      |                                          |
-|              | Scene                 |           |      |                                          |
-|              | Scene                 |           |      |                                          |
-|              | Scene                 |           |      |                                          |
-|              | Scene                 |           |      |                                          |
-|              | Scene                 |           |      |                                          |
-|              | Scene                 |           |      |                                          |
-|              | Scene                 |           |      |                                          |
-|              | Scene                 |           |      |                                          |
-|              | Scene                 |           |      |                                          |
-|              | Scene                 |           |      |                                          |
-|              | Scene                 |           |      |                                          |
-|              | Scene                 |           |      |                                          |
-|              | Scene                 |           |      |                                          |
-|              | Scene                 |           |      |                                          |
-|              | Scene                 |           |      |                                          |
-|              | Scene                 |           |      |                                          |
-|              | Scene                 |           |      |                                          |
-|              | Scene                 |           |      |                                          |
-|              | Scene                 |           |      |                                          |
-|              | Scene                 |           |      |                                          |
-|              | Scene                 |           |      |                                          |
-|              | Scene                 |           |      |                                          |
-|              | Scene                 |           |      |                                          |
-|              | Scene                 |           |      |                                          |
-|              | Scene                 |           |      |                                          |
-|              | Scene                 |           |      |                                          |
-|              | Scene                 |           |      |                                          |
-|              | Scene                 |           |      |                                          |
-|              | Scene                 |           |      |                                          |
-|              | Scene                 |           |      |                                          |
-|              | Scene                 |           |      |                                          |
-|              | Scene                 |           |      |                                          |
-|              | Scene                 |           |      |                                          |
-|              | Scene                 |           |      |                                          |
-|              | Scene                 |           |      |                                          |
-|              | Scene                 |           |      |                                          |
-|              | Scene                 |           |      |                                          |
-|              | Scene                 |           |      |                                          |
-|              | Scene                 |           |      |                                          |
-|              | Scene                 |           |      |                                          |
+| Audio File       | Scene                 | Character | Take | Notes                                    |
+| ---------------- | --------------------- | --------- | ---- | ---------------------------------------- |
+| Alice_01.wav     | [Scene 7](#alice_01)  | Gwen      | 1    |                                          |
+| Alice_02.wav     | [Scene 7](#alice_02)  | Gwen      | 2    |                                          |
+| Alice_03.wav     | [Scene 2](#alice_03)  | Gwen      | 1    |                                          |
+| Alice_04.wav     | [Scene 2](#alice_04)  | Gwen      | 2    |                                          |
+| Alice_05.wav     | [Scene 8](#alice_05)  | Gwen      | 1    |                                          |
+| Alice_06.wav     | [Scene 8](#alice_06)  | Gwen      | 2    |                                          |
+| Alice_07.wav     | [Scene 9](#alice_07)  | Gwen      | 1    |                                          |
+| Alice_08.wav     | [Scene 9](#alice_08)  | Gwen      | 2    |                                          |
+| Alice_09.wav     | [Scene 12](#alice_09) | Gwen      | 1    |                                          |
+| Alice_10.wav     | [Scene 12](#alice_10) | Gwen      | 2    |                                          |
+| Alice_11.wav     | [Scene 12](#alice_11) | Gwen      | 3    |                                          |
+| Alice_12.wav     | [Scene 14](#alice_12) | Gwen      | 1    |                                          |
+| Alice_13.wav     | [Scene 14](#alice_13) | Gwen      | 2    |                                          |
+| Alice_14.wav     | [Scene 16](#alice_14) | Gwen      | 1    | With Cristina                            |
+| Alice_15.wav     | [Scene 16](#alice_15) | Gwen      | 2    | With Cristina                            |
+| Alice_16.wav     | [Scene 3](#alice_16)  | Gwen      | 1    |                                          |
+| Alice_17.wav     | [Scene 3](#alice_17)  | Gwen      | 2    |                                          |
+| Alice_18.wav     | [Scene 3](#alice_18)  | Gwen      | 3    | Vicky punch in                           |
+| Alice_19.wav     | [Scene 2](#alice_19)  | Gwen      | 1    | First half                               |
+| Alice_20.wav     | [Scene 2](#alice_20)  | Gwen      | 2    | Punch in                                 |
+| Alice_21.wav     | [Scene 2](#alice_21)  | Gwen      | 1    | Second half                              |
+| Alice_22.wav     | [Scene 2](#alice_22)  | Gwen      | 2    | Almost the whole scene. Stops at Russ explaining |
+| Alice_23.wav     | [Scene 2](#alice_23)  | Gwen      | 2    | Continuing Alice_22. Bit in between missing |
+| Alice_24.wav     | [Scene 11](#alice_24) | Gwen      | 1    | First half                               |
+| Alice_25.wav     | [Scene 11](#alice_25) | Gwen      | 2    | First half                               |
+| Alice_26.wav     | [Scene 5](#alice_26)  | Gwen      | 1    |                                          |
+| Alice_27.wav     | [Scene 5](#alice_27)  | Gwen      | 2    |                                          |
+| Alice_28.wav     | [Scene 16](#alice_28) | Gwen      | 3    | First half. With Aldo + Antonio          |
+| Alice_29.wav     | [Scene 16](#alice_29) | Gwen      | 4    | Just Aldo + Antonio segment              |
+| Alice_30.wav     | [Scene 18](#alice_30) | Gwen      | 1    | No Cristina                              |
+| Alice_31.wav     | [Scene 18](#alice_31) | Gwen      | 2    | No Cristina                              |
+| Alice_32.wav     | [n/a](#alice_32)      | Gwen      | 1    | Gwen groan/ooph sounds                   |
+| Alice_33.wav     | [Scene 6](#alice_33)  | Gwen      | 1    | Stops after Gwen: "Well you are"         |
+| Alice_34.wav     | [Scene 6](#alice_34)  | Gwen      | 1    | Picks up after Alice_33. Looses Gwen: "Okay, what about Perry's business" |
+| Alice_35.wav     | [Scene 6](#alice_35)  | Gwen      | 2    | Best take                                |
+| Alice_36.wav     | [Scene 3](#alice_36)  | Gwen      | 1    | Just Dr Gumbolt segment                  |
+| Alice_37.wav     | [Scene 3](#alice_37)  | Gwen      | 2    | Just Dr Gumbolt segment                  |
+| Alice_38.wav     | [Scene 11](#alice_38) | Gwen      | 1    | Just Dr Gumbolt segment                  |
+| Alice_39.wav     | [Scene 11](#alice_39) | Gwen      | 2    | Just Dr Gumbolt segment                  |
+| Alice_40.wav     | [Scene 11](#alice_40) | Gwen      | 3    | Just Dr Gumbolt segment                  |
+| Audio_1_01.wav   | Scene                 |           |      |                                          |
+| Cait_01.wav      | Scene                 |           |      |                                          |
+| Cait_02.wav      | Scene                 |           |      |                                          |
+| Cait_03.wav      | Scene                 |           |      |                                          |
+| Cait_04.wav      | Scene                 |           |      |                                          |
+| Cait_05.wav      | Scene                 |           |      |                                          |
+| Cait_06.wav      | Scene                 |           |      |                                          |
+| Cait_07.wav      | Scene                 |           |      |                                          |
+| Cait_08.wav      | Scene                 |           |      |                                          |
+| Cait_09.wav      | Scene                 |           |      |                                          |
+| Cait_10.wav      | Scene                 |           |      |                                          |
+| Cait_11.wav      | Scene                 |           |      |                                          |
+| Cait_12.wav      | Scene                 |           |      |                                          |
+| Cait_13.wav      | Scene                 |           |      |                                          |
+| Cait_14.wav      | Scene                 |           |      |                                          |
+| Cait_15.wav      | Scene                 |           |      |                                          |
+| Cait_16.wav      | Scene                 |           |      |                                          |
+| Cait_17.wav      | Scene                 |           |      |                                          |
+| Cait_18.wav      | Scene                 |           |      |                                          |
+| Cait_19.wav      | Scene                 |           |      |                                          |
+| Cait_20.wav      | Scene                 |           |      |                                          |
+| Cait_21.wav      | Scene                 |           |      |                                          |
+| Cait_22.wav      | Scene                 |           |      |                                          |
+| Cait_23.wav      | Scene                 |           |      |                                          |
+| Cait_24.wav      | Scene                 |           |      |                                          |
+| Cait_25.wav      | Scene                 |           |      |                                          |
+| Cait_26.wav      | Scene                 |           |      |                                          |
+| Cait_27.wav      | Scene                 |           |      |                                          |
+| Cait_28.wav      | Scene                 |           |      |                                          |
+| Cait_29.wav      | Scene                 |           |      |                                          |
+| Cait_30.wav      | Scene                 |           |      |                                          |
+| Cait_31.wav      | Scene                 |           |      |                                          |
+| Cait_32.wav      | Scene                 |           |      |                                          |
+| Cait_33.wav      | Scene                 |           |      |                                          |
+| Cait_34.wav      | Scene                 |           |      |                                          |
+| Cait_35.wav      | Scene                 |           |      |                                          |
+| Cait_36.wav      | Scene                 |           |      |                                          |
+| Cait_37.wav      | Scene                 |           |      |                                          |
+| Cait_38.wav      | Scene                 |           |      |                                          |
+| Cait_39.wav      | Scene                 |           |      |                                          |
+| Cait_40.wav      | Scene                 |           |      |                                          |
+| Cait_41.wav      | Scene                 |           |      |                                          |
+| Cait_42.wav      | Scene                 |           |      |                                          |
+| Cait_43.wav      | Scene                 |           |      |                                          |
+| Cait_44.wav      | Scene                 |           |      |                                          |
+| Cait_45.wav      | Scene                 |           |      |                                          |
+| Cait_46.wav      | Scene                 |           |      |                                          |
+| Cait_47.wav      | Scene                 |           |      |                                          |
+| Cait_48.wav      | Scene                 |           |      |                                          |
+| Cait_49.wav      | Scene                 |           |      |                                          |
+| Cait_50.wav      | Scene                 |           |      |                                          |
+| Cait_60.wav      | Scene                 |           |      |                                          |
+| Danny_01.wav     | Scene                 |           |      |                                          |
+| Danny_02.wav     | Scene                 |           |      |                                          |
+| Danny_03.wav     | Scene                 |           |      |                                          |
+| Danny_04.wav     | Scene                 |           |      |                                          |
+| Danny_05.wav     | Scene                 |           |      |                                          |
+| Danny_06.wav     | Scene                 |           |      |                                          |
+| Danny_07.wav     | Scene                 |           |      |                                          |
+| Danny_08.wav     | Scene                 |           |      |                                          |
+| Danny_09.wav     | Scene                 |           |      |                                          |
+| Gizette_01.wav   | Scene                 |           |      |                                          |
+| Gizette_02.wav   | Scene                 |           |      |                                          |
+| Gizette_03.wav   | Scene                 |           |      |                                          |
+| Gizette_04.wav   | Scene                 |           |      |                                          |
+| Gizette_05.wav   | Scene                 |           |      |                                          |
+| Gizette_06.wav   | Scene                 |           |      |                                          |
+| Gizette_07.wav   | Scene                 |           |      |                                          |
+| Gizette_08.wav   | Scene                 |           |      |                                          |
+| Gizette_09.wav   | Scene                 |           |      |                                          |
+| Gizette_10.wav   | Scene                 |           |      |                                          |
+| Gizette_11.wav   | Scene                 |           |      |                                          |
+| guard_01.wav     | Scene                 |           |      |                                          |
+| Hector_01.wav    | Scene                 |           |      |                                          |
+| Hector_02.wav    | Scene                 |           |      |                                          |
+| Hector_03.wav    | Scene                 |           |      |                                          |
+| Hector_04.wav    | Scene                 |           |      |                                          |
+| Hector_05.wav    | Scene                 |           |      |                                          |
+| Hector_06.wav    | Scene                 |           |      |                                          |
+| Hector_07.wav    | Scene                 |           |      |                                          |
+| Hector_08.wav    | Scene                 |           |      |                                          |
+| Hector_09.wav    | Scene                 |           |      |                                          |
+| Hector_10.wav    | Scene                 |           |      |                                          |
+| Hector_11.wav    | Scene                 |           |      |                                          |
+| Heil_01 L.wav    | Scene                 |           |      |                                          |
+| Heil_01 R.wav    | Scene                 |           |      |                                          |
+| Nazi Jeff_01.wav | Scene                 |           |      |                                          |
+| Nazi Jeff_02.wav | Scene                 |           |      |                                          |
+| Nazi Jeff_03.wav | Scene                 |           |      |                                          |
+| Nazi Jeff_04.wav | Scene                 |           |      |                                          |
+| Nazi Jeff_05.wav | Scene                 |           |      |                                          |
+| Nazi Jeff_06.wav | Scene                 |           |      |                                          |
+| Nazi Jeff_07.wav | Scene                 |           |      |                                          |
+| ooley_01.wav     | Scene                 |           |      |                                          |
+| Ooley_02.wav     | Scene                 |           |      |                                          |
+| Ooley_03.wav     | Scene                 |           |      |                                          |
+| Ooley_04.wav     | Scene                 |           |      |                                          |
+| Ooley_05.wav     | Scene                 |           |      |                                          |
+| Ooley_06.wav     | Scene                 |           |      |                                          |
+| Ooley_07.wav     | Scene                 |           |      |                                          |
+| Russ_01.wav      | Scene                 |           |      |                                          |
+| Russ_02.wav      | Scene                 |           |      |                                          |
+| Russ_03.wav      | Scene                 |           |      |                                          |
+| Russ_04.wav      | Scene                 |           |      |                                          |
+| Russ_05.wav      | Scene                 |           |      |                                          |
+| Russ_06.wav      | Scene                 |           |      |                                          |
+| Sir 1_01.wav     | Scene                 |           |      |                                          |
+| Sir 2_01.wav     | Scene                 |           |      |                                          |
+| Sir 3_01.wav     | Scene                 |           |      |                                          |
+| Sylvia_01.wav    | Scene                 |           |      |                                          |
+| Sylvia_02.wav    | Scene                 |           |      |                                          |
+| Sylvia_03.wav    | Scene                 |           |      |                                          |
+| Sylvia_04.wav    | Scene                 |           |      |                                          |
+| Sylvia_05.wav    | Scene                 |           |      |                                          |
+| Sylvia_06.wav    | Scene                 |           |      |                                          |
+| Sylvia_07.wav    | Scene                 |           |      |                                          |
+| Sylvia_08.wav    | Scene                 |           |      |                                          |
+| Sylvia_09.wav    | Scene                 |           |      |                                          |
+| Sylvia_10.wav    | Scene                 |           |      |                                          |
+| Vicky_01.wav     | Scene                 |           |      |                                          |
+| Vicky_02.wav     | Scene                 |           |      |                                          |
+| Vicky_03.wav     | Scene                 |           |      |                                          |
+| Vicky_04.wav     | Scene                 |           |      |                                          |
+| Vicky_05.wav     | Scene                 |           |      |                                          |
+| Vicky_06.wav     | Scene                 |           |      |                                          |
+| Vicky_07.wav     | Scene                 |           |      |                                          |
+| Vicky_08.wav     | Scene                 |           |      |                                          |
+| Vicky_09.wav     | Scene                 |           |      |                                          |
+| Vicky_10.wav     | Scene                 |           |      |                                          |
+| Vicky_11.wav     | Scene                 |           |      |                                          |
+| Vicky_12.wav     | Scene                 |           |      |                                          |
+| Vicky_13.wav     | Scene                 |           |      |                                          |
+| Vicky_14.wav     | Scene                 |           |      |                                          |
+| Vicky_15.wav     | Scene                 |           |      |                                          |
+| Vicky_16.wav     | Scene                 |           |      |                                          |
+| Vicky_17.wav     | Scene                 |           |      |                                          |
+| Vicky_18.wav     | Scene                 |           |      |                                          |
 
 
 
