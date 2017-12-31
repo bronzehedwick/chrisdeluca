@@ -178,19 +178,19 @@ scripts = [
 | Russ_04.wav      | [Scene 2](#russ_04)     | Russ       | 2    | Stops at "Wherryweather"                 |
 | Russ_05.wav      | [Scene 2](#russ_05)     | Russ       | 2    | Picks up at "Fucking me"                 |
 | Russ_06.wav      | [Scene 2](#russ_06)     | Russ       | 3    | Punch in starting at "I need my opponent investigated" |
-| Sir 1_01.wav     | Scene 18                | Echo Team  | 1    | 3 takes, one mic                         |
-| Sir 2_01.wav     | Scene 18                | Echo Team  | 1    | Different mic                            |
-| Sir 3_01.wav     | Scene 18                | Echo Team  | 1    | Last mic                                 |
-| Sylvia_01.wav    | Scene                   | Sylvia     |      |                                          |
-| Sylvia_02.wav    | Scene                   | Sylvia     |      |                                          |
-| Sylvia_03.wav    | Scene                   | Sylvia     |      |                                          |
-| Sylvia_04.wav    | Scene                   | Sylvia     |      |                                          |
-| Sylvia_05.wav    | Scene                   | Sylvia     |      |                                          |
-| Sylvia_06.wav    | Scene                   | Sylvia     |      |                                          |
-| Sylvia_07.wav    | Scene                   | Sylvia     |      |                                          |
-| Sylvia_08.wav    | Scene                   | Sylvia     |      |                                          |
-| Sylvia_09.wav    | Scene                   | Sylvia     |      |                                          |
-| Sylvia_10.wav    | Scene                   | Sylvia     |      |                                          |
+| Sir 1_01.wav     | [Scene 18](#sir 1_01)   | Echo Team  | 1    | 3 takes, one mic                         |
+| Sir 2_01.wav     | [Scene 18](#sir 2_01)   | Echo Team  | 1    | Different mic                            |
+| Sir 3_01.wav     | [Scene 18](#sir 3_01)   | Echo Team  | 1    | Last mic                                 |
+| Sylvia_01.wav    | [Scene 17](#sylvia_01)  | Sylvia     | 1    | Also includes cab driver, but we got Cait doing it better |
+| Sylvia_02.wav    | [Scene 17](#sylvia_02)  | Sylvia     | 2    |                                          |
+| Sylvia_03.wav    | [Scene 15](#sylvia_03)  | Sylvia     | 1    |                                          |
+| Sylvia_04.wav    | [Scene 15](#sylvia_04)  | Sylvia     | 2    | Cuts off around Gizette's: "Waggle used to be" |
+| Sylvia_05.wav    | [Scene 15](#sylvia_05)  | Sylvia     | 2    | Picks up roughly where Sylvia_04 left off. Doesn't effect Sylvia's lines |
+| Sylvia_06.wav    | [Scene 15](#sylvia_06)  | Sylvia     | 3    |                                          |
+| Sylvia_07.wav    | [Scene 18](#sylvia_07)  | Sylvia     | 1    | Just Dick and Sylvia lines               |
+| Sylvia_08.wav    | [Scene 18](#sylvia_08)  | Sylvia     | 2    | Just Dick and Sylvia lines               |
+| Sylvia_09.wav    | [Scene 18](#sylvia_09)  | Sylvia     | 3    | Just Dick and Sylvia lines               |
+| Sylvia_10.wav    | [Scene 17](#sylvia_10)  | Sylvia     | 3    | "GPS" line punch in, 2 takes             |
 | Vicky_01.wav     | Scene                   | Vicky      |      |                                          |
 | Vicky_02.wav     | Scene                   | Vicky      |      |                                          |
 | Vicky_03.wav     | Scene                   | Vicky      |      |                                          |
@@ -772,15 +772,15 @@ scripts = [
 <div class="action"><p>The sound of a DOOR OPENING.</p></div>
 <div class="dialog ooley_03"><p class="character">UNCLE OOLEY</p><p>Gwen! It&#8217;s your Uncle Ooley. I came as soon as I heard.</p></div>
 <div class="dialog danny_03 danny_06"><p class="character">DICK</p><p>Gwen, It&#8217;s your boss, Dick Dirk. I came as soon as I told Ooley, which was a few hours after I heard.</p></div>
-<div class="dialog"><p class="character">SYLVIA</p><p>Um, Hello Gwen, I think we&#8217;re all introducing ourselves, so it&#8217;s Sylvia.</p></div>
+<div class="dialog sylvia_03 sylvia_04 sylvia_06"><p class="character">SYLVIA</p><p>Um, Hello Gwen, I think we&#8217;re all introducing ourselves, so it&#8217;s Sylvia.</p></div>
 <div class="dialog ooley_03"><p class="character">UNCLE OOLEY</p><p>Wait, Gwen, are you pretending to be a pile of pillows again? Or are the pillows pretending to be you again?</p></div>
 <div class="dialog cait_42 cait_43 cait_45"><p class="character">NARRATOR</p><p>Uncle Ooley threw back the covers.</p></div>
 <div class="action"><p>The RUSTLE of Ooley throwing off the covers.</p></div>
 <div class="action"><p>He GASPS.</p></div>
 <div class="dialog ooley_03"><p class="character">UNCLE OOLEY</p><p>Holy crap, it&#8217;s the pillows!</p></div>
-<div class="dialog"><p class="character">SYLVIA</p><p>Oh my God, Dick, where did she go?</p></div>
+<div class="dialog sylvia_03 sylvia_04 sylvia_06"><p class="character">SYLVIA</p><p>Oh my God, Dick, where did she go?</p></div>
 <div class="dialog danny_03 danny_06"><p class="character">DICK</p><p>Oh great. Gwen&#8217;s missing and now <em>I</em> have to find her because <em>I&#8217;m</em> a detective? This is horse shit!</p></div>
-<div class="dialog"><p class="character">SYLVIA</p><p>Dick!</p></div>
+<div class="dialog sylvia_03 sylvia_04 sylvia_06"><p class="character">SYLVIA</p><p>Dick!</p></div>
 <div class="dialog danny_03 danny_06"><p class="character">DICK</p><p>Okay! Jeez. Let&#8217;s look for clues, I guess.</p></div>
 <div class="dialog gizette_08 gizette_09"><p class="character">GIZETTE</p><p>No need, Richard.</p></div>
 <div class="dialog danny_03 danny_06"><p class="character">DICK</p><p>Who the-</p></div>
@@ -795,18 +795,18 @@ scripts = [
 <div class="dialog danny_03 danny_06 danny_05"><p class="character">DICK</p><p>Oh that is it. I will fight you right now!</p></div>
 <div class="dialog gizette_08 gizette_09"><p class="character">GIZETTE</p><p>I'm sorry, that was insensitive.</p></div>
 <div class="dialog danny_03 danny_06 danny_05"><p class="character">DICK</p><p>I still wanna fight!</p></div>
-<div class="dialog"><p class="character">SYLVIA</p><p>Please, Dick, you&#8217;re embarrassing me.</p></div>
+<div class="dialog sylvia_03 sylvia_05 sylvia_06"><p class="character">SYLVIA</p><p>Please, Dick, you&#8217;re embarrassing me.</p></div>
 <div class="dialog ooley_03"><p class="character">UNCLE OOLEY</p><p>I don&#8217;t know what &#8220;embarrassing&#8221; means, but Sylvia&#8217;s right; this sentient wad-of-cash&#8217;s lead is the only one we&#8217;ve got. We gotta find Gwen!</p></div>
 <div class="dialog danny_03 danny_06 danny_05"><p class="character">DICK</p><p>Fine, I&#8217;ll drive.</p></div>
-<div class="dialog"><p class="character">SYLVIA</p><p>You don&#8217;t have a car. Or a license.</p></div>
+<div class="dialog sylvia_03 sylvia_05 sylvia_06"><p class="character">SYLVIA</p><p>You don&#8217;t have a car. Or a license.</p></div>
 <div class="dialog ooley_03"><p class="character">UNCLE OOLEY</p><p>I can drive.</p></div>
-<div class="dialog"><p class="character">SYLVIA</p><p>Nobody is riding in your static shock powered wheel barrow.</p></div>
+<div class="dialog sylvia_03 sylvia_05 sylvia_06"><p class="character">SYLVIA</p><p>Nobody is riding in your static shock powered wheel barrow.</p></div>
 <div class="dialog gizette_08 gizette_09"><p class="character">GIZETTE</p><p>I can call my chauffeur, Shurfwan.</p></div>
 <div class="dual danny_03 danny_06 danny_05 ooley_03"><div class="left"><p class="character">DICK</p><p>Fuck no!</p></div><div class="right"><p class="character">UNCLE OOLEY</p><p>Fuck no!</p></div><br /></div>
 <div class="dialog danny_03 danny_06 danny_05"><p class="character">DICK</p><p>I will not accept help from &#8220;superior&#8221; detectives.</p></div>
 <div class="dialog ooley_03 ooley_04"><p class="character">UNCLE OOLEY</p><p>And I <em>hate</em> chauffeurs.</p></div>
 <div class="dialog gizette_08 gizette_09"><p class="character">GIZETTE</p><p>Just trying to help.</p></div>
-<div class="dialog"><p class="character">SYLVIA</p><p class="parenthetical">(sullen)</p><p>I&#8217;ll call a cab.</p></div>
+<div class="dialog sylvia_03 sylvia_05 sylvia_06"><p class="character">SYLVIA</p><p class="parenthetical">(sullen)</p><p>I&#8217;ll call a cab.</p></div>
 <div class="dialog cait_32 cait_33 cait_42 cait_44 cait_45"><p class="character">NARRATOR</p><p>Back at the construction site&#8230;</p></div>
 </div>
 
@@ -878,8 +878,8 @@ scripts = [
 <div class="dialog danny_01 danny_02"><p class="character">DICK</p><p>We&#8217;re in a car and it&#8217;s winter!</p></div>
 <div class="dialog ooley_05 ooley_06"><p class="character">UNCLE OOLEY</p><p>Still, though. Okay make a right up here.</p></div>
 <div class="dialog danny_01 danny_02"><p class="character">DICK</p><p>No, left!</p></div>
-<div class="dialog cait_34"><p class="character">CAB DRIVER</p><p>Just tell me where to go.</p></div>
-<div class="dialog"><p class="character">SYLVIA</p><p>Why don&#8217;t you both let the man use his GPS?</p></div>
+<div class="dialog cait_34 sylvia_01 sylvia_02"><p class="character">CAB DRIVER</p><p>Just tell me where to go.</p></div>
+<div class="dialog sylvia_01 sylvia_02 sylvia_10"><p class="character">SYLVIA</p><p>Why don&#8217;t you both let the man use his GPS?</p></div>
 <div class="dual danny_01 danny_02 ooley_05 ooley_06"><div class="left"><p class="character">DICK</p><p>Fuck no!</p></div><div class="right"><p class="character">UNCLE OOLEY</p><p>Fuck no!</p></div><br /></div>
 <div class="dialog danny_01 danny_02"><p class="character">DICK</p><p>This is way faster.</p></div>
 <div class="dialog ooley_05 ooley_06"><p class="character">UNCLE OOLEY</p><p>And I don&#8217;t want a robot telling me what to do!</p></div>
@@ -949,7 +949,7 @@ scripts = [
 <div class="dialog cait_50 cait_51"><p class="character">NARRATOR</p><p>But before the Nazis could move, they got the third surprise of their evening.</p></div>
 <div class="dialog ooley_02"><p class="character">UNCLE OOLEY</p><p>Gwen don&#8217;t worry, you&#8217;re Uncle Ooley&#8217;s here!</p></div>
 <div class="dialog danny_07"><p class="character">DICK</p><p>I found you Gwen, because I&#8217;m a detective!</p></div>
-<div class="dialog"><p class="character">SYLVIA</p><p>It&#8217;s Sylvia!</p></div>
+<div class="dialog sylvia_07 sylvia_08 sylvia_09"><p class="character">SYLVIA</p><p>It&#8217;s Sylvia!</p></div>
 <div class="action"><p>The sound of every Nazi still standing POINTING THEIR GUNS at the new arrivals.</p></div>
 <div class="dialog danny_07"><p class="character">DICK</p><p>Shit on my face.</p></div>
 </div>
