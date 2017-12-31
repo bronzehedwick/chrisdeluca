@@ -172,12 +172,12 @@ scripts = [
 | Ooley_05.wav     | [Scene 17](#ooley_05)   | Ooley      | 1    |                                          |
 | Ooley_06.wav     | [Scene 17](#ooley_06)   | Ooley      | 2    |                                          |
 | Ooley_07.wav     | Episode  3              | Ooley      |      | "Dick, don't move, I'm gonna whack you with something!" |
-| Russ_01.wav      | Scene                   | Russ       |      |                                          |
-| Russ_02.wav      | Scene                   | Russ       |      |                                          |
-| Russ_03.wav      | Scene                   | Russ       |      |                                          |
-| Russ_04.wav      | Scene                   | Russ       |      |                                          |
-| Russ_05.wav      | Scene                   | Russ       |      |                                          |
-| Russ_06.wav      | Scene                   | Russ       |      |                                          |
+| Russ_01.wav      | [Scene 2](#russ_01)     | Russ       | 1    | No Russ. Cuts off at "What can I do for you, Ms York?" |
+| Russ_02.wav      | [Scene 2](#russ_02)     | Russ       | 1    | No Russ. Picks up after Russ_01 and cuts off shortly after. |
+| Russ_03.wav      | [Scene 2](#russ_03)     | Russ       | 1    | Picks up after Russ_02 leaves off. All of Russ's lines. |
+| Russ_04.wav      | [Scene 2](#russ_04)     | Russ       | 2    | Stops at "Wherryweather"                 |
+| Russ_05.wav      | [Scene 2](#russ_05)     | Russ       | 2    | Picks up at "Fucking me"                 |
+| Russ_06.wav      | [Scene 2](#russ_06)     | Russ       | 3    | Punch in starting at "I need my opponent investigated" |
 | Sir 1_01.wav     | Scene                   | Echo Team  |      |                                          |
 | Sir 2_01.wav     | Scene                   | Echo Team  |      |                                          |
 | Sir 3_01.wav     | Scene                   | Echo Team  |      |                                          |
@@ -308,7 +308,7 @@ scripts = [
 <div class="action"><p>The sound of the DOOR OPENING.</p></div>
 <div class="dialog cait_16 cait_17 cait_37 cait_38"><p class="character">NARRATOR</p><p>Joining the seemingly constant parade of noise that always seems to happen when your head hurts, a thin, pale man hunched into the room. He was wearing a shoddy acrylic-fur coat and a drowned-looking mustache that clung despondently to his upper lip.</p></div>
 <div class="action"><p>The sounds of LOUD COUGHING. Russ talks through a serious sinus infection.</p></div>
-<div class="dialog"><p class="character">RUSS</p><p>Excuse me, I&#8217;m looking for a Richard Dirk.</p></div>
+<div class="dialog russ_03 russ_04"><p class="character">RUSS</p><p>Excuse me, I&#8217;m looking for a Richard Dirk.</p></div>
 <div class="action"><p>Russ loudly BLOWS HIS NOSE.</p></div>
 <div class="dialog alice_21 alice_22"><p class="character">GWEN</p><p>He&#8217;s out at-</p></div>
 <div class="action"><p>Russ loudly BLOWS HIS NOSE.</p></div>
@@ -316,26 +316,26 @@ scripts = [
 <div class="action"><p>Russ loudly BLOWS HIS NOSE.</p></div>
 <div class="dialog alice_21 alice_22"><p class="character">GWEN</p><p>He&#8217;s out at the moment!</p></div>
 <div class="action"><p>Russ blows one last HONK.</p></div>
-<div class="dialog"><p class="character">RUSS</p><p>Oh.</p></div>
+<div class="dialog russ_03 russ_04"><p class="character">RUSS</p><p>Oh.</p></div>
 <div class="dialog alice_21 alice_22"><p class="character">GWEN</p><p>I&#8217;m Gwendolyn Gween, Mr. Dirk&#8217;s junior P.I.</p></div>
 <div class="dialog"><p class="character">VICKY</p><p>And I&#8217;m Vicky Vance, Queen of the Nile.</p></div>
 <div class="dialog alice_21 alice_22"><p class="character">GWEN</p><p class="parenthetical">(to Vicky)</p><p>Stop.</p><p class="parenthetical">(to Russ)</p><p>Can I help you?</p></div>
-<div class="dialog"><p class="character">RUSS</p><p>Yes. My name&#8217;s Russ Buckaloo; I&#8217;m the Democratic candidate for mayor.</p></div>
+<div class="dialog russ_03 russ_04"><p class="character">RUSS</p><p>Yes. My name&#8217;s Russ Buckaloo; I&#8217;m the Democratic candidate for mayor.</p></div>
 <div class="dialog cait_37 cait_38"><p class="character">NARRATOR</p><p>Russ extended his hand to shake: even in her weakened state, Gwen had the sense to recoil in disgust.</p></div>
-<div class="dialog"><p class="character">RUSS</p><p>Sorry, I know I have some hand sanitizer in one of these pockets&#8230;</p></div>
+<div class="dialog russ_03 russ_04"><p class="character">RUSS</p><p>Sorry, I know I have some hand sanitizer in one of these pockets&#8230;</p></div>
 <div class="action"><p>The sound of CLOTH RUSTLING as Russ rummages in his coat.</p></div>
 <div class="dialog alice_21"><p class="character">GWEN</p><p>It&#8217;s fine. What kind of service were you interested in?</p></div>
 <div class="action"><p>Continued sound of RUSTLING.</p></div>
-<div class="dialog"><p class="character">RUSS</p><p>I need my opponent investigated. Perry Wherrywhether is absolutely fucking me-</p></div>
+<div class="dialog russ_03 russ_04 russ_06"><p class="character">RUSS</p><p>I need my opponent investigated. Perry Wherrywhether is absolutely fucking me-</p></div>
 <div class="action"><p>Russ COUGHS violently.</p></div>
-<div class="dialog"><p class="character">RUSS</p><p>In the polls. Usually a Democrat is a shoe-in in New York, but this guy&#8217;s reputation is cleaner than a European subway. I know he&#8217;s dirty, though, I can-</p></div>
+<div class="dialog russ_03 russ_05 russ_06"><p class="character">RUSS</p><p>In the polls. Usually a Democrat is a shoe-in in New York, but this guy&#8217;s reputation is cleaner than a European subway. I know he&#8217;s dirty, though, I can-</p></div>
 <div class="action"><p>He HACKS.</p></div>
-<div class="dialog"><p class="character">RUSS</p><p>Feel it. Oh, here&#8217;s the sanitizer! No, wait, this is hotel shampoo. Did you want some?</p></div>
+<div class="dialog russ_03 russ_05 russ_06"><p class="character">RUSS</p><p>Feel it. Oh, here&#8217;s the sanitizer! No, wait, this is hotel shampoo. Did you want some?</p></div>
 <div class="dialog alice_21 alice_23"><p class="character">GWEN</p><p>I&#8217;m okay, thanks.</p></div>
 <div class="dialog cait_37 cait_39"><p class="character">NARRATOR</p><p>Russ rubbed some of the shampoo into his hands.</p></div>
-<div class="dialog"><p class="character">RUSS</p><p>God, Perry is so good. He keeps countering my every move. It&#8217;s like he knows what I&#8217;m going to do before <em>I</em> do. I need-</p></div>
+<div class="dialog russ_03 russ_05 russ_06"><p class="character">RUSS</p><p>God, Perry is so good. He keeps countering my every move. It&#8217;s like he knows what I&#8217;m going to do before <em>I</em> do. I need-</p></div>
 <div class="action"><p>Russ SNEEZES.</p></div>
-<div class="dialog"><p class="character">RUSS</p><p>Dirt! Any questions?</p></div>
+<div class="dialog russ_03 russ_05 russ_06"><p class="character">RUSS</p><p>Dirt! Any questions?</p></div>
 <div class="dialog alice_21 alice_23"><p class="character">GWEN</p><p>Political digging, pretty straightforward-</p></div>
 <div class="dialog"><p class="character">VICKY</p><p>Actually, I have a question. Why are you so gross?</p></div>
 <div class="dialog alice_21 alice_23"><p class="character">GWEN</p><p>Vicky! I&#8217;ll take your case. Cash upfront, updates daily, rates are on the-</p></div>
