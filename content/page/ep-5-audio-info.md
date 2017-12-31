@@ -15,194 +15,199 @@ scripts = [
 
 ## Audio
 
-| Audio File       | Scene                 | Character  | Take | Notes                                    |
-| ---------------- | --------------------- | ---------- | ---- | ---------------------------------------- |
-| Alice_01.wav     | [Scene 7](#alice_01)  | Gwen       | 1    |                                          |
-| Alice_02.wav     | [Scene 7](#alice_02)  | Gwen       | 2    |                                          |
-| Alice_03.wav     | [Scene 2](#alice_03)  | Gwen       | 1    |                                          |
-| Alice_04.wav     | [Scene 2](#alice_04)  | Gwen       | 2    |                                          |
-| Alice_05.wav     | [Scene 8](#alice_05)  | Gwen       | 1    |                                          |
-| Alice_06.wav     | [Scene 8](#alice_06)  | Gwen       | 2    |                                          |
-| Alice_07.wav     | [Scene 9](#alice_07)  | Gwen       | 1    |                                          |
-| Alice_08.wav     | [Scene 9](#alice_08)  | Gwen       | 2    |                                          |
-| Alice_09.wav     | [Scene 12](#alice_09) | Gwen       | 1    |                                          |
-| Alice_10.wav     | [Scene 12](#alice_10) | Gwen       | 2    |                                          |
-| Alice_11.wav     | [Scene 12](#alice_11) | Gwen       | 3    |                                          |
-| Alice_12.wav     | [Scene 14](#alice_12) | Gwen       | 1    |                                          |
-| Alice_13.wav     | [Scene 14](#alice_13) | Gwen       | 2    |                                          |
-| Alice_14.wav     | [Scene 16](#alice_14) | Gwen       | 1    | With Cristina                            |
-| Alice_15.wav     | [Scene 16](#alice_15) | Gwen       | 2    | With Cristina                            |
-| Alice_16.wav     | [Scene 3](#alice_16)  | Gwen       | 1    |                                          |
-| Alice_17.wav     | [Scene 3](#alice_17)  | Gwen       | 2    |                                          |
-| Alice_18.wav     | [Scene 3](#alice_18)  | Gwen       | 3    | Vicky punch in                           |
-| Alice_19.wav     | [Scene 2](#alice_19)  | Gwen       | 1    | First half                               |
-| Alice_20.wav     | [Scene 2](#alice_20)  | Gwen       | 2    | Punch in                                 |
-| Alice_21.wav     | [Scene 2](#alice_21)  | Gwen       | 1    | Second half                              |
-| Alice_22.wav     | [Scene 2](#alice_22)  | Gwen       | 2    | Almost the whole scene. Stops at Russ explaining |
-| Alice_23.wav     | [Scene 2](#alice_23)  | Gwen       | 2    | Continuing Alice_22. Bit in between missing |
-| Alice_24.wav     | [Scene 11](#alice_24) | Gwen       | 1    | First half                               |
-| Alice_25.wav     | [Scene 11](#alice_25) | Gwen       | 2    | First half                               |
-| Alice_26.wav     | [Scene 5](#alice_26)  | Gwen       | 1    |                                          |
-| Alice_27.wav     | [Scene 5](#alice_27)  | Gwen       | 2    |                                          |
-| Alice_28.wav     | [Scene 16](#alice_28) | Gwen       | 3    | First half. With Aldo + Antonio          |
-| Alice_29.wav     | [Scene 16](#alice_29) | Gwen       | 4    | Just Aldo + Antonio segment              |
-| Alice_30.wav     | [Scene 18](#alice_30) | Gwen       | 1    | No Cristina                              |
-| Alice_31.wav     | [Scene 18](#alice_31) | Gwen       | 2    | No Cristina                              |
-| Alice_32.wav     | n/a                   | Gwen       | 1    | Gwen groan/ooph sounds                   |
-| Alice_33.wav     | [Scene 6](#alice_33)  | Gwen       | 1    | Stops after Gwen: "Well you are"         |
-| Alice_34.wav     | [Scene 6](#alice_34)  | Gwen       | 1    | Picks up after Alice_33. Looses Gwen: "Okay, what about Perry's business" |
-| Alice_35.wav     | [Scene 6](#alice_35)  | Gwen       | 2    | Best take                                |
-| Alice_36.wav     | [Scene 3](#alice_36)  | Gwen       | 1    | Just Dr Gumbolt segment                  |
-| Alice_37.wav     | [Scene 3](#alice_37)  | Gwen       | 2    | Just Dr Gumbolt segment                  |
-| Alice_38.wav     | [Scene 11](#alice_38) | Gwen       | 1    | Just Dr Gumbolt segment                  |
-| Alice_39.wav     | [Scene 11](#alice_39) | Gwen       | 2    | Just Dr Gumbolt segment                  |
-| Alice_40.wav     | [Scene 11](#alice_40) | Gwen       | 3    | Just Dr Gumbolt segment                  |
-| Audio_1_01.wav   | [Scene 16](#audio_01) | Nazi Jeff  | 1    |                                          |
-| Cait_01.wav      | [Scene 1](#cait_01)   | Narrator   | 1    |                                          |
-| Cait_02.wav      | [Scene 1](#cait_02)   | Narrator   | 2    |                                          |
-| Cait_03.wav      | [Scene 4](#cait_03)   | Narrator   | 1    |                                          |
-| Cait_04.wav      | [Scene 4](#cait_04)   | Narrator   | 2    |                                          |
-| Cait_05.wav      | [Scene 4](#cait_05)   | Narrator   | 3    |                                          |
-| Cait_06.wav      | [Scene 10](#cait_06)  | Narrator   | 1    | Cuts off in the middle of "Shakily moving away..." |
-| Cait_07.wav      | [Scene 10](#cait_07)  | Narrator   | 2    |                                          |
-| Cait_08.wav      | [Scene 10](#cait_08)  | Narrator   | 3    |                                          |
-| Cait_09.wav      | [Scene 10](#cait_09)  | Narrator   | 4    | Final line punch in                      |
-| Cait_10.wav      | [Scene 10](#cait_10)  | Narrator   | 5    | Final line punch in                      |
-| Cait_11.wav      | [Scene 13](#cait_11)  | Narrator   | 1    |                                          |
-| Cait_12.wav      | [Scene 19](#cait_12)  | Narrator   | 1    |                                          |
-| Cait_13.wav      | [Scene 19](#cait_13)  | Narrator   | 2    |                                          |
-| Cait_14.wav      | [Scene 7](#cait_14)   | Narrator   | 1    |                                          |
-| Cait_15.wav      | [Scene 7](#cait_15)   | Narrator   | 2    |                                          |
-| Cait_16.wav      | [Scene 2](#cait_16)   | Narrator   | 1    | Just the vicky intro                     |
-| Cait_17.wav      | [Scene 2](#cait_17)   | Narrator   | 2    | Just the vicky intro                     |
-| Cait_18.wav      | [Scene 8](#cait_18)   | Narrator   | 1    |                                          |
-| Cait_19.wav      | [Scene 8](#cait_19)   | Narrator   | 2    |                                          |
-| Cait_20.wav      | [Scene 9](#cait_20)   | Narrator   | 1    |                                          |
-| Cait_21.wav      | [Scene 9](#cait_21)   | Narrator   | 2    |                                          |
-| Cait_22.wav      | [Scene 12](#cait_22)  | Narrator   | 1    | Cuts off after "I feel great"            |
-| Cait_23.wav      | [Scene 12](#cait_23)  | Narrator   | 2    | Cuts off after "Alright, take out that I.V." |
-| Cait_24.wav      | [Scene 12](#cait_24)  | Narrator   | 1    | Picks up where Cait_22 left off          |
-| Cait_25.wav      | [Scene 14](#cait_25)  | Narrator   | 1    |                                          |
-| Cait_26.wav      | [Scene 14](#cait_26)  | Narrator   | 2    |                                          |
-| Cait_27.wav      | [Scene 16](#cait_27)  | Narrator   | 1    |                                          |
-| Cait_28.wav      | [Scene 16](#cait_28)  | Narrator   | 2    |                                          |
-| Cait_29.wav      | [Scene 3](#cait_29)   | Narrator   | 1    |                                          |
-| Cait_30.wav      | [Scene 3](#cait_30)   | Narrator   | 2    |                                          |
-| Cait_31.wav      | [Scene 3](#cait_31)   | Narrator   | 3    | Vicky punch in. No Narrator              |
-| Cait_32.wav      | [Scene 15](#cait_32)  | Narrator   | 1    |                                          |
-| Cait_33.wav      | [Scene 15](#cait_33)  | Narrator   | 2    |                                          |
-| Cait_34.wav      | [Scene 17](#cait_34)  | Cab driver | 1    | Just a bunch of Cait doing the cab driver line |
-| Cait_35.wav      | [Scene 2](#cait_35)   | Narrator   | 1    | Cuts off after "What can I do for you, Ms York?" |
-| Cait_36.wav      | [Scene 2](#cait_36)   | Narrator   | 1    | Picks up after Cait_35. Cuts off after Gizette's: "…you could be making serious". No Narrator lines |
-| Cait_37.wav      | [Scene 2](#cait_37)   | Narrator   | 1    | Picks up after Cait_36, goes to end of scene |
-| Cait_38.wav      | [Scene 2](#cait_38)   | Narrator   | 2    | Cuts off after Russ's: "I need my opponent investigated." |
-| Cait_39.wav      | [Scene 2](#cait_39)   | Narrator   | 2    | Picks up where Cait_38 left off          |
-| Cait_40.wav      | [Scene 11](#cait_40)  | Narrator   | 1    | Only Gizette segment                     |
-| Cait_41.wav      | [Scene 11](#cait_41)  | Narrator   | 2    | Only Gizette segment                     |
-| Cait_42.wav      | [Scene 15](#cait_42)  | Narrator   | 1    |                                          |
-| Cait_43.wav      | [Scene 15](#cait_43)  | Narrator   | 2    | Cuts off after Gizette's: "Gwen went to the construction site" |
-| Cait_44.wav      | [Scene 15](#cait_44)  | Narrator   | 2    | Picks up after Cait_43                   |
-| Cait_45.wav      | [Scene 15](#cait_45)  | Narrator   | 3    |                                          |
-| Cait_46.wav      | [Scene 5](#cait_46)   | Narrator   | 1    |                                          |
-| Cait_47.wav      | [Scene 5](#cait_47)   | Narrator   | 2    |                                          |
-| Cait_48.wav      | [Scene 16](#cait_48)  | Narrator   | 1    | Cuts after Vicky's: "I'm so relieved"    |
-| Cait_49.wav      | [Scene 16](#cait_49)  | Narrator   | 2    | Starts at Jeff's: "Welcome, brothers" and ends at Hector's: "that was the bracelet she had on her!" |
-| Cait_50.wav      | [Scene 18](#cait_50)  | Narrator   | 1    | Stops after Narrator's: "…third surprise of the evening." |
-| Cait_51.wav      | [Scene 18](#cait_51)  | Narrator   | 2    | Stops after Narrator's: "…third surprise of the evening." |
-| Cait_52.wav      | [Scene 18](#cait_52)  | Narrator   | 3    | Narrator "Nazi's lay bloodied" punch in  |
-| Cait_53.wav      | [Scene 6](#cait_53)   | Narrator   | 1    | Cuts off at Gwen's: "Well, you are."     |
-| Cait_54.wav      | [Scene 6](#cait_54)   | Narrator   | 1    | Picks up after Cait_53                   |
-| Cait_55.wav      | [Scene 6](#cait_55)   | Narrator   | 2    |                                          |
-| Cait_56.wav      | [Scene 3](#cait_56)   | Narrator   | 1    | No Narrator. Starts with Dr Gumbolt's "Oh, good, you're up" and ends with "That was weird". |
-| Cait_57.wav      | [Scene 3](#cait_57)   | Narrator   | 2    | No Narrator. Starts with Dr Gumbolt's "Oh, good, you're up" and ends with "That was weird". |
-| Cait_58.wav      | [Scene 11](#cait_58)  | Narrator   | 1    | Starts with Narrator's: "No sooner had Gizette left" and ends with "soft darkness" |
-| Cait_59.wav      | [Scene 11](#cait_59)  | Narrator   | 2    | Starts with Narrator's: "No sooner had Gizette left" and ends with "soft darkness" |
-| Cait_60.wav      | [Scene 11](#cait_60)  | Narrator   | 3    | Starts with Narrator's: "No sooner had Gizette left" and ends with "soft darkness" |
-| Danny_01.wav     | Scene 17              | Dick       | 1    |                                          |
-| Danny_02.wav     | Scene 17              | Dick       | 2    |                                          |
-| Danny_03.wav     | Scene 15              | Dick       | 1    |                                          |
-| Danny_04.wav     | Scene 15              | Dick       | 2    | Cuts off after Gizette's: "Gwen went to the construction site" |
-| Danny_05.wav     | Scene 15              | Dick       | 2    | Picks up after Danny_04. Cuts off a bit of Dick's first line |
-| Danny_06.wav     | Scene 15              | Dick       | 3    |                                          |
-| Danny_07.wav     | Scene 18              | Dick       | 1    | Just Dick & Sylvia @ end                 |
-| Danny_08.wav     | Scene 18              | Dick       | 2    | Just Dick & Sylvia @ end                 |
-| Danny_09.wav     | Scene 18              | Dick       | 3    | Just Dick & Sylvia @ end                 |
-| Gizette_01.wav   | Scene                 | Gizette    |      |                                          |
-| Gizette_02.wav   | Scene                 | Gizette    |      |                                          |
-| Gizette_03.wav   | Scene                 | Gizette    |      |                                          |
-| Gizette_04.wav   | Scene                 | Gizette    |      |                                          |
-| Gizette_05.wav   | Scene                 | Gizette    |      |                                          |
-| Gizette_06.wav   | Scene                 | Gizette    |      |                                          |
-| Gizette_07.wav   | Scene                 | Gizette    |      |                                          |
-| Gizette_08.wav   | Scene                 | Gizette    |      |                                          |
-| Gizette_09.wav   | Scene                 | Gizette    |      |                                          |
-| Gizette_10.wav   | Scene                 | Gizette    |      |                                          |
-| Gizette_11.wav   | Scene                 | Gizette    |      |                                          |
-| guard_01.wav     | Scene                 |            |      |                                          |
-| Hector_01.wav    | Scene                 | Hector     |      |                                          |
-| Hector_02.wav    | Scene                 | Hector     |      |                                          |
-| Hector_03.wav    | Scene                 | Hector     |      |                                          |
-| Hector_04.wav    | Scene                 | Hector     |      |                                          |
-| Hector_05.wav    | Scene                 | Hector     |      |                                          |
-| Hector_06.wav    | Scene                 | Hector     |      |                                          |
-| Hector_07.wav    | Scene                 | Hector     |      |                                          |
-| Hector_08.wav    | Scene                 | Hector     |      |                                          |
-| Hector_09.wav    | Scene                 | Hector     |      |                                          |
-| Hector_10.wav    | Scene                 | Hector     |      |                                          |
-| Hector_11.wav    | Scene                 | Hector     |      |                                          |
-| Heil_01 L.wav    | Scene                 | Nazi's     |      |                                          |
-| Heil_01 R.wav    | Scene                 | Nazi's     |      |                                          |
-| Nazi Jeff_01.wav | Scene                 | Nazi Jeff  |      |                                          |
-| Nazi Jeff_02.wav | Scene                 | Nazi Jeff  |      |                                          |
-| Nazi Jeff_03.wav | Scene                 | Nazi Jeff  |      |                                          |
-| Nazi Jeff_04.wav | Scene                 | Nazi Jeff  |      |                                          |
-| Nazi Jeff_05.wav | Scene                 | Nazi Jeff  |      |                                          |
-| Nazi Jeff_06.wav | Scene                 | Nazi Jeff  |      |                                          |
-| Nazi Jeff_07.wav | Scene                 | Nazi Jeff  |      |                                          |
-| ooley_01.wav     | Scene                 | Ooley      |      |                                          |
-| Ooley_02.wav     | Scene                 | Ooley      |      |                                          |
-| Ooley_03.wav     | Scene                 | Ooley      |      |                                          |
-| Ooley_04.wav     | Scene                 | Ooley      |      |                                          |
-| Ooley_05.wav     | Scene                 | Ooley      |      |                                          |
-| Ooley_06.wav     | Scene                 | Ooley      |      |                                          |
-| Ooley_07.wav     | Scene                 | Ooley      |      |                                          |
-| Russ_01.wav      | Scene                 | Russ       |      |                                          |
-| Russ_02.wav      | Scene                 | Russ       |      |                                          |
-| Russ_03.wav      | Scene                 | Russ       |      |                                          |
-| Russ_04.wav      | Scene                 | Russ       |      |                                          |
-| Russ_05.wav      | Scene                 | Russ       |      |                                          |
-| Russ_06.wav      | Scene                 | Russ       |      |                                          |
-| Sir 1_01.wav     | Scene                 | Echo Team  |      |                                          |
-| Sir 2_01.wav     | Scene                 | Echo Team  |      |                                          |
-| Sir 3_01.wav     | Scene                 | Echo Team  |      |                                          |
-| Sylvia_01.wav    | Scene                 | Sylvia     |      |                                          |
-| Sylvia_02.wav    | Scene                 | Sylvia     |      |                                          |
-| Sylvia_03.wav    | Scene                 | Sylvia     |      |                                          |
-| Sylvia_04.wav    | Scene                 | Sylvia     |      |                                          |
-| Sylvia_05.wav    | Scene                 | Sylvia     |      |                                          |
-| Sylvia_06.wav    | Scene                 | Sylvia     |      |                                          |
-| Sylvia_07.wav    | Scene                 | Sylvia     |      |                                          |
-| Sylvia_08.wav    | Scene                 | Sylvia     |      |                                          |
-| Sylvia_09.wav    | Scene                 | Sylvia     |      |                                          |
-| Sylvia_10.wav    | Scene                 | Sylvia     |      |                                          |
-| Vicky_01.wav     | Scene                 | Vicky      |      |                                          |
-| Vicky_02.wav     | Scene                 | Vicky      |      |                                          |
-| Vicky_03.wav     | Scene                 | Vicky      |      |                                          |
-| Vicky_04.wav     | Scene                 | Vicky      |      |                                          |
-| Vicky_05.wav     | Scene                 | Vicky      |      |                                          |
-| Vicky_06.wav     | Scene                 | Vicky      |      |                                          |
-| Vicky_07.wav     | Scene                 | Vicky      |      |                                          |
-| Vicky_08.wav     | Scene                 | Vicky      |      |                                          |
-| Vicky_09.wav     | Scene                 | Vicky      |      |                                          |
-| Vicky_10.wav     | Scene                 | Vicky      |      |                                          |
-| Vicky_11.wav     | Scene                 | Vicky      |      |                                          |
-| Vicky_12.wav     | Scene                 | Vicky      |      |                                          |
-| Vicky_13.wav     | Scene                 | Vicky      |      |                                          |
-| Vicky_14.wav     | Scene                 | Vicky      |      |                                          |
-| Vicky_15.wav     | Scene                 | Vicky      |      |                                          |
-| Vicky_16.wav     | Scene                 | Vicky      |      |                                          |
-| Vicky_17.wav     | Scene                 | Vicky      |      |                                          |
-| Vicky_18.wav     | Scene                 | Vicky      |      |                                          |
+| Audio File       | Scene                  | Character  | Take | Notes                                    |
+| ---------------- | ---------------------- | ---------- | ---- | ---------------------------------------- |
+| Alice_01.wav     | [Scene 7](#alice_01)   | Gwen       | 1    |                                          |
+| Alice_02.wav     | [Scene 7](#alice_02)   | Gwen       | 2    |                                          |
+| Alice_03.wav     | [Scene 2](#alice_03)   | Gwen       | 1    |                                          |
+| Alice_04.wav     | [Scene 2](#alice_04)   | Gwen       | 2    |                                          |
+| Alice_05.wav     | [Scene 8](#alice_05)   | Gwen       | 1    |                                          |
+| Alice_06.wav     | [Scene 8](#alice_06)   | Gwen       | 2    |                                          |
+| Alice_07.wav     | [Scene 9](#alice_07)   | Gwen       | 1    |                                          |
+| Alice_08.wav     | [Scene 9](#alice_08)   | Gwen       | 2    |                                          |
+| Alice_09.wav     | [Scene 12](#alice_09)  | Gwen       | 1    |                                          |
+| Alice_10.wav     | [Scene 12](#alice_10)  | Gwen       | 2    |                                          |
+| Alice_11.wav     | [Scene 12](#alice_11)  | Gwen       | 3    |                                          |
+| Alice_12.wav     | [Scene 14](#alice_12)  | Gwen       | 1    |                                          |
+| Alice_13.wav     | [Scene 14](#alice_13)  | Gwen       | 2    |                                          |
+| Alice_14.wav     | [Scene 16](#alice_14)  | Gwen       | 1    | With Cristina                            |
+| Alice_15.wav     | [Scene 16](#alice_15)  | Gwen       | 2    | With Cristina                            |
+| Alice_16.wav     | [Scene 3](#alice_16)   | Gwen       | 1    |                                          |
+| Alice_17.wav     | [Scene 3](#alice_17)   | Gwen       | 2    |                                          |
+| Alice_18.wav     | [Scene 3](#alice_18)   | Gwen       | 3    | Vicky punch in                           |
+| Alice_19.wav     | [Scene 2](#alice_19)   | Gwen       | 1    | First half                               |
+| Alice_20.wav     | [Scene 2](#alice_20)   | Gwen       | 2    | Punch in                                 |
+| Alice_21.wav     | [Scene 2](#alice_21)   | Gwen       | 1    | Second half                              |
+| Alice_22.wav     | [Scene 2](#alice_22)   | Gwen       | 2    | Almost the whole scene. Stops at Russ explaining |
+| Alice_23.wav     | [Scene 2](#alice_23)   | Gwen       | 2    | Continuing Alice_22. Bit in between missing |
+| Alice_24.wav     | [Scene 11](#alice_24)  | Gwen       | 1    | First half                               |
+| Alice_25.wav     | [Scene 11](#alice_25)  | Gwen       | 2    | First half                               |
+| Alice_26.wav     | [Scene 5](#alice_26)   | Gwen       | 1    |                                          |
+| Alice_27.wav     | [Scene 5](#alice_27)   | Gwen       | 2    |                                          |
+| Alice_28.wav     | [Scene 16](#alice_28)  | Gwen       | 3    | First half. With Aldo + Antonio          |
+| Alice_29.wav     | [Scene 16](#alice_29)  | Gwen       | 4    | Just Aldo + Antonio segment              |
+| Alice_30.wav     | [Scene 18](#alice_30)  | Gwen       | 1    | No Cristina                              |
+| Alice_31.wav     | [Scene 18](#alice_31)  | Gwen       | 2    | No Cristina                              |
+| Alice_32.wav     | n/a                    | Gwen       | 1    | Gwen groan/ooph sounds                   |
+| Alice_33.wav     | [Scene 6](#alice_33)   | Gwen       | 1    | Stops after Gwen: "Well you are"         |
+| Alice_34.wav     | [Scene 6](#alice_34)   | Gwen       | 1    | Picks up after Alice_33. Looses Gwen: "Okay, what about Perry's business" |
+| Alice_35.wav     | [Scene 6](#alice_35)   | Gwen       | 2    | Best take                                |
+| Alice_36.wav     | [Scene 3](#alice_36)   | Gwen       | 1    | Just Dr Gumbolt segment                  |
+| Alice_37.wav     | [Scene 3](#alice_37)   | Gwen       | 2    | Just Dr Gumbolt segment                  |
+| Alice_38.wav     | [Scene 11](#alice_38)  | Gwen       | 1    | Just Dr Gumbolt segment                  |
+| Alice_39.wav     | [Scene 11](#alice_39)  | Gwen       | 2    | Just Dr Gumbolt segment                  |
+| Alice_40.wav     | [Scene 11](#alice_40)  | Gwen       | 3    | Just Dr Gumbolt segment                  |
+| Audio_1_01.wav   | [Scene 16](#audio_01)  | Nazi Jeff  | 1    |                                          |
+| Cait_01.wav      | [Scene 1](#cait_01)    | Narrator   | 1    |                                          |
+| Cait_02.wav      | [Scene 1](#cait_02)    | Narrator   | 2    |                                          |
+| Cait_03.wav      | [Scene 4](#cait_03)    | Narrator   | 1    |                                          |
+| Cait_04.wav      | [Scene 4](#cait_04)    | Narrator   | 2    |                                          |
+| Cait_05.wav      | [Scene 4](#cait_05)    | Narrator   | 3    |                                          |
+| Cait_06.wav      | [Scene 10](#cait_06)   | Narrator   | 1    | Cuts off in the middle of "Shakily moving away..." |
+| Cait_07.wav      | [Scene 10](#cait_07)   | Narrator   | 2    |                                          |
+| Cait_08.wav      | [Scene 10](#cait_08)   | Narrator   | 3    |                                          |
+| Cait_09.wav      | [Scene 10](#cait_09)   | Narrator   | 4    | Final line punch in                      |
+| Cait_10.wav      | [Scene 10](#cait_10)   | Narrator   | 5    | Final line punch in                      |
+| Cait_11.wav      | [Scene 13](#cait_11)   | Narrator   | 1    |                                          |
+| Cait_12.wav      | [Scene 19](#cait_12)   | Narrator   | 1    |                                          |
+| Cait_13.wav      | [Scene 19](#cait_13)   | Narrator   | 2    |                                          |
+| Cait_14.wav      | [Scene 7](#cait_14)    | Narrator   | 1    |                                          |
+| Cait_15.wav      | [Scene 7](#cait_15)    | Narrator   | 2    |                                          |
+| Cait_16.wav      | [Scene 2](#cait_16)    | Narrator   | 1    | Just the vicky intro                     |
+| Cait_17.wav      | [Scene 2](#cait_17)    | Narrator   | 2    | Just the vicky intro                     |
+| Cait_18.wav      | [Scene 8](#cait_18)    | Narrator   | 1    |                                          |
+| Cait_19.wav      | [Scene 8](#cait_19)    | Narrator   | 2    |                                          |
+| Cait_20.wav      | [Scene 9](#cait_20)    | Narrator   | 1    |                                          |
+| Cait_21.wav      | [Scene 9](#cait_21)    | Narrator   | 2    |                                          |
+| Cait_22.wav      | [Scene 12](#cait_22)   | Narrator   | 1    | Cuts off after "I feel great"            |
+| Cait_23.wav      | [Scene 12](#cait_23)   | Narrator   | 2    | Cuts off after "Alright, take out that I.V." |
+| Cait_24.wav      | [Scene 12](#cait_24)   | Narrator   | 1    | Picks up where Cait_22 left off          |
+| Cait_25.wav      | [Scene 14](#cait_25)   | Narrator   | 1    |                                          |
+| Cait_26.wav      | [Scene 14](#cait_26)   | Narrator   | 2    |                                          |
+| Cait_27.wav      | [Scene 16](#cait_27)   | Narrator   | 1    |                                          |
+| Cait_28.wav      | [Scene 16](#cait_28)   | Narrator   | 2    |                                          |
+| Cait_29.wav      | [Scene 3](#cait_29)    | Narrator   | 1    |                                          |
+| Cait_30.wav      | [Scene 3](#cait_30)    | Narrator   | 2    |                                          |
+| Cait_31.wav      | [Scene 3](#cait_31)    | Narrator   | 3    | Vicky punch in. No Narrator              |
+| Cait_32.wav      | [Scene 15](#cait_32)   | Narrator   | 1    |                                          |
+| Cait_33.wav      | [Scene 15](#cait_33)   | Narrator   | 2    |                                          |
+| Cait_34.wav      | [Scene 17](#cait_34)   | Cab driver | 1    | Just a bunch of Cait doing the cab driver line |
+| Cait_35.wav      | [Scene 2](#cait_35)    | Narrator   | 1    | Cuts off after "What can I do for you, Ms York?" |
+| Cait_36.wav      | Scene 2                | Narrator   | 1    | Picks up after Cait_35. Cuts off after Gizette's: "…you could be making serious". No Narrator lines |
+| Cait_37.wav      | [Scene 2](#cait_37)    | Narrator   | 1    | Picks up after Cait_36, goes to end of scene |
+| Cait_38.wav      | [Scene 2](#cait_38)    | Narrator   | 2    | Cuts off after Russ's: "I need my opponent investigated." |
+| Cait_39.wav      | [Scene 2](#cait_39)    | Narrator   | 2    | Picks up where Cait_38 left off          |
+| Cait_40.wav      | [Scene 11](#cait_40)   | Narrator   | 1    | Only Gizette segment                     |
+| Cait_41.wav      | [Scene 11](#cait_41)   | Narrator   | 2    | Only Gizette segment                     |
+| Cait_42.wav      | [Scene 15](#cait_42)   | Narrator   | 1    |                                          |
+| Cait_43.wav      | [Scene 15](#cait_43)   | Narrator   | 2    | Cuts off after Gizette's: "Gwen went to the construction site" |
+| Cait_44.wav      | [Scene 15](#cait_44)   | Narrator   | 2    | Picks up after Cait_43                   |
+| Cait_45.wav      | [Scene 15](#cait_45)   | Narrator   | 3    |                                          |
+| Cait_46.wav      | [Scene 5](#cait_46)    | Narrator   | 1    |                                          |
+| Cait_47.wav      | [Scene 5](#cait_47)    | Narrator   | 2    |                                          |
+| Cait_48.wav      | [Scene 16](#cait_48)   | Narrator   | 1    | Cuts after Vicky's: "I'm so relieved"    |
+| Cait_49.wav      | [Scene 16](#cait_49)   | Narrator   | 2    | Starts at Jeff's: "Welcome, brothers" and ends at Hector's: "that was the bracelet she had on her!" |
+| Cait_50.wav      | [Scene 18](#cait_50)   | Narrator   | 1    | Stops after Narrator's: "…third surprise of the evening." |
+| Cait_51.wav      | [Scene 18](#cait_51)   | Narrator   | 2    | Stops after Narrator's: "…third surprise of the evening." |
+| Cait_52.wav      | [Scene 18](#cait_52)   | Narrator   | 3    | Narrator "Nazi's lay bloodied" punch in  |
+| Cait_53.wav      | [Scene 6](#cait_53)    | Narrator   | 1    | Cuts off at Gwen's: "Well, you are."     |
+| Cait_54.wav      | [Scene 6](#cait_54)    | Narrator   | 1    | Picks up after Cait_53                   |
+| Cait_55.wav      | [Scene 6](#cait_55)    | Narrator   | 2    |                                          |
+| Cait_56.wav      | Scene 3                | Narrator   | 1    | No Narrator. Starts with Dr Gumbolt's "Oh, good, you're up" and ends with "That was weird". |
+| Cait_57.wav      | Scene 3                | Narrator   | 2    | No Narrator. Starts with Dr Gumbolt's "Oh, good, you're up" and ends with "That was weird". |
+| Cait_58.wav      | [Scene 11](#cait_58)   | Narrator   | 1    | Starts with Narrator's: "No sooner had Gizette left" and ends with "soft darkness" |
+| Cait_59.wav      | [Scene 11](#cait_59)   | Narrator   | 2    | Starts with Narrator's: "No sooner had Gizette left" and ends with "soft darkness" |
+| Cait_60.wav      | [Scene 11](#cait_60)   | Narrator   | 3    | Starts with Narrator's: "No sooner had Gizette left" and ends with "soft darkness" |
+| Danny_01.wav     | [Scene 17](#danny_01)  | Dick       | 1    |                                          |
+| Danny_02.wav     | [Scene 17](#danny_02)  | Dick       | 2    |                                          |
+| Danny_03.wav     | [Scene 15](#danny_03)  | Dick       | 1    |                                          |
+| Danny_04.wav     | [Scene 15](#danny_04)  | Dick       | 2    | Cuts off after Gizette's: "Gwen went to the construction site" |
+| Danny_05.wav     | [Scene 15](#danny_05)  | Dick       | 2    | Picks up after Danny_04. Cuts off a bit of Dick's first line |
+| Danny_06.wav     | [Scene 15](#danny_06)  | Dick       | 3    |                                          |
+| Danny_07.wav     | [Scene 18](#danny_07)  | Dick       | 1    | Just Dick & Sylvia @ end                 |
+| Danny_08.wav     | [Scene 18](#danny_08)  | Dick       | 2    | Just Dick & Sylvia @ end                 |
+| Danny_09.wav     | [Scene 18](#danny_09)  | Dick       | 3    | Just Dick & Sylvia @ end                 |
+| Doctor_01.wav    | [Scene 3](#doctor_01)  | Dr Gumbolt | 1    | Just the Gumbolt segment                 |
+| Doctor_02.wav    | [Scene 3](#doctor_02)  | Dr Gumbolt | 2    | Just the Gumbolt segment                 |
+| Doctor_03.wav    | [Scene 11](#doctor_03) | Dr Gumbolt | 1    | Just the Gumbolt segment                 |
+| Doctor_04.wav    | [Scene 11](#doctor_04) | Dr Gumbolt | 2    | Just the Gumbolt segment                 |
+| Doctor_05.wav    | [Scene 11](#doctor_05) | Dr Gumbolt | 3    | Just the Gumbolt segment                 |
+| Gizette_01.wav   | Scene                  | Gizette    |      |                                          |
+| Gizette_02.wav   | Scene                  | Gizette    |      |                                          |
+| Gizette_03.wav   | Scene                  | Gizette    |      |                                          |
+| Gizette_04.wav   | Scene                  | Gizette    |      |                                          |
+| Gizette_05.wav   | Scene                  | Gizette    |      |                                          |
+| Gizette_06.wav   | Scene                  | Gizette    |      |                                          |
+| Gizette_07.wav   | Scene                  | Gizette    |      |                                          |
+| Gizette_08.wav   | Scene                  | Gizette    |      |                                          |
+| Gizette_09.wav   | Scene                  | Gizette    |      |                                          |
+| Gizette_10.wav   | Scene                  | Gizette    |      |                                          |
+| Gizette_11.wav   | Scene                  | Gizette    |      |                                          |
+| guard_01.wav     | Scene                  |            |      |                                          |
+| Hector_01.wav    | Scene                  | Hector     |      |                                          |
+| Hector_02.wav    | Scene                  | Hector     |      |                                          |
+| Hector_03.wav    | Scene                  | Hector     |      |                                          |
+| Hector_04.wav    | Scene                  | Hector     |      |                                          |
+| Hector_05.wav    | Scene                  | Hector     |      |                                          |
+| Hector_06.wav    | Scene                  | Hector     |      |                                          |
+| Hector_07.wav    | Scene                  | Hector     |      |                                          |
+| Hector_08.wav    | Scene                  | Hector     |      |                                          |
+| Hector_09.wav    | Scene                  | Hector     |      |                                          |
+| Hector_10.wav    | Scene                  | Hector     |      |                                          |
+| Hector_11.wav    | Scene                  | Hector     |      |                                          |
+| Heil_01 L.wav    | Scene                  | Nazi's     |      |                                          |
+| Heil_01 R.wav    | Scene                  | Nazi's     |      |                                          |
+| Nazi Jeff_01.wav | Scene                  | Nazi Jeff  |      |                                          |
+| Nazi Jeff_02.wav | Scene                  | Nazi Jeff  |      |                                          |
+| Nazi Jeff_03.wav | Scene                  | Nazi Jeff  |      |                                          |
+| Nazi Jeff_04.wav | Scene                  | Nazi Jeff  |      |                                          |
+| Nazi Jeff_05.wav | Scene                  | Nazi Jeff  |      |                                          |
+| Nazi Jeff_06.wav | Scene                  | Nazi Jeff  |      |                                          |
+| Nazi Jeff_07.wav | Scene                  | Nazi Jeff  |      |                                          |
+| ooley_01.wav     | Scene                  | Ooley      |      |                                          |
+| Ooley_02.wav     | Scene                  | Ooley      |      |                                          |
+| Ooley_03.wav     | Scene                  | Ooley      |      |                                          |
+| Ooley_04.wav     | Scene                  | Ooley      |      |                                          |
+| Ooley_05.wav     | Scene                  | Ooley      |      |                                          |
+| Ooley_06.wav     | Scene                  | Ooley      |      |                                          |
+| Ooley_07.wav     | Scene                  | Ooley      |      |                                          |
+| Russ_01.wav      | Scene                  | Russ       |      |                                          |
+| Russ_02.wav      | Scene                  | Russ       |      |                                          |
+| Russ_03.wav      | Scene                  | Russ       |      |                                          |
+| Russ_04.wav      | Scene                  | Russ       |      |                                          |
+| Russ_05.wav      | Scene                  | Russ       |      |                                          |
+| Russ_06.wav      | Scene                  | Russ       |      |                                          |
+| Sir 1_01.wav     | Scene                  | Echo Team  |      |                                          |
+| Sir 2_01.wav     | Scene                  | Echo Team  |      |                                          |
+| Sir 3_01.wav     | Scene                  | Echo Team  |      |                                          |
+| Sylvia_01.wav    | Scene                  | Sylvia     |      |                                          |
+| Sylvia_02.wav    | Scene                  | Sylvia     |      |                                          |
+| Sylvia_03.wav    | Scene                  | Sylvia     |      |                                          |
+| Sylvia_04.wav    | Scene                  | Sylvia     |      |                                          |
+| Sylvia_05.wav    | Scene                  | Sylvia     |      |                                          |
+| Sylvia_06.wav    | Scene                  | Sylvia     |      |                                          |
+| Sylvia_07.wav    | Scene                  | Sylvia     |      |                                          |
+| Sylvia_08.wav    | Scene                  | Sylvia     |      |                                          |
+| Sylvia_09.wav    | Scene                  | Sylvia     |      |                                          |
+| Sylvia_10.wav    | Scene                  | Sylvia     |      |                                          |
+| Vicky_01.wav     | Scene                  | Vicky      |      |                                          |
+| Vicky_02.wav     | Scene                  | Vicky      |      |                                          |
+| Vicky_03.wav     | Scene                  | Vicky      |      |                                          |
+| Vicky_04.wav     | Scene                  | Vicky      |      |                                          |
+| Vicky_05.wav     | Scene                  | Vicky      |      |                                          |
+| Vicky_06.wav     | Scene                  | Vicky      |      |                                          |
+| Vicky_07.wav     | Scene                  | Vicky      |      |                                          |
+| Vicky_08.wav     | Scene                  | Vicky      |      |                                          |
+| Vicky_09.wav     | Scene                  | Vicky      |      |                                          |
+| Vicky_10.wav     | Scene                  | Vicky      |      |                                          |
+| Vicky_11.wav     | Scene                  | Vicky      |      |                                          |
+| Vicky_12.wav     | Scene                  | Vicky      |      |                                          |
+| Vicky_13.wav     | Scene                  | Vicky      |      |                                          |
+| Vicky_14.wav     | Scene                  | Vicky      |      |                                          |
+| Vicky_15.wav     | Scene                  | Vicky      |      |                                          |
+| Vicky_16.wav     | Scene                  | Vicky      |      |                                          |
+| Vicky_17.wav     | Scene                  | Vicky      |      |                                          |
+| Vicky_18.wav     | Scene                  | Vicky      |      |                                          |
 
 
 
@@ -354,18 +359,18 @@ scripts = [
 <div class="dialog"><p class="character">VICKY</p><p>That&#8217;s what main bitches are for.</p></div>
 <div class="action"><p>The sound of a DOOR OPENING.</p></div>
 <div class="action"><p>Dr Gumboldt talks a little too slowly.</p></div>
-<div class="dialog"><p class="character">DR GUMBOLDT</p><p>Oh good, you&#8217;re up. Dr Gumboldt, pleased to meet you. And you must be Gwendolyn Gween?</p></div>
+<div class="dialog doctor_01 doctor_02"><p class="character">DR GUMBOLDT</p><p>Oh good, you&#8217;re up. Dr Gumboldt, pleased to meet you. And you must be Gwendolyn Gween?</p></div>
 <div class="dialog alice_16 alice_17 alice_36 alice_37"><p class="character">GWEN</p><p>Yeah. So what&#8217;s wrong?</p></div>
-<div class="dialog"><p class="character">DR GUMBOLDT</p><p>Trump&#8217;s the president.</p></div>
+<div class="dialog doctor_01 doctor_02"><p class="character">DR GUMBOLDT</p><p>Trump&#8217;s the president.</p></div>
 <div class="action"><p>He CHUCKLES.</p></div>
-<div class="dialog"><p class="character">DR GUMBOLDT</p><p>I&#8217;m kidding, I know you meant, "What&#8217;s wrong with me". Trump is the president, though.</p></div>
+<div class="dialog doctor_01 doctor_02"><p class="character">DR GUMBOLDT</p><p>I&#8217;m kidding, I know you meant, "What&#8217;s wrong with me". Trump is the president, though.</p></div>
 <div class="dialog alice_16 alice_17 alice_36 alice_37"><p class="character">GWEN</p><p>Can you just tell me my diagnosis?</p></div>
-<div class="dialog"><p class="character">DR GUMBOLDT</p><p>I&#8217;d love to, but our initial examination didn&#8217;t come up with anything linked to headaches or fainting, although we did notice an abnormally large amount of sweat around the buttocks.</p></div>
+<div class="dialog doctor_01 doctor_02"><p class="character">DR GUMBOLDT</p><p>I&#8217;d love to, but our initial examination didn&#8217;t come up with anything linked to headaches or fainting, although we did notice an abnormally large amount of sweat around the buttocks.</p></div>
 <div class="dialog"><p class="character">VICKY</p><p>I knew it!</p></div>
 <div class="dialog alice_16 alice_17 alice_36 alice_37"><p class="character">GWEN</p><p>Shut up, Vicky.</p></div>
-<div class="dialog"><p class="character">DR GUMBOLDT</p><p>I&#8217;d like to run some more blood work. I&#8217;m going to discharge you for now, but we should get the results back overnight, so come back first thing tomorrow. Until then, keep your stress levels low and avoid physical exertion. Here&#8217;s a prescription for Xanax.</p></div>
+<div class="dialog doctor_01 doctor_02"><p class="character">DR GUMBOLDT</p><p>I&#8217;d like to run some more blood work. I&#8217;m going to discharge you for now, but we should get the results back overnight, so come back first thing tomorrow. Until then, keep your stress levels low and avoid physical exertion. Here&#8217;s a prescription for Xanax.</p></div>
 <div class="dialog alice_16 alice_17 alice_36 alice_37"><p class="character">GWEN</p><p>Xanax? But I&#8217;m not depressed.</p></div>
-<div class="dialog"><p class="character">DR GUMBOLDT</p><p>Trump&#8217;s the president. Okay, too-da-loo.</p></div>
+<div class="dialog doctor_01 doctor_02"><p class="character">DR GUMBOLDT</p><p>Trump&#8217;s the president. Okay, too-da-loo.</p></div>
 <div class="action"><p>The sound of the DOOR CLOSING.</p></div>
 <div class="dialog alice_16 alice_17 alice_36 alice_37"><p class="character">GWEN</p><p>That was weird.</p></div>
 <div class="dialog"><p class="character">VICKY</p><p>You know what else is weird? I did some investigation!</p></div>
@@ -600,18 +605,18 @@ scripts = [
 <div class="action"><p>The DOOR CLOSES.</p></div>
 <div class="dialog cait_40 cait_41 cait_58 cait_59 cait_60"><p class="character">NARRATOR</p><p>No sooner had Gizette left, then Dr Gumboldt came in.</p></div>
 <div class="action"><p>The DOOR OPENS.</p></div>
-<div class="dialog"><p class="character">DR GUMBOLDT</p><p>Gwen, you&#8217;re lucky to be alive.</p></div>
+<div class="dialog doctor_03 doctor_04 doctor_05"><p class="character">DR GUMBOLDT</p><p>Gwen, you&#8217;re lucky to be alive.</p></div>
 <div class="dialog cait_58 cait_59 cait_60"><p class="character">NARRATOR</p><p>His expression was grave.</p></div>
-<div class="dialog"><p class="character">DR GUMBOLDT</p><p>Did you fill that prescription for Xanax?</p></div>
+<div class="dialog doctor_03 doctor_04 doctor_05"><p class="character">DR GUMBOLDT</p><p>Did you fill that prescription for Xanax?</p></div>
 <div class="dialog alice_38 alice_39 alice_40"><p class="character">GWEN</p><p>No.</p></div>
-<div class="dialog"><p class="character">DR GUMBOLDT</p><p>That&#8217;s okay, I&#8217;ll just sugar coat it.</p></div>
+<div class="dialog doctor_03 doctor_04 doctor_05"><p class="character">DR GUMBOLDT</p><p>That&#8217;s okay, I&#8217;ll just sugar coat it.</p></div>
 <div class="dialog alice_38 alice_39 alice_40"><p class="character">GWEN</p><p>Don't do that.</p></div>
-<div class="dialog"><p class="character">DR GUMBOLDT</p><p>Your test results came back and we&#8217;re going on an <em>adventure</em> to solve the <em>mystery</em> of what&#8217;s happening inside you.</p></div>
+<div class="dialog doctor_03 doctor_04 doctor_05"><p class="character">DR GUMBOLDT</p><p>Your test results came back and we&#8217;re going on an <em>adventure</em> to solve the <em>mystery</em> of what&#8217;s happening inside you.</p></div>
 <div class="dialog alice_38 alice_39 alice_40"><p class="character">GWEN</p><p>You don&#8217;t know what&#8217;s wrong?</p></div>
-<div class="dialog"><p class="character">DR GUMBOLDT</p><p>We&#8217;ve rounded up a bunch of <em>suspects</em>, but I'm admitting you until we can <em>reveal the culprit</em>.</p></div>
+<div class="dialog doctor_03 doctor_04 doctor_05"><p class="character">DR GUMBOLDT</p><p>We&#8217;ve rounded up a bunch of <em>suspects</em>, but I'm admitting you until we can <em>reveal the culprit</em>.</p></div>
 <div class="dialog alice_38 alice_39 alice_40"><p class="character">GWEN</p><p>No, I can't be here, I need to find my bracelet and I still need to figure out-</p></div>
 <div class="dialog cait_58 cait_59 cait_60"><p class="character">NARRATOR</p><p>But as Gwen tried to sit up, a wave of dizziness overwhelmed her, and she slumped back down in the bed.</p></div>
-<div class="dialog"><p class="character">DR GUMBOLDT</p><p>I am going to add Benadryl and a light steroid to your IV. You should feel better when you wake up.</p></div>
+<div class="dialog doctor_03 doctor_04 doctor_05"><p class="character">DR GUMBOLDT</p><p>I am going to add Benadryl and a light steroid to your IV. You should feel better when you wake up.</p></div>
 <div class="dialog cait_58 cait_59 cait_60"><p class="character">NARRATOR</p><p>As soon as the medicine was added, Gwen was welcomed back to sleep&#8217;s soft darkness.</p></div>
 <div class="action"><p>Brief MUSICAL INTERLUDE.</p></div>
 </div>
