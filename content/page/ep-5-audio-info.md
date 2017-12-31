@@ -178,9 +178,9 @@ scripts = [
 | Russ_04.wav      | [Scene 2](#russ_04)     | Russ       | 2    | Stops at "Wherryweather"                 |
 | Russ_05.wav      | [Scene 2](#russ_05)     | Russ       | 2    | Picks up at "Fucking me"                 |
 | Russ_06.wav      | [Scene 2](#russ_06)     | Russ       | 3    | Punch in starting at "I need my opponent investigated" |
-| Sir 1_01.wav     | Scene                   | Echo Team  |      |                                          |
-| Sir 2_01.wav     | Scene                   | Echo Team  |      |                                          |
-| Sir 3_01.wav     | Scene                   | Echo Team  |      |                                          |
+| Sir 1_01.wav     | Scene 18                | Echo Team  | 1    | 3 takes, one mic                         |
+| Sir 2_01.wav     | Scene 18                | Echo Team  | 1    | Different mic                            |
+| Sir 3_01.wav     | Scene 18                | Echo Team  | 1    | Last mic                                 |
 | Sylvia_01.wav    | Scene                   | Sylvia     |      |                                          |
 | Sylvia_02.wav    | Scene                   | Sylvia     |      |                                          |
 | Sylvia_03.wav    | Scene                   | Sylvia     |      |                                          |
@@ -923,9 +923,9 @@ scripts = [
 <div class="dialog jeff_02 jeff_03"><p class="character">JEFF</p><p>Yes. Yes.</p></div>
 <div class="dialog cait_50 cait_51"><p class="character">NARRATOR</p><p>Jeff pushed eagerly towards the opening, shoving Gwen aside.</p></div>
 <div class="dialog jeff_02 jeff_03"><p class="character">JEFF</p><p>Echo team?</p></div>
-<div class="dialog"><p class="character">ECHO 1</p><p>Sir!</p></div>
-<div class="dialog"><p class="character">ECHO 2</p><p>Sir!</p></div>
-<div class="dialog"><p class="character">ECHO 3</p><p>Sir!</p></div>
+<div class="dialog sir1_01 sir2_01 sir3_01"><p class="character">ECHO 1</p><p>Sir!</p></div>
+<div class="dialog sir1_01 sir2_01 sir3_01"><p class="character">ECHO 2</p><p>Sir!</p></div>
+<div class="dialog sir1_01 sir2_01 sir3_01"><p class="character">ECHO 3</p><p>Sir!</p></div>
 <div class="dialog jeff_02 jeff_03"><p class="character">JEFF</p><p>You&#8217;re with me. The rest of you, guard the entrance. Oh, and tie up brother Hector. Shoot the girls.</p></div>
 <div class="dialog hector_09 hector_10"><p class="character">HECTOR</p><p>No!</p></div>
 <div class="dialog alice_30 alice_31"><p class="character">GWEN</p><p>What?</p></div>
