@@ -132,17 +132,17 @@ scripts = [
 | Doctor_03.wav    | [Scene 11](#doctor_03) | Dr Gumbolt | 1    | Just the Gumbolt segment                 |
 | Doctor_04.wav    | [Scene 11](#doctor_04) | Dr Gumbolt | 2    | Just the Gumbolt segment                 |
 | Doctor_05.wav    | [Scene 11](#doctor_05) | Dr Gumbolt | 3    | Just the Gumbolt segment                 |
-| Gizette_01.wav   | Scene                  | Gizette    |      |                                          |
-| Gizette_02.wav   | Scene                  | Gizette    |      |                                          |
-| Gizette_03.wav   | Scene                  | Gizette    |      |                                          |
-| Gizette_04.wav   | Scene                  | Gizette    |      |                                          |
-| Gizette_05.wav   | Scene                  | Gizette    |      |                                          |
-| Gizette_06.wav   | Scene                  | Gizette    |      |                                          |
-| Gizette_07.wav   | Scene                  | Gizette    |      |                                          |
-| Gizette_08.wav   | Scene                  | Gizette    |      |                                          |
-| Gizette_09.wav   | Scene                  | Gizette    |      |                                          |
-| Gizette_10.wav   | Scene                  | Gizette    |      |                                          |
-| Gizette_11.wav   | Scene                  | Gizette    |      |                                          |
+| Gizette_01.wav   | Scene 2                | Gizette    | 1    | Cuts off in the beginning of Gizette's: "Please, call me" |
+| Gizette_02.wav   | Scene 2                | Gizette    | 1    | Picks up where Gizette_01 left off. looses some. Cuts off at "serious" |
+| Gizette_03.wav   | Scene 2                | Gizette    | 1    | Finishes scene picking up from Gizette_02. Mostly no Gizette |
+| Gizette_04.wav   | Scene 2                | Gizette    | 2    | Cuts off at "Wherryweather", but all of Gizette's lines are said by then |
+| Gizette_05.wav   | Scene 2                | Gizette    | 2    | Picks up where Gizette_04 leaves off. No Gizette lines |
+| Gizette_06.wav   | Scene 11               | Gizette    | 1    |                                          |
+| Gizette_07.wav   | Scene 11               | Gizette    | 2    |                                          |
+| Gizette_08.wav   | Scene 15               | Gizette    | 1    |                                          |
+| Gizette_09.wav   | Scene 15               | Gizette    | 2    | Cuts off at Gizette's: "construction site" |
+| Gizette_10.wav   | Scene 15               | Gizette    | 2    | Picks up where Gizette_09 left off. We lose the line Gizette_09 cut off |
+| Gizette_11.wav   | Scene 15               | Gizette    | 3    |                                          |
 | guard_01.wav     | Scene                  |            |      |                                          |
 | Hector_01.wav    | Scene                  | Hector     |      |                                          |
 | Hector_02.wav    | Scene                  | Hector     |      |                                          |
@@ -256,38 +256,38 @@ scripts = [
 <div class="action"><p>This time, Hector&#8217;s tone has changed; it&#8217;s much more worried and intense.</p></div>
 <div class="dialog"><p class="character">HECTOR (V.O)</p><p>Gwen, I really think you should get back to me. Things have changed, Things are&#8230;I can&#8217;t protect-</p></div>
 <div class="action"><p>The sound of the door SQUEAKING OPEN. Gwen YELPS in surprise, CLICKS off her phone.</p></div>
-<div class="dialog"><p class="character">GIZETTE</p><p>Oh, I didn&#8217;t mean to startle you.</p></div>
+<div class="dialog gizette_01 gizette_04"><p class="character">GIZETTE</p><p>Oh, I didn&#8217;t mean to startle you.</p></div>
 <div class="dialog alice_19 alice_22"><p class="character">GWEN</p><p>No, you&#8217;re fine.</p></div>
 <div class="dialog cait_35 cait_38"><p class="character">NARRATOR</p><p>In the doorway stood a distinguished middle-aged woman dressed in a smart pantsuit, showing off an elegantly-lined face that looked like it&#8217;s owner could afford to age gracefully.</p></div>
-<div class="dialog"><p class="character">GIZETTE</p><p>You must be Gwendolyn Gween.</p></div>
+<div class="dialog gizette_01 gizette_04"><p class="character">GIZETTE</p><p>You must be Gwendolyn Gween.</p></div>
 <div class="dialog alice_19 alice_22"><p class="character">GWEN</p><p>Yeah, hi. How did you know who I am? The sign outside doesn&#8217;t have my name on it.</p></div>
-<div class="dialog"><p class="character">GIZETTE</p><p>I&#8217;m Gizette York, it&#8217;s my business to know. Also, the sign outside says, "Grade pending": do you sell food here?</p></div>
+<div class="dialog gizette_01 gizette_04"><p class="character">GIZETTE</p><p>I&#8217;m Gizette York, it&#8217;s my business to know. Also, the sign outside says, "Grade pending": do you sell food here?</p></div>
 <div class="dialog alice_19 alice_22"><p class="character">GWEN</p><p>My boss tried to make rat-kabobs chic for a while. Wait, did you say your name was Gizette York? <em>The</em> Gizette York?</p></div>
-<div class="dialog"><p class="character">GIZETTE</p><p>Mmhmm.</p></div>
+<div class="dialog gizette_01 gizette_04"><p class="character">GIZETTE</p><p>Mmhmm.</p></div>
 <div class="dialog alice_19 alice_22"><p class="character">GWEN</p><p>But you&#8217;re the-</p></div>
-<div class="dialog"><p class="character">GIZETTE</p><p>Number one P.I. in town, yes.</p></div>
+<div class="dialog gizette_01 gizette_04"><p class="character">GIZETTE</p><p>Number one P.I. in town, yes.</p></div>
 <div class="dialog alice_19 alice_22"><p class="character">GWEN</p><p>Wow. Well, please, take a seat. Not there! That was where Dick roasted the rats. Let me grab you a new chair&#8230;</p></div>
 <div class="dialog cait_35 cait_38"><p class="character">NARRATOR</p><p>But as Gwen got up, a sharp pain shot through her head-</p></div>
 <div class="action alice_19"><p>Gwen GRUNTS.</p></div>
 <div class="dialog cait_35 cait_38"><p class="character">NARRATOR</p><p>-and she flopped right back into her seat.</p></div>
-<div class="dialog"><p class="character">GIZETTE</p><p>Oh my gosh, are you alright?</p></div>
+<div class="dialog gizette_01 gizette_04"><p class="character">GIZETTE</p><p>Oh my gosh, are you alright?</p></div>
 <div class="dialog alice_19 alice_22"><p class="character">GWEN</p><p>Ugh, yeah. Sorry, just had a rough night. I think.</p></div>
 <div class="dialog cait_35 cait_38"><p class="character">NARRATOR</p><p>Without thinking, Gwen felt her wrist under her bracelet, and noticed puncture-marks: they were fresh.</p></div>
-<div class="dialog"><p class="character">GIZETTE</p><p>Been there many times. Here, I'm pretty sure I have Advil in my bag.</p></div>
+<div class="dialog gizette_01 gizette_04"><p class="character">GIZETTE</p><p>Been there many times. Here, I'm pretty sure I have Advil in my bag.</p></div>
 <div class="action"><p>The sounds of Gizette RUMMAGING through her purse.</p></div>
-<div class="dialog"><p class="character">GIZETTE</p><p>Here they are. I also have a spare Perrier.</p></div>
+<div class="dialog gizette_01 gizette_04"><p class="character">GIZETTE</p><p>Here they are. I also have a spare Perrier.</p></div>
 <div class="action"><p>A small rattle as Gizette hands the pills to Gwen.</p></div>
 <div class="dialog alice_19 alice_22"><p class="character">GWEN</p><p>Oh my gosh, Thanks.</p></div>
 <div class="action"><p>Gwen SHAKES out some pills and GULPS them down.</p></div>
 <div class="dialog alice_19 alice_22"><p class="character">GWEN</p><p>I am not used to other people doing nice things for me. What can I do for you, Ms York?</p></div>
-<div class="dialog"><p class="character">GIZETTE</p><p>Please, call me Gizette, and just to consider your options.</p></div>
+<div class="dialog gizette_01 gizette_04"><p class="character">GIZETTE</p><p>Please, call me Gizette, and just to consider your options.</p></div>
 <div class="dialog alice_19 alice_20 alice_22"><p class="character">GWEN</p><p>I&#8217;m sorry?</p></div>
-<div class="dialog"><p class="character">GIZETTE</p><p>I&#8217;ve been watching your growth, Gwen. You&#8217;re a talented detective, and you could be making serious money for truly elite clientele.</p></div>
+<div class="dialog gizette_02 gizette_04"><p class="character">GIZETTE</p><p>I&#8217;ve been watching your growth, Gwen. You&#8217;re a talented detective, and you could be making serious money for truly elite clientele.</p></div>
 <div class="dialog alice_19 alice_22"><p class="character">GWEN</p><p>Are you offering me-</p></div>
-<div class="dialog"><p class="character">GIZETTE</p><p>A job, that&#8217;s right.</p></div>
+<div class="dialog gizette_03 gizette_04"><p class="character">GIZETTE</p><p>A job, that&#8217;s right.</p></div>
 <div class="dialog cait_37 cait_38"><p class="character">NARRATOR</p><p>Gizette handed Gwen her business card; it was embossed and printed on heavy card stock.</p></div>
 <div class="dialog alice_19 alice_22"><p class="character">GWEN</p><p>Thank you. I-I&#8217;m a bit overwhelmed, I don&#8217;t-</p></div>
-<div class="dialog"><p class="character">GIZETTE</p><p>You don&#8217;t have to decide right now. Just think about it. I think we could do some amazing things together.</p></div>
+<div class="dialog gizette_03 gizette_04"><p class="character">GIZETTE</p><p>You don&#8217;t have to decide right now. Just think about it. I think we could do some amazing things together.</p></div>
 <div class="dialog cait_37 cait_38"><p class="character">NARRATOR</p><p>And with that, Gizette York swept classily out of the dingy room.</p></div>
 <div class="action"><p>The sound of the DOOR CLOSING.</p></div>
 <div class="dialog alice_03 alice_04 alice_21 alice_22"><p class="character">GWEN</p><p>Well, that was cool-</p></div>
@@ -575,33 +575,33 @@ scripts = [
 <div class="action alice_24 alice_25"><p>Gwen GROANS.</p></div>
 <div class="dialog cait_40 cait_41"><p class="character">NARRATOR</p><p>A familiar figure hovered over her.</p></div>
 <div class="dialog alice_24 alice_25"><p class="character">GWEN</p><p>Vicky, what happened?</p></div>
-<div class="dialog"><p class="character">GIZETTE</p><p>Not Vicky, no.</p></div>
+<div class="dialog gizette_06 gizette_07"><p class="character">GIZETTE</p><p>Not Vicky, no.</p></div>
 <div class="dialog cait_40 cait_41"><p class="character">NARRATOR</p><p>Gwen struggled to see clearly, trying to wake up.</p></div>
 <div class="dialog alice_24 alice_25"><p class="character">GWEN</p><p>Who...?</p></div>
-<div class="dialog"><p class="character">GIZETTE</p><p>It&#8217;s Gizette York. The number one P.I. in town, remember?</p></div>
+<div class="dialog gizette_06 gizette_07"><p class="character">GIZETTE</p><p>It&#8217;s Gizette York. The number one P.I. in town, remember?</p></div>
 <div class="dialog alice_24 alice_25"><p class="character">GWEN</p><p>What...?</p></div>
-<div class="dialog"><p class="character">GIZETTE</p><p>You&#8217;re safe, you&#8217;re back at Mt. Sinai. You took quite the nasty fall. Luckily, I was transporting evidence regarding The Mattress Perv, and I was able to break your fall. On a related note, you should shower.</p></div>
+<div class="dialog gizette_06 gizette_07"><p class="character">GIZETTE</p><p>You&#8217;re safe, you&#8217;re back at Mt. Sinai. You took quite the nasty fall. Luckily, I was transporting evidence regarding The Mattress Perv, and I was able to break your fall. On a related note, you should shower.</p></div>
 <div class="dialog alice_24 alice_25"><p class="character">GWEN</p><p>How did you know where I was?</p></div>
-<div class="dialog"><p class="character">GIZETTE</p><p>I&#8217;m the number one P.I. in town, it&#8217;s my business to know.</p></div>
+<div class="dialog gizette_06 gizette_07"><p class="character">GIZETTE</p><p>I&#8217;m the number one P.I. in town, it&#8217;s my business to know.</p></div>
 <div class="dialog alice_24 alice_25"><p class="character">GWEN</p><p>Oh&#8230;right.</p></div>
 <div class="dialog cait_40 cait_41"><p class="character">NARRATOR</p><p>Gwen rubbed her forehead.</p></div>
 <div class="dialog alice_24 alice_25"><p class="character">GWEN</p><p>Wait, I proved Perry was-</p></div>
-<div class="dialog"><p class="character">GIZETTE</p><p>Wiretapping Russ Buckaloo, yes I know. I let Russ know, and recorded his response.</p></div>
+<div class="dialog gizette_06 gizette_07"><p class="character">GIZETTE</p><p>Wiretapping Russ Buckaloo, yes I know. I let Russ know, and recorded his response.</p></div>
 <div class="action"><p>The CLICK of a voice recorder, then the sounds of Russ COUGHING VIOLANTLY. The recorder CLICKS off midway through.</p></div>
 <div class="dialog alice_24 alice_25"><p class="character">GWEN</p><p>Wow. Thanks?</p></div>
 <div class="dialog cait_40 cait_41"><p class="character">NARRATOR</p><p>Gwen reached for her wrist, looking for comfort in all her disorientation, but-</p></div>
 <div class="dialog alice_24 alice_25"><p class="character">GWEN</p><p>Where is my bracelet?</p></div>
-<div class="dialog"><p class="character">GIZETTE</p><p>What?</p></div>
+<div class="dialog gizette_06 gizette_07"><p class="character">GIZETTE</p><p>What?</p></div>
 <div class="dialog alice_24 alice_25"><p class="character">GWEN</p><p>My mother&#8217;s bracelet! Where is it?</p></div>
-<div class="dialog"><p class="character">GIZETTE</p><p>You didn&#8217;t have any bracelet when you hit the mattress. Maybe it caught on something when you slipped.</p></div>
+<div class="dialog gizette_06 gizette_07"><p class="character">GIZETTE</p><p>You didn&#8217;t have any bracelet when you hit the mattress. Maybe it caught on something when you slipped.</p></div>
 <div class="dialog alice_24 alice_25"><p class="character">GWEN</p><p>I didn&#8217;t slip. I was pushed&#8230;</p></div>
-<div class="dialog"><p class="character">GIZETTE</p><p>Oh dear.</p></div>
+<div class="dialog gizette_06 gizette_07"><p class="character">GIZETTE</p><p>Oh dear.</p></div>
 <div class="action"><p>Gwen LAUGHS mirthlessly.</p></div>
 <div class="dialog alice_24 alice_25"><p class="character">GWEN</p><p>Damn it, Hector was touching my wrists right before he pushed me. He must have stolen it then.</p></div>
-<div class="dialog"><p class="character">GIZETTE</p><p>I'm so sorry, that sounds horrible. Do you need anything? Protection, perhaps?</p></div>
+<div class="dialog gizette_06 gizette_07"><p class="character">GIZETTE</p><p>I'm so sorry, that sounds horrible. Do you need anything? Protection, perhaps?</p></div>
 <div class="dialog alice_24 alice_25"><p class="character">GWEN</p><p>No, I'm okay, thanks. I&#8217;m just&#8230;yeah, I&#8217;m good.</p></div>
 <div class="dialog cait_40 cait_41"><p class="character">NARRATOR</p><p>Gizette placed another fancy business card on the bedside table.</p></div>
-<div class="dialog"><p class="character">GIZETTE</p><p>Think about it, Gwen.</p></div>
+<div class="dialog gizette_06 gizette_07"><p class="character">GIZETTE</p><p>Think about it, Gwen.</p></div>
 <div class="action"><p>The DOOR CLOSES.</p></div>
 <div class="dialog cait_40 cait_41 cait_58 cait_59 cait_60"><p class="character">NARRATOR</p><p>No sooner had Gizette left, then Dr Gumboldt came in.</p></div>
 <div class="action"><p>The DOOR OPENS.</p></div>
@@ -781,18 +781,18 @@ scripts = [
 <div class="dialog danny_03 danny_06"><p class="character">DICK</p><p>Oh great. Gwen&#8217;s missing and now <em>I</em> have to find her because <em>I&#8217;m</em> a detective? This is horse shit!</p></div>
 <div class="dialog"><p class="character">SYLVIA</p><p>Dick!</p></div>
 <div class="dialog danny_03 danny_06"><p class="character">DICK</p><p>Okay! Jeez. Let&#8217;s look for clues, I guess.</p></div>
-<div class="dialog"><p class="character">GIZETTE</p><p>No need, Richard.</p></div>
+<div class="dialog gizette_08 gizette_09"><p class="character">GIZETTE</p><p>No need, Richard.</p></div>
 <div class="dialog danny_03 danny_06"><p class="character">DICK</p><p>Who the-</p></div>
 <div class="dialog cait_42 cait_43 cait_45"><p class="character">NARRATOR</p><p>Standing in the doorway stood Gizette York, casting a silhouette that would have been right at home on a paperback mystery novel cover.</p></div>
 <div class="dialog danny_03 danny_06"><p class="character">DICK</p><p>Gizette, what in the saggy nuts are you doing here?</p></div>
-<div class="dialog"><p class="character">GIZETTE</p><p>Good to see you too, Rich.</p></div>
+<div class="dialog gizette_08 gizette_09"><p class="character">GIZETTE</p><p>Good to see you too, Rich.</p></div>
 <div class="dialog danny_03 danny_06"><p class="character">DICK</p><p>No one calls me that!</p></div>
 <div class="dialog"><p class="character">UNCLE OOLEY</p><p>Careful Dick, she looks like she might be super loaded.</p></div>
-<div class="dialog"><p class="character">GIZETTE</p><p>Please. I&#8217;m here to help. Gwen went with Vicky to the construction site where Waggle Inc used to be. I believe she&#8217;s looking for her bracelet.</p></div>
+<div class="dialog gizette_08 gizette_09"><p class="character">GIZETTE</p><p>Please. I&#8217;m here to help. Gwen went with Vicky to the construction site where Waggle Inc used to be. I believe she&#8217;s looking for her bracelet.</p></div>
 <div class="dialog danny_03 danny_06 danny_05"><p class="character">DICK</p><p>What? How do you know that?</p></div>
-<div class="dialog"><p class="character">GIZETTE</p><p>I&#8217;m the number one P.I. in town.</p></div>
+<div class="dialog gizette_08 gizette_09"><p class="character">GIZETTE</p><p>I&#8217;m the number one P.I. in town.</p></div>
 <div class="dialog danny_03 danny_06 danny_05"><p class="character">DICK</p><p>Oh that is it. I will fight you right now!</p></div>
-<div class="dialog"><p class="character">GIZETTE</p><p>I'm sorry, that was insensitive.</p></div>
+<div class="dialog gizette_08 gizette_09"><p class="character">GIZETTE</p><p>I'm sorry, that was insensitive.</p></div>
 <div class="dialog danny_03 danny_06 danny_05"><p class="character">DICK</p><p>I still wanna fight!</p></div>
 <div class="dialog"><p class="character">SYLVIA</p><p>Please, Dick, you&#8217;re embarrassing me.</p></div>
 <div class="dialog"><p class="character">UNCLE OOLEY</p><p>I don&#8217;t know what &#8220;embarrassing&#8221; means, but Sylvia&#8217;s right; this sentient wad-of-cash&#8217;s lead is the only one we&#8217;ve got. We gotta find Gwen!</p></div>
@@ -800,11 +800,11 @@ scripts = [
 <div class="dialog"><p class="character">SYLVIA</p><p>You don&#8217;t have a car. Or a license.</p></div>
 <div class="dialog"><p class="character">UNCLE OOLEY</p><p>I can drive.</p></div>
 <div class="dialog"><p class="character">SYLVIA</p><p>Nobody is riding in your static shock powered wheel barrow.</p></div>
-<div class="dialog"><p class="character">GIZETTE</p><p>I can call my chauffeur, Shurfwan.</p></div>
+<div class="dialog gizette_08 gizette_09"><p class="character">GIZETTE</p><p>I can call my chauffeur, Shurfwan.</p></div>
 <div class="dual danny_03 danny_06 danny_05"><div class="left"><p class="character">DICK</p><p>Fuck no!</p></div><div class="right"><p class="character">UNCLE OOLEY</p><p>Fuck no!</p></div><br /></div>
 <div class="dialog danny_03 danny_06 danny_05"><p class="character">DICK</p><p>I will not accept help from &#8220;superior&#8221; detectives.</p></div>
 <div class="dialog"><p class="character">UNCLE OOLEY</p><p>And I <em>hate</em> chauffeurs.</p></div>
-<div class="dialog"><p class="character">GIZETTE</p><p>Just trying to help.</p></div>
+<div class="dialog gizette_08 gizette_09"><p class="character">GIZETTE</p><p>Just trying to help.</p></div>
 <div class="dialog"><p class="character">SYLVIA</p><p class="parenthetical">(sullen)</p><p>I&#8217;ll call a cab.</p></div>
 <div class="dialog cait_32 cait_33 cait_42 cait_44 cait_45"><p class="character">NARRATOR</p><p>Back at the construction site&#8230;</p></div>
 </div>
