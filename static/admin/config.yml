@@ -1,0 +1,20 @@
+backend:
+  name: github
+  repo: bronzehedwick/chrisdeluca
+media_folder: "static/images/uploads"
+public_folder: "/images/uploads"
+collections:
+  - label: "Article"
+    name: "article"
+    folder: "content/article"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Draft", name: "thumbnail", widget: "boolean"}
+      - {label: "Subtitle", name: "subtitle", widget: "string"}
+      - {label: "Categories", name: "categories", widget: "list"}
+      - {label: "Topics", name: "topics", widget: "list"}
+      - {label: "Table of Contents", name: "toc", widget: "boolean"}
+      - {label: "Styles", name: "styles", widget: "list"}
+      - {label: "Body", name: "body", widget: "markdown"}
