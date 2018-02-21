@@ -78,3 +78,4 @@ I use this solution here on this site for the "Topics" display. If it worked for
 my little blog, it'll work for *anything* else![^1]
 
 [^1]: The opinions expressed on my blog are not necessarily endorsed by me.
+
