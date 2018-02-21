@@ -6,7 +6,7 @@ PygmentsCodeFences = true
 enableRobotsTXT = true
 pygmentsuseclasses = true
 enableEmoji = true
-editor = "neovim-qt"
+newContentEditor = "nvim"
 copyright = "Chris DeLuca, all rights reserved."
 
 [author]
