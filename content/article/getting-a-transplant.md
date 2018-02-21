@@ -18,3 +18,4 @@ I start high-dose chemo tomorrow, and will continue with that until the 19th, wh
 In the mean time, people can come visit so long as they are not sick, and are not around people who are sick, and they come in small numbers. I may lose some/all my hair, so don&#8217;t be surprised if I&#8217;m a cue-ball. I&#8217;ll keep y&#8217;all posted, but that&#8217;s all the news that&#8217;s fit to print.
 
 Until there&#8217;s more, have a pleasant tomorrow!
+
