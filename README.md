@@ -6,6 +6,6 @@ This site uses [Hugo](https://gohugo.io) and a custom theme. Feel free to take w
 
 To build the site, the following requirements need to be met.
 
-* Hugo v0.16+
+* Hugo v0.34+
 * Node v4+
 * Unix shell
