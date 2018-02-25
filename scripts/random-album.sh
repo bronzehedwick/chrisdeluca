@@ -1,7 +1,7 @@
 #!/bin/bash
 # Generate a random album that I own.
 
-DATA_FILE="$(git rev-parse --show-toplevel)/data/vinyl.csv"
+DATA_FILE="$(git rev-parse --show-toplevel)/static/files/vinyl.csv"
 # Save reference to all abums, minus the first line, which is meta data.
 ALBUMS=$(sed '1d' "$DATA_FILE")
 # Count the total amount of albums for future use.
