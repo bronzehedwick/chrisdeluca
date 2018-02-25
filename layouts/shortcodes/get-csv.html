@@ -1,8 +1,8 @@
-{{ $csv := "/data/vinyl.csv" }}
-{{ $sep := "," }}
+{{ $url := .Get 0 | absURL }}
+{{ $csv := string $url }}
 <div class="responsive-table">
   <table>
-      {{ range $i, $r := getCSV $sep $csv }}
+      {{ range $i, $r := getCSV "," $csv }}
         {{ if eq $i 0 }}
           <thead>
             <tr>
