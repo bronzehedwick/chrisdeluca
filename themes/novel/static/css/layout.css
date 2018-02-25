@@ -212,11 +212,13 @@ figcaption {
 .align-left {
   float: left;
   margin-right: 2ch;
+  margin-bottom: 0px;
 }
 
 .align-right {
   float: right;
   margin-left: 2ch;
+  margin-bottom: 0px;
 }
 
 .align-right + *,
