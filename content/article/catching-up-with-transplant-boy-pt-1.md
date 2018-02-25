@@ -20,3 +20,4 @@ Inside the operating room was white and blindingly lit, with strange white machi
 The anesthesiologist grabbed my hand and told me in no uncertain terms not to move. Then he stabbed me with a needle. He did that once more, and the next thing I remember the room is fuzzy and the doctor is telling me that everything&#8217;s over and the opperation was a success. I looked at the implant; it was yellow and wedge-shaped, about the size of a shot glass, and had three color coded tubes sprouting from the base. Right then, I felt like a cyborg. Also, I felt that after being knocked out for over a half an hour, and being so precariously clothed, that every nurse in that room saw my nads.
 
 Well, this post is longer than I expected; and I expected it to be pretty darn long. Considering how much I have yet to tell, I&#8217;m going to split this into a few parts. The next part will be up tomorrow. See you then!
+
