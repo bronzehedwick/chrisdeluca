@@ -1,5 +1,5 @@
-{{ $url := .Get 0 | absURL }}
-{{ $csv := string $url }}
+{{ $file := .Get 0 }}
+{{ $csv := string $file }}
 <div class="responsive-table">
   <table>
       {{ range $i, $r := getCSV "," $csv }}
