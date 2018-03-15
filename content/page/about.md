@@ -7,7 +7,7 @@ menu = "main"
 
 Chris DeLuca is a writer, software developer, and comedian living in New York
 City. He works at *Memorial Sloan Kettering Cancer Center*, and is involved
-in NYC improv. Chris has won numerous awards for his writing, gotten numerous
+in NYC comedy. Chris has won numerous awards for his writing, gotten numerous
 jobs for his programming skills, and thrown lots of shade for the hell of it.
 He grew up in New Jersey, the state from all the punchlines.
 
