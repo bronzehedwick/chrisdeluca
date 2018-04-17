@@ -16,7 +16,7 @@ styles = ["syntax"]
 
 It's a fantastic tool for hackers to create simple, and fast (see static site, above) blogs using minimal configuration, the [Liquid templating engine](http://docs.shopify.com/themes/liquid-documentation/basics) for layout, and [markdown](https://help.github.com/articles/markdown-basics) for posts.
 
-I had previously used [Wordpress](wordpress.org) as my blogging platform of choice, like so many others, and came to Jekyll because of it's simplicity, it's speed, and it's hackability, not to mention that as a Github user, you are entitled to a free Jekyll (or static HTML) site hosted on their blazing fast setup.
+I had previously used [Wordpress](https://wordpress.org) as my blogging platform of choice, like so many others, and came to Jekyll because of it's simplicity, it's speed, and it's hackability, not to mention that as a Github user, you are entitled to a free Jekyll (or static HTML) site hosted on their blazing fast setup.
 
 One minor pain point for me, is when creating a new post in Jekyll, you need to create a new file in the following convention: `title-of-your-post-year-month-day.md`. In addition, each post needs some meta data at the top of the markdown file.
 

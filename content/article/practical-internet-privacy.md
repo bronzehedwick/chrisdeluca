@@ -45,7 +45,7 @@ Especially when ignoring it is so easy and rewarding: you get real benefits from
 the services you surrender your data to.
 
 However, there is also real harm that comes from lack of privacy. Even if you
-think you have nothing to hide, [you probably don't mean that](you probably don't mean that).
+think you have nothing to hide, [you probably don't mean that](https://tutanota.com/blog/posts/nothing-to-hide).
 
 {{< figure src="/images/data.jpg" alt="Data cat" attr="Image credit: Ania Stypulkowski" >}}
 

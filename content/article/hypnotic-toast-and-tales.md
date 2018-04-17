@@ -5,7 +5,7 @@ categories = [ "Essays" ]
 topics = [ "Leukemia" ]
 +++
 
-**Before I get into the leukemia update portion of this post, I would like to announce the launch of my website, <a href="http://www.hypnotictoast.com" target="_self">www.hypnotictoast.com</a>! It collects all my digitizable work to date, and will be a major platform for new work. Check it out!**
+**Before I get into the leukemia update portion of this post, I would like to announce the launch of my website, <a href="#" target="_self">www.hypnotictoast.com</a>! It collects all my digitizable work to date, and will be a major platform for new work. Check it out!** Edit: This site is no longer online.
 
 <!--more-->
 

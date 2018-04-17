@@ -17,7 +17,7 @@ However, understanding anything, much less all the working parts of a production
 
 But what happens when you are still building your knowledge of the code base, and you have to fix something? Or build a new feature? Or take something out? Thankfully, we work with computers, and we have many great tools at our disposal to quickly find the code we're looking for. And, as an added bonus, these tools can be used any time, even when you're not new. If that's not future proof, I don't know what is.
 
-Spanfeller Group is a [Drupal](http://drupal.org "Drupal Content Management System") shop, so some of the examples are specific to that platform. We also use [git](http://git-scm.com "Fast version control") and mostly run Unix-like platforms (Mac, Linux), and all the examples use the Unix Command Line. If you're on Windows, I would highly suggest installing [cygwin](http://www.cygwin.com "Unix command line on Windows"). If the thought of using the command line gives you the creeps, I would humbly ask that you read one or two examples before running for the hills; you may have a change of heart. If not, the hills will always be there.
+Spanfeller Group is a [Drupal](https://www.drupal.org/ "Drupal Content Management System") shop, so some of the examples are specific to that platform. We also use [git](http://git-scm.com "Fast version control") and mostly run Unix-like platforms (Mac, Linux), and all the examples use the Unix Command Line. If you're on Windows, I would highly suggest installing [cygwin](http://www.cygwin.com "Unix command line on Windows"). If the thought of using the command line gives you the creeps, I would humbly ask that you read one or two examples before running for the hills; you may have a change of heart. If not, the hills will always be there.
 
 So without further adieu, let's dive into some killer ways to find what you're looking for, fast.
 
@@ -96,7 +96,7 @@ drush
 
 So far, we've focused solely on searching inside files, and while that's hugely important, it's hardly the whole story. This is where folks not running Drupal can tune out.
 
-If you do work with Drupal, and aren't familiar with [drush](https://drupal.org/project/drush "Drupal command line tool"), you owe it to yourself to check it out. Most of it's extensive feature set is outside the scope of this post, but in very brief summery, drush is a tool to maintain and manipulate your Drupal installation from the command line.
+If you do work with Drupal, and aren't familiar with [drush](https://www.drupal.org/project/drush "Drupal command line tool"), you owe it to yourself to check it out. Most of it's extensive feature set is outside the scope of this post, but in very brief summery, drush is a tool to maintain and manipulate your Drupal installation from the command line.
 
 To install on Unix-like systems, you can use pear.
 

@@ -31,6 +31,6 @@ I recently did a privacy check of my facebook account with a tool called <a href
 
 So that&#8217;s my reasoning. Facebook is very convienent and uuseful in many ways, not to mention addicting, however it&#8217;s also really evil. There, I said it. If you feel the same way, consider <a href="http://www.quitfacebookday.com/" target="_blank">quitting facebook</a> too.
 
-As for alternatives, unfortunately there is nothing directly like facebook to switch to that has the same level of popularity. However, the <a href="http://www.joindiaspora.com/project.html" target="_blank">Diaspora Project</a> looks very promising, and there will be a release at the end of the summer. (Thanks to Jack Donovan for introducing me to it!) Also, there&#8217;s always <a href="http://www.twitter.com/" target="_blank">twitter</a>, which is very open about being public, so you know exactly what you&#8217;re sharing.
+As for alternatives, unfortunately there is nothing directly like facebook to switch to that has the same level of popularity. However, the <a href="http://www.joindiaspora.com" target="_blank">Diaspora Project</a> looks very promising, and there will be a release at the end of the summer. (Thanks to Jack Donovan for introducing me to it!) Also, there&#8217;s always <a href="http://www.twitter.com/" target="_blank">twitter</a>, which is very open about being public, so you know exactly what you&#8217;re sharing.
 
  [1]: https://www.eff.org/deeplinks/2010/04/handy-facebook-english-translator#connections

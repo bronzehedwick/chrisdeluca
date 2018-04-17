@@ -11,7 +11,6 @@ Hygiene is just that thing that happens to other pirates.<!--more--> You like wh
 
  [What&#8217;s Yer Inner Pirate?][1]
   
-brought to you by [The Official Talk Like A Pirate Web Site.][2] Arrrrr!
+brought to you by [The Official Talk Like A Pirate Web Site.][1] Arrrrr!
 
- [1]: http://talklikeapirate.com/ppi.html
- [2]: http://talklikeapirate.com
+[1]: http://talklikeapirate.com
