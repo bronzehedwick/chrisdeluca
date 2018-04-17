@@ -1,55 +1,54 @@
-Cover,Title,Artist,Year
-"freedom-of-choice.jpg",Freedom of Choice,Devo,1980
-"stained-class.jpg",Stained Class,Judas Priest,1978
-"dirty-mind.jpg",Dirty Mind,Prince,1980
-"lost-themes.jpg",Lost Themes,John Carpenter,2015
-"blunderbuss.jpg",Blunderbuss,Jack White,2012
-"joysticks.jpg",Joysticks (soundtrack),Ray Kenetsky and Legion,2016 (movie 1983)
-"man-child.jpg",Man-Child,Herbie Hancock,1975
-"thrust.jpg",Thrust,Herbie Hancock,1974
-"romantic-warrior.jpg",Romantic Warrior,Return to Forever,1976
-"shaft.jpg",Shaft (soundtrack),Isaac Hayes,1971
-"if-you-want-blood.jpg",If You Want Blood…,AC/DC,1978
-"man-of-la-mancha.jpg",Man of La Mancha (soundtrack),Mitch Leigh and Cast,1972
-"back-to-oakland.jpg",Back to Oakland,Tower of Power,1974
-"frampton-comes-alive.jpg",Frampton Comes Alive,Peter Frampton,1976
-"on-the-threshold-of-a-dream.jpg",On the Threshold of a Dream,The Moody Blues,1969
-"fear-of-music.jpg",Fear of Music,Talking Heads,1979
-"south-of-the-border.jpg",South of the Border,Herb Alpert and the Tijuana Brass,1964
-"godspell.jpg",Godspell (soundtrack),Stephen Schwartz and Cast,1972
-"run-with-the-pack.jpg",Run with the Pack,Bad Company,1976
-"in-search-of-the-lost-chord.jpg",In Search of the Lost Chord,The Moody Blues,1968
-"all-the-worlds-a-stage.jpg",All the World's a Stage,Rush,1976
-"fragile.jpg",Fragile,Yes,1971
-"seventh-sojourn.gif",Seventh Sojourn,The Moody Blues,1972
-"the-best-of-mancini.jpg",The Best of Mancini,Henry Mancini,1964
-"rise.jpg",Rise,Radiant Reveries,2016
-"hello-dolly.jpg","Hello, Dolly (soundtrack)",Jerry Herman and Cast,1964
-"is-it-something-i-said.jpg",…Is it Something I Said?,Richard Pryor,1975
-"animals.jpg",Animals,Pink Flyod,1977
-"be-yourself-tonight.jpg",Be Yourself Tonight,Eurythmics,1985
-"catch-a-fire.jpg",Catch a Fire,Bob Marley and the Wailers,1973
-"boston.png",Boston,Boston,1976
-"west-side-story.jpeg",West Side Story,Bernstein and Sondheim,1957
-"my-fair-lady.jpg",My Fair Lady,Loewe and Lerner,1956
-"music-man.jpg",The Music Man, Meredith Willson,1957
-"diamond-life.jpg",Diamond Life,Sade,1984
-"darkness-on-the-edge-of-town.jpg",Darkness on the Edge of Town,Bruce Springstein,1978
-"susperia.jpg",Suspiria (soundtrack),Goblin,1977
-"calypso.jpg",Calypso,Harry Belafonte,1956
-"capacity.jpg",Capacity,Big Thief,2017
-"vol-4.jpg",Vol 4,Black Sabbath,1972
-"jaco.jpg",Jaco Pastorious,Jaco Pastorious,1976
-"black-market.jpg",Black Market,Weather Report,1976
-"close-encounters.jpg",Close Encounters of the Third Kind (Soundtrack),John Williams,1977
-"hello-dummy.jpg",Hello Dummy!,Don Rickles,1968
-"wild-planet.jpg",Wild Planet,the B52s,1980
-chronic-town.jpg,Chronic Town,R.E.M.,1982
-screaming-vengeance.jpg,Screaming for Vengeance,Judas Priest,1982
-"el-rey.jpg",El Rey,Tito Puente,1984
-"every-good-boy-deserves-favour.jpg",Every Good Boy Deserves Favour,The Moody Blues,1971
-"robbie-robertson.jpg",Robbie Robertson,Robbie Robertson,1987
-"long-distance-voyager.jpg",Long Distance Voyager,The Moody Blues,1981
-"octave.jpg",Octave,The Moody Blues,1978
-"a-question-of-balance.jpg",A Question of Balance,The Moody Blues,1970
-
+Cover,Title,Artist,Year,Format
+"freedom-of-choice.jpg",Freedom of Choice,Devo,1980,LP
+"stained-class.jpg",Stained Class,Judas Priest,1978,LP
+"dirty-mind.jpg",Dirty Mind,Prince,1980,LP
+"lost-themes.jpg",Lost Themes,John Carpenter,2015,LP
+"blunderbuss.jpg",Blunderbuss,Jack White,2012,LP
+"joysticks.jpg",Joysticks (soundtrack),Ray Kenetsky and Legion,2016 (movie 1983),LP
+"man-child.jpg",Man-Child,Herbie Hancock,1975,LP
+"thrust.jpg",Thrust,Herbie Hancock,1974,LP
+"romantic-warrior.jpg",Romantic Warrior,Return to Forever,1976,LP
+"shaft.jpg",Shaft (soundtrack),Isaac Hayes,1971,LP
+"if-you-want-blood.jpg",If You Want Blood…,AC/DC,1978,LP
+"man-of-la-mancha.jpg",Man of La Mancha (soundtrack),Mitch Leigh and Cast,1972,LP
+"back-to-oakland.jpg",Back to Oakland,Tower of Power,1974,LP
+"frampton-comes-alive.jpg",Frampton Comes Alive,Peter Frampton,1976,LP
+"on-the-threshold-of-a-dream.jpg",On the Threshold of a Dream,The Moody Blues,1969,LP
+"fear-of-music.jpg",Fear of Music,Talking Heads,1979,LP
+"south-of-the-border.jpg",South of the Border,Herb Alpert and the Tijuana Brass,1964,LP
+"godspell.jpg",Godspell (soundtrack),Stephen Schwartz and Cast,1972,LP
+"run-with-the-pack.jpg",Run with the Pack,Bad Company,1976,LP
+"in-search-of-the-lost-chord.jpg",In Search of the Lost Chord,The Moody Blues,1968,LP
+"all-the-worlds-a-stage.jpg",All the World's a Stage,Rush,1976,LP
+"fragile.jpg",Fragile,Yes,1971,LP
+"seventh-sojourn.gif",Seventh Sojourn,The Moody Blues,1972,LP
+"the-best-of-mancini.jpg",The Best of Mancini,Henry Mancini,1964,LP
+"rise.jpg",Rise,Radiant Reveries,2016,LP
+"hello-dolly.jpg","Hello, Dolly (soundtrack)",Jerry Herman and Cast,1964,LP
+"is-it-something-i-said.jpg",…Is it Something I Said?,Richard Pryor,1975,LP
+"animals.jpg",Animals,Pink Flyod,1977,LP
+"be-yourself-tonight.jpg",Be Yourself Tonight,Eurythmics,1985,LP
+"catch-a-fire.jpg",Catch a Fire,Bob Marley and the Wailers,1973,LP
+"boston.png",Boston,Boston,1976,LP
+"west-side-story.jpeg",West Side Story,Bernstein and Sondheim,1957,LP
+"my-fair-lady.jpg",My Fair Lady,Loewe and Lerner,1956,LP
+"music-man.jpg",The Music Man, Meredith Willson,1957,LP
+"diamond-life.jpg",Diamond Life,Sade,1984,LP
+"darkness-on-the-edge-of-town.jpg",Darkness on the Edge of Town,Bruce Springstein,1978,LP
+"susperia.jpg",Suspiria (soundtrack),Goblin,1977,LP
+"calypso.jpg",Calypso,Harry Belafonte,1956,LP
+"capacity.jpg",Capacity,Big Thief,2017,LP
+"vol-4.jpg",Vol 4,Black Sabbath,1972,LP
+"jaco.jpg",Jaco Pastorious,Jaco Pastorious,1976,LP
+"black-market.jpg",Black Market,Weather Report,1976,LP
+"close-encounters.jpg",Close Encounters of the Third Kind (Soundtrack),John Williams,1977,LP
+"hello-dummy.jpg",Hello Dummy!,Don Rickles,1968,LP
+"wild-planet.jpg",Wild Planet,the B52s,1980,LP
+chronic-town.jpg,Chronic Town,R.E.M.,1982,LP
+screaming-vengeance.jpg,Screaming for Vengeance,Judas Priest,1982,LP
+"el-rey.jpg",El Rey,Tito Puente,1984,LP
+"every-good-boy-deserves-favour.jpg",Every Good Boy Deserves Favour,The Moody Blues,1971,LP
+"robbie-robertson.jpg",Robbie Robertson,Robbie Robertson,1987,LP
+"long-distance-voyager.jpg",Long Distance Voyager,The Moody Blues,1981,LP
+"octave.jpg",Octave,The Moody Blues,1978,LP
+"a-question-of-balance.jpg",A Question of Balance,The Moody Blues,1970,LP
