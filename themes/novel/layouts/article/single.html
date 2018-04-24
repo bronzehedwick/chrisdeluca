@@ -2,10 +2,10 @@
 
   <article>
     <header>
-      <h1>
+      <h2>
         {{ if .Params.draft }}<mark>Draft</mark>{{ end }}
         {{ .Title }}
-      </h1>
+      </h2>
       {{ if .Params.subtitle }}<p>{{ .Params.subtitle }}</p>{{ end }}
       {{ partial "article-info.html" . }}
 
