@@ -9,3 +9,5 @@ serve:
 
 stop:
 	@pgrep hugo | xargs kill
+
+restart: stop serve
