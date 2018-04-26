@@ -132,7 +132,7 @@ thead {
 }
 
 td, th {
-  padding: 0.5em 2ch;
+  padding: 0.5em 1ch;
   min-width: calc(100px + 4ch);
 }
 
