@@ -296,6 +296,15 @@ summary {
 }
 
 /**
+ * Images.
+ */
+
+.portrait {
+  shape-outside: url('/images/chris-portrait.png');
+  shape-margin: 1em;
+}
+
+/**
  * Social links.
  */
 
