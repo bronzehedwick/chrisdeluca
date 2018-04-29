@@ -4,7 +4,7 @@ date = 2013-08-07T22:58:22-04:00
 draft = false
 subtitle = ""
 categories = [ "Tech" ]
-topics = [ "drupal", "git" ]
+topics = [ "Drupal", "Git" ]
 toc = true
 styles = []
 +++

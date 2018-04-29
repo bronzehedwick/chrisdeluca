@@ -3,7 +3,7 @@ title = "ASCII Star Wars"
 date = "2009-07-20"
 categories = ["Tech"]
 topics = [
-  "shell"
+  "Shell"
 ]
 +++
 

@@ -1,9 +1,8 @@
 +++
 title = "D&D 5th Edition First Impressions"
 date = "2014-09-05"
-categories = [ "Essays" ]
+categories = [ "Games" ]
 topics = [
-  "Games",
   "Table Top Games",
   "Dungeons and Dragons"
 ]

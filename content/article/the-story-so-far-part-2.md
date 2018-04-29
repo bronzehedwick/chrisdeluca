@@ -3,7 +3,7 @@ title = "The Story So Far part 2"
 date = "2009-06-09"
 reddit = [ 'a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1275040174";}' ]
 delicious = [ 'a:3:{s:5:"count";s:1:"0";s:9:"post_tags";s:0:"";s:4:"time";s:10:"1276709138";}' ]
-categories = [ "Essays" ]
+categories = [ "Personal" ]
 topics = [ "Leukemia" ]
 +++
 

@@ -1,12 +1,12 @@
 +++
-categories = ["Essays"]
+categories = ["Personal"]
 date = "2017-06-27T08:18:17-04:00"
 draft = false
 styles = []
 subtitle = ""
 title = "Healthcare"
 toc = false
-topics = ["health", "politics"]
+topics = ["Health", "Politics"]
 
 +++
 

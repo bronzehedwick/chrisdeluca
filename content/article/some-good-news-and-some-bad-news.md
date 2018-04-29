@@ -1,7 +1,7 @@
 +++
 title = "Some Good News and Some Bad News"
 date = "2010-05-11"
-categories = [ "Essays" ]
+categories = [ "Personal" ]
 topics = [ "Leukemia" ]
 +++
 

@@ -6,9 +6,9 @@ categories = [
   "Fiction"
 ]
 topics = [
-  "tech",
-  "javascript",
-  "screenplays"
+  "Tech",
+  "JavaScript",
+  "Screenplays"
 ]
 styles = [
   "screenplay",

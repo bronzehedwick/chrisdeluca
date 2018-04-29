@@ -4,8 +4,8 @@ title = "Security vs Privacy on the Internet"
 subtitle = "A lay-person's guide to the differences"
 toc = true
 topics = [
-  "security",
-  "privacy"
+  "Security",
+  "Privacy"
 ]
 categories = [
   "Tech"

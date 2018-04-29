@@ -1,7 +1,7 @@
 +++
 title = "Big and Fat"
 date = "2010-05-26"
-categories = [ "Essays" ]
+categories = [ "Personal" ]
 topics = [
   "Leukemia",
 ]

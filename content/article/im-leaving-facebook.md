@@ -1,7 +1,7 @@
 +++
 title = "I’m Leaving Facebook"
 date = "2010-05-27"
-categories = [ "Essays" ]
+categories = [ "Personal" ]
 topics = [
   "Tech",
   "Facebook",

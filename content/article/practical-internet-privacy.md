@@ -4,7 +4,7 @@ title = "Practical Internet Privacy"
 subtitle = "Privacy: It Matters"
 toc = true
 topics = [
-  "privacy"
+  "Privacy"
 ]
 categories = [
   "Tech"

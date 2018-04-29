@@ -1,7 +1,7 @@
 +++
 title = "Catching up with transplant boy pt. 2"
 date = "2010-03-01"
-categories = [ "Essays" ]
+categories = [ "Personal" ]
 topics = [ "Leukemia" ]
 +++
 

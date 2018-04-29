@@ -3,7 +3,7 @@ title = "Embarassing Moments for Frogs"
 date = "2009-10-20"
 reddit = [ 'a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1282616148";}' ]
 delicious = [ 'a:3:{s:5:"count";s:1:"0";s:9:"post_tags";s:0:"";s:4:"time";s:10:"1282616148";}' ]
-categories = [ "Essays" ]
+categories = [ "Personal" ]
 topics = [
   "Videos",
   "Leukemia"

@@ -4,7 +4,7 @@ date = "2014-12-16"
 summary = "Important dates in The Lord of the Rings for the Mac terminal"
 categories = [ "Tech" ]
 topics = [
-  "shell"
+  "Shell"
 ]
 styles = ["syntax"]
 +++

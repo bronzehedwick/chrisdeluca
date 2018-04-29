@@ -3,8 +3,8 @@ title = "Tome of Deadly Pranks"
 date = 2018-03-17T19:19:51-04:00
 draft = false
 subtitle = ""
-categories = ["Essays"]
-topics = ["Games","Table Top Games","Dungeons and Dragons"]
+categories = ["Games"]
+topics = ["Table Top Games","Dungeons and Dragons"]
 toc = false
 styles = []
 +++

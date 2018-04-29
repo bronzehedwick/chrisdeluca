@@ -3,7 +3,7 @@ title = "A Change of Meds"
 date = "2009-10-10"
 delicious = [ 'a:3:{s:5:"count";s:1:"0";s:9:"post_tags";s:0:"";s:4:"time";s:10:"1282616149";}' ]
 reddit = [ 'a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1282616149";}' ]
-categories = [ "Essays" ]
+categories = [ "Personal" ]
 topics = [ "Leukemia" ]
 +++
 

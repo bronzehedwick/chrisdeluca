@@ -1,7 +1,7 @@
 +++
 title = "Insurance dun dun duuun!"
 date = "2009-09-25"
-categories = [ "Essays" ]
+categories = [ "Personal" ]
 topics = [ "Leukemia" ]
 +++
 

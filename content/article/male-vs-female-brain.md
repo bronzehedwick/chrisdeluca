@@ -1,7 +1,7 @@
 +++
 title = "Male vs Female Brain"
 date = "2009-10-25"
-categories = [ "Essays" ]
+categories = [ "Personal" ]
 topics = [ "Random" ]
 +++
 

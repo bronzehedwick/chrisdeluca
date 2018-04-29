@@ -1,11 +1,11 @@
 +++
-categories = ["Essays"]
+categories = ["Personal"]
 date = "2017-05-07T18:28:01-04:00"
 draft = false
 subtitle = ""
 title = "Basic Premise"
 toc = false
-topics = ["movies", "politics"]
+topics = ["Movies", "Politics"]
 image = "titicut.jpg"
 +++
 

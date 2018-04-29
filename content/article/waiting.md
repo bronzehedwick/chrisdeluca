@@ -1,7 +1,7 @@
 +++
 title = "Waiting"
 date = "2010-06-09"
-categories = [ "Essays" ]
+categories = [ "Personal" ]
 topics = [ "Leukemia" ]
 +++
 

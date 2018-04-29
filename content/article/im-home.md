@@ -1,7 +1,7 @@
 +++
 title = "I’m Home!"
 date = "2010-05-18"
-categories = [ "Essays" ]
+categories = [ "Personal" ]
 topics = [ "Leukemia" ]
 +++
 

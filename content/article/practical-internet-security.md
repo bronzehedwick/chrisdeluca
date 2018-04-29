@@ -4,7 +4,7 @@ title = "Practical Internet Security"
 subtitle = "Effective security measures for the uninitiated"
 toc = true
 topics = [
-  "security"
+  "Security"
 ]
 categories = [
   "Tech"

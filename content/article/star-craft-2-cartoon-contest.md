@@ -3,7 +3,7 @@ title = "Star Craft 2 Cartoon Contest"
 date = "2009-07-27"
 categories = [ "Comics" ]
 topics = [
-  "Games"
+  "Computer Games"
 ]
 +++
 

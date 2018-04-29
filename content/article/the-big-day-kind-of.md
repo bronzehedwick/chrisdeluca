@@ -1,7 +1,7 @@
 +++
 title = "The Big Day! …kind of"
 date = "2009-08-18"
-categories = [ "Essays" ]
+categories = [ "Personal" ]
 topics = [ "Leukemia" ]
 +++
 

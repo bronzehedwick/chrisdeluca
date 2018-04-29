@@ -1,7 +1,7 @@
 +++
 title = "Frog Dream"
 date = "2010-12-03"
-categories = [ "Essays" ]
+categories = [ "Personal" ]
 topics = [ "Leukemia" ]
 +++
 

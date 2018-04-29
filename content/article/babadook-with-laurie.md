@@ -2,10 +2,9 @@
 title = "Babadook with Laurie"
 date = "2015-01-18"
 summary = "The story of the best audience member (no spoilers)"
-categories = [ "Essays" ]
+categories = [ "Personal" ]
 topics = [
-  "Movies",
-  "My wife"
+  "Movies"
 ]
 +++
 

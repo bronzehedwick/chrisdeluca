@@ -4,8 +4,8 @@ date = "2014-09-01"
 summary = "Automatically create Jekyll file names and meta data."
 categories = ["Tech"]
 topics = [
-  "jekyll",
-  "shell"
+  "Jekyll",
+  "Shell"
 ]
 styles = ["syntax"]
 +++

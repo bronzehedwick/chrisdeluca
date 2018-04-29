@@ -4,7 +4,7 @@ date = 2017-12-13T09:26:08-05:00
 draft = false
 subtitle = ""
 categories = ["Tech"]
-topics = ["javascript"]
+topics = ["JavaScript"]
 toc = false
 styles = []
 +++

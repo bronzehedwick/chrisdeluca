@@ -1,7 +1,7 @@
 +++
 title = "The Latest from the Greatest"
 date = "2009-07-11"
-categories = [ "Essays" ]
+categories = [ "Personal" ]
 topics = [ "Leukemia" ]
 +++
 

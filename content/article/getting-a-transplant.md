@@ -1,7 +1,7 @@
 +++
 title = "Getting a Transplant"
 date = "2010-01-12"
-categories = [ "Essays" ]
+categories = [ "Personal" ]
 topics = [ "Leukemia" ]
 +++
 

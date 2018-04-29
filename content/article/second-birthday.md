@@ -1,7 +1,7 @@
 +++
 title = "Second Birthday"
 date = "2011-01-31"
-categories = [ "Essays" ]
+categories = [ "Personal" ]
 topics = [
   "Leukemia"
 ]

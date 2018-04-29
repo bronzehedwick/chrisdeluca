@@ -1,7 +1,7 @@
 +++
 title = "Hypnotic Toast and tales"
 date = "2010-03-20"
-categories = [ "Essays" ]
+categories = [ "Personal" ]
 topics = [ "Leukemia" ]
 +++
 

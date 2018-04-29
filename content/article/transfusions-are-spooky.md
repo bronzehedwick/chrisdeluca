@@ -1,7 +1,7 @@
 +++
 title = "Transfusions are spooky?"
 date = "2009-10-31"
-categories = [ "Essays" ]
+categories = [ "Personal" ]
 topics = [ "Leukemia" ]
 +++
 

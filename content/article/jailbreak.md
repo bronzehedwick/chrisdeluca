@@ -1,7 +1,7 @@
 +++
 title = "Jailbreak!"
 date = "2010-06-11"
-categories = [ "Essays" ]
+categories = [ "Personal" ]
 topics = [ "Leukemia" ]
 +++
 

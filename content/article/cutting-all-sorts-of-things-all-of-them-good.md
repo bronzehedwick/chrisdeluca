@@ -1,7 +1,7 @@
 +++
 title = "Cutting all sorts of things (all of them good)"
 date = "2010-11-02"
-categories = [ "Essays" ]
+categories = [ "Personal" ]
 topics = [ "Leukemia" ]
 +++
 

@@ -1,7 +1,7 @@
 +++
 title = "Bleeding and other things"
 date = "2009-09-15"
-categories = [ "Essays" ]
+categories = [ "Personal" ]
 topics = [ "Leukemia" ]
 +++
 

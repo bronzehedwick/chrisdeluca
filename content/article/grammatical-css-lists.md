@@ -6,7 +6,7 @@ subtitle = "Quick, specific styling tip"
 title = "Grammatical CSS Lists"
 toc = false
 topics = [
-  "css"
+  "CSS"
 ]
 styles = ["syntax"]
 +++

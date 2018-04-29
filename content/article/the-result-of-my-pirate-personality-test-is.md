@@ -1,7 +1,7 @@
 +++
 title = "The Result of my Pirate Personality Test is…"
 date = "2009-11-22"
-categories = [ "Essays" ]
+categories = [ "Personal" ]
 topics = [ "Random" ]
 +++
 

@@ -1,7 +1,7 @@
 +++
 title = "Transplants on the theoretical horizon"
 date = "2009-12-18"
-categories = [ "Essays" ]
+categories = [ "Personal" ]
 topics = [ "Leukemia" ]
 +++
 

@@ -3,8 +3,8 @@ title = "Why I Started Buying Records"
 date = 2017-11-16T08:47:08-05:00
 draft = false
 subtitle = ""
-categories = ["Essays"]
-topics = ["music"]
+categories = ["Personal"]
+topics = ["Music"]
 toc = false
 styles = []
 +++
