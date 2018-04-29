@@ -23,7 +23,8 @@ youth, it makes me :mask:.
 And you know what else? Anyone who puts up with and actually *reads*
 these travesties can go fart in a tunnel.
 
-I also started [collecting records](/page/record-collection).
+He also started [collecting records](/page/record-collection), so make of that
+what you will.
 
 ## Credits
 
