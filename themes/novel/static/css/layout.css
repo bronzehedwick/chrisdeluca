@@ -224,6 +224,15 @@ figcaption {
   margin-bottom: 0px;
 }
 
+@media screen and (max-width: 28em) {
+  .align-left,
+  .align-right {
+    float: none;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
 .align-right + *,
 .align-left + * {
   margin-top: 1em;
