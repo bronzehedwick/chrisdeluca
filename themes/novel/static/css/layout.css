@@ -47,12 +47,15 @@ h1, h2, h3, h4, h5, h6 {
   clear: both;
 }
 
-body > header h1 {
+body > header h1,
+body > header h2 {
   margin-top: 0px;
+  font-size: 2em;
 }
 
 /* Subtitles */
-header h1 + p {
+header h1 + p,
+header h2 + p {
   font-size: 1.3em;
 }
 

@@ -38,7 +38,9 @@
 <body class="{{ if .IsNode }}node{{ end }}{{ if .IsPage }}page{{ end }}{{ if .IsHome }} home{{ end }}">
   <header>
     {{ block "header" . }}
-      <h1><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
+      {{ if .IsNode }}<h1>{{ else }}<h2>{{ end }}
+        <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+      {{ if .IsNode }}</h1>{{ else }}</h2>{{ end }}
       <p>{{ .Site.Params.description }}</p>
     {{ end }}
 
