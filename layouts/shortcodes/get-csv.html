@@ -1,13 +1,13 @@
 {{ $file := .Get 0 }}
 {{ $csv := string $file }}
 <div class="responsive-table">
-  <table>
+  <table class="sortable-table">
       {{ range $i, $r := getCSV "," $csv }}
         {{ if eq $i 0 }}
           <thead>
             <tr>
               <th>{{ index $r 0 }}</th>
-              <th>{{ index $r 1 }}</th>
+              <th data-sort-default>{{ index $r 1 }}</th>
               <th>{{ index $r 2 }}</th>
               <th>{{ index $r 3 }}</th>
               <th>{{ index $r 4 }}</th>
