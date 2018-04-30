@@ -116,3 +116,10 @@ copyright = "Chris DeLuca, all rights reserved."
     color = "#0082c9"
     icon = ""
     weight = 20
+
+  [params.socialLinks.hackernews]
+    name = "Hacker News"
+    url = "https://news.ycombinator.com/user?id=bronzehedwick"
+    color = "#ff6600"
+    icon = ""
+    weight = 10
