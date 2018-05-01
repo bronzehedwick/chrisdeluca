@@ -6,7 +6,7 @@ PygmentsCodeFences = true
 enableRobotsTXT = true
 pygmentsuseclasses = true
 enableEmoji = true
-newContentEditor = "nvim"
+newContentEditor = "nvr"
 copyright = "Chris DeLuca, all rights reserved."
 
 [author]
@@ -123,3 +123,10 @@ copyright = "Chris DeLuca, all rights reserved."
     color = "#ff6600"
     icon = ""
     weight = 10
+
+  [params.socialLinks.codepen]
+    name = "CodePen"
+    url = "https://codepen.io/bronzehedwick/"
+    color = "#000"
+    icon = ""
+    weight = 8
