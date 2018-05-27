@@ -18,12 +18,8 @@ copyright = "Chris DeLuca, all rights reserved."
   category = "categories"
 
 [[menu.main]]
-  name = "Categories"
-  url = "/categories"
-  weight = -10
-[[menu.main]]
-  name = "RSS"
-  url = "/index.xml"
+  name = "My Projects"
+  url = "/project"
   weight = 100
 
 [params]

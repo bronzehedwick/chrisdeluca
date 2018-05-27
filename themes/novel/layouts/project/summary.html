@@ -1,0 +1,17 @@
+<article>
+  <header>
+    <h2><a href="{{ .Params.project_url }}">
+      {{ if .Params.draft }}<mark>Draft</mark>{{ end }}
+      {{ title .Title }}
+    </a></h2>
+    {{ $headerImage := .Resources.GetMatch "header" }}
+    {{ if $headerImage }}
+      {{ $headerImage := $headerImage.Fill "740x100" }}
+      <figure>
+        <img src="{{ $headerImage.Permalink }}" alt="{{ $headerImage.Name }}">
+        <figcaption>{{ htmlUnescape .Summary | plainify }}</figcaption>
+      </figure>
+    {{ end }}
+  </header>
+</article>
+
