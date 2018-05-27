@@ -21,7 +21,7 @@
     highlightLines(query);
   });
 
-  window.addEventListener('load', function loadCallback(event) {
+  window.addEventListener('load', function loadCallback() {
     var query = window.location.hash;
     if (query) {
       highlightLines('.' + query.split('#')[1]);
