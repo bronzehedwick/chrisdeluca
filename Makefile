@@ -18,3 +18,4 @@ minify:
 		find public/ -type f -name \*.js | xargs -I {} minify --type js --output {} {}
 
 restart: stop serve
+
