@@ -1,3 +1,5 @@
+default: build minify
+
 build:
 	@hugo
 
