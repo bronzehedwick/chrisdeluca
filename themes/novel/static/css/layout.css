@@ -192,9 +192,12 @@ figcaption {
   margin-top: 0px;
 }
 
-.pagination,
-.article-info ul {
+.pagination {
   padding-left: 0px;
+}
+
+.article-info ul {
+  padding-left: 0.5ch;
 }
 
 .article-info__reading {
