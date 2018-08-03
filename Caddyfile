@@ -37,6 +37,7 @@ www.chrisdeluca.me {
     rotate_age  30 # Keep rotated files for 30 days
     rotate_keep 5  # Keep at most 5 log files
     404 404.html # Not Fount
+    500 500.html # Internal Server Error
   }
 
   # Cache expires rules
