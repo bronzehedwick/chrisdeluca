@@ -45,7 +45,7 @@ copyright = "Chris DeLuca, all rights reserved."
     url = "https://www.drupal.org/u/bronzehedwick"
     icon = "svg/drupal.html"
     weight = 12
-    featured = true
+    featured = false
 
   [params.socialLinks.github]
     name = "Github"
@@ -88,7 +88,7 @@ copyright = "Chris DeLuca, all rights reserved."
     url = "https://www.instagram.com/bronzehedwick/"
     icon = "svg/instagram.html"
     weight = 40
-    featured = false
+    featured = true
 
   [params.socialLinks.reddit]
     name = "Reddit"
