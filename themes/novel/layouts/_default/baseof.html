@@ -36,6 +36,7 @@
 </head>
 
 <body class="{{ if .IsNode }}node{{ end }}{{ if .IsPage }}page{{ end }}{{ if .IsHome }} home{{ end }}">
+  <script async src="/js/main.js"></script>
   <header>
     {{ block "header" . }}
       {{ if .IsNode }}<h1>{{ else }}<h2>{{ end }}
