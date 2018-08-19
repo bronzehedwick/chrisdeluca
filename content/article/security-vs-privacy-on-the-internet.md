@@ -13,7 +13,7 @@ categories = [
 +++
 
 **Update**: The next article in this series is [now published]({{< relref
-"article/practical-internet-security.md" >}}).
+"/article/practical-internet-security.md" >}}).
 
 Confused about what privacy versus security means in the context of the
 internet? Haven't heard these terms before, but are intrigued nonetheless? Not
@@ -105,7 +105,7 @@ I will update this article with the new links as they are published, so
 if you're reading this in the future, you can click them now!
 Otherwise, just chill.
 
-**Update**: It is the future---the [next article]({{< relref "article/practical-internet-security.md" >}})
+**Update**: It is the future---the [next article]({{< relref "/article/practical-internet-security.md" >}})
 in this series is published, *and* you already knew that because it's stated at
 the top of this article.
 
@@ -113,4 +113,4 @@ the top of this article.
 
 Great! I'm happy to answer any questions you might have. I don't host comments
 on this site, but please feel free to reach out on any of my social networks
-listed via the icons below, or on my [about page]({{< relref "page/about.md" >}}).
+listed via the icons below, or on my [about page]({{< relref "/page/about.md" >}}).

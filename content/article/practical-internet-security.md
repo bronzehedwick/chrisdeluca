@@ -31,9 +31,9 @@ security, it will take at the very least some focus and attention.
 This article is part of a series of posts dealing with internet security and
 privacy. Collect 'em all! :bug:
 
-1. [Security vs Privacy on the Internet]({{< relref "article/security-vs-privacy-on-the-internet.md" >}})
-2. [Practical Internet Security]({{< relref "article/practical-internet-security.md" >}})
-3. [Practical Internet Privacy]({{< relref "article/practical-internet-privacy.md" >}})
+1. [Security vs Privacy on the Internet]({{< relref "/article/security-vs-privacy-on-the-internet.md" >}})
+2. [Practical Internet Security]({{< relref "/article/practical-internet-security.md" >}})
+3. [Practical Internet Privacy]({{< relref "/article/practical-internet-privacy.md" >}})
 
 ## Threat misconceptions
 
@@ -288,7 +288,7 @@ Perfect! That means you don't already know all this stuff, and I stand a good
 chance of sounding smart.
 
 I don't host comments on this site, but feel free to contact me from the social
-media networks listed via the icons below, or on my [about page]({{< relref "page/about.md" >}}).
+media networks listed via the icons below, or on my [about page]({{< relref "/page/about.md" >}}).
 
 [^1]: Obviously, don't actually use this passphrase.
 [mark-tapes]: https://www.nytimes.com/2016/06/23/technology/personaltech/mark-zuckerberg-covers-his-laptop-camera-you-should-consider-it-too.html?_r=0

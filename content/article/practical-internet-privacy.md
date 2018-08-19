@@ -13,15 +13,15 @@ draft = false
 +++
 
 Welcome, Internet folks! If you've been following along, this is the final post
-in my [three]({{< relref "article/security-vs-privacy-on-the-internet.md" >}})
-[part]({{< relref "article/practical-internet-security.md" >}}) series on basic
+in my [three]({{< relref "/article/security-vs-privacy-on-the-internet.md" >}})
+[part]({{< relref "/article/practical-internet-security.md" >}}) series on basic
 Internet security and privacy. In this article, we're going to get into improving
 and---just as importantly---*understanding* Internet privacy.
 
 <!--more-->
 
 If you're unsure about what privacy on the Internet is, please read my first
-article in this series, [Security vs Privacy on the Internet]({{< relref "article/security-vs-privacy-on-the-internet.md" >}}).
+article in this series, [Security vs Privacy on the Internet]({{< relref "/article/security-vs-privacy-on-the-internet.md" >}}).
 
 **A word of warning**: as the third and final chapter of this series, it is also
 the longest and least focused. This "cram-it-all-in-part-three" approach will be
@@ -254,7 +254,7 @@ one you hate. You know the one.
 ## Questions
 
 If you have any questions on any of this, please don't hesitate to reach out to
-me on any of the [social networks I use]({{< relref "page/about.md#i-m-technically-social" >}}).
+me on any of the [social networks I use]({{< relref "/page/about.md#i-m-technically-social" >}}).
 
 
 ## Wrapping up
