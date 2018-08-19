@@ -7,24 +7,24 @@
         <a href="/categories/{{ . | urlize }}">{{ . }}</a>
       {{ end }}
     {{ end }}
-  </div>
 
-  {{ if .Params.topics }}
-    <div class="article-info__topics">
-      {{ $topicsCount := len ( .Params.topics ) }}
-      {{ if gt $topicsCount 1 }}
-        Topics:
-      {{ end }}
-      {{ if eq $topicsCount 1 }}
-        Topic:
-      {{ end }}
-      <ul>
-        {{ range .Params.topics }}
-          <li><a href="/topics/{{ . | urlize }}">{{ . }}</a></li>
+    {{ if .Params.topics }}
+      <div class="article-info__topics">
+        {{ $topicsCount := len ( .Params.topics ) }}
+        {{ if gt $topicsCount 1 }}
+          Topics:
         {{ end }}
-      </ul>
-    </div>
-  {{ end }}
+        {{ if eq $topicsCount 1 }}
+          Topic:
+        {{ end }}
+        <ul>
+          {{ range .Params.topics }}
+            <li><a href="/topics/{{ . | urlize }}">{{ . }}</a></li>
+          {{ end }}
+        </ul>
+      </div>
+    {{ end }}
+  </div>
 
   <div class="article-info__reading">Reading time: {{ .ReadingTime }} {{ if gt .ReadingTime 1 }}minutes{{ end }}{{ if eq .ReadingTime 1 }}minute{{ end }}</div>
 </div>
