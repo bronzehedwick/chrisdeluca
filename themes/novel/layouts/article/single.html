@@ -9,6 +9,14 @@
       {{ if .Params.subtitle }}<p>{{ .Params.subtitle }}</p>{{ end }}
       {{ partial "article-info.html" . }}
 
+      {{ $headerResource := .Page.Resources.GetMatch "header" }}
+      {{ if $headerResource }}
+        {{ $headerImage := $headerResource.Fill "900x400" }}
+        <figure>
+          <img src="{{ $headerImage.RelPermalink }}" alt="{{ $headerImage.Title }}" title="{{ $headerImage.Title }}" width="{{ $headerImage.Width }}" height="{{ $headerImage.Height }}">
+        </figure>
+      {{ end }}
+
       {{ if .IsPage }}
         {{ if .Params.toc }}
           <details>
