@@ -43,7 +43,7 @@ However, if there is a connection between two data points---aka, groundhog matin
 
 At the end of the day, computers are dumb. They literally don't know their ass from their elbow. Contrary to every movie featuring robots, computers are self aware much the same way a brick is.
 
-A computer is so dumb, it can't figure out the relationship between data in both directions. This means that if you *think* there's a relationship between Guatemalan migratory bird patterns and an uptick in blueberry smoothie sales, *and you're wrong*, the computer won't know! If you plug in that relationship, the machine will happily spit out a number. Never mind that it's meaningless, the computer did it's job.
+A computer is so dumb, it can't figure out the relationship between data in both directions. This means that if you *think* there's a relationship between Guatemalan migratory bird patterns and an uptick in blueberry smoothie sales, *and you're wrong*, the computer won't know! If you plug in that relationship, the machine will happily spit out a number. Never mind that it's meaningless, the computer did its job.
 
 So it's our job, as the humans, to really make sure our thought quality is good before ascribing meaning to things. That's probably a good call in general.
 
