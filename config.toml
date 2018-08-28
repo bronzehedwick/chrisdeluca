@@ -126,3 +126,10 @@ copyright = "Chris DeLuca, all rights reserved."
     color = "#000"
     icon = ""
     weight = 8
+
+  [params.socialLinks.devto]
+    name = "dev.to"
+    url = "https://dev.to/bronzehedwick"
+    color = "#000"
+    icon = ""
+    weight = 20
