@@ -1,6 +1,4 @@
-/**
- * General
- */
+/* General {{{ */
 
 * {
   box-sizing: border-box;
@@ -54,9 +52,9 @@ abbr {
   cursor: help;
 }
 
-/**
- * Headings
- */
+/* }}} */
+
+/* Headings {{{ */
 
 div + p,
 header + * {
@@ -89,9 +87,9 @@ body > header p {
   font-style: italic;
 }
 
-/**
- * Paragraphs
- */
+/* }}} */
+
+/* Paragraphs {{{ */
 
 p {
   margin: 0px;
@@ -121,9 +119,9 @@ p + p {
   content: none;
 }
 
-/**
- * Lists
- */
+/* }}} */
+
+/* Lists {{{ */
 
 ol,
 ul {
@@ -145,9 +143,9 @@ dd img {
   margin-right: initial;
 }
 
-/**
- * Links
- */
+/* }}} */
+
+/* Links {{{ */
 
 a:link,
 a:active,
@@ -192,9 +190,9 @@ a[href^="http://localhost:1313"]:after {
   display: none;
 }
 
-/**
- * Images.
- */
+/* }}} */
+
+/* Images {{{ */
 
 img {
   display: block;
@@ -240,9 +238,9 @@ figcaption {
   shape-margin: 1em;
 }
 
-/**
- * Tables.
- */
+/* }}} */
+
+/* Tables {{{ */
 
 table {
   margin-left: auto;
@@ -311,9 +309,9 @@ th[role=columnheader]:not(.no-sort):hover:after {
   opacity: 1;
 }
 
-/**
- * Pre-formatted.
- */
+/* }}} */
+
+/* Pre-formatted {{{ */
 
 samp, kbd,
 pre, code {
@@ -349,9 +347,9 @@ kbd {
   background-color: transparent;
 }
 
-/**
- * Quotes
- */
+/* }}} */
+
+/* Quotes {{{ */
 
 q {
   quotes: "“" "”" "‘" "’";
@@ -381,9 +379,9 @@ blockquote::before {
   color: #ff725c;
 }
 
-/**
- * Footers (and navigation)
- */
+/* }}} */
+
+/* Footers (and navigation) {{{ */
 
 footer {
   margin-top: 4em;
@@ -405,9 +403,9 @@ article footer li {
   list-style-type: none;
 }
 
-/**
- * Navigation
- */
+/* }}} */
+
+/* Navigation {{{ */
 
 nav li {
   display: inline-block;
@@ -453,10 +451,9 @@ article footer li {
   list-style-position: outside;
 }
 
+/* }}} */
 
-/**
- * Table of Contents
- */
+/* Table of Contents {{{ */
 
 #TableOfContents ul {
   display: block;
@@ -468,9 +465,9 @@ article footer li {
   padding: 0px;
 }
 
-/**
- * Details/Summary
- */
+/* }}} */
+
+/* Details/Summary {{{ */
 
 details {
   margin-bottom: 1em;
@@ -481,9 +478,9 @@ summary {
   cursor: pointer;
 }
 
-/**
- * Article info.
- */
+/* }}} */
+
+/* Article info {{{ */
 
 .article-info {
   font-size: 0.85em;
@@ -517,9 +514,9 @@ summary {
   content: '';
 }
 
-/**
- * Social links.
- */
+/* }}} */
+
+/* Social links {{{ */
 
 .social-links a {
   border-bottom: none;
@@ -584,9 +581,9 @@ summary {
   left: 1em;
 }
 
-/**
- * Utils
- */
+/* }}} */
+
+/* Utils {{{ */
 
 .align-left {
   float: left;
@@ -618,9 +615,9 @@ summary {
   overflow-x: scroll;
 }
 
-/**
- * Syntax highlighting
- */
+/* }}} */
+
+/* Syntax highlighting {{{ */
 
 .highlight {
   padding: 0px 2ch;
@@ -656,3 +653,8 @@ summary {
 /* GenericStrong */ .chroma .s1b60 { font-weight: bold }
 /* GenericSubheading */ .chroma .s1b61 { color: #75715e }
 /* Text */ .chroma .s1f40 {  }
+
+/* }}} */
+
+/* vim: fdm=marker
+ */
