@@ -151,10 +151,10 @@ a:link,
 a:active,
 a:focus,
 a:visited {
-  color: #357edd;
+  color: #2473d1;
   text-decoration: none;
-  border-bottom: 0.075em dotted #357edd;
-  transition: background-color 200ms ease;
+  border-bottom: 0.075em dotted #2473d1;
+  transition: background-color 150ms ease, color 150ms ease;
 }
 
 .dark-theme a:link,
@@ -166,7 +166,8 @@ a:visited {
 }
 
 a:hover {
-  background-color: rgba(53, 126, 221, 0.05);
+  background-color: #2473d1;
+  color: #fff;
 }
 
 .dark-theme a:hover {
