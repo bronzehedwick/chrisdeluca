@@ -64,7 +64,10 @@
         {{ range sort .Site.Params.socialLinks "weight" "desc" }}
           {{ if .featured }}
             <li class="social-link__{{ lower .name }}">
-              <a href="{{ .url }}" title="{{ .name }}">{{ partial .icon . }}</a>
+              <a href="{{ .url }}" title="{{ .name }}">
+                <span hidden>{{ .name }} social icon link</span>
+                {{ partial .icon . }}
+              </a>
             </li>
           {{ end }}
         {{ end }}
