@@ -1,5 +1,10 @@
 {
-    "name": "Chris DeLuca",
+    "name": "Chris DeLuca's blog",
+    "short_name": "Chris DeLuca",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#fdfcfa",
+    "description": "A simply readable Hacker News app.",
     "icons": [
         {
             "src": "/android-chrome-192x192.png?v=XBzNqEm5wa",
@@ -12,7 +17,7 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#ffffff",
-    "background_color": "#ffffff",
+    "theme_color": "#fdfcfa",
+    "background_color": "#fdfcfa",
     "display": "standalone"
 }
