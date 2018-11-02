@@ -8,18 +8,16 @@
   {{ .Hugo.Generator }}
   <title>{{ title .Title }}</title>
   {{ range .AlternativeOutputFormats -}}
-    {{ printf `<link rel="%s" type="%s+%s" href="%s" title="%s" />` .Rel .MediaType.Type .MediaType.Suffix .Permalink $.Site.Title | safeHTML }}
+    {{ printf `<link rel="%s" type="%s+%s" href="%s" title="%s">` .Rel .MediaType.Type .MediaType.Suffix .Permalink $.Site.Title | safeHTML }}
   {{ end -}}
-  {{ $normalizeContents := readFile "/themes/novel/static/css/normalize.css" }}
-  <link rel="stylesheet" href="/css/normalize.css?{{ md5 $normalizeContents }}">
-  {{ $themeContents := readFile "/themes/novel/static/css/theme.css" }}
-  <link rel="stylesheet" href="/css/theme.css?{{ md5 $themeContents }}">
-  {{ $printContents := readFile "/themes/novel/static/css/print.css" }}
-  <link rel="stylesheet" href="/css/print.css?{{ md5 $printContents }}" media="print">
+  {{ $theme := resources.Get "styles/theme.css" | resources.Minify | resources.Fingerprint }}
+  <link rel="stylesheet" href="{{ $theme.Permalink }}?" integrity="{{ $theme.Data.Integrity }}">
+  {{ $print := resources.Get "styles/print.css" | resources.Minify | resources.Fingerprint }}
+  <link rel="stylesheet" href="{{ $print.Permalink }}" integrity="{{ $print.Data.Integrity }}" media="print">
   {{ if .Params.styles }}
     {{ range .Params.styles }}
-      {{ $styleContents := readFile (print "/themes/novel/static/css/" . ".css") }}
-      <link rel="stylesheet" href="/css/{{ . }}.css?{{ md5 $styleContents }}">
+      {{ $style := resources.Get (print "styles/" . ".css") | resources.Minify | resources.Fingerprint }}
+      <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}">
     {{ end }}
   {{ end }}
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -34,7 +32,8 @@
 </head>
 
 <body class="{{ if .IsNode }}node{{ end }}{{ if .IsPage }}page{{ end }}{{ if .IsHome }} home{{ end }}">
-  <script async src="/js/main.js"></script>
+  {{ $script := resources.Get "scripts/main.js" | resources.Minify | resources.Fingerprint }}
+  <script defer async src="{{ $script.Permalink }}" integrity="{{ $script.Data.Integrity }}"></script>
   <header>
     {{ block "header" . }}
       {{ if .IsNode }}<h1>{{ else }}<h2>{{ end }}
@@ -78,7 +77,8 @@
   </footer>
   {{ if .Params.scripts }}
     {{ range .Params.scripts }}
-      <script src="/js/{{ . }}"></script>
+      {{ $script := resources.Get (print "scripts/" .) | resources.Minify | resources.Fingerprint }}
+      <script src="{{ $script.Permalink }}" integrity="{{ $script.Data.Integrity }}"></script>
     {{ end }}
   {{ end }}
 </body>

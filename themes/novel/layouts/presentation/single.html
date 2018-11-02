@@ -7,10 +7,14 @@
   <meta name="description" content="{{ .Site.Params.description }}">
   {{ .Hugo.Generator }}
   <title>{{ title .Title }}</title>
-  <link rel="stylesheet" href="/css/reveal.css">
-  <link rel="stylesheet" href="/css/reveal-theme-white.css">
-  <link rel="stylesheet" href="/css/reveal-custom.css">
-  <link rel="stylesheet" href="/css/syntax.css">
+  {{ $reveal := resources.Get "styles/vendor/reveal.css" | resources.Minify | resources.Fingerprint }}
+  <link rel="stylesheet" href="{{ $reveal.Permalink }}" integrity="{{ $reveal.Data.Integrity }}">
+  {{ $revealTheme := resources.Get "styles/vendor/reveal-theme-white.css" | resources.Minify | resources.Fingerprint }}
+  <link rel="stylesheet" href="{{ $revealTheme.Permalink }}" integrity="{{ $revealTheme.Data.Integrity }}">
+  {{ $revealCustom := resources.Get "styles/reveal-custom.css" | resources.Minify | resources.Fingerprint }}
+  <link rel="stylesheet" href="{{ $revealCustom.Permalink }}" integrity="{{ $revealCustom.Data.Integrity }}">
+  {{ $syntax := resources.Get "styles/syntax.css" | resources.Minify | resources.Fingerprint }}
+  <link rel="stylesheet" href="{{ $syntax.Permalink }}" integrity="{{ $syntax.Data.Integrity }}">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
