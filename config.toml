@@ -16,6 +16,7 @@ copyright = "Chris DeLuca, all rights reserved."
 [taxonomies]
   topic = "topics"
   category = "categories"
+  series = "series"
 
 [[menu.main]]
   name = "My Projects"
@@ -23,8 +24,10 @@ copyright = "Chris DeLuca, all rights reserved."
   weight = 100
 
 [params]
+  title = "Chris DeLuca"
   author = "Chris DeLuca"
   description = "The blog of the person"
+  images = [ "/images/chris-portrait.gif" ]
 
   [params.socialLinks.twitter]
     name = "Twitter"
