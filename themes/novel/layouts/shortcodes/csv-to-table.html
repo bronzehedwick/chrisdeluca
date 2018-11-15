@@ -1,0 +1,33 @@
+{{ $arg0 := .Get 0 }}
+{{ $csvResource := .Page.Resources.GetMatch $arg0 }}
+{{ $parsedCsv := getCSV "," $csvResource.Permalink }}
+{{ $resources := .Page.Resources }}
+<div class="responsive-table">
+  <table class="sortable-table">
+  {{ range first 1 $parsedCsv }}
+    <thead>
+      <tr>
+        {{ range . }}<th>{{ . }}</th>{{ end }}
+      </tr>
+    </thead>
+  {{ end }}
+    <tbody>
+    {{ range after 1 $parsedCsv }}
+      <tr>
+        {{ range . }}
+        <td>
+          {{ if in . "jpg" }}
+          {{ $imgPath := printf "%s%s" "images/" . }}
+          {{ $img := $resources.GetMatch $imgPath }}
+          {{ $image := $img.Fill "100x100" }}
+          <img src="{{ $image.Permalink }}" alt="{{ . }}">
+          {{ else }}
+          {{ . }}
+          {{ end }}
+        </td>
+        {{ end }}
+      </tr>
+    {{ end }}
+    </tbody>
+  </table>
+</div>
