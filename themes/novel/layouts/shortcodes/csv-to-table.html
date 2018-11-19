@@ -1,5 +1,6 @@
 {{ $arg0 := .Get 0 }}
 {{ $csvResource := .Page.Resources.GetMatch $arg0 }}
+{{ if not .Site.IsServer }}
 {{ $parsedCsv := getCSV "," $csvResource.Permalink }}
 {{ $resources := .Page.Resources }}
 <div class="responsive-table">
@@ -31,3 +32,4 @@
     </tbody>
   </table>
 </div>
+{{ end }}
