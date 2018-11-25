@@ -518,22 +518,23 @@ a:hover {
   background-color: rgba(65, 148, 255, 0.25);
 }
 
-a:after {
-  width: 0.6em;
-  height: 0.6em;
-  display: inline-block;
-  margin-left: 0.25ch;
-  content: url(/images/external-link.svg);
-}
+/* TODO: Fix external link icons from displaying wonky inline */
+/* a:after { */
+/*   width: 0.6em; */
+/*   height: 0.6em; */
+/*   display: inline-block; */
+/*   margin-left: 0.25ch; */
+/*   content: url(/images/external-link.svg); */
+/* } */
 
-a[href^="https://www.chrisdeluca.me"]:after,
-a[href^="/"]:after,
-a[href^="#"]:after,
-.social-links a:after,
-a[href^="http://localhost:1313"]:after {
-  content: none;
-  display: none;
-}
+/* a[href^="https://www.chrisdeluca.me"]:after, */
+/* a[href^="/"]:after, */
+/* a[href^="#"]:after, */
+/* .social-links a:after, */
+/* a[href^="http://localhost:1313"]:after { */
+/*   content: none; */
+/*   display: none; */
+/* } */
 
 /* }}} */
 
