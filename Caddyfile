@@ -157,9 +157,20 @@ swiftglidden.com {
 
 }
 
+####################
+# duncecap.nyc     #
+####################
+
+# Dunce Cap domain redirect
+www.duncecap.nyc {
+    redir 301 {
+        / https://duncecap.nyc{uri}
+    }
+}
+
 duncecap.nyc {
     # Server root
-    root /usr/local/www/swiftglidden.com
+    root /usr/local/www/duncecap
 
     # Enable gzip compression
     gzip
