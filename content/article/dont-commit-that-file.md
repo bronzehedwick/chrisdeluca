@@ -6,7 +6,7 @@ subtitle = " A git hooks story"
 categories = [ "Tech" ]
 topics = [ "git" ]
 toc = false
-styles = []
+styles = [ "syntax" ]
 +++
 
 I wrote a small git `pre-commit` hook to prevent committing certain files.
