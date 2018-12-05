@@ -363,11 +363,6 @@ body {
     color: #191919;
 }
 
-body.dark-theme {
-    background-color: #2f2f2f;
-    color: #d9d9d9;
-}
-
 @media screen and (min-width: 28em) {
     body {
         font-size: 1.4em;
@@ -429,10 +424,6 @@ body > header {
 body > header p {
     color: #9d9d9d;
     font-style: italic;
-}
-
-.dark-theme > header p {
-    color: #747474;
 }
 
 /* }}} */
@@ -505,21 +496,9 @@ a:visited {
     transition: background-color 150ms ease, color 150ms ease;
 }
 
-.dark-theme a:link,
-.dark-theme a:active,
-.dark-theme a:focus,
-.dark-theme a:visited {
-    color: #4696ff;
-    border-bottom-color: #4696ff;
-}
-
 a:hover {
     background-color: #2473d1;
     color: #fff;
-}
-
-.dark-theme a:hover {
-    background-color: rgba(65, 148, 255, 0.25);
 }
 
 /* TODO: Fix external link icons from displaying wonky inline */
@@ -582,10 +561,6 @@ figcaption {
 svg {
     max-width: 100%;
     fill: currentColor;
-}
-
-.dark-theme figure img {
-    filter: drop-shadow(0.15em 0.15em 0.1em #424242);
 }
 
 .portrait {
@@ -672,12 +647,6 @@ samp, kbd,
 pre, code {
     padding: 0.5ch;
     background-color: #efefef;
-}
-
-.dark-theme samp,
-.dark-theme kbd,
-.dark-theme code {
-    background-color: #5f5f5f;
 }
 
 pre {
@@ -997,6 +966,45 @@ summary {
 .chroma .ln {
     margin-right: 0.4em;
     padding: 0 0.4em 0 0.4em;
+}
+
+/* }}} */
+
+/* Dark theme {{{ */
+
+@media (prefers-color-scheme: dark) {
+
+    body {
+        background-color: #2f2f2f;
+        color: #d9d9d9;
+    }
+
+    body > header p {
+        color: #747474;
+    }
+
+    a:link,
+    a:active,
+    a:focus,
+    a:visited {
+        color: #4696ff;
+        border-bottom-color: #4696ff;
+    }
+
+    a:hover {
+        background-color: rgba(65, 148, 255, 0.25);
+    }
+
+    figure img {
+        filter: drop-shadow(0.15em 0.15em 0.1em #424242);
+    }
+
+    samp,
+    kbd,
+    code {
+        background-color: #5f5f5f;
+    }
+
 }
 
 /* }}} */

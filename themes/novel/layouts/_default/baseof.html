@@ -34,8 +34,6 @@
 </head>
 
 <body class="{{ if .IsNode }}node{{ end }}{{ if .IsPage }}page{{ end }}{{ if .IsHome }} home{{ end }}">
-  {{ $script := resources.Get "scripts/main.js" | resources.Minify | resources.Fingerprint }}
-  <script defer async src="{{ $script.Permalink }}" integrity="{{ $script.Data.Integrity }}"></script>
   <header>
     {{ block "header" . }}
       {{ if .IsNode }}<h1>{{ else }}<h2>{{ end }}
