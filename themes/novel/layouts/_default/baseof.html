@@ -12,8 +12,10 @@
   {{ range .AlternativeOutputFormats -}}
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
   {{ end -}}
-  {{ $theme := resources.Get "styles/theme.css" | resources.Minify | resources.Fingerprint }}
-  <link rel="stylesheet" href="{{ $theme.Permalink }}" integrity="{{ $theme.Data.Integrity }}">
+  {{ $normalize := resources.Get "styles/vendor/normalize.css" }}
+  {{ $theme := resources.Get "styles/theme.css" }}
+  {{ $styles := slice $normalize $theme | resources.Concat "styles/theme.css" | resources.Minify | resources.Fingerprint }}
+  <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}">
   {{ $print := resources.Get "styles/print.css" | resources.Minify | resources.Fingerprint }}
   <link rel="stylesheet" href="{{ $print.Permalink }}" integrity="{{ $print.Data.Integrity }}" media="print">
   {{ if .Params.styles }}
