@@ -109,13 +109,6 @@ copyright = "Chris DeLuca, all rights reserved."
     weight = -50
     featured = false
 
-  [params.socialLinks.nextcloud]
-    name = "NextCloud"
-    url = "https://nextcloud.com/federation#chris@hypnotictoast.com"
-    color = "#0082c9"
-    icon = ""
-    weight = 20
-
   [params.socialLinks.hackernews]
     name = "Hacker News"
     url = "https://news.ycombinator.com/user?id=bronzehedwick"
