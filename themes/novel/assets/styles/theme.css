@@ -149,7 +149,6 @@ a:visited {
     color: #2473d1;
     text-decoration: none;
     border-bottom: 0.075em dotted #2473d1;
-    transition: background-color 150ms ease, color 150ms ease;
 }
 
 a:hover {
@@ -507,10 +506,6 @@ summary {
 
 .social-links svg {
     width: 1.2em;
-}
-
-.social-links path {
-    transition: fill 200ms ease;
 }
 
 .social-link__twitter a:hover path {
