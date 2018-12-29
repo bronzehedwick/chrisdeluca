@@ -223,4 +223,70 @@ duncecap.nyc {
 
 }
 
+#####################
+# de-evolution.band #
+#####################
+
+# De Evolution domain redirect
+www.de-evolution.band {
+    redir 301 {
+        / https://de-evolution.band{uri}
+    }
+}
+
+de-evolution.nyc {
+    # Server root
+    root /usr/local/www/de-evolution
+
+    # Enable gzip compression
+    gzip
+
+    # Log access
+    log / /var/log/caddy/de-evolution/access.log "{combined}" {
+        rotate_size 100 # Rotate after 100 MB
+        rotate_age  15  # Keep rotated files for 15 days
+        rotate_keep 10  # Keep at most 10 log files
+    }
+
+    # Error logging and error pages
+    errors /var/log/caddy/de-evolution/error.log {
+        rotate_size 50 # Rotate after 50 MB
+        rotate_age  30 # Keep rotated files for 30 days
+        rotate_keep 5  # Keep at most 5 log files
+        404 404.html # Not Fount
+        500 500.html # Internal Server Error
+    }
+
+    # Cache expires rules
+    expires {
+        match .css$ 1y
+        match .js$ 1y
+        match .png$ 1y
+        match .jpg$ 1y
+        match .gif$ 1y
+        match .svg$ 1y
+        match .pdf 1y
+        match .html$ 1d
+    }
+
+    # Custom headers
+    header / {
+        # Enable HTTP Strict Transport Security (HSTS) to force clients to always
+        # connect via HTTPS (do not use if only testing)
+        Strict-Transport-Security "max-age=31536000;"
+        # Enable cross-site filter (XSS) and tell browser to block detected attacks
+        X-XSS-Protection "1; mode=block"
+        # Prevent some browsers from MIME-sniffing a response away from the declared Content-Type
+        X-Content-Type-Options "nosniff"
+        # Disallow the site to be rendered within a frame (clickjacking protection)
+        X-Frame-Options "DENY"
+        # Add a content security policy:
+        Content-Security-Policy "default-src 'self'; script-src 'self' www.youtube.com; frame-src 'self' www.youtube.com"
+    }
+
+    # Set the correct mime type for web manifest files.
+    mime .webmanifest application/manifest+json
+
+}
+
 # vim set ft=conf
