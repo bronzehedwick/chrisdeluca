@@ -234,7 +234,7 @@ www.de-evolution.band {
     }
 }
 
-de-evolution.nyc {
+de-evolution.band {
     # Server root
     root /usr/local/www/de-evolution
 
