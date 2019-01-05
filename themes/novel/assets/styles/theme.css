@@ -152,8 +152,7 @@ a:visited {
 }
 
 a:hover {
-    background-color: #2473d1;
-    color: #fff;
+    border-bottom: 0.075em solid #2473d1;
 }
 
 /* TODO: Fix external link icons from displaying wonky inline */
