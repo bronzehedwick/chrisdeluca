@@ -281,9 +281,9 @@ de-evolution.band {
         # Disallow the site to be rendered within a frame (clickjacking protection)
         X-Frame-Options "DENY"
         # Add a content security policy:
-        Content-Security-Policy "default-src 'none'; script-src 'self' disqus.com youtube.com; object-src 'none'; style-src 'self'; img-src 'self'; media-src 'self' youtube.com; frame-src 'self' youtube.com; font-src 'self'; connect-src 'none'"
-        X-Content-Security-Policy: "default-src 'none'; script-src 'self' disqus.com youtube.com; object-src 'none'; style-src 'self'; img-src 'self'; media-src 'self' youtube.com; frame-src 'self' youtube.com; font-src 'self'; connect-src 'none'"
-        X-WebKit-CSP: "default-src 'none'; script-src 'self' disqus.com youtube.com; object-src 'none'; style-src 'self'; img-src 'self'; media-src 'self' youtube.com; frame-src 'self' youtube.com; font-src 'self'; connect-src 'none'"
+        Content-Security-Policy: "default-src 'none'; script-src 'self' https-de-evolution-band.disqus.com www.youtube.com; object-src 'none'; style-src 'self'; img-src 'self'; media-src 'self' www.youtube.com; frame-src 'self' www.youtube.com; font-src 'self'; connect-src 'none'"
+        X-Content-Security-Policy: "default-src 'none'; script-src 'self' https-de-evolution-band.disqus.com www.youtube.com; object-src 'none'; style-src 'self'; img-src 'self'; media-src 'self' www.youtube.com; frame-src 'self' www.youtube.com; font-src 'self'; connect-src 'none'"
+        X-WebKit-CSP: "default-src 'none'; script-src 'self' https-de-evolution-band.disqus.com www.youtube.com; object-src 'none'; style-src 'self'; img-src 'self'; media-src 'self' www.youtube.com; frame-src 'self' www.youtube.com; font-src 'self'; connect-src 'none'"
     }
 
     # Set the correct mime type for web manifest files.
