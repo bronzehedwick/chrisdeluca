@@ -641,10 +641,6 @@ summary {
         border-bottom-color: #4696ff;
     }
 
-    a:hover {
-        background-color: rgba(65, 148, 255, 0.25);
-    }
-
     figure img {
         filter: drop-shadow(0.15em 0.15em 0.1em #424242);
     }
