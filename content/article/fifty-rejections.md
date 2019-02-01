@@ -14,7 +14,7 @@ styles = []
 <!--more-->
 
 I was sitting at a window table in a lower east side dive with a small group of
-writers I had just met; Jon, Bettina, and Ashwin.
+writers I had just met, questioning the ambition of my New Year's resolution.
 
 The bar was packed with an earnest, ex-party-hardy Saturday night crowd,
 chatting in large, homogeneous groups or milling around the pool table. Wrapped
@@ -23,55 +23,58 @@ ceiling, pop country on the jukebox whenever the internet radio algorithm
 felt inclined—the place seemed like it was straining to make sure you knew how
 relaxed it was.
 
-The lone software developer, I had been grilling each of the writers in turn
-about freelance writing life. I have a creative writing degree, and while I
-love my job writing code, I often dream about writing prose. Or, more
-accurately, I dream about getting my prose published.
+The four of us were chatting about movies and music, I having been inserted
+into their group by the social machinations of a mutual friend, who wasn't
+present. Mercifully, we all hit it off.
 
-Dreams are one thing, but reality is another. While I yearned to be a part of
-the literary world, the whole process of writing for publication terrified me.
-Could I, a bald techie clutching a Guinness in a faux Honky-Tonk bar, in my
-spare time, write freelance? I would need to be convinced, and it wouldn't be
-easy. I wanted every scrap of knowledge. How do you stay motivated? How do you
-chose your topics? How do you submit to publishers? In short, what is it like
-to be a professional writer in 2019?
+As the topics slowly turned more personal, and we started trading life stories,
+I began to unsubtly probe about writing. I had a creative writing degree, and
+while I loved my job writing code, I often dreamed about writing prose. Or,
+more accurately, I dreamed about getting my prose published. And these people,
+well, they were *professional* writers.
 
-"It sucks," Ashwin said.
+Yet would pursuing writing more seriously actually be worth while? Would it be
+the creatively satisfying experience I hoped, or the soul crushing wasteland I
+feared? Or perhaps somewhere in between? I needed to be convinced.
 
-Hmm, so does working out, I thought, and I still manage to do that several
-times a year. I was convinced: I was going to freelance write.
+I asked, "What's that freelance writing hustle like?"
+
+The reply, "It sucks."
+
+So does paying rent, I thought, and I still managed to do that every few
+months. I was convinced: writing sounded fun.
 
 Garth Brook's bubble-gum twang swayed in the background. I felt inspired, ready
 to take on this new challenge.  In that moment I decided my New Year's
-resolution had not been ambitious enough, and I would change it to, "Get
+resolution had *not* been ambitious enough, and I would change it to, "Get
 Writing Published," instead of, "Get A Yogurt."
 
-I told the group I was going to make 2019 the year I got my writing formally
-published.
+I told the group as much, that I was going to make 2019 the year I got my
+writing formally published. I just needed one thing ironed out.
 
-"Yeah, do it," Jon said.
+"How do you handle rejection?"
 
-Shit.
+I wasn't good with rejection, if anyone is. It was one of the top reasons I
+hadn't submitted my writing more.
 
-Things were looking down.
+"Make a masochistic game out of it," a writer said. "Just frame it like, 'Let's
+see how much I can fail.' Most people set a goal like getting rejected 100
+times."
 
-I wasn't good with rejection, if anyone is. It's one of the top reasons I
-haven't submitted my writing more.
+Re-framing the problem, _and_ collecting something? That appealed to the part
+of me that loved creative solutions _and_ the part me that used to collect
+pistachio shells. It was the perfect solution.
 
-"Don't count the successes. Make it a game. A masochistic game," Bettina said.
-"Just frame it like, 'Let's see how much I can fail.' Most people set a goal
-like getting rejected 100 times."
+So that is _exactly_ what I'm going to do: get 100 writing submissions rejected
+in 2019.
 
-Re-framing the problem, _and_ collect something? It was the perfect solution.
-And that is _exactly_ what I'm going to do. Except 100 seems like a lot, so I'm
-cutting it in half.
+Except 100 seems like a lot, so I'm cutting it in half. And *going to*
+seems very presumptuous, so I'm softening that language.
 
-Talk about collecting comparisons: stamps, pokemon, some shit like that.
+My final statement: This time next year I **hope** to have **50** articles
+formally rejected by reputable publications.
 
-This time next year I hope to have **50 articles formally
-rejected by reputable publications**.
-
-I plan to post a round-up with all short descriptions of all the ill-fated
+I plan to post a round-up with short descriptions of all the ill-fated
 articles.
 
 Until then, I'm going to grab a yogurt.
