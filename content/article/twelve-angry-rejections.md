@@ -1,7 +1,7 @@
 +++
-title = "Fifty Rejections"
+title = "Twelve Angry Rejections"
 date = 2019-01-30T19:19:39-05:00
-draft = true
+draft = false
 subtitle = ""
 categories = []
 topics = []
@@ -62,16 +62,19 @@ see how much I can fail.' Most people set a goal like getting rejected 100
 times."
 
 Re-framing the problem, _and_ collecting something? That appealed to the part
-of me that loved creative solutions _and_ the part me that used to collect
+of me that loved creative solutions _and_ the part of me that used to collect
 pistachio shells. It was the perfect solution.
 
 So that is _exactly_ what I'm going to do: get 100 writing submissions rejected
 in 2019.
 
-Except 100 seems like a lot, so I'm cutting it in half. And *going to*
-seems very presumptuous, so I'm softening that language.
+Except 100 seems like a lot, so I'm cutting that in half. Come to think
+of it, 50 *also* seems like a lot, so I'm cutting *that* in half. And
+to be honest, I never liked the number 25, it seems like it would own a
+diamond-encrusted iPhone. Since we're close, why not have one rejection
+per month?
 
-My final statement: This time next year I **hope** to have **50** articles
+My final statement: This time next year I hope to have **12** articles
 formally rejected by reputable publications.
 
 I plan to post a round-up with short descriptions of all the ill-fated
