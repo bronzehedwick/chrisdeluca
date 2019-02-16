@@ -3,8 +3,8 @@ title = "Twelve Angry Rejections"
 date = 2019-01-30T19:19:39-05:00
 draft = false
 subtitle = ""
-categories = []
-topics = []
+categories = [ "Essays" ]
+topics = [ "Writing" ]
 toc = false
 styles = []
 +++
