@@ -47,6 +47,18 @@ abbr {
     cursor: help;
 }
 
+button {
+    padding: 1em;
+    background-color: #fdfcfa;
+    border: 2px groove #191919;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #fdfcfa;
+    background-color: #2473d1;
+}
+
 /* }}} */
 
 /* Headings {{{ */

@@ -89,5 +89,9 @@
       <script src="{{ $script.Permalink }}" integrity="{{ $script.Data.Integrity }}"></script>
     {{ end }}
   {{ end }}
+  {{ if .Resources.Match "game/*" }}
+    {{ $script := resources.Get "scripts/game.js" | resources.Minify | resources.Fingerprint }}
+    <script src="{{ $script.Permalink }}" integrity="{{ $script.Data.Integrity }}"></script>
+  {{ end }}
 </body>
 </html>

@@ -29,6 +29,24 @@
 
     {{ .Content }}
 
+    {{ with .Resources.Match "game/*" }}
+      {{ range $index, $value := . }}
+        {{ $id := replace .Name "game/" "-"  }}
+        <div id="game-scene{{ replace $id ".md" "" }}" class="game-scene"{{ if gt $index 0 }} hidden{{ end }}>
+          {{ .Content }}
+          <div class="game-buttons">
+            {{ if .Params.is_terminal }}
+              <button class="game-button" data-target-id="restart">Restart</button>
+            {{ else }}
+              {{ range .Params }}
+                {{ if . }}<button class="game-button" data-target-id="game-scene-{{ .id }}">{{ .text }}</button>{{ end }}
+              {{ end }}
+            {{ end }}
+          </div>
+        </div>
+      {{ end }}
+    {{ end }}
+
     <footer>
       <nav>
         <ul class="pagination article-navigation">
