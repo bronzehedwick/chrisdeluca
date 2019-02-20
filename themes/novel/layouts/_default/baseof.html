@@ -83,6 +83,8 @@
 
     <small>&#169; {{ now.Format "2006" }} {{ .Site.Params.author }}. All rights reserved.</small>
   </footer>
+  {{ $webmentions := resources.Get "scripts/webmentions.js" | resources.Minify | resources.Fingerprint }}
+  <script src="{{ $webmentions.Permalink }}" integrity="{{ $webmentions.Data.Integrity }}"></script>
   {{ if .Params.scripts }}
     {{ range .Params.scripts }}
       {{ $script := resources.Get (print "scripts/" .) | resources.Minify | resources.Fingerprint }}
