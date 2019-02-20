@@ -64,7 +64,7 @@ www.chrisdeluca.me {
         # Disallow the site to be rendered within a frame (clickjacking protection)
         X-Frame-Options "DENY"
         # Add a content security policy:
-        Content-Security-Policy "default-src 'self'; script-src 'self' www.youtube.com; frame-src 'self' www.youtube.com"
+        Content-Security-Policy "default-src 'self'; script-src 'self' www.youtube.com www.webmention.io; frame-src 'self' www.youtube.com"
     }
 
     # Set the correct mime type for web manifest files.
