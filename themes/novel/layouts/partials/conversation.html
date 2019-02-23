@@ -1,0 +1,30 @@
+{{ if .children }}
+<aside class="comments">
+  <h2>Conversation</h2>
+  {{ range sort .children "wm-received" "asc" }}
+    {{ $wmProperty := echoParam . "wm-property" }}
+    {{ $wmPrivate := echoParam . "wm-private" }}
+    {{ if $wmPrivate }}
+    {{ else }}
+      {{ $url := urls.Parse .author.url }}
+      <div class="comment">
+        {{ if eq $wmProperty "like-of" }}
+          <p class="comment__content comment__content--like">
+            👍 <a class="comment__author-name" href="{{ .author.url }}">{{ .author.name }}</a> liked this <a href="{{ .url }}">via {{ $url.Host }}</a>{{ if .published }} on <time class="comment_publish-time" datetime="{{ .published }}">{{ dateFormat "Jan 2, 2006 11:04:31" (time .published) }}</time>{{ end }}
+          </p>
+        {{ else }}
+          {{ if .author.photo }}<img class="comment__photo" src="{{ .author.photo }}" width="50" height="50">{{ end }}
+          <div class="comment__content">
+            <p class="comment__author">
+              <a href="{{ .author.url }}" class="comment__author-name">{{ .author.name }}</a>
+              wrote <a href="{{ .url }}" class="comment__author-service">via {{ $url.Host }}</a>
+              {{ if .published }}on <time class="comment_publish-time" datetime="{{ .published }}">{{ dateFormat "Jan 2, 2006 11:04:31" (time .published) }}</time>{{ end }}
+            </p>
+            <p class="comment__message">{{ .content.text }}</p>
+          </div>
+        {{ end }}
+      </div>
+    {{ end }}
+  {{ end }}
+</aside>
+{{ end }}
