@@ -36,7 +36,7 @@
           {{ .Content }}
           <div class="game-buttons">
             {{ if .Params.is_terminal }}
-              <button class="game-button" data-target-id="restart">Restart</button>
+              <button class="game-button" data-target-id="restart">Try again</button>
             {{ else }}
               {{ range .Params }}
                 {{ if . }}<button class="game-button" data-target-id="game-scene-{{ .id }}">{{ .text }}</button>{{ end }}

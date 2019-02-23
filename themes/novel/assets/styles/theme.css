@@ -59,6 +59,14 @@ button:hover {
     background-color: #2473d1;
 }
 
+.game-button[data-target-id="restart"]::after {
+    content: "?";
+}
+
+.game-button[data-target-id="restart"]:hover::after {
+    content: "!";
+}
+
 /* }}} */
 
 /* Headings {{{ */

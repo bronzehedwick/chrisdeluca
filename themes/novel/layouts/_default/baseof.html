@@ -39,6 +39,10 @@
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#d1642a">
   <meta name="theme-color" content="#fdfcfa">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  {{ if .Resources.Match "game/*" }}
+    {{ $script := resources.Get "scripts/game.js" | resources.Minify | resources.Fingerprint }}
+    <script async defer src="{{ $script.Permalink }}" integrity="{{ $script.Data.Integrity }}"></script>
+  {{ end }}
 </head>
 
 <body class="{{ if .IsNode }}node{{ end }}{{ if .IsPage }}page{{ end }}{{ if .IsHome }} home{{ end }}">
@@ -83,17 +87,11 @@
 
     <small>&#169; {{ now.Format "2006" }} {{ .Site.Params.author }}. All rights reserved.</small>
   </footer>
-  {{ $webmentions := resources.Get "scripts/webmentions.js" | resources.Minify | resources.Fingerprint }}
-  <script src="{{ $webmentions.Permalink }}" integrity="{{ $webmentions.Data.Integrity }}"></script>
   {{ if .Params.scripts }}
     {{ range .Params.scripts }}
       {{ $script := resources.Get (print "scripts/" .) | resources.Minify | resources.Fingerprint }}
       <script src="{{ $script.Permalink }}" integrity="{{ $script.Data.Integrity }}"></script>
     {{ end }}
-  {{ end }}
-  {{ if .Resources.Match "game/*" }}
-    {{ $script := resources.Get "scripts/game.js" | resources.Minify | resources.Fingerprint }}
-    <script src="{{ $script.Permalink }}" integrity="{{ $script.Data.Integrity }}"></script>
   {{ end }}
 </body>
 </html>
