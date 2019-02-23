@@ -505,6 +505,38 @@ summary {
 
 /* }}} */
 
+/* Comments {{{ */
+
+.comments {
+    font-size: 0.75em;
+}
+
+.comment {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.comment__photo {
+    flex: 0 0 50px;
+    height: 50px;
+    margin: 0px 2ch 0px 0px;
+}
+
+.comment__content {
+    margin-top: 0px;
+}
+
+.comment__content--like,
+.comment__author {
+    font-size: 0.85em;
+}
+
+.comment__message {
+    text-indent: 0px
+}
+
+/* }}} */
+
 /* Social links {{{ */
 
 .social-links a {

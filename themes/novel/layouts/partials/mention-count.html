@@ -1,0 +1,8 @@
+{{ if .children }}
+  {{ $comments := where .children "wm-property" "in-reply-to" }}
+  {{ $likes := where .children "wm-property" "like-of" }}
+  <div class="mention-count">
+    <span class="mention-count__comments">💬 {{ len $comments }} replies</span>
+    <span class="mention-count__likes">👍 {{ len $likes }} likes</span>
+  </div>
+{{ end }}

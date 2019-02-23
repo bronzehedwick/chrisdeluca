@@ -1,5 +1,7 @@
 {{ define "main" }}
 
+  {{ $webmentions := getJSON "https://webmention.io/api/mentions.jf2?target=" .Permalink }}
+
   <article>
     <header>
       <h1>
@@ -28,6 +30,7 @@
     </header>
 
     {{ .Content }}
+    {{ partial "mention-count" $webmentions }}
 
     {{ with .Resources.Match "game/*" }}
       {{ range $index, $value := . }}
@@ -63,6 +66,7 @@
           {{ end }}
         </ul>
       </nav>
+      {{ partial "conversation" $webmentions }}
     </footer>
   </article>
 
