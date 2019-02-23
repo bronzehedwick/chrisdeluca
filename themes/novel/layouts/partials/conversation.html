@@ -8,11 +8,7 @@
     {{ else }}
       {{ $url := urls.Parse .author.url }}
       <div class="comment">
-        {{ if eq $wmProperty "like-of" }}
-          <p class="comment__content comment__content--like">
-            👍 <a class="comment__author-name" href="{{ .author.url }}">{{ .author.name }}</a> liked this <a href="{{ .url }}">via {{ $url.Host }}</a>{{ if .published }} on <time class="comment_publish-time" datetime="{{ .published }}">{{ dateFormat "Jan 2, 2006 11:04:31" (time .published) }}</time>{{ end }}
-          </p>
-        {{ else }}
+        {{ if eq $wmProperty "in-reply-to" }}
           {{ if .author.photo }}<img class="comment__photo" src="{{ .author.photo }}" width="50" height="50">{{ end }}
           <div class="comment__content">
             <p class="comment__author">
@@ -22,6 +18,10 @@
             </p>
             <p class="comment__message">{{ .content.text }}</p>
           </div>
+        {{ else }}
+          <p class="comment__content comment__content--secondary comment__content--{{ $wmProperty }}">
+            {{ if eq $wmProperty "like-of" }}👍 {{ else if eq $wmProperty "repost-of" }}🔁 {{ end }}<a class="comment__author-name" href="{{ .author.url }}">{{ .author.name }}</a> {{ if eq $wmProperty "like-of" }}liked{{ else if eq $wmProperty "repost-of" }}reposted{{ end }} this <a href="{{ .url }}">via {{ $url.Host }}</a>{{ if .published }} on <time class="comment_publish-time" datetime="{{ .published }}">{{ dateFormat "Jan 2, 2006 11:04:31" (time .published) }}</time>{{ end }}
+          </p>
         {{ end }}
       </div>
     {{ end }}

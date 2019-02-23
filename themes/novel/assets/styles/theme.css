@@ -534,7 +534,7 @@ summary {
     margin-top: 0px;
 }
 
-.comment__content--like,
+.comment__content--secondary,
 .comment__author {
     font-size: 0.85em;
 }
