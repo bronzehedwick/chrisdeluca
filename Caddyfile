@@ -93,6 +93,25 @@ www.gwengween.com {
 
 # }}}
 
+# papercomputergames.com {{{
+
+# Redirect from www to the plain root.
+www.papercomputergames.com {
+    redir 301 {
+        / https://papercomputergames.com{uri}
+    }
+}
+
+# Domain configuration.
+papercomputergames.com {
+    # Server root.
+    root /usr/local/www/papercomputergames.com
+    # Turn on gzip compression
+    gzip
+}
+
+# }}}
+
 # patricialhorvath.com {{{
 
 # Redirect all www traffic to base domain
