@@ -1,6 +1,4 @@
-##################
-# chrisdeluca.me #
-##################
+# chrisdeluca.me {{{
 
 # Redirect all traffic to www
 chrisdeluca.me {
@@ -74,9 +72,9 @@ www.chrisdeluca.me {
 
 }
 
-#################
-# gwengween.com #
-#################
+# }}}
+
+# gwengween.com {{{
 
 # Gwen Gween domain redirect
 gwengween.com {
@@ -93,9 +91,9 @@ www.gwengween.com {
     gzip
 }
 
-########################
-# patricialhorvath.com #
-########################
+# }}}
+
+# patricialhorvath.com {{{
 
 # Redirect all www traffic to base domain
 www.patricialhorvath.com {
@@ -112,9 +110,9 @@ patricialhorvath.com {
     gzip
 }
 
-####################
-# swiftglidden.com #
-####################
+# }}}
+
+# swiftglidden.com {{{
 
 # Swift Glidden domain redirect
 www.swiftglidden.com {
@@ -159,9 +157,9 @@ swiftglidden.com {
 
 }
 
-####################
-# duncecap.nyc     #
-####################
+# }}}
+
+# duncecap.nyc {{{
 
 # Dunce Cap domain redirect
 www.duncecap.nyc {
@@ -225,9 +223,9 @@ duncecap.nyc {
 
 }
 
-#####################
-# de-evolution.band #
-#####################
+# }}}
+
+# de-evolution.band {{{
 
 # De Evolution domain redirect
 www.de-evolution.band {
@@ -293,4 +291,6 @@ de-evolution.band {
 
 }
 
-# vim set ft=conf
+# }}}
+
+# vim: ft=conf fdm=marker
