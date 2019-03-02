@@ -2,7 +2,8 @@
 'use strict';
 
 const fs = require('fs');
-const data = require('/Users/chris/Downloads/share.json');
+const https = require('https');
+const auth_token = process.env.PINBOARD_AUTH_TOKEN;
 
 // Utilities {{{
 
@@ -30,21 +31,29 @@ function getWeekOfMonth(date) {
         week = 6;
     }
     return week;
-};
+}
 
 const months = [ 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December' ];
 
 // }}}
 
-const todaysDate = new Date();
-const title = `Reading picks for week ${getWeekOfMonth(todaysDate)} of ${months[todaysDate.getMonth()]}, ${todaysDate.getFullYear()}`;
+const today = new Date();
+const lastWeek = new Date();
+lastWeek.setDate(lastWeek.getDate() - 7);
+const url = `https://api.pinboard.in/v1/posts/all?tag=share&format=json&fromdt=${lastWeek.toISOString()}&auth_token=${auth_token}`;
 
-let links = '';
-data.forEach(item => {
-    links += `+ [${item.description}](${item.href})<br>${item.extended}` + '\n';
-});
+https.get(url, response => {
+    response.on('data', data => {
+        data = JSON.parse(data);
+        const title = `Reading picks for week ${getWeekOfMonth(today)} of ${months[today.getMonth()]}, ${today.getFullYear()}`;
 
-const fileContents = `+++
+        let links = '';
+        data.forEach(item => {
+            links += `+ [${item.description}](${item.href})<br>${item.extended}` + '\n';
+        });
+
+const fileContents = `
++++
 title = "${title}"
 date = ${new Date(Date.now()).toISOString()}
 categories = [ "Links" ]
@@ -56,14 +65,16 @@ This is what I've been reading this past week.
 
 ${links}
 
-There it is, and here we are. Go forth.`;
+There it is, and here we are. Go forth.
+`;
 
-fs.writeFile(`/Users/chris/Sites/chrisdeluca.me/content/article/${title.replace(',', '').toLowerCase().split(' ').join('-')}.md`, fileContents, err => {
-    if (err) {
-        return console.error(err);
-    }
+        fs.writeFile(`/Users/chris/Sites/chrisdeluca.me/content/article/${title.replace(',', '').toLowerCase().split(' ').join('-')}.md`, fileContents, err => {
+            if (err) {
+                return console.error(err);
+            }
+            console.log("The file was saved!");
+        });
+    });
+}).on('error', event => console.error(`Got error: ${event.message}`));
 
-    console.log("The file was saved!");
-});
-
-// vim: foldmethod=marker
+// // vim: foldmethod=marker
