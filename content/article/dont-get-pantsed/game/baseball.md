@@ -1,5 +1,11 @@
 +++
-is_terminal = true
+[choice1]
+  text = "Get changed"
+  id = "get-changed"
+
+[choice2]
+  text = "Go to the bathroom"
+  id = "bathroom"
 +++
 
 You try out for the baseball team, and while your picked second to last,
@@ -16,5 +22,12 @@ Another kid motions you over, the half-way sensitive Phillipe.
 
 "My name's Manny," you say.
 
-"No yet it isn't, new kid." Phillipe pretends to drop a mic, makes an
-explosion sound,
+"No yet it isn't, new kid." Phillipe pretends to drop a mic, makes
+an explosion sound, and backs away. He cuts himself off with a grin,
+slumping casually.
+
+"I'm just playing, Manny. Come on, get changed. Just a joke."
+
+You'll have to get used to jock "jokes" again.
+
+The locker room roils with untethered masculinity. You hold your bag.
