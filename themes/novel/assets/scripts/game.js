@@ -84,12 +84,25 @@ if (!Array.from) {
 (function game() {
     'use strict';
 
+    var achievements = JSON.parse(window.localStorage.getItem('achievements'));
+    var pageKey = window.location.pathname.replace('/article/', '').replace('/','');
     var interaction = 'click';
     if (typeof PointerEvent === 'function') {
         interaction = 'pointerup';
     }
 
+    function addAchievementToDOM(text) {
+        var achievementItem = document.createElement('li');
+        achievementItem.textContent = text;
+        document.getElementById('achievements-list').appendChild(achievementItem);
+    }
+
+    if (achievements && achievements[pageKey] && achievements[pageKey].length > 0) {
+        achievements[pageKey].forEach(addAchievementToDOM);
+    }
+
     document.documentElement.addEventListener(interaction, function choiceClicks(event) {
+        var achievement = event.target.dataset.achievement;
         if (!event.target.closest('.game-button')) {
             return false;
         }
@@ -107,6 +120,24 @@ if (!Array.from) {
                 });
             // Show the starting segment.
             document.querySelector('.game-scene').hidden = false;
+            // Achievement.
+            if (achievement) {
+                if (!achievements || !achievements[pageKey]) {
+                    achievements = {};
+                    achievements[pageKey] = [];
+                }
+                if (achievements[pageKey].indexOf(achievement) !== -1) {
+                    return false;
+                }
+                document.getElementById('achievement-message').textContent = achievement;
+                document.getElementById('achievement').classList.add('achievement--active');
+                window.setTimeout(function hideAchievementMessage() {
+                    document.getElementById('achievement').classList.remove('achievement--active');
+                }, 5000);
+                addAchievementToDOM(achievement);
+                achievements[pageKey].push(achievement);
+                window.localStorage.setItem('achievements', JSON.stringify(achievements));
+            }
             return;
         }
 

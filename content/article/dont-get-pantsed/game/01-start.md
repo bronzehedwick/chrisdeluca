@@ -140,14 +140,11 @@ laughing. Everyone was laughing. They moved on.
 "Nahhh, you're getting pantsed," said Dylan. Great, more fatalism. It's
 going to be a long summer.
 
-## Poker
-
-## Canoeing
-
-## Midnight Swim
-
-## Locker Room
-
-## Baseball
-
-## Talent Show
+<!--
+Poker
+Canoeing
+Midnight Swim
+Locker Room
+Baseball
+Talent Show
+-->

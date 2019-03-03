@@ -545,6 +545,30 @@ summary {
 
 /* }}} */
 
+/* Achievements {{{ */
+
+.achievement {
+    padding: 1em;
+    border: 2px solid limegreen;
+    background-color: lightgreen;
+    opacity: 0;
+    position: fixed;
+    top: -7em;
+    right: 1em;
+    transition: opacity 150ms, transform 200ms;
+}
+
+.achievement--active {
+    opacity: 1;
+    transform: translateY(8em);
+}
+
+.achievement__headline {
+    margin-top: 0px;
+}
+
+/* }}} */
+
 /* Social links {{{ */
 
 .social-links a {

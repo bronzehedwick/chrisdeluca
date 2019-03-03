@@ -27,6 +27,13 @@
           </details>
         {{ end }}
       {{ end }}
+
+      {{ if .Resources.Match "game/*" }}
+        <details>
+          <summary>Achievements</summary>
+          <ul id="achievements-list"></ul>
+        </details>
+      {{ end }}
     </header>
 
     {{ .Content }}
@@ -39,7 +46,7 @@
           {{ .Content }}
           <div class="game-buttons">
             {{ if .Params.is_terminal }}
-              <button class="game-button" data-target-id="restart">Try again</button>
+              <button class="game-button" data-target-id="restart"{{ if .Params.achievement }} data-achievement="{{ .Params.achievement }}"{{ end }}>Try again</button>
             {{ else }}
               {{ range .Params }}
                 {{ if . }}<button class="game-button" data-target-id="game-scene-{{ .id }}">{{ .text }}</button>{{ end }}
@@ -48,6 +55,10 @@
           </div>
         </div>
       {{ end }}
+      <aside id="achievement" class="achievement">
+        <h3 class="achievement__headline">Achievement unlocked!</h3>
+        <p id="achievement-message" class="achievement__message"></p>
+      </aside>
     {{ end }}
 
     <footer>
