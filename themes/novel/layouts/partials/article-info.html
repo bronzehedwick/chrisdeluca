@@ -26,5 +26,5 @@
     {{ end }}
   </div>
 
-  <div class="article-info__reading">Reading time: {{ .ReadingTime }} {{ if gt .ReadingTime 1 }}minutes{{ end }}{{ if eq .ReadingTime 1 }}minute{{ end }}</div>
+  {{ if .Resources.Match "game/*" }}{{ else }}<div class="article-info__reading">Reading time: {{ .ReadingTime }} {{ if gt .ReadingTime 1 }}minutes{{ end }}{{ if eq .ReadingTime 1 }}minute{{ end }}</div>{{ end }}
 </div>
