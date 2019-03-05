@@ -31,7 +31,7 @@ article + article {
 }
 
 pre, code, kbd, samp {
-    font-family: Menlo, Courier, monospace, monospace;
+    font-family: "Fira Code", Menlo, Courier, monospace, monospace;
     font-size: 0.70em;
 }
 
