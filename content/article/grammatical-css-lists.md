@@ -54,17 +54,17 @@ Behold!
 }
 
 /* Add a comma after each item. */
-.item:after {
+.item::after {
   content: ', ';
 }
 
 /* Add the word "and" between the last two items. */
-.item:last-of-type:before {
+.item:last-of-type::before {
   content: ' and ';
 }
 
 /* Remove the comma after the last item. */
-.item:last-of-type:after {
+.item:last-of-type::after {
   content: '';
 }
 ```
