@@ -395,7 +395,6 @@ article footer ul {
 
 .pagination,
 nav li,
-article header li,
 article footer li {
     list-style-type: none;
 }
@@ -406,15 +405,12 @@ article footer li {
 
 nav li {
     display: inline-block;
-    margin-right: 1em;
 }
 
-nav li:last-of-type {
-    margin-right: 0px;
+nav li + li {
+    margin-left: 1em;
 }
 
-article header ul,
-article header li,
 article footer ul,
 article footer li {
     display: inline;
@@ -442,12 +438,6 @@ article footer li {
     text-align: right;
 }
 
-#TableOfContents li li {
-    display: list-item;
-    list-style-type: disc;
-    list-style-position: outside;
-}
-
 /* }}} */
 
 /* Table of Contents {{{ */
@@ -460,6 +450,12 @@ article footer li {
 
 #TableOfContents > ul {
     padding: 0px;
+}
+
+#TableOfContents li li {
+    display: list-item;
+    list-style-type: disc;
+    list-style-position: outside;
 }
 
 /* }}} */
@@ -489,6 +485,11 @@ summary {
 
 .article-info * + * {
     margin-top: 0px;
+}
+
+.article-info ul,
+.article-info li {
+    display: inline;
 }
 
 .article-info ul {
