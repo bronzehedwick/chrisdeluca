@@ -1,6 +1,9 @@
 {{ define "main" }}
 
-  {{ $webmentions := getJSON "https://webmention.io/api/mentions.jf2?target=" .Permalink }}
+  {{ $webmentions := false }}
+  {{ if ne .Hugo.Environment "development" }}
+    {{ $webmentions := getJSON "https://webmention.io/api/mentions.jf2?target=" .Permalink }}
+  {{ end }}
 
   <article>
     <header>
@@ -38,7 +41,7 @@
     </header>
 
     {{ .Content }}
-    {{ partial "mention-count" $webmentions }}
+    {{ if $webmentions }}{{ partial "mention-count" $webmentions }}{{ end }}
 
     {{ with .Resources.Match "game/*" }}
       {{ range $index, $value := . }}
@@ -78,7 +81,7 @@
           {{ end }}
         </ul>
       </nav>
-      {{ partial "conversation" $webmentions }}
+      {{ if $webmentions }}{{ partial "conversation" $webmentions }}{{ end }}
     </footer>
   </article>
 
