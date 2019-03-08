@@ -10,7 +10,7 @@
   {{ template "_internal/twitter_cards.html" . }}
   <title>{{ title .Title }}</title>
   {{ range .Site.Params.socialLinks }}
-  <link href="{{ .url }}" rel="me">
+    <link href="{{ .url }}" rel="me">
   {{ end }}
   <link rel="me" href="https://micro.blog/chrisd">
   <link rel="pgpkey" href="/files/chris-deluca-pgp.pub.asc">

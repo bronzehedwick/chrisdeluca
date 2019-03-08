@@ -36,6 +36,12 @@ copyright = "Chris DeLuca, all rights reserved."
     weight = 50
     featured = true
 
+  [params.socialLinks.mastodon]
+    name = "Mastodon"
+    url = "https://mastodon.social/@bronzehedwick"
+    weight = 40
+    featured = false
+
   [params.socialLinks.stackoverflow]
     name = "StackOverflow"
     url = "http://stackoverflow.com/users/1143575/bronzehedwick"
