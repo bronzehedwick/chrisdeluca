@@ -45,7 +45,7 @@
 
     {{ with .Resources.Match "game/*" }}
       {{ range $index, $value := . }}
-        {{ $id := replace .Name "game/" "-"  }}
+        {{ $id := replace .Name "game/" "-" }}
         <div id="game-scene{{ replace $id ".md" "" }}" class="game-scene"{{ if gt $index 0 }} hidden{{ end }}>
           {{ .Content }}
           <div class="game-buttons">
@@ -53,7 +53,7 @@
               <button class="game-button" data-target-id="restart"{{ if .Params.achievement }} data-achievement="{{ .Params.achievement }}"{{ end }}>Try again</button>
             {{ else }}
               {{ range .Params }}
-                {{ if . }}<button class="game-button" data-target-id="game-scene-{{ .id }}">{{ .text }}</button>{{ end }}
+                {{ if isset . "id" }}<button class="game-button" data-target-id="game-scene-{{ .id }}">{{ .text }}</button>{{ end }}
               {{ end }}
             {{ end }}
           </div>
