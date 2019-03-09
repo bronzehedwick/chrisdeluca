@@ -132,12 +132,17 @@ p + p {
 }
 
 @supports (initial-letter: 3) or (-webkit-initial-letter: 3) {
-    section header + p::first-letter,
-    article header + p::first-letter {
+    .page article header + p::first-letter {
         -webkit-initial-letter: 3;
         initial-letter: 3;
         margin-right: 0.5ch;
         color: #ff725c;
+    }
+    .page .article--links header + p::first-letter {
+        -webkit-initial-letter: 1;
+        letter: 1;
+        margin-right: auto;
+        color: initial;
     }
 }
 
