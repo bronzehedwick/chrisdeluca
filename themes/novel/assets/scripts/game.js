@@ -86,6 +86,8 @@ if (!Array.from) {
 
     var achievements = JSON.parse(window.localStorage.getItem('achievements'));
     var pageKey = window.location.pathname.replace('/article/', '').replace('/','');
+    var totalAchievements = document.querySelectorAll('[data-achievement]').length;
+    var achievementsHeadline = document.getElementById('achievements-headline');
     var interaction = 'click';
     if (typeof PointerEvent === 'function') {
         interaction = 'pointerup';
@@ -99,7 +101,12 @@ if (!Array.from) {
 
     if (achievements && achievements[pageKey] && achievements[pageKey].length > 0) {
         achievements[pageKey].forEach(addAchievementToDOM);
+        achievementsHeadline.textContent += ' ' + achievements[pageKey].length + '/' + totalAchievements;
     }
+    else {
+        achievementsHeadline.textContent += ' 0/' + totalAchievements;
+    }
+    console.log(achievementsHeadline);
 
     document.documentElement.addEventListener(interaction, function choiceClicks(event) {
         var achievement = event.target.dataset.achievement;
