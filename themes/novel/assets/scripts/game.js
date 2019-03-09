@@ -143,8 +143,15 @@ if (!Array.from) {
 
         // Show the path selected.
         document.getElementById(event.target.dataset.targetId).hidden = false;
-        // Hide the buttons to choose the current path.
-        event.target.parentNode.hidden = true;
+        // Disable the buttons to choose the current path, and indicate your correct choice.
+        Array.from(
+            event.target.parentNode.querySelectorAll('.game-button')
+        ).forEach(function disableButtons(button) {
+            button.setAttribute('disabled', 'disabled');
+            if (button.dataset.targetId === event.target.dataset.targetId) {
+                button.textContent = button.textContent + ' ✅';
+            }
+        });
     }, false);
 })();
 
