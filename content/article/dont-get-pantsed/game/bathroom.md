@@ -1,3 +1,14 @@
++++
+achievement = "Yeah!"
+
+[choice1]
+  text = "Whoaaa"
+  id = "scene3"
+
+[choice2]
+  text = "Yeahhh"
+  id = "scene3"
++++
 You take your bag into the bathroom. Almost instantly, the boys figure
 out what you're doing, and start jeering.
 
