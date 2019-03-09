@@ -1,6 +1,4 @@
 +++
-achievement = "Anti-Anger Mangement"
-
 [choice1]
   text = "Whoaaa"
   id = "scene3"

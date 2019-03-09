@@ -1,11 +1,13 @@
 +++
-[choice1]
+[yell]
   text = "Yell at him"
   id = "yell"
+  achievement = "Anti-Anger Mangement"
 
-[choice2]
+[run]
   text = "Run away"
   id = "run"
+  achievement = "Chicken shit"
 +++
 
 You are Manny Alvarez. You like playing baseball, playing bass, and not

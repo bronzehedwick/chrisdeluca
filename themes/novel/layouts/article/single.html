@@ -50,10 +50,20 @@
           {{ .Content }}
           <div class="game-buttons">
             {{ if .Params.is_terminal }}
-              <button class="game-button" data-target-id="restart"{{ if .Params.achievement }} data-achievement="{{ .Params.achievement }}"{{ end }}>Try again</button>
+              <button class="game-button" data-target-id="restart">Try again</button>
             {{ else }}
               {{ range .Params }}
-                {{ if isset . "id" }}<button class="game-button" data-target-id="game-scene-{{ .id }}">{{ .text }}</button>{{ end }}
+                {{ if isset . "id" }}
+                  <button
+                    class="game-button"
+                    data-target-id="game-scene-{{ .id }}"
+                    {{ if isset . "achievement" }}
+                      data-achievement="{{ .achievement }}"
+                    {{ end }}
+                  >
+                    {{ .text }}
+                  </button>
+                {{ end }}
               {{ end }}
             {{ end }}
           </div>

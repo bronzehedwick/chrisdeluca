@@ -1,5 +1,4 @@
 +++
-achievement = "Chicken shit"
 is_terminal = true
 +++
 
