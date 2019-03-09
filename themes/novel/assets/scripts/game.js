@@ -113,13 +113,20 @@ if (!Array.from) {
                 .forEach(function hideGamePath(element) {
                     element.hidden = true;
                 });
-            // Show all choices again.
-            Array.from(document.querySelectorAll('.game-buttons'))
+            // Re-enable all choices.
+            Array.from(document.querySelectorAll('.game-button'))
                 .forEach(function showChoices(element) {
-                    element.hidden = false;
+                    element.removeAttribute('disabled');
+                    element.classList.remove('game-button--selected');
                 });
             // Show the starting segment.
             document.querySelector('.game-scene').hidden = false;
+            // Scroll to top, aka the beginning of the story.
+            window.scrollTo({
+                top: 0,
+                left: 0,
+                behavior: 'smooth'
+            });
             // Achievement.
             if (achievement) {
                 if (!achievements || !achievements[pageKey]) {
@@ -149,7 +156,7 @@ if (!Array.from) {
         ).forEach(function disableButtons(button) {
             button.setAttribute('disabled', 'disabled');
             if (button.dataset.targetId === event.target.dataset.targetId) {
-                button.textContent = button.textContent + ' ✅';
+                button.classList.add('game-button--selected');
             }
         });
     }, false);

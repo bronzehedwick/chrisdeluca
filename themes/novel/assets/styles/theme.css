@@ -64,7 +64,10 @@ button[disabled] {
     cursor: not-allowed;
     color: #9d9d9d;
     border-color: currentColor;
-    background-color: inherit;
+}
+
+button[disabled]:hover {
+    background-color: #fdfcfa;
 }
 
 .game-button[data-target-id="restart"]::after {
@@ -73,6 +76,12 @@ button[disabled] {
 
 .game-button[data-target-id="restart"]:hover::after {
     content: "!";
+}
+
+.game-button--selected[disabled]:hover,
+.game-button--selected:hover,
+.game-button--selected {
+    background-color: #f0f8ff;
 }
 
 /* }}} */
