@@ -40,18 +40,17 @@ if (window.NodeList && !NodeList.prototype.forEach) {
                 achievements = {};
                 achievements[pageKey] = [];
             }
-            if (achievements[pageKey].indexOf(achievement) !== -1) {
-                return false;
+            if (achievements[pageKey].indexOf(achievement) === -1) {
+                document.getElementById('achievement-message').textContent = achievement;
+                document.getElementById('achievement').classList.add('achievement--active');
+                window.setTimeout(function hideAchievementMessage() {
+                    document.getElementById('achievement').classList.remove('achievement--active');
+                }, 5000);
+                addAchievementToDOM(achievement);
+                achievements[pageKey].push(achievement);
+                window.localStorage.setItem('achievements', JSON.stringify(achievements));
+                document.getElementById('achievements-count').textContent = achievements[pageKey].length + '/' + totalAchievements;
             }
-            document.getElementById('achievement-message').textContent = achievement;
-            document.getElementById('achievement').classList.add('achievement--active');
-            window.setTimeout(function hideAchievementMessage() {
-                document.getElementById('achievement').classList.remove('achievement--active');
-            }, 5000);
-            addAchievementToDOM(achievement);
-            achievements[pageKey].push(achievement);
-            window.localStorage.setItem('achievements', JSON.stringify(achievements));
-            document.getElementById('achievements-count').textContent = achievements[pageKey].length + '/' + totalAchievements;
         }
 
         if (event.target.dataset.targetId === 'restart') {
