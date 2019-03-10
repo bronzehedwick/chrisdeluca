@@ -22,12 +22,11 @@ if (window.NodeList && !NodeList.prototype.forEach) {
 
     if (achievements && achievements[pageKey] && achievements[pageKey].length > 0) {
         achievements[pageKey].forEach(addAchievementToDOM);
-        achievementsHeadline.textContent += ' ' + achievements[pageKey].length + '/' + totalAchievements;
+        achievementsHeadline.innerHTML += ' <span id="achievements-count">' + achievements[pageKey].length + '/' + totalAchievements + '</span>';
     }
     else {
-        achievementsHeadline.textContent += ' 0/' + totalAchievements;
+        achievementsHeadline.innerHTML += ' <span id="achievements-count">0/' + totalAchievements + '</span>';
     }
-    console.log(achievementsHeadline);
 
     document.documentElement.addEventListener(interaction, function choiceClicks(event) {
         var achievement = event.target.dataset.achievement;
@@ -52,6 +51,7 @@ if (window.NodeList && !NodeList.prototype.forEach) {
             addAchievementToDOM(achievement);
             achievements[pageKey].push(achievement);
             window.localStorage.setItem('achievements', JSON.stringify(achievements));
+            document.getElementById('achievements-count').textContent = achievements[pageKey].length + '/' + totalAchievements;
         }
 
         if (event.target.dataset.targetId === 'restart') {
