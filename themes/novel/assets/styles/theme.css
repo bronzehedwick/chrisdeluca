@@ -590,6 +590,10 @@ summary {
     margin-top: 0px;
 }
 
+.achievements-list:empty::after {
+    content: 'You got zilch.';
+}
+
 /* }}} */
 
 /* Social links {{{ */
