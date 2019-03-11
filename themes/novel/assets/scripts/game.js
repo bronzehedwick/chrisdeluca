@@ -68,11 +68,7 @@ if (window.NodeList && !NodeList.prototype.forEach) {
             // Show the starting segment.
             document.querySelector('.game-scene').hidden = false;
             // Scroll to top, aka the beginning of the story.
-            window.scrollTo({
-                top: 0,
-                left: 0,
-                behavior: 'smooth'
-            });
+            window.scrollTo(0, 0);
             return;
         }
 
