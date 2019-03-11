@@ -2,7 +2,7 @@
 is_terminal = true
 +++
 
-You set your jaw and stare Matt straight in the glazed over eye, then
+You set your jaw and stare Matt straight in the glazed-over eye, then
 turn and run as fast as you can.
 
 "You chicken shit!" Matt yells after you. You have a moment of panic as

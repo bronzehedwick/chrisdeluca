@@ -1,5 +1,4 @@
 +++
-achievement = "Self-Pantser"
 is_terminal = true
 +++
 

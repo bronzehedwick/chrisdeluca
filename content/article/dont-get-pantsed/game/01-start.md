@@ -1,12 +1,12 @@
 +++
 [yell]
   text = "Yell at him"
-  id = "yell"
+  id = "03-yell"
   achievement = "Anti-Anger Mangement"
 
 [run]
   text = "Run away"
-  id = "run"
+  id = "02-run"
   achievement = "Chicken shit"
 +++
 
@@ -65,12 +65,3 @@ bunch of other older kids. "Hi there Stripper Manny. Can't wait to see
 your show later. I heard it's all nude." The older kids are laughing.
 
 Do you…
-
-<!--
-Poker
-Canoeing
-Midnight Swim
-Locker Room
-Baseball
-Talent Show
--->
