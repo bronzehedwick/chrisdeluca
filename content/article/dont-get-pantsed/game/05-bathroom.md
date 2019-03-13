@@ -1,11 +1,18 @@
 +++
-[choice1]
-  text = "Whoaaa"
-  id = "scene3"
+[give-up]
+  text = "Give up"
+  id = "06-give-up"
+  achievement = "Quitter"
 
-[choice2]
-  text = "Yeahhh"
-  id = "scene3"
+[off-path]
+  text = "Throw yourself off the path"
+  id = "07-off-path"
+  achievement = "Off-Road"
+
+[cat-stance]
+  text = "Do cat stance"
+  id = "08-cat-stance"
+  achievement = "Bad Cat"
 +++
 
 You take your bag into the bathroom. Almost instantly, the boys figure
@@ -56,4 +63,54 @@ His grin stays fixed in place. You're now convinced he's completely
 genuine, and that doesn't comfort you. You both nod and wait for the
 hike to start.
 
-Other kids gather
+Other kids gather. Jerry, the most enthusiastic counselor at camp, leads
+the hike.
+
+"Alright, guys, let's conquer this mountain!" Jerry yells in six
+different octaves.
+
+Caleb, who once bragged about his then current boner, nudges you.
+
+"That's what _she_ said."
+
+He was one of the kids who didn't know what else to do.
+
+The hike is going okay. You zone out as the group winds along the trail,
+letting your mind wander amidst the bird song and smell of mulching
+leaves. The trails incline is getting steeper. You reach a rocky section
+that seems to go straight up.
+
+"Everyone get in single file, and go slowly," Jerry warns. "If the dirt
+slips out from under you, just drop into cat stance like we practiced,
+okay?"
+
+Cat stance? You don't remember anything about a cat stance. This was practiced?
+
+You nudge Caleb. "Hey, what's cat stance?"
+
+"It's how I fuck your mom," he says triumphantly, extending his hand for
+a high-five.
+
+"You can eat shit," you inform him.
+
+Caleb pushes past you.
+
+"Race ya!"
+
+You try to push past him, but trying to shove on a steep incline proves
+too much; the dirt slips from under you.
+
+You flail as you slide back down the incline, on the edge of wiping out.
+
+"Cat stance! Cat stance!" You hear screamed at you from all directions.
+
+Your speed increases. Your body tilts back. You twist around and time stops:
+
+She's very short, curvy, with toffee skin, ice-blue eyes, short hair
+dyed purple, a silver nose ring and kind dimples. You're in love. You
+know you're meant for each other. You can see how this moment will be a
+romantic story to tell your grandkids someday.
+
+She's perfect. She's right in your path. You flail.
+
+Do you…

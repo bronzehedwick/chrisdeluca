@@ -48,7 +48,7 @@ Another kid motions you over, the half-way sensitive Phillipe.
 
 "My name's Manny," you say.
 
-"No yet it isn't, new kid." Phillipe pretends to drop a mic, makes
+"Not yet it isn't, new kid." Phillipe pretends to drop a mic, makes
 an explosion sound, and backs away. He cuts himself off with a grin,
 slumping casually.
 
