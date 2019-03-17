@@ -57,8 +57,9 @@
                   <button
                     class="game-button"
                     data-target-id="game-scene-{{ .id }}"
-                    {{ if isset . "achievement" }}
-                      data-achievement="{{ .achievement }}"
+                    {{ with .achievement }}
+                      data-achievement-text="{{ .text }}"
+                      data-achievement-type="{{ .type }}"
                     {{ end }}
                   >
                     {{ .text }}
@@ -69,7 +70,7 @@
           </div>
         </div>
       {{ end }}
-      <aside id="achievement" class="achievement">
+      <aside id="achievement" class="achievement" data-achievement-type="good">
         <h3 class="achievement__headline">🏆 Achievement unlocked!</h3>
         <p id="achievement-message" class="achievement__message"></p>
       </aside>

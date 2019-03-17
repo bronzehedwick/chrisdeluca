@@ -2,17 +2,23 @@
 [give-up]
   text = "Give up"
   id = "06-give-up"
-  achievement = "Quitter"
+  [give-up.achievement]
+    text = "Quitter"
+    type = "bad"
 
 [off-path]
   text = "Throw yourself off the path"
   id = "07-off-path"
-  achievement = "Off-Road"
+  [off-path.achievement]
+    text = "Off-Road"
+    type = "good"
 
 [cat-stance]
   text = "Do cat stance"
   id = "08-cat-stance"
-  achievement = "Bad Cat"
+  [cat-stance.achievement]
+    text = "Bad Cat"
+    type = "good"
 +++
 
 You take your bag into the bathroom. Almost instantly, the boys figure

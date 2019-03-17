@@ -1,15 +1,17 @@
 +++
-achievement = "Anti-Anger Mangement"
-
 [change]
   text = "Get changed"
   id = "04-get-changed"
-  achievement = "Self-Pantser"
+  [change.achievement]
+    text = "Self-Pantser"
+    type = "bad"
 
 [bathroom]
   text = "Go to the bathroom"
   id = "05-bathroom"
-  achievement = "Stealth Master"
+  [bathroom.achievement]
+    text = "Stealth Master"
+    type = "good"
 +++
 
 "You're not pantsing me again, dick head!" You yell. The older

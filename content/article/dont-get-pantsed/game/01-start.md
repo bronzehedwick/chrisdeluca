@@ -2,12 +2,16 @@
 [yell]
   text = "Yell at him"
   id = "03-yell"
-  achievement = "Anti-Anger Mangement"
+  [yell.achievement]
+    text = "Anti-Anger Mangement"
+    type = "good"
 
 [run]
   text = "Run away"
   id = "02-run"
-  achievement = "Chicken shit"
+  [run.achievement]
+    text = "Chicken shit"
+    type = "bad"
 +++
 
 You are Manny Alvarez. You like playing baseball, playing bass, and not

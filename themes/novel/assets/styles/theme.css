@@ -576,13 +576,18 @@ summary {
 
 .achievement {
     padding: 1em;
-    border: 2px solid limegreen;
-    background-color: lightgreen;
+    border: 2px solid #32cd32;
+    background-color: #90ee90;
     opacity: 0;
     position: fixed;
     top: -7em;
     right: 1em;
     transition: opacity 150ms, transform 200ms;
+}
+
+.achievement[data-achievement-type="bad"] {
+    background-color: #ff4136;
+    border-color: #85144b;
 }
 
 .achievement--active {

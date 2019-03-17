@@ -1,13 +1,17 @@
 +++
 [in]
   text = "In"
-  achievement = "Stripper Manny"
   id = "10-in"
+  [in.achievement]
+    text = "Stripper Manny"
+    type = "good"
 
 [out]
   text = "Out"
-  achievement = "Phantom Pantsed"
   id = "09-out"
+  [out.achievement]
+    text = "Phantom Pantsed"
+    type = "bad"
 +++
 
 You throw yourself off the path, and tumble into a thorn bush. You're

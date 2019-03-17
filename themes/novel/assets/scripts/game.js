@@ -7,7 +7,7 @@ if (window.NodeList && !NodeList.prototype.forEach) {
 
     var achievements = JSON.parse(window.localStorage.getItem('achievements'));
     var pageKey = window.location.pathname.replace('/article/', '').replace('/','');
-    var totalAchievements = document.querySelectorAll('[data-achievement]').length;
+    var totalAchievements = document.querySelectorAll('[data-achievement-text]').length;
     var achievementsHeadline = document.getElementById('achievements-headline');
     var interaction = 'click';
     if (typeof PointerEvent === 'function') {
@@ -29,25 +29,27 @@ if (window.NodeList && !NodeList.prototype.forEach) {
     }
 
     document.documentElement.addEventListener(interaction, function choiceClicks(event) {
-        var achievement = event.target.dataset.achievement;
+        var achievementText = event.target.dataset.achievementText;
+        var achievementType = event.target.dataset.achievementType;
         if (!event.target.closest('.game-button')) {
             return false;
         }
 
         // Achievement.
-        if (achievement) {
+        if (achievementText) {
             if (!achievements || !achievements[pageKey]) {
                 achievements = {};
                 achievements[pageKey] = [];
             }
-            if (achievements[pageKey].indexOf(achievement) === -1) {
-                document.getElementById('achievement-message').textContent = achievement;
+            if (achievements[pageKey].indexOf(achievementText) === -1) {
+                document.getElementById('achievement-message').textContent = achievementText;
                 document.getElementById('achievement').classList.add('achievement--active');
+                document.getElementById('achievement').dataset.achievementType = achievementType;
                 window.setTimeout(function hideAchievementMessage() {
                     document.getElementById('achievement').classList.remove('achievement--active');
                 }, 5000);
-                addAchievementToDOM(achievement);
-                achievements[pageKey].push(achievement);
+                addAchievementToDOM(achievementText);
+                achievements[pageKey].push(achievementText);
                 window.localStorage.setItem('achievements', JSON.stringify(achievements));
                 document.getElementById('achievements-count').textContent = achievements[pageKey].length + '/' + totalAchievements;
             }
