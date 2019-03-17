@@ -27,7 +27,7 @@ laughing. Everyone is laughing. They moved on.
 
 "I'm not getting pantsed," you mutter, angry.
 
-"Nahhh, you're getting pantsed," Dylan yawns. More fatalism.
+"Nahhh, you're getting pantsed," Dylan yawns. More fatalism. Your pants are on.
 
 Success! :100:
 

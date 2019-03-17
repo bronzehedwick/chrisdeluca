@@ -32,9 +32,9 @@ Success! :100:
 
 ---
 
-A few days later you have a free block, and decide to take the nature
-hike. You remember from last year that the hike was mostly full of
-neo-hippies and kids who didn't know what else to do. Perfect.
+Sports are out, so the next day you decide to take the nature hike. You
+remember from last year that the hike was mostly full of neo-hippies and
+kids who didn't know what else to do. Perfect.
 
 You walk out to the starting spot in the meadow near the trees. You see
 a few groups of kids milling around. You walk towards the cluster who
@@ -69,7 +69,7 @@ the hike.
 "Alright, guys, let's conquer this mountain!" Jerry yells in six
 different octaves.
 
-Caleb, who once bragged about his then current boner, nudges you.
+Caleb, who last year bragged about his then-current boner, nudges you.
 
 "That's what _she_ said."
 
@@ -77,7 +77,7 @@ He was one of the kids who didn't know what else to do.
 
 The hike is going okay. You zone out as the group winds along the trail,
 letting your mind wander amidst the bird song and smell of mulching
-leaves. The trails incline is getting steeper. You reach a rocky section
+leaves. The trail's incline is getting steeper. You reach a rocky section
 that seems to go straight up.
 
 "Everyone get in single file, and go slowly," Jerry warns. "If the dirt
@@ -97,10 +97,10 @@ Caleb pushes past you.
 
 "Race ya!"
 
-You try to push past him, but trying to shove on a steep incline proves
+You try to push past him, but trying to shove on a steep hill proves
 too much; the dirt slips from under you.
 
-You flail as you slide back down the incline, on the edge of wiping out.
+You flail as you slide back, on the edge of wiping out.
 
 "Cat stance! Cat stance!" You hear screamed at you from all directions.
 
