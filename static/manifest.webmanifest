@@ -4,7 +4,7 @@
     "start_url": ".",
     "display": "standalone",
     "background_color": "#fdfcfa",
-    "description": "A simply readable Hacker News app.",
+    "description": "The blog of the person.",
     "icons": [
         {
             "src": "/android-chrome-192x192.png?v=XBzNqEm5wa",
