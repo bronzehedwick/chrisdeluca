@@ -69,6 +69,7 @@ www.chrisdeluca.me {
 
     # Set the correct mime type for web manifest files.
     mime .webmanifest application/manifest+json
+    mime .json application/json
 
 }
 
