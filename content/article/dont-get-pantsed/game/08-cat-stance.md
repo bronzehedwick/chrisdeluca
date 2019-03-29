@@ -13,6 +13,9 @@ crotch.
 
 You crash onto your back, sliding with a dirt avalanche right to your
 love's feet. Your pant rip provides an unflattering view of half your
-left testicle. You hiss and paw the air, like a cat.
+left testicle.
+
+Your body is well behind your brain, and you hiss and paw the air, like
+a cat.
 
 Your life is over. :skull:

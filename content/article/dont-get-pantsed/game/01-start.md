@@ -17,9 +17,9 @@
 You are Manny Alvarez. You like playing baseball, playing bass, and not
 getting pantsed.
 
-You grew up in Washington Heights, your parents are both CPAs, and
-Carlos Santana's _Supernatural_ album was a major event for your family.
-Even _Shaman_ was pretty big.
+You grew up in Washington Heights, your parents are both accountants,
+and Carlos Santana's _Supernatural_ album was a major event for your
+family. Even _Shaman_ was pretty big.
 
 Last year at camp, Matt Reichmann pantsed you seven times for, as he put
 it, "standing like a wiener." It's only your second year at summer camp,

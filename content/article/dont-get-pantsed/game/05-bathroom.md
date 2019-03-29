@@ -72,19 +72,18 @@ hike to start.
 Other kids gather. Jerry, the most enthusiastic counselor at camp, leads
 the hike.
 
-"Alright, guys, let's conquer this mountain!" Jerry yells in six
-different octaves.
+"Alright, guys, let's conquer this mountain!" Jerry screams.
 
-Caleb, who last year bragged about his then-current boner, nudges you.
+Caleb, a known pervert, nudges you.
 
 "That's what _she_ said."
 
 He was one of the kids who didn't know what else to do.
 
-The hike is going okay. You zone out as the group winds along the trail,
-letting your mind wander amidst the bird song and smell of mulching
-leaves. The trail's incline is getting steeper. You reach a rocky section
-that seems to go straight up.
+You zone out as the group winds along the trail, letting your mind
+wander amidst the bird song and smell of mulching leaves. The trail's
+incline is getting steeper. You reach a rocky section that seems to go
+straight up.
 
 "Everyone get in single file, and go slowly," Jerry warns. "If the dirt
 slips out from under you, just drop into cat stance like we practiced,
@@ -103,7 +102,7 @@ Caleb pushes past you.
 
 "Race ya!"
 
-You try to push past him, but trying to shove on a steep hill proves
+You try to get ahead of him, but trying to shove on a steep hill proves
 too much; the dirt slips from under you.
 
 You flail as you slide back, on the edge of wiping out.

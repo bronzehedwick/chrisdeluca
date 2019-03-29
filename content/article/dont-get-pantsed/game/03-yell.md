@@ -25,11 +25,13 @@ Becky pushes Matt. "Oh my God, you're so immature."
 Matt fains hurt. "Me? Immature? How dare you?" He lets out a low belch.
 
 "Ugh, you're disgusting," Becky yells, pushing him again. But she's
-laughing. Everyone is laughing. They moved on.
+laughing. Everyone is laughing. They move on.
 
 "I'm not getting pantsed," you mutter, angry.
 
-"Nahhh, you're getting pantsed," Dylan yawns. More fatalism. Your pants are on.
+"Nahhh, you're getting pantsed," Dylan yawns. More fatalism.
+
+Your pants are on.
 
 Success! :100:
 

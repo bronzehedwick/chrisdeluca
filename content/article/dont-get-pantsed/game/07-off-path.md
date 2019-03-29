@@ -21,9 +21,11 @@ well-being, but many more think you're an immature jackass for racing up
 a mountain and spacing out about cat stance.
 
 You find out your love's name is Mia, and that she is very firmly in the
-latter camp.
+latter group.
 
-You heart breaks every time she rolls her eyes. Your pants are still on.
+You heart breaks every time she rolls her eyes.
+
+Your pants are still on.
 
 Success! :100:
 
