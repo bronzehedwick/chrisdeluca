@@ -64,8 +64,14 @@ crowd of other kids.
 
 You get shoved from behind.
 
-"Look who it is!" It was Matt Reichmann, his girlfriend Becky, and a
-bunch of other older kids. "Hi there Stripper Manny. Can't wait to see
-your show later. I heard it's all nude." The older kids are laughing.
+"Look who it is!"
+
+It was Matt Reichmann, his girlfriend Becky, and a bunch of other older
+kids.
+
+"Hi there Stripper Manny. Can't wait to see your show later. I heard
+it's all nude."
+
+The older kids are laughing.
 
 Do you…
