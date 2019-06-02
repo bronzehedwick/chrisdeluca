@@ -18,4 +18,7 @@ stop: ## Kill background hugo process.
 minify: ## Minify the generated HTML.
 	@find public/ -type f -name \*.html | xargs -I {} minify --type html --output {} {}
 
+note: ## Create new note (micro blog)
+	@hugo new note/$$(date +'%s').md
+
 restart: stop serve ## Restart the hugo server.
