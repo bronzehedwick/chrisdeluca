@@ -1,6 +1,5 @@
 {{ $arg0 := .Get 0 }}
 {{ $csvResource := .Page.Resources.GetMatch $arg0 }}
-{{ if not .Site.IsServer }}
 {{ $parsedCsv := getCSV "," $csvResource.Permalink }}
 {{ $resources := .Page.Resources }}
 <div class="responsive-table">
@@ -18,12 +17,14 @@
         {{ range . }}
         <td>
           {{ if in . "jpg" }}
-          {{ $imgPath := printf "%s%s" "images/" . }}
-          {{ $img := $resources.GetMatch $imgPath }}
-          {{ $image := $img.Fill "100x100" }}
-          <img src="{{ $image.Permalink }}" alt="{{ replace . ".jpg" "" | humanize }}">
+            {{ $imgPath := printf "%s%s" "images/" . }}
+            {{ $img := $resources.GetMatch $imgPath }}
+            {{ if $img }}
+              {{ $image := $img.Fill "100x100" }}
+              <img src="{{ $image.Permalink }}" alt="{{ replace . ".jpg" "" | humanize }}">
+            {{ end }}
           {{ else }}
-          {{ . }}
+            {{ . }}
           {{ end }}
         </td>
         {{ end }}
@@ -32,4 +33,3 @@
     </tbody>
   </table>
 </div>
-{{ end }}
