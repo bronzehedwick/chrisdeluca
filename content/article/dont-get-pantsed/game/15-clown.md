@@ -1,2 +1,5 @@
++++
+is_terminal = true
++++
 
-Success! :100:
+Your life is over. :skull:
