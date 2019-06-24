@@ -5,7 +5,7 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="{{ .Site.Params.description }}">
-  {{ .Hugo.Generator }}
+  {{ hugo.Generator }}
   <title>{{ title .Title }}</title>
   {{ $reveal := resources.Get "styles/vendor/reveal.css" | resources.Minify | resources.Fingerprint }}
   <link rel="stylesheet" href="{{ $reveal.Permalink }}" integrity="{{ $reveal.Data.Integrity }}">

@@ -1,7 +1,7 @@
 {{ define "main" }}
 
   {{ $webmentions := false }}
-  {{ if ne .Hugo.Environment "development" }}
+  {{ if ne hugo.Environment "development" }}
     {{ $webmentions = getJSON "https://webmention.io/api/mentions.jf2?target=" .Permalink }}
   {{ end }}
 
