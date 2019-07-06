@@ -1,3 +1,4 @@
+{{ if not .Site.IsServer }}
 {{ $arg0 := .Get 0 }}
 {{ $csvResource := .Page.Resources.GetMatch $arg0 }}
 {{ $parsedCsv := getCSV "," $csvResource.Permalink }}
@@ -33,3 +34,6 @@
     </tbody>
   </table>
 </div>
+{{ else }}
+<p><em>CSV fetching is disabled on local servers due to Hugo's technical limitations.</em></p>
+{{ end }}
