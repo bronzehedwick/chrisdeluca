@@ -1,74 +1,87 @@
 +++
 title = "Christopher DeLuca"
 date = 2019-07-06T17:21:21-04:00
-draft = false
+draft = true
 +++
 
-<small>25–53 34th St, Apt 6, Astoria NY, 11103 · (201) 240-5455 · contact@chrisdeluca.me</small>
+<mark>DOUBLE CHECK THE DATES</mark>
 
-## Objective
+<a href="tel:+12012405455">(201) 240-5455</a> · <a href="mailto:contact@chrisdeluca.me">contact@chrisdeluca.me</a> · Astoria NY, 11103
 
-Senior front end engineer with over 8 years experience, looking for work with a high social impact and interesting technology.
+## Summary
 
-## Experience
+- Senior front end engineer with 8+ years experience
+- <mark>[Mention something about leadership/personality/etc]</mark>
+- <mark>[Open source contrib...might be more relevant in a few months]</mark>
+- <mark>[Something about my technical/professional focus]</mark>
+- Looking for work with high social impact and interesting technology
 
-### Senior front end developer, _Memorial Sloan Kettering Cancer Center_; 2015–Present
+## Work Experience
 
-I was a key technical and UX resource for transitioning the brand to using a design system, using Pattern Lab and Knapsack.
+### Memorial Sloan Kettering Cancer Center<br> Senior front end developer, _11/2015–Present_
 
-I managed technical interns from Code Nation, as well as third-party front end developers.
+- Key technical and UX resource for transitioning 100+ properties to using a design system
+- Recruited and managed 2 diverse programming summer interns
+- Management and code review for up to 6 third-party front end engineers
+- Primary technical resource for all front end development on mskcc.org
+- Accessibility-focused, driving enhancements to ADA AA level compliance
 
-I was the primary technical resource for all front end development on the mskcc.org property, implementing complex projects precisely and quickly.
+#### <mark>Notable Accomplishments</mark>
 
-I focused on accessibility, enhancing the site for screen readers and for other disabilities, to ADA AA level compliance.
+- <mark>Mention some of these suckers</mark>
+- <mark>Get numbers for performance improvements over time</mark>
+- <mark>Overall remember what the hell I did to get these results</mark>
 
-### Front end developer, _The Daily Beast_; 2015
+### The Daily Beast<br> Front end developer, _05/2015–10/2015_
 
-I helped migrate a Backbone code base from CQ5 to a modern Node Express app, as well as starting a migration from dust templating to React.
+- Helped migrate entire Backbone/CQ5 to modern Node/Express app
+- Migrated ~15% of code base from dust templating to React
+- Wrote full integration and functional test suite
+- Built build pipeline, including code linting
+- Transitioned ~60% front end code to ES6
+<!-- - and performed a performance audit and improvement. -->
 
-I wrote a full integration and functional test suite, and built a gulp build pipeline that included code linting.
+### Institute for Integrative Nutrition<br>Front end developer, _03/2014–05/2015_
 
-I also transitioned front end code to ES6, and performed a performance audit and improvement.
+- Lead front end team of 3 in architecture and implementation of a fully responsive re-design
+- In charge of writing clear documentation of all new features for both developers and editors
+- Created several Jenkins devops tools, including:
+  - Script that automatically compressed images on an S3 bucket
+  - PHP and JavaScript linting on every pull request
 
-### Front end developer, _Institute for Integrative Nutrition_; 2014–2015
+### Spanfeller Media Group<br>Drupal developer, _2013–2014_
 
-I lead the front end team in the architecture and implementation of a fully responsive re- design, using modular LESS and Drupal panels.
+- Built wine listings feature by:
+    - Importing 10k+ listings from WineHQ into Drupal
+    - Enhancing data with cross-referenced local editor content
+    - Building front end display
+- Improved site speed by ~50% via caching, SQL query optimizations, and PHP improvements found through NewRelic.
+- Discovered and resolved a critical security flaw
+- Managed a junior developer
+- Helped migrate code base to Drupal 7
 
-I was also in charge of documenting all the new features for both developers and editors, and for editor training.
+### Logicworks<br>Front end developer, _Contract—2013_
 
-In addition, I created several devops tools, including a gulp script that automatically minified images on an Amazon S3 bucket, and another that performed PHP and JavaScript code linting on every pull request, all using Jenkins.
+- Migrated theme from Drupal 6 to Drupal 7
+- Re-wrote theme to be fully responsive, while keeping the original desktop style
+- Designed mobile layout
+- Maintained compatibility with IE8+
 
-### Drupal developer, _Spanfeller Media Group_; 2013–2014
+### American Media Inc<br>Front end developer, _2012–2013_
 
-I took over integrating a massive wine database, importing over 10k listings from WineHQ into Drupal, with cross-referenced custom content from editors.
+- Sole developer who re-wrote entire Star Magazine site from scratch, start to launch in 3 months
+- Maintained 12 distinct Drupal code bases
+- Key developer in Shape redesign
+- Sole developer who created brochure/sign up site for Shape Zumba
+- Wrote Drupal module to limit taxonomy term entries to existing terms
 
-I significantly improved performance on the site through caching, SQL query optimizations, and PHP improvements found through NewRelic.
+### Playmatics Inc<br>Technical Artist, _2011–2012_
 
-I also managed junior developers, maintained a legacy and bespoke Drupal 6 code base, and prepared for a full Drupal 7 migration, interfacing directly with the transition team.
-
-### Front end developer, _Logicworks_; Contract—2013
-
-I was the lead front end developer on the http://logicworks.net upgrade from Drupal 6 to Drupal 7. The task was to upgrade the back end without changing the front end design, yet making it responsive. Since the original site had not been designed with responsive in mind, it was an interesting challenge to make it all work.
-
-Since there were no additional mobile designs created, the task fell to me to create a mo- bile and tablet experience that matched the look and feel of the desktop version, while still accommodating smaller screens.
-
-Used Sass and the Zen base theme.
-
-### Front end developer, _American Media Inc_; 2012–2013
-
-I maintained 12 distinct Drupal code bases, one for each magazine, and re-created the Star Magazine site using Wordpress.
-
-I was also a key developer in a redesign of the Shape website, and created a one-off PHP project for a Zumba sign up (also for Shape).
-
-A notable Drupal module I built was one that only let a regular user role add a taxonomy term to a node if that term already existed (it would have had to have been added by a higher privileged role first).
-
-### Technical Artist, _Playmatics Inc_; 2011–2012
-
-I worked on The Untouchables Adobe Air iOS game, working primarily on the in-app purchase store. The game is still in the App Store.
-
-I created the company website using Drupal, and was in charge of managing several client relationships.
-
-I also coded several game prototypes in Flash/Actionscript 3, and did iterative CSS styling for the Disney Kingdom Keepers web game, and for PBS's History Detectives game.
+- Wrote store/in-app purchase feature of _The Untouchables_ iOS game, as well as contributing to game logic
+- Single handedly created/maintained company website
+- Managed 3 client relationships in manager's absence
+- Contributed CSS styling to _Disney's Kingdom Keepers_ game
+- CSS styling for _PBS's History Detectives_ game
 
 ## Skills
 
@@ -101,4 +114,4 @@ I also coded several game prototypes in Flash/Actionscript 3, and did iterative 
 
 ## Education
 
-Hofstra University, Long Island, New York—B.A. Creative Writing, 2008, GPA 3.87
+Hofstra University, Long Island, New York—B.A. Creative Writing, 2008, Conferred Magna Cum Laude
