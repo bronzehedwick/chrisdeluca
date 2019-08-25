@@ -1,10 +1,8 @@
 +++
 title = "Christopher DeLuca"
-date = 2019-07-06T17:21:21-04:00
+date = 2019-08-25T11:02:41
 draft = true
 +++
-
-<mark>DOUBLE CHECK THE DATES</mark>
 
 <a href="tel:+12012405455">(201) 240-5455</a> · <a href="mailto:contact@chrisdeluca.me">contact@chrisdeluca.me</a> · Astoria NY, 11103
 
@@ -32,7 +30,7 @@ draft = true
 - <mark>Get numbers for performance improvements over time</mark>
 - <mark>Overall remember what the hell I did to get these results</mark>
 
-### The Daily Beast<br> Front end developer, _05/2015–10/2015_
+### The Daily Beast<br>Front end developer, _05/2015–10/2015_
 
 - Helped migrate entire Backbone/CQ5 to modern Node/Express app
 - Migrated ~15% of code base from dust templating to React
@@ -41,7 +39,7 @@ draft = true
 - Transitioned ~60% front end code to ES6
 <!-- - and performed a performance audit and improvement. -->
 
-### Institute for Integrative Nutrition<br>Front end developer, _03/2014–05/2015_
+### Institute for Integrative Nutrition<br>Front end developer, _03/2014–04/2015_
 
 - Lead front end team of 3 in architecture and implementation of a fully responsive re-design
 - In charge of writing clear documentation of all new features for both developers and editors
@@ -49,7 +47,7 @@ draft = true
   - Script that automatically compressed images on an S3 bucket
   - PHP and JavaScript linting on every pull request
 
-### Spanfeller Media Group<br>Drupal developer, _2013–2014_
+### Spanfeller Media Group<br>Drupal developer, _02/2013–04/2014_
 
 - Built wine listings feature by:
     - Importing 10k+ listings from WineHQ into Drupal
@@ -60,22 +58,22 @@ draft = true
 - Managed a junior developer
 - Helped migrate code base to Drupal 7
 
-### Logicworks<br>Front end developer, _Contract—2013_
+### Logicworks<br>Front end developer (contract), _06–08/2013_
 
 - Migrated theme from Drupal 6 to Drupal 7
 - Re-wrote theme to be fully responsive, while keeping the original desktop style
 - Designed mobile layout
 - Maintained compatibility with IE8+
 
-### American Media Inc<br>Front end developer, _2012–2013_
+### American Media, Inc.<br>Front end developer, _01/2012–02/2013_
 
 - Sole developer who re-wrote entire Star Magazine site from scratch, start to launch in 3 months
 - Maintained 12 distinct Drupal code bases
-- Key developer in Shape redesign
+- Key front end developer in Shape redesign
 - Sole developer who created brochure/sign up site for Shape Zumba
 - Wrote Drupal module to limit taxonomy term entries to existing terms
 
-### Playmatics Inc<br>Technical Artist, _2011–2012_
+### Playmatics Inc<br>Technical Artist, _02/2011–01/2012_
 
 - Wrote store/in-app purchase feature of _The Untouchables_ iOS game, as well as contributing to game logic
 - Single handedly created/maintained company website
@@ -85,24 +83,20 @@ draft = true
 
 ## Skills
 
-(in alphabetical order)
-
+- JavaScript
+- CSS/SASS/LESS
+- DOM/HTML
 - ADA accessibility
 - Atomic Design/Design Systems
-- Bash
-- CSS
-- Drupal
 - Git
-- HTML
-- JavaScript
-- LESS
-- Linux/Unix
-- Nodejs
-- PHP
+- Bash scripting
+- Node.js
 - React
-- SASS
-- WordPress
 - jQuery
+- Linux/Unix
+- PHP
+- Drupal
+- WordPress
 
 ## Links
 
