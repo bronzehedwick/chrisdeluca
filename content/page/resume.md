@@ -6,6 +6,10 @@ draft = true
 
 <a href="tel:+12012405455">(201) 240-5455</a> · <a href="mailto:contact@chrisdeluca.me">contact@chrisdeluca.me</a> · Astoria NY, 11103
 
+<div class="remove-from-pdf">
+  <a href="/page/chris-deluca-resume.pdf" download>Download resume as PDF</a>
+</div>
+
 ## Summary
 
 - Senior front end engineer with 8+ years experience
@@ -73,7 +77,7 @@ draft = true
 - Sole developer who created brochure/sign up site for Shape Zumba
 - Wrote Drupal module to limit taxonomy term entries to existing terms
 
-### Playmatics Inc<br>Technical Artist, _02/2011–01/2012_
+### Playmatics, Inc.<br>Technical Artist, _02/2011–01/2012_
 
 - Wrote store/in-app purchase feature of _The Untouchables_ iOS game, as well as contributing to game logic
 - Single handedly created/maintained company website

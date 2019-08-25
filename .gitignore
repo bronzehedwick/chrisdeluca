@@ -5,6 +5,9 @@ resources
 # Node
 node_modules
 
+# Generated files
+*.pdf
+
 # Backups and logs
 *~
 *.log
