@@ -1,7 +1,7 @@
 +++
 title = "Christopher DeLuca"
-date = 2019-08-25T11:02:41
-draft = true
+date = 2019-08-31T16:08:12
+draft = false
 +++
 
 <a href="tel:+12012405455">(201) 240-5455</a> · <a href="mailto:contact@chrisdeluca.me">contact@chrisdeluca.me</a> · Astoria NY, 11103
@@ -13,9 +13,9 @@ draft = true
 ## Summary
 
 - Senior front end engineer with 8+ years experience
-- <mark>[Mention something about leadership/personality/etc]</mark>
-- <mark>[Open source contrib...might be more relevant in a few months]</mark>
-- <mark>[Something about my technical/professional focus]</mark>
+- Strong communicator, both written and verbal; comfortable on stage
+- Frequent open source contributor
+- Focused on sustainable architecture and thoughtful solutions
 - Looking for work with high social impact and interesting technology
 
 ## Work Experience
@@ -28,11 +28,12 @@ draft = true
 - Primary technical resource for all front end development on mskcc.org
 - Accessibility-focused, driving enhancements to ADA AA level compliance
 
-#### <mark>Notable Accomplishments</mark>
+#### Notable Accomplishments
 
-- <mark>Mention some of these suckers</mark>
-- <mark>Get numbers for performance improvements over time</mark>
-- <mark>Overall remember what the hell I did to get these results</mark>
+- Modernized technology at a 135 year old institution
+- Improved site speed by more than 25% (2.2 second increase)
+- Sole author of ADA accessible, high complexity, primary site navigation component
+- Guided interns through implementing instant doctor search page
 
 ### The Daily Beast<br>Front end developer, _05/2015–10/2015_
 
@@ -84,6 +85,16 @@ draft = true
 - Managed 3 client relationships in manager's absence
 - Contributed CSS styling to _Disney's Kingdom Keepers_ game
 - CSS styling for _PBS's History Detectives_ game
+
+## Extracurriculars
+
+- [Studied machine learning in one week intensive](https://www.chrisdeluca.me/article/machine-learning/)
+- [Gave talk on web games at QueensJS](https://www.chrisdeluca.me/article/queens-js-presentation/)
+- [18th percentile developer on StackOverflow](https://stackoverflow.com/users/1143575/bronzehedwick)
+- [Regular open source contributer](https://github.com/bronzehedwick)
+- [Author of popular CodePen experiment](https://codepen.io/bronzehedwick/pen/JdJvLm)
+- Lead role in play at NY Summerfest new play festival
+- Advanced study improv at _Upright Citizen's Brigade_
 
 ## Skills
 
