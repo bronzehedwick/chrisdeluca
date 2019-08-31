@@ -12,16 +12,13 @@ clean: ## Remove build directory.
 sync: ## Push the site to the server.
 	@rsync -a -e ssh --delete --omit-dir-times --no-perms --progress public/ waitstaff_deploy:/usr/local/www/chrisdeluca.me
 
-web: clean build minify sync ## Deploys site to server.
+web: clean build resume sync ## Deploys site to server.
 
 serve: ## Start development server in the background.
 	@hugo serve --buildDrafts > logs/hugo.log 2>&1 &
 
 stop: ## Kill background hugo process.
 	@pgrep hugo | xargs kill
-
-minify: ## Minify the generated HTML.
-	@find public/ -type f -name \*.html | xargs -I {} minify --type html --output {} {}
 
 note: ## Create new note (micro blog)
 	@hugo new note/$$(date +'%s').md
