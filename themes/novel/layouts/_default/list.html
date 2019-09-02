@@ -9,7 +9,7 @@
   <a href="/{{ .Data.Plural | urlize }}">&#8598; See all {{ .Data.Plural }}</a>
   {{ end }}
 
-  {{ $paginator := .Paginate .Site.RegularPages }}
+  {{ $paginator := .Paginate .Data.Pages }}
   {{ range $paginator.Pages }}
     {{ .Render "summary" }}
   {{ end }}
