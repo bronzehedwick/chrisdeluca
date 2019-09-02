@@ -14,6 +14,7 @@ draft = false
 
 - Senior front end engineer with 8+ years experience
 - Strong communicator, both written and verbal; comfortable on stage
+- Quick study; voracious, independent learner
 - Frequent open source contributor
 - Focused on sustainable architecture and thoughtful solutions
 - Looking for work with high social impact and interesting technology
