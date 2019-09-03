@@ -466,23 +466,20 @@ article footer li {
 
 .pagination {
   display: flex;
-  flex-flow: column nowrap;
+  flex-flow: row wrap;
   justify-content: space-between;
-  padding-left: 0px;
 }
 
-@media screen and (min-width: 32em) {
-  .pagination {
-    flex-flow: row nowrap;
-  }
-
-  .pagination__item {
-    margin: 0px;
-  }
+.pagination__item--next {
+  text-align: right;
+  margin-left: auto;
 }
 
-.pagination__next:first-of-type {
-  width: 100%;
+.pagination__item-label {
+  font-size: 0.85em;
+}
+
+.pagination__item-label--next {
   text-align: right;
 }
 

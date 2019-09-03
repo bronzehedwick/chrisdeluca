@@ -1,14 +1,32 @@
-<ul class="pagination">
-  {{ if .Paginator.HasNext }}
-    <li class="pagination__item pagination__prev">
-      <a href="{{ .Paginator.Next.URL }}" title="Older stories">&larr; Older</a>
-    </li>
-  {{ end }}
+{{ $nextTemplate := "<li class=\"pagination__item pagination__item--next\"><div class=\"pagination__item-label pagination__item-label--next\">%s %s</div><a href=\"%s\">%s &rarr;</a></li>" }}
+{{ $prevTemplate := "<li class=\"pagination__item pagination__item--previous\"><div class=\"pagination__item-label pagination__label-item--previous\">%s %s</div><a href=\"%s\">&larr; %s</a></li>" }}
+{{ $type := .Type }}
+<nav>
+  <ul class="pagination pagination--{{ .Type|lower }}">
 
-  {{ if .Paginator.HasPrev }}
-    <li class="pagination__item pagination__next">
-      <a href="{{ .Paginator.Prev.URL }}" title="Newer stories">Newer &rarr;</a>
-    </li>
-  {{ end }}
-</ul>
+    {{ with .Paginator }}
 
+      {{ $type := $type|lower|pluralize }}
+
+      {{ if .HasNext }}
+        {{ $nextText := printf "Page %d" .Next.PageNumber }}
+        {{ printf $prevTemplate "Older" $type .Next.URL $nextText | safeHTML }}
+      {{ end }}
+
+      {{ if .HasPrev }}
+        {{ $prevText := printf "Page %d" .Prev.PageNumber }}
+        {{ printf $nextTemplate "Newer" $type .Prev.URL $prevText | safeHTML }}
+      {{ end }}
+
+    {{ end }}
+
+    {{ with .PrevInSection }}
+      {{ printf $prevTemplate "Previous" $type .Permalink .Title | safeHTML }}
+    {{ end }}
+
+    {{ with .NextInSection }}
+      {{ printf $nextTemplate "Next" $type .Permalink .Title | safeHTML }}
+    {{ end }}
+
+  </ul>
+</nav>
