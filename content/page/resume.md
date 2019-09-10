@@ -112,6 +112,7 @@ draft = false
 - Linux/Unix
 - PHP
 - Drupal
+- MySQL
 - WordPress
 
 ## Links
