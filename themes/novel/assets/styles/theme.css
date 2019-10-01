@@ -434,6 +434,12 @@ footer {
 
 body > footer {
   text-align: center;
+  font-size: 0.85em;
+}
+
+body > footer small {
+  margin-top: 4em;
+  display: block;
 }
 
 nav ul,
@@ -683,6 +689,25 @@ summary {
   position: fixed;
   top: 1em;
   left: 1em;
+}
+
+/* }}} */
+
+/* h-card {{{ */
+
+.h-card {
+  display: flex;
+  flex-flow: row wrap;
+  text-align: left;
+}
+
+.h-card__photo {
+  flex: 1 0 30ch;
+  margin-right: 2ch;
+}
+
+.h-card__content {
+  flex: 999 1 0px;
 }
 
 /* }}} */

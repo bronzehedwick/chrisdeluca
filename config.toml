@@ -12,6 +12,14 @@ copyright = "Chris DeLuca, all rights reserved."
 [author]
   name = "Chris DeLuca"
   email = "contact@chrisdeluca.me"
+  photo = "/images/chris-portrait.gif"
+  region = "New York City"
+  nickname = "bronzehedwick"
+  pronouns = "he/him"
+  identities = ["software developer", "writer", "performer"]
+  [author.key]
+    id = "57B2F2C5"
+    url = "/files/chris-deluca-pgp.pub.asc"
 
 [taxonomies]
   topic = "topics"
@@ -24,11 +32,6 @@ copyright = "Chris DeLuca, all rights reserved."
   weight = 100
 
 [params]
-  title = "Chris DeLuca"
-  author = "Chris DeLuca"
-  description = "The blog of the person"
-  images = [ "/images/chris-portrait.gif" ]
-
   [params.socialLinks.twitter]
     name = "Twitter"
     url = "https://twitter.com/chrisjohndeluca"
