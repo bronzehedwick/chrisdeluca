@@ -71,15 +71,15 @@
 
   <footer>
     <div class="h-card">
-      <div class="h-card__photo">
+      <div class="about__photo">
         <img class="u-photo" src="{{ .Site.Author.photo }}" alt="Portrait of {{ .Site.Author.name }}">
       </div>
-      <div class="h-card__content">
+      <div class="about__content">
         <p class="p-summary p-note">
           <span class="p-name">{{ .Site.Author.name }}</span> is a {{ delimit .Site.Author.identities "/" }} based in <span class="p-region">{{ .Site.Author.region }}</span> (<data class="p-tz" value="{{ now.Format "-0700" }}">{{ now.Format "MST" }}</data>).
         </p>
         <ul>
-          <li>Homepage: <a class="u-url u-uid" href="{{ .Site.BaseURL }}">{{ .Site.BaseURL }}</a></li>
+          <li>Homepage: <a class="u-url u-uid" href="/">{{ .Site.BaseURL }}</a></li>
           <li>Email: <a class="u-email" href="mailto:{{ .Site.Author.email }}">{{ .Site.Author.email }}</a></li>
           <li>Pronouns: <span class="u-pronoun">{{ .Site.Author.pronouns }}</span></li>
           <li>Nickname: <span class="p-nickname">{{ .Site.Author.nickname }}</span></li>

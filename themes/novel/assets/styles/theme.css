@@ -701,12 +701,12 @@ summary {
   text-align: left;
 }
 
-.h-card__photo {
+.about__photo {
   flex: 1 0 30ch;
   margin-right: 2ch;
 }
 
-.h-card__content {
+.about__content {
   flex: 999 1 0px;
 }
 
