@@ -79,11 +79,11 @@
           <span class="p-name">{{ .Site.Author.name }}</span> is a {{ delimit .Site.Author.identities "/" }} based in <span class="p-region">{{ .Site.Author.region }}</span> (<data class="p-tz" value="{{ now.Format "-0700" }}">{{ now.Format "MST" }}</data>).
         </p>
         <ul>
-          <li>Homepage: <a rel="me" class="u-url u-uid" href="{{ .Site.BaseURL }}">{{ .Site.BaseURL }}</a></li>
-          <li>Email: <a rel="me" class="u-email" href="mailto:{{ .Site.Author.email }}">{{ .Site.Author.email }}</a></li>
-          <li>Pronouns: <span rel="me" class="u-pronoun">{{ .Site.Author.pronouns }}</span></li>
-          <li>Nickname: <span rel="me" class="p-nickname">{{ .Site.Author.nickname }}</span></li>
-          <li hidden>PGP key: <a rel="me" class="u-key" href="{{ .Site.Author.key.url }}">{{ .Site.Author.key.id }}</a></li>
+          <li>Homepage: <a class="u-url u-uid" href="{{ .Site.BaseURL }}">{{ .Site.BaseURL }}</a></li>
+          <li>Email: <a class="u-email" href="mailto:{{ .Site.Author.email }}">{{ .Site.Author.email }}</a></li>
+          <li>Pronouns: <span class="u-pronoun">{{ .Site.Author.pronouns }}</span></li>
+          <li>Nickname: <span class="p-nickname">{{ .Site.Author.nickname }}</span></li>
+          <li>PGP key: <a class="u-key" href="{{ .Site.Author.key.url }}">{{ .Site.Author.key.id }}</a></li>
         </ul>
         <details>
           <summary>Around the web</summary>
