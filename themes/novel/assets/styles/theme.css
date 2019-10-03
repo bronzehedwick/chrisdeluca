@@ -701,6 +701,10 @@ summary {
   text-align: left;
 }
 
+article .h-card {
+  display: none;
+}
+
 .about__photo {
   flex: 1 0 30ch;
   margin-right: 2ch;

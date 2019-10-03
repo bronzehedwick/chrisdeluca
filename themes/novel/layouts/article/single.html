@@ -5,9 +5,9 @@
     {{ $webmentions = getJSON "https://webmention.io/api/mentions.jf2?target=" .Permalink }}
   {{ end }}
 
-  <article class="article{{ range .Params.categories }} article--{{ .|lower }}{{ end }}">
+  <article class="h-entry article{{ range .Params.categories }} article--{{ .|lower }}{{ end }}">
     <header>
-      <h1>
+      <h1 class="p-name">
         {{ if .Resources.Match "game/*" }}{{ emojify ":joystick:" }}{{ end }}
         {{ if .Params.draft }}<mark>Draft</mark>{{ end }}
         {{ .Title }}
@@ -40,7 +40,7 @@
       {{ end }}
     </header>
 
-    {{ .Content }}
+    <div class="e-content">{{ .Content }}</div>
     {{ if $webmentions }}{{ partial "mention-count" $webmentions }}{{ end }}
 
     {{ with .Resources.Match "game/*" }}

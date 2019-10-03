@@ -1,10 +1,11 @@
 <div class="article-info">
+  <div class="u-author h-card"><a class="p-name u-url" href="/">{{ .Site.Author.name }}</a></div>
   <div class="article-info__published">
-    Published <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+    Published <a class="u-url" href="{{ .Permalink }}"><time class="dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "January 2, 2006" }}</time></a>
     {{ if .Params.categories }}
       in
       {{ range .Params.categories }}
-        <a href="/categories/{{ . | urlize }}">{{ . }}</a>
+        <a class="p-category" href="/categories/{{ . | urlize }}">{{ . }}</a>
       {{ end }}
     {{ end }}
 
@@ -19,7 +20,7 @@
         {{ end }}
         <ul>
           {{ range .Params.topics }}
-            <li><a href="/topics/{{ . | urlize }}">{{ . }}</a></li>
+            <li><a class="p-category" href="/topics/{{ . | urlize }}">{{ . }}</a></li>
           {{ end }}
         </ul>
       </div>
