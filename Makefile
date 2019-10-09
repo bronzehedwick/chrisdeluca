@@ -21,7 +21,7 @@ stop: ## Kill background hugo process.
 	@pgrep hugo | xargs kill
 
 note: ## Create new note (micro blog)
-	@hugo new note/$$(date +'%s').md
+	@hugo new note/$$(date +%s).md
 
 resume: ## Build resume PDF.
 	@perl -0pe 's/\+\+\+\n.*\n.*\n.*\n\+\+\+/# Christopher DeLuca/' content/page/resume.md > /tmp/resume.md && mdpdf --format=letter --style ./themes/novel/assets/styles/pdf.css /tmp/resume.md && rm /tmp/resume.md && mv /tmp/resume.pdf content/page/chris-deluca-resume.pdf
