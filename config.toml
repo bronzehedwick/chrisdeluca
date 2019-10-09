@@ -138,14 +138,14 @@ copyright = "Chris DeLuca, all rights reserved."
     color = "#000"
     icon = ""
     weight = 20
-        
+
   [params.socialLinks.microblog]
-    name = "lobsters"
+    name = "micro.blog"
     url = "https://micro.blog/chrisd"
     color = "#fd9526"
     icon = ""
     weight = 20
-    
+
   [params.socialLinks.lobsters]
     name = "lobsters"
     url = "https://lobste.rs/u/bronzehedwick"
