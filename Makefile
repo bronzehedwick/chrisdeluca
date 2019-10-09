@@ -12,7 +12,7 @@ clean: ## Remove build directory.
 sync: ## Push the site to the server.
 	@rsync -a -e ssh --delete --omit-dir-times --no-perms --progress public/ waitstaff_deploy:/usr/local/www/chrisdeluca.me
 
-web: clean build resume sync ## Deploys site to server.
+web: build sync ## Deploys site to server.
 
 serve: ## Start development server in the background.
 	@hugo serve --buildDrafts > logs/hugo.log 2>&1 &
