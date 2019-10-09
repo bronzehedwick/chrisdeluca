@@ -1,0 +1,18 @@
+{{ define "main" }}
+
+  <section class="note">
+
+    {{ .Content }}
+
+    <p class="meta-info">Published on
+      <time class="dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+        {{ .Date.Format "Jan 02, 2006 15:04:05 MST" }}
+      </time>
+    </p>
+
+    <footer>
+      <a href="/note">&larr; All notes</a>
+    </footer>
+  </section>
+
+{{ end }}

@@ -1,12 +1,6 @@
-<article>
-  <header>
-    <h2><a href="{{ .Permalink }}">
-      {{ if .Resources.Match "game/*" }}{{ emojify ":joystick:" }}{{ end }}
-      {{ if .Params.draft }}<mark>Draft</mark>{{ end }}
-      {{ title .Title }}
-    </a></h2>
-    {{ partial "article-info.html" . }}
-  </header>
-
-  <p>{{ htmlUnescape .Summary | plainify }}</p>
-</article>
+<li>
+  <a href="{{ .Permalink }}">
+    {{ if .Params.draft }}<mark>Draft</mark>{{ end }}
+    {{ title .Title }}
+  </a>
+</li>

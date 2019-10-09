@@ -526,8 +526,15 @@ summary {
 
 /* Article info {{{ */
 
-.article-info {
+.meta-info {
   font-size: 0.85em;
+}
+
+.note .meta-info {
+  margin-top: 0;
+}
+
+.article-info {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;

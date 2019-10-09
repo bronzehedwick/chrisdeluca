@@ -5,19 +5,14 @@
 
 {{ define "main" }}
 
-  {{ if .Data.Plural }}
-  <a href="/{{ .Data.Plural | urlize }}">&#8598; See all {{ .Data.Plural }}</a>
-  {{ end }}
-
   {{ $paginator := .Paginate .Data.Pages }}
-  <ul>
   {{ range $paginator.Pages }}
     {{ .Render "summary" }}
   {{ end }}
-  </ul>
 
   <footer>
     {{ partial "pagination.html" . }}
   </footer>
 
 {{ end }}
+
