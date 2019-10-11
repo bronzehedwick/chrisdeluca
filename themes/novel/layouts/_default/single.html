@@ -11,7 +11,7 @@
     {{ .Content }}
 
     <footer>
-      <a href="{{ .Site.BaseURL }}">&larr; Home</a>
+      <a href="/{{ .Type }}">&larr; See all {{ .Type | pluralize }}</a>
     </footer>
   </section>
 
