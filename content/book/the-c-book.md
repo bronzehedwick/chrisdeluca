@@ -3,12 +3,13 @@ title = "The C Book"
 subtitle = ""
 date = 2019-10-10T19:36:51-04:00
 draft = false
-author = ""
-genre = ""
+author = "Mike Banahan, Declan Brady and Mark Doran, originally published by Addison Wesley"
+genre = "Computer"
 
-[[read]]
+[read]
   start = 2019-10-01T19:36:51-04:00
   end = 2019-10-10T19:36:51-04:00
+  gaveup = 4
 +++
 
 I wanted to get a basic grasp of C, but most of the resources listed in the C language IRC channel were pretty pricey. One resource, however, was completely free: _The C Book_. That sounded both authoritative _and_ cheap, so I started reading and taking notes.

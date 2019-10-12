@@ -6,7 +6,7 @@ draft = false
 author = "Elmore Leonard"
 genre = "Crime Fiction"
 
-[[read]]
+[read]
   start = 2019-10-06T10:52:34-04:00
   end = ""
 +++

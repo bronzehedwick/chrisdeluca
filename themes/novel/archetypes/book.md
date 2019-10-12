@@ -6,7 +6,7 @@ draft = false
 author = ""
 genre = ""
 
-[[read]]
+[read]
   start = {{ .Date }}
   end = ""
 +++

@@ -6,7 +6,7 @@ draft = false
 author = "Dale Beran"
 genre = "History"
 
-[[read]]
+[read]
   start = 2019-09-23T10:49:00-04:00
   end = 2019-10-05T10:50:12
 +++
