@@ -16,9 +16,9 @@
 
 You throw yourself off the path, and tumble into a thorn bush. You're
 covered in scratches and bruises, and you wail pathetically as Sun Child
-helps you get untangled from the thorns. Many people are concerned for your
-well-being, but many more think you're an immature jackass for racing up
-a mountain and spacing out about cat stance.
+helps you get untangled from the thorns. Many people are concerned for
+your well-being, but many more think you're an immature jackass for
+racing up a mountain and spacing out about cat stance.
 
 You find out your love's name is Mia, and that she is very firmly in the
 latter group.
