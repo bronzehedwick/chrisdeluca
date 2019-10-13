@@ -3,13 +3,23 @@ title = "Eloquent Javascript"
 subtitle = ""
 date = 2019-10-13T12:55:59-04:00
 draft = false
-author = ""
-genre = ""
+author = "Marijn Haverbeke"
+genre = "Computers"
 
 [read]
   start = 2018-10-13T12:55:59-04:00
   end = ""
 +++
+
+I never went to school for computer science, learning on the job and in my spare time through articles, videos, and experience.
+
+This was great, forcing me to learn practical, pragmatic approaches fast, but did leave some classic theory to be inferred.
+
+Since I had never done it formally, I decided to work through _Eloquent Javascript_, a beginners introduction to programming.
+
+It's very well written and dense, which I like a lot. I maintain a repo with my solutions to the end-of-chapter practice exorcises enforced by tests, https://github.com/bronzehedwick/eloquent-js-exercises, which I've been slowly working through.
+
+Below are some notes.
 
 ## Chapter 6. The Secret Life of Objects
 
