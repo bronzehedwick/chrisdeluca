@@ -6,6 +6,7 @@
         {{ if .Params.draft }}<mark>Draft</mark>{{ end }}
         {{ .Title }}
       </h1>
+      {{ partial "toc" . }}
     </header>
 
     {{ .Content }}

@@ -1,0 +1,10 @@
+{{ if .IsPage }}
+  {{ if .Params.toc }}
+    <details>
+      <summary>Table of Contents</summary>
+      {{ .TableOfContents }}
+    </details>
+  {{ end }}
+{{ end }}
+
+

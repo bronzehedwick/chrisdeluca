@@ -465,6 +465,10 @@ nav li + li {
   margin-left: 1em;
 }
 
+#TableOfContents li {
+  margin-left: 0px;
+}
+
 article footer ul,
 article footer li {
   display: inline;

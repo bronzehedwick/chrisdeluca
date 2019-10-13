@@ -23,14 +23,7 @@
         </figure>
       {{ end }}
 
-      {{ if .IsPage }}
-        {{ if .Params.toc }}
-          <details>
-            <summary>Table of Contents</summary>
-            {{ .TableOfContents }}
-          </details>
-        {{ end }}
-      {{ end }}
+      {{ partial "toc" . }}
 
       {{ if .Resources.Match "game/*" }}
         <details>
