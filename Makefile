@@ -10,7 +10,7 @@ clean: ## Remove build directory.
 	@if [ -d public ]; then rm -rf public; fi && mkdir public
 
 sync: ## Push the site to the server.
-	@rsync -a -e ssh --delete --omit-dir-times --no-perms --progress public/ waitstaff_deploy:/usr/local/www/chrisdeluca.me
+	@rsync -a -e ssh --delete --omit-dir-times --no-perms --progress -F ~/.ssh/config public/ waitstaff_deploy:/usr/local/www/chrisdeluca.me
 
 web: build sync ## Deploys site to server.
 
