@@ -20,13 +20,13 @@
   {{ end -}}
   {{ $normalize := resources.Get "styles/vendor/normalize.css" }}
   {{ $theme := resources.Get "styles/theme.css" }}
-  {{ $styles := slice $normalize $theme | resources.Concat "styles/theme.css" | resources.Minify | resources.Fingerprint }}
+  {{ $styles := slice $normalize $theme | resources.Concat "styles/theme.css" | resources.Minify | resources.Fingerprint "sha512" }}
   <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}">
-  {{ $print := resources.Get "styles/print.css" | resources.Minify | resources.Fingerprint }}
+  {{ $print := resources.Get "styles/print.css" | resources.Minify | resources.Fingerprint "sha512" }}
   <link rel="stylesheet" href="{{ $print.Permalink }}" integrity="{{ $print.Data.Integrity }}" media="print">
   {{ if .Params.styles }}
     {{ range .Params.styles }}
-      {{ $style := resources.Get (print "styles/" . ".css") | resources.Minify | resources.Fingerprint }}
+      {{ $style := resources.Get (print "styles/" . ".css") | resources.Minify | resources.Fingerprint "sha512" }}
       <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}">
     {{ end }}
   {{ end }}
@@ -38,7 +38,7 @@
   <meta name="theme-color" content="#fdfcfa">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   {{ if .Resources.Match "game/*" }}
-    {{ $script := resources.Get "scripts/game.js" | resources.Minify | resources.Fingerprint }}
+    {{ $script := resources.Get "scripts/game.js" | resources.Minify | resources.Fingerprint "sha512" }}
     <script async defer src="{{ $script.Permalink }}" integrity="{{ $script.Data.Integrity }}"></script>
   {{ end }}
 </head>
@@ -109,12 +109,12 @@
 
   {{ if .Params.scripts }}
     {{ range .Params.scripts }}
-      {{ $script := resources.Get (print "scripts/" .) | resources.Minify | resources.Fingerprint }}
+      {{ $script := resources.Get (print "scripts/" .) | resources.Minify | resources.Fingerprint "sha512" }}
       <script src="{{ $script.Permalink }}" integrity="{{ $script.Data.Integrity }}"></script>
     {{ end }}
   {{ end }}
 
-  {{ $analytics := resources.Get "scripts/vendor/goat-counter.js" | resources.Minify | resources.Fingerprint }}
+  {{ $analytics := resources.Get "scripts/vendor/goat-counter.js" | resources.Minify | resources.Fingerprint "sha512" }}
   {{ if not .Site.IsServer }}
   <script src="{{ $analytics.Permalink }}" integrity="{{ $analytics.Data.Integrity }}"></script>
   {{ end }}
