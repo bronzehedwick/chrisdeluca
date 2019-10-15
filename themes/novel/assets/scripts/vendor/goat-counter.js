@@ -6,7 +6,7 @@
   var script = document.createElement('script');
   window.counter = 'https://chrisdeluca.goatcounter.com/count'
   script.async = 1;
-  script.src = '//static.goatcounter.com/count.min.js';
+  script.src = 'https://static.goatcounter.com/count.min.js';
 
   var ins = document.getElementsByTagName('script')[0];
   ins.parentNode.insertBefore(script, ins)
