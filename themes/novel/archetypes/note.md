@@ -1,5 +1,5 @@
 +++
-title = "Note on {{ .Date.Format 'Jan 02, 2006 15:04:05 MST' }}"
+title = "Note on {{ .Date }}"
 slug = "{{ .TranslationBaseName }}"
 publishdate = {{ .Date }}
 draft = false
