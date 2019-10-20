@@ -24,7 +24,7 @@ Jess looks puzzled.
 "Do you mean Janet?"
 
 It's barely a distraction, but you take it. You run for the window, but
-Jess locked it. You fumble with it for a moment.
+Jess had locked it. You fumble for a moment.
 
 Markus, "What are you doing, bro?"
 
@@ -82,16 +82,16 @@ This is the last full day of camp, and tonight is the night of the big
 talent show, and you're performing.
 
 You agreed to play bass with a group doing a U2 cover. You're apathetic
-at best about U2, as were most of the rest of the band, but Kelsey
+at best about U2, as were half of the rest of the band, but Kelsey
 McCormic had learned Irish line dancing from YouTube videos and made a
 compelling argument that adding ancient Irish dance to modern "Irish"
 music would impress the judges. Everyone knew the judges favored
 thematic gimmicks.
 
-You're waiting "backstage" behind the curtain that's been stretched
-across the far wall of the main barn, the smell of hay thick in your
-nose. Several acts have already been on, but you couldn't say who they
-were or what they did, you're so nervous.
+You're waiting "backstage", cramped behind a curtain that's been
+stretched across the far wall of the main barn, the smell of hay thick
+in your nose. Several acts have already been on, but you couldn't say
+who they were or what they did, you're so nervous.
 
 Your band spent more time deciding on a name than practicing. The
 problem was that you, Erik, and Gina were all into punk rock, and
@@ -102,7 +102,7 @@ everyone decided the band name should combine both elements, but when
 mashing together a traditional name with a subversive one, the effect
 was always subversive, not an even split. This fundamental block was
 eventually resolved by the traditionalists conceding that the band name,
-by nature, would have to be punk, but in recompense, would get more
+by nature, would have to be punk, but in recompense, they would get more
 weight in deciding the song. Hence, U2.
 
 Everyone at camp is seated out there. Your secret fantasy is that Mia
@@ -125,7 +125,17 @@ People are bobbing their heads. Not bad. You see Sun Child shaking his dreads.
 "Werd up, brother!" he yells. You're not sure if that's directed at you;
 Sun Child says "Werd" in response to almost everything.
 
-Next to him was Caleb, the pervert.
+Next to him is Alton, the pervert.
 
 "You're mom's hot!" he yells, accusing. You're pretty sure that was
 directed at you.
+
+You keep your eyes moving. There's Becky and her posse, snuggling with
+Philippe. Wow, guess it's official.
+
+And there she is, Mia, staring right at you. You miss a whole musical phrase, and need to stare down at your bass to get back in time.
+
+When you look up, Mia is no longer looking at you, or the stage at
+all. She's looking into the crowd. You follow her gaze, noticing that
+Philippe is missing, and spot him: Matt Richman barrelling towards the
+stage.

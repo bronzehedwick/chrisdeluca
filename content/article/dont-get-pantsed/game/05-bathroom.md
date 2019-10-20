@@ -74,7 +74,7 @@ the hike.
 
 "Alright, guys, let's conquer this mountain!" Jerry screams.
 
-Caleb, a known pervert, nudges you.
+Alton, a known pervert, nudges you.
 
 "That's what _she_ said."
 
@@ -91,14 +91,14 @@ okay?"
 
 Cat stance? You don't remember anything about a cat stance. This was practiced?
 
-You nudge Caleb. "Hey, what's cat stance?"
+You nudge Alton. "Hey, what's cat stance?"
 
 "It's how I fuck your mom," he says triumphantly, extending his hand for
 a high-five.
 
 "You can eat shit," you inform him.
 
-Caleb pushes past you.
+Alton pushes past you.
 
 "Race ya!"
 
