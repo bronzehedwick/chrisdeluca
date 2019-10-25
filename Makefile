@@ -1,12 +1,10 @@
-CONTENT := $(shell if [[ "$$(uname)" == 'Darwin' ]]; then echo '/Volumes/Data/Projects/chrisdeluca.me_content'; else echo '/home/pi/Data/chrisdeluca.me_content'; fi)
-
 default: build ## build.
 
 help: ## Prints help for targets with comments.
 	@grep -E '^[a-zA-Z._-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-15s\033[0m %s\n", $$1, $$2}'
 
 build: ## Runs `hugo`.
-	@hugo --ignoreCache --gc --minify --contentDir $(CONTENT)
+	@hugo --minify
 
 clean: ## Remove build directory.
 	@if [ -d public ]; then rm -rf public; fi && mkdir public
