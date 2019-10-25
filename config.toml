@@ -8,6 +8,7 @@ pygmentsuseclasses = true
 enableEmoji = true
 newContentEditor = "nvr"
 copyright = "Chris DeLuca, all rights reserved."
+contentDir = "/Volumes/Data/Projects/chrisdeluca.me_content"
 
 [author]
   name = "Chris DeLuca"
