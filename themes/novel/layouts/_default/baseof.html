@@ -30,13 +30,15 @@
       <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}">
     {{ end }}
   {{ end }}
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  {{ $appleTouchIcon := readFile "/static/apple-touch-icon.png" }}
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png?{{ md5 $appleTouchIcon }}">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="manifest" href="/manifest.json">
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#d1642a">
   <meta name="theme-color" content="#fdfcfa">
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  {{ $faviconSvg := readFile "/static/favicon.svg" }}
+  <link rel="icon" href="/favicon.svg?{{ md5 $faviconSvg }}" type="image/svg+xml">
   {{ if .Resources.Match "game/*" }}
     {{ $script := resources.Get "scripts/game.js" | resources.Minify | resources.Fingerprint "sha512" }}
     <script async defer src="{{ $script.Permalink }}" integrity="{{ $script.Data.Integrity }}"></script>
@@ -70,7 +72,8 @@
   <footer>
     <div class="h-card">
       <div class="about__photo">
-        <img class="u-photo" src="{{ .Site.Author.photo }}" alt="Portrait of {{ .Site.Author.name }}">
+        {{ $portraitFile := readFile (print "/static/" .Site.Author.photo) }}
+        <img class="u-photo" src="{{ .Site.Author.photo }}?{{ md5 $portraitFile }}" alt="Portrait of {{ .Site.Author.name }}">
       </div>
       <div class="about__content">
         <p class="p-summary p-note">
