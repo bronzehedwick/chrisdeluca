@@ -1,8 +1,8 @@
 {{ define "main" }}
 
-  <section class="note">
+  <section class="note h-entry">
 
-    {{ .Content }}
+    <p class="p-content">{{ .Content | markdownify }}</p>
 
     <p class="meta-info">Published
       <time class="dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
@@ -11,8 +11,16 @@
     </p>
 
     <footer>
-      <a href="/note">&larr; All notes</a>
+      {{ if .Params.syndicated }}
+        <p>This post syndicated to:</p>
+        {{ range .Params.syndicated }}
+          <ul>
+            <li><a class="u-syndication" href="{{ . }}">{{ . }}</a></li>
+          </ul>
+        {{ end }}
+      {{ end }}
     </footer>
   </section>
 
+  <div><a href="/note">&larr; All notes</a></div>
 {{ end }}
