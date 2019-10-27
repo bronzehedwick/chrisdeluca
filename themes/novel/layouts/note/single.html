@@ -1,5 +1,10 @@
 {{ define "main" }}
 
+  {{ $webmentions := false }}
+  {{ if ne hugo.Environment "development" }}
+    {{ $webmentions = getJSON "https://webmention.io/api/mentions.jf2?target=" .Permalink }}
+  {{ end }}
+
   <section class="note h-entry">
 
     <p class="note-content p-content">{{ .Content | markdownify }}</p>
@@ -12,15 +17,18 @@
 
     {{ if .Params.syndicated }}
       <h2>This post syndicated to:</h2>
-      {{ range .Params.syndicated }}
-        <ul>
+      <ul>
+        {{ range .Params.syndicated }}
           <li><a class="u-syndication" href="{{ . }}">{{ . }}</a></li>
-        </ul>
-      {{ end }}
+        {{ end }}
+      </ul>
     {{ end }}
 
+    {{ if $webmentions }}{{ partial "mention-count" $webmentions }}{{ end }}
+    {{ if $webmentions }}{{ partial "conversation" $webmentions }}{{ end }}
+
     <footer>
-      <a href="/note">&larr; All notes</a>
+      <p><a href="/note">&larr; All notes</a></p>
     </footer>
   </section>
 
