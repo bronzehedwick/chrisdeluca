@@ -369,6 +369,7 @@ samp, kbd,
 pre, code {
   padding: 0.5ch;
   background-color: #efefef;
+  white-space: pre-wrap;
 }
 
 pre {

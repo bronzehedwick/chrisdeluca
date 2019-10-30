@@ -108,6 +108,13 @@
     </nav>
 
     <small>
+      <nav>
+        <ul>
+          {{ range .Site.Menus.footer }}
+            <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+          {{ end }}
+        </ul>
+      </nav>
       <p>&#169; 2009–{{ now.Format "2006" }} by {{ .Site.Author.name }}</p>
       <p>Unless otherwise noted, text content is available under the <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0</a> license.</p>
       <p>Code presented on, and used to create, this website is available under the <a href="https://opensource.org/licenses/MIT">MIT</a> license.</p>

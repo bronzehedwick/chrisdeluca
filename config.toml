@@ -9,6 +9,7 @@ enableEmoji = true
 newContentEditor = "nvr"
 copyright = "Chris DeLuca, all rights reserved."
 contentDir = "/Volumes/Data/Projects/chrisdeluca.me_content"
+menus = [ "main", "footer" ]
 
 [author]
   name = "Chris DeLuca"
