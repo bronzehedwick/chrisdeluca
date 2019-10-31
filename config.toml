@@ -14,7 +14,7 @@ menus = [ "main", "footer" ]
 [author]
   name = "Chris DeLuca"
   email = "contact@chrisdeluca.me"
-  photo = "/images/chris-portrait.gif"
+  photo = "/images/chris-portrait.jpeg"
   region = "New York City"
   nickname = "bronzehedwick"
   pronouns = "he/him"
