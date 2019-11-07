@@ -12,7 +12,7 @@ body {
   font-family: "Palatino Linotype", Palatino, "Book Antiqua", serif;
   font-size: 1.2em;
   line-height: 1.6;
-  max-width: 35em;
+  max-width: 43em;
   margin: 0px auto;
   padding: 1em;
   background-color: #fdfcfa;
@@ -473,6 +473,53 @@ nav li + li {
 article footer ul,
 article footer li {
   display: inline;
+}
+
+main {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.content {
+  flex: 999 0 0;
+  order: 2;
+}
+
+.main-navigation {
+  flex: 1 0 100%;
+  order: 1;
+}
+
+.main-navigation__toggle {
+  width: 50%;
+  position: relative;
+  left: calc(50% - 6ch);
+}
+
+
+@media screen and (min-width: 50em) {
+
+  .main-navigation {
+    flex: 1 0 15ch;
+    margin-right: 2ch;
+  }
+
+  .main-navigation__toggle {
+    width: auto;
+    position: static;
+  }
+
+}
+
+.main-navigation ul {
+  margin-top: 0.5em;
+  text-indent: 2ch;
+}
+
+.main-navigation li {
+  display: block;
+  margin-left: 0;
+  line-height: 2;
 }
 
 .pagination {

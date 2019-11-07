@@ -53,20 +53,46 @@
       {{ if .IsNode }}</h1>{{ else }}</h2>{{ end }}
       <p>{{ .Site.Params.description }}</p>
     {{ end }}
-
-    <nav>
-      <ul class="main-menu">
-        {{ range .Site.Menus.main }}
-          <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-        {{ end }}
-      </ul>
-    </nav>
   </header>
 
-  <main id="content">
-    {{ block "main" . }}
-      <!-- The part of the page that differs between templates -->
-    {{ end }}
+  <main>
+    <div class="content">
+      {{ block "main" . }}
+        <!-- The part of the page that differs between templates -->
+      {{ end }}
+    </div>
+    <nav aria-label="Main navigation" class="main-navigation">
+      <details class="main-navigation__toggle">
+        <summary>Menu</summary>
+        <ul>
+          {{ $currentPage := . }}
+          {{ range .Site.Menus.main }}
+          {{ if .HasChildren }}
+          <li class="{{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}">
+            <a href="#">
+              {{ .Pre }}
+              <span>{{ .Name }}</span>
+            </a>
+          </li>
+          <ul class="sub-menu">
+            {{ range .Children }}
+            <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
+              <a href="{{ .URL }}">{{ .Name }}</a>
+            </li>
+            {{ end }}
+          </ul>
+          {{ else }}
+          <li>
+            <a href="{{ .URL }}">
+              {{ .Pre }}
+              <span>{{ .Name }}</span>
+            </a>
+          </li>
+          {{ end }}
+          {{ end }}
+        </ul>
+      </details>
+    </nav>
   </main>
 
   <footer>
@@ -120,6 +146,9 @@
       <p>Code presented on, and used to create, this website is available under the <a href="https://opensource.org/licenses/MIT">MIT</a> license.</p>
     </small>
   </footer>
+
+  {{ $mainScript := resources.Get "scripts/main.js" | resources.Minify | resources.Fingerprint "sha512" }}
+  <script src="{{ $mainScript.Permalink }}" integrity="{{ $mainScript.Data.Integrity }}"></script>
 
   {{ if .Params.scripts }}
     {{ range .Params.scripts }}
