@@ -267,12 +267,13 @@ header > figure {
   margin-right: -1em;
 }
 
-@media screen and (min-width: 58em) {
-  header > figure {
-    margin-left: -4em;
-    margin-right: -4em;
-  }
-}
+/* TODO: This style is nice, but overlaps the sidebar now. */
+/* @media screen and (min-width: 58em) { */
+/*   header > figure { */
+/*     margin-left: -4em; */
+/*     margin-right: -4em; */
+/*   } */
+/* } */
 
 figcaption {
   font-size: 0.75em;
