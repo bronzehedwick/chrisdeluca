@@ -454,6 +454,14 @@ article footer li {
   list-style-type: none;
 }
 
+.indie-webring {
+  margin-top: 3em;
+}
+
+.indie-webring ul {
+  margin-top: 0;
+}
+
 /* }}} */
 
 /* Navigation {{{ */
