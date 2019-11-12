@@ -214,13 +214,12 @@ a:link,
 a:active,
 a:focus,
 a:visited {
-  color: #2473d1;
-  text-decoration: none;
-  border-bottom: 0.075em dotted #2473d1;
+  color: #db2f2f;
 }
 
 a:hover {
-  border-bottom: 0.075em solid #2473d1;
+  background-color: #db2f2f;
+  color: #fff;
 }
 
 /* TODO: Fix external link icons from displaying wonky inline */
@@ -887,8 +886,12 @@ article .h-card {
   a:active,
   a:focus,
   a:visited {
-    color: #4696ff;
-    border-bottom-color: #4696ff;
+    color: #ff6363;
+  }
+
+  a:hover {
+    background-color: #ff6363;
+    color: #000;
   }
 
   figure img {
