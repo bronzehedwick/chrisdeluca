@@ -675,18 +675,6 @@ summary {
   transition: opacity 150ms, transform 200ms;
 }
 
-.achievement--max {
-  text-align: center;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  visibility: hidden;
-}
-
-.achievement--max > * + * {
-  margin-top: 1em;
-}
-
 .achievement[data-achievement-type="good"] .achievement__headline::before {
   content: "👍 ";
 }
@@ -712,6 +700,18 @@ summary {
 
 .achievements-list:empty::after {
   content: 'You got zilch.';
+}
+
+.achievement--max {
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+}
+
+.achievement--max > * + * {
+  margin-top: 1em;
 }
 
 /* }}} */

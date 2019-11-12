@@ -55,7 +55,7 @@ if (window.NodeList && !NodeList.prototype.forEach) {
       }
       if (achievements[pageKey].length === totalAchievements) {
         addAchievementToDOM('⭐️ Beat the game to the max!');
-        achievements[pageKey].push(achievementText);
+        achievements[pageKey].push('⭐️ Beat the game to the max!');
         window.localStorage.setItem('achievements', JSON.stringify(achievements));
         document.getElementById('achievements-count').textContent = ( totalAchievements + 1 ) + '/' + ( totalAchievements + 1 );
         document.getElementById('achievement-max').classList.add('achievement--active');
