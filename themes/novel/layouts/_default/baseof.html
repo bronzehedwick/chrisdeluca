@@ -83,15 +83,9 @@
           </ul>
           {{ else }}
           <li>
-            {{ if (findRE .URL $currentPage) }}
-              {{ .Pre }}
-              <span>{{ .Name }}</span>
-            {{ else }}
-              <a href="{{ .URL }}">
-                {{ .Pre }}
-                <span>{{ .Name }}</span>
-              </a>
-            {{ end }}
+            <a {{ if (findRE .URL $currentPage) }}class="main-navigation__item--active" {{ end }}href="{{ .URL }}">
+              {{ .Name }}
+            </a>
           </li>
           {{ end }}
           {{ end }}
