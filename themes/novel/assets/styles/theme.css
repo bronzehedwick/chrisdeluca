@@ -226,7 +226,7 @@ a:visited {
   color: #db2f2f;
 }
 
-.main-navigation__item--active,
+a.main-navigation__item--active,
 a:hover {
   background-color: #db2f2f;
   color: #fff;
