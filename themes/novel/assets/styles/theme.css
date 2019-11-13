@@ -78,6 +78,10 @@ button[disabled]:hover {
   background-color: #fdfcfa;
 }
 
+dd {
+  margin-top: 0;
+}
+
 .game-button[data-target-id="restart"]::after {
   content: "?";
 }

@@ -1,20 +1,18 @@
-<div>
-  <p>
-    {{ with .Params.read }}
-      {{ if not .end }}📖{{ end }}
-      {{ if .end }}{{ if not .gaveup }}📚{{ end }}{{ end }}
-      {{ if .gaveup }}📕{{ end }}
-    {{ end }}
-    {{ if .Content }}✏️{{ end }}
-    "<em>{{ title .Title }}{{ if .Params.subtitle }}: {{ .Params.subtitle }}{{ end }}" by {{ .Params.author }}</em>
-  </p>
+<dt>
   {{ with .Params.read }}
-    <p>Started reading on <time class="dt-published" datetime="{{ .start.Format "2006-01-02T15:04:05Z07:00" }}">{{ .start.Format "January 2, 2006" }}</time></p>
-    {{ if .end }}
-      <p>{{ if gt .gaveup 0 }}Gave up reading{{ else }}Finished the book{{ end }} on <time class="dt-published" datetime="{{ .end.Format "2006-01-02T15:04:05Z07:00" }}">{{ .end.Format "January 2, 2006" }}</time>{{ if gt .gaveup 0 }}, after {{ .gaveup }} pages{{ end }}</p>
-      {{ $delta := .end.Sub .start }}
-      <p>Completed in {{ math.Floor ( div $delta.Hours 24 ) }} days</p>
-    {{ end }}
+    {{ if not .end }}📖{{ end }}
+    {{ if .end }}{{ if not .gaveup }}📚{{ end }}{{ end }}
+    {{ if .gaveup }}📕{{ end }}
   {{ end }}
-  <p>{{ if .Content }}<a href="{{ .Permalink }}">My notes on {{ title .Title }}</a>{{ end }}</p>
-</div>
+  {{ if .Content }}✏️{{ end }}
+  "<em>{{ title .Title }}{{ if .Params.subtitle }}: {{ .Params.subtitle }}{{ end }}" by {{ .Params.author }}</em>
+</dt>
+{{ with .Params.read }}
+  <dd>Started reading on <time class="dt-published" datetime="{{ .start.Format "2006-01-02T15:04:05Z07:00" }}">{{ .start.Format "January 2, 2006" }}</time></dd>
+  {{ if .end }}
+    <dd>{{ if gt .gaveup 0 }}Gave up reading{{ else }}Finished the book{{ end }} on <time class="dt-published" datetime="{{ .end.Format "2006-01-02T15:04:05Z07:00" }}">{{ .end.Format "January 2, 2006" }}</time>{{ if gt .gaveup 0 }}, after {{ .gaveup }} pages{{ end }}</dd>
+    {{ $delta := .end.Sub .start }}
+    <dd>Completed in {{ math.Floor ( div $delta.Hours 24 ) }} days</dd>
+  {{ end }}
+{{ end }}
+{{ if .Content }}<dd><a href="{{ .Permalink }}">My notes on {{ title .Title }}</a></dd>{{ end }}

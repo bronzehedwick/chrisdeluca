@@ -2,9 +2,11 @@
   <h1>{{ title "Reading list" }}</h1>
 
   {{ $paginator := .Paginate .Data.Pages }}
-  {{ range $paginator.Pages }}
-    {{ .Render "summary" }}
-  {{ end }}
+  <dl>
+    {{ range $paginator.Pages }}
+      {{ .Render "summary" }}
+    {{ end }}
+  </dl>
 
   <footer>
     {{ partial "pagination.html" . }}
