@@ -1,9 +1,5 @@
-{{ define "header" }}
-  <h1><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
-  <p>{{ title .Title }} {{ .Data.Singular }}</p>
-{{ end }}
-
 {{ define "main" }}
+  <h1>{{ title .Title }} {{ .Data.Singular }}</h1>
 
   {{ $paginator := .Paginate .Data.Pages }}
   {{ range $paginator.Pages }}

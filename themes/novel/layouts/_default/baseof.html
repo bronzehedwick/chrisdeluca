@@ -48,10 +48,10 @@
 <body class="{{ if .IsNode }}node{{ end }}{{ if .IsPage }}page{{ end }}{{ if .IsHome }} home{{ end }}">
   <header>
     {{ block "header" . }}
-      {{ if .IsNode }}<h1>{{ else }}<h2>{{ end }}
-        <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
-      {{ if .IsNode }}</h1>{{ else }}</h2>{{ end }}
-      <p>{{ .Site.Params.description }}</p>
+      <a href="{{ .Site.BaseURL }}">
+        {{ readFile "themes/novel/static/doodle.svg" | safeHTML }}
+      </a>
+      <p>Chris DeLuca's webbed site</p>
     {{ end }}
   </header>
 

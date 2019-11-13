@@ -12,8 +12,6 @@ body {
   font-family: "Palatino Linotype", Palatino, "Book Antiqua", serif;
   font-size: 1.2em;
   line-height: 1.6;
-  max-width: 43em;
-  margin: 0px auto;
   padding: 1em;
   background-color: #fdfcfa;
   color: #191919;
@@ -23,6 +21,11 @@ body {
   body {
     font-size: 1.4em;
   }
+}
+
+main, footer {
+  max-width: 43em;
+  margin: 0px auto;
 }
 
 section + section,
@@ -103,15 +106,17 @@ h1, h2, h3, h4, h5, h6 {
   clear: both;
 }
 
-body > header h1,
-body > header h2 {
-  margin-top: 0px;
-  font-size: 2em;
+body > header a:hover {
+  background-color: transparent;
+}
+
+body > header svg {
+  color: #191919;
+  max-height: 200px;
 }
 
 /* Subtitles */
-header h1 + p,
-header h2 + p {
+header a + p {
   font-size: 1.3em;
 }
 
@@ -505,7 +510,6 @@ main {
   left: calc(50% - 6ch);
 }
 
-
 @media screen and (min-width: 50em) {
 
   .main-navigation {
@@ -724,69 +728,6 @@ summary {
 
 /* }}} */
 
-/* Social links {{{ */
-
-.social-links a {
-  border-bottom: none;
-}
-
-.social-links a:hover {
-  background-color: transparent;
-}
-
-.social-links svg {
-  width: 1.2em;
-}
-
-.social-link__twitter a:hover path {
-  fill: #55acee;
-}
-
-.social-link__github a:hover path {
-  fill: #4078c0;
-}
-
-.social-link__stackoverflow a:hover path {
-  fill: #fe7a15;
-}
-
-.social-link__facebook a:hover path:first-child {
-  fill: #395185;
-}
-
-.social-link__keybase a:hover path {
-  fill: #ff7100;
-}
-
-.social-link__drupal a:hover path {
-  fill: #0077c0;
-}
-
-.social-link__drupal a:hover path:nth-child(2),
-.social-link__drupal a:hover path:nth-child(3),
-.social-link__drupal a:hover path:nth-child(4),
-.social-link__drupal a:hover path:nth-child(5),
-.social-link__drupal a:hover path:nth-child(7),
-.social-link__drupal a:hover path:nth-child(8) {
-  fill: #f0f0f0;
-}
-
-.social-link__instagram a:hover path {
-  fill: #cc39a2;
-}
-
-.social-link__youtube a:hover path:last-of-type {
-  fill: #e52d27;
-}
-
-#back-to-top {
-  position: fixed;
-  top: 1em;
-  left: 1em;
-}
-
-/* }}} */
-
 /* h-card {{{ */
 
 .h-card {
@@ -889,6 +830,10 @@ article .h-card {
 
   body > header p {
     color: #9f9f9f;
+  }
+
+  body > header svg {
+    color: #d9d9d9;
   }
 
   a:link,

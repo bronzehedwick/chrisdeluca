@@ -7,9 +7,9 @@ enableRobotsTXT = true
 pygmentsuseclasses = true
 enableEmoji = true
 newContentEditor = "nvr"
-copyright = "Chris DeLuca, all rights reserved."
 contentDir = "/Volumes/Data/Projects/chrisdeluca.me_content"
 menus = [ "main", "footer" ]
+description = "Chris DeLuca's webbed site"
 
 [author]
   name = "Chris DeLuca"
@@ -52,6 +52,11 @@ menus = [ "main", "footer" ]
   name = "📻 Records"
   url = "/page/record-collection"
   weight = 90
+
+[[menu.main]]
+  name = "💡 Quotes"
+  url = "/page/quotes"
+  weight = 95
 
 [[menu.main]]
   name = "📬 RSS"
