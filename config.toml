@@ -9,7 +9,6 @@ enableEmoji = true
 newContentEditor = "nvr"
 contentDir = "/Volumes/Data/Projects/chrisdeluca.me_content"
 menus = [ "main", "footer" ]
-description = "Chris DeLuca's webbed site"
 
 [author]
   name = "Chris DeLuca"
@@ -64,6 +63,8 @@ description = "Chris DeLuca's webbed site"
   weight = 100
 
 [params]
+  description = "Chris DeLuca's webbed site"
+
   [params.socialLinks.twitter]
     name = "Twitter"
     url = "https://twitter.com/chrisjohndeluca"

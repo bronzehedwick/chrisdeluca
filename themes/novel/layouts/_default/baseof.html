@@ -51,7 +51,7 @@
       <a href="{{ .Site.BaseURL }}">
         {{ readFile "themes/novel/static/doodle.svg" | safeHTML }}
       </a>
-      <p>Chris DeLuca's webbed site</p>
+      <p>{{ .Site.Params.description }}</p>
     {{ end }}
   </header>
 
