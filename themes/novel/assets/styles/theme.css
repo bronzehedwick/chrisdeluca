@@ -723,8 +723,12 @@ summary {
   text-align: center;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
   visibility: hidden;
+}
+
+.achievement--max.achievement--active {
+  transform: translate(-50%, -50%);
+  visibility: visible;
 }
 
 .achievement--max > * + * {
