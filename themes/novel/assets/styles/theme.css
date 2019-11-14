@@ -233,7 +233,8 @@ a:hover {
 }
 
 /* TODO: Fix external link icons from displaying wonky inline */
-/* a:after { */
+
+/* a::after { */
 /*   width: 0.6em; */
 /*   height: 0.6em; */
 /*   display: inline-block; */
@@ -241,11 +242,10 @@ a:hover {
 /*   content: url(/images/external-link.svg); */
 /* } */
 
-/* a[href^="https://www.chrisdeluca.me"]:after, */
-/* a[href^="/"]:after, */
-/* a[href^="#"]:after, */
-/* .social-links a:after, */
-/* a[href^="http://localhost:1313"]:after { */
+/* a[href^="https://www.chrisdeluca.me"]::after, */
+/* a[href^="/"]::after, */
+/* a[href^="#"]::after, */
+/* a[href^="http://localhost:1313"]::after { */
 /*   content: none; */
 /*   display: none; */
 /* } */
@@ -379,6 +379,7 @@ samp, kbd,
 pre, code {
   padding: 0.5ch;
   background-color: #efefef;
+  word-break: break-all;
   white-space: pre-wrap;
 }
 
@@ -432,7 +433,7 @@ blockquote::before {
   font-family: Georgia, sans-serif;
   line-height: 0.75;
   margin-right: 0.25ch;
-  color: #ff725c;
+  color: #ff6363;
 }
 
 /* }}} */
