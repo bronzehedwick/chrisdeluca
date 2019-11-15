@@ -1,10 +1,25 @@
 {{ define "main" }}
-  <h1>{{ title "Reading list" }}</h1>
+
+  <h1>{{ title "Reading" }}</h1>
 
   {{ $paginator := .Paginate .Data.Pages }}
+
+  {{ if eq $paginator.PageNumber 1 }}
+    <h2>Currently reading</h2>
+    {{ $reading := where .Data.Pages "Params.read.end" "eq" "" }}
+    <dl>
+      {{ range $reading }}
+        {{ .Render "summary" }}
+      {{ end }}
+    </dl>
+  {{ end }}
+
+  <h2>Books I've Already Read</h2>
   <dl>
     {{ range $paginator.Pages }}
-      {{ .Render "summary" }}
+      {{ if ne .Params.read.end "" }}
+        {{ .Render "summary" }}
+      {{ end }}
     {{ end }}
   </dl>
 
@@ -13,4 +28,3 @@
   </footer>
 
 {{ end }}
-
