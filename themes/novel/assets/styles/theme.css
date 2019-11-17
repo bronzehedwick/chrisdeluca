@@ -737,6 +737,30 @@ summary {
 
 /* }}} */
 
+/* Records {{{ */
+
+.record {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.record__cover {
+  margin: 0 2em 0 0;
+  max-width: none;
+  height: 100px;
+  flex: 0 0 auto;
+}
+
+.record__data {
+  margin: 0;
+}
+
+.record__data p {
+  text-indent: 0;
+}
+
+/* }}} */
+
 /* h-card {{{ */
 
 .h-card {

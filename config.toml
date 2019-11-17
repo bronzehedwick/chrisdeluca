@@ -24,8 +24,9 @@ menus = [ "main", "footer" ]
 
 [taxonomies]
   topic = "topics"
-  category = "categories"
   series = "series"
+  artist = "artists"
+  year = "years"
 
 [[menu.main]]
   name = "📰 Articles"

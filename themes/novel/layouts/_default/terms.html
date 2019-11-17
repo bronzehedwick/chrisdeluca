@@ -12,7 +12,7 @@
           {{ if eq $taxonomy_title "Categories" }}
             {{ title $key }}
           {{ else }}
-            {{ $key }}
+            {{ humanize $key | title }}
           {{ end }}
         </a>
       </li>
