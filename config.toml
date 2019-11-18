@@ -50,7 +50,7 @@ menus = [ "main", "footer" ]
 
 [[menu.main]]
   name = "📻 Records"
-  url = "/page/record-collection"
+  url = "/record"
   weight = 90
 
 [[menu.main]]
