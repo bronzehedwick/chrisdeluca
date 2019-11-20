@@ -8,9 +8,8 @@
   {{ template "_internal/opengraph.html" . }}
   {{ template "_internal/twitter_cards.html" . }}
   <title>{{ title .Title }}</title>
-  {{ range .Site.Params.socialLinks }}
-    <link href="{{ .url }}" rel="me">
-  {{ end }}
+  <link rel="authorization_endpoint" href="https://micro.blog/indieauth/auth" />
+  <link rel="token_endpoint" href="https://micro.blog/indieauth/token" />
   <link rel="pgpkey" href="{{ .Site.Author.key.url }}">
   <link rel="author" href="/humans.txt">
   <link rel="webmention" href="https://webmention.io/www.chrisdeluca.me/webmention" />
