@@ -60,7 +60,7 @@ menus = [ "main", "footer" ]
 
 [[menu.main]]
   name = "📬 RSS"
-  url = "/index.xml"
+  url = "/page/rss"
   weight = 100
 
 [params]
