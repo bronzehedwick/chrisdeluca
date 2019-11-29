@@ -15,6 +15,13 @@
       </time>
     </p>
 
+    {{ with .Params.series }}
+      <div>
+        Part of the series
+        {{ range . }}<a class="p-category" href="/series/{{ . | urlize }}">{{ . }}</a>{{ end }}
+      </div>
+    {{ end }}
+
     {{ if .Params.syndicated }}
       <h2>This post syndicated to:</h2>
       <ul>
