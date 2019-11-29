@@ -18,7 +18,7 @@ serve: ## Start development server in the background.
 	@hugo serve --contentDir=/Volumes/Data/Projects/chrisdeluca.me_content --buildFuture --buildDrafts > logs/hugo.log 2>&1 &
 
 stop: ## Kill background hugo process.
-	@pgrep hugo | xargs kill
+	@pgrep hugo | xargs kill -9
 
 note: ## Create new note (micro blog)
 	@hugo new note/$$(date +%s).md
