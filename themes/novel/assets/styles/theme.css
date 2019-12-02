@@ -15,6 +15,8 @@ body {
   padding: 1em;
   background-color: #fdfcfa;
   color: #191919;
+  hyphens: auto;
+  -webkit-hyphens: auto;
 }
 
 @media screen and (min-width: 28em) {
@@ -26,11 +28,6 @@ body {
 main, footer {
   max-width: 43em;
   margin: 0px auto;
-}
-
-section + section,
-article + article {
-  margin-top: 2em;
 }
 
 pre, code, kbd, samp {
@@ -647,6 +644,48 @@ summary {
 
 .article-info__topics li:first-of-type:before {
   content: '';
+}
+
+/* }}} */
+
+/* Homepage {{{ */
+
+.home main {
+  max-width: none;
+}
+
+.featured__image {
+  margin: 0 1em 0 0;
+}
+
+.featured__title {
+  font-size: 1.4em;
+}
+
+.featured .features__content-wrapper {
+  display: block;
+}
+
+.featured__content-wrapper {
+  margin: 0;
+}
+
+.see-more {
+  margin-top: 1.2em;
+}
+
+.projects {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.projects > .featured {
+  flex: 0 1 300px;
+}
+
+.projects h2 {
+  width: 100%;
 }
 
 /* }}} */

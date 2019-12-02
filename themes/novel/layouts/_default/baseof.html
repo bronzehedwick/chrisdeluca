@@ -93,34 +93,9 @@
   </main>
 
   <footer>
-    <div class="h-card">
-      <div class="about__photo">
-        {{ $portraitFile := readFile (print "/static/" .Site.Author.photo) }}
-        <img class="u-photo" src="{{ .Site.Author.photo }}?{{ md5 $portraitFile }}" alt="Portrait of {{ .Site.Author.name }}">
-      </div>
-      <div class="about__content">
-        <p class="p-summary p-note">
-          <span class="p-name">{{ .Site.Author.name }}</span> is a {{ delimit .Site.Author.identities "/" }} based in <span class="p-region">{{ .Site.Author.region }}</span> (<data class="p-tz" value="{{ now.Format "-0700" }}">{{ now.Format "MST" }}</data>).
-        </p>
-        <ul>
-          <li>Homepage: <a class="u-url u-uid" href="/">{{ .Site.BaseURL }}</a></li>
-          <li>Email: <a class="u-email" href="mailto:{{ .Site.Author.email }}">{{ .Site.Author.email }}</a></li>
-          <li>Pronouns: <span class="u-pronoun">{{ .Site.Author.pronouns }}</span></li>
-          <li>Nickname: <span class="p-nickname">{{ .Site.Author.nickname }}</span></li>
-          <li>PGP key: <a class="u-key" href="{{ .Site.Author.key.url }}">{{ .Site.Author.key.id }}</a></li>
-        </ul>
-        <details>
-          <summary>Around the web</summary>
-          <ul>
-            {{ range sort .Site.Params.socialLinks "weight" "desc" }}
-              <li>
-                <a href="{{ .url }}" rel="me">{{ .name }}</a>
-              </li>
-            {{ end }}
-          </ul>
-        </details>
-      </div>
-    </div>
+    {{ if not .IsHome }}
+      {{ partial "h-card.html" . }}
+    {{ end }}
 
     <nav class="indie-webring">
       An IndieWeb Webring 🕸💍
