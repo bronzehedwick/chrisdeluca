@@ -15,7 +15,7 @@ sync: ## Push the site to the server.
 web: build sync ## Deploys site to server.
 
 serve: ## Start development server in the background.
-	@hugo serve --contentDir=/Volumes/Data/Projects/chrisdeluca.me_content --buildFuture --buildDrafts > logs/hugo.log 2>&1 &
+	@hugo serve --contentDir=/Volumes/Data/Projects/chrisdeluca.me_content --buildFuture --buildDrafts > hugo.log 2>&1 &
 
 stop: ## Kill background hugo process.
 	@pgrep hugo | xargs kill -9
