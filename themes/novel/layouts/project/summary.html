@@ -1,17 +1,14 @@
-<article>
-  <header>
-    <h2><a href="{{ .Params.project_url }}">
+<article class="featured featured--small">
+  {{ $headerImage := .Resources.GetMatch "header" }}
+  {{ if $headerImage }}
+    {{ $headerImage := $headerImage.Fill "100x100" }}
+    <img class="featured__image" width="100" height="100" src="{{ $headerImage.Permalink }}" alt="{{ $headerImage.Name }}">
+  {{ end }}
+  <div class="featured__content-wrapper">
+    <a href="{{ .Params.project_url }}">
       {{ if .Params.draft }}<mark>Draft</mark>{{ end }}
       {{ title .Title }}
-    </a></h2>
-    {{ $headerImage := .Resources.GetMatch "header" }}
-    {{ if $headerImage }}
-      {{ $headerImage := $headerImage.Fill "740x100" }}
-      <figure>
-        <img src="{{ $headerImage.Permalink }}" alt="{{ $headerImage.Name }}">
-        <figcaption>{{ htmlUnescape .Summary | plainify }}</figcaption>
-      </figure>
-    {{ end }}
-  </header>
+    </a>
+    <p>{{ .Summary|plainify }}</p>
+  </div>
 </article>
-

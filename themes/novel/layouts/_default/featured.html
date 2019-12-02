@@ -1,0 +1,19 @@
+<article class="featured">
+  {{ $image := .Resources.GetMatch "header" }}
+  {{ with $image }}
+  {{ $thumbnail := $image.Fill "300x150" }}
+  {{ with $thumbnail }}
+    <img class="featured__image" src="{{ .Permalink }}" alt="">
+  {{ end }}
+  {{ end }}
+
+  <div class="featured__content-wrapper">
+    <a class="featured__title" href="{{ if .Params.project_url }}{{ .Params.project_url }}{{ else }}{{ .Permalink }}{{ end }}">{{ if .Resources.Match "game/*" }}{{ emojify ":joystick:" }}{{ end }}
+    {{ if .Params.draft }}<mark>Draft</mark>{{ end }}
+    {{ title .Title }}</a>
+
+    {{ with .Params.subtitle }}<p class="featured__subtitle">{{ title . }}</p>{{ end }}
+
+    {{ with .Summary }}<p>{{ htmlUnescape . | plainify }}</p>{{ end }}
+  </div>
+</article>

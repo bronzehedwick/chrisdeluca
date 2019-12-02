@@ -1,12 +1,53 @@
 {{ define "main" }}
 
-  {{ $paginator := .Paginate (where .Site.RegularPages "Type" "article") }}
-  {{ range $paginator.Pages }}
-    {{ .Render "summary" }}
-  {{ end }}
+  <div class="projects">
+    <h2>My Projects</h2>
+    {{ $projects := first 3 (where .Site.RegularPages "Type" "project") }}
+    {{ $firstProject := index $projects 0 }}
+    {{ $secondProject := index $projects 1 }}
+    {{ $thirdProject := index $projects 2 }}
+    {{ with $firstProject }}
+      {{ .Render "featured" }}
+    {{ end }}
+    {{ with $secondProject }}
+      {{ .Render "summary" }}
+    {{ end }}
+    {{ with $thirdProject }}
+      {{ .Render "summary" }}
+    {{ end }}
+  </div>
 
-  <footer>
-    {{ partial "pagination.html" . }}
-  </footer>
+  {{ partial "h-card.html" . }}
+
+  <div class="articles">
+    <h2>Latest articles</h2>
+    {{ $articles := first 5 (where .Site.RegularPages "Type" "article") }}
+    {{ range $articles }}
+      {{ .Render "featured" }}
+    {{ end }}
+    <p class="see-more"><a href="/article">See all articles</a></p>
+  </div>
+
+  <div class="notes">
+    <h2>Micro posts</h2>
+    {{ range first 6 (where .Site.RegularPages "Type" "note") }}
+      {{ .Render "summary" }}
+    {{ end }}
+    <p class="see-more"><a href="/note">See all notes</a></p>
+  </div>
+
+
+  <div class="reading">
+    <h2>What I'm reading</h2>
+    {{ with (where .Site.RegularPages "Type" "book") }}
+      {{ $reading := where . "Params.read.end" "eq" "" }}
+      <dl>
+        {{ range $reading }}
+        {{ .Render "summary" }}
+        {{ end }}
+      </dl>
+    {{ end }}
+    <p class="see-more"><a href="/book">See all books</a></p>
+  </div>
 
 {{ end }}
