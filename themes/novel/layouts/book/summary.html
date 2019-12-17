@@ -12,7 +12,8 @@
   {{ if .end }}
     <dd>{{ if gt .gaveup 0 }}Gave up reading{{ else }}Finished the book{{ end }} on <time class="dt-published" datetime="{{ .end.Format "2006-01-02T15:04:05Z07:00" }}">{{ .end.Format "January 2, 2006" }}</time>{{ if gt .gaveup 0 }}, after {{ .gaveup }} pages{{ end }}</dd>
     {{ $delta := .end.Sub .start }}
-    <dd>Completed in {{ math.Round ( div $delta.Hours 24 ) }} days</dd>
+    {{ $days := math.Round (div $delta.Hours 24) }}
+    <dd>Completed in {{ if gt $days 0 }}{{ $days }} days{{ else }}a day{{ end }}</dd>
   {{ end }}
 {{ end }}
 {{ if .Content }}<dd><a href="{{ .Permalink }}">My notes on {{ title .Title }}</a></dd>{{ end }}
