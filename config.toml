@@ -29,6 +29,9 @@ paginate = 20
   artist = "artists"
   year = "years"
 
+[outputs]
+  section = ["HTML", "RSS", "CSV"]
+
 [[menu.main]]
   name = "📰 Articles"
   url = "/article"
