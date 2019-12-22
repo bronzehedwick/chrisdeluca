@@ -7,7 +7,7 @@
 
   <section class="note h-entry">
 
-    <p class="note-content p-content">{{ .Content | markdownify }}</p>
+    <div class="note-content p-content">{{ .Content }}</div>
 
     <p class="meta-info">Published
       <time class="dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
