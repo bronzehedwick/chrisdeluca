@@ -1,2 +1,3 @@
-Title
-{{ range .Data.Pages }}{{ .Title }}{{ end }}
+Title,Date
+{{ range .Data.Pages }}{{ .Title }},{{ .Date }}
+{{ end }}
