@@ -50,6 +50,11 @@ paginate = 20
 [[menu.main]]
   name = "📚 Reading"
   url = "/book"
+  weight = 75
+
+[[menu.main]]
+  name = "🍿 Watching"
+  url = "/movie"
   weight = 80
 
 [[menu.main]]
