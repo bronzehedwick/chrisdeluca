@@ -18,7 +18,7 @@ paginate = 20
   region = "New York City"
   nickname = "bronzehedwick"
   pronouns = "he/him"
-  identities = ["software developer", "writer", "performer"]
+  identities = ["writer", "improviser", "software developer"]
   [author.key]
     id = "57B2F2C5"
     url = "/files/chris-deluca-pgp.pub.asc"
