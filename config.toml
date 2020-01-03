@@ -29,8 +29,16 @@ paginate = 20
   artist = "artists"
   year = "years"
 
+[outputFormats.MICRO]
+  MediaType = "application/rss+xml"
+  BaseName = "micro"
+  IsHTML = false
+  IsPlainText = true
+  noUgly = true
+  Rel = "alternate"
+
 [outputs]
-  section = ["HTML", "RSS", "CSV"]
+  section = ["HTML", "RSS", "JSON", "CSV", "MICRO"]
 
 [[menu.main]]
   name = "📰 Articles"
