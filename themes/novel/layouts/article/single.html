@@ -37,6 +37,8 @@
     {{ if $webmentions }}{{ partial "mention-count" $webmentions }}{{ end }}
     {{ if $webmentions }}{{ partial "conversation" $webmentions }}{{ end }}
 
+    {{ partial "syndicated.html" . }}
+
     {{ with .Resources.Match "game/*" }}
       {{ range $index, $value := . }}
         {{ $id := replace .Name "game/" "-" }}

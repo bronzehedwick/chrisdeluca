@@ -22,14 +22,7 @@
       </div>
     {{ end }}
 
-    {{ if .Params.syndicated }}
-      <h2>This post syndicated to:</h2>
-      <ul>
-        {{ range .Params.syndicated }}
-          <li><a class="u-syndication" href="{{ . }}">{{ . }}</a></li>
-        {{ end }}
-      </ul>
-    {{ end }}
+    {{ partial "syndicated.html" . }}
 
     {{ if $webmentions }}{{ partial "mention-count" $webmentions }}{{ end }}
     {{ if $webmentions }}{{ partial "conversation" $webmentions }}{{ end }}

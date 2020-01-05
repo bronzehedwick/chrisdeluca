@@ -203,3 +203,6 @@ paginate = 20
     color = "#0f0"
     icon = ""
     weight = 20
+
+[markup.goldmark.renderer]
+unsafe = true

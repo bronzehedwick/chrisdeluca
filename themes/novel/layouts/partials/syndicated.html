@@ -1,0 +1,10 @@
+{{ if .Params.syndicated }}
+  <h2>This post syndicated to:</h2>
+  <ul>
+    {{ range .Params.syndicated }}
+      <li><a class="u-syndication" href="{{ . }}">{{ . }}</a></li>
+    {{ end }}
+  </ul>
+{{ end }}
+
+
