@@ -7,6 +7,7 @@ categories = []
 topics = []
 toc = false
 styles = []
+syndicated = []
 +++
 
 <!--more-->
