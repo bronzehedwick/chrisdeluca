@@ -61,11 +61,6 @@ paginate = 20
   weight = 75
 
 [[menu.main]]
-  name = "🍿 Watching"
-  url = "/movie"
-  weight = 80
-
-[[menu.main]]
   name = "📻 Records"
   url = "/record"
   weight = 90
