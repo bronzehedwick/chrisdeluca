@@ -663,7 +663,7 @@ summary {
       "supporting extra     sidebar";
     grid-template-rows: minmax(300px, max-content);
     grid-template-columns: auto;
-    grid-gap: 1em;
+    grid-gap: 2em 4em;
   }
 }
 
@@ -706,6 +706,10 @@ summary {
 
 .featured__content-wrapper {
   margin: 0;
+}
+
+.featured__content-wrapper .meta-info + p {
+  text-indent: 0;
 }
 
 .home .notes {

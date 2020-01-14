@@ -8,11 +8,23 @@
   {{ end }}
 
   <div class="featured__content-wrapper">
-    <a class="featured__title" href="{{ if .Params.project_url }}{{ .Params.project_url }}{{ else }}{{ .Permalink }}{{ end }}">{{ if .Resources.Match "game/*" }}{{ emojify ":joystick:" }}{{ end }}
+    <p><a class="featured__title" href="{{ if .Params.project_url }}{{ .Params.project_url }}{{ else }}{{ .Permalink }}{{ end }}">{{ if .Resources.Match "game/*" }}{{ emojify ":joystick:" }}{{ end }}
     {{ if .Params.draft }}<mark>Draft</mark>{{ end }}
-    {{ title .Title }}</a>
+    {{ title .Title }}</a></p>
 
     {{ with .Params.subtitle }}<p class="featured__subtitle">{{ title . }}</p>{{ end }}
+
+    {{ if eq .Type "article" }}
+    <p class="meta-info">
+      Published <a class="u-url" href="{{ .Permalink }}"><time class="dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "January 2, 2006" }}</time></a>
+      {{ if .Params.categories }}
+        in
+        {{ range .Params.categories }}
+          <a class="p-category" href="/categories/{{ . | urlize }}">{{ . }}</a>
+        {{ end }}
+      {{ end }}
+    </p>
+    {{ end }}
 
     {{ with .Summary }}<p>{{ htmlUnescape . | plainify }}</p>{{ end }}
   </div>
