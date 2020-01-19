@@ -2,7 +2,7 @@
 title = "{{ replace .Name "-" " " | title }}"
 date = {{ .Date }}
 draft = false
-artist = [ "" ]
+artists = [ "" ]
 year = ""
 format = "LP"
 condition = "New"
