@@ -5,7 +5,7 @@
     {{ if .gaveup }}📕{{ end }}
   {{ end }}
   {{ if .Content }}✏️{{ end }}
-  "<em>{{ title .Title }}{{ if .Params.subtitle }}: {{ .Params.subtitle }}{{ end }}" by {{ .Params.author }}</em>
+  {{ if .Params.link }}<a href="{{ .Params.link }}">{{ end }}"<em>{{ title .Title }}{{ if .Params.subtitle }}: {{ .Params.subtitle }}{{ end }}" by {{ .Params.author }}</em>{{ if .Params.link }}</a>{{ end }}
 </dt>
 {{ with .Params.read }}
   {{ if eq .start .end }}
