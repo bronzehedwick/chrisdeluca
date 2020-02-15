@@ -8,12 +8,16 @@
   "<em>{{ title .Title }}{{ if .Params.subtitle }}: {{ .Params.subtitle }}{{ end }}" by {{ .Params.author }}</em>
 </dt>
 {{ with .Params.read }}
-  <dd>Started reading on <time class="dt-published" datetime="{{ .start.Format "2006-01-02T15:04:05Z07:00" }}">{{ .start.Format "January 2, 2006" }}</time></dd>
-  {{ if .end }}
-    <dd>{{ if gt .gaveup 0 }}Gave up reading{{ else }}Finished the book{{ end }} on <time class="dt-published" datetime="{{ .end.Format "2006-01-02T15:04:05Z07:00" }}">{{ .end.Format "January 2, 2006" }}</time>{{ if gt .gaveup 0 }}, after {{ .gaveup }} pages{{ end }}</dd>
-    {{ $delta := .end.Sub .start }}
-    {{ $days := math.Round (div $delta.Hours 24) }}
-    <dd>Completed in {{ if gt $days 0 }}{{ $days }} days{{ else }}a day{{ end }}</dd>
+  {{ if eq .start .end }}
+  <dd>Read on <time class="dt-published" datetime="{{ .end.Format "2006-01-02T15:04:05Z07:00" }}">{{ .end.Format "January 2, 2006" }}</dd>
+  {{ else }}
+    <dd>Started reading on <time class="dt-published" datetime="{{ .start.Format "2006-01-02T15:04:05Z07:00" }}">{{ .start.Format "January 2, 2006" }}</time></dd>
+    {{ if .end }}
+      <dd>{{ if gt .gaveup 0 }}Gave up reading{{ else }}Finished the book{{ end }} on <time class="dt-published" datetime="{{ .end.Format "2006-01-02T15:04:05Z07:00" }}">{{ .end.Format "January 2, 2006" }}</time>{{ if gt .gaveup 0 }}, after {{ .gaveup }} pages{{ end }}</dd>
+      {{ $delta := .end.Sub .start }}
+      {{ $days := math.Round (div $delta.Hours 24) }}
+      <dd>Completed in {{ $days }} days</dd>
+    {{ end }}
   {{ end }}
 {{ end }}
 {{ if .Content }}<dd><a href="{{ .Permalink }}">My notes on {{ title .Title }}</a></dd>{{ end }}
