@@ -659,8 +659,8 @@ summary {
     display: grid;
     grid-template-areas:
       "featured   featured  sidebar"
-      "prominent  prominent sidebar"
-      "supporting extra     sidebar";
+      "supporting extra     sidebar"
+      "prominent  prominent sidebar";
     grid-template-rows: minmax(300px, max-content);
     grid-template-columns: auto;
     grid-gap: 2em 4em;
