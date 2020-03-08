@@ -17,8 +17,6 @@
     {{ end }}
   </div>
 
-  {{ partial "h-card.html" . }}
-
   <div class="articles">
     <h2>Latest articles</h2>
     {{ $articles := first 6 (where .Site.RegularPages "Type" "article") }}
@@ -54,5 +52,7 @@
     {{ end }}
     <p class="see-more"><a href="/book">See all books</a></p>
   </div>
+
+  {{ partial "h-card.html" . }}
 
 {{ end }}

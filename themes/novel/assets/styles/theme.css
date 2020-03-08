@@ -654,16 +654,16 @@ summary {
   max-width: none;
 }
 
-@media screen and (min-width: 650px) {
+@media screen and (min-width: 1040px) {
   .home .content {
     display: grid;
     grid-template-areas:
       "featured   featured  sidebar"
-      "supporting extra     sidebar"
-      "prominent  prominent sidebar";
+      "supporting prominent     sidebar"
+      "extra  extra sidebar";
     grid-template-rows: minmax(300px, max-content);
     grid-template-columns: auto;
-    grid-gap: 2em 4em;
+    grid-gap: 0px 3em;
   }
 }
 
@@ -677,6 +677,7 @@ summary {
   flex: 1 1 0;
   margin-top: 0;
   margin-bottom: 0.5em;
+  min-width: 300px;
 }
 
 .projects > .featured--small {
@@ -721,7 +722,7 @@ summary {
 }
 
 .home .h-card {
-  grid-area: prominent;
+  grid-area: extra;
 }
 
 .home .articles {
@@ -729,7 +730,7 @@ summary {
 }
 
 .home .reading {
-  grid-area: extra;
+  grid-area: prominent;
 }
 
 .see-more {
