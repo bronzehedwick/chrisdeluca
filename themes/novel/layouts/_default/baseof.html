@@ -129,10 +129,5 @@
     {{ end }}
   {{ end }}
 
-  {{ $analytics := resources.Get "scripts/vendor/goat-counter.js" | resources.Minify | resources.Fingerprint "sha512" }}
-  {{ if not .Site.IsServer }}
-  <script src="{{ $analytics.Permalink }}" integrity="{{ $analytics.Data.Integrity }}"></script>
-  {{ end }}
-
 </body>
 </html>
