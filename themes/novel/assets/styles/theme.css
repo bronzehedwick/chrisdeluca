@@ -878,6 +878,14 @@ article .h-card {
   flex: 999 1 0px;
 }
 
+.about__content details ul {
+  column-count: 2;
+}
+
+.about__content details li {
+  list-style-type: none;
+}
+
 /* }}} */
 
 /* Utils {{{ */

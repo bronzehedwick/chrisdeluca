@@ -79,48 +79,48 @@ paginate = 20
   description = "Chris DeLuca's webbed site"
 
   [params.socialLinks.twitter]
-    name = "Twitter"
+    name = "🐦 Twitter"
     url = "https://twitter.com/chrisjohndeluca"
     icon = "svg/twitter.html"
     weight = 50
     featured = true
 
   [params.socialLinks.mastodon]
-    name = "Mastodon"
+    name = "🐘 Mastodon"
     url = "https://mastodon.social/@bronzehedwick"
     weight = 40
     featured = false
 
   [params.socialLinks.stackoverflow]
-    name = "StackOverflow"
+    name = "🥞 StackOverflow"
     url = "http://stackoverflow.com/users/1143575/bronzehedwick"
     icon = "svg/stack-overflow.html"
     weight = 31
     featured = false
 
   [params.socialLinks.drupal]
-    name = "Drupal"
+    name = "💧 Drupal"
     url = "https://www.drupal.org/u/bronzehedwick"
     icon = "svg/drupal.html"
     weight = 12
     featured = false
 
   [params.socialLinks.github]
-    name = "Github"
+    name = "🐙 Github"
     url = "https://github.com/bronzehedwick"
     icon = "svg/github.html"
     weight = 45
     featured = true
 
   [params.socialLinks.pinboard]
-    name = "Pinboard"
+    name = "📌 Pinboard"
     url = "https://pinboard.in/u:bronzehedwick"
     icon = ""
     weight = 30
     featured = false
 
   [params.socialLinks.newsblur]
-    name = "Newsblur"
+    name = "🗞 Newsblur"
     url = "http://bronzehedwick.newsblur.com/"
     color = "#e6af4c"
     icon = ""
@@ -128,28 +128,28 @@ paginate = 20
     featured = false
 
   [params.socialLinks.keybase]
-    name = "Keybase"
+    name = "🗝 Keybase"
     url = "https://keybase.io/bronzehedwick"
     icon = "svg/keybase.html"
     weight = 43
     featured = true
 
   [params.socialLinks.youtube]
-    name = "YouTube"
+    name = "📺 YouTube"
     url = "https://www.youtube.com/channel/UChfcp3RhN0FJOnTZquDRzYw"
     icon = "svg/youtube.html"
     weight = 35
     featured = true
 
   [params.socialLinks.instagram]
-    name = "Instagram"
+    name = "📷 Instagram"
     url = "https://www.instagram.com/bronzehedwick/"
     icon = "svg/instagram.html"
     weight = 40
     featured = true
 
   [params.socialLinks.reddit]
-    name = "Reddit"
+    name = "🐰 Reddit"
     url = "https://www.reddit.com/user/bronzehedwick"
     color = "#0976b4"
     icon = ""
@@ -157,7 +157,7 @@ paginate = 20
     featured = false
 
   [params.socialLinks.linkedin]
-    name = "LinkedIn"
+    name = "📋 LinkedIn"
     url = "https://www.linkedin.com/in/christopherdeluca"
     color = "#0976b4"
     icon = ""
@@ -165,35 +165,35 @@ paginate = 20
     featured = false
 
   [params.socialLinks.hackernews]
-    name = "Hacker News"
+    name = "👾 Hacker News"
     url = "https://news.ycombinator.com/user?id=bronzehedwick"
     color = "#ff6600"
     icon = ""
     weight = 10
 
   [params.socialLinks.codepen]
-    name = "CodePen"
+    name = "🎆 CodePen"
     url = "https://codepen.io/bronzehedwick/"
     color = "#000"
     icon = ""
     weight = 8
 
   [params.socialLinks.devto]
-    name = "dev.to"
+    name = "🖲 dev.to"
     url = "https://dev.to/bronzehedwick"
     color = "#000"
     icon = ""
     weight = 20
 
   [params.socialLinks.microblog]
-    name = "micro.blog"
+    name = "💬 micro.blog"
     url = "https://micro.blog/chrisd"
     color = "#fd9526"
     icon = ""
     weight = 20
 
   [params.socialLinks.lobsters]
-    name = "lobsters"
+    name = "🦞 lobsters"
     url = "https://lobste.rs/u/bronzehedwick"
     color = "#0f0"
     icon = ""
