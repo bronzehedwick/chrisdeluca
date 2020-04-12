@@ -49,7 +49,11 @@
       <a href="{{ .Site.BaseURL }}">
         {{ readFile "themes/novel/static/doodle.svg" | safeHTML }}
       </a>
-      <p>{{ .Site.Params.description }}</p>
+      {{ if .IsHome }}
+        <h1>{{ .Site.Params.description }}</h1>
+      {{ else }}
+        <p>{{ .Site.Params.description }}</p>
+      {{ end }}
     {{ end }}
   </header>
 

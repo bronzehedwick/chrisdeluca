@@ -5,10 +5,10 @@
     <img class="featured__image" width="100" height="100" src="{{ $headerImage.Permalink }}" alt="{{ $headerImage.Name }}">
   {{ end }}
   <div class="featured__content-wrapper">
-    <a href="{{ .Params.project_url }}">
+    <h3><a href="{{ .Params.project_url }}">
       {{ if .Params.draft }}<mark>Draft</mark>{{ end }}
       {{ title .Title }}
-    </a>
-    <p>{{ .Summary|plainify }}</p>
+    </a></h3>
+    <p>{{ .Summary|plainify|htmlUnescape }}</p>
   </div>
 </article>

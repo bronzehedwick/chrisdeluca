@@ -8,9 +8,9 @@
   {{ end }}
 
   <div class="featured__content-wrapper">
-    <p><a class="featured__title" href="{{ if .Params.project_url }}{{ .Params.project_url }}{{ else }}{{ .Permalink }}{{ end }}">{{ if .Resources.Match "game/*" }}{{ emojify ":joystick:" }}{{ end }}
+    <h3><a class="featured__title" href="{{ if .Params.project_url }}{{ .Params.project_url }}{{ else }}{{ .Permalink }}{{ end }}">{{ if .Resources.Match "game/*" }}{{ emojify ":joystick:" }}{{ end }}
     {{ if .Params.draft }}<mark>Draft</mark>{{ end }}
-    {{ title .Title }}</a></p>
+    {{ title .Title }}</a></h3>
 
     {{ with .Params.subtitle }}<p class="featured__subtitle">{{ title . }}</p>{{ end }}
 
