@@ -46,13 +46,13 @@ paginate = 20
   weight = 50
 
 [[menu.main]]
-  name = "🗒 Notes"
-  url = "/note"
+  name = "🚀 Projects"
+  url = "/project"
   weight = 60
 
 [[menu.main]]
-  name = "🚀 Projects"
-  url = "/project"
+  name = "🗒 Notes"
+  url = "/note"
   weight = 70
 
 [[menu.main]]
