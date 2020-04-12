@@ -1,9 +1,9 @@
 <article>
-  <p><a href="{{ .Permalink }}">
+  <h3><a href="{{ .Permalink }}">
     {{ if .Resources.Match "game/*" }}{{ emojify ":joystick:" }}{{ end }}
     {{ if .Params.draft }}<mark>Draft</mark>{{ end }}
     {{ title .Title }}
-  </a></p>
+  </a></h3>
   <p class="meta-info">
     Published <a class="u-url" href="{{ .Permalink }}"><time class="dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "January 2, 2006" }}</time></a>
     {{ if .Params.categories }}
@@ -13,4 +13,5 @@
       {{ end }}
     {{ end }}
   </p>
+  <p>{{ .Summary|plainify|htmlUnescape }}</p>
 </article>

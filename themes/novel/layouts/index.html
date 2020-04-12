@@ -19,15 +19,9 @@
 
   <div class="articles">
     <h2>Latest articles</h2>
-    {{ $articles := first 6 (where .Site.RegularPages "Type" "article") }}
-    {{ $featuredArticle := index $articles 0 }}
-    {{ with $featuredArticle }}
-      {{ .Render "featured" }}
-    {{ end }}
-    {{ range $index, $value := $articles }}
-      {{ if ne $index 0 }}
-        {{ .Render "summary" }}
-      {{ end }}
+    {{ $articles := first 3 (where .Site.RegularPages "Type" "article") }}
+    {{ range $articles }}
+      {{ .Render "summary" }}
     {{ end }}
     <p class="see-more"><a href="/article">See all articles</a></p>
   </div>
