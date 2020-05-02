@@ -880,13 +880,8 @@ article .h-card {
 
 .highlight {
   padding: 0px 2ch;
-  overflow-x: scroll;
-}
-
-/* Background */
-.highlight, .chroma {
-  color: #f8f8f2;
-  background-color: #272822;
+  overflow-x: auto;
+  background-color: #fbfbfb;
 }
 
 /* LineHighlight */
@@ -909,7 +904,7 @@ article .h-card {
 
   body {
     background-color: #2f2f2f;
-    color: #d9d9d9;
+    color: #ffffff;
   }
 
   body > header p {
@@ -917,7 +912,7 @@ article .h-card {
   }
 
   body > header svg {
-    color: #d9d9d9;
+    color: #ffffff;
   }
 
   a:link,
@@ -945,12 +940,19 @@ article .h-card {
   }
 
   hr {
-    color: #d9d9d9;
+    color: #ffffff;
   }
 
   .achievement {
     color: #191919;
   }
+
+  /* Background */
+  .highlight, .chroma {
+    color: #f8f8f2;
+    background-color: #272727;
+  }
+
 }
 
 /* }}} */
