@@ -668,6 +668,7 @@ summary {
 
 .featured__image {
   margin: 0 2ch 0 0;
+  height: 100%;
 }
 
 .featured__content-wrapper {
