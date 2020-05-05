@@ -1,6 +1,9 @@
 {{ $nextTemplate := "<li class=\"pagination__item pagination__item--next\"><div class=\"pagination__item-label pagination__item-label--next\">%s %s</div><a href=\"%s\">%s &rarr;</a></li>" }}
 {{ $prevTemplate := "<li class=\"pagination__item pagination__item--previous\"><div class=\"pagination__item-label pagination__label-item--previous\">%s %s</div><a href=\"%s\">&larr; %s</a></li>" }}
+
 {{ $type := .Type }}
+{{ $series := .Params.series }}
+
 <nav>
   <ul class="pagination pagination--{{ .Type|lower }}">
 
@@ -20,12 +23,32 @@
 
     {{ end }}
 
-    {{ with .PrevInSection }}
-      {{ printf $prevTemplate "Previous" $type .Permalink .Title | safeHTML }}
+    {{ if $series }}
+
+      {{ range first 1 (where (where .Site.Pages ".Params.series" "intersect" .Params.series) ".Params.publishdate" "<" .Params.publishdate) }}
+        {{ printf $prevTemplate "Previous" "post in series" .Permalink .Title | safeHTML }}
+      {{ end }}
+
+    {{ else }}
+
+      {{ with .PrevInSection }}
+        {{ printf $prevTemplate "Previous" $type .Permalink .Title | safeHTML }}
+      {{ end }}
+
     {{ end }}
 
-    {{ with .NextInSection }}
-      {{ printf $nextTemplate "Next" $type .Permalink .Title | safeHTML }}
+    {{ if $series }}
+
+      {{ range first 1 (where (where .Site.Pages ".Params.series" "intersect" .Params.series) ".Params.publishdate" ">" .Params.publishdate) }}
+        {{ printf $nextTemplate "Next" "post in series" .Permalink .Title | safeHTML }}
+      {{ end }}
+
+    {{ else }}
+
+      {{ with .NextInSection }}
+        {{ printf $nextTemplate "Next" $type .Permalink .Title | safeHTML }}
+      {{ end }}
+
     {{ end }}
 
   </ul>

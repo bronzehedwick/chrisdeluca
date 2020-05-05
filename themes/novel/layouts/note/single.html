@@ -28,6 +28,7 @@
     {{ if $webmentions }}{{ partial "conversation" $webmentions }}{{ end }}
 
     <footer>
+      {{ partial "pagination.html" . }}
       <p><a href="/note">&larr; All notes</a></p>
     </footer>
   </section>
