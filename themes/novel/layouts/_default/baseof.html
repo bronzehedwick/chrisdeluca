@@ -46,7 +46,7 @@
 <body class="{{ if .IsNode }}node{{ end }}{{ if .IsPage }}page{{ end }}{{ if .IsHome }} home{{ end }}">
   <header>
     {{ block "header" . }}
-      <a href="{{ .Site.BaseURL }}">
+      <a href="{{ .Site.BaseURL }}" aria-label="Home">
         {{ readFile "themes/novel/static/doodle.svg" | safeHTML }}
       </a>
       {{ if .IsHome }}
