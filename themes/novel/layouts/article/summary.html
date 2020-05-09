@@ -1,4 +1,5 @@
 <article>
+  {{ $headerImage := .Resources.GetMatch "header" }}
   <h3><a href="{{ .Permalink }}">
     {{ if .Resources.Match "game/*" }}{{ emojify ":joystick:" }}{{ end }}
     {{ if .Params.draft }}<mark>Draft</mark>{{ end }}
@@ -13,5 +14,9 @@
       {{ end }}
     {{ end }}
   </p>
+  {{ if $headerImage }}
+    {{ $headerImage := $headerImage.Fill "100x100" }}
+    <img class="align-left" width="100" height="100" src="{{ $headerImage.Permalink }}" alt="{{ $headerImage.Name }}">
+  {{ end }}
   <p>{{ .Summary|plainify|htmlUnescape }}</p>
 </article>
