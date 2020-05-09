@@ -580,14 +580,14 @@ main {
   padding-left: 2em;
 }
 
-#TableOfContents > ul {
-  padding: 0px;
-}
-
-#TableOfContents li li {
+#TableOfContents li {
   display: list-item;
   list-style-type: disc;
   list-style-position: outside;
+}
+
+#TableOfContents > ul {
+  padding: 0px;
 }
 
 /* }}} */
