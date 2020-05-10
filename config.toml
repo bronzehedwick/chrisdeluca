@@ -24,6 +24,7 @@ paginate = 20
     url = "/files/chris-deluca-pgp.pub.asc"
 
 [taxonomies]
+  category = "categories"
   topic = "topics"
   series = "series"
   artist = "artists"
