@@ -2,7 +2,17 @@
   <h2>This post syndicated to:</h2>
   <ul>
     {{ range .Params.syndicated }}
-      <li><a class="u-syndication" href="{{ . }}">{{ . }}</a></li>
+      {{ if in . "medium" }}
+        <li><a class="u-syndication" href="{{ . }}">Medium</a></li>
+      {{ else if in . "twitter" }}
+        <li><a class="u-syndication" href="{{ . }}">Twitter</a></li>
+      {{ else if in . "mastodon" }}
+        <li><a class="u-syndication" href="{{ . }}">Mastodon</a></li>
+      {{ else if in . "dev.to" }}
+        <li><a class="u-syndication" href="{{ . }}">dev.to</a></li>
+      {{ else }}
+        <li><a class="u-syndication" href="{{ . }}">{{ . }}</a></li>
+      {{ end }}
     {{ end }}
   </ul>
 {{ end }}
