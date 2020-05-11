@@ -30,6 +30,34 @@ main, footer {
   margin: 0px auto;
 }
 
+aside {
+  border: 2px solid currentColor;
+  padding: 1em;
+  float: right;
+  margin-left: 2ch;
+  margin-bottom: 2ch;
+  width: 50%;
+}
+
+@media screen and (max-width: 28em) {
+  aside {
+    float: none;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+aside > h1,
+aside > h2,
+aside > h3,
+aside > h4,
+aside > h5,
+aside > h6,
+aside > h6 {
+  margin-top: 0px;
+}
+
 pre, code, kbd, samp {
   font-family: "Fira Code", Menlo, Courier, monospace, monospace;
   font-size: 0.70em;
