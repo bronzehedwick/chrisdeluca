@@ -4,14 +4,10 @@
   {{ $projects := first 3 (where .Site.RegularPages "Type" "project") }}
   {{ $firstProject := index $projects 0 }}
   {{ $secondProject := index $projects 1 }}
-  {{ $thirdProject := index $projects 2 }}
   {{ with $firstProject }}
     {{ .Render "featured" }}
   {{ end }}
   {{ with $secondProject }}
-    {{ .Render "summary" }}
-  {{ end }}
-  {{ with $thirdProject }}
     {{ .Render "summary" }}
   {{ end }}
   <p class="see-more"><a href="/project">See all projects</a></p>
