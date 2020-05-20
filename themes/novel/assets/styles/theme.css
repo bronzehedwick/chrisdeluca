@@ -168,6 +168,17 @@ body > header p {
   font-style: italic;
 }
 
+.heading:hover a {
+  opacity: 1;
+}
+
+.heading-link {
+  font-size: 0.6em;
+  text-decoration: none;
+  vertical-align: middle;
+  opacity: 0;
+}
+
 /* }}} */
 
 /* Paragraphs {{{ */
