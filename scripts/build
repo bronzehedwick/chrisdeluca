@@ -1,7 +1,0 @@
-#!/bin/sh
-
-# Generate the static site.
-hugo
-
-# Minify CSS
-./scripts/minify-css.js
