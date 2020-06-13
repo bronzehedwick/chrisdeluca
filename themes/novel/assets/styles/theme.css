@@ -847,6 +847,7 @@ summary {
 
 .picture {
   display: inline-block;
+  margin-left: 1em;
 }
 
 .type--picture img {
