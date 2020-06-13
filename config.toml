@@ -52,6 +52,11 @@ paginate = 20
   weight = 60
 
 [[menu.main]]
+  name = "🖼 Pictures"
+  url = "/picture"
+  weight = 65
+
+[[menu.main]]
   name = "🗒 Notes"
   url = "/note"
   weight = 70

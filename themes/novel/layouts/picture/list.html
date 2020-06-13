@@ -1,0 +1,16 @@
+{{ define "main" }}
+
+  <h1>{{ title "Pictures" }}</h1>
+
+  {{ $paginator := .Paginate .Data.Pages }}
+
+  {{ range $paginator.Pages }}
+    {{ .Render "summary" }}
+  {{ end }}
+
+  <footer>
+    <nav>{{ template "_internal/pagination.html" . }}</nav>
+  </footer>
+
+{{ end }}
+

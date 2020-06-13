@@ -843,6 +843,18 @@ summary {
 
 /* }}} */
 
+/* Pictures {{{ */
+
+.picture {
+  display: inline-block;
+}
+
+.type--picture img {
+  filter: none;
+}
+
+/* {{{ */
+
 /* h-card {{{ */
 
 .h-card {

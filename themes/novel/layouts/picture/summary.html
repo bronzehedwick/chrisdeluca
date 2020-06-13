@@ -1,0 +1,12 @@
+{{ $title := .Title }}
+{{ $link := .Permalink }}
+{{ with .Resources.ByType "image" }}
+  {{ range . }}
+    {{ $image := .Fill "200x200" }}
+    <div class="picture">
+      <a href="{{ $link }}">
+        <img src="{{ $image.Permalink }}" width="200" height="200" alt="" title="{{ $title }}">
+      </a>
+    </div>
+  {{ end }}
+{{ end }}

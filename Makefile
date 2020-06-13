@@ -26,6 +26,9 @@ note: ## Create new note (micro blog)
 record: ## Create new record (vinyl)
 	@hugo new --kind record-bundle record/$(TITLE)
 
+picture: ## Create new picture
+	@hugo new --kind picture-bundle picture/$(TITLE)
+
 resume: ## Build resume PDF.
 	@perl -0pe 's/\+\+\+\n.*\n.*\n.*\n\+\+\+/# Christopher DeLuca/' content/page/resume.md > /tmp/resume.md && mdpdf --format=letter --style ./themes/novel/assets/styles/pdf.css /tmp/resume.md && rm /tmp/resume.md && mv /tmp/resume.pdf content/page/chris-deluca-resume.pdf
 

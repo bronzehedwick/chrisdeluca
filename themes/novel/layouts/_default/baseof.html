@@ -43,7 +43,7 @@
   {{ end }}
 </head>
 
-<body class="{{ if .IsNode }}node{{ end }}{{ if .IsPage }}page{{ end }}{{ if .IsHome }} home{{ end }}">
+<body class="{{ if .IsNode }}node{{ end }}{{ if .IsPage }}page{{ end }}{{ if .IsHome }} home{{ end }} type--{{ .Type }}">
   <header>
     {{ block "header" . }}
       <a href="{{ .Site.BaseURL }}" aria-label="Home">

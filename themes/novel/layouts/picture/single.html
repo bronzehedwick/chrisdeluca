@@ -1,0 +1,29 @@
+{{ define "main" }}
+
+{{ $content := .Content }}
+
+<h1>{{ .Title }}</h1>
+
+{{ with .Resources.ByType "image" }}
+  {{ range . }}
+    {{ $img700 := .Resize "700x" }}
+    {{ $img600 := .Resize "600x" }}
+    {{ $img500 := .Resize "500x" }}
+    {{ $img400 := .Resize "400x" }}
+    {{ $img300 := .Resize "300x" }}
+    {{ if $content }}
+    <figure>
+      <img src="{{ $img300.Permalink }}" srcset="{{ $img700.Permalink }} 700w, {{ $img600.Permalink }} 600w, {{ $img500.Permalink }} 500w, {{ $img400.Permalink }} 400w, {{ $img300.Permalink }} 300w" sizes="(min-width: 1010px) 772px, (min-width: 800px) 565px, 100vw" alt="">
+      <figcaption>{{ $content }}</figcaption>
+    </figure>
+    {{ else }}
+      <img src="{{ $img300.Permalink }}" srcset="{{ $img700.Permalink }} 700w, {{ $img600.Permalink }} 600w, {{ $img500.Permalink }} 500w, {{ $img400.Permalink }} 400w, {{ $img300.Permalink }} 300w" sizes="(min-width: 1010px) 772px, (min-width: 800px) 565px, 100vw" alt="">
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+<footer>
+  <a href="/{{ .Type }}">&larr; See all {{ .Type | pluralize }}</a>
+</footer>
+
+{{ end }}

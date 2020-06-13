@@ -12,6 +12,13 @@
   {{ end }}
   <p class="see-more"><a href="/project">See all projects</a></p>
 
+  <h2>Latest pictures</h2>
+  {{ $pictures := first 3 (where .Site.RegularPages "Type" "picture") }}
+  {{ range $pictures }}
+    {{ .Render "summary" }}
+  {{ end }}
+  <p class="see-more"><a href="/picture">See all pictures</a></p>
+
   <h2>Latest articles</h2>
   {{ $articles := first 3 (where .Site.RegularPages "Type" "article") }}
   {{ range $articles }}
