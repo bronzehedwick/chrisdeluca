@@ -733,6 +733,8 @@ summary {
 
 .comments {
   font-size: 0.75em;
+  float: none;
+  width: auto;
 }
 
 .comment {
