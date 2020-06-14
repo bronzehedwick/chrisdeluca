@@ -23,7 +23,7 @@
 {{ end }}
 
 <footer>
-  <a href="/{{ .Type }}">&larr; See all {{ .Type | pluralize }}</a>
+  {{ partial "pagination.html" . }}
 </footer>
 
 {{ end }}
