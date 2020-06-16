@@ -2,9 +2,7 @@
 
   <h1>{{ title "Pictures" }}</h1>
 
-  {{ $paginator := .Paginate .Data.Pages }}
-
-  {{ range $paginator.Pages }}
+  {{ range (.Paginator 18).Pages }}
     {{ .Render "summary" }}
   {{ end }}
 
