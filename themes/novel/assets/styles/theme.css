@@ -206,7 +206,7 @@ p + p {
   }
 }
 
-.page article > p:last-of-type:after {
+.type--article article > p:last-of-type:after {
   content: ' ◆';
   color: #ff725c;
 }
@@ -651,12 +651,7 @@ summary {
 }
 
 .note-content {
-  font-size: 2em;
-  margin-top: 1em;
-}
-
-.note .meta-info {
-  margin-top: 0;
+  font-size: 1.25em;
 }
 
 .article-info {

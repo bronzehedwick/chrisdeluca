@@ -5,9 +5,9 @@
     {{ $webmentions = getJSON "https://webmention.io/api/mentions.jf2?target=" .Permalink }}
   {{ end }}
 
-  <section class="note h-entry">
+  <article class="h-entry">
 
-    <p class="note-content e-content p-name">{{ .Content|plainify }}</p>
+    <div class="note-content e-content p-name">{{ .Content }}</div>
 
     <p class="meta-info">Published
       <time class="dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
@@ -28,9 +28,8 @@
     {{ if $webmentions }}{{ partial "conversation" $webmentions }}{{ end }}
 
     <footer>
-      {{ partial "pagination.html" . }}
       <p><a href="/note">&larr; All notes</a></p>
     </footer>
-  </section>
+  </article>
 
 {{ end }}
