@@ -26,6 +26,9 @@ note: ## Create new note (micro blog)
 record: ## Create new record (vinyl)
 	@hugo new --kind record-bundle record/$(TITLE)
 
+project: ## Create new project
+	@hugo new --kind project-bundle project/$(TITLE)
+
 picture: ## Create new picture
 	@hugo new --kind picture-bundle picture/$(TITLE)
 
