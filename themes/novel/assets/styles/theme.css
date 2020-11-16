@@ -58,7 +58,7 @@ aside > h6 {
   margin-top: 0px;
 }
 
-pre, code, kbd, samp {
+code, kbd, samp {
   font-family: "Fira Code", Menlo, Courier, monospace, monospace;
   font-size: 0.70em;
   word-wrap: anywhere;
@@ -428,12 +428,6 @@ kbd, pre, code {
   white-space: pre-wrap;
 }
 
-pre {
-  max-width: -webkit-max-content;
-  max-width: -moz-max-content;
-  max-width: max-content;
-}
-
 kbd {
   padding-left: 1ch;
   padding-right: 1ch;
@@ -450,8 +444,12 @@ samp p {
 
 .chroma code {
   padding: 0px;
-  font-size: 0.95em;
+  font-size: 0.8em;
   background-color: transparent;
+}
+
+.chroma * + * {
+  margin-top: 0;
 }
 
 /* }}} */
