@@ -1,3 +1,3 @@
 Album Title,Band,Year,Format,Condition
-{{ range .Data.Pages }}{{ .Title }},{{ range .Params.artists }}{{ . }},{{ end }}{{ .Params.year }},{{ .Params.format }},{{ .Params.condition }}
+{{ range .Data.Pages }}{{ .Title }},{{ range .Params.artists }}{{ . }}{{ end }},{{ .Params.year }},{{ .Params.format }},{{ .Params.condition }}
 {{ end }}
