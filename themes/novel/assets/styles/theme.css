@@ -60,7 +60,6 @@ aside > h6 {
 
 code, kbd, samp {
   font-family: "Fira Code", Menlo, Courier, monospace, monospace;
-  font-size: 0.70em;
   word-wrap: anywhere;
 }
 
@@ -423,15 +422,29 @@ th[role=columnheader]:not(.no-sort):hover:after {
 
 kbd, pre, code {
   padding: 0.5ch;
-  background-color: #efefef;
+  background-color: #fbfbfb;
   word-break: break-all;
   white-space: pre-wrap;
 }
 
+kbd, code {
+  font-size: 0.9rem;
+  border-radius: 3px;
+}
+
+pre kbd,
+pre code {
+  font-size: 1rem;
+}
+
+pre {
+  border-radius: 3px;
+}
+
 kbd {
+  font-size: 0.8rem;
   padding-left: 1ch;
   padding-right: 1ch;
-  border-radius: 0.25ch;
   border: 1px solid #ccc;
   filter: drop-shadow(0 0.15em 0 #ccc);
   background-color: #fcfcfc;
@@ -444,7 +457,6 @@ samp p {
 
 .chroma code {
   padding: 0px;
-  font-size: 0.8em;
   background-color: transparent;
 }
 
@@ -929,6 +941,11 @@ article .h-card {
   padding: 0px 2ch;
   overflow-x: auto;
   background-color: #fbfbfb;
+  border-radius: 3px;
+}
+
+.highlight code {
+  font-size: 1rem;
 }
 
 /* LineHighlight */
@@ -983,7 +1000,8 @@ article .h-card {
   pre,
   kbd,
   code {
-    background-color: #5f5f5f;
+    color: #f8f8f2;
+    background-color: #272727;
   }
 
   hr {
@@ -995,7 +1013,7 @@ article .h-card {
   }
 
   /* Background */
-  .highlight, .chroma {
+  .highlight {
     color: #f8f8f2;
     background-color: #272727;
   }
