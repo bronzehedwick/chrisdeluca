@@ -10,6 +10,8 @@
 
 body {
   font-family: "New York", "Palatino Linotype", Palatino, "Book Antiqua", serif;
+  font-weight: 400;
+  font-variation-settings: "opsz" 72;
   font-size: 1.2em;
   line-height: 1.6;
   padding: 1em;
