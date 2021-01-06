@@ -1,0 +1,10 @@
+body {
+  font-family: Baskerville, serif;
+  font-size: 20px;
+  position: relative;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 65ch;
+}
