@@ -26,6 +26,9 @@ note: ## Create new note (micro blog)
 record: ## Create new record (vinyl)
 	@hugo new --kind record-bundle record/$(TITLE)
 
+music: ## Pulls my record collection from Discogs.
+	@curl https://api.discogs.com/users/bronzehedwick/collection/folders/0/releases --user-agent "FooBarApp/3.0" > data/discogs.json
+
 project: ## Create new project
 	@hugo new --kind project-bundle project/$(TITLE)
 
