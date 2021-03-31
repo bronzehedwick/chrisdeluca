@@ -78,7 +78,7 @@ paginate = 20
 
 [[menu.main]]
   name = "📬 RSS"
-  url = "/page/rss"
+  url = "/article/index.xml"
   weight = 100
 
 [params]
