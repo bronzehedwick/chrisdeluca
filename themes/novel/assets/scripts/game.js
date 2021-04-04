@@ -59,7 +59,7 @@ if (window.NodeList && !NodeList.prototype.forEach) {
         window.localStorage.setItem('achievements', JSON.stringify(achievements));
         document.getElementById('achievements-count').textContent = ( totalAchievements + 1 ) + '/' + ( totalAchievements + 1 );
         document.getElementById('achievement-max').classList.add('achievement--active');
-        document.querySelector('#achievement-max button').addEventListener('click', function click(event) {
+        document.querySelector('#achievement-max button').addEventListener('click', function click() {
           document.getElementById('achievement-max').classList.remove('achievement--active');
         }, false);
       }
