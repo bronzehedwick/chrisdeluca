@@ -57,21 +57,6 @@ paginate = 20
   weight = 65
 
 [[menu.main]]
-  name = "🗒 Notes"
-  url = "/note"
-  weight = 70
-
-[[menu.main]]
-  name = "📚 Reading"
-  url = "/book"
-  weight = 75
-
-[[menu.main]]
-  name = "📻 Records"
-  url = "/record"
-  weight = 90
-
-[[menu.main]]
   name = "💡 Quotes"
   url = "/page/quotes"
   weight = 95
@@ -204,6 +189,24 @@ paginate = 20
     color = "#0f0"
     icon = ""
     weight = 20
+  [params.socialLinks.letterboxd]
+    name = "🎥 Letterboxd"
+    url = "https://letterboxd.com/bronzehedwick/"
+    color = "#14181c"
+    icon = ""
+    weight = 3
+  [params.socialLinks.thestorygraph]
+    name = "📚 The StoryGraph"
+    url = "https://app.thestorygraph.com/profile/bronzehedwick"
+    color = "#3B82F6"
+    icon = ""
+    weight = 4
+  [params.socialLinks.discogs]
+    name = "📀 Discogs"
+    url = "https://www.discogs.com/user/bronzehedwick"
+    color = "#111"
+    icon = ""
+    weight = 5
 
 [markup.goldmark.renderer]
 unsafe = true
