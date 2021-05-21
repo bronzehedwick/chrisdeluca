@@ -621,6 +621,10 @@ main {
   text-align: right;
 }
 
+.breadcrumbs {
+  font-size: 0.7em;
+}
+
 /* }}} */
 
 /* Table of Contents {{{ */

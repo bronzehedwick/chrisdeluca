@@ -1,5 +1,7 @@
 {{ define "main" }}
 
+  {{ partial "breadcrumbs.html" . }}
+
   <article class="h-entry article{{ range .Params.categories }} article--{{ .|lower }}{{ end }}">
     <header>
       <h1 class="p-name">
