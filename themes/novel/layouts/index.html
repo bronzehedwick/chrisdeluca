@@ -1,5 +1,7 @@
 {{ define "main" }}
 
+  {{ partial "breadcrumbs.html" . }}
+
   <h2>Latest articles</h2>
   {{ $articles := first 3 (where .Site.RegularPages "Type" "article") }}
   {{ range $articles }}

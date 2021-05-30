@@ -1,4 +1,6 @@
 {{ define "main" }}
+  {{ partial "breadcrumbs.html" . }}
+
   <h1>{{ title .Title }} {{ .Data.Singular }}</h1>
 
   {{ with .Data.Plural }}

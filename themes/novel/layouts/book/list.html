@@ -1,5 +1,7 @@
 {{ define "main" }}
 
+  {{ partial "breadcrumbs.html" . }}
+
   <h1>{{ title "Reading" }}</h1>
 
   {{ $paginator := .Paginate .Data.Pages }}
