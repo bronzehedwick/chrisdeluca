@@ -1,5 +1,11 @@
 /* General {{{ */
 
+@font-face {
+  font-family: "Avara";
+  src: url("/avara-bold.woff2") format("woff2");
+  font-display: swap;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -9,7 +15,7 @@
 }
 
 body {
-  font-family: "Palatino Linotype", Palatino, "Book Antiqua", serif;
+  font-family: "Georgia", serif;
   font-weight: 400;
   font-variation-settings: "opsz" 72;
   font-size: 1.2em;
@@ -132,6 +138,7 @@ header + * {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  font-family: "Avara", Georgia, serif;
   margin-bottom: 0px;
   clear: both;
   line-height: 1.1;
