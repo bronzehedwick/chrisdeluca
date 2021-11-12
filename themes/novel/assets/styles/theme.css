@@ -160,6 +160,7 @@ body > header a:hover {
 body > header svg {
   color: #191919;
   max-height: 200px;
+  fill: currentColor;
 }
 
 /* Subtitles */
@@ -347,7 +348,6 @@ figcaption {
 
 svg {
   max-width: 100%;
-  fill: currentColor;
 }
 
 .portrait {
