@@ -2,38 +2,46 @@
 title = "Hand Drawn SVGs"
 date = 2021-11-07T14:11:50-05:00
 draft = false
-subtitle = "An inperfect process in progress"
+subtitle = "An imperfect process in progress"
 categories = ["Tech"]
 topics = ["art"]
 toc = false
-styles = []
+styles = ["syntax"]
 syndicated = []
 +++
 
-I've been trying to get a good workflow for drawing vector artwork that
+I've been trying to find a good workflow for drawing vector artwork that
 has the spontaneity and roughness of hand drawn images.
 
-<!--more-->
+<aside>
+  <h3><abbr title="Too long, didn't read">TL;DR</abbr></h3>
+  <p>If you're just interested in my process, and not the backstory, <a href="#the-workflow">skip to the workflow</a></p>
+</aside>
 
 Since my digital medium of choice is the web, that means SVG is the only
 output format in town. Which is perfect, since like everybody, I never
 liked choice anyway.
+
+<!--more-->
+
+## Preamble Ramble
 
 There's some [interesting experiments][svg-pencil-effect] with giving
 programmatically drawn SVGs a hand drawn quality, but I want to have the
 artistic freedoms that come with actually drawing the images by hand,
 not just the feel of being hand drawn.
 
-All I need is a drawing program, and that's where everything falls
+{{< figure src="images/programmatic-mountains.png" alt="Mountains drawn programmatically, with a hand drawn feel." caption="These mountains were not drawn by hand." >}}
+
+I need a vector drawing program, but that's where everything falls
 apart. In my experience, there's no drawing tool that combines the
 expressiveness of drawing freehand that also natively handles SVG, or
 even reliably outputs it.
 
-Sure, Inkscape and Illustrator provide a lot of power, but they feel
-more like drafting tools, not drawing tools.
-
-I want the experience of drawing something free-hand, without
-constraints or planning or thinking about the geometry.
+Sure, [Inkscape][inkscape] and [Illustrator][illustrator] provide a lot
+of power, but they feel more like drafting tools, not drawing tools. I
+want the experience of drawing something free-hand, without constraints
+or planning or thinking about the geometry.
 
 The situation has me pining for the bad old days of Macromedia Flash,
 which, everything else aside, still had the best vector drawing tool
@@ -44,68 +52,177 @@ could also draw free hand. If you drew a closed shape free hand, the
 tool would recognize the shape, allowing you to apply transforms or
 color it in with a click.
 
-the drawing
-tools for SVGs do not have the same expressiveness.
+Yet as much as I look back at the time of Flash with rose-colored
+glasses, it also sucked. For one, you had to draw with a mouse, since
+this was before the days of good, relatively cheap touch screens. That
+made the "free-hand" not quite free; mouse-hand, more like. The lines
+didn't look the same.
 
-Yet as much as I look back at the Flash drawing tool with rose-colored
-glasses, I can't say it was perfect, either. For one, you had to draw
-with a mouse, since this was before the days of good, relatively cheap
-touch screens. That made the "free-hand" not quite free; mouse-hand,
-more like. The lines didn't look the same.
+These days I have access to a iPad with an Apple Pencil, so I could
+draw my lines there, then convert them to SVG. In fact, that feature is
+built into several popular drawing applications.
 
-Now I have access to a iPad with a pen, so I could draw my lines
-there, then convert them to SVG. In fact, that feature is built into
-several popular drawing applications. But, being curious and a software
-developer, I decided to try a workflow that was at the same time more
-low tech and involving more command line.
+Still, I was curious about a _fully_ hand drawn approach. I'm also a
+software developer, so I decided to try a workflow that at the same time
+involved a lot less digital technology _and_ more command line. Both
+sides were happy.
 
-The workflow I tested: I started by drawing the image traditionally,
-with a pencil on paper, then, after my sweet process was complete, ended
-up with a full color SVG.
+## The Workflow
+
+I drew my image traditionally, with a pencil on paper, in black and
+white, took a picture of it, did some image processing, converted that
+to SVG, then imported it into an SVG editing application for coloring.
+
+So far, I don't hate this process.
 
 I started by drawing a lot of doodles using a drawing pencil and a
-"light touch". What I mean by light touch is that I tried not to bore
-down on the pencil stroke, and keep my lines light and "exploratory",
-as my wife put it. This let me keep figuring out the drawing as I drew,
-without being married to anything other than my wife. I kept my doodles
-unrelated, just drawing whatever I felt my lines were creating already.
+"light touch". By light touch, I mean that I tried not to bore down on
+the pencil stroke, and keep my lines light and "exploratory", as my wife
+put it. This let me keep figuring out the drawing as I drew, without
+being married to anything other than my wife.
+
+{{< figure src="images/pencil.jpg" alt="Artist's pencil" caption="This is the pencil I used." >}}
+
+I kept my doodles unrelated, just drawing whatever I felt my lines were
+creating already.
 
 Once I was happy with that, I used one of my wife's fancy inking pens
 to make a clear, dark line over my pencil strokes. The pencil was still
-visible underneath the ink, but there's no mistaking where the "real"
-line is.
+visible underneath the ink, but there was no mistaking where the "real"
+line was.
+
+{{< figure src="images/pen.jpg" alt="Artist's pen" caption="This is the inking pen I used." >}}
 
 I took that drawing, and photographed it on my iPhone 7 camera with
 as bright light as I could manage. In fact, it's the same image (at a
 higher resolution) as seen below.
 
-I took that image and copied it to my Mac Mini, then into Acorn, which
-is a streamlined, Mac-centric version of Photoshop that I find easier
-to use. I adjusted the color levels to omit as many of the smudgy greys
-from the paper and the pencil strokes as possible, while keeping the ink
-lines relatively dark. Then, I switched the graphic to black and white,
-as distinct from gray scale; every color is either black or white. I
-played with those "sharpness" levels until all the remaining pencil
-lines were white, and the ink lines were pure black. I saved the result,
-below, as a `.bmp` file, for reasons that will become momentarily
-apparent.
+{{< figure src="images/initial-scan.jpg" alt="iPhone photo of my drawing" caption="You can see the pencil lines below the ink lines, and the imperfections of the paper." >}}
 
-Remember that big `.bmp` mystery from just now? I mean, why
-save it as such an archaic file type? Because a) it's an
-uncompressed image type, and b) and most importantly, that's what
-[Potrace](https://en.wikipedia.org/wiki/Potrace), the bitmap to vector
-conversion tool expects (it can also ingest `.pnm` files as well, but
-honestly I have no idea what those are and I haven't been bothered to
-look them up).
+I took that image and copied it to my Mac Mini, then into
+[Acorn][acorn], which is a streamlined, Mac-centric version of Photoshop
+that I find easier to use. I adjusted the color levels to omit as many
+of the smudgy greys from the paper and the pencil strokes as possible,
+while keeping the ink lines relatively dark.
+
+Then, I switched the graphic to black and white (as distinct from gray
+scale; every color is either black or white). I played with those
+"sharpness" levels until all the remaining pencil lines were white, and
+the ink lines were pure black. I saved the result, below, as a `.bmp`
+file, for reasons that will become momentarily apparent.
+
+{{< figure src="images/black-and-white-doodle.png" alt="Black and white version of the image" caption="Look at all those clean lines." >}}
+
+Remember that big `.bmp` mystery from just now? I mean, why save it as
+such an archaic file type? Because it's an uncompressed image type, so
+no data is lost, but more importantly, it's what [Potrace][potrace],
+the bitmap to vector conversion tool, expects (it can also ingest `.pnm`
+files as well, but honestly I have no idea what those are and I haven't
+been bothered to look them up).
 
 Potrace is an open source tool used at the command line, that is also
 part of other commercial and non-commercial software, such as the afore
 mentioned Inkscape. I actively enjoy the command line, so I don't mind
-the "unglamorous" interface. I told the program to output SVGs (it can
-also do EPS and Postscript), and it worked flawlessly. It only operates
-on black and white images, but I already knew that so everything was
-going just fine.
+the "unglamorous" interface.
 
     potrace --backend svg my-image.bmp --output my-image.svg
 
+I told the program to output SVGs (it can also do EPS and Postscript),
+and it worked flawlessly. It only operates on black and white images,
+but I already knew that so everything was going just fine.
+
+{{< figure src="images/black-and-white-doodle.svg" alt="My black and white doodle converted to SVG" caption="The same black and white doodle, converted from a bitmap to a vector. Compare to the image above; more crisp, right?" >}}
+
+Next step, color. I opened my new SVG in [Boxy SVG][boxy-svg], which
+is a simple program that natively handles SVGs.
+
+Since I had lots of doodle "subjects" in my initial drawing, I decided
+to focus on the character in the upper left with the cape, which I
+called "Super Wisp".
+
+If this was Flash, I could have just used the paint bucket tool to fill
+in each contiguous shape. However, with all the SVG tools I've used,
+the shape has to use `<polygon>`, `<ellipse>`, or the like under the
+hood to fill in shapes with a click (the programs just attach a `fill`
+property to the element). Auto-generated SVG code, like the output of
+Potrace, almost always draw with simple `<path>` elements, which are
+hard if not impossible to fill with color.
+
+Instead, my plan was to draw shapes of the same dimensions as the lines
+it is meant to fill in, give them a background color, then move them
+behind the lines in the layer view.
+
+I started coloring by making a green ellipse for the head. The head I
+drew was not a perfect ellipse, so the background color poked out on
+the edges. However, I felt it added a certain rough feel, like in cheap
+comics where the color printing is not that exact.
+
+{{< figure src="images/head-color.png" alt="Coloring in Super Wisp's head." caption="Also pictured: the same \"overflow\" technique for the eyes." >}}
+
+The sloppy, overflowing color look was all well and good, but at the
+risk of being anti-creative, could I color _inside_ the lines?
+
+Turns out: yes. I used the polygon tool to draw points in an angular
+version of the shape I wanted to color in.
+
+{{< figure src="images/coloring-the-cape.png" alt="Coloring in the cape with the polygon tool." caption="Half way through drawing a \"cape\" polygon." >}}
+
+Once I put the finished shape behind the lines, the lines obscured the
+pointy edges of the polygon, creating the illusion of continuous color.
+
+Unfortunately, my results weren't perfect on the first drawing—it was
+hard to tell if my polygon edge would fall exactly on the line,
+especially near the top—as illustrated, below.
+
+{{< figure src="images/cape-imperfection.png" alt="The cape color goes outside the line" caption="Sure, I could go cheap color look again here, but I wanted to see if I could get an more exact fill." >}}
+
+Fortunately, Boxy SVG provides excellent shape transform tools. I was able to adjust geometry points until the shape fell inside the lines how I wanted.
+
+{{< figure src="images/transform-cape.png" alt="Transforming the cape shape with control points." caption="Each dot is a control point for the polygon." >}}
+
+Once I was happy with my color, I selected only my colored-in Super
+Wisp character, and exported it. For a drawing with the kind of
+irregularities of hand drawn, I was expecting a semi-large file size,
+but it ending up weighing in at only `64k` on disk. This is before optimizations and minification, so the raw SVG code looked like this:
+
+```svg
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="444.783 273.522 749.717 1341.237" xmlns="http://www.w3.org/2000/svg">
+  <g>
+    <title>Super Wisp</title>
+    <g>
+      <title>Color</title>
+      <polygon style="stroke: rgb(0, 0, 0); fill: rgb(248, 106, 106);" points="601.655 994.655 551.522 1042.12 540.507 1115.09 559.784 1190.82 630.653 1268.49 761.935 1345.18 883.477 1369.06 954.659 1425.66 971.182 1500.33 960.166 1544.39 984.7 1600.03 1075.78 1605.45 1156.2 1557.99 1190.15 1467.87 1175 1431.5 1148.84 1372.3 1162.53 1287.74 1145.36 1232.1 1072.32 1233.48 984.195 1260.366 912.535 1209.34 870.519 1125.57 886.312 1071.31 909.719 1036.88 900.081 1017.6 798.189 1001.08 765.143 966.659"/>
+<!-- The real code keeps going, but one can only stare at so much XML. -->
+```
+
+I ran the file through [Svgcleaner][svgcleaner], and it cut the file
+size by more than half, down to `31k`! Now the code looked like this:
+
+```svg
+<svg viewBox="444.783 273.522 749.717 1341.237" xmlns="http://www.w3.org/2000/svg"><path d="m601.655 994.655-50.133 47.465-11.015 72.97 19.277 75.73 70.869 77.67 131.282 76.69 121.542 23.88 71.182 56.6 16.523 74.67-11.016 44.06 24.534 55.64 91.08 5.42 80.42-47.46 33.95-90.12-15.15-36.37-26.16-59.2 13.69-84.56-17.17-55.64-73.04 1.38-88.125 26.886-71.66-51.026-42.016-83.77 15.793-54.26 23.407-34.43-9.638-19.28-101.892-16.52-33.046-34.421z" fill="#f86a6a" stroke="#000"/>
+<!-- Enough of this; the only thing worse than starting at too much XML is starting at too much minified XML. -->
+```
+
+Here it is, the finished SVG, embedded directly into this page, in all
+it's sloppy glory.
+
+<svg viewBox="444.783 273.522 749.717 1341.237" xmlns="http://www.w3.org/2000/svg"><path d="m601.655 994.655-50.133 47.465-11.015 72.97 19.277 75.73 70.869 77.67 131.282 76.69 121.542 23.88 71.182 56.6 16.523 74.67-11.016 44.06 24.534 55.64 91.08 5.42 80.42-47.46 33.95-90.12-15.15-36.37-26.16-59.2 13.69-84.56-17.17-55.64-73.04 1.38-88.125 26.886-71.66-51.026-42.016-83.77 15.793-54.26 23.407-34.43-9.638-19.28-101.892-16.52-33.046-34.421z" fill="#f86a6a" stroke="#000"/><path d="m633.363 1004.911-3.77 207.38 13.039 109.713 16.523 37.177 46.921-120.109 5.419-127.879-7.531-69.158-17.816-49.318-48.192 2.754z" fill="#ac89b9" stroke="#000"/><ellipse cx="681.962" cy="750" fill="#e6e98f" rx="218.038" ry="250"/><ellipse cx="803.84" cy="718.939" fill="#fff" rx="138.078" ry="118.939" visibility="hidden"/><ellipse cx="564.843" cy="718.939" fill="#fff" rx="100.919" ry="118.939" visibility="hidden"/><path d="m496.283 596.723 111.768 9.805 74.917 72.893-32.69 109.292-80.939 44.831-77.059-35.444-38.756-99.543 34.423-95.008z" fill="#fff" stroke="#000"/><path d="m789.589 585.698-73.169 71.606-27.82 90.715 11.015 85.118 61.209 25.743 77.825-15.621 84.297-71.131 10.932-76.294-33.877-62.977-106.335-37.74 6.871-4.29 68.417 21.083-69.616-19.389z" fill="#fff" stroke="#000"/><path d="m799.338 592.522 2.921-3.687.143 7.512z" fill="#fff" stroke="#000"/><ellipse cx="584.048" cy="720.062" fill="#7cafee" rx="39.939" ry="49.545"/><ellipse cx="803.171" cy="720.062" fill="#7cafee" rx="44.061" ry="49.545"/><g stroke="#000"><path d="m655.562 1087.417 13.329 161.91 8.825-142.698-4.131-26.161-15.146 5.507z" fill="#7cafee"/><path d="m720.004 1140.071 67.831 127.766-24.16-122.918-44.708-74.917z" fill="#e6e98f"/><path d="m615.616 1097.417-36.107 121.539 45.438-78.485z" fill="#e6e98f"/><path d="m645.285 1382.165-39.931 61.961-17.899 66.093 36.446-28.102z" fill="#e6e98f"/><path d="m662.453 1377.252 65.376 117.02 8.908-26.724-63.254-110.356z" fill="#e6e98f"/><path d="m659.524 499.744-4.131-49.569 38.554-16.523 85.211-22.862 8.178-33.609-44.624-28.185 8.261-29.227 58.175-36.764-8.262 55.077 49.569 46.815 30.293 23.408-11.016 30.292-41.307 17.9-47.44 12.058-20.654 30.292z" fill="#ffcd81"/><path d="m699.319 493.951 58.705-62.586h46.816l-73.54 57.747z" fill="#7cafee"/></g><g transform="matrix(.1 0 0 -.1 0 2788)"><path d="m8093 25132c-80-30-184-84-190-98-3-9-15-20-27-25-35-15-142-91-183-129-12-11-24-20-26-20-3 0-22-16-43-35s-43-35-49-35-18-13-27-28-28-34-42-42c-14-7-26-18-26-24s-20-32-44-57c-63-66-72-98-57-205 8-59 18-94 29-104 38-33 129-89 156-96 17-4 49-22 72-40 24-17 65-39 91-48s55-22 63-29c21-17 50-82 50-112 0-22-18-74-30-85-3-3-12-17-20-32-20-36-117-118-139-118-10 0-31-6-47-14s-61-17-101-20c-78-6-151-21-198-41-27-12-109-28-145-29-8-1-20-4-26-8-5-4-32-8-60-9-27-1-54-6-60-11-6-4-31-12-55-17-85-17-157-40-196-62-49-27-95-59-108-73-17-20-81-56-99-56-9 0-16-4-16-9 0-4-14-22-31-40-46-48-89-150-91-213-1-69 23-186 47-221 10-16 14-31 9-36-38-32-94-71-103-71-6 0-11-4-11-10 0-5-9-10-20-10s-20-3-20-8c0-4-15-14-32-21-44-20-86-49-126-89-18-17-37-32-42-32s-38-26-72-58c-35-31-85-75-113-97-27-22-71-61-96-87-44-47-47-48-98-47-28 1-54 6-57 11-3 4-16 8-29 8s-27 5-30 10c-4 6-10 8-15 5-12-8-213 25-224 36-6 5-23 9-38 9s-28 4-28 9c0 8-35 22-70 27-8 1-34 5-57 9-30 5-43 4-43-4 0-6-6-11-14-11-24 0-6-45 27-65 74-44 178-70 505-122 47-7 50-27 11-67-46-47-67-75-85-111-8-16-31-50-52-75-37-42-41-44-88-41-31 1-62 11-86 27-37 24-101 33-112 15-3-5-30-14-58-21-64-14-96-28-125-54-13-11-23-16-23-11s-17-7-37-26c-50-47-119-99-130-99-17 0-160-148-208-215-11-15-27-35-36-44-16-16-49-73-50-88-1-5-16-37-35-72s-34-70-34-76c0-7-9-32-19-56-11-25-24-65-30-89-9-45-25-262-23-310 3-49 23-186 33-225 21-82 33-120 39-130 4-5 10-21 13-35 32-153 49-214 61-224 7-6 19-29 26-51 17-53 111-243 140-283 13-18 32-34 41-37 29-10 49-63 49-131 0-34 5-98 11-141s12-87 14-98c1-11 5-27 8-35s9-53 12-100c9-133 12-152 24-195 6-22 11-54 11-72 0-17 5-35 11-39 6-3 8-17 5-30-4-14-2-24 4-24 5 0 10-7 10-16s6-30 14-47c8-18 22-63 31-102 9-38 19-77 22-85s5-20 4-27 10-30 24-52c14-23 25-49 25-58 0-19 36-67 83-113 15-15 27-31 27-36 0-16 124-129 160-146 19-10 54-38 78-63s62-58 85-72 69-50 101-80c33-29 63-53 67-53s36-13 71-29c35-17 104-42 153-56 78-22 129-48 114-57-31-20-116-55-154-64-42-10-123-47-143-66-59-54-111-108-153-159-53-66-142-243-159-319-7-30-18-64-25-75s-15-49-19-85c-3-36-11-92-17-125-15-81-26-284-16-294 4-4 9-45 12-92s9-109 15-139c6-29 8-55 5-58s0-11 5-18c6-6 13-36 16-65 3-30 9-63 14-74s11-36 14-55 17-57 31-84 25-58 25-68c0-38 46-114 114-188 39-42 78-87 86-99 35-53 51-70 65-64 19 7 19-13 0-102-23-104-33-169-45-285-6-58-15-136-20-175-20-162-29-463-14-486 15-26 104 9 104 41 0 6 5 8 10 5 6-4 10 6 10 22 1 93 8 275 13 313 3 25 11 99 17 165s15 140 21 165c5 25 9 69 8 98-1 28 1 55 5 59 10 10 38-9 56-39 8-14 30-45 48-69s40-59 49-77c19-39 161-175 203-194 16-7 30-16 30-20 0-5 9-8 19-8 22 0 34-26 36-80 7-133 19-237 28-248 6-7 11-23 12-35 4-41 25-130 33-141 5-6 28-69 52-141 24-71 50-140 58-153s16-33 18-45c1-12 5-45 9-73 7-50 7-51-24-64-17-7-31-19-31-26 0-8-15-31-33-51-18-21-46-60-62-88-16-27-41-68-57-89-15-21-28-44-28-49 0-6-8-20-18-31-10-12-27-41-37-66s-27-55-37-66c-11-12-18-25-16-30 1-5-3-19-10-32-7-12-10-27-7-32 3-6-1-10-9-10-9 0-15-3-15-7 3-13-25-73-33-73-4 0-8-5-8-12 0-10-37-93-71-160-5-10-9-24-9-32s-5-27-12-43c-6-15-12-32-13-38 0-5-6-23-13-38-7-16-12-33-12-38s-11-32-25-59-24-53-24-57c1-5-6-26-16-48s-18-47-18-55-5-22-12-30c-22-27-42-94-49-161l-7-66-45 5c-25 2-55 0-67-6-12-5-38-16-57-23s-71-36-115-64-88-54-97-58c-10-3-18-14-18-23 0-11-6-15-20-11-12 3-25-1-33-11-7-10-21-22-32-29-68-41-109-63-139-73-66-22-52-88 25-110 63-18 123-13 148 14 13 14 37 30 54 37 18 7 36 19 40 26s15 13 22 13c8 0 15 5 15 10 0 6 7 10 15 10 9 0 18 7 21 15 4 8 11 15 17 15s19 8 29 17c13 11 22 13 29 6 9-9-20-54-79-119-10-12-29-39-42-60-13-22-32-49-42-60-11-12-20-31-21-43-1-11-5-21-10-21-24 0-47-45-54-106-4-36-2-41 22-52 28-13 62-8 110 16 38 19 45 29 45 68 0 20 9 39 29 58 16 15 38 47 50 70s32 54 44 68 33 40 47 58c48 64 90 105 89 90 0-8-7-46-15-85-8-38-17-79-18-90-2-11-6-27-9-35s-10-35-16-60c-23-100-23-107-1-128 18-16 28-18 67-11 61 12 87 37 108 107 10 31 21 61 26 67 5 5 9 18 9 30s4 25 9 31c32 34 73 254 68 368-2 39 2 60 10 63 14 5 40 46 90 143 19 36 41 72 49 81 8 8 14 19 14 24s8 18 19 29c32 36 72 117 113 231 22 61 41 117 42 125s12 36 23 62c12 25 24 57 28 70 4 12 25 72 46 131 22 60 37 112 34 117s1 22 8 37c8 15 18 54 21 86 4 31 11 57 16 57 4 0 10 12 13 28 6 31 31 99 39 108 4 3 16-4 28-16s19-24 16-27c-4-5 68-110 85-123s150-272 164-320c8-28 32-86 46-112 5-10 9-25 9-33s4-15 8-15 13-12 19-27c6-16 18-39 26-53 29-50 57-112 57-126 0-8 4-14 9-14 4 0 20-17 33-37 14-21 51-67 83-102 53-60 56-65 39-78-10-7-23-13-30-13s-15-14-19-31c-6-25-2-36 19-58 14-15 26-32 26-37 0-6 9-19 20-29s25-37 32-59c6-23 19-52 28-66s24-47 34-75c10-27 21-59 26-70 22-50 66-250 72-325 3-35 3-35 52-34 39 0 52 5 68 25 20 26 20 59-2 164-5 28-11 59-13 70-6 32-29 99-37 109-5 5-6 15-3 22 3 8 1 20-4 27-6 6-13 22-16 35-4 16-1 22 12 22 20 0 102-158 106-204 2-26 7-31 32-34 22-2 38 5 61 26 27 26 32 37 32 77 0 38-9 62-46 125-26 43-71 102-100 131-47 45-67 79-48 79 23 0 120-68 178-123 102-98 134-118 178-111 23 4 40 14 48 29 11 20 8 30-24 78-20 30-53 68-74 83-20 16-53 46-73 66-20 21-43 38-52 38-10 0-17 4-17 8 0 5-19 14-42 21-24 7-51 17-60 22-10 5-40 9-67 9-56 0-49-18-76 178-8 63-22 126-30 142s-15 38-15 50c0 20-65 154-86 177-6 6-16 26-23 45-7 18-17 40-21 48-5 8-20 38-34 65-32 63-53 98-92 155-34 49-60 93-106 180-16 30-34 59-39 64-5 6-9 16-9 23s-18 42-39 78c-22 36-42 73-46 84-3 11-12 25-20 31-8 7-15 19-15 26 0 23-41 63-71 69-32 7-36 22-14 51 8 10 15 26 15 35s7 30 15 45c8 16 15 37 15 46s5 18 12 20c6 2 11 20 10 39-1 36 24 116 43 135 14 15 59-3 97-39 15-14 37-28 48-32 11-3 20-11 20-16s7-9 15-9 31-9 50-20c116-65 218-110 275-121 66-12 174-49 220-75 52-28 209-72 286-79 82-7 149-21 244-50 30-9 123-30 205-47 83-16 157-33 165-37s39-14 68-20c28-7 55-17 58-22s12-9 19-9c19 0 285-128 309-149 10-9 20-14 21-11 5 8 145-106 228-184 39-37 90-82 111-100 84-67 106-89 106-102 0-8 7-17 15-20 8-4 15-12 15-19 0-8 7-20 15-28s24-33 36-56c11-23 25-44 30-47s9-20 9-39 4-36 9-40c6-3 13-27 16-53 4-26 9-54 12-62s8-23 10-33c1-10 10-31 18-47s15-47 15-70c0-22 3-40 8-40 4 0 8-21 8-47 1-27 3-73 5-103 2-52-13-148-62-385-19-88-20-111-10-188 6-48 17-98 26-110 8-12 15-33 15-47 0-17 17-46 50-82 27-31 50-59 50-62 0-7 65-70 103-99 16-12 42-32 57-44 15-13 34-23 41-23 8 0 25-9 39-20s33-20 43-20c9 0 17-4 17-8 0-8 84-30 205-54 93-19 261-21 335-4 38 9 87 16 109 16 35 0 103 20 166 50 11 5 56 14 100 20 70 9 84 15 115 44 19 19 58 46 85 61 113 62 152 90 190 137 21 27 57 61 80 74 22 14 60 38 85 53s51 41 59 57c35 74 55 111 72 130 11 11 19 24 19 28 0 7 39 62 73 102 36 42 186 345 223 449 10 28 22 56 28 64s11 69 11 150c0 120-3 145-27 216-45 135-59 169-79 191-10 11-19 25-19 31 0 5-9 18-21 29-12 10-27 30-34 44s-24 31-37 38c-23 13-28 20-58 78-8 16-17 31-21 34-3 3-12 23-18 45-7 22-16 49-21 60-25 60-34 133-34 285 0 72 25 194 53 255 23 51 75 301 67 322-4 8-1 22 5 29 14 17 13 186-2 271-5 32-12 83-15 113-6 68-29 148-60 218-13 29-24 60-24 69 0 24-62 102-87 109-12 3-29 14-39 25-9 10-24 19-33 19s-36 7-60 16c-72 25-367 4-486-35-16-5-55-12-86-15-86-9-183-43-226-79-60-50-298-164-347-166-37-1-55 14-48 41 5 20 3 21-49 12-111-18-382 4-503 41-61 19-186 96-219 134-13 15-28 30-35 32-24 8-146 137-204 214-33 44-66 88-74 98-8 9-14 21-14 26s-7 14-16 21c-27 23-142 177-149 201-4 13-16 34-26 47s-21 36-24 52c-4 17-10 30-15 30-4 0-11 19-15 42-4 24-13 52-20 63-11 17-18 53-30 150-1 11-8 47-15 79-7 33-9 78-6 100 12 84 17 112 27 146 5 19 9 65 9 103 0 46 4 67 12 67 7 0 51 39 98 88 47 48 105 105 130 127 55 50 80 81 80 100 0 7 5 17 10 20 6 3 10 16 10 28 0 13 6 31 14 42 7 11 16 37 20 58 6 31 2 47-23 91-28 48-119 145-138 147-4 0-60 1-123 2-85 1-123 6-148 19s-48 15-101 11c-39-3-105 0-153 7-45 8-92 13-103 12s-51 8-90 19c-227 68-330 121-435 223-44 43-80 80-80 81 0 2-13 17-30 35-34 36-39 66-12 75 9 3 31 23 47 45 17 21 36 39 43 40 7 0 16 8 19 17 8 21 96 113 108 113 10 0 175 166 175 177 0 4 41 51 90 103s90 99 90 104c0 8 37 56 89 115 11 13 21 27 21 30s14 22 30 41 30 39 30 44c0 9 59 106 70 116 3 3 17 21 30 40 14 19 33 45 43 56 19 22 68 111 106 192 11 23 25 42 31 42 5 0 10 4 10 10 0 11 55 75 131 150 31 30 75 81 99 113s51 62 62 68c10 5 18 16 18 24 0 17 36 39 50 30 6-3 7 1 4 10-4 9 5 30 20 49 14 19 26 39 26 44s11 21 25 36 25 30 25 33 20 45 44 94c25 49 42 89 38 89s-1 4 7 9 15 18 16 28c0 11 10 35 22 54 28 47 42 108 48 214 3 50 8 113 11 140 3 30-2 78-12 120-9 39-18 89-21 113-3 23-9 42-13 42-5 0-16 21-24 48-9 26-27 64-41 84s-25 44-25 52-12 28-26 43c-32 34-104 141-104 154 0 5-53 64-117 130-115 118-163 183-163 220 0 18-8 37-32 79-4 8-11 22-15 30-3 8-16 28-27 45-12 16-27 40-33 52-51 92-71 121-115 168-21 22-38 44-38 48s-11 25-25 45c-39 57-34 69 33 76 31 4 72 12 90 18 19 5 46 12 60 13 100 13 129 41 69 70-19 9-43 16-53 16-42 1-163-13-229-27-88-18-87-18-111 4-86 79-193 157-266 192-48 24-96 51-108 62-11 10-22 18-25 18-10-1-70 33-87 49-33 32-47 41-61 41-8 0-26 9-40 20s-31 20-39 20-18 4-23 8c-14 12-88 32-119 32-21 0-26 5-26 25 0 13 9 40 20 60s20 42 20 49c0 8 11 24 25 37 13 13 25 30 25 37 0 6 6 12 13 12 6 0 40 27 74 59 33 32 75 65 92 72 17 8 31 19 31 26 0 6 10 14 23 18 12 3 31 10 42 14 54 22 105 34 174 43 109 14 118 15 132 24 12 7 25 10 92 20 20 4 37 10 37 15 0 6 9 5 20-1 14-7 20-7 20 0 0 5 7 10 15 10 15 0 55 19 65 31 3 3 27 16 53 29 102 48 188 162 217 284 11 49 6 121-10 131-4 2-5 15-3 28 3 14-3 29-16 41-12 11-21 24-21 30 0 15-45 66-59 66-6 0-11 3-11 8 0 13-78 91-84 84-4-3-9 4-13 16-3 12-8 23-12 23-3 1-17 3-30 4s-26 6-30 12c-3 5-35 14-71 21s-70 20-76 28-16 14-22 14c-15 0-152 130-152 144 0 6-19 34-41 61-50 60-72 108-89 195-11 59-10 73 9 145 12 44 30 91 40 105s32 55 50 92c18 36 51 82 72 102l39 35-25 30c-37 44-132 59-202 33zm-37-182c-9-16-23-43-31-59s-15-34-15-41c0-6-10-32-21-58-19-40-21-59-16-152 5-117 15-146 76-235 22-33 41-65 41-71 0-15 131-144 146-144 8 0 14-5 14-10 0-6 8-14 18-17 9-4 26-16 37-26 19-18 56-37 82-41 7-1 16-6 20-10 12-12 75-37 81-32 2 3 31-15 63-40 181-139 207-289 80-457-35-45-58-63-119-94-43-21-79-38-82-39-32-4-127-29-134-36-6-4-25-8-43-8s-33-3-33-7c0-5-33-9-73-11-99-4-257-62-307-112-12-12-24-20-26-17-3 3-20-10-38-29s-40-34-50-34c-9 0-16-4-16-9 0-13-60-75-85-89-24-12-34-31-91-169-9-24-18-43-19-43-18 0-77 35-85 51-13 23-4 119 10 119 5 0 11 14 15 30 4 17 11 30 16 30s9 6 9 13c0 16 137 157 152 157 6 0 18 8 27 18 41 45 234 169 292 187 10 4 19 11 19 16s7 9 16 9c8 0 30 11 48 25s36 25 40 25c13 0 36 28 36 44 0 35-41 46-185 47-80 0-152-4-169-11-16-6-49-15-74-21-24-5-64-19-88-29-23-11-48-20-53-20-6 0-11-4-11-10 0-5-7-10-15-10s-34-11-57-25c-24-14-59-33-78-41-29-13-230-207-278-268-7-9-23-16-36-16-29 0-57-40-80-115-11-33-21-67-24-75s-6-19-6-25c-1-5-10-11-21-11-11-1-55-7-98-13-43-7-93-11-112-10-19 2-37 0-41-4s-22-7-39-7c-30 0-33 4-54 65-27 76-33 197-12 242 39 82 47 94 63 99 10 3 18 10 18 15s6 9 14 9c7 0 20 7 27 16s22 20 34 25c22 10 57 31 65 39 29 33 99 61 192 80 32 6 82 20 111 30 30 11 97 24 148 31 52 6 99 14 104 17 22 15 103 31 152 32 28 0 55 5 58 10 3 6 19 10 35 10 30 0 138 37 195 67 55 29 152 139 174 199 25 66 26 84 5 166-16 63-46 108-71 108-7 0-21 4-31 9-9 4-42 21-72 36s-64 35-75 45c-18 16-59 35-151 70-27 10-32 18-38 57-13 95-4 163 20 163 8 0 17 7 21 16 7 18 80 94 91 94 4 1 18 15 32 32s34 38 44 47 27 24 38 34c10 9 22 17 26 17 15 0 62 56 55 65-5 4-2 5 5 1 8-5 40 13 85 46 100 76 127 86 103 38zm-282-1431c10 15 26 14 26-3 0-7-38-33-85-56-47-24-99-58-115-77-16-18-33-33-37-33s-21-11-37-25-33-25-37-25c-11 0-89-79-89-90 0-6-7-10-15-10s-15-8-15-17c0-10-13-32-29-49s-33-48-36-68c-4-21-13-36-21-36-10 0-14-14-14-51v-50l-62 5c-35 2-71 5-80 5-43 2-7 84 45 104 9 3 21 24 27 46 11 44 27 65 111 151 31 31 58 61 60 66 5 11 99 87 99 80 0-3 33 14 72 39 40 25 78 45 85 45s22 5 33 10c11 6 29 15 40 20 11 6 27 10 35 10s15 6 15 13c0 9 3 8 9-2 6-9 11-10 15-2zm-807-686c11-28 26-40 61-48 21-4 38-2 47 5 8 6 19 9 25 5s10 6 10 25c0 25 3 30 18 26 9-3 49-8 87-10 39-3 91-11 118-19 26-8 47-13 47-11s18-3 40-11 42-15 45-15 10-3 17-5 60-14 118-25c148-30 229-69 385-187 6-5 42-23 80-42 39-19 85-41 103-50 31-15 172-140 172-153 0-3-12-8-27-11-16-2-59-11-98-20-130-29-359-59-499-66-119-6-140-9-152-26-32-43-10-63 77-69 112-7 555 51 761 100 23 5 29 1 47-34 11-22 39-62 62-89 40-46 110-149 137-203 7-14 24-45 37-70 26-47 31-70 16-70-5 0-14 7-21 15s-21 15-32 15c-10 0-21 7-24 15-4 8-10 13-14 10-5-3-24 8-42 23-45 40-113 69-213 92-27 6-66 24-85 39-41 32-115 71-134 71-8 0-27 7-42 15-16 8-37 12-46 9-10-3-18-1-18 4 0 15-194 9-213-6-9-8-21-11-28-7-6 4-14 4-18-1-3-5-17-15-31-21-93-45-150-83-231-155-35-32-73-64-84-72s-20-27-21-43c-3-61-5-70-21-89-10-11-25-32-33-46-13-23-77-101-120-148-8-9-19-23-25-32-33-49-83-115-102-135-12-12-24-32-28-43-3-11-10-20-15-20-4 0-10-12-13-27-7-39-47-153-65-187-8-16-21-48-27-70-12-40-13-41-23-16-23 55-30 79-35 115-1 11-10 34-20 52-9 18-17 36-17 42 0 5-5 22-12 38-6 15-10 33-10 39 1 5-7 20-18 32s-20 25-20 30c0 4-19 19-42 32-24 13-91 73-150 132s-110 108-113 108c-4 0-26 14-50 30-24 17-48 30-54 30s-11 4-11 8c0 5-15 15-32 24-18 8-70 45-115 82-78 63-187 118-278 140-16 4-37 13-45 20-23 19-66 34-170 56-52 12-96 23-99 26-2 2 9 16 25 32 16 15 36 40 44 57 15 30 34 54 105 132l40 44 135 4c98 3 155 10 210 25 112 32 153 39 227 41 110 1 143 8 143 29 0 26-20 39-81 50-64 12-271-9-389-40-79-21-170-26-170-11 0 5 8 12 18 15 9 3 26 19 37 36 11 16 25 30 31 30 7 0 29 17 50 39 22 21 64 55 94 75 30 19 64 44 75 53 30 27 86 66 125 87 19 10 49 29 66 41 17 13 62 34 100 47s72 27 75 32c4 5 12 6 18 2 5-4 39 1 73 10 62 17 156 30 231 33 27 1 39-4 44-16zm1176-901c83-51 131-72 222-101 39-12 85-34 105-51 41-36 200-116 249-126 32-6 68-43 95-100 32-65 75-244 76-314 0-25 5-63 11-85 11-39 39-204 59-336 11-76 7-254-8-319-6-25-18-83-27-130-10-47-21-89-25-95-7-10-34-102-35-120 0-5-6-20-13-33s-15-31-17-40c-1-9-22-60-45-112s-51-122-62-155c-12-33-24-62-28-65s-15-22-25-43c-24-52-101-118-187-161-40-20-101-51-136-70-71-38-88-43-217-58-49-7-93-16-96-21-21-31-419-44-559-17-62 11-57 9-200 79-91 44-200 124-200 146 0 4-8 19-18 33-10 15-27 54-36 87-10 33-29 94-41 135-42 137-58 237-55 350 1 41 2 82 2 90 0 26 50 224 67 265 5 11 18 63 31 115 12 52 40 147 61 210 22 63 49 144 61 180 11 36 25 71 30 78 6 6 8 12 4 12-9 0 46 83 61 93 7 4 13 14 13 22 0 7 3 15 8 17 4 2 27 32 51 68 43 62 145 187 166 202 7 5 7 8 0 8-6 0-6 3 1 8 5 4 31 36 56 72 52 73 99 119 172 167 27 18 52 37 55 42s29 22 56 38c31 19 49 36 47 46-2 14 32 34 51 29 4-1 7 1 7 6 0 4 33 5 73 2 61-6 82-13 140-48zm-2733-32c0-9-39-72-60-97-5-7-10-15-10-18s-21-38-48-78c-26-39-53-83-59-97-7-14-17-32-22-40-4-8-16-31-27-50-10-19-24-41-31-48s-13-20-13-28-4-14-10-14c-5 0-10-10-10-22 0-13-9-38-20-55-11-18-17-33-14-33s-2-7-10-16c-9-8-16-24-16-34s-4-21-10-25c-5-3-14-33-21-66-6-33-16-62-20-65-5-3-9-20-9-39s-4-36-9-39c-4-3-11-45-15-94-3-49-11-104-17-123-5-19-12-47-14-63-2-15-8-33-13-40-9-11-31-114-52-246-6-36-15-85-21-110-5-25-9-65-8-90 3-87 3-95 1-133-3-50-23-45-40 11-8 23-18 42-23 42s-9 10-9 23c0 12-7 32-15 45-15 20-50 125-76 227-6 22-19 58-29 80s-21 63-23 90c-3 28-12 97-21 155-14 90-15 125-6 243 11 140 32 237 51 237 6 0 8 7 5 15-3 9 1 18 9 21 8 4 15 15 15 25 0 20 4 29 35 89 10 19 23 45 29 57 6 13 14 23 18 23 3 0 23 24 44 53 60 82 134 156 194 195 30 19 62 42 70 51s28 23 44 31c25 13 29 13 40-2 9-13 24-16 57-14 50 4 99 21 99 35 0 5 17 16 38 24 44 19 52 20 52 7zm240-20c29-6 67-17 83-25 17-8 39-15 50-15 20 0 58-15 142-56 28-13 56-24 64-24s27-13 42-30c16-16 29-26 29-20 0 13 69-29 83-51 7-11 17-19 23-19 7 0 14-7 18-15 3-8 22-23 43-33 21-9 43-21 50-27 7-5 19-16 27-22 8-7 21-13 29-13s26-11 41-25 29-25 32-25c2 0 19-15 37-34 18-18 52-55 77-81s57-54 72-63c65-38 108-103 149-222 48-144 52-220 14-330-14-40-25-80-25-88 0-20-73-188-114-262-32-57-146-299-146-309 0-6-4-11-9-11s-16-16-25-34c-18-39-132-156-152-156-6 0-14-7-18-15-3-8-15-15-26-15-12 0-18-4-15-10 8-14-14-42-27-34-5 3-17-1-26-9s-32-18-49-22c-18-3-33-10-33-13 0-7-69-41-150-75-19-8-53-18-75-22s-42-10-45-15c-3-4-41-17-85-28-65-17-105-21-212-19-122 3-134 5-153 25-12 12-29 22-39 22s-24 7-31 15c-7 9-15 13-18 11-5-5-103 43-112 55-3 3-14 9-25 13-11 3-51 38-90 77l-70 71-1 91c0 51 2 96 4 100 7 14 6 153-2 165-3 6-2 13 4 17 5 3 10 25 10 48s7 63 15 89 17 75 21 108 11 60 17 60c5 0 7 12 4 29-3 16-3 32 1 36s7 10 7 13c1 4 6 17 13 30 7 12 10 27 7 32-3 6-2 10 2 10 5 0 10 16 11 36 2 20 7 45 13 56 5 10 11 39 13 63 1 24 4 47 7 49 3 3 4 25 3 48-1 24 1 48 6 53 4 6 10 21 13 35s24 77 47 140 44 124 47 135c4 11 10 22 14 26 5 3 10 21 12 40 3 21 10 35 21 37 9 2 16 13 16 27 0 13 5 25 12 27 6 2 12 11 14 20 3 21 34 68 45 68 5 0 9 8 9 19 0 10 7 24 15 31s15 18 15 24c0 18 24 66 33 66 4 0 7 6 7 13s9 18 20 25 20 19 20 27 9 23 21 33c11 9 25 27 30 40 10 25 23 26 99 12zm3415-596c6-16 26-54 45-84 64-101 109-204 140-321 19-73 21-99 15-194-9-156-22-230-46-261-5-6-19-39-33-75-37-99-57-137-113-222-29-43-53-82-53-87 0-4-6-10-14-13s-20-18-28-33c-7-15-18-29-24-31-17-6-4 57 23 105 14 24 22 46 19 49s3 18 13 32c17 25 38 90 46 141 2 14 11 52 21 85 9 33 16 69 16 80-1 10 3 24 8 30 16 19 19 304 4 379-8 38-12 71-10 74 3 2 0 16-5 31-6 14-13 53-15 85-3 33-10 68-15 78s-12 46-14 79-6 63-9 67c-3 3-6 14-6 25 0 28 23 15 35-19zm-2266-899c-30-128-20-349 23-490 12-38 23-78 25-88s10-31 18-47 15-37 15-47c0-49 38-120 101-187 55-59 83-79 165-120 55-27 111-55 126-62 14-8 33-14 42-14s16-4 16-10c0-5 10-10 23-10 12 0 32-7 45-15 41-29 396-53 522-36 41 6 111 16 155 21 44 6 95 15 112 21 18 6 47 12 65 14 55 7 92 17 118 30 14 7 45 23 70 36 25 12 56 28 70 35 13 7 26 12 28 10 6-6-38-89-59-111-41-44-79-93-79-102 0-6-9-18-20-28s-20-24-20-32c0-7-4-13-10-13-5 0-10-7-10-16s-14-33-31-53c-16-20-40-47-51-61-43-52-98-130-98-140 0-5-4-10-9-10-10 0-78-67-101-100-27-38-94-112-140-154-55-50-207-202-277-276-60-65-144-130-167-130-9 0-16-4-16-9s-13-14-28-19c-16-5-45-24-64-41-20-17-40-31-45-31s-24-13-43-30c-19-16-38-29-41-30-4 0-28-10-55-22s-53-21-58-20c-4 2-18-4-30-11-12-8-37-17-56-21s-44-11-55-16c-22-9-57-22-65-25-17-4-96-15-100-14-3 2-15-3-27-10-30-15-239-25-248-11-3 5-23 10-44 10-20 0-41 4-47 10-5 5-30 12-54 14-60 6-90 15-121 37-14 10-48 24-75 31s-65 24-84 39c-38 29-55 36-115 45-22 3-44 10-50 15-5 5-16 9-25 9-8 0-37 11-64 25s-55 25-61 25-44 29-83 65c-40 36-77 65-81 65-5 0-40 31-77 68-38 38-85 77-104 87-41 20-140 114-140 132 0 7-4 13-9 13-12 0-81 96-81 113 0 7-4 17-8 23-9 10-29 71-63 199-13 44-26 85-30 90-3 6-10 25-14 43-3 17-10 32-14 32-5 0-11 26-15 58-3 31-11 82-17 112-5 30-12 89-15 130s-9 79-13 85c-5 5-11 37-15 69-4 33-12 66-19 75-9 12-9 13 1 7s11 5 6 50l-7 58 50-37c27-20 60-41 74-47 13-5 31-14 39-19s38-19 65-32c28-12 75-33 105-47 39-17 70-24 108-23 30 1 81-4 115-10 105-19 199-8 300 34 20 9 37 13 37 10s7 1 17 8c9 8 37 15 62 15 25 1 47 7 49 13s10 11 19 11c15 0 66 26 93 47 8 6 49 24 90 39 41 14 79 33 83 40 4 8 12 14 17 14 14 0 42 24 147 126 51 51 93 96 93 102s4 12 8 14 30 48 57 103 53 102 57 103c5 2 8 15 8 28s5 24 10 24c6 0 10 6 10 13-1 20 84 186 92 179 4-4 3-25-3-47zm837-2272c9-38 39-76 137-174 89-89 122-113 137-104 6 4 10 1 10-4 0-6 12-11 28-11 15 0 39-11 54-25s32-25 38-25 21-6 33-14c12-7 45-19 72-26 28-7 57-19 65-25 26-21 237-42 610-61 129-6 146-14 204-90 31-41 33-47 23-80-7-24-21-39-44-51-28-13-85-71-169-170-10-13-26-23-35-23-29 0-100-109-105-160-1-14-5-59-8-100s-12-106-20-145c-31-154-33-175-20-216 8-21 11-45 8-53s-1-17 5-21c6-3 8-17 5-30-3-12-1-26 5-29 6-4 11-24 11-45 0-20 4-41 8-47 5-5 14-29 21-54 15-54 95-222 128-267 13-17 23-36 23-41 0-6 7-12 15-16 8-3 15-10 15-17 0-6 27-45 60-86 34-41 76-99 95-128 52-82 321-345 353-345 6 0 12-4 12-9s8-11 18-15c9-3 42-19 72-36 52-29 179-73 197-68 23 6 190-16 208-28 24-16 67-18 195-9 178 11 230 23 305 70 22 14 51 30 65 36 54 23 144 71 174 94 45 34 75 44 221 71 72 13 148 27 170 32s92 10 156 11c103 2 120 0 155-19 41-23 104-78 104-92 0-4 16-42 36-84 19-42 33-78 30-82-3-3-2-10 4-17 30-37 53-477 29-570-6-22-12-50-14-62-8-50-20-94-56-206-31-96-40-139-45-230-9-146 5-227 66-402 23-67 63-128 122-189 38-37 68-72 68-77s15-33 34-62c42-63 86-228 86-321 0-40-9-88-24-134-14-40-23-72-21-72 4 0-11-30-44-90-5-8-18-35-29-60-49-111-78-167-99-198-13-17-22-36-19-41s-14-31-39-59c-25-27-45-55-45-60 0-6-10-18-22-27-13-8-23-19-24-23-4-38-46-92-72-92-11 0-45-22-75-50-30-27-59-50-63-50-5 0-40-27-78-60s-74-60-79-60c-11 0-84-58-123-97-19-19-34-23-83-23-38 0-76-7-108-21-74-32-100-39-203-52-178-21-391-11-475 23-16 7-39 16-50 20-68 27-85 36-85 42 0 5-5 8-11 8-20 0-121 94-178 165-31 39-56 72-56 75-1 3-11 20-22 39-12 19-25 58-29 87-6 53-4 77 15 189 6 33 16 92 22 130 7 39 16 75 21 81 5 7 8 16 7 20-1 5 1 17 6 27 17 40-14 419-38 464-18 32-67 191-67 215 0 21-36 105-47 109-12 6-73 85-73 96 0 9-95 97-154 141-20 15-38 35-41 45-4 9-10 17-14 17-5 0-28 19-53 43-93 87-134 123-159 136-15 7-38 24-52 37s-29 24-32 24-31 16-61 35-61 35-69 35-50 18-92 40c-43 22-85 40-93 40s-23 7-34 15c-10 8-44 19-75 25s-67 16-81 22-36 13-50 14c-34 3-167 30-210 42-135 39-208 54-300 63-98 10-214 41-226 60-3 5-14 9-25 9-12 0-50 14-86 30-36 17-104 40-152 52-47 12-114 34-149 50-34 15-65 28-68 28-4 0-35 20-69 45-34 24-65 42-68 39-7-7-87 34-87 44 0 5-18 21-40 38-25 18-40 37-40 52 0 12 4 22 9 22s12 10 16 23c3 12 10 31 15 42s16 38 25 60c10 22 31 69 48 105s31 70 33 75c1 6 4 22 7 37s8 32 11 37 8 29 11 52c3 24 10 55 15 69 11 31 42 174 46 215 1 17 9 84 18 150 9 65 16 151 16 190 0 38 4 106 10 150 5 44 12 115 16 158 3 42 9 77 14 77 4 0 15-19 24-41 9-23 30-60 45-83 37-54 91-154 91-168 0-6 6-19 14-27 7-9 28-54 47-101 18-47 37-86 41-88s8-8 8-13c0-6 16-44 35-85s35-79 35-84c0-6 3-10 8-10 4 0 12-10 17-23 6-12 23-44 37-72 14-27 43-86 63-130 58-123 113-235 146-292 33-58 55-66 108-38 50 25 54 109 10 197-13 27-48 177-59 256-6 41-14 81-19 91-6 10-9 31-9 48 1 16-2 36-7 42-12 21-39 123-85 329-12 54-36 125-54 160-7 15-30 77-51 137-34 102-114 282-139 314-5 7-11 19-12 26-1 6-13 30-26 51s-29 48-36 59-18 31-24 45c-7 14-20 37-31 53-10 15-15 27-11 27s1 8-7 18c-8 9-34 58-59 107-25 50-47 92-50 95s-12 17-20 31c-44 77-91 139-108 139-14 0-20 18-35 103-35 198-86 363-118 382-5 4-9 9-9 13 0 9 73 32 100 32 11 0 48 13 82 29 35 16 90 39 123 52 35 13 81 42 111 68 28 25 72 57 98 71s57 31 69 37c36 20 56 16 63-14zm-1410-245c44-22 46-24 41-59-3-20-12-51-20-70-21-46-36-119-43-209-3-41-10-97-15-124s-9-83-9-126c0-120-9-172-30-165-11 4-23-6-38-34-12-21-22-46-22-55s-3-16-8-16c-11 0-54-116-57-153-3-46-23-171-31-193-3-10-9-28-13-39-18-48-34-93-48-140-8-27-20-63-28-80-7-16-20-57-28-90-9-33-25-96-36-140-33-133-65-235-74-235-5 0-23 15-41 34-18 18-40 37-48 42-13 8-69 114-73 139-1 11-10 34-30 80-8 17-21 62-29 100-9 39-21 90-27 114-5 24-14 88-19 141s-14 117-19 141c-17 74-2 406 19 434 4 6 10 36 14 69 4 32 13 71 20 85s24 53 36 86c37 97 70 164 88 177 10 7 26 27 36 43 43 66 160 165 197 165 16 0 29 4 29 10 0 5 12 13 28 16 15 4 52 18 82 32s61 27 68 28c8 1 16 5 20 8 12 13 64 5 108-16zm374-83c41-4 113-2 160 4 75 9 87 8 102-7 20-20 88-206 88-242 0-14 9-69 20-123 11-55 20-123 20-153 0-54 23-170 41-209 10-22 11-27 33-300 15-176 22-517 12-533-2-4-9-86-16-182-11-174-40-412-61-502-6-25-12-57-14-70-7-48-94-335-113-373-38-75-79-170-91-210-7-22-21-59-32-82-10-24-19-49-19-57s-4-17-9-20-11-16-14-28c-11-53-48-185-57-203-5-11-14-33-20-50l-11-29-24 29c-13 17-25 37-25 45-1 21-45 152-68 202-22 47-57 231-48 247 4 5 2 12-3 16-12 7-19 60-25 183-3 51-9 99-14 105-12 15-20 81-28 216-3 58-7 107-9 110-1 3-6 89-10 191s-14 226-22 275c-24 145-29 389-9 454 14 48 14 57 1 84-8 17-15 49-15 73s-5 46-11 50c-6 3-7 9-2 13 5 3 6 67 2 146-4 77-3 181 1 230 6 60 6 91-1 93-6 3-6 8-1 15s12 57 16 112c14 206 41 404 59 421 4 4 7 15 7 25s4 29 9 43l10 24 58-13c32-8 92-17 133-20zm611-772c12-27 23-51 23-54 1-3 24-43 51-89 92-153 104-175 151-270 61-126 73-155 99-245 10-33 26-80 38-105 11-25 28-63 37-85 27-59 34-86 47-177 3-21 10-38 15-38 6 0 7-7 4-16-4-9-2-22 3-28 4-6 12-29 15-51 4-22 16-69 27-104 22-71 23-81 10-81-5 0-18 19-29 43-63 132-111 238-123 272-7 22-19 47-25 55-7 8-24 44-39 80-34 85-58 130-67 130-5 0-8 6-8 13s-15 35-34 62c-18 28-44 75-56 105-29 70-76 119-112 120h-27v83c0 45-3 98-6 117-8 43-12 80-19 190-3 47-8 96-11 108-9 36 10 18 36-35zm-1041-210c1-36 11-200 15-247s1-68-17-102c-12-24-25-44-30-44-4 0-8-7-8-15 0-15-67-127-94-157-9-10-16-21-17-25-3-21-37-55-48-49-8 6-9 11-1 20 5 7 14 33 19 57s27 97 50 161 41 124 41 133c0 8 4 15 9 15s15 24 21 53c7 28 16 57 20 62 4 6 8 17 9 25s4 39 7 68c3 28 10 52 15 52s9-3 9-7zm15-611c2-50 18-212 25-247 5-22 12-95 15-162 4-68 12-192 19-275 14-168 13-187-13-164-9 8-31 28-48 44-18 16-33 34-33 39 0 6-7 16-15 23-9 7-13 15-11 18 3 2-9 23-27 46-19 22-49 67-67 99-36 60-60 74-105 63-30-8-32 3-5 32 12 12 35 64 51 115 26 77 82 201 148 326 18 35 53 72 60 65 3-3 6-13 6-22zm517-1966c7-13 28-55 47-92 19-38 45-83 58-100s23-38 23-46c0-9 7-21 15-28 9-7 27-37 41-67 13-30 29-59 34-66 15-17 107-167 122-197 7-14 20-37 31-52 10-16 16-32 13-37-4-5-3-11 1-13 5-1 20-28 35-58s36-71 47-90c42-74 109-265 97-277-8-9-49 34-69 73-8 16-24 38-36 48-12 11-21 25-21 32 0 15-73 159-93 183-7 9-19 34-26 56-33 101-214 457-242 475-9 6-59 78-59 86 0 3-16 29-35 59-23 37-41 55-55 55-26 0-26 26 0 33 12 3 20 14 20 26 0 29 35 27 52-3zm-365-508c-6-29-27-87-38-110-5-10-9-26-9-37 0-10-7-32-15-47-8-16-15-39-15-51 0-13-4-23-8-23s-14-17-21-37c-20-57-44-107-54-114-5-4-6-16-2-28s2-21-4-21-11-8-11-19c0-10-6-24-14-30-7-6-11-22-8-36 2-15 0-25-7-25-6 0-11-6-11-14 0-25-84-164-107-179-7-4-13-17-13-27 0-11-7-20-15-20s-15 7-15 15 4 15 8 15 16 26 27 58c22 66 50 136 69 172 7 14 16 40 20 58 6 34 12 49 60 155 14 32 24 63 21 68-4 5-2 9 2 9 5 0 14 12 20 28 7 15 17 34 23 42 14 21 34 73 31 84-1 5 5 16 13 25s24 37 35 64c21 48 48 66 38 25zm-357-846c0-19-18-42-32-42-12 0-9 35 4 48 17 17 28 15 28-6z"/><path d="m7738 21114c-12-7-26-10-29-8-4 2-12-3-19-11s-23-15-36-15c-15 0-24-6-24-15 0-8-6-15-14-15s-40-24-70-54c-56-54-95-121-96-163 0-29-20-111-33-140-7-15-4-50 8-120 17-97 53-187 94-239 12-15 21-32 21-39 0-6 9-20 20-30s20-23 20-30c0-17 26-38 85-68 146-75 195-86 388-86 81-1 108 4 155 23 90 38 112 50 112 63 0 7 9 17 21 23 33 18 59 43 59 57 0 13 3 21 33 78 8 17 17 46 20 65s10 48 16 64c7 16 13 86 14 155 2 114 0 131-22 175-13 28-33 63-44 78-24 33-110 91-137 93-10 1-24 6-32 12-7 6-49 22-93 35-44 12-81 26-83 30-2 5-13 6-25 3-27-6-49 10-70 52-9 17-25 34-34 37-33 10-181 3-205-10zm120-122c20-11 71-29 112-41 41-13 85-28 97-33 12-6 30-11 40-12 125-12 223-129 223-266 0-82-24-230-43-267-8-15-21-41-28-58-18-41-43-64-98-91-66-33-115-41-211-37-93 4-157 25-223 76-37 29-52 51-98 147-12 25-27 52-34 60-18 21-27 74-28 150 0 69 2 81 29 175 16 55 64 124 87 125 5 0 24 16 43 35 18 19 40 35 49 35 8 0 15 5 15 10 0 15 27 12 68-8z"/><path d="m7887 20787c-57-34-109-104-105-142 5-41 47-103 79-114 14-5 33-16 42-26 42-42 160-26 190 25 10 16 22 30 28 30 5 0 9 5 9 10 0 6 10 31 22 56 20 43 20 48 6 73-9 14-42 39-74 56-33 16-61 33-64 36-3 4-25 10-50 13-36 4-53 1-83-17zm117-134c-11-47-24-56-44-31-17 21-17 23 4 40 32 27 48 23 40-9z"/><path d="m5767 21264c-15-8-27-12-27-9 0 4-7 0-15-9-9-8-22-13-30-10-8 4-15 1-15-5s-11-11-24-11-26-3-28-7c-4-11-67-41-101-49-35-8-137-100-137-123 0-9-4-21-9-26-8-10-54-151-69-211-12-52-7-217 11-303 24-121 81-209 176-273 25-18 50-38 54-45s14-13 21-13 34-11 61-25c49-24 165-39 181-22 4 4 15 7 25 7 9 0 19 4 21 8s40 20 86 35c67 22 92 36 125 70 62 64 128 159 123 174-3 8 1 16 9 19 8 4 15 12 15 20s12 33 26 56c25 40 26 45 26 207-1 317-10 349-118 426-15 11-48 41-74 66-25 25-58 51-74 58-39 16-204 13-239-5zm166-113c21-5 48-20 60-33 12-12 33-32 47-43s36-34 48-50c25-33 32-104 35-320 1-109 1-111-37-187-21-43-42-78-47-78s-9-4-9-9c0-18-55-100-66-101-7 0-14-7-18-15-3-8-13-15-21-15-9 0-14-4-11-8 5-8-16-18-99-48-27-9-55-21-62-26-8-6-31 3-68 26-30 20-60 36-65 36-23 0-92 91-121 160-17 41-36 85-41 97-6 12-8 31-5 42 3 12 2 23-2 26-14 8-11 100 4 151 8 27 15 60 15 72 0 22 8 44 43 122 13 28 95 110 110 110 6 0 15 7 22 16 6 10 24 18 40 20 26 3 76 22 118 45 9 5 28 7 42 3 15-4 25-2 25 5 0 13 12 13 63 2z"/><path d="m5768 20988c-45-36-80-176-55-224 26-49 109-129 131-126 10 2 22-2 26-8 5-8 13-9 26-2 11 6 37 15 60 21 38 10 43 16 60 63 28 78 19 172-20 219-16 19-45 42-64 52-42 20-140 23-164 5zm112-169c0-26-4-39-11-37-16 5-17 78-1 78 7 0 12-15 12-41z"/><path d="m6475 18490c-8-9-15-22-15-28s-9-26-20-44c-41-68-11-140 75-179 77-36 149-18 218 52 40 42 47 55 47 90 0 23-7 47-15 55-50 51-258 89-290 54zm165-123c0-16-38-40-50-32-6 4-10 12-10 20 0 12 9 16 53 24 4 0 7-5 7-12z"/><path d="m11120 14255c-14-7-51-27-83-44-76-40-115-68-152-110-30-34-35-42-68-103-23-41-113-263-122-301-4-15-11-30-16-33s-9-16-9-29-4-26-9-29c-6-4-14-58-23-161-1-5 3-71 8-145 17-257 4-365-53-427-25-26-49-25-89 6-28 21-94 129-94 154 0 5-6 23-14 40-8 18-22 73-31 122-9 50-21 98-26 108-13 22-63 22-108-1-39-19-63-52-44-59 13-5 33-64 54-157 7-33 21-76 31-95s18-44 18-54c0-47 94-155 161-184 33-14 113-6 164 17 40 18 115 82 115 98 0 5 8 17 18 28 35 39 46 86 48 214 1 69-2 130-6 135-14 18-20 174-9 258 9 80 17 109 45 174 8 17 14 40 14 51 0 12 4 24 10 27 5 3 14 24 21 47 16 63 66 162 108 218 43 57 101 104 113 92 4-4 11-50 14-102s8-102 11-110 5-39 3-67c-2-77 22-72 95 18 17 21 20 43 23 163 3 91 0 158-8 192-11 46-16 53-43 58-39 8-38 8-67-9z"/><path d="m6623 17153c-36-12-44-20-53-51-5-20-10-41-10-45 0-5-10-17-22-27-21-17-23-26-22-122 1-97 27-449 41-548 3-25 5-85 4-135-3-215-1-315 11-390 6-44 12-114 14-155 1-41 6-135 10-208 8-148 15-162 81-162 35 0 92 42 96 71 2 10 8 23 14 30 5 8 13 32 17 54 3 22 10 60 15 85 24 116 31 197 43 490 16 400 17 819 1 880-6 25-17 77-23 116-14 80-22 94-67 117-39 21-94 21-150 0zm93-192c2-35 10-73 17-85 15-27 19-386 6-571-5-71-11-200-15-285-3-85-7-157-10-159-14-15-19 34-21 212-2 282-3 312-13 397-20 165-33 429-21 443 6 8 9 16 6 19s1 18 10 34c8 16 15 37 15 47s5 17 11 15 13-32 15-67z"/></g></svg>
+
+There's still lots of imperfections, which really stretch the limits of
+what can be called artistic roughness, which are especially noticeable
+at larger screen sizes. Yet ultimately, I found the test successful. To
+me, the image has charm and personality, and as my psychologist warned,
+came directly from me.
+
+The workflow isn't perfect, but it's very workable. The whole process
+took me only a couple of hours, and this was my first time doing it. I'm
+excited to keep exploring.
+
 [svg-pencil-effect]: https://heredragonsabound.blogspot.com/2020/02/creating-pencil-effect-in-svg.html
+[svgcleaner]: https://github.com/RazrFalcon/svgcleaner
+[potrace]: https://en.wikipedia.org/wiki/Potrace
+[boxy-svg]: https://boxy-svg.com/
+[inkscape]: https://inkscape.org/
+[illustrator]: https://www.adobe.com/products/illustrator.html
+[acorn]: https://flyingmeat.com/acorn/

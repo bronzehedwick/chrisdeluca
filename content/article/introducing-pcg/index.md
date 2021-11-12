@@ -32,7 +32,7 @@ And yet.
 
 <aside>
 <h3><abbr title="Too long, didn't read">TL;DR<abbr></h3>
-<p>If you'd like to jump ahead to the (admittedly rough) demos, <a href="#the-end">skip to the end</a>.</p> 
+<p>If you'd like to jump ahead to the (admittedly rough) demos, <a href="#the-end">skip to the end</a>.</p>
 </aside>
 
 While my work life has not changed as drastically, my personal life
