@@ -1,0 +1,120 @@
+PHIL
+Hey Mary, you're the JavaScript expert, could you help me learn a few things?
+
+MARY
+Sure, what do you want to know?
+
+Phil points to line 1.
+
+PHIL
+What's this?
+
+Mary points to line 5.
+
+MARY
+That.
+
+Phil points again to line 1.
+
+PHIL
+No, I want to know what this is.
+
+MARY
+I know. It's that.
+
+She points again to line 5.
+
+PHIL
+This
+(points to line 5)
+isn't this!
+(points to line 1)
+
+MARY
+Yes it is.
+
+Phil points to both line 1 and line 5.
+
+PHIL
+These are two separate things!
+
+MARY
+Well, sure.
+
+PHIL
+Right, then what's this?
+
+Phil points to line 1.
+
+MARY
+That.
+
+She points to line 5.
+
+PHIL
+Okay, fine! What this?
+
+He points to line 5.
+
+MARY
+Window.
+
+PHIL
+What? Where?
+
+MARY
+Nowhere, it hasn't been called.
+
+PHIL
+Then how the hell is that
+(points to line 5)
+window?
+
+MARY
+Oh, that's not window, that's an object.
+
+Phil points to line 5.
+
+PHIL
+But you just said this is window!
+
+MARY
+Yeah, that's true.
+
+Phil points to line 5.
+
+PHIL
+Then this is window!
+
+MARY
+No, I told you, that is an object.
+
+PHIL
+What?
+
+MARY
+Look, it's all quite simple.
+
+She points to line 5.
+
+MARY
+That is an object.
+
+She points to line 5.
+
+MARY
+And this is window.
+
+PHIL
+They're the same thing!
+
+MARY
+Only according to typeof.
+
+PHIL
+What?
+
+MARY ^
+What?
+
+Slow fade out as they continue to argue.

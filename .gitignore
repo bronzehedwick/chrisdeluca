@@ -1,8 +1,7 @@
 # Hugo
 public
-resources
-content
-data
+_gen
+.hugo_build.lock
 
 # Node
 node_modules
