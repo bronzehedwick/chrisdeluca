@@ -7,7 +7,9 @@ categories = ["Tech"]
 topics = ["art"]
 toc = false
 styles = ["syntax"]
-syndicated = []
+syndicated = [
+  "https://twitter.com/chrisjohndeluca/status/1459280485415362561",
+]
 +++
 
 I've been trying to find a good workflow for drawing vector artwork that
