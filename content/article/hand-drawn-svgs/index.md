@@ -9,6 +9,7 @@ toc = false
 styles = ["syntax"]
 syndicated = [
   "https://twitter.com/chrisjohndeluca/status/1459280485415362561",
+  "https://dev.to/bronzehedwick/hand-drawn-svgs-2bcn"
 ]
 +++
 
