@@ -197,6 +197,7 @@ p {
 
 p + p {
   text-indent: 4ch;
+  margin-top: 0.5em
 }
 
 @supports (initial-letter: 3) or (-webkit-initial-letter: 3) {
