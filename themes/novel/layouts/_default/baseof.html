@@ -29,12 +29,16 @@
     {{ end }}
   {{ end }}
   {{ $appleTouchIcon := readFile "/static/apple-touch-icon.png" }}
+  {{ $safariPinnedTab := readFile "/static/safari-pinned-tab.svg" }}
+  {{ $favicon32 := readFile "/static/favicon-32x32.png" }}
+  {{ $favicon16 := readFile "/static/favicon-16x16.png" }}
   <link rel="apple-touch-icon" href="/apple-touch-icon.png?{{ md5 $appleTouchIcon }}">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?{{ md5 $favicon32 }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?{{ md5 $favicon16 }}">
   <link rel="manifest" href="/manifest.webmanifest">
-  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#d1642a">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg{{ md5 $safariPinnedTab }}" color="#d1642a">
   <meta name="theme-color" content="#fdfcfa">
+  <meta name="msapplication-TileColor" content="#00aba9">
   {{ $faviconSvg := readFile "/static/favicon.svg" }}
   <link rel="icon" href="/favicon.svg?{{ md5 $faviconSvg }}" type="image/svg+xml">
   {{ if .Resources.Match "game/*" }}
