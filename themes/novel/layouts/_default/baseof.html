@@ -36,7 +36,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?{{ md5 $favicon32 }}">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?{{ md5 $favicon16 }}">
   <link rel="manifest" href="/manifest.webmanifest">
-  <link rel="mask-icon" href="/safari-pinned-tab.svg{{ md5 $safariPinnedTab }}" color="#d1642a">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg?{{ md5 $safariPinnedTab }}" color="#d1642a">
   <meta name="theme-color" content="#fdfcfa">
   <meta name="msapplication-TileColor" content="#00aba9">
   {{ $faviconSvg := readFile "/static/favicon.svg" }}
