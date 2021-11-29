@@ -75,16 +75,21 @@ aside > h6 {
 }
 
 code, kbd, samp {
-  font-family: "SF Mono", "Fira Code", Menlo, Courier, monospace, monospace;
+  font-family: "SF Mono", "Fira Code", Menlo, Courier, monospace;
   word-wrap: anywhere;
 }
 
 hr {
-  width: 3em;
-  margin-top: 2em;
-  margin-bottom: 2em;
-  border-bottom-style: hidden;
-  color: #191919;
+  border: none;
+  font-size: 1.2em;
+  margin: 3em 0;
+  text-align: center;
+  letter-spacing: 1ch;
+  line-height: 0;
+}
+
+hr::before {
+  content: "* * *";
 }
 
 abbr {
@@ -190,9 +195,7 @@ body > header p {
 }
 
 .heading-link {
-  font-size: 0.6em;
   text-decoration: none;
-  vertical-align: middle;
   opacity: 0;
 }
 
