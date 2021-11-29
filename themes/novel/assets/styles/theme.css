@@ -1,9 +1,19 @@
 /* General {{{ */
 
 @font-face {
-  font-family: "Avara";
-  src: url("/avara-bold.woff2") format("woff2");
-  font-display: swap;
+  font-family: "CrimsonPro";
+  src: url("/fonts/crimsonpro.woff2") format("woff2"),
+    url("/fonts/crimsonpro.woff") format("woff");
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "CrimsonPro";
+  src: url("/fonts/crimsonpro-italic.woff2") format("woff2"),
+    url("/fonts/crimsonpro-italic.woff") format("woff");
+  font-style: italic;
+  font-display: fallback;
 }
 
 * {
@@ -15,9 +25,7 @@
 }
 
 body {
-  font-family: "Georgia", serif;
-  font-weight: 400;
-  font-variation-settings: "opsz" 72;
+  font-family: CrimsonPro, Georgia, serif;
   font-size: 1.2em;
   line-height: 1.6;
   padding: 1em;
@@ -138,7 +146,7 @@ header + * {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Avara", Georgia, serif;
+  font-family: CrimsonPro, Georgia, serif;
   margin-bottom: 0px;
   clear: both;
   line-height: 1.1;
@@ -217,7 +225,7 @@ p + p {
 }
 
 .type--article article > p:last-of-type:after {
-  content: ' ◆';
+  content: " ◆";
   color: #ff725c;
 }
 
@@ -351,7 +359,7 @@ svg {
 }
 
 .portrait {
-  shape-outside: url('/images/chris-portrait.png');
+  shape-outside: url("/images/chris-portrait.png");
   shape-margin: 1em;
 }
 
@@ -397,7 +405,7 @@ th[role=columnheader]:not(.no-sort) {
 }
 
 th[role=columnheader]:not(.no-sort):after {
-  content: '';
+  content: "";
   float: right;
   margin-top: 7px;
   border-width: 0 4px 4px;
@@ -495,12 +503,12 @@ blockquote {
 }
 
 blockquote::before {
-  content: '“';
+  content: "“";
   float: left;
   height: 1px;
   display: block;
   font-size: 5em;
-  font-family: Georgia, sans-serif;
+  font-family: CrimsonPro, Georgia, sans-serif;
   line-height: 0.75;
   margin-right: 0.25ch;
   color: #ff6363;
@@ -699,19 +707,19 @@ summary {
 }
 
 .article-info__topics li:after {
-  content: ', ';
+  content: ", ";
 }
 
 .article-info__topics li:last-of-type:before {
-  content: ' and ';
+  content: " and ";
 }
 
 .article-info__topics li:last-of-type:after {
-  content: '';
+  content: "";
 }
 
 .article-info__topics li:first-of-type:before {
-  content: '';
+  content: "";
 }
 
 /* }}} */
@@ -819,7 +827,7 @@ summary {
 }
 
 .achievements-list:empty::after {
-  content: 'You got zilch.';
+  content: "You got zilch.";
 }
 
 .achievement--max {
