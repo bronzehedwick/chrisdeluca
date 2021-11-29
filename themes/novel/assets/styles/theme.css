@@ -287,32 +287,16 @@ a:link,
 a:active,
 a:focus,
 a:visited {
+  color: currentColor;
+}
+
+a:hover {
   color: #db2f2f;
 }
 
-a.main-navigation__item--active,
-a:hover {
-  background-color: #db2f2f;
-  color: #fff;
+a.main-navigation__item--active::before {
+  content: "☞";
 }
-
-/* TODO: Fix external link icons from displaying wonky inline */
-
-/* a::after { */
-/*   width: 0.6em; */
-/*   height: 0.6em; */
-/*   display: inline-block; */
-/*   margin-left: 0.25ch; */
-/*   content: url(/images/external-link.svg); */
-/* } */
-
-/* a[href^="https://www.chrisdeluca.me"]::after, */
-/* a[href^="/"]::after, */
-/* a[href^="#"]::after, */
-/* a[href^="http://localhost:1313"]::after { */
-/*   content: none; */
-/*   display: none; */
-/* } */
 
 /* }}} */
 
@@ -1001,17 +985,8 @@ article .h-card {
     color: #ffffff;
   }
 
-  a:link,
-  a:active,
-  a:focus,
-  a:visited {
-    color: #ff6363;
-  }
-
-  a.main-navigation__item--active,
   a:hover {
-    background-color: #ff6363;
-    color: #000;
+    color: #ff6363;
   }
 
   figure img {

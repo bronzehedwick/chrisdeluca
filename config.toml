@@ -42,27 +42,27 @@ paginate = 20
   section = ["HTML", "RSS", "JSON", "CSV", "MICRO"]
 
 [[menu.main]]
-  name = "📰 Articles"
+  name = "Articles"
   url = "/article"
   weight = 50
 
 [[menu.main]]
-  name = "🚀 Projects"
+  name = "Projects"
   url = "/project"
   weight = 60
 
 [[menu.main]]
-  name = "🖼 Pictures"
+  name = "Pictures"
   url = "/picture"
   weight = 65
 
 [[menu.main]]
-  name = "💡 Quotes"
+  name = "Quotes"
   url = "/page/quotes"
   weight = 95
 
 [[menu.main]]
-  name = "📬 RSS"
+  name = "RSS"
   url = "/article/index.xml"
   weight = 100
 
