@@ -219,20 +219,20 @@ p + p {
   margin-top: 0.5em
 }
 
-@supports (initial-letter: 3) or (-webkit-initial-letter: 3) {
-  .e-content > p::first-letter {
-    -webkit-initial-letter: 3;
-    initial-letter: 3;
-    margin-right: 0.5ch;
-    color: var(--accent-color);
-  }
-  .e-content > p::first-letter {
-    -webkit-initial-letter: 1;
-    letter: 1;
-    margin-right: auto;
-    color: initial;
-  }
-}
+/* @supports (initial-letter: 3) or (-webkit-initial-letter: 3) { */
+/*   .e-content > p::first-letter { */
+/*     -webkit-initial-letter: 3; */
+/*     initial-letter: 3; */
+/*     margin-right: 0.5ch; */
+/*     color: var(--accent-color); */
+/*   } */
+/*   .e-content > p::first-letter { */
+/*     -webkit-initial-letter: 1; */
+/*     letter: 1; */
+/*     margin-right: auto; */
+/*     color: initial; */
+/*   } */
+/* } */
 
 .type--article article > p:last-of-type:after {
   content: " ◆";
