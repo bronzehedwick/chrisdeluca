@@ -186,6 +186,7 @@ body > header {
 .logo > a {
   display: flex;
   justify-content: center;
+  text-decoration: none;
 }
 
 #chrisdeluca-graphic {
@@ -562,9 +563,10 @@ article footer li {
 .main-navigation ul {
   display: flex;
   flex-flow: row nowrap;
-  gap: 2ch;
   font-size: 1.1em;
-  overflow-x: scroll;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
 }
 
 @media screen and (min-width: 500px) {
@@ -572,12 +574,6 @@ article footer li {
     justify-content: center;
     overflow-x: visible;
   }
-}
-
-.main-navigation li {
-  display: block;
-  margin-left: 0;
-  line-height: 2;
 }
 
 .main-navigation__item--active::before {
