@@ -3,10 +3,10 @@ title = "Don't Get Pantsed!"
 date = 2019-11-13T22:34:25
 draft = false
 subtitle = "A Choose Your Pwn Adventure"
-categories = [ "Fiction" ]
-topics = [ "Games" ]
+categories = [ "Games" ]
+topics = [ "interactive fiction" ]
 toc = false
-styles = []
+styles = ["game"]
 
 [[resources]]
   name = "header"

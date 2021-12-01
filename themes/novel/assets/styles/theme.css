@@ -16,6 +16,21 @@
   font-display: fallback;
 }
 
+:root {
+  --background-color: #ffffff;
+  --text-color: #191919;
+  --accent-color: #db2f2f;
+  /* --accent-color: #2473d1; */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #2f2f2f;
+    --text-color: #ffffff;
+    --accent-color: #ff6363;
+  }
+}
+
 * {
   box-sizing: border-box;
 }
@@ -29,8 +44,8 @@ body {
   font-size: 1.2em;
   line-height: 1.6;
   padding: 1em;
-  background-color: #ffffff;
-  color: #191919;
+  background-color: var(--background-color);
+  color: var(--text-color);
   hyphens: auto;
   -webkit-hyphens: auto;
 }
@@ -42,7 +57,7 @@ body {
 }
 
 main, footer {
-  max-width: 43em;
+  max-width: 65ch;
   margin: 0px auto;
 }
 
@@ -86,6 +101,7 @@ hr {
   text-align: center;
   letter-spacing: 1ch;
   line-height: 0;
+  color: var(--text-color);
 }
 
 hr::before {
@@ -98,18 +114,20 @@ abbr {
 
 button {
   padding: 1em;
-  background-color: #ffffff;
-  border: 2px solid #191919;
+  color: var(--text-color);
+  background-color: var(--background-color);
+  border: 2px solid;
   cursor: pointer;
+  box-shadow: 3px 3px 0 black;
 }
 
 button + button {
-  margin-top: 1em;
+  margin: 1em 0 0 1em;
 }
 
 button:hover {
-  color: #ffffff;
-  background-color: #2473d1;
+  color: var(--text-color);
+  background-color: var(--accent-color);
 }
 
 button[disabled]:hover,
@@ -120,25 +138,11 @@ button[disabled] {
 }
 
 button[disabled]:hover {
-  background-color: #ffffff;
+  background-color: var(--background-color);
 }
 
 dd {
   margin-top: 0;
-}
-
-.game-button[data-target-id="restart"]::after {
-  content: "?";
-}
-
-.game-button[data-target-id="restart"]:hover::after {
-  content: "!";
-}
-
-.game-button--selected[disabled]:hover,
-.game-button--selected:hover,
-.game-button--selected {
-  background-color: #f0f8ff;
 }
 
 /* }}} */
@@ -170,24 +174,26 @@ body > header a:hover {
   background-color: transparent;
 }
 
-body > header svg {
-  color: #191919;
-  max-height: 200px;
-  fill: currentColor;
-}
-
-/* Subtitles */
-header a + p {
-  font-size: 1.3em;
-}
-
 body > header {
   text-align: center;
 }
 
-body > header p {
-  color: #666;
-  font-style: italic;
+.logo {
+  margin: 0;
+  font-size: 0;
+}
+
+.logo > a {
+  display: flex;
+  justify-content: center;
+}
+
+#chrisdeluca-graphic {
+  stroke: var(--text-color);
+}
+
+#chrisdeluca-graphic g {
+  fill: var(--accent-color);
 }
 
 .heading:hover a {
@@ -213,13 +219,13 @@ p + p {
 }
 
 @supports (initial-letter: 3) or (-webkit-initial-letter: 3) {
-  .page article header + p::first-letter {
+  .e-content > p::first-letter {
     -webkit-initial-letter: 3;
     initial-letter: 3;
     margin-right: 0.5ch;
-    color: #ff725c;
+    color: var(--accent-color);
   }
-  .page .article--links header + p::first-letter {
+  .e-content > p::first-letter {
     -webkit-initial-letter: 1;
     letter: 1;
     margin-right: auto;
@@ -229,7 +235,6 @@ p + p {
 
 .type--article article > p:last-of-type:after {
   content: " ◆";
-  color: #ff725c;
 }
 
 .screenplay p:last-of-type:after,
@@ -294,11 +299,7 @@ a:visited {
 }
 
 a:hover {
-  color: #db2f2f;
-}
-
-a.main-navigation__item--active::before {
-  content: "☞";
+  color: var(--accent-color);
 }
 
 /* }}} */
@@ -327,13 +328,12 @@ header > figure {
   margin-right: -1em;
 }
 
-/* TODO: This style is nice, but overlaps the sidebar now. */
-/* @media screen and (min-width: 58em) { */
-/*   header > figure { */
-/*     margin-left: -4em; */
-/*     margin-right: -4em; */
-/*   } */
-/* } */
+@media screen and (min-width: 58em) {
+  header > figure {
+    margin-left: -4em;
+    margin-right: -4em;
+  }
+}
 
 figcaption {
   font-size: 0.75em;
@@ -498,7 +498,7 @@ blockquote::before {
   font-family: CrimsonPro, Georgia, sans-serif;
   line-height: 0.75;
   margin-right: 0.25ch;
-  color: #ff6363;
+  color: var(--accent-color);
 }
 
 /* }}} */
@@ -559,50 +559,29 @@ article footer li {
   display: inline;
 }
 
-main {
-  display: flex;
-  flex-flow: row wrap;
-}
-
-.content {
-  flex: 999 0 0;
-  order: 2;
-}
-
-.main-navigation {
-  flex: 1 0 100%;
-  order: 1;
-}
-
-.main-navigation__toggle {
-  width: 50%;
-  position: relative;
-  left: calc(50% - 6ch);
-}
-
-@media screen and (min-width: 50em) {
-
-  .main-navigation {
-    flex: 1 0 15ch;
-    margin-right: 2ch;
-  }
-
-  .main-navigation__toggle {
-    width: auto;
-    position: static;
-  }
-
-}
-
 .main-navigation ul {
-  margin-top: 0.5em;
-  text-indent: 2ch;
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 2ch;
+  font-size: 1.1em;
+  overflow-x: scroll;
+}
+
+@media screen and (min-width: 500px) {
+  .main-navigation ul {
+    justify-content: center;
+    overflow-x: visible;
+  }
 }
 
 .main-navigation li {
   display: block;
   margin-left: 0;
   line-height: 2;
+}
+
+.main-navigation__item--active::before {
+  content: "☞";
 }
 
 .pagination {
@@ -777,64 +756,6 @@ summary {
 
 /* }}} */
 
-/* Achievements {{{ */
-
-.achievement {
-  padding: 1em;
-  border: 2px solid #32cd32;
-  background-color: #90ee90;
-  opacity: 0;
-  position: fixed;
-  top: -7em;
-  right: 1em;
-  transition: opacity 150ms, transform 200ms;
-}
-
-.achievement[data-achievement-type="good"] .achievement__headline::before {
-  content: "👍 ";
-}
-
-.achievement[data-achievement-type="bad"] .achievement__headline::before {
-  content: "👎 ";
-}
-
-.achievement[data-achievement-type="bad"] {
-  background-color: #ff4136;
-  border-color: #85144b;
-}
-
-.achievement--active {
-  opacity: 1;
-  visibility: visible;
-  transform: translateY(8em);
-}
-
-.achievement__headline {
-  margin-top: 0px;
-}
-
-.achievements-list:empty::after {
-  content: "You got zilch.";
-}
-
-.achievement--max {
-  text-align: center;
-  top: 50%;
-  left: 50%;
-  visibility: hidden;
-}
-
-.achievement--max.achievement--active {
-  transform: translate(-50%, -50%);
-  visibility: visible;
-}
-
-.achievement--max > * + * {
-  margin-top: 1em;
-}
-
-/* }}} */
-
 /* Records {{{ */
 
 .record {
@@ -975,23 +896,6 @@ article .h-card {
 
 @media (prefers-color-scheme: dark) {
 
-  body {
-    background-color: #2f2f2f;
-    color: #ffffff;
-  }
-
-  body > header p {
-    color: #9f9f9f;
-  }
-
-  body > header svg {
-    color: #ffffff;
-  }
-
-  a:hover {
-    color: #ff6363;
-  }
-
   figure img {
     filter: drop-shadow(0.15em 0.15em 0.1em #424242);
   }
@@ -1002,14 +906,6 @@ article .h-card {
   code {
     color: #f8f8f2;
     background-color: #272727;
-  }
-
-  hr {
-    color: #ffffff;
-  }
-
-  .achievement {
-    color: #191919;
   }
 
   /* Background */
