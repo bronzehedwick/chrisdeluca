@@ -429,14 +429,19 @@ th[role=columnheader]:not(.no-sort):hover:after {
 kbd, pre, code, samp {
   white-space: pre-wrap;
   word-break: break-all;
+  padding: 0.5ch;
+  border-radius: 3px;
+  background-color: #fbfbfb;
+}
+
+pre code,
+pre samp,
+pre kbd {
+  padding: 0;
 }
 
 code, samp {
   font-size: 0.9rem;
-}
-
-pre, kbd {
-  border-radius: 3px;
 }
 
 pre {
