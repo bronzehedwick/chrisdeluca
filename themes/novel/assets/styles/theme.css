@@ -433,14 +433,9 @@ kbd, pre, code {
   white-space: pre-wrap;
 }
 
-kbd, code {
+kbd, code, samp {
   font-size: 0.9rem;
   border-radius: 3px;
-}
-
-pre kbd,
-pre code {
-  font-size: 1rem;
 }
 
 pre {
@@ -866,12 +861,7 @@ article .h-card {
 .highlight {
   padding: 0px 2ch;
   overflow-x: auto;
-  background-color: #fbfbfb;
   border-radius: 3px;
-}
-
-.highlight code {
-  font-size: 1rem;
 }
 
 /* LineHighlight */

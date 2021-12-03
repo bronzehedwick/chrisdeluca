@@ -389,8 +389,7 @@ echo "\n";
 
 Here's what the above script evaluates to (on my machine).
 
-<pre><samp id="php-output">
-PHP Version: 7.3.11
+<pre><samp id="php-output">PHP Version: 7.3.11
 "Uh oh!" added after every logically unexpected result.
 
 Default if evaluates null to false
