@@ -426,43 +426,34 @@ th[role=columnheader]:not(.no-sort):hover:after {
 
 /* Pre-formatted {{{ */
 
-kbd, pre, code {
-  padding: 0.5ch;
-  background-color: #fbfbfb;
-  word-break: break-all;
+kbd, pre, code, samp {
   white-space: pre-wrap;
+  word-break: break-all;
 }
 
-kbd, code, samp {
+code, samp {
   font-size: 0.9rem;
+}
+
+pre, kbd {
   border-radius: 3px;
 }
 
 pre {
-  border-radius: 3px;
+  padding: 2ch;
+  border: 1px solid var(--text-color);
 }
 
 kbd {
+  padding: 0.5ch;
   font-size: 0.8rem;
-  padding-left: 1ch;
-  padding-right: 1ch;
   border: 1px solid #ccc;
   filter: drop-shadow(0 0.15em 0 #ccc);
-  background-color: #fcfcfc;
 }
 
 samp p {
   text-indent: 0;
   margin-top: 1em;
-}
-
-.chroma code {
-  padding: 0px;
-  background-color: transparent;
-}
-
-.chroma * + * {
-  margin-top: 0;
 }
 
 /* }}} */
@@ -856,28 +847,6 @@ article .h-card {
 
 /* }}} */
 
-/* Syntax highlighting {{{ */
-
-.highlight {
-  padding: 0px 2ch;
-  overflow-x: auto;
-  border-radius: 3px;
-}
-
-/* LineHighlight */
-.chroma .hl {
-  display: block;
-  width: 100%;
-}
-
-/* LineNumbers */
-.chroma .ln {
-  margin-right: 0.4em;
-  padding: 0 0.4em 0 0.4em;
-}
-
-/* }}} */
-
 /* Dark theme {{{ */
 
 @media (prefers-color-scheme: dark) {
@@ -890,12 +859,6 @@ article .h-card {
   pre,
   kbd,
   code {
-    color: #f8f8f2;
-    background-color: #272727;
-  }
-
-  /* Background */
-  .highlight {
     color: #f8f8f2;
     background-color: #272727;
   }
