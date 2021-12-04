@@ -2,7 +2,7 @@
 +++
 title = "Reading picks for week 2 of March, 2019"
 date = 2019-03-09T22:54:21.767Z
-categories = [ "Links" ]
+categories = [ "Personal" ]
 +++
 
 This is what I've been reading this past week.
