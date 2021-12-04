@@ -12,7 +12,7 @@ draft = false
 
 ## Summary
 
-- Senior front end team lead with 9+ years experience
+- Senior front end team lead with 10+ years experience
 - Strong communicator, both written and verbal
 - Quick study; voracious, independent learner
 - Frequent open source contributor
@@ -23,11 +23,11 @@ draft = false
 
 ### Memorial Sloan Kettering Cancer Center<br> Senior front end developer, _11/2015–Present_
 
-- Key strategy and implementation resource in mskcc.org platform migration
 - Designed and built durable, multi-tenet, multi-tech design system
 - Key strategic resource for transitioning the whole company to use design system
 - Managed both direct reports and contractors
 - Primary technical resource for all front end development on mskcc.org
+- Key strategy and implementation resource in mskcc.org platform migration
 
 #### Notable Accomplishments
 
@@ -103,20 +103,16 @@ draft = false
 ## Skills
 
 - JavaScript
-- CSS/SASS/LESS
+- CSS/SASS
 - React
-- DOM/HTML
 - ADA accessibility
 - Atomic Design/Design Systems
 - Git
-- Bash scripting
+- Bash
 - Node.js
-- jQuery
 - Linux/Unix
 - PHP
 - Drupal
-- WordPress
-- MySQL
 
 ## Links
 
