@@ -189,12 +189,26 @@ body > header {
   text-decoration: none;
 }
 
+#headshot {
+  transition: transform ease 250ms;
+  transform-style: preserve-3d;
+}
+
 #chrisdeluca-graphic {
   stroke: var(--text-color);
 }
 
 #chrisdeluca-graphic g {
   fill: var(--accent-color);
+}
+
+.logo:hover #headshot {
+  transform: scale(120%) rotateY(180deg);
+}
+
+.logo:hover #chrisdeluca-graphic path {
+  fill: rebeccapurple;
+  stroke: rebeccapurple;
 }
 
 .heading:hover a {
