@@ -13,7 +13,7 @@ paginate = 20
   name = "Chris DeLuca"
   email = "contact@chrisdeluca.me"
   photo = "/images/chris-portrait.jpeg"
-  region = "New York City"
+  region = "New Jersey"
   nickname = "bronzehedwick"
   pronouns = "he/him"
   identities = ["writer", "improviser", "software developer"]
@@ -187,18 +187,21 @@ paginate = 20
     color = "#0f0"
     icon = ""
     weight = 20
+
   [params.socialLinks.letterboxd]
     name = "🎥 Letterboxd"
     url = "https://letterboxd.com/bronzehedwick/"
     color = "#14181c"
     icon = ""
     weight = 3
+
   [params.socialLinks.thestorygraph]
     name = "📚 The StoryGraph"
     url = "https://app.thestorygraph.com/profile/bronzehedwick"
     color = "#3B82F6"
     icon = ""
     weight = 4
+
   [params.socialLinks.discogs]
     name = "📀 Discogs"
     url = "https://www.discogs.com/user/bronzehedwick"
