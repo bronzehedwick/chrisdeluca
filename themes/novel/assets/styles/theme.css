@@ -267,6 +267,10 @@ ul {
   list-style-position: outside;
 }
 
+ul ul {
+  margin-top: 0;
+}
+
 li + li {
   margin-top: 0px;
 }
@@ -358,6 +362,10 @@ figcaption {
 
 svg {
   max-width: 100%;
+}
+
+a svg {
+  margin-top: 0;
 }
 
 .portrait {
