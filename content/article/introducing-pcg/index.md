@@ -30,10 +30,9 @@ And yet.
 
 <!--more-->
 
-<aside>
-<h3><abbr title="Too long, didn't read">TL;DR<abbr></h3>
-<p>If you'd like to jump ahead to the (admittedly rough) demos, <a href="#the-end">skip to the end</a>.</p>
-</aside>
+{{< aside title="tl;dr" >}}
+If you'd like to jump ahead to the (admittedly rough) demos, [skip to the end](#the-end).
+{{</ aside >}}
 
 While my work life has not changed as drastically, my personal life
 has. Most of the things I did outside work before the pandemic were in

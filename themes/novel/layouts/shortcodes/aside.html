@@ -1,0 +1,6 @@
+<aside>
+  {{ with .Get "title" }}
+    <h3>{{ . }}</h3>
+  {{ end }}
+  {{ .Inner|.Page.RenderString }}
+</aside>

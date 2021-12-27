@@ -16,10 +16,10 @@ syndicated = [
 I've been trying to find a good workflow for drawing vector artwork that
 has the spontaneity and roughness of hand drawn images.
 
-<aside>
-  <h3><abbr title="Too long, didn't read">TL;DR</abbr></h3>
-  <p>If you're just interested in my process, and not the backstory, <a href="#the-workflow">skip to the workflow</a></p>
-</aside>
+{{< aside title="tl;dr" >}}
+If you're just interested in my process, and not the backstory, [skip to the
+workflow](#the-workflow).
+{{</ aside >}}
 
 Since my digital medium of choice is the web, that means SVG is the only
 output format in town. Which is perfect, since like everybody, I never
