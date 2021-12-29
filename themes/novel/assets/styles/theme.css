@@ -228,6 +228,7 @@ p {
   margin: 0px;
 }
 
+aside + p,
 p + p {
   text-indent: 2ch;
   margin-top: 0.5em;
