@@ -1,0 +1,7 @@
+{{ $doodle_path := "themes/novel/static/doodles/" }}
+{{ $svg_name := .Get "name" }}
+{{ range os.ReadDir $doodle_path }}
+  {{ if eq $svg_name .Name }}
+    {{ readFile (printf "%s%s%s" ($doodle_path .Name) ".svg")|markdownify }}
+  {{ end }}
+{{ end }}

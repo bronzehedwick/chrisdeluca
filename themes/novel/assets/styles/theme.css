@@ -374,6 +374,13 @@ a svg {
   shape-margin: 1em;
 }
 
+.doodle {
+  width: 5em;
+  display: block;
+  fill: currentColor;
+  margin: 1em auto;
+}
+
 /* }}} */
 
 /* Tables {{{ */
@@ -803,7 +810,7 @@ summary {
   filter: none;
 }
 
-/* {{{ */
+/* }}} */
 
 /* h-card {{{ */
 
