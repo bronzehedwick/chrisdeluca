@@ -475,7 +475,8 @@ code, samp {
 }
 
 pre {
-  padding: 2ch;
+  line-height: 1;
+  padding: 1ch;
   border: 1px solid var(--text-color);
 }
 
