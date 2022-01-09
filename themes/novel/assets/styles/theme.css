@@ -496,18 +496,6 @@ samp p {
 
 /* Quotes {{{ */
 
-q {
-  quotes: "“" "”" "‘" "’";
-}
-
-q:before {
-  content: open-quote;
-}
-
-q:after {
-  content: close-quote;
-}
-
 blockquote {
   padding: 2em;
 }
