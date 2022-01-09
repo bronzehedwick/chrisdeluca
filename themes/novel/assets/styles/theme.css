@@ -901,6 +901,12 @@ article .h-card {
     background-color: #272727;
   }
 
+  a:hover pre,
+  a:hover kbd,
+  a:hover code {
+    color: var(--accent-color);
+  }
+
 }
 
 /* }}} */
