@@ -12,6 +12,8 @@
         <li><a class="u-syndication" href="{{ . }}">dev.to</a></li>
       {{ else if in . "news.ycombinator" }}
         <li><a class="u-syndication" href="{{ . }}">Hacker News</a></li>
+      {{ else if in . "reddit" }}
+        <li><a class="u-syndication" href="{{ . }}">Reddit</a></li>
       {{ else }}
         <li><a class="u-syndication" href="{{ . }}">{{ . }}</a></li>
       {{ end }}
