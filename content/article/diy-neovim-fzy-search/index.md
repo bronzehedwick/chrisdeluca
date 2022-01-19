@@ -10,7 +10,8 @@ styles = ["syntax"]
 syndicated = [
     "https://old.reddit.com/r/neovim/comments/s37nrk/diy_neovim_fzy_search/",
     "https://twitter.com/chrisjohndeluca/status/1481676352008990724",
-    "https://dev.to/bronzehedwick/diy-neovim-fzy-search-25lo"
+    "https://dev.to/bronzehedwick/diy-neovim-fzy-search-25lo",
+    "https://mastodon.social/@bronzehedwick/107651511978284428"
 ]
 +++
 
