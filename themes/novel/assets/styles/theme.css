@@ -97,9 +97,8 @@ code, kbd, samp {
 hr {
   border: none;
   font-size: 1.2em;
-  margin: 3em 0;
+  margin: 1em 0;
   text-align: center;
-  letter-spacing: 1ch;
   line-height: 0;
   color: var(--text-color);
 }
