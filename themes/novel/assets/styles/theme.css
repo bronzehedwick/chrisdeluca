@@ -368,6 +368,10 @@ a svg {
   margin-top: 0;
 }
 
+#svg-spritesheet {
+  display: none;
+}
+
 .portrait {
   shape-outside: url("/images/chris-portrait.png");
   shape-margin: 1em;
