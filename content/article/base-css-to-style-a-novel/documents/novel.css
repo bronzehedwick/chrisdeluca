@@ -1,0 +1,48 @@
+/*! https://chrisdeluca.me/article/base-css-to-style-a-novel
+    License: MIT
+ */
+body {
+    font-family: Palatino, serif;
+    font-size: 14pt;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 65ch;
+}
+
+header {
+  text-align: center;
+  break-after: page;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+h2 {
+  break-before: page;
+}
+
+p {
+    margin: 0;
+}
+
+p + p {
+    text-indent: 2ch;
+}
+
+hr {
+    border: none;
+    margin-bottom: 2em;
+}
+
+hr[data-break="hard"] {
+    margin: 1em auto;
+    font-size: 1.25em;
+    color: currentColor;
+    text-align: center;
+}
+
+hr[data-break="hard"]::before {
+    content: "* * *";
+}
