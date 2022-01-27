@@ -7,7 +7,11 @@ categories = ["Tech"]
 topics = ["css"]
 toc = false
 styles = ["syntax"]
-syndicated = []
+syndicated = [
+  "https://twitter.com/chrisjohndeluca/status/1486709007775637507",
+  "https://dev.to/bronzehedwick/base-css-to-style-a-novel-3fbk",
+  "https://mastodon.social/@bronzehedwick/107694954349625765"
+]
 +++
 
 I'm working on a short novel, which got me thinking about typesetting
