@@ -96,8 +96,8 @@ body {
  * it's own page.
  */
 header {
-  text-align: center;
-  break-after: page;
+    text-align: center;
+    break-after: page;
 }
 
 /**
@@ -120,7 +120,7 @@ h1, h2, h3, h4, h5, h6 {
  * being relegated to more formally structured content like textbooks).
  */
 h2 {
-  break-before: page;
+    break-before: page;
 }
 
 /**
