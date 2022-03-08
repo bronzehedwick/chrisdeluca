@@ -7,7 +7,11 @@ categories = ["Tech"]
 topics = ["neovim"]
 toc = false
 styles = ["syntax"]
-syndicated = []
+syndicated = [
+    "https://twitter.com/chrisjohndeluca/status/1501016034916114441",
+    "https://dev.to/bronzehedwick/use-neovim-as-your-man-pager-3ilf",
+    "https://mastodon.social/@bronzehedwick/107918505138058581"
+]
 +++
 
 You may know that you can open man pages in a Neovim buffer with `:Man`.
