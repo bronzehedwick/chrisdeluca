@@ -10,7 +10,8 @@ styles = ["syntax"]
 syndicated = [
     "https://twitter.com/chrisjohndeluca/status/1501016034916114441",
     "https://dev.to/bronzehedwick/use-neovim-as-your-man-pager-3ilf",
-    "https://mastodon.social/@bronzehedwick/107918505138058581"
+    "https://mastodon.social/@bronzehedwick/107918505138058581",
+    "https://old.reddit.com/r/neovim/comments/t9tpb7/use_neovim_as_manpager"
 ]
 +++
 
