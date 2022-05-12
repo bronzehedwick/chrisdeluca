@@ -1,7 +1,9 @@
 body {
   font-size: 12pt;
-  font-family: palatino linotype,Palatino,book antiqua,serif;
+  font-family: palatino linotype, Palatino, book antiqua, serif;
   line-height: 1.6;
+  hyphens: auto;
+  white-space: break-word;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -67,6 +69,11 @@ h1 + p {
 
 #skills + ul li:last-of-type::after {
   content: ".";
+}
+
+#extracurriculars + ul,
+#past-experience + ul {
+  columns: 2;
 }
 
 .remove-from-pdf {
