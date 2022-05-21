@@ -12,7 +12,7 @@ draft = false
 
 ## Summary
 
-- Senior front end team lead with 10+ years experience
+- Senior front end team lead with 12+ years experience
 - Strong communicator, both written and verbal
 - Quick study; voracious, independent learner
 - Frequent open source contributor
@@ -68,16 +68,18 @@ draft = false
 
 ## Skills
 
-- Atomic Design/Design Systems
 - JavaScript
-- React
 - CSS/SASS
-- ADA accessibility
+- Drupal
+- Design Systems
+- Accessibility (ADA)
+- React
 - Git
 - Linux/Unix
 
 ## Links
 
+- [drupal.org](https://www.drupal.org/u/bronzehedwick)—`https://www.drupal.org/u/bronzehedwick`
 - [GitHub](https://github.com/bronzehedwick)—`https://github.com/bronzehedwick`
 - [Stackoverflow](https://careers.stackoverflow.com/christopherdeluca)—`https://careers.stackoverflow.com/christopherdeluca`
 - [LinkedIn](https://www.linkedin.com/in/christopherdeluca)—`https://www.linkedin.com/in/christopherdeluca`
