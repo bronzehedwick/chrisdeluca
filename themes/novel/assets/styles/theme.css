@@ -278,6 +278,10 @@ dt {
   font-weight: 700;
 }
 
+dd + dt {
+  margin-top: 0;
+}
+
 dd img {
   max-width: none;
   margin-left: initial;

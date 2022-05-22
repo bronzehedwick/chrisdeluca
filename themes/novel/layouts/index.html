@@ -11,13 +11,9 @@
 
   <h2>My Projects</h2>
   {{ $projects := first 3 (where .Site.RegularPages "Type" "project") }}
-  <ul class="list">
-    {{ range $projects }}
-      <li class="list__item">
-        <a href="{{ .Params.project_url }}">{{ title .Title }}</a>—{{ .Params.description }}
-      </li>
-    {{ end }}
-  </ul>
+  {{ range $projects }}
+    {{ .Render "summary" }}
+  {{ end }}
   <p class="see-more"><a href="/project">See all projects</a></p>
 
   {{ partial "h-card.html" . }}
