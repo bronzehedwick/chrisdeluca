@@ -117,8 +117,8 @@ their platform, the links for which are listed below, because I'm nice.
 * [Amazon](https://www.amazon.com/gp/help/customer/display.html?nodeId=201962420)
 * [Twitter](https://blog.twitter.com/2013/getting-started-with-login-verification)
 
-You can see an extensive list of services that provide two factor authentication over at
-[twofactorauth.org](https://twofactorauth.org/).
+You can see an extensive list of services that provide two factor
+authentication over at [2fa.directory](https://2fa.directory/).
 
 ### 2. Passwords
 
