@@ -3,6 +3,8 @@ title = "De-Evolution is real"
 date = 2018-04-29T19:40:05-04:00
 draft = false
 project_url = "https://de-evolution.band"
+archived = true
+description = "A review site"
 
 [[resources]]
   name = "header"

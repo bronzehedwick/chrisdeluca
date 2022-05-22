@@ -1,0 +1,18 @@
+{{ define "main" }}
+
+  {{ partial "breadcrumbs.html" . }}
+
+  <h1>{{ title "My projects" }}</h1>
+
+  {{ $paginator := .Paginate .Data.Pages }}
+  <dl>
+    {{ range $paginator.Pages }}
+      {{ .Render "summary" }}
+    {{ end }}
+  </dl>
+
+  <footer>
+    {{ partial "pagination.html" . }}
+  </footer>
+
+{{ end }}

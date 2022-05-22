@@ -11,14 +11,13 @@
 
   <h2>My Projects</h2>
   {{ $projects := first 3 (where .Site.RegularPages "Type" "project") }}
-  {{ $firstProject := index $projects 0 }}
-  {{ $secondProject := index $projects 1 }}
-  {{ with $firstProject }}
-    {{ .Render "featured" }}
-  {{ end }}
-  {{ with $secondProject }}
-    {{ .Render "summary" }}
-  {{ end }}
+  <ul class="list">
+    {{ range $projects }}
+      <li class="list__item">
+        <a href="{{ .Params.project_url }}">{{ title .Title }}</a>—{{ .Params.description }}
+      </li>
+    {{ end }}
+  </ul>
   <p class="see-more"><a href="/project">See all projects</a></p>
 
   {{ partial "h-card.html" . }}

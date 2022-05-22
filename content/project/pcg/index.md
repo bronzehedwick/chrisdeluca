@@ -3,6 +3,7 @@ title = "PCG: Point and Click Game engine"
 date = 2020-05-10T19:44:17-04:00
 draft = false
 project_url = "https://github.com/bronzehedwick/pcg"
+description = "A game engine"
 
 [[resources]]
   name = "header"

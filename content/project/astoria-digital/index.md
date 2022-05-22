@@ -3,6 +3,7 @@ title = "Astoria Digital"
 date = 2020-09-16T19:58:46-04:00
 draft = false
 project_url = "https://astoria.digital/"
+description = "A community group"
 
 [[resources]]
   name = "header"

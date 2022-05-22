@@ -3,6 +3,7 @@ title = "The Pulp Tales of Gwendolyn Gween, P.I."
 date = 2018-05-29T13:49:55-04:00
 draft = false
 project_url = "https://gwengween.com"
+description = "A podcast"
 
 [[resources]]
   name = "header"

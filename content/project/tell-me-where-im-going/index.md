@@ -3,6 +3,7 @@ title = "Tell Me Where I'm Going"
 date = 2021-01-05T22:28:43
 draft = false
 project_url = "https://letshearit.network/series/tell-me-where-im-going/"
+description = "A podcast"
 
 [[resources]]
   name = "header"
