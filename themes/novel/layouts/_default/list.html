@@ -4,19 +4,14 @@
   <h1>{{ title .Title }} {{ .Data.Singular }}</h1>
 
   {{ with .Data.Plural }}
-  <a href="/{{ .|urlize }}">&#8598; See all {{ . }}</a>
-  {{ end }}
-
-  {{ $sectionName := .Title }}
-  {{ with .OutputFormats.Get "csv" }}
-  <a href="{{ .Permalink }}" download>Download {{ $sectionName|lower|pluralize }} as CSV</a>
+    <a href="/{{ .|urlize }}">&#8598; See all {{ . }}</a>
   {{ end }}
 
   {{ $paginator := .Paginate .Data.Pages }}
-  <ul>
-  {{ range $paginator.Pages }}
-    {{ .Render "summary" }}
-  {{ end }}
+  <ul class="list">
+    {{ range $paginator.Pages }}
+      {{ .Render "summary" }}
+    {{ end }}
   </ul>
 
   <footer>

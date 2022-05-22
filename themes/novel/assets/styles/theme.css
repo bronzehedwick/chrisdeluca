@@ -17,14 +17,15 @@
 :root {
   --background-color: #ffffff;
   --text-color: #191919;
+  --de-emphasized-color: #767676;
   --accent-color: #db2f2f;
-  /* --accent-color: #2473d1; */
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background-color: #2f2f2f;
     --text-color: #ffffff;
+    --de-emphasized-color: #bcbcbc;
     --accent-color: #ff6363;
   }
 }
@@ -261,7 +262,7 @@ p + p {
 
 ol,
 ul {
-  padding-left: 4ch;
+  padding-left: 3ch;
   list-style-position: outside;
 }
 
@@ -281,6 +282,15 @@ dd img {
   max-width: none;
   margin-left: initial;
   margin-right: initial;
+}
+
+.list__item {
+  list-style-type: none;
+}
+
+.list__item .dt-published {
+  color: var(--de-emphasized-color);
+  font-size: 0.85em;
 }
 
 #skills + ul::before {

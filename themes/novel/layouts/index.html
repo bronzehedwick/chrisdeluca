@@ -3,10 +3,12 @@
   {{ partial "breadcrumbs.html" . }}
 
   <h2>Latest articles</h2>
-  {{ $articles := first 3 (where .Site.RegularPages "Type" "article") }}
-  {{ range $articles }}
-    {{ .Render "summary" }}
-  {{ end }}
+  <ul class="list">
+    {{ $articles := first 5 (where .Site.RegularPages "Type" "article") }}
+    {{ range $articles }}
+      {{ .Render "summary" }}
+    {{ end }}
+  </ul>
   <p class="see-more"><a href="/article">See all articles</a></p>
 
   <h2>My Projects</h2>
