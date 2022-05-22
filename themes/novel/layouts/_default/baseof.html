@@ -8,8 +8,8 @@
   {{ hugo.Generator }}
   {{ template "_internal/schema.html" . }}
   <title>{{ title .Title }}</title>
-  <link rel="preload" href="/fonts/crimsonpro.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-  <link rel="preload" href="/fonts/crimsonpro-italic.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link href="/fonts/crimsonpro.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link href="/fonts/crimsonpro-italic.woff2" as="font" type="font/woff2" crossorigin="anonymous">
   <link rel="authorization_endpoint" href="https://micro.blog/indieauth/auth" />
   <link rel="token_endpoint" href="https://micro.blog/indieauth/token" />
   <link rel="pgpkey" href="{{ .Site.Author.key.url }}">

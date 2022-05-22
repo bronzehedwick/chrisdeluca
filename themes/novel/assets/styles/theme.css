@@ -2,16 +2,14 @@
 
 @font-face {
   font-family: "CrimsonPro";
-  src: url("/fonts/crimsonpro.woff2") format("woff2"),
-    url("/fonts/crimsonpro.woff") format("woff");
+  src: local("crimsonpro"), url("/fonts/crimsonpro.woff2") format("woff2");
   font-style: normal;
   font-display: fallback;
 }
 
 @font-face {
   font-family: "CrimsonPro";
-  src: url("/fonts/crimsonpro-italic.woff2") format("woff2"),
-    url("/fonts/crimsonpro-italic.woff") format("woff");
+  src: local("crimsonpro-italic"), url("/fonts/crimsonpro-italic.woff2") format("woff2");
   font-style: italic;
   font-display: fallback;
 }
