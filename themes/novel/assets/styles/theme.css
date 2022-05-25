@@ -886,6 +886,15 @@ article .h-card {
   overflow-x: scroll;
 }
 
+.tag {
+  font-size: 0.6em;
+  background-color: var(--de-emphasized-color);
+  color: var(--background-color);
+  padding: 0.25ch;
+  border-radius: 0.25em;
+  vertical-align: text-bottom;
+}
+
 /* }}} */
 
 /* Dark theme {{{ */
