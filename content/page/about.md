@@ -22,5 +22,6 @@ youth, it makes me :mask:.
 And you know what else? Anyone who puts up with and actually *reads*
 these travesties can go fart in a tunnel.
 
-He also started [collecting records](/page/record-collection) and uses
-an [ergonomic keyboard](/page/keyboard), so make of that what you will.
+He also started [collecting records](/page/record-collection),
+has a [quote page](/page/quotes), and uses an [ergonomic
+keyboard](/page/keyboard), so make of that what you will.

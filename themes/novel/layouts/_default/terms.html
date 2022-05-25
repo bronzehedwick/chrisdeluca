@@ -4,10 +4,10 @@
 
   <h2>{{ title $taxonomy_title }}</h2>
 
-  <ul>
+  <ul class="{{ $taxonomy_title | lower | urlize }}">
     {{ $data := .Data }}
     {{ range $key, $value := .Data.Terms }}
-      <li>
+      <li class="{{ $key | urlize }}">
         <a href="/{{ $data.Plural }}/{{ $key | urlize }}">
           {{ if eq $taxonomy_title "Categories" }}
             {{ title $key }}

@@ -55,8 +55,8 @@ paginate = 20
   weight = 65
 
 [[menu.main]]
-  name = "Quotes"
-  url = "/page/quotes"
+  name = "Categories"
+  url = "/categories"
   weight = 95
 
 [[menu.main]]

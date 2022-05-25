@@ -318,6 +318,60 @@ dd img {
   content: ".";
 }
 
+@media screen and (min-width: 380px) {
+  .categories {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+  }
+}
+
+.categories {
+  list-style-type: none;
+  text-align: center;
+  padding-left: 0;
+}
+
+.categories > li a {
+  padding: 1em;
+  border: 2px solid;
+  display: block;
+  font-size: 1.25em;
+  white-space: nowrap;
+}
+
+.fiction a {
+  border-top-left-radius: 5em;
+}
+
+.fiction a::after {
+  content: "✍︎";
+}
+
+.games a {
+  border-top-right-radius: 5em;
+}
+
+.games a::after {
+  content: "♘";
+}
+
+.personal a {
+  border-bottom-left-radius: 5em;
+}
+
+.personal a::after {
+  content: "✌︎";
+}
+
+.tech a {
+  border-bottom-right-radius: 5em;
+}
+
+.tech a::after {
+  content: "⚛︎";
+}
+
 /* }}} */
 
 /* Links {{{ */
