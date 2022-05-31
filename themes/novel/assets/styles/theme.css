@@ -247,6 +247,10 @@ p + p {
 /*   } */
 /* } */
 
+.e-content {
+  text-align: justify;
+}
+
 .type--article article > p:last-of-type:after {
   content: " ◆";
 }
