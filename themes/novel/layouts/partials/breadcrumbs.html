@@ -1,8 +1,15 @@
+{{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
+{{ $currentPath := .Permalink }}
+{{ $.Scratch.Add "path" .Site.BaseURL }}
 <nav class="breadcrumbs">
-  <a href="/">Home</a>
-  {{ range (split .RelPermalink "/") }}
-    {{ if gt (len . ) 0 }}
-      / <a href="/{{ . }}">{{ humanize (replace . "posts" "blog") }}</a>
+  <ol>
+    <li><a href="/">Home</a></li>
+    {{ range $index, $element := split $url "/" }}
+      {{ $.Scratch.Add "path" $element }}
+      {{ if ne $element "" }}
+        <li{{ if eq ( printf "%s%s" ( $.Scratch.Get "path" ) "/" ) $currentPath }} aria-current="page"{{ end }}><a href='{{ $.Scratch.Get "path" }}'>{{ humanize . }}</a></li>
+        {{ $.Scratch.Add "path" "/" }}
+      {{ end }}
     {{ end }}
-  {{ end }}
+  </ol>
 </nav>

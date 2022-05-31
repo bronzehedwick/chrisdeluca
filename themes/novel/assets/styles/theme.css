@@ -602,6 +602,7 @@ body > footer small {
 }
 
 nav ul,
+nav ol,
 article footer ul {
   padding: 0px;
 }
@@ -682,6 +683,14 @@ article footer li {
 
 .breadcrumbs {
   font-size: 0.7em;
+}
+
+.breadcrumbs li + li {
+  margin-left: 0;
+}
+
+.breadcrumbs li + li::before {
+  content: ' / ';
 }
 
 /* }}} */
