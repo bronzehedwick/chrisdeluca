@@ -5,9 +5,14 @@
   <ol>
     <li><a href="/">Home</a></li>
     {{ range $index, $element := split $url "/" }}
+      {{ if ne ( substr ( $.Scratch.Get "path" ) -1 ) "/" }}
+        {{ $.Scratch.Add "path" "/" }}
+      {{ end }}
       {{ $.Scratch.Add "path" $element }}
       {{ if ne $element "" }}
-        <li{{ if eq ( printf "%s%s" ( $.Scratch.Get "path" ) "/" ) $currentPath }} aria-current="page"{{ end }}><a href='{{ $.Scratch.Get "path" }}'>{{ humanize . }}</a></li>
+        <li{{ if eq ( printf "%s%s" ( $.Scratch.Get "path" ) "/" ) $currentPath }} aria-current="page"{{ end }}>
+          <a href='{{ $.Scratch.Get "path" }}'>{{ humanize . }}</a>
+        </li>
         {{ $.Scratch.Add "path" "/" }}
       {{ end }}
     {{ end }}
