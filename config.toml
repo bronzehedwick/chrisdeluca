@@ -94,6 +94,12 @@ paginate = 20
     weight = 12
     featured = false
 
+  [params.socialLinks.sourcehut]
+    name = "◯ sourcehut"
+    url = "https://sr.ht/~bronzehedwick/"
+    weight = 44
+    featured = false
+
   [params.socialLinks.github]
     name = "🐙 Github"
     url = "https://github.com/bronzehedwick"
