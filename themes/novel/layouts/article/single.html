@@ -76,7 +76,7 @@
               <button class="game-button" data-target-id="restart">Try again</button>
             {{ else }}
               {{ range .Params }}
-                {{ if isset . "id" }}
+                {{ if and (ne . false) (isset . "id") }}
                   <button
                     class="game-button"
                     data-target-id="game-scene-{{ .id }}"
