@@ -727,6 +727,10 @@ article + article {
   margin-top: 2em;
 }
 
+h2 + .p-content {
+  margin-top: 0;
+}
+
 .meta-info {
   font-size: 0.85em;
 }

@@ -1,7 +1,7 @@
 +++
-title = "Note on "
+title = ""
 slug = "{{ .TranslationBaseName }}"
 publishdate = {{ .Date }}
-draft = true
+draft = false
 syndicated = []
 +++

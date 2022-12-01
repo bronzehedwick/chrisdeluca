@@ -1,20 +1,12 @@
 {{ define "main" }}
 
-  <h2>Latest articles</h2>
   <ul class="list">
-    {{ $articles := first 5 (where .Site.RegularPages "Type" "article") }}
-    {{ range $articles }}
+    {{ $items := first 20 (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
+    {{ range $items }}
       {{ .Render "summary" }}
     {{ end }}
   </ul>
-  <p class="see-more"><a href="/article">See all articles</a></p>
-
-  <h2>My Projects</h2>
-  {{ $projects := first 3 (where .Site.RegularPages "Type" "project") }}
-  {{ range $projects }}
-    {{ .Render "summary" }}
-  {{ end }}
-  <p class="see-more"><a href="/project">See all projects</a></p>
+  <p class="see-more"><a href="/archive">Read more</a></p>
 
   {{ partial "h-card.html" . }}
 

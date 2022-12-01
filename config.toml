@@ -40,32 +40,23 @@ paginate = 20
   section = ["HTML", "RSS", "JSON", "CSV", "MICRO"]
 
 [[menu.main]]
-  name = "Articles"
-  url = "/article"
+  name = "About"
+  url = "/page/about"
+  weight = 30
+
+[[menu.main]]
+  name = "Archive"
+  url = "/archive"
   weight = 50
 
 [[menu.main]]
-  name = "Projects"
-  url = "/project"
-  weight = 60
-
-[[menu.main]]
-  name = "Pictures"
-  url = "/picture"
-  weight = 65
-
-[[menu.main]]
-  name = "Categories"
-  url = "/categories"
-  weight = 95
-
-[[menu.main]]
   name = "RSS"
-  url = "/article/index.xml"
+  url = "/index.xml"
   weight = 100
 
 [params]
   description = "Chris DeLuca's webbed site"
+  mainSections = ["article", "note"]
 
   [params.socialLinks.twitter]
     name = "🐦 Twitter"
