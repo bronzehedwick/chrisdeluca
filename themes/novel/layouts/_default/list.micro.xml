@@ -10,16 +10,16 @@
     <copyright>{{.}}</copyright>{{end}}{{ if not .Date.IsZero }}
     <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
     {{ with .OutputFormats.Get "RSS" }}
-        {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
+      {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
     {{ end }}
     {{ range .Pages }}
     <item>
-      <title>New {{ .Type }}: {{ if .Params.microOverride }}{{ .Params.microOverride|plainify }}{{ else }}{{ .Title|plainify|truncate 258 }}{{ end }}</title>
+      <title>{{ if .Params.microOverride }}{{ .Params.microOverride|plainify }}{{ else }}{{ .Title|plainify|truncate 258 }}{{ end }}</title>
       <link>{{ .Permalink }}</link>
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
       {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
       <guid>{{ .RelPermalink }}</guid>
-      <description>{{ printf "<p><em>This post originally appeared on <a href=%q>Chris DeLuca's blog</a></em></p>" .Permalink | html }}{{ .Content | html }}</description>
+      <description>{{ .Content | safeHTML | truncate 290 }}</description>
     </item>
     {{ end }}
   </channel>
