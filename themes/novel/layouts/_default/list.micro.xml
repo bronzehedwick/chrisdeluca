@@ -19,7 +19,7 @@
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
       {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
       <guid>{{ .RelPermalink }}</guid>
-      <description>{{ .Content | safeHTML | truncate 290 }}</description>
+      <description>{{ .Content | safeHTML | truncate 290 | htmlEscape }}</description>
     </item>
     {{ end }}
   </channel>
