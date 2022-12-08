@@ -45,11 +45,6 @@ paginate = 20
   weight = 30
 
 [[menu.main]]
-  name = "Archive"
-  url = "/archive"
-  weight = 50
-
-[[menu.main]]
   name = "RSS"
   url = "/index.xml"
   weight = 100
