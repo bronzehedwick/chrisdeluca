@@ -1,19 +1,5 @@
 /* General {{{ */
 
-@font-face {
-  font-family: "CrimsonPro";
-  src: local("crimsonpro"), url("/fonts/crimsonpro.woff2") format("woff2");
-  font-style: normal;
-  font-display: fallback;
-}
-
-@font-face {
-  font-family: "CrimsonPro";
-  src: local("crimsonpro-italic"), url("/fonts/crimsonpro-italic.woff2") format("woff2");
-  font-style: italic;
-  font-display: fallback;
-}
-
 :root {
   --background-color: #ffffff;
   --text-color: #191919;
@@ -39,7 +25,7 @@
 }
 
 body {
-  font-family: CrimsonPro, Georgia, serif;
+  font-family: New York, Georgia, serif;
   font-size: 1.2em;
   line-height: 1.6;
   padding: 1em;
@@ -153,7 +139,7 @@ header + * {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: CrimsonPro, Georgia, serif;
+  font-family: New York, Georgia, serif;
   margin-bottom: 0px;
   clear: both;
   line-height: 1.1;
@@ -560,10 +546,6 @@ samp p {
 /* }}} */
 
 /* Quotes {{{ */
-
-blockquote {
-  padding: 2em;
-}
 
 blockquote p {
   margin-left: 3em;
