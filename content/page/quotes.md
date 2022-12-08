@@ -4,6 +4,10 @@ date = 2019-10-26T12:08:12-04:00
 draft = false
 +++
 
+> We love to buy books because we believe we’re buying the time to read them. — Warren Zevon
+
+---
+
 
 > Writing is thinking. To write well is to think clearly. That's why it's so hard. — David McCullough
 
