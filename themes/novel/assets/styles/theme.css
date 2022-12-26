@@ -877,6 +877,11 @@ article .h-card {
   display: none;
 }
 
+.about-page-photo {
+  max-width: 15em;
+  width: 40vw;
+}
+
 .about__photo {
   margin-right: 2ch;
   margin-bottom: 1em;
