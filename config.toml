@@ -40,9 +40,19 @@ paginate = 20
   section = ["HTML", "RSS", "JSON", "CSV", "MICRO"]
 
 [[menu.main]]
-  name = "About"
+  name = "About me"
   url = "/page/about"
   weight = 30
+
+[[menu.main]]
+  name = "Articles"
+  url = "/article"
+  weight = 40
+
+[[menu.main]]
+  name = "Notes"
+  url = "/note"
+  weight = 45
 
 [[menu.main]]
   name = "RSS"

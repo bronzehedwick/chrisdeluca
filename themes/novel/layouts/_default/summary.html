@@ -3,7 +3,11 @@
     <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
   {{ end }}
   <div class="p-content">
-    {{ .Summary | plainify | htmlUnescape | truncate 200 }}
+    {{ if eq .Type "note" }}
+      {{ .Content }}
+    {{ else }}
+      <p>{{ .Summary | markdownify | truncate 200 }}</p>
+    {{ end }}
     <p class="meta-info">
       Published
       <a class="u-url" href="{{ .Permalink }}">
