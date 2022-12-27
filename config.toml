@@ -55,8 +55,8 @@ paginate = 20
   weight = 45
 
 [[menu.main]]
-  name = "RSS"
-  url = "/index.xml"
+  name = "Feeds"
+  url = "/feeds"
   weight = 100
 
 [params]
