@@ -669,7 +669,7 @@ article footer li {
 
 .breadcrumbs li + li::before {
   display: inline-block;
-  content: '/';
+  content: '›';
   margin: 0 0.25ch;
 }
 
