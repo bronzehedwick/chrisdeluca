@@ -1,20 +1,18 @@
-{{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
-{{ $currentPath := .Permalink }}
-{{ $.Scratch.Add "path" .Site.BaseURL }}
-<nav class="breadcrumbs">
+<nav class="breadcrumbs" aria-label="breadcrumbs">
   <ol>
-    <li><a href="/">Home</a></li>
-    {{ range $index, $element := split $url "/" }}
-      {{ if ne ( substr ( $.Scratch.Get "path" ) -1 ) "/" }}
-        {{ $.Scratch.Add "path" "/" }}
-      {{ end }}
-      {{ $.Scratch.Add "path" $element }}
-      {{ if ne $element "" }}
-        <li{{ if eq ( printf "%s%s" ( $.Scratch.Get "path" ) "/" ) $currentPath }} aria-current="page"{{ end }}>
-          <a href='{{ $.Scratch.Get "path" }}'>{{ humanize . }}</a>
-        </li>
-        {{ $.Scratch.Add "path" "/" }}
-      {{ end }}
-    {{ end }}
+    {{- range .Ancestors.Reverse }}
+    <li>
+      <a href="{{ .RelPermalink }}">
+        {{ if .IsHome }}
+          Home
+        {{ else }}
+          {{ .Title }}
+        {{ end }}
+      </a>
+    </li>
+    {{- end }}
+    <li class="active">
+      <a href="{{ .RelPermalink }}" aria-current="location">{{ .Title }}</a>
+    </li>
   </ol>
 </nav>
