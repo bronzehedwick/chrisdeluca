@@ -183,16 +183,15 @@ body > header {
 }
 
 #chrisdeluca-graphic g {
-  fill: var(--accent-color);
+  fill: #595959;
 }
 
 .logo:hover #headshot {
-  transform: scale(120%) rotateY(180deg);
+  transform: rotateY(180deg);
 }
 
 .logo:hover #chrisdeluca-graphic path {
-  fill: rebeccapurple;
-  stroke: rebeccapurple;
+  fill: var(--accent-color);
 }
 
 .heading:hover a {
