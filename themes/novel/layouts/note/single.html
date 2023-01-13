@@ -4,7 +4,18 @@
 
   <article class="h-entry">
 
-    <div class="note-content e-content p-name">{{ .Content }}</div>
+    <div class="note-content e-content p-name">
+      {{ .Content }}
+
+      {{ with .Resources.ByType "image" }}
+        {{ range . }}
+          {{ $imageLarge := .Resize "1200x webp photo" }}
+          {{ $imageMedium := .Resize "900x webp photo" }}
+          {{ $imageSmall := .Resize "600x webp photo" }}
+          <img src="{{ $imageSmall.Permalink }}" width="{{ $imageSmall.Width }}" height="{{ $imageSmall.Height }}" srcset="{{ $imageMedium.Permalink }} {{ $imageMedium.Width }}w, {{ $imageLarge.Permalink }} {{ $imageLarge.Width }}w" sizes="(min-width: 472em) 600px, 93vw" alt="" />
+        {{ end }}
+      {{ end }}
+    </div>
 
     <p class="meta-info">Published
       <time class="dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">

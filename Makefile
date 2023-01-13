@@ -21,7 +21,7 @@ stop: ## Kill background hugo process.
 	@pgrep hugo | xargs kill -9
 
 note: ## Create new note (micro blog)
-	@hugo new note/$$(date +%s).md
+	@hugo new --kind note-bundle note/$$(date +%s)
 
 record: ## Create new record (vinyl)
 	@hugo new --kind record-bundle record/$(TITLE)
