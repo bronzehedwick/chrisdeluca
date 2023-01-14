@@ -19,7 +19,7 @@
       "author": {
         "name": "{{ .Site.Author.name }}"
       },
-      "content_html": "{{ $a := replace .Content "\n" "" }}{{ $b := replace $a "\"" "'" }}{{ replace $b "\\d" "" }}{{ if eq .Type "note" }}{{ with .Resources.ByType "image" }}{{ range . }}{{ $imageSmall := .Resize "600x webp photo" }}<p><img src='{{ $imageSmall.Permalink }}' width='{{ $imageSmall.Width }}' height='{{ $imageSmall.Height }}' alt='' /></p>{{ end }}{{ end }}{{ end }}"
+      "content_html": "{{ $a := replace .Content "\n" "" }}{{ $b := replace $a "\"" "'" }}{{ replace $b "\\d" "" }}{{ if eq .Type "note" }}{{ with .Resources.ByType "image" }}{{ range . }}{{ $imageSmall := .Resize "600x png photo" }}<p><img src='{{ $imageSmall.Permalink }}' width='{{ $imageSmall.Width }}' height='{{ $imageSmall.Height }}' alt='' /></p>{{ end }}{{ end }}{{ end }}"
     }{{ if ne $length (add $index 1) }},{{ end }}
   {{ end }}]
 }
