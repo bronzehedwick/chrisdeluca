@@ -3,11 +3,7 @@
     <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
   {{ end }}
   <div class="p-content">
-    {{ if eq .Type "note" }}
-      {{ .Content }}
-    {{ else }}
-      <p>{{ .Summary | markdownify | truncate 200 }}</p>
-    {{ end }}
+    {{ .Content }}
     {{ with .Resources.ByType "image" }}
       {{ range . }}
         {{ $imageLarge := .Resize "1200x webp photo" }}
