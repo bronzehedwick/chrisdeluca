@@ -19,7 +19,7 @@
           {{ if .Params.categories }}
             in
             {{ range .Params.categories }}
-              <a class="p-category" href="/categories/{{ . | urlize }}">{{ . }}</a>
+              <a class="p-category" href="/categories/{{ . | urlize }}">{{ title . }}</a>
             {{ end }}
           {{ end }}
 
