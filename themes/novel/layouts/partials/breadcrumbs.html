@@ -6,13 +6,13 @@
         {{ if .IsHome }}
           Home
         {{ else }}
-          {{ .Title }}
+          {{ title .Title }}
         {{ end }}
       </a>
     </li>
     {{- end }}
     <li class="active">
-      <a href="{{ .RelPermalink }}" aria-current="page">{{ .Title }}</a>
+      <a href="{{ .RelPermalink }}" aria-current="page">{{ title .Title }}</a>
     </li>
   </ol>
 </nav>
