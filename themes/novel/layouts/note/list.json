@@ -1,0 +1,25 @@
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "{{ if eq  .Title  .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{.}} on {{ end }}{{ .Site.Title }}{{ end }}",
+  "home_page_url": "{{ .Site.BaseURL }}",
+  "feed_url": "{{ .Permalink }}/index.json",
+  "author": {
+    "url": "https://micro.blog/chrisd",
+    "name": "{{ .Site.Author.name }}"
+  },
+  "icon": "{{ .Site.BaseURL }}/apple-touch-icon.png",
+  "favicon": "{{ .Site.BaseURL }}/favicon-32x32.png",
+  "items": [{{ $length := len .Pages }}{{ range $index, $value := .Pages }}
+    {
+      {{ if ne .Type "note" }}"title": "{{ .Title }}",{{ end }}
+      "date_published": "{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}",
+      "date_updated": "{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}",
+      "id": "{{ .Permalink }}",
+      "url": "{{ .Permalink }}",
+      "author": {
+        "name": "{{ .Site.Author.name }}"
+      },
+      "content_html": "{{ $a := replace .Content "\n" "" }}{{ $b := replace $a "\"" "'" }}{{ replace $b "\\d" "" }}<p>{{- $b | markdownify -}}{{ if in .Params.categories "reading" }}<a href='{{ .Site.BaseURL }}/categories/reading' title='Reading'>📚</a>{{ end }}{{ if in .Params.categories "movies" }}<a href='{{ .Site.BaseURL }}/categories/movies' title='Movies'>🍿</a>{{ end }}{{ if in .Params.categories "music" }}<a href='{{ .Site.BaseURL }}/categories/music' title='Music'>🎵</a>{{ end }}</p>{{ if in .Params.categories "cats" }}<a href='{{ .Site.BaseURL }}/categories/cats' title='Cats'>🐈</a>{{ end }}{{ with .Resources.ByType "image" }}{{ range . }}{{ $imageSmall := .Resize "600x png photo" }}<p><img src='{{ $imageSmall.Permalink }}' width='{{ $imageSmall.Width }}' height='{{ $imageSmall.Height }}' alt='' /></p>{{ end }}{{ end }}"
+    }{{ if ne $length (add $index 1) }},{{ end }}
+  {{ end }}]
+}

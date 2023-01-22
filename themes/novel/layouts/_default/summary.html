@@ -1,7 +1,5 @@
 <article class="h-entry type--{{ .Type|lower }}">
-  {{ if (and (.Title) (not (eq .Type "note"))) }}
-    <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-  {{ end }}
+  <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
   <div class="p-content">
     <p>{{ .Summary | markdownify | truncate 200 }}</p>
     <p class="meta-info">

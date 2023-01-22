@@ -1,9 +1,18 @@
 <article class="h-entry type--{{ .Type|lower }}">
-  {{ if (and (.Title) (not (eq .Type "note"))) }}
-    <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-  {{ end }}
   <div class="p-content">
-    {{ .Content }}
+    <p>{{- .Content | markdownify -}}
+    {{ if in .Params.categories "reading" }}
+      <a class="category-emoji" href="/categories/reading" title="Reading">📚</a>
+    {{ end }}
+    {{ if in .Params.categories "movies" }}
+      <a class="category-emoji" href="/categories/movies" title="Movies">🍿</a>
+    {{ end }}
+    {{ if in .Params.categories "music" }}
+      <a class="category-emoji" href="/categories/music" title="Music">🎵</a>
+    {{ end }}</p>
+    {{ if in .Params.categories "cats" }}
+      <a class="category-emoji" href="/categories/cats" title="Cats">🐈</a>
+    {{ end }}</p>
     {{ with .Resources.ByType "image" }}
       {{ range . }}
         {{ $imageLarge := .Resize "1200x webp photo" }}
