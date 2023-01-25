@@ -21,7 +21,7 @@
 }
 
 * + * {
-  margin-top: 1em;
+  margin-top: 2em;
 }
 
 body {
@@ -82,7 +82,7 @@ code, kbd, samp {
 hr {
   border: none;
   font-size: 1.2em;
-  margin: 1em 0;
+  margin-block: 2em;
   text-align: center;
   line-height: 0;
   color: var(--text-color);
