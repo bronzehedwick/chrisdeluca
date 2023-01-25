@@ -4,18 +4,28 @@
 
   <article class="h-entry">
 
-    <div class="note-content e-content p-name">
-      {{ .Content }}
-
-      {{ with .Resources.ByType "image" }}
-        {{ range . }}
-          {{ $imageLarge := .Resize "1200x webp photo" }}
-          {{ $imageMedium := .Resize "900x webp photo" }}
-          {{ $imageSmall := .Resize "600x webp photo" }}
-          <img src="{{ $imageSmall.Permalink }}" width="{{ $imageSmall.Width }}" height="{{ $imageSmall.Height }}" srcset="{{ $imageMedium.Permalink }} {{ $imageMedium.Width }}w, {{ $imageLarge.Permalink }} {{ $imageLarge.Width }}w" sizes="(min-width: 472em) 600px, 93vw" alt="" />
+    <p class="note-content e-content p-name">
+      {{ $categoryEmojis := .Site.Params.categoryEmoji }}
+      {{ $baseurl := .Site.BaseURL }}
+      {{ range .Params.categories }}
+        {{ $category := . }}
+        {{ range $name, $data := $categoryEmojis }}
+          {{ if in $category $name }}
+            <a class="category-emoji" href="{{ $baseurl }}{{ trim .url "/" }}">{{ .icon }}</a>
+          {{ end }}
         {{ end }}
       {{ end }}
-    </div>
+      {{- .Content | markdownify -}}
+    </p>
+
+    {{ with .Resources.ByType "image" }}
+      {{ range . }}
+        {{ $imageLarge := .Resize "1200x webp photo" }}
+        {{ $imageMedium := .Resize "900x webp photo" }}
+        {{ $imageSmall := .Resize "600x webp photo" }}
+        <img src="{{ $imageSmall.Permalink }}" width="{{ $imageSmall.Width }}" height="{{ $imageSmall.Height }}" srcset="{{ $imageMedium.Permalink }} {{ $imageMedium.Width }}w, {{ $imageLarge.Permalink }} {{ $imageLarge.Width }}w" sizes="(min-width: 472em) 600px, 93vw" alt="" />
+      {{ end }}
+    {{ end }}
 
     <p class="meta-info">Published
       <time class="dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">

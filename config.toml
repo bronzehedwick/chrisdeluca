@@ -63,6 +63,46 @@ paginate = 20
   description = "Chris DeLuca's webbed site"
   mainSections = ["article", "note"]
 
+  [params.categoryEmoji.reading]
+    url = "/categories/reading"
+    icon = "📚"
+
+  [params.categoryEmoji.writing]
+    url = "/categories/writing"
+    icon = "📝"
+
+  [params.categoryEmoji.movies]
+    url = "/categories/movies"
+    icon = "🍿"
+
+  [params.categoryEmoji.music]
+    url = "/categories/music"
+    icon = "🎵"
+
+  [params.categoryEmoji.cats]
+    url = "/categories/cats"
+    icon = "🐈"
+
+  [params.categoryEmoji.games]
+    url = "/categories/games"
+    icon = "🕹️"
+
+  [params.categoryEmoji.tv]
+    url = "/categories/tv"
+    icon = "📺"
+
+  [params.categoryEmoji.podcasting]
+    url = "/categories/podcasting"
+    icon = "🎙️"
+
+  [params.categoryEmoji.quotes]
+    url = "/categories/quotes"
+    icon = "💬"
+
+  [params.categoryEmoji.photos]
+    url = "/categories/photos"
+    icon = "📷"
+
   [params.socialLinks.twitter]
     name = "🐦 Twitter"
     url = "https://twitter.com/chrisjohndeluca"
