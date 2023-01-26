@@ -37,6 +37,7 @@ paginate = 20
   Rel = "alternate"
 
 [outputs]
+  home = ["HTML", "RSS", "JSON"]
   section = ["HTML", "RSS", "JSON", "CSV", "MICRO"]
 
 [[menu.main]]

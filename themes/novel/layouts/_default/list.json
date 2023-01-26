@@ -2,16 +2,16 @@
   "version": "https://jsonfeed.org/version/1",
   "title": "{{ if eq  .Title  .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{.}} on {{ end }}{{ .Site.Title }}{{ end }}",
   "home_page_url": "{{ .Site.BaseURL }}",
-  "feed_url": "{{ .Permalink }}/index.json",
+  "feed_url": "{{ .Permalink }}index.json",
   "author": {
     "url": "https://micro.blog/chrisd",
     "name": "{{ .Site.Author.name }}"
   },
-  "icon": "{{ .Site.BaseURL }}/apple-touch-icon.png",
-  "favicon": "{{ .Site.BaseURL }}/favicon-32x32.png",
+  "icon": "{{ .Site.BaseURL }}apple-touch-icon.png",
+  "favicon": "{{ .Site.BaseURL }}favicon-32x32.png",
   "items": [{{ $length := len .Pages }}{{ range $index, $value := .Pages }}
     {
-      {{ if ne .Type "note" }}"title": "{{ .Title }}",{{ end }}
+      "title": "{{ .Title }}",
       "date_published": "{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}",
       "date_updated": "{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}",
       "id": "{{ .Permalink }}",

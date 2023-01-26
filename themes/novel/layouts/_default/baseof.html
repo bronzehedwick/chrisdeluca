@@ -13,7 +13,7 @@
   <link rel="pgpkey" href="{{ .Site.Author.key.url }}">
   <link rel="author" href="/humans.txt">
   {{ range .AlternativeOutputFormats -}}
-    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+    <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
   {{ end -}}
   {{ $normalize := resources.Get "styles/vendor/normalize.css" }}
   {{ $theme := resources.Get "styles/theme.css" }}
