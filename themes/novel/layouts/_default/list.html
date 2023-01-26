@@ -2,7 +2,16 @@
 
   {{ partial "breadcrumbs.html" . }}
 
-  <h1>{{ title .Title }} {{ .Data.Singular }}</h1>
+  <h1>
+    {{ $categoryEmojis := .Site.Params.categoryEmoji }}
+    {{ $category := .Title }}
+    {{ range $name, $data := $categoryEmojis }}
+      {{ if in $category $name }}
+        {{ .icon }}
+      {{ end }}
+    {{ end }}
+    {{ title .Title }} {{ .Data.Singular }}
+  </h1>
 
   {{ $paginator := .Paginate .Data.Pages }}
   {{ range $paginator.Pages }}
