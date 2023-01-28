@@ -10,8 +10,8 @@
       {{ range .Params.categories }}
         {{ $category := . }}
         {{ range $name, $data := $categoryEmojis }}
-          {{ if in $category $name }}
-            <a class="category-emoji" href="{{ $baseurl }}{{ .url }}">{{ .icon }}</a>
+          {{ if in ($category|lower) ($name|lower) }}
+            <a class="category-emoji" title="{{ $name | title }} category" href="{{ $baseurl }}{{ .url }}">{{ .icon }}</a>
           {{ end }}
         {{ end }}
       {{ end }}

@@ -5,7 +5,16 @@
   <article class="h-entry article{{ range .Params.categories }} article--{{ .|lower }}{{ end }}">
     <header>
       <h1 class="p-name">
-        {{ if .Resources.Match "game/*" }}{{ emojify ":joystick:" }}{{ end }}
+        {{ $categoryEmojis := .Site.Params.categoryEmoji }}
+        {{ $baseurl := .Site.BaseURL }}
+        {{ range .Params.categories }}
+          {{ $category := . }}
+          {{ range $name, $data := $categoryEmojis }}
+            {{ if in ($category|lower) ($name|lower) }}
+              <a class="category-emoji" title="{{ $name | title }} category" href="{{ $baseurl }}{{ .url }}">{{ .icon }}</a>
+            {{ end }}
+          {{ end }}
+        {{ end }}
         {{ if .Params.draft }}<mark>Draft</mark>{{ end }}
         {{ .Title }}
       </h1>

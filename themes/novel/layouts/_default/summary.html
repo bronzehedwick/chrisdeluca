@@ -1,5 +1,17 @@
 <article class="h-entry type--{{ .Type|lower }}">
-  <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+  <h2>
+    {{ $categoryEmojis := .Site.Params.categoryEmoji }}
+    {{ $baseurl := .Site.BaseURL }}
+    {{ range .Params.categories }}
+      {{ $category := . }}
+      {{ range $name, $data := $categoryEmojis }}
+        {{ if in ($category|lower) ($name|lower) }}
+          <a class="category-emoji" title="{{ $name | title }} category" href="{{ $baseurl }}{{ .url }}">{{ .icon }}</a>
+        {{ end }}
+      {{ end }}
+    {{ end }}
+    <a href="{{ .Permalink }}">{{ .Title }}</a>
+  </h2>
   <div class="p-content">
     <p>{{ .Summary | markdownify | truncate 200 }}</p>
     <p class="meta-info">

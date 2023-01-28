@@ -4,9 +4,9 @@
 
   <h1>
     {{ $categoryEmojis := .Site.Params.categoryEmoji }}
-    {{ $category := .Title }}
+    {{ $category := .Title|lower }}
     {{ range $name, $data := $categoryEmojis }}
-      {{ if in $category $name }}
+      {{ if in $category ($name|lower) }}
         {{ .icon }}
       {{ end }}
     {{ end }}
