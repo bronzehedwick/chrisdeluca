@@ -11,7 +11,7 @@
         {{ $category := . }}
         {{ range $name, $data := $categoryEmojis }}
           {{ if in $category $name }}
-            <a class="category-emoji" href="{{ $baseurl }}{{ trim .url "/" }}">{{ .icon }}</a>
+            <a class="category-emoji" href="{{ $baseurl }}{{ .url }}">{{ .icon }}</a>
           {{ end }}
         {{ end }}
       {{ end }}
