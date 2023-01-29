@@ -108,6 +108,10 @@ paginate = 20
     url = "/categories/tech"
     icon = "💻"
 
+  [params.categoryEmoji.health]
+    url = "/categories/health"
+    icon = "🏥"
+
   [params.socialLinks.twitter]
     name = "🐦 Twitter"
     url = "https://twitter.com/chrisjohndeluca"

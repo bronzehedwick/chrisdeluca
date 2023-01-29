@@ -162,6 +162,10 @@ body > header {
   text-align: center;
 }
 
+h1 + .h-entry {
+  margin-top: 4em;
+}
+
 .logo {
   margin: 0;
   font-size: 0;
