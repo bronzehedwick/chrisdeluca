@@ -1,12 +1,15 @@
 {{ define "main" }}
 
   <ul class="list">
-    {{ $items := first 20 (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
-    {{ range $items }}
+    {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
+    {{ range $paginator.Pages }}
       {{ .Render "summary" }}
     {{ end }}
   </ul>
-  <p class="see-more"><a href="/archive">Read more</a></p>
+
+  <footer>
+    {{ partial "pagination.html" . }}
+  </footer>
 
   {{ partial "h-card.html" . }}
 
