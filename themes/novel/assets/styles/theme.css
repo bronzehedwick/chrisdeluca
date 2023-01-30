@@ -21,7 +21,7 @@
 }
 
 * + * {
-  margin-top: 1em;
+  margin-top: 1.4em;
 }
 
 body {
@@ -160,10 +160,6 @@ body > header a:hover {
 
 body > header {
   text-align: center;
-}
-
-h1 + .h-entry {
-  margin-top: 4em;
 }
 
 .logo {
@@ -654,10 +650,6 @@ summary {
 /* }}} */
 
 /* Article info {{{ */
-
-article + article {
-  margin-top: 3em;
-}
 
 h2 + .p-content {
   margin-top: 0;
