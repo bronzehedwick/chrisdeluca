@@ -12,7 +12,10 @@ clean: ## Remove build directory.
 sync: ## Push the site to the server.
 	@rsync --recursive --delete --rsh=ssh --exclude=".*" --quiet public/ waitstaff_deploy:/usr/local/www/chrisdeluca.me
 
-web: build sync ## Deploys site to server.
+backup: ## Back up ./content to the server.
+	@rsync --recursive --delete --rsh=ssh --exclude=".*" --quiet content/ waitstaff_deploy:/usr/local/backups/chrisdeluca.me/
+
+web: build sync backup ## Deploys site to server.
 
 serve: ## Start development server in the background.
 	@hugo serve --buildFuture --buildDrafts > hugo.log 2>&1 &
