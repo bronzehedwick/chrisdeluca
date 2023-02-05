@@ -507,6 +507,10 @@ blockquote::before {
   color: var(--accent-color);
 }
 
+q {
+  margin-top: 0;
+}
+
 /* }}} */
 
 /* Footers (and navigation) {{{ */
