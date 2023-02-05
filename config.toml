@@ -25,8 +25,6 @@ paginate = 20
   category = "categories"
   topic = "topics"
   series = "series"
-  artist = "artists"
-  year = "years"
 
 [outputFormats.MICRO]
   MediaType = "application/rss+xml"
