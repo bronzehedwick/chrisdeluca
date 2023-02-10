@@ -19,7 +19,7 @@
       "author": {
         "name": "{{ .Site.Author.name }}"
       },
-      "content_html": "<p>{{ $baseurl := .Site.BaseURL }}{{ $categoryEmojis := .Site.Params.categoryEmoji }}{{ range .Params.categories }}{{ $category := . }}{{ range $name, $data := $categoryEmojis }}{{ if in $category $name }}<a href='{{ $baseurl }}{{ trim .url "/" }}'>{{ .icon }}</a>&nbsp;{{ end }}{{ end }}{{ end }}{{ $a := replace .Content "\n" "" }}{{ $b := replace $a "\"" "'" }}{{ $c := replace $b "\\d" "" }}{{- $c | markdownify -}}{{ with .Resources.ByType "image" }}{{ range . }}{{ $imageSmall := .Resize "600x png photo" }}<img src='{{ $imageSmall.Permalink }}' width='{{ $imageSmall.Width }}' height='{{ $imageSmall.Height }}' alt='' />{{ end }}{{ end }}</p>"
+      "content_html": "<p>{{ $baseurl := .Site.BaseURL }}{{ $categoryEmojis := .Site.Params.categoryEmoji }}{{ range .Params.categories }}{{ $category := . }}{{ range $name, $data := $categoryEmojis }}{{ if in $category $name }}<a href='{{ $baseurl }}{{ .url }}'>{{ .icon }}</a>&nbsp;{{ end }}{{ end }}{{ end }}{{ $a := replace .Content "\n" "" }}{{ $b := replace $a "\"" "'" }}{{ $c := replace $b "\\d" "" }}{{- $c | markdownify -}}</p>{{ with .Resources.ByType "image" }}{{ range . }}{{ $imageSmall := .Resize "600x png photo" }}<img src='{{ $imageSmall.Permalink }}' width='{{ $imageSmall.Width }}' height='{{ $imageSmall.Height }}' alt='' />{{ end }}{{ end }}"
     }{{ if ne $length (add $index 1) }},{{ end }}
   {{ end }}]
 }
