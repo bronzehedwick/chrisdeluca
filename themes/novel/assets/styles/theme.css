@@ -5,6 +5,7 @@
   --text-color: #191919;
   --de-emphasized-color: #767676;
   --accent-color: #db2f2f;
+  --shadow-color: #eee;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -13,6 +14,7 @@
     --text-color: #ffffff;
     --de-emphasized-color: #bcbcbc;
     --accent-color: #ff6363;
+    --shadow-color: #111;
   }
 }
 
@@ -332,8 +334,10 @@ figure {
   margin-right: 0px;
 }
 
+.type--note img,
 figure img {
-  filter: drop-shadow(0.15em 0.15em 0.1em #eee);
+  filter: drop-shadow(0.15em 0.15em 0.1em var(--shadow-color));
+  border-radius: 5px;
 }
 
 header > figure {
