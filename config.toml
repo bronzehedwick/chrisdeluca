@@ -98,6 +98,10 @@ paginate = 20
     url = "/categories/quotes"
     icon = "💬"
 
+  [params.categoryEmoji.drawing]
+    url = "/categories/drawing"
+    icon = "🎨"
+
   [params.categoryEmoji.photos]
     url = "/categories/photos"
     icon = "📷"
