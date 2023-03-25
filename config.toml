@@ -8,6 +8,7 @@ pygmentsuseclasses = true
 enableEmoji = true
 menus = [ "main", "footer" ]
 paginate = 20
+rssLimit = 50
 
 [author]
   name = "Chris DeLuca"
