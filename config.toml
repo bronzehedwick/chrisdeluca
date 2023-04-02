@@ -111,6 +111,10 @@ rssLimit = 50
     url = "/categories/tech"
     icon = "💻"
 
+  [params.categoryEmoji.improv]
+    url = "/categories/improv"
+    icon = "🐵"
+
   [params.categoryEmoji.health]
     url = "/categories/health"
     icon = "🏥"
