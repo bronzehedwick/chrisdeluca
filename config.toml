@@ -119,6 +119,10 @@ rssLimit = 50
     url = "/categories/health"
     icon = "🏥"
 
+  [params.categoryEmoji.personal]
+    url = "/categories/personal"
+    icon = "🧡"
+
   [params.socialLinks.twitter]
     name = "🐦 Twitter"
     url = "https://twitter.com/chrisjohndeluca"
