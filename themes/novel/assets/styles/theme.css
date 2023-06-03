@@ -84,7 +84,7 @@ code, kbd, samp {
 hr {
   border: none;
   font-size: 1.2em;
-  margin: 1em 0;
+  margin-block: 1.5em 1em;
   text-align: center;
   line-height: 0;
   color: var(--text-color);
