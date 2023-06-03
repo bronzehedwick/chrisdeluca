@@ -219,15 +219,6 @@ img + p {
   text-indent: 4ch;
 }
 
-@supports (initial-letter: 4) or (-webkit-initial-letter: 4) {
-  .e-content > p:first-of-type::first-letter {
-    -webkit-initial-letter: 4;
-    initial-letter: 4;
-    margin-right: 0.5ch;
-    color: var(--accent-color);
-  }
-}
-
 .e-content {
   text-align: justify;
 }
