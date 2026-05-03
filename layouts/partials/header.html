@@ -1,0 +1,21 @@
+{{ partial "navigation.html" . }}
+{{ if .IsHome }}
+{{ else }}
+<header class="main-header">
+  {{ with .Title }}
+    {{ $t := .|lower }}
+    {{ $t := replace $t " " "-" }}
+    <h1 class="p-name main-title main-title--{{ $t }}">{{ . }}</h1>
+  {{ end }}
+  {{ with .Params.audio }}
+    <script type="text/javascript" src="https://micro.blog/narration.js?url={{ . }}"></script>
+  {{ end }}
+  {{ if eq .Type "post" }}
+    <p class="subtitle">
+      <time class="dt-published" datetime="{{ .Date.Format "2006-01-02 15:04:05 -0700" }}">
+        <a class="u-url dates" href="{{ .Permalink }}">{{ .Date.Format "January 2, 2006" }}</a>
+      </time>
+    </p>
+  {{ end }}
+</header>
+{{ end }}

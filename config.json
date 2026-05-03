@@ -1,0 +1,16 @@
+{
+  "paginate": 25,
+  "rssLimit": 25,
+  "taxonomies": {
+    "category": "categories"
+  },
+  "markup": {
+    "goldmark": {
+      "renderer": {
+        "unsafe": true
+      }
+    }
+  },
+  "enableRobotsTXT": true,
+  "pluralizeListTitles": false
+}

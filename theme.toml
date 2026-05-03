@@ -1,0 +1,11 @@
+name = "Chris D"
+license = "MIT"
+licenselink = "https://github.com/bronzehedwick/chrisdeluca/blob/main/LICENSE.txt"
+description = "Chris DeLuca's blog theme"
+homepage = "https://github.com/bronzehedwick/chrisdeluca"
+min_version = "0.117.0"
+
+[author]
+  name = "Chris DeLuca"
+  homepage = "https://www.chrisdeluca.me"
+

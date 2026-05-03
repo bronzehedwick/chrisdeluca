@@ -1,0 +1,19 @@
+{{ define "main" }}
+
+  <div class="photos-grid-container">
+
+    {{- $list := where .Site.Pages ".Params.photos" "!=" nil -}}
+    {{- $len := (len $list) -}}
+    {{ range $index, $value := $list }}
+      {{ if not (in $value.Params.categories "letterboxd") }}
+        <a href="{{ .Permalink }}">
+          {{ range first 1 .Params.photos }}
+            <img src="{{ . }}" class="photos-grid-item" loading="lazy" alt="" />
+          {{ end }}
+        </a>
+      {{ end }}
+    {{ end }}
+
+  </div>
+
+{{ end }}

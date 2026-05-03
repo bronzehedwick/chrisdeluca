@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ditto Manual Page</title>
+    <style>
+      :root {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        color-scheme: light dark;
+      }
+      body {
+        margin-inline: auto;
+        max-inline-size: 75ch;
+        padding-inline: 1em;
+        padding-block: 0.5em;
+        background-color: light-dark(white, black);
+        color: light-dark(black, white);
+      }
+      pre {
+        margin-inline-start: 4ch;
+      }
+      code {
+        font-family: Menlo, Consolas, "Berkley Mono", monospace;
+        font-weight: 600;
+      }
+      dt {
+        margin-block-start: 0.75em;
+      }
+    </style>
+  </head>
+  <body>
+    <h1><i>DITTO</i>(1) General Commands Manual
+      <i>DITTO</i>(1)</h1>
+
+    <h2 id="name">NAME</h2>
+
+    <p>ditto — copy directory hierarchies, create and extract archives</p>
+
+    <h2 id="synopsis">SYNOPSIS</h2>
+
+    <ul>
+      <li><code>ditto</code> [<code>&minus;v</code>] [<code>&minus;V</code>] [<code>&minus;X</code>] [<code>&lt;options&gt;</code>] <var>src … dst_directory</var></li>
+      <li><code>ditto</code> [<code>&minus;v</code>] [<code>&minus;V</code>] [<code>&lt;options&gt;</code>] <var>src_file dst_file</var></li>
+      <li><code>ditto &minus;c</code> [<code>&minus;z&nbsp;</code>|&nbsp;<code>&minus;j&nbsp;</code>|&nbsp;<code>&minus;k</code>]
+      [<code>&minus;v</code>] [<code>&minus;V</code>] [<code>&minus;X</code>]
+      [<code>&lt;options&gt;</code>] <var>src dst_archive</var></li>
+      <li><code>ditto &minus;x</code> [<code>&minus;z&nbsp;</code>|&nbsp;<code>&minus;j&nbsp;</code>|&nbsp;<code>&minus;k</code>] [<code>&minus;v</code>] [<code>&minus;V</code>] [<code>&lt;options&gt;</code>] <var>src_archive … dst_directory</var></li>
+      <li><code>ditto &minus;h</code> | <code>&minus;&minus;help</code></li>
+    </ul>
+
+    <h2 id="description">DESCRIPTION</h2>
+
+    <p>In its first form, <code>ditto</code>
+    copies one or more source files or directories to a
+    destination directory. If the destination directory does not
+    exist it will be created before the first source is copied.
+    If the destination directory already exists then the source
+    directories are merged with the previous contents of the
+    destination.</p>
+
+    <p>In its second
+      form, <code>ditto</code> copies a file to the supplied
+      <var>dst_file</var> pathname.
+    </p>
+
+    <p>The next two
+      forms reflect <code>ditto</code>’s ability to create and
+      extract archives. These archives can be either CPIO format
+      (preferred for unix content) or PKZip (for Windows
+      compatibility). <var>src_archive</var> (and <var>dst_archive</var>)
+      can be the single character ’-’, causing ditto
+      to read (write) archive data from stdin (or to stdout,
+      respectively).</p>
+
+    <p><code>ditto</code>
+      follows symbolic links provided as arguments but does not
+      follow any links as it traverses the source or destination
+      hierarchies. <code>ditto</code> overwrites existing files,
+      symbolic links, and devices in the destination when these
+      are copied from a source. The resulting files, links, and
+      devices will have the same mode, access time, modification
+      time, owner, and group as the source items from which they
+      are copied. Pipes, sockets, and files with names beginning
+      with .nfs or .afpDeleted will be ignored. <code>ditto</code> does
+      not modify the mode, owner, group, extended attributes, or
+      ACLs of existing directories in the destination. Files and
+      symbolic links cannot overwrite directories or
+      vice-versa.</p>
+
+    <p><code>ditto</code> can
+      be used to "thin" Universal Mach-O binaries during
+      a copy. <code>ditto</code> can also copy files selectively based
+      on the contents of a BOM ("Bill of Materials")
+      file. <code>ditto</code> preserves file hard links (but not
+      directory hard links) present in the source directories and
+      preserves setuid and setgid modes when run as the
+      superuser.</p>
+
+    <p><code>ditto</code>
+      will preserve resource forks and HFS meta-data information
+      when copying unless instructed otherwise using
+      <code>−−norsrc</code> . <code>−−norsrc</code>
+      will disable copy of resource forks, extended attributes,
+      Access Control Lists (ACLs), as well as quarantine bits.
+      <code>DITTONORSRC</code> can be set in the environment as an alias to
+      <code>−−norsrc −−noextattr
+        −−noacl −−noqtn</code> on the command
+      line. However, each option can be individually turned on or
+      off, see the <a href="#options">OPTIONS</a> section for more details.
+    </p>
+
+    <h2 id="options">OPTIONS</h2>
+
+    <dl>
+      <dt><code>−h</code>, <code>−−help</code></dt>
+      <dd>Print full usage.</dd>
+      <dt><code>−v</code></dt>
+      <dd>Print a line of output to stderr for each source directory copied.</dd>
+      <dt><code>−V</code></dt>
+      <dd>Print a line of output to stderr for every file, symbolic link, and device copied.</dd>
+      <dt><code>−X</code></dt>
+      <dd>When copying one or more source directories, do not descend into directories that have a different device ID.</dd>
+      <dt><code>−c</code></dt>
+      <dd>Create an
+        archive at the destination path. The default format is CPIO,
+        unless <code>−k</code> is given. CPIO archives should be
+        stored in files with names ending in .cpio. Compressed CPIO
+        archives should be stored in files with names ending in
+        .cpgz.</dd>
+      <dt><code>−z</code></dt>
+      <dd>Create
+        compressed CPIO archives, using <code>gzip</code>(1)
+        compression.</dd>
+      <dt><code>−j</code></dt>
+      <dd>Create
+        compressed CPIO archives, using <code>bzip2</code>(1)
+        compression.</dd>
+      <dt><code>−x</code></dt>
+      <dd>Extract the
+        archives given as source arguments. The format is assumed to
+        be CPIO, unless <code>−k</code> is given. Compressed CPIO is
+        automatically handled.</dd>
+      <dt><code>−k</code></dt>
+      <dd>Create or
+        extract from a PKZip archive instead of the default CPIO.
+        PKZip archives should be stored in filenames ending in
+        .zip.</dd>
+      <dt><code>−−keepParent</code></dt>
+      <dd>When creating
+        an archive, embed the parent directory name <var>src</var> in
+        <var>dst_archive</var>.</dd>
+      <dt><code>−−arch</code> <var>arch</var></dt>
+      <dd>Thin Universal
+        binaries to the specified architecture. If multiple
+        <code>−−arch</code> options are specified then the
+        resulting destination file will contain each of the
+        specified architectures (if they are present in the source
+        file). <var>arch</var> should be specified as "arm64",
+        "x86_64", etc.</dd>
+      <dt><code>−−bom</code> <var>bom</var></dt>
+      <dd>Copy only
+        files, links, devices, and directories that are present in
+        the specified BOM.</dd>
+      <dt><code>−−rsrc</code></dt>
+      <dd>Preserve
+        resource forks and HFS meta-data. <code>ditto</code> will store
+        this data in Carbon-compatible ._ AppleDouble files on
+        filesystems that do not natively support resource forks. As
+        of Mac OS X 10.4, <code>−−rsrc</code> is default
+        behavior.</dd>
+      <dt><code>−−norsrc</code></dt>
+      <dd>Do not preserve
+        resource forks and HFS meta-data. If both
+        <code>−−norsrc</code> and <code>−−rsrc</code>
+        are passed, whichever is passed last will take precedence.
+        Both options override DITTONORSRC. Unless explicitly
+        specified, <code>−−norsrc</code> also implies
+        <code>−−noextattr</code> and
+        <code>−−noacl</code> to match the behavior of Mac OS X
+        10.4.</dd>
+      <dt><code>−−extattr</code></dt>
+      <dd>Preserve
+        extended attributes (requires <code>−−rsrc</code>). As
+        of Mac OS X 10.5, <code>−−extattr</code> is the
+        default.</dd>
+      <dt><code>−−noextattr</code></dt>
+      <dd>Do not preserve
+        extended attributes (requires
+        <code>−−norsrc</code>).</dd>
+      <dt><code>−−qtn</code></dt>
+      <dd>Preserve
+        quarantine information. As of Mac OS X 10.5,
+        <code>−−qtn</code> is the default.</dd>
+      <dt><code>−−noqtn</code></dt>
+      <dd>Do not preserve quarantine information.</dd>
+      <dt><code>−−acl</code></dt>
+      <dd>Preserve Access
+        Control Lists (ACLs). As of Mac OS X 10.5,
+        <code>−−acl</code> is the default.</dd>
+      <dt><code>−−noacl</code></dt>
+      <dd>Do not preserve ACLs.</dd>
+      <dt><code>−−nocache</code></dt>
+      <dd>Do not perform
+        copies using the Mac OS X Unified Buffer Cache. Files read
+        and written will not be cached, although if the file is
+        already present in the cache, the cached information will be
+        used.</dd>
+      <dt><code>−−hfsCompression</code></dt>
+      <dd>When copying files or
+        extracting content from an archive, if the destination is an
+        HFS+ or APFS volume that supports filesystem compression,
+        all the content will be compressed if appropriate. This is
+        only supported on Mac OS X 10.6 or later, and is only
+        intended to be used in installation and backup scenarios
+        that involve system files. Since files using filesystem
+        compression are not readable on versions of Mac OS X earlier
+        than 10.6, this flag should not be used when dealing with
+        non-system files or other user-generated content that will
+        be used on a version of Mac OS X earlier than 10.6.</dd>
+      <dt><code>−−nohfsCompression</code></dt>
+      <dd>Do not compress files with
+        filesystem compression when copying or extracting content
+        from an archive unless the content is already compressed
+        with filesystem compression. This flag is only supported on
+        Mac OS X 10.6 or later.
+        <code>−−nohfsCompression</code> is the default.</dd>
+      <dt><code>−−preserveHFSCompression</code></dt>
+      <dd>When copying files to an HFS+
+        or APFS volume that supports filesystem compression, ditto
+        will preserve the compression of any source files that were
+        using filesystem compression. This flag is only supported on
+        Mac OS X 10.6 or later.
+        <code>−−preserveHFSCompression</code> is the
+        default.</dd>
+      <dt><code>−−nopreserveHFSCompression</code></dt>
+      <dd>Do not preserve filesystem
+        compression when copying files that are already compressed
+        with filesystem compression. This is only supported on Mac
+        OS X 10.6 or later.</dd>
+      <dt><code>−−sequesterRsrc</code></dt>
+      <dd>When creating a PKZip archive,
+        preserve resource forks and HFS meta-data in the
+        subdirectory __MACOSX. PKZip extraction will automatically
+        find these resources.</dd>
+      <dt><code>−−zlibCompressionLevel</code> <var>num</var></dt>
+      <dd>Sets the compression level to
+        use when creating a PKZip archive. The compression level can
+        be set from 0 to 9, where 0 represents no compression, and 9
+        represents optimal (slowest) compression. By default, ditto
+        will use the default compression level as defined by
+        zlib.</dd>
+      <dt><code>−−password</code></dt>
+      <dd>When extracting
+        a password-encrypted ZIP archive, you must specify
+        <code>--password</code> to allow ditto to prompt for a password to use to
+        extract the contents of the file. If this option is not
+        provided, and a password-encrypted file is encountered,
+        ditto will emit an error message.
+      </dd>
+      <dt><code>−−persistRootless</code></dt>
+      <dd>If a file being replaced has
+        the SF_RESTRICTED flag or the com.apple.rootless extended
+        attribute set, retain it even if the source file may not
+        have had the same flag or attribute.</dd>
+      <dt><code>−−nopersistRootless</code></dt>
+      <dd>Do not persist the
+        SF_RESTRICTED flag or the com.apple.rootless extended
+        attribute for files being replaced.</dd>
+      <dt><code>−−nonAtomicCopies</code></dt>
+      <dd>Do not perform atomic copies
+        when replacing existing files. By default <code>ditto</code> will
+        atomically swap new files into place when completing a
+        copy.</dd>
+      <dt><code>−−segmentLargeFiles</code></dt>
+      <dd>When copying files to a CPIO
+        archive, segment files larger than 8 gigabytes into multiple
+        entries.</dd>
+      <dt><code>−−keepBinaries</code></dt>
+      <dd>When copying files <code>ditto</code>
+        will set aside the original Mach-O binary when it is being
+        replaced. The file name will be changed to a random number
+        preceded by the prefix .BC.T_</dd>
+      <dt><code>−−keepBinariesList</code> <var>path</var></dt>
+      <dd>When <code>ditto</code> keeps binary
+        files it will record the location of the kept file in the
+        file at the specified path.</dd>
+      <dt><code>−−keepBinariesPattern</code> <var>regex</var></dt>
+      <dd>Keep any regular file that
+        matches the specified regular expression. Note that this
+        file must not be a Mach-O binary.</dd>
+      <dt><code>−−lang</code> <var>lang</var></dt>
+      <dd>When copying
+        files with an index bom specified via <b>−b</b> option
+        the user can specify language variants to filter from the
+        index bom. By default <code>ditto</code> will create a new index
+        bom at /tmp/ditto.XXXXX representing the filtered contents.
+        The user can direct the output bom via the <b>−o</b>
+        flag.</dd>
+      <dt><code>−−outBom</code> <var>bom</var></dt>
+      <dd>Specify an
+        explicit path for the output bom. This bom will only be
+        created if the user specified the <code>−o</code> flag or
+        the <code>−l</code> flags.</dd>
+      <dt><code>−−clone</code></dt>
+      <dd>Attempt to clone regular files when copying.</dd>
+      <dt><code>−−noclone</code></dt>
+      <dd>Do not attempt to clone files.</dd>
+      <dt><code>−−option</code> <var>key=value</var></dt>
+      <dd>Specify an arbitrary key value
+        pair to be passed to the copier. The value can be a string,
+        boolean, or integer. Booleans can be specified as
+        ’true’, ’false’, ’yes’,
+        or ’no’.</dd>
+    </dl>
+
+    <h2 id="examples">EXAMPLES</h2>
+
+    <p>The command:</p>
+
+    <pre><code>ditto src_directory dst_directory</code></pre>
+
+    <p>copies the contents of
+      src_directory into dst_directory, creating dst_directory if
+      it does not already exist.</p>
+
+    <p>The command:</p>
+
+    <pre><code>ditto src_directory dir/dst_directory</code></pre>
+
+    <p>copies the contents of
+      src_directory into dir/dst_directory, creating dir and
+      dst_directory if they don’t already exist.</p>
+
+    <p>The command:</p>
+
+    <pre><code>ditto src-1 … src-n dst_directory</code></pre>
+
+    <p>copies the contents of all of
+      the src directories into dst_directory, creating
+      dst_directory if it does not already exist.</p>
+
+    <p>The command:</p>
+
+    <pre><code>ditto --arch ppc universal_file thin_file</code></pre>
+
+    <p>copies the contents of
+      universal_file into thin_file, thinning executable code to
+      ppc-only on the fly.</p>
+
+    <p>The command:</p>
+
+    <pre><code>ditto -c --norsrc Scripts -|ssh rhost ditto -x --norsrc - ./Scripts</code></pre>
+
+    <p>copies Scripts, skipping any
+      resources or meta-data, to rhost.</p>
+
+    <p>The command:</p>
+
+    <pre><code>pax -f archive.cpio</code></pre>
+
+    <p>will list the files in the CPIO
+      archive archive.cpio.</p>
+
+    <p>The command:</p>
+
+    <pre><code>pax -zf archive.cpgz</code></pre>
+
+    <p>will list the files in the
+      compressed CPIO archive archive.cpgz.</p>
+
+    <p>The command:</p>
+
+    <pre><code>ditto -c -k --sequesterRsrc --keepParent src_directory archive.zip</code></pre>
+
+    <p>will create a PKZip archive
+      similarly to the Finder’s Compress functionality.</p>
+
+    <p>The command:</p>
+
+    <pre><code>unzip -l archive.zip</code></pre>
+
+    <p>will list the files in the PKZip
+      archive archive.zip.</p>
+
+    <h2 id="errors">ERRORS</h2>
+
+    <p><code>ditto</code> returns 0 if
+      everything is copied, otherwise non-zero. <code>ditto</code>
+      almost never gives up, preferring to report errors along the
+      way. Diagnostic messages will be printed to standard
+      error.</p>
+
+    <h3>ENVIRONMENT</h3>
+
+    <dl>
+      <dt><code>DITTOABORT</code></dt>
+      <dd>If the
+        environment variable <code>DITTOABORT</code> is set, <code>ditto</code> will
+        call <code>abort</code>(3) if it encounters a fatal error.</dd>
+      <dt><code>DITTONORSRC</code></dt>
+      <dd>If <code>DITTONORSRC</code>
+        is set but <code>−−rsrc</code>,
+        <code>−−extattr</code>, and <code>−−acl</code>
+        are not specified, <code>ditto</code> will not preserve those
+        additional types of metadata.</dd>
+      <dt><code>DITTOKEEPBINARIESPATTERN</code></dt>
+      <dd>If the
+        environment variable <code>DITTOKEEPBINARIESPATTERN</code> is set,
+        <code>ditto</code> will keep files that match the regular
+        expression. This matches the behavior of
+        <code>−−keepBinariesPattern</code></dd>
+      <dt><code>DITTOKEEPBINARIESDIR</code></dt>
+      <dd>By default,
+        <code>ditto</code> will keep the original file adjacent to its
+        replacement. If the environment variable
+        <code>DITTOKEEPBINARIESDIR</code> is set, <code>ditto</code> will move kept
+        files into the specified directory path. The files will be
+        renamed to a random UUID and the directory will be kept
+        balanced.</dd>
+      <dt><code>DITTO_TEST_OPTIONS</code></dt>
+      <dd>If
+        <code>DITTO_TEST_OPTIONS</code> is set to 1 <code>ditto</code> will print the
+        parameters to be passed to BOMCopierCopyWithOptions for each
+        source and destination pair, including the contents of the
+        options dictionary. It will then exit without performing any
+        copy operation.</dd>
+    </dl>
+
+    <h2 id="bugs">BUGS</h2>
+
+    <p><code>ditto</code> doesn’t copy
+      directories into directories in the same way as
+      <code>cp</code>(1). In particular,</p>
+
+    <pre><code>ditto foo bar</code></pre>
+
+    <p>will copy the contents of foo
+      into bar, whereas</p>
+
+    <pre><code>cp -r foo bar</code></pre>
+
+    <p>copies foo itself into bar.
+      Though this is not a bug, some may consider this bug-like
+      behavior. <code>−−keepParent</code> for non-archive
+      copies will eventually alleviate this problem.</p>
+
+    <h3>SEE ALSO</h3>
+
+    <p><code>bom</code>(5), <code>lsbom</code>(8),
+      <code>mkbom</code>(8), <code>cpio</code>(1), <code>zip</code>(1),
+      <code>gzip</code>(1), <code>bzip2</code>(1), <code>tar</code>(1).</p>
+
+    <h2 id="history">HISTORY</h2>
+
+    <p><code>ditto</code> first appeared in
+      Mac OS X (10.0) macOS 14.0 March 29, 2023
+      <i>DITTO</i>(1)</p>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+{{ define "main" }}
+<article class="h-entry post">
+  <section class="e-content post-body">
+    {{ .Content }}
+  </section>
+
+  <div class="archive_categories">
+    <div class="categories-content">
+      {{ range .Params.categories }}
+        <p class="categories-item categories-item--{{ .|lower }}"><a href="/categories/{{ . }}">{{ .|lower }}</a></p>
+      {{ end }}
+    </div>
+  </div>
+
+  {{ if .Site.Params.include_conversation }}
+    <script src="https://micro.blog/conversation.js?url={{ .Permalink }}"></script>
+  {{ end }}
+</article>
+{{ end }}

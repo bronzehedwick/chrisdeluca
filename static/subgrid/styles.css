@@ -1,0 +1,101 @@
+:root {
+  --system-font: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+body {
+  font-family: var(--system-font);
+  max-inline-size: 1440px;
+  margin-inline: auto;
+  padding-inline: 2em;
+  font-size: clamp(0.25rem, 3vw, 1rem);
+  background-color: oldlace;
+  background-image: url(./pattern.svg);
+}
+
+img {
+  inline-size: 100%;
+  block-size: 250px;
+  object-fit: cover;
+}
+
+pre {
+  padding: 2em;
+  border-radius: 4px;
+  box-shadow: 2px 2px 5px lightgray;
+  background-color: rgba(255 255 255 / 75%);
+}
+
+section + section {
+  margin-block-start: 5em;
+}
+
+ins,
+del {
+  text-decoration: none;
+}
+
+del {
+  color: #d51d1d;
+}
+
+ins::before,
+del::before {
+  margin-inline-start: -2ch;
+}
+
+del::before {
+  content: "- ";
+}
+
+ins {
+  color: #067d06;
+}
+
+ins::before {
+  content: "+ ";
+}
+
+.large-headline {
+  font-size: 2em;
+}
+
+.grid {
+  display: grid;
+  gap: 1em;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(min(350px, 100%), 1fr)
+  );
+}
+
+.card {
+  display: grid;
+  gap: 1em;
+  overflow: clip;
+  padding-block-end: 1em;
+  border-radius: 4px;
+  box-shadow: 3px 3px 5px rgba(0 0 0 / 45%);
+  background-color: white;
+}
+
+.card > :where(h3, p) {
+  margin-inline: 1rem;
+  margin-block: 0;
+  padding: 0;
+}
+
+:where(#section-subgrid) .card {
+  grid-template-rows: subgrid;
+  grid-row: span 4;
+}
+
+.card-footer {
+  text-align: end;
+}
+
+.code-layout {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  gap: 1em;
+}

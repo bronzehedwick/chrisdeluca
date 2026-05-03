@@ -1,0 +1,20 @@
+{{ $list := (where .Site.Pages "Type" "post") }}<br>
+<section class="h-feed">
+  {{ range $list }}
+  {{ if .Title }}
+  {{ if not (in .Params.Categories "letterboxd") }}
+
+    <div class="h-entry">
+      <a href="{{ .Permalink }}" class="u-url">
+        <time class="dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05-0700" }}">
+          {{ .Date.Format "2006-01-02" }}
+        </time>
+      </a>:
+      {{ if .Title }}<strong class="p-name">{{ .Title }}</strong>{{ end }}
+      <span class="p-summary">{{ .Summary | truncate 100 }}</span>
+    </div>
+
+  {{ end }}
+  {{ end }}
+  {{ end }}
+</section>

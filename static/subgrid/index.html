@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subgrid ⚡️🧠</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <header>
+      <h1>Subgrid: A Warp Speed Primer</h1>
+    </header>
+    <main>
+      <section id="section-grid">
+        <h2><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Basic_concepts_of_grid_layout">Grid</a></h2>
+
+        <p>The grid of cards are aligned and responsive, but the card innards are not vertically aligned.</p>
+
+        <div class="code-layout">
+<pre><code>&lt;div class=&quot;grid&quot;&gt;
+  &lt;div class=&quot;card&quot;&gt;&lt;!-- &hellip; --&gt;&lt;/div&gt;
+  &lt;div class=&quot;card&quot;&gt;&lt;!-- &hellip; --&gt;&lt;/div&gt;
+  &lt;div class=&quot;card&quot;&gt;&lt;!-- &hellip; --&gt;&lt;/div&gt;
+  &lt;!-- &hellip; --&gt;
+&lt;/div&gt;</code></pre>
+
+<pre><code>.grid {
+  display: grid;
+  gap: 1em;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(min(350px, 100%), 1fr)
+  );
+}</code></pre>
+
+<pre><code>
+.card {
+  display: grid;
+  gap: 1em;
+}
+</code></pre>
+        </div>
+
+        <div class="grid">
+          <div class="card">
+            <img class="card-image" src="https://www.chrisdeluca.me/uploads/2024/rocco.jpeg" width="600" height="450" alt="Rocco the cat laying down">
+            <h3 class="card-headline">Update: Rocco is sleepy, wants nap</h3>
+            <p class="card-description">Rocco the cat was seen yesterday snoring on the floor, after gorging himself on prescription wet food. Sources say…</p>
+            <p class="card-footer"><a class="card-link" href="https://example.com">Full article</a></p>
+          </div>
+
+          <div class="card">
+            <img class="card-image" src="https://www.chrisdeluca.me/uploads/2024/buildings.jpeg" width="600" height="450" alt="City buildings from above">
+            <h3 class="card-headline large-headline">Buildings: They Exist</h3>
+            <p class="card-description">New York City contains buildings, at least according to a new report by the <em>Center for Urban Explanation</em>. A spokeswoman for the project released a statement Tuesday, outlining their findings. "There are buildings here," she said, "and we have the data to prove it."</p>
+            <p class="card-footer"><a class="card-link" href="https://example.com">Full article</a></p>
+          </div>
+
+          <div class="card">
+            <img class="card-image" src="https://www.chrisdeluca.me/uploads/2024/circuit.jpeg" width="600" height="450" alt="Auto-generated description: A green circuit board with various electronic components, including a USB port, resistors, and small buttons, is lying on a light wooden surface.">
+            <h3 class="card-headline">"No more nerd shit!" Screams your dad</h3>
+            <p class="card-description">Local father, yours, was seen yelling about geek culture this morning, while wearing boxers on the back patio, according to eye witness reports from your mom.</p>
+            <p class="card-footer"><a class="card-link" href="https://example.com">Full article</a></p>
+          </div>
+
+          <div class="card">
+            <img class="card-image" src="https://www.chrisdeluca.me/uploads/2024/improv.jpeg" width="600" height="392" alt="A group of god damn improvisors">
+            <h3 class="card-headline large-headline">Local aging millennials keep doing improv 🤷</h3>
+            <p class="card-description">"I don't get it," said everyone.</p>
+            <p class="card-footer"><a class="card-link" href="https://example.com">Full article</a></p>
+          </div>
+
+          <div class="card">
+            <img class="card-image" src="https://www.chrisdeluca.me/uploads/2024/files.jpeg" width="600" height="591" alt="Auto-generated description: Two tall, black metal filing cabinets with multiple drawers are positioned side by side on a hardwood floor.">
+            <h3 class="card-headline">7 Mind Blowing Tricks to Never Pay your Back Taxes</h3>
+            <p class="card-description">Taxes, everybody owes them, nobody pays them. Yet what if the IRS comes knocking for an audit? That's a sticky situation! With these useful organization tips, you'll be evading your taxes with the best of them.</p>
+            <p class="card-footer"><a class="card-link" href="https://example.com">Full article</a></p>
+          </div>
+
+          <div class="card">
+            <img class="card-image" src="https://www.chrisdeluca.me/uploads/2024/prom.jpeg" width="600" height="433" alt="Auto-generated description: A person with long hair, dressed in formal attire, stands next to a bouquet of flowers and pink balloons against a green background.">
+            <h3 class="card-headline">Throwback Thursday uncovers dark secret</h3>
+            <p class="card-description">Local bald man Chris DeLuca, in shocking discovery, was revealed Saturday to have once had long hair, according to embarrassing reports from his childhood friends.</p>
+            <p class="card-footer"><a class="card-link" href="https://example.com">Full article</a></p>
+          </div>
+
+          <div class="card">
+            <img class="card-image" src="https://www.chrisdeluca.me/uploads/2024/roadkill.jpeg" width="600" height="450" alt="A sign in the desert with a vulture saying 'Roadkill: you kill it, we grill it'">
+            <h3 class="card-headline">Roadkill restaurant attracts buzzards</h3>
+            <p class="card-description">A Texas restaurant specializing in grilling roadkill is regularly swarmed by carrion birds, a new study finds.</p>
+            <p class="card-footer"><a class="card-link" href="https://example.com">Full article</a></p>
+          </div>
+
+          <div class="card">
+            <img class="card-image" src="https://www.chrisdeluca.me/uploads/2024/eyes.png" width="600" height="600" alt="Cartoon bloodshot eyes">
+            <h3 class="card-headline">Cartoonist draws close up of scared, mustached face</h3>
+            <p class="card-description">In shocking news, a local cartoonist has draw a mustachioed man, with blood shot eyes and a terrified expression. Art critics around the world have weighed in, speculating on the intent of the piece. "I just can't believe it, honestly," said the ghost of Andy Warhol. "Will the art world ever be the same again?" His spectral form mused.</p>
+            <p class="card-footer"><a class="card-link" href="https://example.com">Full article</a></p>
+          </div>
+
+          <div class="card">
+            <img class="card-image" src="https://www.chrisdeluca.me/uploads/2024/canyon.jpeg" width="600" height="450" alt="Auto-generated description: A vast and rugged canyon landscape bathed in sunlight and shadows stretches into the distance.">
+            <h3 class="card-headline">The Grand Canyon Pretty Cool, says Teen</h3>
+            <p class="card-description">A local teenager has professed that the Grand Canyon is good enough to look at. Youth obsessed parents breath sigh of relief, plan party.</p>
+            <p class="card-footer"><a class="card-link" href="https://example.com">Full article</a></p>
+          </div>
+        </div>
+
+      </section>
+
+      <section id="section-subgrid">
+        <h2><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Subgrid">Subgrid</a></h2>
+        <p>Everything lines up.</p>
+
+        <div class="code-layout">
+<pre><code>&lt;div class=&quot;grid&quot;&gt;
+  &lt;div class=&quot;card&quot;&gt;&lt;!-- &hellip; --&gt;&lt;/div&gt;
+  &lt;div class=&quot;card&quot;&gt;&lt;!-- &hellip; --&gt;&lt;/div&gt;
+  &lt;div class=&quot;card&quot;&gt;&lt;!-- &hellip; --&gt;&lt;/div&gt;
+  &lt;!-- &hellip; --&gt;
+&lt;/div&gt;</code></pre>
+
+<pre><code>.grid {
+  display: grid;
+  gap: 1em;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(min(350px, 100%), 1fr)
+  );
+}</code></pre>
+
+<pre><code>
+.card {
+  display: grid;
+  <ins>grid-template-rows: subgrid;</ins>
+  <ins>grid-row: span 4;</ins>
+  <del>gap: 1em;</del>
+}
+</code></pre>
+        </div>
+
+        <div class="grid">
+          <div class="card">
+            <img class="card-image" src="https://www.chrisdeluca.me/uploads/2024/rocco.jpeg" width="600" height="450" alt="Rocco the cat laying down">
+            <h3 class="card-headline">Update: Rocco is sleepy, wants nap</h3>
+            <p class="card-description">Rocco the cat was seen yesterday snoring on the floor, after gorging himself on prescription wet food. Sources say…</p>
+            <p class="card-footer"><a class="card-link" href="https://example.com">Full article</a></p>
+          </div>
+
+          <div class="card">
+            <img class="card-image" src="https://www.chrisdeluca.me/uploads/2024/buildings.jpeg" width="600" height="450" alt="City buildings from above">
+            <h3 class="card-headline large-headline">Buildings: They Exist</h3>
+            <p class="card-description">New York City contains buildings, at least according to a new report by the <em>Center for Urban Explanation</em>. A spokeswoman for the project released a statement Tuesday, outlining their findings. "There are buildings here," she said, "and we have the data to prove it."</p>
+            <p class="card-footer"><a class="card-link" href="https://example.com">Full article</a></p>
+          </div>
+
+          <div class="card">
+            <img class="card-image" src="https://www.chrisdeluca.me/uploads/2024/circuit.jpeg" width="600" height="450" alt="Auto-generated description: A green circuit board with various electronic components, including a USB port, resistors, and small buttons, is lying on a light wooden surface.">
+            <h3 class="card-headline">"No more nerd shit!" Screams your dad</h3>
+            <p class="card-description">Local father, yours, was seen yelling about geek culture this morning, while wearing boxers on the back patio, according to eye witness reports from your mom.</p>
+            <p class="card-footer"><a class="card-link" href="https://example.com">Full article</a></p>
+          </div>
+
+          <div class="card">
+            <img class="card-image" src="https://www.chrisdeluca.me/uploads/2024/improv.jpeg" width="600" height="392" alt="A group of god damn improvisors">
+            <h3 class="card-headline large-headline">Local aging millennials keep doing improv 🤷</h3>
+            <p class="card-description">"I don't get it," said everyone.</p>
+            <p class="card-footer"><a class="card-link" href="https://example.com">Full article</a></p>
+          </div>
+
+          <div class="card">
+            <img class="card-image" src="https://www.chrisdeluca.me/uploads/2024/files.jpeg" width="600" height="591" alt="Auto-generated description: Two tall, black metal filing cabinets with multiple drawers are positioned side by side on a hardwood floor.">
+            <h3 class="card-headline">7 Mind Blowing Tricks to Never Pay your Back Taxes</h3>
+            <p class="card-description">Taxes, everybody owes them, nobody pays them. Yet what if the IRS comes knocking for an audit? That's a sticky situation! With these useful organization tips, you'll be evading your taxes with the best of them.</p>
+            <p class="card-footer"><a class="card-link" href="https://example.com">Full article</a></p>
+          </div>
+
+          <div class="card">
+            <img class="card-image" src="https://www.chrisdeluca.me/uploads/2024/prom.jpeg" width="600" height="433" alt="Auto-generated description: A person with long hair, dressed in formal attire, stands next to a bouquet of flowers and pink balloons against a green background.">
+            <h3 class="card-headline">Throwback Thursday uncovers dark secret</h3>
+            <p class="card-description">Local bald man Chris DeLuca, in shocking discovery, was revealed Saturday to have once had long hair, according to embarrassing reports from his childhood friends.</p>
+            <p class="card-footer"><a class="card-link" href="https://example.com">Full article</a></p>
+          </div>
+
+          <div class="card">
+            <img class="card-image" src="https://www.chrisdeluca.me/uploads/2024/roadkill.jpeg" width="600" height="450" alt="A sign in the desert with a vulture saying 'Roadkill: you kill it, we grill it'">
+            <h3 class="card-headline">Roadkill restaurant attracts buzzards</h3>
+            <p class="card-description">A Texas restaurant specializing in grilling roadkill is regularly swarmed by carrion birds, a new study finds.</p>
+            <p class="card-footer"><a class="card-link" href="https://example.com">Full article</a></p>
+          </div>
+
+          <div class="card">
+            <img class="card-image" src="https://www.chrisdeluca.me/uploads/2024/eyes.png" width="600" height="600" alt="Cartoon bloodshot eyes">
+            <h3 class="card-headline">Cartoonist draws close up of scared, mustached face</h3>
+            <p class="card-description">In shocking news, a local cartoonist has draw a mustachioed man, with blood shot eyes and a terrified expression. Art critics around the world have weighed in, speculating on the intent of the piece. "I just can't believe it, honestly," said the ghost of Andy Warhol. "Will the art world ever be the same again?" His spectral form mused.</p>
+            <p class="card-footer"><a class="card-link" href="https://example.com">Full article</a></p>
+          </div>
+
+          <div class="card">
+            <img class="card-image" src="https://www.chrisdeluca.me/uploads/2024/canyon.jpeg" width="600" height="450" alt="Auto-generated description: A vast and rugged canyon landscape bathed in sunlight and shadows stretches into the distance.">
+            <h3 class="card-headline">The Grand Canyon Pretty Cool, says Teen</h3>
+            <p class="card-description">A local teenager has professed that the Grand Canyon is good enough to look at. Youth obsessed parents breath sigh of relief, plan party.</p>
+            <p class="card-footer"><a class="card-link" href="https://example.com">Full article</a></p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

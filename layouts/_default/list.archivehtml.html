@@ -1,0 +1,103 @@
+{{ define "main" }}
+
+  {{ $cats := (.Site.GetPage "taxonomyTerm" "categories").Pages }}
+  {{ if gt (len $cats) 0 }}
+	<div class="archive_categories">
+	  <h2>Categories</h2>
+	  <p>
+		{{ range $i, $cat := $cats }}
+		  <a href="{{ $cat.Permalink }}">{{ $cat.Title }}</a>{{ if lt (add $i 1) (len $cats) }}, {{ end }}
+		{{ end }}
+	  </p>
+	</div>
+  {{ end }}
+
+  {{ $currentYear := now.Format "2006" }}
+  <div class="archive_years">
+	<select id="archive_popup">
+		<option value="{{ $currentYear }}">{{ $currentYear }}</option>
+	</select>
+  </div>
+
+  {{ $posts := where .Site.Pages "Type" "post" }}
+  {{ $.Scratch.Set "currentMonth" "" }}
+  <div class="h-feed archive_posts">
+	{{ range $posts }}
+	  {{ $thisMonth := .Date.Format "January 2006" }}
+	  {{ if ne $thisMonth ($.Scratch.Get "currentMonth") }}
+		{{/* give each month header a marker so JS can hide it */}}
+		<h2 data-month-year="{{ .Date.Format "2006-01" }}">{{ $thisMonth }}</h2>
+		{{ $.Scratch.Set "currentMonth" $thisMonth }}
+	  {{ end }}
+	  {{ $year := .Date.Format "2006" }}
+	  <p class="h-entry" data-year="{{ $year }}">
+		<a href="{{ .Permalink }}" class="u-url">
+		  <time class="dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05-0700" }}">
+			{{ .Date.Format "2006-01-02" }}
+		  </time>
+		</a>:
+		{{ if .Title }}
+		  <span class="p-name"><b>{{ .Title }}</b></span>
+		{{ end }}
+		<span class="p-summary">{{ .Summary | plainify | htmlUnescape | truncate 100 }}</span>
+		{{ if and .Site.Params.archive_months_photos .Params.photos }}
+			{{ $first := index .Params.photos 0 }}
+			<a href="{{ .Permalink }}"><img src="{{ $first }}" alt="photo thumbnail" class="p-photo" width="50" height="50"></a>
+		{{ end }}
+	  </p>
+	{{ end }}
+  </div>
+
+  <script>
+	(function() {
+	  const years = {{ .Site.Params.years | jsonify | safeJS }};
+	  const select = document.getElementById('archive_popup');
+	  const defaultYear = new Date().getFullYear().toString();
+
+	  // populate options
+	  years.forEach(y => {
+		  if (y != defaultYear) {
+		  	const opt = document.createElement('option');
+		  	opt.value = y;
+		  	opt.textContent = y;
+		  	select.appendChild(opt);
+		  }
+	  });
+
+	  // load saved or default to current year
+	  const saved = localStorage.getItem('archive_year');
+	  select.value = saved || years.includes(+defaultYear) ? defaultYear : years[0];
+
+	  function filterPosts() {
+		  const sel = select.value;
+		  // show/hide each entry
+		  document.querySelectorAll('.h-feed .h-entry').forEach(el => {
+		    el.style.display = (el.getAttribute('data-year') === sel) ? '' : 'none';
+		  });
+		
+	// show/hide each month header based on whether any following .h-entry is visible
+		  document.querySelectorAll('.h-feed h2[data-month-year]').forEach(header => {
+		    let next = header.nextElementSibling;
+		    let keep = false;
+		    while (next && !next.matches('h2[data-month-year]')) {
+			    if (next.matches('.h-entry') && (next.style.display != 'none')) {
+			      keep = true; break;
+			    }
+			    next = next.nextElementSibling;
+		    }
+		    header.style.display = keep ? '' : 'none';
+		  });
+	  }
+
+	  // on change, save and re-filter
+	  select.addEventListener('change', () => {
+		  localStorage.setItem('archive_year', select.value);
+		  filterPosts();
+	  });
+
+	  // initial filter
+	  filterPosts();
+	})();
+  </script>
+
+{{ end }}

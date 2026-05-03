@@ -1,0 +1,20 @@
+<article class="post-summary">
+  {{ if .Title }}
+    {{ $letterbox_url := split .Title "," }}
+    <header>
+      <h2><a class="u-url" href="{{ if in .Params.categories "letterboxd" }}https://letterboxd.com/bronzehedwick/film/{{ replace ((index $letterbox_url 0)|lower|urlize) "." "" }}{{ else }}{{ .Permalink }}{{ end }}">{{ .Title }}</a></h2>
+    </header>
+    {{ if in .Params.categories "letterboxd" }}
+      {{ .Content }}
+    {{ else }}
+      <p>{{ .Content|truncate 200 }} <a href="{{ .Permalink }}" class="u-url" title="Permalink to post">Read more</a></p>
+    {{ end }}
+  {{ else }}
+    {{ .Content }}
+  {{ end }}
+  <a href="{{ .Permalink }}" class="u-url" title="Permalink to post">
+    <footer class="dates">
+      <time datetime="{{ .Date.Format "2006-01-02 15:04:05 -0700" }}" class="dt-published"><span class="dates-arrow">→ </span>{{ .Date | time.Format "3:04 PM" }}, {{ .Date | time.Format ":date_medium" }}</time>
+    </footer>
+  </a>
+</article>

@@ -1,0 +1,23 @@
+{{ if or .IsHome .Site.Params.paginate_categories }}
+  {{ $paginator := .Paginate (where .Pages.ByDate.Reverse "Type" "post") }}
+  {{ $list := $paginator.Pages }}
+  {{ if .Site.Params.paginate_categories }}
+    <h1 class="category-header">{{ .Title }} category</h1>
+  {{ end }}
+  {{ range $list  }}
+    {{ partial "post-item.html" . }}
+  {{ end }}
+{{ else }}
+  {{ $list := where .Pages.ByDate.Reverse "Type" "post" }}
+    {{ range $list  }}
+      {{ partial "post-item.html" . }}
+    {{ end }}
+{{ end }}
+
+{{ if .IsHome }}
+  {{ if .Site.Params.paginate_home }}
+    {{ partial "pagination" . }}
+  {{ end }}
+{{ else if .Site.Params.paginate_categories }}
+  {{ partial "pagination" . }}
+{{ end }}

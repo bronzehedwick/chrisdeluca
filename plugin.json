@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0",
+  "title": "Chris D",
+  "description": "Chris DeLuca's blog theme.",
+  "fields": [
+    {
+      "field": "params.subtitle",
+      "label": "Subtitle",
+      "type": "string"
+    }
+  ]
+}

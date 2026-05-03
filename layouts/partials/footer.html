@@ -1,0 +1,19 @@
+<footer id="footer">
+
+  <nav>
+    <ul>
+      <li><a href="/feed.xml">RSS</a></li>
+      <li><a href="/feed.json">JSON Feed</a></li>
+      <li><a href="https://micro.blog/{{ .Site.Author.username }}" rel="me">Micro.blog</a></li>
+      <li><a class="u-email" href="mailto:contact@chrisdeluca.me" rel="me">Email</a></li>
+    </ul>
+  </nav>
+
+  <br>
+
+  <small>
+    <p>&#169; {{ .Site.Author.name }} 2009–{{ now.Format "2006" }}</p>
+    <p>Unless otherwise noted, text content is available under the <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0</a> license.</p>
+    <p>Code presented on, and used to create, this website is available under the <a href="https://opensource.org/licenses/MIT">MIT</a> license.</p>
+</small>
+</footer>
