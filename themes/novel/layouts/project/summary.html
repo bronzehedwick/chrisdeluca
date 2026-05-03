@@ -1,8 +1,0 @@
-<dt>
-  {{ if not .Params.archived }}<a href="{{ .Params.project_url }}">{{ end }}
-    {{ if .Params.draft }}<mark>Draft</mark>{{ end }}
-    {{ title .Title }}
-  {{ if not .Params.archived }}</a>{{ end }}
-  {{ if .Params.archived }}<span class="tag">Archived</span>{{ end }}
-</dt>
-<dd>{{ .Summary|plainify|htmlUnescape }}</dd>

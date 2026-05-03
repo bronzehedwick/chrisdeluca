@@ -1,3 +1,0 @@
-Title,Date
-{{ range .Data.Pages }}{{ .Title }},{{ .Date }}
-{{ end }}
