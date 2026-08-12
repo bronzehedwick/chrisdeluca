@@ -17,4 +17,9 @@ node_modules
 .DS_Store
 .tern-port
 credentials.json
+
+# Ignore data
 content
+data
+layouts/shortcodes/bookgoals.html
+layouts/shortcodes/bookshelf.html
