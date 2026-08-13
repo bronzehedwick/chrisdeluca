@@ -635,6 +635,14 @@ footer #wrapper {
 
 /* Form */
 
+input {
+  font-size: inhert;
+}
+
+label {
+  font-weight: 600;
+}
+
 #input_search.field {
   inline-size: 30ch;
   block-size: 2em;
