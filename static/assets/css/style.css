@@ -636,7 +636,7 @@ footer #wrapper {
 /* Form */
 
 input {
-  font-size: inhert;
+  font-size: inherit;
 }
 
 label {
