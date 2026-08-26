@@ -365,8 +365,8 @@ blockquote {
   position: relative;
   padding-left: 1em;
   opacity: 0.8;
-  font-style: italic;
   margin-block-start: 1em;
+  margin-inline-start: 6ch;
 }
 
 blockquote::before {
@@ -377,6 +377,11 @@ blockquote::before {
   font-size: 5em;
   line-height: 0;
   color: var(--accent-color);
+}
+
+blockquote p:has(cite) {
+  text-indent: 0;
+  margin-block-start: 0.5em;
 }
 
 hr {
