@@ -468,12 +468,12 @@ img {
 }
 
 .align-left {
-  float: left;
+  float: inline-start;
   margin-inline-end: 2ch;
 }
 
 .align-right {
-  float: right;
+  float: inline-end;
   margin-inline-start: 2ch;
 }
 
@@ -524,7 +524,7 @@ article, section {
   font-style: normal;
 }
 
-.post-body img {
+:where(.post-body) img {
   display: block;
   margin-inline: auto;
 }
