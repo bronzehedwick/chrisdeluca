@@ -2,7 +2,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta content="{{ .Site.Author.name }}" name="author">
+  <meta content="{{ .Site.Params.author.name }}" name="author">
   <meta name="referrer" content="no-referrer-when-downgrade">
   {{ template "_internal/schema.html" . }}
   {{ template "_internal/opengraph.html" . }}
@@ -20,7 +20,7 @@
   <link rel="stylesheet" href="{{ "custom.css" | relURL }}?{{ .Site.Params.theme_seconds }}">
   <link rel="pgpkey" href="/uploads/2023/chris-deluca-pgp.pub.asc">
 
-  <link rel="shortcut icon" href="https://micro.blog/{{ .Site.Author.username }}/favicon.png" type="image/x-icon" />
+  <link rel="shortcut icon" href="https://micro.blog/{{ .Site.Params.author.username }}/favicon.png" type="image/x-icon" />
 
   {{ $site_title := .Site.Title }}
   {{ with .OutputFormats.Get "RSS" }}
@@ -30,7 +30,7 @@
     <link rel="EditURI" type="application/rsd+xml" href="{{ "rsd.xml" | absURL }}" />
   {{ end -}}
 
-  <link rel="me" href="https://micro.blog/{{ .Site.Author.username }}" />
+  <link rel="me" href="https://micro.blog/{{ .Site.Params.author.username }}" />
   {{ with .Site.Params.twitter_username }}
     <link rel="me" href="https://twitter.com/{{ . }}" />
   {{ end }}

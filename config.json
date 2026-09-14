@@ -1,6 +1,14 @@
 {
   "paginate": 25,
+  "pagination": {
+    "pagerSize": 25
+  },
   "rssLimit": 25,
+  "services": {
+    "rss": {
+      "limit": 25
+    }
+  },
   "taxonomies": {
     "category": "categories"
   },
@@ -12,5 +20,6 @@
     }
   },
   "enableRobotsTXT": true,
-  "pluralizeListTitles": false
+  "pluralizeListTitles": false,
+  "capitalizeListTitles": false
 }

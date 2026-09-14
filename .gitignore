@@ -23,3 +23,6 @@ content
 data
 layouts/shortcodes/bookgoals.html
 layouts/shortcodes/bookshelf.html
+
+# Local dev config overlay (hugo --config config.json,dev.json)
+dev.json
