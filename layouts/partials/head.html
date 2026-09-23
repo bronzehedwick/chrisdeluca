@@ -16,8 +16,8 @@
     {{- end -}}
   </title>
 
-  <link href="{{ "assets/css/style.css" | relURL }}?{{ .Site.Params.theme_seconds }}" rel="stylesheet">
-  <link rel="stylesheet" href="{{ "custom.css" | relURL }}?{{ .Site.Params.theme_seconds }}">
+  {{ $css_hash := resources.Get "css/style.css" | md5 }}
+  <link href="{{ "assets/css/style.css" | relURL }}?{{ $css_hash }}" rel="stylesheet">
   <link rel="pgpkey" href="/uploads/2023/chris-deluca-pgp.pub.asc">
 
   <link rel="shortcut icon" href="https://micro.blog/{{ .Site.Params.author.username }}/favicon.png" type="image/x-icon" />
