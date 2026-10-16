@@ -21,5 +21,6 @@
   },
   "enableRobotsTXT": true,
   "pluralizeListTitles": false,
-  "capitalizeListTitles": false
+  "capitalizeListTitles": false,
+  "ignoreLogs": ["warning-goldmark-raw-html"]
 }

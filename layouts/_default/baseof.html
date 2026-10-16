@@ -109,7 +109,7 @@
     <div class="recommendations">
       <h2>Recommendations</h2>
       <ul>
-        {{ range .Site.Data.blogrolls.recommendations }}
+        {{ range hugo.Data.blogrolls.recommendations }}
           <li>
             <p><a href="{{ .url }}">{{ .name }}</a></p>
             <details>
