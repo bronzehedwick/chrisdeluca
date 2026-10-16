@@ -294,6 +294,16 @@ sup {
   flex: 1 0 auto;
 }
 
+.avatar-wrapper.normal #avatar {
+  width: 32px;
+  height: 32px;
+}
+
+.profile .u-photo {
+  width: 80px;
+  height: 80px;
+}
+
 .profile h1 + p {
   color: var(--secondary-text-color);
   margin-block-start: 0;
