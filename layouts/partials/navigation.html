@@ -6,7 +6,7 @@
   </a>
   {{ if or (not .Title) .IsHome }}</h1>{{ end }}
 
-  <nav class="main-nav"><ul>
+  <nav aria-label="Main navigation" class="main-nav"><ul>
     {{ range .Site.Menus.main }}
       {{ if .Page.Params.redirect_url }}
         <li><a href="{{ .Page.Params.redirect_url }}"{{ if eq .Page.Params.redirect_url $.Page.RelPermalink }} aria-current="page"{{ end }}>{{ .Name }}</a></li>
