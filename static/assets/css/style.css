@@ -125,7 +125,7 @@ body {
       'header header'
       'main sidebar'
       'footer footer';
-    grid-template-columns: minmax(auto, 60ch) minmax(auto, 20ch);
+    grid-template-columns: minmax(auto, 60ch) 22ch;
   }
 }
 
