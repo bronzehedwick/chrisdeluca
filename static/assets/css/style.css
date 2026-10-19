@@ -381,7 +381,7 @@ article * + img {
   margin-block-start: 1em;
 }
 
-b, strong {
+b, strong, strong a, b a {
   font-weight: 600;
 }
 
