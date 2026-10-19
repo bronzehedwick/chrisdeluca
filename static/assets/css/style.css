@@ -719,7 +719,7 @@ video {
 .page-number {
   display: inline-block;
   padding: 2px 0;
-  min-inlnie-size: 6.25em;
+  min-inline-size: 6.25em;
 }
 
 .newer-posts {
