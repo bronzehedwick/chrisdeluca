@@ -1,0 +1,15 @@
+/* Search trigger styling */
+.main-nav li a[data-pagefind-search] {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25em 0;
+}
+
+.main-nav li a[data-pagefind-search] svg {
+  opacity: 0.6;
+  transition: opacity 0.2s ease;
+}
+
+.main-nav li a[data-pagefind-search]:hover svg {
+  opacity: 1;
+}

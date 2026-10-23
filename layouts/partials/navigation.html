@@ -15,5 +15,6 @@
         <li><a href="{{ $menuURL | safeURL }}"{{ if eq $menuURL $.Page.RelPermalink }} aria-current="page"{{ end }}>{{ .Name }}</a></li>
       {{ end }}
     {{ end }}
+    <li><a href="#" aria-label="Search" data-pagefind-search><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="m19 19-4.3-4.3M11 19a8 8 0 1 0 0-16 8 8 0 0 0 0 16"/></svg></a></li>
   </ul></nav>
 </div>

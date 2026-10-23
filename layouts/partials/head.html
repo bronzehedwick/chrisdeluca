@@ -50,6 +50,9 @@
   {{ range .Site.Params.plugins_css }}
     <link rel="stylesheet" href="{{ . }}" />
   {{ end }}
+
+  <link rel="stylesheet" href="{{ "pagefind/pagefind-component-ui.css" | relURL }}">
+
   {{ range $filename := .Site.Params.plugins_html }}
     {{ partial $filename $ }}
   {{ end }}

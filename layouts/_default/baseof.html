@@ -125,5 +125,7 @@
   {{ range .Site.Params.plugins_js }}
     <script src="{{ . }}" defer></script>
   {{ end }}
+  <script type="module" src="{{ "pagefind/pagefind-component-ui.js" | relURL }}"></script>
+  <pagefind-modal></pagefind-modal>
 </body>
 </html>
