@@ -97,6 +97,7 @@ html {
 body {
   font-size: clamp(1.125em, 0.25rem + 2dvw, 1.5em);
   font-family: 'Fraunces', Georgia, serif;
+  font-variation-settings:  "WONK" 0;
   line-height: 1.6;
   color: var(--main-text-color);
   text-rendering: optimizeLegibility;
