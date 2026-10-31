@@ -563,7 +563,7 @@ article, section {
   margin-inline: auto;
 }
 
-.post-summary img {
+.post-summary:is(.category-letterboxd, .category-reading) img {
   max-block-size: 5rem;
   inline-size: auto;
 }
@@ -573,8 +573,8 @@ article, section {
   text-indent: 0;
 }
 
-.post-summary > img,
-.post-summary p:has(img) {
+.post-summary:is(.category-letterboxd, .category-reading) > img,
+.post-summary:is(.category-letterboxd, .category-reading) p:has(img) {
   float: left;
   margin-inline-end: 1ch;
   max-inline-size: 5rem;

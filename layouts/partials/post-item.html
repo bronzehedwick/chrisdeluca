@@ -1,4 +1,4 @@
-<article class="post-summary">
+<article class="post-summary{{ range .Params.categories }} category-{{ . }}{{ end }}">
   {{ if .Title }}
     {{ $letterbox_url := split .Title "," }}
     {{ $base_slug := (index $letterbox_url 0)|lower|urlize }}
